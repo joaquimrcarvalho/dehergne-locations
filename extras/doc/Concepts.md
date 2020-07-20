@@ -34,8 +34,7 @@ Os repositórios `Git` podem conter vários _ramos_ que correspondem a versões 
 
 O ramo `master` preserva a _versão de referência_ de todos os ficheiros produzidos pelas várias fases do processo. O ramo `master` alimenta uma base de dados de referência para a comunidade, e pode alimentar outras cópias que sejam criadas para comodidade e redundância.
 
-> Isso significa que é possível duplicar todo o projecto fazendo um clone unidirecional do ramo `master` e importando o conteúdo do ficheiro `.sql` mais recente (se for o mesmo tipo de sistema de base de dados usado no master), ou refazendo a importação das fontes e das identificações para uma base de dados alternativa.
-
+> Isso significa que é possível duplicar todo o projecto fazendo um clone unidirecional do ramo `master` e refazendo a importação das fontes e das identificações para uma base de dados alternativa.
 
 A gestão do ramo `master` cabe ao responsável do projecto.
 
@@ -64,7 +63,7 @@ Nos casos mais típicos as comunidades são uma localidade, uma paróquia, uma c
 
 No sentido mais geral a comunidade é um conjunto de pessoas e outras entidades que têm intereações frequentes entre si e por isso deixam nas _fontes históricas_ uma série de registos que podem ser correlacionados e estudados, reconstruindo as _histórias de vida_ e as _redes de relações_ das pessoas e entidades envolvidas.
 
-Um projeto elaborado com `Timelink` envolve a transcrição de fontes histórica em quantidade significativa, seguido do seu processamento para alimentar uma base de dados centrada nas pessoas, os seus atributos, as suas relações e as funções que assumem em diferentes actos ou acontecimentos.
+Um projeto elaborado com `Timelink` envolve a transcrição de fontes históricas em quantidades significativas, seguido do seu processamento para alimentar uma base de dados centrada nas pessoas, os seus atributos, as suas relações e as funções que assumem em diferentes fontes.
 
 ## Transcrição, tradução, importação e identificação
 
