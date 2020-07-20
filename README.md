@@ -1,6 +1,6 @@
 # Timelink source file repository
 
-    Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th centuries, collected by Joaquim Carvalho
+Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th centuries, by Joaquim Carvalho
 
 ## Source collections included in this repository
 
@@ -33,9 +33,3 @@ _Files in this repository are covered by the Creative Commons
 Attribution-NonCommmercial-ShareAlike 4.0 International_
 
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-## Structure of sources
-
-### the vip file
-
-vip.clia
