@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-proposop/china-prosop-sources/sources/tomas-pereira-obras.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-1 13:50:45" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-proposop/china-prosop-sources/sources/tomas-pereira-obras.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-20 16:23:55" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -37,9 +37,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="ihs-vips" NAME="lista" CLASS="act" ORDER="2" LEVEL="2" LINE="6">
+<GROUP ID="tomas-pereira-lista" NAME="lista" CLASS="act" ORDER="2" LEVEL="2" LINE="6">
     <ELEMENT NAME="line" CLASS="line"><core>6</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ihs-vips</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tomas-pereira-lista</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>lista</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>act</core></ELEMENT>
@@ -63,11 +63,11 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="jcp-tomas-pereira" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="7">
+<GROUP ID="tpo-tomas-pereira" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="7">
     <ELEMENT NAME="line" CLASS="line"><core>7</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>ihs-vips</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tomas-pereira-lista</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>3</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
@@ -88,19 +88,19 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="ihs-vips-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="7">
+<GROUP ID="tomas-pereira-lista-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="7">
     <ELEMENT NAME="line" CLASS="line"><core>7</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>4</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>jcp-tomas-pereira</core></ELEMENT>
-    <ELEMENT NAME="destination" CLASS="destination"><core>ihs-vips</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>ihs-vips-rela1</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>tpo-tomas-pereira</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>tomas-pereira-lista</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tomas-pereira-lista-rela1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>20200626</core></ELEMENT>
 </GROUP><CLASS NAME="attribute" SUPER="entity" TABLE="attributes" GROUP="ls">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -111,11 +111,11 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="jcp-tomas-pereira-att1-19" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="tpo-tomas-pereira-att1-21" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att1-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att1-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>5</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -126,18 +126,18 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[xúrìshēng]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att1-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att1-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att2-19" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="tpo-tomas-pereira-att2-21" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att2-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att2-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>6</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -148,18 +148,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16451101]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att2-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att2-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16451101]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att3-19" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="tpo-tomas-pereira-att3-21" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att3-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att3-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -170,18 +170,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17080000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att3-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att3-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17080000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att4-19" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="tpo-tomas-pereira-att4-21" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att4-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att4-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -192,18 +192,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16630925]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att4-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att4-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16630925]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att5-19" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="tpo-tomas-pereira-att5-21" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att5-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att5-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -212,18 +212,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[S. Martinho do Vale, Vila Nova de Famalicão]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att5-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att5-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att6-19" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="tpo-tomas-pereira-att6-21" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att6-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att6-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>10</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -236,18 +236,18 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[wikipedia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att6-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att6-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16660415]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att7-19" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="tpo-tomas-pereira-att7-21" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att7-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att7-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>11</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -256,18 +256,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[goa]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att7-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att7-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att8-19" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="tpo-tomas-pereira-att8-21" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att8-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att8-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>12</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -276,18 +276,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[goa]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att8-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att8-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att9-19" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="tpo-tomas-pereira-att9-21" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att9-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att9-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>13</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -298,18 +298,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16720000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att9-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att9-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16720000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att10-19" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="tpo-tomas-pereira-att10-21" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att10-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att10-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>14</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -320,18 +320,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[167200]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att10-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att10-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[167200]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att11-19" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
+<GROUP ID="tpo-tomas-pereira-att11-21" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att11-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att11-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>15</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -340,18 +340,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[jesuits]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att11-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att11-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="jcp-tomas-pereira-att12-19" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
+<GROUP ID="tpo-tomas-pereira-att12-21" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>jcp-tomas-pereira-att12-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>tpo-tomas-pereira-att12-21</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>jcp-tomas-pereira</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>tpo-tomas-pereira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>16</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -360,9 +360,9 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Q2735436]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[jcp-tomas-pereira-att12-19]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira-att12-21]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[jcp-tomas-pereira]]></core>   </ELEMENT>
+         <core><![CDATA[tpo-tomas-pereira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200626]]></core>   </ELEMENT>
 </GROUP>
