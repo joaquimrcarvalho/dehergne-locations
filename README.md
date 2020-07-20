@@ -1,18 +1,21 @@
 # Timelink source file repository
 
-This directory contains source files in kleio notation collected in the scope of the Timelink/MHK project.
-
+    Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th centuries, collected by Joaquim Carvalho
 
 ## Source collections included in this repository
 
-* china-prosop
-
-    Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th centuries, collected by Joaquim Carvalho
+* `sources` directory
 
     Contains biographical information from 
 
-    * Franco (S.I.), Antonio. Imagem da virtude em o noviciado da Companhia de Jesus no Real Collegio de Jesus de Coimbra em Portugal ... Évora: na Officina da Universidade, 1719.
-    * Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973.
+    * `imagem-virtude-coimbra.cli` Contains selected material from Franco (S.I.), Antonio. Imagem da virtude em o noviciado da Companhia de Jesus no Real Collegio de Jesus de Coimbra em Portugal ... Évora: na Officina da Universidade, 1719. 
+    * `dehergne.cli` Includes a transcription of Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973. 
+    * `tomas-pereira-obras.cli` Contains selected information from Pereira, Tomás, Luís Filipe Barreto, Arnaldo Espírito Santo, Ana Cristina da Costa Gomes, Isabel Murta Pina, e Pedro Lage Reis Correia. Obras. Lisboa: Centro Científico e Cultural de Macau, 2011. 
+    * `bio-notes.cli` contains varied briographical information collected 
+    in various sources and bibliographical words that do not constitute a 
+    source on itself. It is used to note fragments. The `obs` field is normally used to identify the source.
+
+
 
 
 
