@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-proposop/china-prosop-sources/sources/biographical-notes.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-21 10:50:6" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-proposop/china-prosop-sources/sources/biographical-notes.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-7-22 15:52:47" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -65,8 +65,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="bio-luis-de-camoes" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="8">
-    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
+<GROUP ID="bio-luis-de-camoes" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-luis-de-camoes</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-notes-list-1</core></ELEMENT>
@@ -76,7 +76,7 @@
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[Luís de Camões]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[terá embarcado para a Índia em 1553, segundo Manuel Seferim de Faria. Era Amigo de Álvaro da Silveira, filho do Conde da Sortelha e irmão de Gonçalo da Silveira, Jesuíta, ivc-goncalo-da-silveira. Segundo o Visconde de Juromenha seriam os três amigos, especialmente Luís de Álvaro. Ver Camões, Luiz de, Obras de Luiz de Camões, precedidas de um ensaio biográfico no qual se relatam alguns factos não conhecidos da sua vida, ed. by Visconde de Juromenha (Imprensa nacional, 1862), III. p. 515.]]></core>   </ELEMENT>
+         <core><![CDATA[terá embarcado para a Índia em 1553, segundo Manuel Seferim de Faria. Era Amigo de Álvaro da Silveira, filho do Conde da Sortelha e irmão de Gonçalo da Silveira, Jesuíta, ivc-goncalo-da-silveira. Segundo o Visconde de Juromenha seriam os três amigos, especialmente Luís de Álvaro. Ver Camões, Luiz de, Obras de Luiz de Camões, precedidas de um ensaio biográfico no qual se relatam alguns factos não conhecidos da sua vida , ed. by Visconde de Juromenha (Imprensa nacional, 1862), III. p. 515.]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
@@ -90,8 +90,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="bio-notes-list-1-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="8">
-    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
+<GROUP ID="bio-notes-list-1-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-luis-de-camoes</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -105,8 +105,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>bio-notes-list-1-rela1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>20200700</core></ELEMENT>
 </GROUP>
-<GROUP ID="bio-alvaro-silveira" NAME="n" CLASS="person" ORDER="5" LEVEL="3" LINE="9">
-    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira" NAME="n" CLASS="person" ORDER="5" LEVEL="3" LINE="10">
+    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-notes-list-1</core></ELEMENT>
@@ -121,8 +121,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-notes-list-1-rela2" NAME="relation"  ORDER="6" LEVEL="4" CLASS="relation" LINE="9">
-    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+<GROUP ID="bio-notes-list-1-rela2" NAME="relation"  ORDER="6" LEVEL="4" CLASS="relation" LINE="10">
+    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -144,9 +144,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="bio-alvaro-silveira-att1-13" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
-    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-att1-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-att1-14" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="11">
+    <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-att1-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -157,16 +157,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Capitão de Ormuz]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-att1-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-att1-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-alvaro-silveira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200700]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-rel1-13" NAME="rel" CLASS="relation" ORDER="8" LEVEL="4" LINE="11">
-    <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-rel1-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-rel1-14" NAME="rel" CLASS="relation" ORDER="8" LEVEL="4" LINE="12">
+    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-rel1-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -181,16 +181,16 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[ivc-goncalo-da-silveira]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-rel1-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-rel1-14]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[bio-alvaro-silveira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200700]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-rel2-13" NAME="rel" CLASS="relation" ORDER="9" LEVEL="4" LINE="13">
-    <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-rel2-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-rel2-14" NAME="rel" CLASS="relation" ORDER="9" LEVEL="4" LINE="14">
+    <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-rel2-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -205,15 +205,15 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[bio-luis-de-camoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-rel2-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-rel2-14]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[bio-alvaro-silveira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[20200700]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-notes-list-1-gds" NAME="referido" CLASS="person" ORDER="10" LEVEL="4" LINE="15">
-    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+<GROUP ID="bio-notes-list-1-gds" NAME="referido" CLASS="person" ORDER="10" LEVEL="4" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-notes-list-1-gds</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
@@ -228,8 +228,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-rela3" NAME="relation"  ORDER="11" LEVEL="5" CLASS="relation" LINE="15">
-    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-rela3" NAME="relation"  ORDER="11" LEVEL="5" CLASS="relation" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-notes-list-1-gds</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -249,8 +249,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="bio-alvaro-silveira-his3-4" NAME="viagem" CLASS="evento" ORDER="13" LEVEL="4" LINE="16">
-    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4" NAME="viagem" CLASS="evento" ORDER="13" LEVEL="4" LINE="17">
+    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>viagem</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
@@ -275,9 +275,9 @@
          <core><![CDATA[viagem]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-att1-13" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="5" LINE="17">
-    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att1-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-att1-14" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="5" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att1-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -288,16 +288,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Rainha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-his3-4-att1-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-his3-4-att1-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-alvaro-silveira-his3-4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15580407]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-att2-13" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="5" LINE="18">
-    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att2-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-att2-14" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="5" LINE="19">
+    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att2-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -308,16 +308,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Castelo]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-his3-4-att2-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-his3-4-att2-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-alvaro-silveira-his3-4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15580407]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-att3-13" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="5" LINE="20">
-    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att3-13</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-att3-14" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="5" LINE="21">
+    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-att3-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -330,15 +330,15 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[De mil Toneladas, a maior que se vira na carreira da Índia: Martins, Oliveira, Camões: Os Lusíadas e a Renascença em Portugal (Edições Vercial, 2019). p.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-alvaro-silveira-his3-4-att3-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-alvaro-silveira-his3-4-att3-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-alvaro-silveira-his3-4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15580407]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-per1-5" NAME="referido" CLASS="person" ORDER="17" LEVEL="5" LINE="22">
-    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-per1-5" NAME="referido" CLASS="person" ORDER="17" LEVEL="5" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-per1-5</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
@@ -353,8 +353,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-rela5" NAME="relation"  ORDER="18" LEVEL="6" CLASS="relation" LINE="22">
-    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-rela5" NAME="relation"  ORDER="18" LEVEL="6" CLASS="relation" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4-per1-5</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -368,8 +368,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>15580407</core></ELEMENT>
 </GROUP>
-<GROUP ID="bio-constantino-de-braganca" NAME="referido" CLASS="person" ORDER="20" LEVEL="5" LINE="23">
-    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+<GROUP ID="bio-constantino-de-braganca" NAME="referido" CLASS="person" ORDER="20" LEVEL="5" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
@@ -382,8 +382,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-alvaro-silveira-his3-4-rela7" NAME="relation"  ORDER="21" LEVEL="6" CLASS="relation" LINE="23">
-    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-rela7" NAME="relation"  ORDER="21" LEVEL="6" CLASS="relation" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-constantino-de-braganca</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -397,9 +397,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>bio-alvaro-silveira-his3-4-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>15580407</core></ELEMENT>
 </GROUP>
-<GROUP ID="bio-constantino-de-braganca-att4-13" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="6" LINE="24">
-    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-att4-13</core></ELEMENT>
+<GROUP ID="bio-constantino-de-braganca-att4-14" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="6" LINE="25">
+    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-att4-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-constantino-de-braganca</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -410,16 +410,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Dom]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-constantino-de-braganca-att4-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-constantino-de-braganca-att4-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-constantino-de-braganca]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15580407]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-constantino-de-braganca-att5-13" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="6" LINE="25">
-    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-att5-13</core></ELEMENT>
+<GROUP ID="bio-constantino-de-braganca-att5-14" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="6" LINE="26">
+    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-att5-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-constantino-de-braganca</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -430,16 +430,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Vice-rei da Índia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-constantino-de-braganca-att5-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-constantino-de-braganca-att5-14]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[bio-constantino-de-braganca]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15580407]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="bio-constantino-de-braganca-rel1-13" NAME="rel" CLASS="relation" ORDER="24" LEVEL="6" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-rel1-13</core></ELEMENT>
+<GROUP ID="bio-constantino-de-braganca-rel1-14" NAME="rel" CLASS="relation" ORDER="24" LEVEL="6" LINE="27">
+    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>bio-constantino-de-braganca-rel1-14</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>bio-constantino-de-braganca</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -454,7 +454,7 @@
    <ELEMENT NAME="iddest" CLASS="destination">
          <core><![CDATA[bio-luis-de-camoes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[bio-constantino-de-braganca-rel1-13]]></core>   </ELEMENT>
+         <core><![CDATA[bio-constantino-de-braganca-rel1-14]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[bio-constantino-de-braganca]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -462,8 +462,8 @@
 </GROUP>
 
 <RELATION ID="bio-alvaro-silveira-his3-4-rela6" ORG="bio-alvaro-silveira-his3-4-per1-5" DEST="bio-alvaro-silveira" TYPE="META" VALUE="same_as"/>
-<GROUP ID="bio-alvaro-silveira-his3-4-rela6" NAME="relation"  ORDER="19" LEVEL="6"  CLASS="relation" LINE="22">
-    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-his3-4-rela6" NAME="relation"  ORDER="19" LEVEL="6"  CLASS="relation" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira-his3-4</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -478,8 +478,8 @@
     <ELEMENT NAME="date" CLASS="date"><core>15580407</core></ELEMENT>
 </GROUP>
 <RELATION ID="bio-alvaro-silveira-rela4" ORG="bio-notes-list-1-gds" DEST="ivc-goncalo-da-silveira" TYPE="META" VALUE="same_as"/>
-<GROUP ID="bio-alvaro-silveira-rela4" NAME="relation"  ORDER="12" LEVEL="5"  CLASS="relation" LINE="15">
-    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+<GROUP ID="bio-alvaro-silveira-rela4" NAME="relation"  ORDER="12" LEVEL="5"  CLASS="relation" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>bio-alvaro-silveira</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
