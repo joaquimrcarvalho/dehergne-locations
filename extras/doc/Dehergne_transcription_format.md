@@ -41,7 +41,8 @@ Transcrição da informação biográfica
         ls$jesuita-estatuto/Padre
         ls$jesuita-entrada/Goa/15791200
         ls$embarcado/S. Valentim/16020325
-        ls$jesuita-votos/Negaptattinam%Negapatami (Négapatam)/16040106
+        ls$jesuita-votos/4V/16040106
+        ls$jseuita-votos-local/Negaptattinam%Negapatami (Négapatam)/16040106
         ls$morte/Changchow#no rio, a caminho do Japão/16110000
         ls$dehergne/1
 
@@ -168,6 +169,48 @@ Usamos a forma `ls$jesuita-votos/VOTO/DATA` para registar em que VOTO com os seg
     ls$jesuita-votos/coadjutor espiritual
     ls$jesuita-votos/coadjutor temporal
 
+Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jesuita-votos-local/LOCAL/DATA` 
+
+### Emb. A. Viagens, chegada e estadias ###
+
+#### Emb. ####
+
+Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que atribui um número a cada barco que transportou missionários para a Índia. O autor regista esse número, precedido da letra W, entre parentesis junto com a informação da viagem. Registamos esse número porque o registo do nome do navio é irregular na obra e interessa poder reconstruir com exatidão quem viajou com quem.
+
+Regista-se na forma `ls$embarque/NAVIO/DATA` seguido de `ls$wicky/NUMERO`
+
+    n$António de Abreu/id=deh-antonio-de-abreu
+        ....
+        ls$embarque/S. Valentim/16020325
+        ls$wicky/486/16020325
+
+#### A. ou arr. ####
+
+Segundo o autor estas abreviaturas indicariam a chegada à China. 
+Mas na verdade a utilização é inconstante e muitas vezes 
+o que fica registado é uma sequência de locais onde o missionário
+esteve depois da chegada ao Oriente. 
+
+Assim usamos a forma `ls$estadia/LOCAL/DATA`, para registar os locais de chegada e posterior permanência no Oriente.
+
+Exemplo: 
+
+    Adorno, Lodovico Antonio Luca (ital.) P.               5 
+        .....
+        -------
+        Emb. 8 avril 1690 (W 1283) pour la Chine (JS 134, 372); Kanchow, Kan-tcheou (celui du Kiangsi); au bout de quelques mois, rentre malade à Macao, puis à Goa. Borg. Lat. 523, 59 le dit arr. 1694 et retourné à Goa en 1695; il fit pourtant ses voeux à Kanchow,
+        en 1697, v. ci-après.
+        -------
+    
+    n$Lodovico António Adorno/id=deh-ludovico-antonio-adorno
+        ...
+        ls$embarque/... para a China/16900408
+        ls$wicky/1283/16900408
+        ls$estadia/Kanchow%Kan-tcheou (o de Kiangsi)
+        ls$estadia/Macau#doente/16940000
+        ls$estadia/Goa/16950000
+
+Nem sempre é fácil reconstruir as datas do texto sintético da entrada.
 
 ### Pessoas referidas ###
 
@@ -193,6 +236,7 @@ As últimas linhas incluem referência a duas pessoas adicionais. que foram regi
         ls$nacionalidade/Portugal
         ls$morto/Coulam, Malabar#Naufrágio/16111031
 
+Notar que o `id` destas pessoas adicionais é construído como os das entradas principais com o sufixo ref-N, em que N é um número sequencial dentro dos referidos associados a uma entrada principal.
 
 ### Registo do texto integral da referência em obs ###
 
@@ -211,4 +255,3 @@ Assim na primeira entrada, de António de Abreu ficaria:
             ls$dehergne/1/obs=E. Goa, déc. 1579 (DI XII, 612 n. 54). Emb. non prêtre, le 25 mars 1602, sur le S. Valentim (W 486). | V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la rivière de « Chincheo »,m.q. Changchow (Tchang-tcheou), ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611, en route vers le Japon (Schûtte 343; HS 43, 57 dit 1612). Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
 
 Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada  para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
- 
