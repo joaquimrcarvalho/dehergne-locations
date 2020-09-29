@@ -1,26 +1,43 @@
-# Conceitos básicos para gestão do processo de transcrição
+# Timelink: Conceitos básicos para gestão do processo de transcrição
 
 
-## Resumo
+## As fases do processo de tratamento de fontes histórias no Timelink
 
 4 fases no processo de tratamento dos dados: _transcrição, tradução, importação e identificação_.
 
-4 tipos de intervenientes: _transcritor, tradutor, importador e identificador_.
+_Transcrição_ corresponde à codificação da informação das fontes numa notação formal que permite o seu processamento pelo computador.
 
-4 tipos de ficheiros principais associados a cada fase: `.cli,.xml,.sql,.idf`
+A _tradução_ consiste no processamento da transcrição para extração de dados para importação na base de dados.
+
+A _importação_ é a operação pela qual o resultado da tradução é inserido na base de dados.
+
+A _identificação_ é a operação pela qual se agregam diferentes ocorrências de pessoas nas fontes em biografias. O sistema distingue uma "ocorrência", que é uma referência a uma pessoa num documento ou obra, de uma "pessoa real", que é a pessoa que efetivamente existiu e deixou traços nas fontes.  Identificar é juntar as ocorrências de cada pessoal real.
+
+A identificação é um processo em aberto, em contínua revisão, e é feita de duas maneiras: anotando as ocorrências na fonte com o elemento "mesmo_que", que indica que uma ocorrência corresponde à mesma pessoa que outra e "ligando" as pessoas no interface da base de dados que fornece várias oportunidades agregar ocorrências em pessoas reais.
+
+Em qualquer momento as identificações podem ser exportada sob a forma de ficheiros que podem ser trocados entre instalações e pessoas.
+
+
+
+## Diferentes tipos de ficheiros ##
+
+O processo descrito acima produz vários tipos de ficheiros de texto. 
    
-* transcrição: `.cli`
-* tradução: `.xml` e `.cli` (e relatórios de tradução `.rpt`,`.err` e ficheiros auxiliares `.str`,`.srpt`, `.inf`).
-* importação: `.sql` (e também relatórios de importação `.xrpt`, `.xerr`).
-* identificação: `.idf` (e também cópia da base de dados `.sql`)
+* Ficheiros em formato Kleio, com extensão `.cli`. Contêm as transcrições de fontes e e informação auxiliar, como listas de pessoas identificadas.
+* Ficheiros de dados para importação, com formato `.xml`, contêm o resultado das tradução dos ficheiros `.cli` num formato apropriado para importação na base de dados.
+* Relatórios de tradução `.rpt` e importação  `.xrpt` são ficheiros de texto com relatórios sobre os processos de tradução e importação e eventuais mensagens de erro ou aviso.
+* Ficheiros auxiliares de gestão do programa (`.str`,`.srpt`, `.err`, `.xerr`, `org`, `old`, `ids`).
+* Cópias de segurança da base de dados (`.sql`)
 
-Os diferentes ficheiros são geridos pelos diferentes intervenientes através de um repositório `Git`.
+O utilizador trabalha essencialmente com ficheiros kleio, de extensão `.cli`, usando um processador de texto para textos codificados (atualmente o Visual Studio Code da Microsoft, com a extensão Time Link Bundle).
+
+Todos os outros ficheiros são gerados pelo programa durante as diferentes fases de processamento.
 
 ## A cada projeto tem um repositório `Git` de referência.
 
 A cada projeto `Timelink` corresponde um repositório `Git` de referência, que contém todos os ficheiros gerados pelo processo de transcrição, tradução, importação e identificação.
 
-`Git` é uma ferramenta criada para gerir o conteúdo de ficheiros que se alteram ao longo do tempo devido ao contributo sucessivo de várias pessoas. 
+`Git` é uma ferramenta criada para gerir o conteúdo de ficheiros que se alteram ao longo do tempo pelo contributo sucessivo de várias pessoas. 
 
 >O `Git` é tipicamente usado em projectos informáticos em que o resultado final é um programa de computador. Nesses projectos é necessário integrar contributos de várias pessoas e alterações frequentes a ficheiros, devido a correção de erros ou implementação de novas funcionalidades.
 
@@ -47,14 +64,12 @@ Também é possível fazer uma variante da versão de referência, acrescentando
 
 Nesse caso cria-se um novo ramo a partir do principal, ou faz-se uma bifurcação. e altera-se como for necessário.
 
-> Mesmo se a intenção não é fazer uma variante da base de dados com informação diferente do `master`, mas apenas ter uma cópia local ou adicional, é importante que em cada instalação com uma base de dados operacional, exista um ramo do repositório associado. Esse ramo pode ser periodicamente ressincronizado com o ramo `master` de referência.
 
 ## Transcritores trabalham sobre repositórios isolados
 
 ...... TBD-----
 
 # Conceitos base e enquadramento geral
-
 
 ## Comunidades, fontes e modelos de análise
 No `Timelink` tratam-se conjuntos de fontes que correspondem a _comunidades_, em sentido lato. 
@@ -73,7 +88,7 @@ Essas representações informáticas são as seguintes:
 
 * um conjunto de _transcrições_ de fontes históricas numa linguagem formal chamada `kleio`.
 * um conjunto de _traduções_, que são ficheiros produzidos a partir das transcrições e que preparam a informação para importação numa base de dados.
-* um conjunto de _identificações_ (pode haver outras coisas derivadas, como grupos ou redes, orecisamos de um termo mais genérico, como _análises_, ou _interpretações_) que são decisões tomadas pelo investigador sobre a co-ocorrência de pessoas, bens e outro tipo de entidades. Ao decidir que diferentes referências em diferentes fontes dizem respeito a uma mesma _entidade_,  o investigador permite a geração de representações derivadas como biografias, redes, etc... que suportam análises complexas da comunidade.
+* um conjunto de _interpretações_, em especial  decisões tomadas pelo investigador sobre a co-ocorrência de pessoas, bens e outro tipo de entidades. Ao decidir que diferentes referências em diferentes fontes dizem respeito a uma mesma _entidade_,  o investigador permite a geração de representações derivadas como biografias, redes, etc... que suportam análises complexas da comunidade. Identificar as mesmas pessoas em várias fontes diferentes não é uma operação determinística. Diferentes investigadores podem tomar decisões diferentes com base na sua análise dos dados e a importância que dão a semelhanças e diferenças específicas na informação disponível. Por isso considera-se a _identificação_ de pessoas uma interpretação.
 
 ## O processo e os seus produtos
 
@@ -87,12 +102,12 @@ Estas representações informáticas resultam de um _processo_ que vai desde a a
 2. O _tradutor_ gere o processo de tradução das fontes transcritas. 
 
     * Esta fase é feita por um programa informático que incorpora uma série de decisões prévias sobre a forma de representar a fonte (a sua _estrutura_ ou _formato_) e também um conjunto de _regras de inferência_ de informação implícita na fonte. 
-    * As regras de inferência permitem aliviar o trabalho de transcrição ao inferirem atirbutos como o _género_, _estado civil_, assim como _relações de parentesco_ e outras, a partir das funções com que pessoas e outras entidades ocorrem nos actos.
+    * As regras de inferência permitem aliviar o trabalho de transcrição ao inferirem atributos como o _género_, _estado civil_, assim como _relações de parentesco_ e outras, a partir das funções com que pessoas e outras entidades ocorrem nos actos.
     * Cabe ao _tradutor_ aferir se o formato usado para a transcrição da fonte encapsula o máximo de informação relevante sem custo exagerado de transcrição.
     * Cabe também ao _tradutor_ determinar as regras de inferência aplicáveis a cada tipo de fonte, seguindo o princípio minimalista de não inferir o que pode ser ambíguo ou sujeito a discussão. As regras de inferência visam sobretudo evitar transcrição de informação redudante pelos _transcritores_.
-   		 * Por exemplo, num batismo não vale a pena registar o sexo da mãe e do pai, nem a relação de parentesco entre pais e criança batizada - tudo isso pode ser inferido automaticamente).
+   		 * Por exemplo, num batismo não vale a pena registar o sexo da mãe e do pai, nem a relação de parentesco entre pais e criança batizada - tudo isso pode ser inferido automaticamente.
     * Finalmente o processo de tradução gera identificadores únicos para cada entidade (pessoa, bem, etc.) referida na fonte, identificadores esses que são necessários para a posterior identificação das ocorrências das mesmas entidades nas fontes.
-    	* A geração de identificadores é um processo automático mas o _tradutor_ pode definir alguns parâmetros que regulam o processo: quais os elementos da fonte que terão ids gerados automaticamente e quais os que requerem a atribuição de um id pelo _transcritor_ e ainda
+    	* A geração de identificadores é um processo automático mas o _tradutor_ pode definir alguns parâmetros que regulam o processo: quais os elementos da fonte que terão identificadores gerados automaticamente e quais os que requerem a atribuição de um identificadores pelo _transcritor_ e ainda
     		se os ids num dados ficheiro devem ser prefixados automaticamente com uma sequência de caracteres.
     * O resultado do processo de tradução são diferentes ficheiros, com o mesmo nome que o ficheiro com a transcrião da fonte e com diferentes extensões:
         * `xml`contêm os dados retirados do ficheiro `cli` num formato adequado para importação na base de dados.
@@ -113,8 +128,8 @@ Estas representações informáticas resultam de um _processo_ que vai desde a a
 
 4. O `identificador` (ou o _investigador_, porque pode gerar também redes e grupos) toma decisões sobre quem é quem na informação recolhida e pode gerar entidades derivadas como redes e grupos. 
     * Na sua essência o processo de identificação regista decisões do tipo:  a pessoa X que ocorre no acto A é a mesma que a pessoa Y que ocorre no acto B. 
-    * Essas decisões são registadas em tabelas específicas na base de dados e podem ser exportadas no formato `json` que facilita a troca com outras aplicações.
-    * Como as identificações são feitas na base de dados elas também são incluídas em ficheiro de exportação da base de dados em formato `sql`.
+    * Essas decisões são registadas em tabelas específicas na base de dados e podem ser exportadas em formato `kleio` , facilitando a troca de dados.
+    * Como as identificações são feitas na base de dados elas também são incluídas em ficheiros de exportação da base de dados em formato `sql`.
 
 
 
