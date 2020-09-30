@@ -41,7 +41,9 @@ Exemplo de entrada:
     Pf. 125. (Distinct du Provincial de Portugal de ce nom, 
     1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 
     (Lus. 43 II, 509v). 
-    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
+    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, 
+    sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce 
+    dernier qu'il reporte à l'an 1612.
 
 Transcrição da informação biográfica
 
