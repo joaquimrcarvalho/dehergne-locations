@@ -14,7 +14,11 @@ Cada ficheiro inclui um único "acto", do tipo `lista$` com `id` dehergne-notice
 O cabeçalho de cada ficheiro:
 
     kleio$gacto2.str
-        fonte$dehergne-A/1973/Dicionário Biográfico/Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973
+        fonte$dehergne-A/1973/Dicionário Biográfico
+            /Online archive.org:details:bhsi37
+            /obs=Dehergne, Joseph, Répertoire des
+             Jésuites de Chine, 
+             de 1542 à 1800, 1973
 
           lista$dehergne-notices-a/0/0/0
 
@@ -29,10 +33,15 @@ Exemplo de entrada:
     Abreu, Antonio de (port.) P.                    1
     E. Goa, déc. 1579 (DI XII, 612 n. 54).
     Emb. non prêtre, le 25 mars 1602, sur le S. Valentim ( W 486).
-    V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82). Il signe Antonius Dabreu.
+    V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82). 
+    Il signe Antonius Dabreu.
     M. dans la rivière de « Chincheo », = Changchow (Tchang-tcheou),
-    ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611, en route vers le Japon (Schûtte 343; HS 43, 57 dit 1612).
-    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
+    ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611, 
+    en route vers le Japon (Schûtte 343; HS 43, 57 dit 1612).
+    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 
+    1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 
+    (Lus. 43 II, 509v). 
+    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
 
 Transcrição da informação biográfica
 
@@ -136,7 +145,8 @@ Notar que este P. aparece no corpo de algumas entradas quando o autor tem inform
 
     Abreu, Joâo de (port.) P. <-----             4
     N. 1635, « Elvensis », Elvas -E. 1648 (Lus. 45, 61v).
-    Emb. 30 mars 1656 sur le Bom Jésus do Carmo (W 1014); en 1660 était à Goa, mais sujet de la vice-province de Chine (JS 134, 344). 
+    Emb. 30 mars 1656 sur le Bom Jésus do Carmo (W 1014); 
+    en 1660 était à Goa, mais sujet de la vice-province de Chine (JS 134, 344). 
     P. avant le 30 mars 1656.  <-----
     M. 24 juin 1663, Macao (JS 134, 346 et 352; AHU ms 1659, 108).
     ....
@@ -198,7 +208,11 @@ Exemplo:
     Adorno, Lodovico Antonio Luca (ital.) P.               5 
         .....
         -------
-        Emb. 8 avril 1690 (W 1283) pour la Chine (JS 134, 372); Kanchow, Kan-tcheou (celui du Kiangsi); au bout de quelques mois, rentre malade à Macao, puis à Goa. Borg. Lat. 523, 59 le dit arr. 1694 et retourné à Goa en 1695; il fit pourtant ses voeux à Kanchow,
+        Emb. 8 avril 1690 (W 1283) pour la Chine (JS 134, 372); 
+        Kanchow, Kan-tcheou (celui du Kiangsi); au bout de quelques 
+        mois, rentre malade à Macao, puis à Goa. Borg. Lat. 523, 59 
+        le dit arr. 1694 et retourné à Goa en 1695; 
+        il fit pourtant ses voeux à Kanchow,
         en 1697, v. ci-après.
         -------
     
@@ -221,7 +235,11 @@ A forma de registar essas pessoas é igual ao da pessoa principal, simplesmente 
     Abreu, Antonio de (port.) P.            1
     E. Goa, déc. 1579 (DI XII, 612 n. 54).
     ...
-    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
+    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 
+    N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). 
+    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, 
+    mais à Coulam, sur la côte malabare (Goa 24 II). 
+    HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
 
 As últimas linhas incluem referência a duas pessoas adicionais. que foram registadas da seguinte maneira:
 
@@ -250,8 +268,23 @@ Assim na primeira entrada, de António de Abreu ficaria:
             ls$jesuita-estatuto/Padre
             ls$jesuita-entrada/Goa/15791200
             ls$embarcado/S. Valentim/16020325
+            ls$wicky/486/16020325
             ls$jesuita-votos/Negaptattinam%Negapatami (Négapatam)/16040106
             ls$morte/Changchow#no rio, a caminho do Japão/16110000/obs=Talvez 漳州 (Zhangzhou) Fujian
-            ls$dehergne/1/obs=E. Goa, déc. 1579 (DI XII, 612 n. 54). Emb. non prêtre, le 25 mars 1602, sur le S. Valentim (W 486). | V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la rivière de « Chincheo »,m.q. Changchow (Tchang-tcheou), ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611, en route vers le Japon (Schûtte 343; HS 43, 57 dit 1612). Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
+            ls$dehergne/1/obs=E. Goa, déc. 1579 (DI XII, 612 n. 54). 
+            Emb. non prêtre, le 25 mars 1602, sur le S. Valentim 
+            (W 486) | V. « Negapatami » (Négapatam), 6 janv. 1604, 
+            pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la 
+            rivière de « Chincheo »,m.q. Changchow (Tchang-tcheou),
+            ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, 
+            en 1611, en route vers le Japon (Schûtte 343; HS 43, 57 
+            dit 1612). Pf. 125. (Distinct du Provincial de Portugal 
+            de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576
+            (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage 
+            le 31 oct. 1611, mais à Coulam, sur la côte malabare 
+            (Goa 24 II). HS 43a, 2v parle, semble-t-il, 
+            de ce dernier qu'il reporte à l'an 1612.
+
+
 
 Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada  para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
