@@ -64,11 +64,11 @@ Also acts are registered using group names that refer to the type of act: bap$ (
 
 Timelink transcription files start with the kleio$ header:
 
-        kleio$gacot2.str
+        kleio$gacto2.str
 
 Where `gacto2.str` designates the model used for the source transcription, and should not be changed in the current version.
 
-After the `kleio$` header comes the source declaration that identifies the sources that originated the information in the file:
+After the `kleio$` header comes the `source$` declaration that identifies the history sources that originated the information in the file:
 
         source$bap1681/1681/parish registers - baptisms/Ms 15644
 
@@ -78,9 +78,9 @@ The elements in order are:
 * the type of the sources: parish registers - baptisms
 * Ms 15644
 
-Of these element the `id` is the most relevant, since it serves the purpose to identify uniquely this source in the database. When sources are imported into the database they will replace previous versions with the same id. So it is importat to guarentee that each source has a unique id.
+Of these element the `id` is the most relevant, since it serves to identify uniquely this source in the database. When sources are imported into the database they will replace previous versions with the same id. So it is importat to guarentee that each source has a unique id.
 
-The year serves mainly the purpose of ordering sources chronologically. The important dates in the processing of transcriptions will be the dates associated with the acts inside the source, or specific dates associated with attributes of people. 
+The year serves mainly the purpose of ordering sources chronologically. The important dates in the transcriptions will be the dates associated with the acts inside the source, or specific dates associated with attributes of people. 
 
 Historical sources are handled as collections of `acts`. 
 

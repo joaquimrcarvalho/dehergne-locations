@@ -4,14 +4,17 @@
 
 ### Ficheiros ###
 
-Produz-se um ficheiro por cada letra. Os ficheiros têm os nomes dehergne-a.cli, dehergne-b.cli, dehergne-c.cli, etc...
-
-Cada ficheiro identifca a fonte com `id` dehergne-A, dehergne-B, dehergne-C, etc...
-
-Cada ficheiro inclui um único "acto", do tipo `lista$` com `id` dehergne-notices-a,  dehergne-notices-b, dehergne-notices-c, etc... e sem data.
+Produz-se um ficheiro por cada letra, para evitar ficheiros demasiados grandes. 
 
 
-O cabeçalho de cada ficheiro:
+Os ficheiros têm os nomes dehergne-a.cli, dehergne-b.cli, dehergne-c.cli, etc...
+
+Cada ficheiro inclui uma fonte com `id` dehergne-A, dehergne-B, dehergne-C, etc...
+
+Cada "fonte" inclui um único "acto", do tipo `lista$` com `id` dehergne-notices-a,  dehergne-notices-b, dehergne-notices-c, etc... e sem data.
+
+
+O cabeçalho de cada ficheiro é assim:
 
     kleio$gacto2.str
         fonte$dehergne-A/1973/Dicionário Biográfico
@@ -23,6 +26,8 @@ O cabeçalho de cada ficheiro:
           lista$dehergne-notices-a/0/0/0
 
 Seguem-se as fichas biográficas.
+
+Em cada ficheiro o cabeçalho apenas varia na letra do id do grupo `fonte$` e do grupo `lista$`,
 
 ### Fichas biográficas ###
 
@@ -289,4 +294,4 @@ Assim na primeira entrada, de António de Abreu ficaria:
 
 
 
-Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada  para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
+Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
