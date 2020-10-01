@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/china-proposop/china-prosop-sources/sources/dehergne-b.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-9-30 20:5:51" OBS="" SPACE="">
+<KLEIO STRUCTURE="/Users/jrc/mhk-home/system/conf/kleio/stru/gacto2.str" SOURCE="/Users/jrc/mhk-home/sources/china-proposop/china-prosop-sources/sources/dehergne-b.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-10-1 9:41:17" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -41,8 +41,8 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="dehergne-notices-b" NAME="lista" CLASS="act" ORDER="2" LEVEL="2" LINE="4">
-    <ELEMENT NAME="line" CLASS="line"><core>4</core></ELEMENT>
+<GROUP ID="dehergne-notices-b" NAME="lista" CLASS="act" ORDER="2" LEVEL="2" LINE="6">
+    <ELEMENT NAME="line" CLASS="line"><core>6</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-b</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>lista</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-B</core></ELEMENT>
@@ -59,5 +59,497 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="type" CLASS="type">
          <core><![CDATA[lista]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="person" SUPER="entity" TABLE="persons" GROUP="n">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="name" COLUMN="name" CLASS="name" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="sex" COLUMN="sex" CLASS="sex" TYPE="char" SIZE="1" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="der-joao-baptista" NAME="n" CLASS="person" ORDER="3" LEVEL="3" LINE="7">
+    <ELEMENT NAME="line" CLASS="line"><core>7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-b</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>3</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[João Baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+<CLASS NAME="relation" SUPER="entity" TABLE="relations" GROUP="relation">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="origin" COLUMN="origin" CLASS="origin" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="destination" COLUMN="destination" CLASS="destination" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="dehergne-notices-b-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="7">
+    <ELEMENT NAME="line" CLASS="line"><core>7</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>4</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>der-joao-baptista</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-b</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-b-rela1</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
+</GROUP><CLASS NAME="attribute" SUPER="entity" TABLE="attributes" GROUP="ls">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="entity" COLUMN="entity" CLASS="entity" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="der-joao-baptista-att1-11" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+    <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att1-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>5</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Portugal]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att1-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att2-11" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+    <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att2-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>6</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nome-chines]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Kouo Jo-Wanf]]></core>         <comment><![CDATA[Pf.]]></comment>
+   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att2-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att3-11" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+    <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att3-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>7</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nome-chines]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Ngai]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att3-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att4-11" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+    <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att4-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nascimento]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Bombarral]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16540000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att4-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16540000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att5-11" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+    <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att5-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>9</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nascimento]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[diocese de Coimbra]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16580623]]></core>         <comment><![CDATA[alternativa]]></comment>
+   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att5-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16580623]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att6-11" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+    <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att6-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>10</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[?]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16710320]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att6-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16710320]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att7-11" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+    <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att7-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>11</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[?]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16811112]]></core>         <comment><![CDATA[alternativa]]></comment>
+   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att7-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16811112]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att8-11" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+    <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att8-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>12</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Padre]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att8-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att9-11" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+    <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att9-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>13</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[embarque]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[?]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16940000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att9-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16940000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att10-11" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+    <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att10-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>14</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+      </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[wicky]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[1331]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att10-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[1331]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att11-11" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
+    <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att11-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>15</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[chegada]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[em missão]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16951203]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att11-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16951203]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att12-11" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
+    <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att12-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>16</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Nankin [Nanjing], Chenkiang (Tchen-kiang)[Zhejiang] e Tanyang, au Kiang-nan [Jiangnan]]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16990000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att12-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16990000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att13-11" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
+    <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att13-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>17</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Hangzhou]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[1690000]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Reconstruiu a Igreja]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att13-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[1690000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att14-11" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="21">
+    <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att14-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>18</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Shanghai]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[1701]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att14-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[1701]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att15-11" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
+    <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att15-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Macau]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17040000]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Procurador da Vice-Província]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att15-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17040000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att16-11" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att16-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>20</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[procurador da Vice-Província]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17040000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att16-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17040000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att17-11" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att17-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>21</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-votos]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[coadjutor espiritual]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16920202]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att17-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16920202]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att18-11" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
+    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att18-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>22</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-votos]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[coadjutor espiritual]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16950815]]></core>         <comment><![CDATA[alternativa]]></comment>
+   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att18-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16950815]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att19-11" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
+    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att19-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>23</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[morte]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Macau]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17140228]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att19-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17140228]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="der-joao-baptista-att20-11" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
+    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>der-joao-baptista-att20-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>der-joao-baptista</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>24</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[dehergne]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[71]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Baptista, Joâo (port.) P. 71Batt".Kouo Jo-wang (Pf.)]]></core>      <core><![CDATA[ Ngai, son évêque l'appelle Jean Baptiste Ngai,en 1763 (SOCP t. 55, 84v).N. Ville de Bombarral, d. de Lisbonne, 1654 -E. 20 mars 1671 (Lus. 46,347) dates qui nous semblent plus sûres que celles de JS 134,399: N. 23 juin 1658, dioc. de Coïmbre, E. 12 nov. 1681.Emb. en 1694 (W 1331)]]></core>      <core><![CDATA[ arr. en mission, 3 déc. 1695 (JS 134, 406)]]></core>      <core><![CDATA[1699, Nankin, Chenkiang (Tchen-kiang) et Tanyang, au Kiang-nan]]></core>      <core><![CDATA[rebâtit l'église de Hangchow (RBS 299)]]></core>      <core><![CDATA[ 1701, Shanghai]]></core>      <core><![CDATA[ en 1704,procureur de la vice-province, à Macao.V. 2 févr. 1692, c. spir. (JS 134, 381). JS 134, 412 écrit: 15 août 1695.Formule non retrouvée.M. 28 févr. 1714, Macao (JS 25, 271v et 775, 279]]></core>      <core><![CDATA[ HS 50 l'ignore).Pf. 477]]></core>      <core><![CDATA[ RBS 299."]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[der-joao-baptista-att20-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[der-joao-baptista]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 </KLEIO>
