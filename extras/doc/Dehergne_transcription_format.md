@@ -72,7 +72,7 @@ As secções seguintes detalham a transcrição dos principais atributos das ent
 
 Cada entrada é introduzida pelo grupo `n$` seguido do nome por ordem natural (primeiro nome, partículas, apelidos) e um `id` que irá identificar univocamente esta referência na base de dados. 
 
-O `id` usa o prefixo "deh-" seguido do nome em minusculas com hifens no lugar dos espaços (os identificadores de pessoas não podem ter espaços). O `id` tem de ser único para cada pessoa, de modo que em caso de homonomias tem se produzir ids diferentes, adicionando dígitos (por exemplo, se fosse necessário: `deh-antonio-de-abreu-2`)
+O `id` usa o prefixo "deh-" seguido do nome em minusculas com hifens no lugar dos espaços (os identificadores de pessoas não podem ter espaços). O `id` tem de ser único para cada pessoa, de modo que em caso de homonomias tem se produzir ids diferentes, adicionando dígitos (por exemplo, se fosse necessário: `deh-antonio-de-abreu-2`.
 
     n$António de Abreu/id=deh-antonio-de-abreu
 
@@ -188,7 +188,7 @@ Usamos a forma `ls$jesuita-votos/VOTO/DATA` para registar em que VOTO com os seg
 
 Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jesuita-votos-local/LOCAL/DATA` 
 
-### Emb. A. Viagens, chegada e estadias ###
+### Emb. A. arr. Viagens, partidas, chegadas e estadias ###
 
 #### Emb. ####
 
@@ -206,11 +206,17 @@ Regista-se na forma `ls$embarque/NAVIO/DATA` seguido de `ls$wicky/NUMERO`
 Segundo o autor estas abreviaturas indicariam a chegada à China. 
 Mas na verdade a utilização é inconstante e muitas vezes 
 o que fica registado é uma sequência de locais onde o missionário
-esteve depois da chegada ao Oriente. 
+esteve depois da chegada ao Oriente.  Outras vezes ainda são registadas datas de "partida" de viagens terrestres
 
-Assim usamos a forma `ls$estadia/LOCAL/DATA`, para registar os locais de chegada e posterior permanência no Oriente.
+Usamos a forma `ls$estadia/LOCAL/DATA`, para registar as referências a permanências em locais.
 
-Exemplo: 
+Adicionalmente, quando existirem informações de "chegadas" ou "partidas" (diferentes do "embarque" em Lisboa para a Índia) usar `ls$partida/DESTINO/ADATA`  e `ls$chegada/LOCAL/DATA`. 
+
+É possível que a redação da entrada pelo autor resulte do tipo de informação a que teve acesso. Por vezes tem apenas notícia que alguém estava em determinado local numa determinada data. Nesses casos usamos `ls$estadia`. 
+
+Outras vezes a informação original deve explicitar que "chegou" a determinado local, ou "partiu" para determinado local. Neses casos usam `ls$chegada`  e `ls$partida` .
+
+Exemplos: 
 
     Adorno, Lodovico Antonio Luca (ital.) P.               5 
         .....
@@ -228,10 +234,20 @@ Exemplo:
         ls$embarque/... para a China/16900408
         ls$wicky/1283/16900408
         ls$estadia/Kanchow%Kan-tcheou (o de Kiangsi)
-        ls$estadia/Macau#doente/16940000
-        ls$estadia/Goa/16950000
+        ls$chegada/Macau#doente/16940000
+        ls$chegada/Goa/16950000
 
-Nem sempre é fácil reconstruir as datas do texto sintético da entrada.
+Nem sempre é fácil reconstruir as datas do texto sintético da entrada. Exemplo mais complexo em Alessandro Valignano (861)
+
+### Cargos e tarefas ligados à ordem ###
+
+Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
+
+Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA` 
+
+### Cargos não ligados à ordem ###
+
+Por vezes os missionários exercem cargos exteriores à ordem, quer na hierarquia eclesiástica geral, quer na burocracia chinesa. Nesse caso usa-se a forma usual de `ls$cargo/CARGO/DATA`. Do mesmo modo podem-se registar "tarefas" não internas à Companhia, como negociar tratados, representar o Rei ou o Imperador, etc... No mesmo espírito registamos `ls$tarefa/DESCRIÇÃO/DATA.
 
 ### Pessoas referidas ###
 
@@ -295,3 +311,12 @@ Assim na primeira entrada, de António de Abreu ficaria:
 
 
 Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
+
+### Configurações e atalhos úteis no Visual Studio Code ###
+
+#### Comandos do teclado ###
+
+`Option+Z` Ligar/desligar quebra automática de linha ("word-wrap"): faz com que linhas demasiado longas para caberem na largura da janela de trabalho sejam automaticamente quebradas para manter a totalidade do texto visível.
+
+`Option+SHIFT+setas cima ou baixo` mover a linha corrente para cima ou para baixo no texto (útil para reordenar linhas).
+

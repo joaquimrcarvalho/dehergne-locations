@@ -21,7 +21,10 @@ Inocêncio states that: "Estas três obras do P. Franco são estimadas, e equiva
 
 ### Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973. ###
 
-Biographical dictionary focussed on the french jesuit missionaries on China but including many others. Availabe at archive.org.
+Biographical dictionary focussed on the french jesuit missionaries on China but including many others. Availabe at archive.org as PDF with embeded OCR. Also in text format, but the OCR in the text format version is of lower quality than the one embeded in the PDF.
+
+This work is used as reference for names, dates and other bibliographical information by Brockey, Liam Matthew. Journey to the East: The Jesuit Mission to China, 1579-1724. Cambridge, Mass.: Belknap Press: An Imprint of Harvard University Press, 2008.
+
 
 #### Scope ####
 
