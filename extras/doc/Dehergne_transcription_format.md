@@ -128,6 +128,13 @@ A data atualmente tem de ser registada na forma AAAAMMDD com zeros quando não e
         ...
         ls$morte/Goa/16991220
 
+Se acontecer que o autor fornece mais que uma data (o que acontece quando há desacordo entre as fontes que usou), regista-se a primeira data ou aquele que a entrada indica como mais provável, e outras em comentário:
+
+
+         n$José Bernardo de Almeida/id=deh-jose-bernardo-de-almeida
+            ...
+            ls$nascimento/Penela, diocese de Coimbra/17280918#ou 17280115
+
 ### E. P. V. Atributos referentes ao percurso na Companhia de Jesus  ###
 
 Distinguimos os atributos específicos do precurso na Companhia de Jesus, dos atributos comuns a outras pessoas fora da ordem, prefixando os primeiros com "jesuita-". Isso aplica-se à entrada para o noviciado, aos diferentes votos feitos ao longo da progressão na ordem, e aos cargos específicos exercidos dentro da ordem.
@@ -143,6 +150,13 @@ Distinguimos os atributos específicos do precurso na Companhia de Jesus, dos at
         ls$jesuita-entrada/Goa/15791200
 
 Neste exemplo o dia é desconhecido.
+
+Há casos de dupla entrada (provavelemente por nao completarem o noviciado a primeira vez). Nesse caso regista-se as sucessivas entradas:
+
+         n$Pedro de Alcáçova/id=deh-pedro-de-alcacova
+            ...
+            ls$jesuita-entrada/Coimbra/15420000%sorti#saiu
+            ls$jesuita-entrada/Goa/15480502
 
 #### P. ####
 
