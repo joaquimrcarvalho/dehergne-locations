@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-10-21 16:48:43" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-10-23 7:27:47" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -3076,9 +3076,9 @@
          <core><![CDATA[17190000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15" NAME="n" CLASS="person" ORDER="150" LEVEL="3" LINE="154">
+<GROUP ID="deh-antonio-de-andrade" NAME="n" CLASS="person" ORDER="150" LEVEL="3" LINE="154">
     <ELEMENT NAME="line" CLASS="line"><core>154</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
@@ -3086,34 +3086,30 @@
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[António de Andrade]]></core>   </ELEMENT>
-   <ELEMENT NAME="deh" CLASS="undef">
-         <core><![CDATA[antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="dehergne-notices-a-rela13" NAME="relation"  ORDER="151" LEVEL="4" CLASS="relation" LINE="154">
     <ELEMENT NAME="line" CLASS="line"><core>154</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>151</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-antonio-de-andrade</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-a</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-rela13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-a-per1-15-att124-15" NAME="ls" CLASS="attribute" ORDER="152" LEVEL="4" LINE="155">
+<GROUP ID="deh-antonio-de-andrade-att124-15" NAME="ls" CLASS="attribute" ORDER="152" LEVEL="4" LINE="155">
     <ELEMENT NAME="line" CLASS="line"><core>155</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att124-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att124-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>152</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3122,18 +3118,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att124-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att124-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att125-15" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="156">
+<GROUP ID="deh-antonio-de-andrade-att125-15" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="156">
     <ELEMENT NAME="line" CLASS="line"><core>156</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att125-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att125-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>153</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3142,18 +3138,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att125-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att125-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att126-15" NAME="ls" CLASS="attribute" ORDER="154" LEVEL="4" LINE="157">
+<GROUP ID="deh-antonio-de-andrade-att126-15" NAME="ls" CLASS="attribute" ORDER="154" LEVEL="4" LINE="157">
     <ELEMENT NAME="line" CLASS="line"><core>157</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att126-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att126-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>154</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3165,18 +3161,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15800000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att126-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att126-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15800000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att127-15" NAME="ls" CLASS="attribute" ORDER="155" LEVEL="4" LINE="158">
+<GROUP ID="deh-antonio-de-andrade-att127-15" NAME="ls" CLASS="attribute" ORDER="155" LEVEL="4" LINE="158">
     <ELEMENT NAME="line" CLASS="line"><core>158</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att127-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att127-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>155</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3187,18 +3183,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15961216]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att127-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att127-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15961216]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att128-15" NAME="ls" CLASS="attribute" ORDER="156" LEVEL="4" LINE="159">
+<GROUP ID="deh-antonio-de-andrade-att128-15" NAME="ls" CLASS="attribute" ORDER="156" LEVEL="4" LINE="159">
     <ELEMENT NAME="line" CLASS="line"><core>159</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att128-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att128-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>156</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3209,18 +3205,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16000404]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att128-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att128-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16000404]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att129-15" NAME="ls" CLASS="attribute" ORDER="157" LEVEL="4" LINE="160">
+<GROUP ID="deh-antonio-de-andrade-att129-15" NAME="ls" CLASS="attribute" ORDER="157" LEVEL="4" LINE="160">
     <ELEMENT NAME="line" CLASS="line"><core>160</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att129-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att129-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>157</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3229,18 +3225,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[408]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att129-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att129-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att130-15" NAME="ls" CLASS="attribute" ORDER="158" LEVEL="4" LINE="161">
+<GROUP ID="deh-antonio-de-andrade-att130-15" NAME="ls" CLASS="attribute" ORDER="158" LEVEL="4" LINE="161">
     <ELEMENT NAME="line" CLASS="line"><core>161</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att130-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att130-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>158</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3249,18 +3245,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Índia]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att130-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att130-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att131-15" NAME="ls" CLASS="attribute" ORDER="159" LEVEL="4" LINE="162">
+<GROUP ID="deh-antonio-de-andrade-att131-15" NAME="ls" CLASS="attribute" ORDER="159" LEVEL="4" LINE="162">
     <ELEMENT NAME="line" CLASS="line"><core>162</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att131-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att131-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>159</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3269,18 +3265,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Agra]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att131-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att131-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att132-15" NAME="ls" CLASS="attribute" ORDER="160" LEVEL="4" LINE="163">
+<GROUP ID="deh-antonio-de-andrade-att132-15" NAME="ls" CLASS="attribute" ORDER="160" LEVEL="4" LINE="163">
     <ELEMENT NAME="line" CLASS="line"><core>163</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att132-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att132-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>160</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3291,18 +3287,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16240000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att132-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att132-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16240000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att133-15" NAME="ls" CLASS="attribute" ORDER="161" LEVEL="4" LINE="164">
+<GROUP ID="deh-antonio-de-andrade-att133-15" NAME="ls" CLASS="attribute" ORDER="161" LEVEL="4" LINE="164">
     <ELEMENT NAME="line" CLASS="line"><core>164</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att133-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att133-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>161</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3313,18 +3309,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16250000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att133-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att133-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16250000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att134-15" NAME="ls" CLASS="attribute" ORDER="162" LEVEL="4" LINE="165">
+<GROUP ID="deh-antonio-de-andrade-att134-15" NAME="ls" CLASS="attribute" ORDER="162" LEVEL="4" LINE="165">
     <ELEMENT NAME="line" CLASS="line"><core>165</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att134-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att134-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>162</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3333,18 +3329,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Himalaias]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att134-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att134-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att135-15" NAME="ls" CLASS="attribute" ORDER="163" LEVEL="4" LINE="166">
+<GROUP ID="deh-antonio-de-andrade-att135-15" NAME="ls" CLASS="attribute" ORDER="163" LEVEL="4" LINE="166">
     <ELEMENT NAME="line" CLASS="line"><core>166</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att135-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att135-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>163</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3353,18 +3349,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Tsaparang, Tibete]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att135-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att135-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att136-15" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="4" LINE="167">
+<GROUP ID="deh-antonio-de-andrade-att136-15" NAME="ls" CLASS="attribute" ORDER="164" LEVEL="4" LINE="167">
     <ELEMENT NAME="line" CLASS="line"><core>167</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att136-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att136-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>164</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3373,18 +3369,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Goa]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att136-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att136-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att137-15" NAME="ls" CLASS="attribute" ORDER="165" LEVEL="4" LINE="168">
+<GROUP ID="deh-antonio-de-andrade-att137-15" NAME="ls" CLASS="attribute" ORDER="165" LEVEL="4" LINE="168">
     <ELEMENT NAME="line" CLASS="line"><core>168</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att137-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att137-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>165</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3393,18 +3389,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Visitador das Índias]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att137-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att137-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att138-15" NAME="ls" CLASS="attribute" ORDER="166" LEVEL="4" LINE="169">
+<GROUP ID="deh-antonio-de-andrade-att138-15" NAME="ls" CLASS="attribute" ORDER="166" LEVEL="4" LINE="169">
     <ELEMENT NAME="line" CLASS="line"><core>169</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att138-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att138-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>166</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3414,18 +3410,18 @@
          <core><![CDATA[Superior das Índias]]></core>         <original><![CDATA[envoyé comme visiteur et supérieur à Agra]]></original>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att138-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att138-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att139-15" NAME="ls" CLASS="attribute" ORDER="167" LEVEL="4" LINE="170">
+<GROUP ID="deh-antonio-de-andrade-att139-15" NAME="ls" CLASS="attribute" ORDER="167" LEVEL="4" LINE="170">
     <ELEMENT NAME="line" CLASS="line"><core>170</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att139-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att139-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>167</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3436,18 +3432,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16310000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att139-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att139-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16310000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att140-15" NAME="ls" CLASS="attribute" ORDER="168" LEVEL="4" LINE="171">
+<GROUP ID="deh-antonio-de-andrade-att140-15" NAME="ls" CLASS="attribute" ORDER="168" LEVEL="4" LINE="171">
     <ELEMENT NAME="line" CLASS="line"><core>171</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att140-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att140-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>168</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3458,18 +3454,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16340000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att140-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att140-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16340000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att141-15" NAME="ls" CLASS="attribute" ORDER="169" LEVEL="4" LINE="172">
+<GROUP ID="deh-antonio-de-andrade-att141-15" NAME="ls" CLASS="attribute" ORDER="169" LEVEL="4" LINE="172">
     <ELEMENT NAME="line" CLASS="line"><core>172</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att141-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att141-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>169</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3480,18 +3476,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16340107]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att141-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att141-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16340107]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att142-15" NAME="ls" CLASS="attribute" ORDER="170" LEVEL="4" LINE="173">
+<GROUP ID="deh-antonio-de-andrade-att142-15" NAME="ls" CLASS="attribute" ORDER="170" LEVEL="4" LINE="173">
     <ELEMENT NAME="line" CLASS="line"><core>173</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att142-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att142-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>170</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3502,18 +3498,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16121014]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att142-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att142-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16121014]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att143-15" NAME="ls" CLASS="attribute" ORDER="171" LEVEL="4" LINE="174">
+<GROUP ID="deh-antonio-de-andrade-att143-15" NAME="ls" CLASS="attribute" ORDER="171" LEVEL="4" LINE="174">
     <ELEMENT NAME="line" CLASS="line"><core>174</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att143-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att143-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>171</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3524,18 +3520,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16121014]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att143-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att143-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16121014]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att144-15" NAME="ls" CLASS="attribute" ORDER="172" LEVEL="4" LINE="175">
+<GROUP ID="deh-antonio-de-andrade-att144-15" NAME="ls" CLASS="attribute" ORDER="172" LEVEL="4" LINE="175">
     <ELEMENT NAME="line" CLASS="line"><core>175</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att144-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att144-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>172</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3547,18 +3543,18 @@
          <core><![CDATA[16340319]]></core>         <comment><![CDATA[envenenado]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att144-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att144-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16340319]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att145-15" NAME="ls" CLASS="attribute" ORDER="173" LEVEL="4" LINE="176">
+<GROUP ID="deh-antonio-de-andrade-att145-15" NAME="ls" CLASS="attribute" ORDER="173" LEVEL="4" LINE="176">
     <ELEMENT NAME="line" CLASS="line"><core>176</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att145-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att145-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>173</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3569,18 +3565,18 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Andrade, António de (port.) P. 39 N. 1580, Vila-de-Oleiros, prieuré de Crato du Castel-Branco. E. 16 déc. 1596, Coïmbre (Lus. 44, 143v). Emb. non prêtre, 4 avril 1600, sur le S. Valentim (W 408)., arr. aux Indes., envoyé comme visiteur et supérieur à Agra, capitale de l'empire du Grand Mogol., fait deux voyages au Tibet, 1624 et 1625, le premier des Européens à voir l'Himalaya: mission de Tsaparang., provincial de Goa, 1631-1634., nommé visiteur du Japon et de la Chine, 7 janv. 1634 (JS 25, 293), fait peu connu (Rodrigues l'ignore). HS 62, 59 le dit visiteur. V. Goa, 14 oct. 1612, pr. (Lus. 3, 260: Antonius d'ANDRADE). M. 19 mars 1634, mort empoisonné à Goa.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att145-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att145-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-a-per1-15-att146-15" NAME="ls" CLASS="attribute" ORDER="174" LEVEL="4" LINE="177">
+<GROUP ID="deh-antonio-de-andrade-att146-15" NAME="ls" CLASS="attribute" ORDER="174" LEVEL="4" LINE="177">
     <ELEMENT NAME="line" CLASS="line"><core>177</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-a-per1-15-att146-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-de-andrade-att146-15</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-a-per1-15</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-de-andrade</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>174</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
@@ -3591,9 +3587,9 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[ DHGE (P. Bernard)., EC (Lamalle)., NCE (M. B. Martin)., Verbo (A. Casimiro)., KocH.-AnG 160., Sven Hedin, Transhimalaja III (Leipzig, 1912), 272 sq., Wessels, C, Early Jesuit Travellers in Central Asia, 1601-1721, La Haye, 1924, 43-93., Toscano, Gius. M., La Prima Missione cattolica nel Tibet, Parme, 1951., Ribeiro, Aquilino, Portugueses das sete Partidas, Ant. de A. escalador de Himalaya a descobridor de Tibete, Lisbonne, 1951, 287-334., Castelo-Branco, Fern., A Fama de Santidade do Primeiro Missionario do Tibete, Congresso internat, Hist. dos Descobrimentos, Actas V.2 Lisbonne, 1961, 21-33., A. Baião, Memórias da Academia das Ciências de Lisboa, Classe de Letras I, LX, 1936, 387-419., Esteves Pereira, O Descobrimento do Tibet ... (1624), Estudo Histôrico, Coïmbre, 1921. Le Nuevo descubrimiento del Gran Catayo a été réédité à Madrid, 1947. Streit V, n° 263.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[dehergne-notices-a-per1-15-att146-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade-att146-15]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[dehergne-notices-a-per1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-de-andrade]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
