@@ -157,7 +157,7 @@ M. 28 févr. 1714, Macao (JS 25, 271v et 775, 279; HS 50 l'ignore).
 Pf. 477; RBS 299.
 
 C
-Cabrai, Joâo (port.) P. 126
+Cabral, João (port.) P. 126
 N. 1598, « Francosensis », Celorico da Beira -E. 13 juin 1615.
 Emb. 25 mars 1624 (W 711); 1626 et 1627, Tibet: Shigatze, et Népal;
 Ceylan; Goa; Malacca; Tonquin; vice-provincial du Japon, août
