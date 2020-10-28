@@ -58,7 +58,7 @@ Transcrição da informação biográfica
         ls$jesuita-entrada/Goa/15791200
         ls$embarcado/S. Valentim/16020325
         ls$jesuita-votos/4V/16040106
-        ls$jseuita-votos-local/Negaptattinam%Negapatami (Négapatam)/16040106
+        ls$jesuita-votos-local/Negaptattinam%Negapatami (Négapatam)/16040106
         ls$morte/Changchow#no rio, a caminho do Japão/16110000
         ls$dehergne/1
 
