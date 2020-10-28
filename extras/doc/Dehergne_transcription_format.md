@@ -253,15 +253,53 @@ Exemplos:
 
 Nem sempre é fácil reconstruir as datas do texto sintético da entrada. Exemplo mais complexo em Alessandro Valignano (861)
 
+#### Viagens sucessivas entre Europa e o Oriente ####
+
+Pergunta: "Quando um jesuíta regressa à Europa por um tempo e volta a embarcar, como acontece com Miguel do Amaral (33), repetem-se os campos de embarque e wicky (quando mencionado) sem mais nada? Ou deve haver alguma especificação, uma vez que se trata de um segundo embarque?"
+
+Resposta: "Repetem-se os registos. Nesses casos deve haver uma entrada do tipo "estadia" ou entradas de "partida" e "chegada" relativas à ida à Europa que ajudarão a entender a sequência. Assim não é necessário uma observação."
+
 ### Cargos e tarefas ligados à ordem ###
 
 Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
 
 Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA` 
 
+
+
 ### Cargos não ligados à ordem ###
 
 Por vezes os missionários exercem cargos exteriores à ordem, quer na hierarquia eclesiástica geral, quer na burocracia chinesa. Nesse caso usa-se a forma usual de `ls$cargo/CARGO/DATA`. Do mesmo modo podem-se registar "tarefas" não internas à Companhia, como negociar tratados, representar o Rei ou o Imperador, etc... No mesmo espírito registamos `ls$tarefa/DESCRIÇÃO/DATA.
+
+### Outros atributos genéricos ###
+
+#### Grau académico ###
+
+Nesta fonte o autor está a registar com aparente cuidado a formação académica, procurando frisar que os missionários tinham, alguns, atingido um nível académico elevado. Ver uma nota sobre isso na p. XVI. relativa aos Mestres em Artes.
+
+Assim usamos `grau-academico` como atributo
+
+    ls$grau-academico/Mestre em Artes
+
+Noutras fontes o grau é usado de forma genérica (sem especificar curso, ou áres) como forma de distinção social, um pouco como hoje, em Portugal, se usa "dr." ou "drª". Por exemplo: "O licenciado João da Silva". Nesse caso usamos `ls$titulo/licenciado`. 
+
+### Forma de registo de locais ###
+
+Vários atributos implicam o registo de locais. Convém ter alguma forma de uniformização na forma de registo, sobretudo quando o local é referido com algum contexto regional ou nacional.
+
+Assim usamos vírgulas para separar diferentes níveis na indicação de um lugar, à semelhança do que se usa modernamente nos endereços postais, ordenando do particular para o geral. Por exemplo:
+
+    ls$residencia/soure, diocese de Coimbra, Portugal
+
+Nem sempre faz sentido colocar todos os níveis, isso depende do contexto específico da fonte e do projeto. Por exemplo, num estudo sobre a paróquia de Soure não é necessário especificar a cada entrada a dicoese e o país, e, em princípio, a própria fonte não o faria.
+
+Noutros casos a fonte pode incluir uma informação mais específica de localização, usando uma expressão de proximidade ou referindo um edifício específico. Nesse caso adicionamos a especificiação entre parentesis. Por exemplo:
+
+    ls$residencia/soure (junto aos moinhos da comenda)
+
+
+Nem sempre será óbvia a forma mais adequada. O objetivo deve ser conseguir que listas alfabéticas de lugares mantenham próximas variações do mesmo lugar e não separem entradas de forma a ser difícil visualizar todas as variantes de um mesmo lugar.
+
 
 ### Pessoas referidas ###
 
