@@ -265,13 +265,43 @@ Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na f
 
 Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA` 
 
-
-
 ### Cargos não ligados à ordem ###
 
 Por vezes os missionários exercem cargos exteriores à ordem, quer na hierarquia eclesiástica geral, quer na burocracia chinesa. Nesse caso usa-se a forma usual de `ls$cargo/CARGO/DATA`. Do mesmo modo podem-se registar "tarefas" não internas à Companhia, como negociar tratados, representar o Rei ou o Imperador, etc... No mesmo espírito registamos `ls$tarefa/DESCRIÇÃO/DATA.
 
 ### Outros atributos genéricos ###
+
+Os principais atributos genéricos, utilizados nas mais variadas fontes, são:
+
+	ls$profissao/PROFISSAO	
+	ls$cargo/CARGO
+	ls$titulo/TITULO
+	ls$residencia/LOCAL
+	ls$ec/ESTADO CIVIL (s,c,v)
+	ls$idade/NUMERO/DATA
+
+
+A profissão é a área de atividade da pessoa, no sentido atual. Pode exercer ou não, não há normalmente limite para o número de pessoas que exercem a mesma profissão.
+	 
+Um cargo é um lugar dentro de uma determinada estrutura funcional, que normalmente é exercido em sucessão por diferentes pessoas (ver acima).
+
+Um título é uma expressão que denota um certo estatuto socio-profissional, mas que não determina necessariamente a profissão, podendo depender de formação académica ou estatuto social (nobreza, por exemplo).
+
+Assim, a informação "O Doutor João da Silva, médico cardiologista e director do hospital de Goa" contém:
+
+
+	ls$titulo/Doutor
+	ls$profissao/Médico Cardiologista
+	ls$cargo/Director do Hospital de Goa.
+
+
+Quanto à residência é normalmente usada no sentido de "residência habitual", o que no caso destes missionários raramente se aplica, porque estão sempre a mudar de local, com breves estadias.
+
+Em todos estes atributos devem-se indicar as datas, se disponíveis, na forma genérica, com zero na data quando é desconhecida. 
+
+	ls$ATRIBUTO/VALOR/DATA
+
+Como estamos a tratar com uma fonte secundária, datada de 1973, quando um atributo não tem uma data explicitamente registada na forma acima, assume a data da "fonte", ou seja 1973, o que não é desejável na maior parte dos casos. 
 
 #### Grau académico ###
 
