@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=34
+kleio$gacto2.str/translations=36
    fonte$dehergne-A/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra A - Entradas relacionadas com Coimbra.
 
       lista$dehergne-notices-a/0/0/0
@@ -54,6 +54,7 @@ kleio$gacto2.str/translations=34
             ls$dehergne/15/obs=N. vers 1523 -E. Coïmbre, 1542., sorti, puis E. 2 mai 1548, Goa. Accompagne St François Xavier de Goa à Malacca., va en 1552 au Japon., 14 août 1552, Kagoshima., en 1553 retourne du Japon à l'île de « Sancian » (Chang-tch'ouan, Shangchwan), dont il prend le nom., puis à Goa, 1555. P. dit à tort M 443, 669., non prêtre selon Sommervogel VIII col. 1600. M. non vers 1553 (AHU ms 1659, f° 17), mais en 1579 (HS 42, 27., Goa 24, 87v., DI. XI, 652). Nécrologe (Goa 31, 415). Pf. 5,8: Alcazova. SchOite, 874., DI. III, 822., Streit IV, 1399.
 
             referido$Francisco Xavier/id=deh-francisco-xavier-ref1
+               rel$sociabilidade/companheiro/Pedro de Alcáçova/deh-pedro-de-alcacova
                ls$estadia/Goa
                ls$estadia/Malaca
 
@@ -120,7 +121,7 @@ kleio$gacto2.str/translations=34
             ls$estadia/Macau/16850000
             ls$estadia/Tsinan fou, Shantung/16910000/obs= Talvez Jinan - antigo Tsinan - na região de Shandong?
             ls$estadia/Chengting fou, Hopei/16920000
-            ls$estadia/Fukien/16930000/obs= Fujian?#D. João V chegará a propô-lo como bispo de Foochow, mas o papa recusa criar nova diocese
+            ls$estadia/Fukien#Fujian?/16930000/obs= D. João V chegará a propô-lo como bispo de Foochow, mas o papa recusa criar nova diocese
             ls$embarque/para a Europa/16940000#para defender os bispos portugueses
             ls$estadia/Roma/16950800
             ls$estadia/Portugal
@@ -149,10 +150,13 @@ kleio$gacto2.str/translations=34
                ls$titulo/Rei de Portugal
 
             referido$José Monteiro/id=deh-jose-monteiro-ref2/obs= Dehergne 563
+               rel$institucional/substitui/Miguel do Amaral/deh-miguel-do-amaral/data=17140000# durante seis meses segundo a entrada de Monteiro
                ls$jesuita-estatuto/Padre
-               ls$jesuita-cargo/Vice-provincial do Japão/17140000#a partir de, substitui Miguel do Amaral
+               ls$jesuita-cargo/Vice-provincial do Japão/17140000#a partir de, durante seis meses segundo a entrada de Monteiro
 
-            referido$João Pereirao/id=deh-joao-pereira-ref3/obs= Dehergne 621
+            referido$João Pereira/id=deh-joao-pereira-ref3/obs= Dehergne 621
+               rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=17190000/obs= durante a doença deste
+               rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=12090000/obs= durante a doença deste
                ls$jesuita-estatuto/Padre
                ls$jesuita-cargo/Vice-provincial do Japão/17190000#antes desta data, ficou doente e foi substituído por Miguel do Amaral
 
