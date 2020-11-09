@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=40
+kleio$gacto2.str/translations=42
    fonte$dehergne-other/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Outras entradas com interesse.
 
       lista$dehergne-notices-other/0/0/1973
@@ -144,7 +144,7 @@ kleio$gacto2.str/translations=40
             ls$estadia/Nanchang, Jiangxi%Nan-tch'ang, Kiangsi/16830000
             ls$estadia/Nanchang, Jiangxi%Nan-tch'ang, Kiangsi/16840000
             ls$estadia/Foochow (Fou-tcheou fou)#Fuzhou, Fujian?/16920913
-            ls$estadia/Guangzhou%Cantão/17070402#exilado pelo imperador
+            ls$estadia/Cantão#Guangzhou/17070402#exilado pelo imperador
             ls$partida/para Macau/17170912
             ls$jesuita-cargo/Vice-provincial da China/16980000
             ls$jesuita-cargo/Vice-provincial da China/17020000
@@ -186,7 +186,7 @@ kleio$gacto2.str/translations=40
             ls$jesuita-cargo/Vice-provincial do Japão/17190000#ficou doente e foi substituído por Miguel do Amaral, segundo a sua entrada, Dehergne 33
             ls$estadia/Macau/17170000
             ls$estadia/Macau/17190000
-            ls$estadia/Guangzhou%Cantão/17220000
+            ls$estadia/Cantão#Guangzhou/17220000
             ls$estadia/Sião/17250000#exilado, retirou-se para Sião
             ls$estadia/Macau/17320000
             ls$jesuita-cargo/Mestre de Noviços/17320000
@@ -268,7 +268,7 @@ kleio$gacto2.str/translations=40
             ls$jesuita-estatuto/Vice-Provincial/16660000
             ls$estadia/Taian (T'ai-ngan fou)
             ls$estadia/Pequim/16630000#vai a Pequim para socorrer Macau, é possível que aqui tenha recebido os votos de Manuel Jorge, dehergne 420
-            ls$estadia/Guangzhou%Cantão/16680000#exílio
+            ls$estadia/Cantão#Guangzhou/16680000#exílio
             ls$estadia/Shanghai/16720000
             ls$estadia/Shanghai/16730000
             ls$jesuita-estatuto/Vice-visitador/16730000
@@ -306,10 +306,14 @@ kleio$gacto2.str/translations=40
             ls$dehergne/640/obs=Pinto, André (port.) P. 640 N. v. 1538 (DI. VIII, 423), Porto -E. mai 1557, Goa. En 1562, à Malacca., arr. 25 août 1563 à Macao avec les PP. Francisco Perez et Manuel Teixeira, dans l'ambassade de Diego Pereira (DI. V, 721, 724., VI, 9*, 842)., il écrit de Canton, 30 nov. 1564 (JS 5, 152-160)., relation sur Macao (Goa 24 I, 111-112) en 1568., 1569, Goa., 1577, séjour au Japon., 1581, accompagne Ruggieri à Canton (D'Elia I, 141-154)., 1584, Macao, chargé de la procure des missions de l'Inde et du Japon (JS 9 I, 51v). P. 1576, Malacca (ou, en tout cas, avant 1584) (DI. VIII, 699, 766 n.). M. Macao, 1588 (Wicki, Historia ... 443., DI. VIII, 766., Goa 24, 183). O IV Centenario, BEM 1964, 687-728., DI. V, 802., VI, 842. — Pf. 9.
 
             referido$Francisco Pérez/id=deh-francisco-perez-ref1/obs= Dehergne 628
+               rel$sociabilidade/companheiro/André Pinto/deh-andre-pinto
+               rel$sociabilidade/companheiro/Manuel Teixeira/deh-manuel-teixeira-ref2
                ls$jesuita-estatuto/Padre
                ls$estadia/Macau/15630825
 
             referido$Manuel Teixeira/id=deh-manuel-teixeira-ref2/obs= Dehergne 837
+               rel$sociabilidade/companheiro/André Pinto/deh-andre-pinto
+               rel$sociabilidade/companheiro/Francisco Pérez/deh-francisco-perez-ref1
                ls$jesuita-estatuto/Padre
                ls$estadia/Macau/15630825
 
