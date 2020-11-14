@@ -361,6 +361,30 @@ As últimas linhas incluem referência a duas pessoas adicionais. que foram regi
 
 Notar que o `id` destas pessoas adicionais é construído como os das entradas principais com o sufixo ref-N, em que N é um número sequencial dentro dos referidos associados a uma entrada principal.
 
+### Relações arbitrárias entre pessoas ###
+
+Existe uma forma geral de registar relações, introduzindo a pessoa relacionada com referido$ e registando a relação com rel$:
+
+	n$João da Silva/id=teste-joao-da-silva
+    ....
+	referido$António da Silva
+		rel$parentesco/primo afastado/João da Silva/teste-joao-da-silva
+
+
+A forma geral de registar as relações é:
+
+    rel$TIPO/VALOR/NOME DESTINO/ID DESTINO
+
+Em que `TIPO` pode ser "parentesco", "profissional" (empregado de, criado de, patrão de), "economica" (emprestar dinheiro, comprar propriedade ou objeto) "sociabilidade" (usa-se para interações sociais pouco formais, como convívios, conversas, etc...).
+
+O `VALOR` especifica dentro do tipo: "cunhado", "cunhada", "patrão", "empregado", etc....
+
+As relações são "direcionais", ou seja, experimem uma relação com origem na pessoa dentro da qual são registadas e com destino na pessoa referida na relação.
+
+No exemplo acima a relação tem como origem António da Silva e como destino João da Silva.  Em algumas relações é indiferente a direção, porque a relação tem o mesmo significado em ambos os sentidos, como é o caso de "primo" (Se A é primo de B então B é primo de A), ou "sócio". Mas muitas relações são assimétricas, como é o caso da maior parte das relações de parentesco: "pai", "mãe", "filho", "filha". Nesses casos a relação deve ser registada a seguir à pessoa que corresponde à origem da mesma.
+
+O vocabulário de registo permite o registo de pessoas com uma função que produz automaticamente uma relação. É o caso de pessoas registadas com a função "pai", "mae", "marido", "mulher", etc... Durante o processo de tradução as relações são geradas automaticamente na forma acima, e aparecem nas fichas biográficas dessa forma.
+
 ### Registo do texto integral da referência em obs ###
 
 A entradas incluem para cada item de informação uma série de anotações sobre a fonte utilizada. Normalmente essas informações seriam adicionadas como observações em cada atributo, mas isso iria tornar o registo demasiado moroso. Como a fonte está disponível em texto integral, é mais prático simplesmente copiar o texto integral da entrada como observação ao atributo `ls$dehergne` 
