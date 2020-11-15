@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=27
+kleio$gacto2.str/translations=30
    fonte$biographical-notes/notes/obs=Retainer for various notes in sources and works that are not main sources/ano=2020
 
       lista$bio-notes-list-1/2/10/2020
@@ -6,9 +6,9 @@ kleio$gacto2.str/translations=27
          n$Luís de Camões/id=bio-luis-de-camoes/obs=terá embarcado para a Índia em 1553, segundo Manuel Seferim de Faria. Era Amigo de Álvaro da Silveira, filho do Conde da Sortelha e irmão de Gonçalo da Silveira, Jesuíta, ivc-goncalo-da-silveira. Segundo o Visconde de Juromenha seriam os três amigos, especialmente Luís de Álvaro. Ver Camões, Luiz de, Obras de Luiz de Camões, precedidas de um ensaio biográfico no qual se relatam alguns factos não conhecidos da sua vida , ed. by Visconde de Juromenha (Imprensa nacional, 1862), III. p. 515.
 
          n$Álvaro da Silveira/id=bio-alvaro-silveira/obs= Brother of Gonçalo Silveira, Jesuit. |cit.:| À morte de D. Álvaro da Silveira, filho do conde da Sortelha, e irmão de outro seu amigo o jesuita Gonçalo da Silveira., ambos regaram com o seu sangue os dominios portuguezes, este obtendo a palma do martyrio nas terras da Africa oriental, e aquelle no desastrado conflicto do Baharem. D. Alvaro da Silveira militou com muita distincção na India., e acabou ás mãos dos turcos, que lhe cortaram a cabeça, tendo-o primeiro ferido em uma verilha, e depois mortalmente no pescoço; Este fidalgo era não só intimo amigo de Camões, mas até julgo que parente por seu avô Vasco Pires de Camões., estava despachado com a capitania de Ormuz: assim a sua morte devia ser fatal a Camões, pois o poderia melhorar de fortuna, levando-o em sua companhia, e assim ficaram derrubados aquelles castellos de vento a que allude nesta poesia: Não tenho ja rasão de vos fazer Meus castellos de vento sobre o mar, etc.|fim cit.| Obras de Luiz de Camões, ed. by Visconde de Juromenha (1862), III, p.555
-            ls$office/Capitão de Ormuz
-            rel$kin/brother/Gonçalo Silveira/ivc-goncalo-da-silveira
-            rel$social/friend/Luís de Camões/bio-luis-de-camoes
+            ls$cargo/Capitão de Ormuz
+            rel$parentesco/irmao/Gonçalo Silveira/ivc-goncalo-da-silveira
+            rel$sociabilidade/amigo/Luís de Camões/bio-luis-de-camoes
 
             referido$Gonçalo da Silveira/id=bio-notes-list-1-gds/xmesmo_que=ivc-goncalo-da-silveira
 
@@ -20,39 +20,36 @@ kleio$gacto2.str/translations=27
                referido$Álvaro da Silveira/mesmo_que=bio-alvaro-silveira/id=bio-alvaro-silveira-his3-4-per1-5
 
                referido$Constantino de Bragança/id=bio-constantino-de-braganca
-                  ls$title/Dom
-                  ls$office/Vice-rei da Índia
-                  rel$social/friend/Luís de Camões/bio-luis-de-camoes
+                  ls$titulo/Dom
+                  ls$cargo/Vice-rei da Índia
+                  rel$sociabilidade/amigo/Luís de Camões/bio-luis-de-camoes
 
          n$Matteo Ricci/id=bio-matteo-ricci
 
          n$Alessandro Valignano/id=bio-alessandro-valignano/obs=Wikipedia
-            ls$chinese-name/范禮安%Fàn Lǐ’ān
-            ls$birth/Chieti, Kingdom of Naples/15390200
-            ls$death/Macao/16060120
-            ls$jesuit-office/Visitor of Missions in the Indies/15730000%at the age of 34
-
-            viagem$Lisboa-Goa/0/0/1574/id=bio-alessandro-valignano-his1-17
-
-            estadia$Macau/0/9/1578/id=bio-alessandro-valignano-his2-18
-
-            viagem$Macau-Japão/0/7/1579/id=bio-alessandro-valignano-his3-18
+            ls$nome-chines/范禮安%Fàn Lǐ’ān
+            ls$nascimento/Chieti, Kingdom of Naples/15390200
+            ls$morte/Macao/16060120
+            ls$jesuita-cargo/Visitor of Missions in the Indies/15730000%at the age of 34
+            ls$estadia/Macau/15780900
+            ls$partida/Goa/15740000
+            ls$partida/Japão/15790700
 
          n$Michele Ruggieri/id=bio-michele-ruggieri/obs= Michela Catto - Dizionario Biografico degli Italiani - Volume 89 (2017)[Com muita informação adicional datada e localizada e extensa bibliografia - ocorreu uma exposição no Museu de Macau, deve existir catálogo]
-            ls$birth/Spinazzola, Bari/15431028
-            ls$death/Salerno, Italy/16070511
-            ls$jesuit-entry/Rome/15731028
-            ls$jesuit-path/Rome/15731018
-            ls$jesuit-path/Ordained/15780300
+            ls$nascimento/Spinazzola, Bari/15431028
+            ls$morte/Salerno, Italy/16070511
+            ls$jesuita-entrada/Rome/15731028
+            ls$jesuita-estadia/Rome/15731018
+            ls$jesuita-ordenacao-padre/Lisboa/15780300
+            ls$embarque/?/15780300
+            ls$estadia/Macau/15790720
 
             viagem$Lisboa-Goa/0/0/15780300/id=bio-michele-ruggieri-his4-19
-               ls$end/Índia/15780900
+               ls$destino/Índia/15780900
 
                referido$Rudolph Aquaviva/id=bio-michele-ruggieri-his4-19-per1-19
 
                referido$Matteo Ricci/mesmo_que=bio-matteo-ricci/id=bio-michele-ruggieri-his4-19-per1-21
-
-            estadia$Macau/20/07/1579/id=bio-michele-ruggieri-his3-20
 
             estadia$Zhaoqing/10/9/1583/id=bio-michele-ruggieri-his4-20
 
