@@ -253,6 +253,12 @@ Exemplos:
 
 Nem sempre é fácil reconstruir as datas do texto sintético da entrada. Exemplo mais complexo em Alessandro Valignano (861)
 
+#### Viagens sucessivas entre Europa e o Oriente ####
+
+Pergunta: "Quando um jesuíta regressa à Europa por um tempo e volta a embarcar, como acontece com Miguel do Amaral (33), repetem-se os campos de embarque e wicky (quando mencionado) sem mais nada? Ou deve haver alguma especificação, uma vez que se trata de um segundo embarque?"
+
+Resposta: "Repetem-se os registos. Nesses casos deve haver uma entrada do tipo "estadia" ou entradas de "partida" e "chegada" relativas à ida à Europa que ajudarão a entender a sequência. Assim não é necessário uma observação."
+
 ### Cargos e tarefas ligados à ordem ###
 
 Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
@@ -262,6 +268,68 @@ Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "
 ### Cargos não ligados à ordem ###
 
 Por vezes os missionários exercem cargos exteriores à ordem, quer na hierarquia eclesiástica geral, quer na burocracia chinesa. Nesse caso usa-se a forma usual de `ls$cargo/CARGO/DATA`. Do mesmo modo podem-se registar "tarefas" não internas à Companhia, como negociar tratados, representar o Rei ou o Imperador, etc... No mesmo espírito registamos `ls$tarefa/DESCRIÇÃO/DATA.
+
+### Outros atributos genéricos ###
+
+Os principais atributos genéricos, utilizados nas mais variadas fontes, são:
+
+	ls$profissao/PROFISSAO	
+	ls$cargo/CARGO
+	ls$titulo/TITULO
+	ls$residencia/LOCAL
+	ls$ec/ESTADO CIVIL (s,c,v)
+	ls$idade/NUMERO/DATA
+
+
+A profissão é a área de atividade da pessoa, no sentido atual. Pode exercer ou não, não há normalmente limite para o número de pessoas que exercem a mesma profissão.
+	 
+Um cargo é um lugar dentro de uma determinada estrutura funcional, que normalmente é exercido em sucessão por diferentes pessoas (ver acima).
+
+Um título é uma expressão que denota um certo estatuto socio-profissional, mas que não determina necessariamente a profissão, podendo depender de formação académica ou estatuto social (nobreza, por exemplo).
+
+Assim, a informação "O Doutor João da Silva, médico cardiologista e director do hospital de Goa" contém:
+
+
+	ls$titulo/Doutor
+	ls$profissao/Médico Cardiologista
+	ls$cargo/Director do Hospital de Goa.
+
+
+Quanto à residência é normalmente usada no sentido de "residência habitual", o que no caso destes missionários raramente se aplica, porque estão sempre a mudar de local, com breves estadias.
+
+Em todos estes atributos devem-se indicar as datas, se disponíveis, na forma genérica, com zero na data quando é desconhecida. 
+
+	ls$ATRIBUTO/VALOR/DATA
+
+Como estamos a tratar com uma fonte secundária, datada de 1973, quando um atributo não tem uma data explicitamente registada na forma acima, assume a data da "fonte", ou seja 1973, o que não é desejável na maior parte dos casos. 
+
+#### Grau académico ###
+
+Nesta fonte o autor está a registar com aparente cuidado a formação académica, procurando frisar que os missionários tinham, alguns, atingido um nível académico elevado. Ver uma nota sobre isso na p. XVI. relativa aos Mestres em Artes.
+
+Assim usamos `grau-academico` como atributo
+
+    ls$grau-academico/Mestre em Artes
+
+Noutras fontes o grau é usado de forma genérica (sem especificar curso, ou áres) como forma de distinção social, um pouco como hoje, em Portugal, se usa "dr." ou "drª". Por exemplo: "O licenciado João da Silva". Nesse caso usamos `ls$titulo/licenciado`. 
+
+### Forma de registo de locais ###
+
+Vários atributos implicam o registo de locais. Convém ter alguma forma de uniformização na forma de registo, sobretudo quando o local é referido com algum contexto regional ou nacional.
+
+Assim usamos vírgulas para separar diferentes níveis na indicação de um lugar, à semelhança do que se usa modernamente nos endereços postais, ordenando do particular para o geral. Por exemplo:
+
+    ls$residencia/soure, diocese de Coimbra, Portugal
+
+Nem sempre faz sentido colocar todos os níveis, isso depende do contexto específico da fonte e do projeto. Por exemplo, num estudo sobre a paróquia de Soure não é necessário especificar a cada entrada a dicoese e o país, e, em princípio, a própria fonte não o faria.
+
+Noutros casos a fonte pode incluir uma informação mais específica de localização, usando uma expressão de proximidade ou referindo um edifício específico. Nesse caso adicionamos a especificiação entre parentesis. Por exemplo:
+
+    ls$residencia/soure (junto aos moinhos da comenda)
+
+
+Nem sempre será óbvia a forma mais adequada. O objetivo deve ser conseguir que listas alfabéticas de lugares mantenham próximas variações do mesmo lugar e não separem entradas de forma a ser difícil visualizar todas as variantes de um mesmo lugar.
+
 
 ### Pessoas referidas ###
 
@@ -292,6 +360,30 @@ As últimas linhas incluem referência a duas pessoas adicionais. que foram regi
         ls$morto/Coulam, Malabar#Naufrágio/16111031
 
 Notar que o `id` destas pessoas adicionais é construído como os das entradas principais com o sufixo ref-N, em que N é um número sequencial dentro dos referidos associados a uma entrada principal.
+
+### Relações arbitrárias entre pessoas ###
+
+Existe uma forma geral de registar relações, introduzindo a pessoa relacionada com referido$ e registando a relação com rel$:
+
+	n$João da Silva/id=teste-joao-da-silva
+    ....
+	referido$António da Silva
+		rel$parentesco/primo afastado/João da Silva/teste-joao-da-silva
+
+
+A forma geral de registar as relações é:
+
+    rel$TIPO/VALOR/NOME DESTINO/ID DESTINO
+
+Em que `TIPO` pode ser "parentesco", "profissional" (empregado de, criado de, patrão de), "economica" (emprestar dinheiro, comprar propriedade ou objeto) "sociabilidade" (usa-se para interações sociais pouco formais, como convívios, conversas, etc...).
+
+O `VALOR` especifica dentro do tipo: "cunhado", "cunhada", "patrão", "empregado", etc....
+
+As relações são "direcionais", ou seja, experimem uma relação com origem na pessoa dentro da qual são registadas e com destino na pessoa referida na relação.
+
+No exemplo acima a relação tem como origem António da Silva e como destino João da Silva.  Em algumas relações é indiferente a direção, porque a relação tem o mesmo significado em ambos os sentidos, como é o caso de "primo" (Se A é primo de B então B é primo de A), ou "sócio". Mas muitas relações são assimétricas, como é o caso da maior parte das relações de parentesco: "pai", "mãe", "filho", "filha". Nesses casos a relação deve ser registada a seguir à pessoa que corresponde à origem da mesma.
+
+O vocabulário de registo permite o registo de pessoas com uma função que produz automaticamente uma relação. É o caso de pessoas registadas com a função "pai", "mae", "marido", "mulher", etc... Durante o processo de tradução as relações são geradas automaticamente na forma acima, e aparecem nas fichas biográficas dessa forma.
 
 ### Registo do texto integral da referência em obs ###
 
