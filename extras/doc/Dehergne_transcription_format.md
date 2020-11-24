@@ -261,7 +261,7 @@ Resposta: "Repetem-se os registos. Nesses casos deve haver uma entrada do tipo "
 
 ### Cargos e tarefas ligados à ordem ###
 
-Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
+Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$jesuita-cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
 
 Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA` 
 
@@ -465,7 +465,7 @@ Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
 
 * Quando se usa `xmesmo_que`tem de se ter o cuidado de registar corretamente o id destino, porque o tradutor não tem modo de verificar se ele existe ou não. Se não existir será um gerado um erro durante a importação do ficheiro para a base de dados, porque o sistema tentará agregar as informações biográficas de uma ocorrência inexistente.
 
-* Por outro lado, mesmo que se registe corretamente o id destino, pode acontecer que um erro seja gerado na primeira importação dos ficheiros com essa informação, se o ficheiro com o `xmesmo_que`for importado antes da primeira importanção do ficheiro que tem a ocorrência com o id destino. Esse erro já não ocorrerá em importações posteriores, mas causa por vezes confusão quando aparece.
+* Por outro lado, mesmo que se registe corretamente o id destino, pode acontecer que um erro seja gerado na primeira importação dos ficheiros com essa informação, se o ficheiro com o `xmesmo_que`for importado antes da primeira importação do ficheiro que tem a ocorrência com o id destino. Esse erro já não ocorrerá em importações posteriores, mas causa por vezes confusão quando aparece.
 
 * Por estas razões normalmente só se usa `xmesmo_que` para anotar re-ocorrências de pessoas relevantes, cujo id seja fácil de memorizar e que apareçam várias vezes (é o caso do Imperador Kangxi, potencialmente). O id fica registado num ficheiro que tem um estatuto preferencial, por exemplo um ficheiro de VIPs. E os outros ficheiros remetem para o id nesse com `xmesmo_que`.
 
