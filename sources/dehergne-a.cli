@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=38
+kleio$gacto2.str/translations=42
    fonte$dehergne-A/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra A - Entradas relacionadas com Coimbra.
 
       lista$dehergne-notices-a/0/0/0
@@ -65,7 +65,7 @@ kleio$gacto2.str/translations=38
             ls$nascimento/Arcos, diocese de Coimbra/17281229
             ls$jesuita-entrada/?/1750000#cerca de
             ls$jesuita-votos/4V/17630202
-            ls$jesuita-votos-local/Roma%in sacristia collegii Anglicani
+            ls$jesuita-votos-local/Roma (in sacristia collegii Anglicani)/17630202
             ls$dehergne/22/obs=Almeida (Almeyda), José de (port.) (III) P. 22 N. 29 déc. 1728, Arcos, d. de Coïmbre (si c'est bien lui). E. vers 1750 pour la mission de Chine (Lus. 49, 87 et 103). W p. 427 cite un Joseph de Almeida, novice de seconde année destiné à la Chine en 1753. Nous ignorons s'il est arrivé en Chine et ce qu'il y a fait. V. d'un P. J. de Almeida
 
          n$José Bernardo de Almeida/id=deh-jose-bernardo-de-almeida
@@ -77,7 +77,7 @@ kleio$gacto2.str/translations=38
             ls$jesuita-entrada/Lisboa#Arroios/17460223
             ls$embarque/?/17550000#entre 1755 e 1758, não padre
             ls$embarque/?/17580000#entre 1755 e 1758, não padre
-            ls$wicky/2099/obs= hama-lhe João Bernardo de Almeida
+            ls$wicky/2099/obs=chama-lhe João Bernardo de Almeida
             ls$estadia/China/17590513
             ls$estadia/Pequim/1759
             ls$cargo/Presidente do Tribunal da Matemática de Pequim/1779#?
@@ -98,9 +98,10 @@ kleio$gacto2.str/translations=38
             ls$embarque/Chagas/15680407
             ls$wicky/117
             ls$estadia/Goa/15681200
-            ls$estadia/Cochim/obs= feito prisioneiro na região de Cochim
-            ls$estadia/Macau/15720000/obs= manda abrir em Macau uma escola elementar
-            ls$estadia/Macau/15730617/obs= deixa Macau depois desta data para o Japão
+            ls$estadia/Cochim/obs=feito prisioneiro na região de Cochim
+            ls$estadia/Macau/15720000
+            ls$jesuita-tarefa/Manda abrir uma escola elementar/15720000
+            ls$partida/Japão/15730617
             ls$jesuita-votos/4V/15600609#ou 15600611
             ls$jesuita-votos-local/Coimbra/15600609#ou 15600611
             ls$morte/no caminho da China para o Japão/15730700/obs= morre afogado com quatro companheiros no caminho da China para o Japão
@@ -121,8 +122,11 @@ kleio$gacto2.str/translations=38
             ls$estadia/Macau/16850000
             ls$estadia/Tsinan fou, Shantung#Talvez Jinan - antigo Tsinan - na região de Shandong?/16910000
             ls$estadia/Chengting fou, Hopei/16920000
-            ls$estadia/Fukien#Fujian?/16930000/obs=D. João V chegará a propô-lo como bispo de Foochow, mas o papa recusa criar nova diocese
-            ls$embarque/para a Europa/16940000/obs=para defender os bispos portugueses
+            ls$estadia/Fukien#Fujian?/16930000
+            ls$tarefa/proposto bispo de Foochow por D. João V, o papa recusa criar nova diocese
+            ls$partida/Europa/16940000
+            ls$cargo/Procurador/16940000
+            ls$tarefa/Defende os bispos portugueses na Europa/16940000#depois de
             ls$estadia/Roma/16950800
             ls$estadia/Portugal
             ls$embarque/?/16990000
@@ -137,8 +141,10 @@ kleio$gacto2.str/translations=38
             ls$estadia/Goa/17140000
             ls$jesuita-cargo/Vice-provincial do Japão/17190000/obs=durante a doença do P. João Pereira
             ls$jesuita-cargo/Vice-provincial do Japão/17200000/obs=durante a doença do P. João Pereira
-            ls$embarque/para a Europa/17220000/obs=chamado em 1722, depois desta data
-            ls$estadia/Lisboa/17251001
+            rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=17190000/obs=durante a doença deste
+            rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=12090000/obs=durante a doença deste
+            ls$partida/Europa/17220000#chamado em 1722, depois desta data
+            ls$chegada/Lisboa/17251001
             ls$jesuita-ordenacao-padre/?/16820000#cerca de
             ls$jesuita-votos/4V/16910815
             ls$morte/Coimbra/17301214
@@ -146,17 +152,16 @@ kleio$gacto2.str/translations=38
             ls$dehergne/33/obs=JEAN V, roi de Portugal, le propose, 9 oct. 1711, comme évêque de Foochow (Fou-tcheou) Fukien., le Pape refuse de créer ce nouveau diocèse (SF V, 714)., 1714, de retour à Goa, il laisse le P. José MONTEIRO comme vice-provincial du Japon., est de nouveau vice-provincial du Japon 1719-20 pendant la maladie du P. João PEREIRA. Rappelé en Europe, 1722, arr. Lisbonne 1 oct. 1725. M. 14 déc. 1730, Coïmbre (HS 50, 129v). Pf. 462., DHGE (E. M. Rivière). JEAN V, roi de Portugal, lui intime, 27 mars 1715 «ne decreta -romana- circa ritus in terris regis Lusit. publicentur- (JS 178, 433), Sa Description de Macao, À Vatic. Miro 114, Revisto JRC 13-6-2020
 
             referido$João V/id=deh-joao-v-ref1
+               rel$eclesiastica/propõe como bispo de Foochow/Miguel do Amaral/deh-miguel-do-amaral
                ls$titulo/Dom
                ls$titulo/Rei de Portugal
 
             referido$José Monteiro/id=deh-jose-monteiro-ref2/obs=Dehergne 563
-               rel$institucional/substitui/Miguel do Amaral/deh-miguel-do-amaral/data=17140000# durante seis meses segundo a entrada de Monteiro
+               rel$institucional/substitui/Miguel do Amaral/deh-miguel-do-amaral/data=17140000/obs=durante seis meses segundo a entrada de Monteiro
                ls$jesuita-estatuto/Padre
-               ls$jesuita-cargo/Vice-provincial do Japão/17140000/obs= a partir de, durante seis meses segundo a entrada de Monteiro
+               ls$jesuita-cargo/Vice-provincial do Japão/17140000/obs=a partir de, durante seis meses segundo a entrada de Monteiro
 
             referido$João Pereira/id=deh-joao-pereira-ref3/obs=Dehergne 621
-               rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=17190000/obs= durante a doença deste
-               rel$institucional/substitui/João Pereira/deh-joao-pereira-ref3/data=12090000/obs= durante a doença deste
                ls$jesuita-estatuto/Padre
                ls$jesuita-cargo/Vice-provincial do Japão/17190000/obs=antes desta data, ficou doente e foi substituído por Miguel do Amaral
 
