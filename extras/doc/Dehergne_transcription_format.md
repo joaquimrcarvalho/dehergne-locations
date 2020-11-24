@@ -418,6 +418,63 @@ Assim na primeira entrada, de António de Abreu ficaria:
 
 Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
 
+
+### Assinalar que dois registos dizem respeito à mesma pessoa ###
+
+Acontece que informações referentes à mesma pessoa aparecem em pontos diferentes das fontes. Nesses casos são feitos diferentes registos, no mesmo ficheiro, ou em ficheiros separados, de informação sobre a mesma pessoa histórica.  Na terminologia do Timelink dizemos que a mesma _pessoa real_  têm várias _ocorrências_ na(s) fonte(s).
+
+Embora seja possível registar no interface da base de dados que duas ou mais _ocorrências_ dizem respeito à mesma pessoa, agregando as informações na biografia da _pessoa real_, também é possível fazer essa identificação no momento do registo da fonte, usando o atributo `mesmo_que` ou `xmesmo_que` no registo da pessoa. Em ambas variantes o valor do atributo é o `id` da pessoa que se pretende identificar como sendo a mesma. 
+
+A primeira forma é usada para assinalar que uma ocorrência corresponde à mesma pessoa que outra _no mesmo ficheiro_, enquanto a segunda forma serve para assinalar uma identificação entre duas ocorrências em ficheiros diferentes. 
+
+Exemplo de duas ocorrências referentes à mesma pessao em ficheiros diferentes:
+
+    No ficheiro dehergne-m.cli
+
+    referido$K'ang Hi/id=deh-kang-hi-ref4
+        /obs=imperador Kangxi ofereceu epitáfio a Magalhães
+        ls$titulo/Imperador da China
+
+    No ficheiro dehergne.cli também há uma referência a Kangxi
+
+    referido$K'Ang Hi/id=deh-kang-hi-ref2
+        /obs=imperador Kangxi
+        ls$titulo/Imperador da China
+
+Podemos assinalar que ambas as referências dizem respeito à mesma pessoa do seguinte modo:
+
+    No ficheiro dehergne.cli mantemos o id, mas numa forma mais fácil de recordar para o caso de mais tarde aparecer outra referência
+
+    referido$K'Ang Hi/id=deh-kang-hi
+        /obs=imperador Kangxi
+        ls$titulo/Imperador da China
+
+    No ficheiro dehergne-m.cli usamos o atributo xmesmo_que em vez de id
+
+    referido$K'ang Hi/xmesmo_que=deh-kangxi
+        /obs=imperador Kangxi ofereceu epitáfio a Magalhães
+        ls$titulo/Imperador da China
+
+Assim o significado de `xmesmo_que=deh-kangxi` é: "esta pessoa é a mesma que noutro ficheiro aparece com o id `deh-kangxi`" 
+
+Como dito acima sem em vez de `xmesmo_que` tivessemos escrito `mesmo_que` o tradutor tentaria verificar se no mesmo ficheiro existia de facto uma pessoa com id `deh-kangxi` e assinalaria erro se não a encontrasse.
+
+Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
+
+* Não é de forma nenhuma requerido que todas as ocorrências da mesma pessoa sejam identificadas deste modo. Esta é uma notação opcional. A razão disso é que na maior parte das aplicações do `TimeLink` só é possível saber quem é quem _depois_ de recolher muitas informações, e por isso não é pratico tentar identificar durante o registo.
+
+* Quando se usa `xmesmo_que`tem de se ter o cuidado de registar corretamente o id destino, porque o tradutor não tem modo de verificar se ele existe ou não. Se não existir será um gerado um erro durante a importação do ficheiro para a base de dados, porque o sistema tentará agregar as informações biográficas de uma ocorrência inexistente.
+
+* Por outro lado, mesmo que se registe corretamente o id destino, pode acontecer que um erro seja gerado na primeira importação dos ficheiros com essa informação, se o ficheiro com o `xmesmo_que`for importado antes da primeira importanção do ficheiro que tem a ocorrência com o id destino. Esse erro já não ocorrerá em importações posteriores, mas causa por vezes confusão quando aparece.
+
+* Por estas razões normalmente só se usa `xmesmo_que` para anotar re-ocorrências de pessoas relevantes, cujo id seja fácil de memorizar e que apareçam várias vezes (é o caso do Imperador Kangxi, potencialmente). O id fica registado num ficheiro que tem um estatuto preferencial, por exemplo um ficheiro de VIPs. E os outros ficheiros remetem para o id nesse com `xmesmo_que`.
+
+* A variante `mesmo_que` normalmente é usada quando a mesma pessoa aparece mais que uma vez numa fonte, normalmente em pontos próximos. Uma utilização típica é em batismos de gémeos, em que se registam dois batismos cujos pais são os mesmos. Não são normalmente pessoas importantes, mas é util registar nesse momento que são as mesmas pessoas porque mais tarde pode não ser claro. 
+
+
+
+
+
 ### Configurações e atalhos úteis no Visual Studio Code ###
 
 #### Comandos do teclado ###
