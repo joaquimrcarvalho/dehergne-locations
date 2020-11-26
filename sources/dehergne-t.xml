@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-t.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-11-18 15:25:1" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-t.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-11-25 23:7:8" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -113,9 +113,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-antonio-taborda-att1-7" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="deh-antonio-taborda-att1-8" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att1-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att1-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -126,16 +126,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att1-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att1-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att2-7" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="deh-antonio-taborda-att2-8" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att2-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att2-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -146,16 +146,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att2-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att2-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att3-7" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="deh-antonio-taborda-att3-8" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att3-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att3-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -168,16 +168,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16900223]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att3-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att3-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900223]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att4-7" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="deh-antonio-taborda-att4-8" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att4-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att4-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -190,16 +190,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17070917]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att4-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att4-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17070917]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att5-7" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="deh-antonio-taborda-att5-8" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att5-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att5-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -212,16 +212,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17140412]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att5-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att5-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17140412]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att6-7" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="deh-antonio-taborda-att6-8" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att6-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att6-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -232,16 +232,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[1582]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att6-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att6-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att7-7" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="deh-antonio-taborda-att7-8" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att7-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att7-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -255,16 +255,16 @@
          <core><![CDATA[17170000]]></core>         <comment><![CDATA[marcado da vice-província da China, mas nunca entrou na missão por causa de uma enfermidade e foi mandado para Goa com autorização dos superiores]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att7-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att7-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17170000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att8-7" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="deh-antonio-taborda-att8-8" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att8-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att8-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -277,16 +277,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att8-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att8-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att9-7" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="deh-antonio-taborda-att9-8" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att9-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att9-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -299,16 +299,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17250202]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att9-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att9-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17250202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att10-7" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="deh-antonio-taborda-att10-8" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att10-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att10-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -321,16 +321,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17250202]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att10-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att10-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17250202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att11-7" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
+<GROUP ID="deh-antonio-taborda-att11-8" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att11-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att11-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -343,16 +343,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17420422]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att11-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att11-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17420422]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antonio-taborda-att12-7" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="20">
+<GROUP ID="deh-antonio-taborda-att12-8" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att12-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-taborda-att12-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-taborda</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -365,7 +365,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Taborda, Antonio (port.) P. 820 N. « ex oppido Arzilha », dioc. de Coïmbre, 23 févr. 1690 (JS 25, 280v). E. Evora 17 sept. 1707 (le 7 sept, dit JS 134, 435). Emb. 12 avril 1714 (W 1582). En 1717, marqué de la vice-province de Chine (JS 25, 274v) mais «nunquam ingressus missionem ob infirmitatem et ivit Goam superiorum permissu» (JS 134, 435)., en 1740, à la maison professe de Goa, «ex vice-prov. Sinica» (Goa 27, 166). V. 2 févr. 1725, pr. Goa (Lus. 14, 270) M. 22 avril 1742, Goa (HS 53, 7 : P. Ant. « Tahorda »).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antonio-taborda-att12-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-antonio-taborda-att12-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-antonio-taborda]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -381,7 +381,7 @@
     <ELEMENT NAME="order" CLASS="order"><core>17</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
-         <core><![CDATA[Leonardo teixeira]]></core>   </ELEMENT>
+         <core><![CDATA[Leonardo Teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="sex" CLASS="sex">
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
@@ -401,29 +401,29 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-t-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-leonardo-teixeira-att13-7" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
+<GROUP ID="deh-leonardo-teixeira-att13-8" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att13-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att13-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[naiconalidade]]></core>   </ELEMENT>
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att13-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att13-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att14-7" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
+<GROUP ID="deh-leonardo-teixeira-att14-8" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att14-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att14-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -434,16 +434,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att14-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att14-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att15-7" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
+<GROUP ID="deh-leonardo-teixeira-att15-8" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att15-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att15-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -454,16 +454,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[K'iu Leang-Tao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att15-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att15-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att16-7" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
+<GROUP ID="deh-leonardo-teixeira-att16-8" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att16-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att16-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -474,16 +474,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Kin]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att16-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att16-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att17-7" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
+<GROUP ID="deh-leonardo-teixeira-att17-8" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att17-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att17-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -496,16 +496,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16700000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att17-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att17-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16700000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att18-7" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
+<GROUP ID="deh-leonardo-teixeira-att18-8" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att18-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att18-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -518,16 +518,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16860303]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att18-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att18-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16860303]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att19-7" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
+<GROUP ID="deh-leonardo-teixeira-att19-8" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att19-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att19-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -541,16 +541,16 @@
          <core><![CDATA[16900408]]></core>         <comment><![CDATA[não padre]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att19-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att19-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16900408]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att20-7" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="29">
+<GROUP ID="deh-leonardo-teixeira-att20-8" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="29">
     <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att20-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att20-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -563,16 +563,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16960000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att20-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att20-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16960000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att21-7" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="30">
+<GROUP ID="deh-leonardo-teixeira-att21-8" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att21-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att21-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -585,16 +585,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16970000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att21-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att21-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16970000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att22-7" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="31">
+<GROUP ID="deh-leonardo-teixeira-att22-8" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="31">
     <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att22-7</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att22-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -608,16 +608,16 @@
          <core><![CDATA[16990000]]></core>         <comment><![CDATA[sai da Companhia c. 1704]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att22-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att22-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16990000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-leonardo-teixeira-att23-7" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="31">
-    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att23-7</core></ELEMENT>
+<GROUP ID="deh-leonardo-teixeira-att23-8" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="32">
+    <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-leonardo-teixeira-att23-8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-leonardo-teixeira</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -630,7 +630,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Telxelra (Teixeyra), Leonardo (port.) P. 836 K'iu Leang-Tao (Pf.., JS 187, 4v le nomme Kin). N. Chaves, 1670, «Lusitanus Transmontanus» (JS 25, 236v). E. 3 mars 1686, Coïmbre. Emb. non prêtre le 8 avril 1690 (W 1281)., le catal. Japon le dit parti dans la mission de Chine en 1696 (JS 25, 233v)., en 1697, au Siam, où devient supérieur en 1699 (M 851, 299., AHSI 22 (1953), 202). Il sort de la Compagnie (JS 19, 190, lettre de 1704). Pf. 484., BEM 1969, 271.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-leonardo-teixeira-att23-7]]></core>   </ELEMENT>
+         <core><![CDATA[deh-leonardo-teixeira-att23-8]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-leonardo-teixeira]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
