@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-11-30 19:53:36" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-11-30 20:6:15" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -16768,12 +16768,8 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Paris]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[17010000]]></core>         <comment><![CDATA[est demandé et destiné à la Chine pour le Séminaire que les Jésuites français voulaient fonder à Nankin (PRO SP 9]]></comment>
+         <core><![CDATA[17010000]]></core>         <comment><![CDATA[est demandé et destiné à la Chine pour le Séminaire que les Jésuites français voulaient fonder à Nankin (PRO SP 9-239-38)., mais Mgr Cicero, évêque de Nankin, s'y oppose]]></comment>
    </ELEMENT>
-   <ELEMENT NAME="UNDEFINED" CLASS="undef">
-         <core><![CDATA[239]]></core>   </ELEMENT>
-   <ELEMENT NAME="UNDEFINED" CLASS="undef">
-         <core><![CDATA[239]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-pierre-amys-att658-60]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
