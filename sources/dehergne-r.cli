@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=19
+kleio$gacto2.str/translations=20
    fonte$dehergne-r/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra R
 
       lista$dehergne-notices-r/0/0/0
@@ -32,8 +32,7 @@ kleio$gacto2.str/translations=19
             ls$jesuita-entrada/Coimbra/16931030
             ls$embarque/para a China/16950000#ou 16960000, não padre
             ls$wicky/1353
-            ls$estadia/Goa/16950000
-            ls$jesuita-estatuto/Noviço/16950000
+            ls$estadia/Goa/16950000#Noviço
             ls$estadia/Macau/16970000
             ls$estadia/Hainan/17110000
             ls$estadia/Lui-tcheou/17120000
@@ -48,6 +47,7 @@ kleio$gacto2.str/translations=19
             referido$Miguel Ribeyro/id=deh-miguel-ribeyro-ref1/obs=Dehergne pergunta se será ele ou se será Manuel Ribeiro Júnior, que esteve na mesma província
                ls$estadia/Lui-cheu#Leizhou?/17120000
                ls$estadia/Lui-cheu/17240000
+               ls$dehergne/679-ref/obs=Serait-ce le missionnaire de « Lui-cheu » qui, en 1724, signe ou est appelé Miguel Ribeyro (AN: K 1375 n» 177)? et y réside en 1712 (JS 25, 267v). Cf. le suivant.
 
             referido$Manuel Ribeiro, junior/id=deh-manuel-ribeiro-junior-ref1/obs=Dehergne 680, na entrada 679 pergunta se Miguel Ribeyro poderá ser ele
                ls$estadia/Lui-cheu/17240000/obs=segundo a entrada de Manuel Ribeiro Junior
@@ -59,11 +59,12 @@ kleio$gacto2.str/translations=19
             ls$nascimento/Mortágua, diocese de Coimbra/17290202#ou 17290203
             ls$grau-academico/Mestre em Artes
             ls$jesuita-entrada/Lisboa (Arroios)/17450423
-            ls$embarque/Lisboa/17540000
+            ls$estadia/Lisboa/17540000
+            ls$embarque/?/17540000
             ls$wicky/2071
-            ls$estadia/Pequim/17590513
+            ls$chegada/Pequim/17590513
             ls$profissao/Astrónomo
-            ls$cargo/Vice-presidente do Tribunal da Matemática de Pequim
+            ls$cargo/Vice-presidente do Tribunal da Matemática de Pequim/17750000
             ls$cargo/Presidente do Tribunal da Matemática de Pequim
             ls$jesuita-cargo/Mestre dos noviços/17670000
             ls$jesuita-ordenacao-padre/?/17490000#entre esta data e 17540000
@@ -79,13 +80,13 @@ kleio$gacto2.str/translations=19
             ls$jesuita-estatuto/Padre
             ls$nascimento/Montemor-o-Novo, diocese de Évora/15750000#cerca de
             ls$jesuita-entrada/?/15920000
-            ls$embarque/?/15960410
+            ls$embarque/?/15960410#não padre
             ls$wicky/354
-            ls$estadia/Macau/15970720
-            ls$estadia/Chao-tcheou/16050000
-            ls$estadia/Nan-tch'ang fou/16090515#data de partida
+            ls$chggada/Macau/15970720
+            ls$estadia/Chao-tcheou/16050100
+            ls$estadia/Nan-tch'ang fou/16090515#até
             ls$partida/Macau/16090515#parte de
-            ls$estadia/Macau/16091021
+            ls$chegada/Macau/16091021
             ls$jesuita-cargo/Visitador/16190000
             ls$jesuita-cargo/Visitador/16210000
             ls$jesuita-ordenacao-padre/?/16040000
@@ -97,17 +98,21 @@ kleio$gacto2.str/translations=19
             referido$Jerónimo Rodrigues/id=deh-jeronimo-rodrigues-ref1
                ls$jesuita-estatuto/Padre
                ls$estadia/Japão
+               ls$dehergne/704-ref1/obs=Il y a quatre jésuites de ce nom contemporains en Extrême-Orient: un au Japon., un en Chine., un aux Moluques (AHSI I, 1932, 244 n. 32), et celui que cite Franco, Imagern ... Coîmbre II, 553.
 
             referido$Jerónimo Rodrigues/id=deh-jeronimo-rodrigues-ref2
                ls$jesuita-estatuto/Padre
                ls$estadia/China
+               ls$dehergne/704-ref2/obs=Il y a quatre jésuites de ce nom contemporains en Extrême-Orient: un au Japon., un en Chine., un aux Moluques (AHSI I, 1932, 244 n. 32), et celui que cite Franco, Imagern ... Coîmbre II, 553.
 
             referido$Jerónimo Rodrigues/id=deh-jeronimo-rodrigues-ref3
                ls$jesuita-estatuto/Padre
                ls$estadia/Molucas
+               ls$dehergne/704-ref3/obs=Il y a quatre jésuites de ce nom contemporains en Extrême-Orient: un au Japon., un en Chine., un aux Moluques (AHSI I, 1932, 244 n. 32), et celui que cite Franco, Imagern ... Coîmbre II, 553.
 
             referido$Jerónimo Rodrigues/id=deh-jeronimo-rodrigues-ref4/obs=«celui que cite Franco, Imagern ... Coîmbre II, 553»
                ls$jesuita-estatuto/Padre
+               ls$dehergne/704-ref4/obs=Il y a quatre jésuites de ce nom contemporains en Extrême-Orient: un au Japon., un en Chine., un aux Moluques (AHSI I, 1932, 244 n. 32), et celui que cite Franco, Imagern ... Coîmbre II, 553.
 
          n$João Rodrigues de Sainan/id=deh-joao-rodrigues-de-sainan/obs=REVER é possível que todos estes dados não se refiram ao mesmo, mas Dehergne é pouco claro
             ls$nacionalidade/Portugal
@@ -137,8 +142,9 @@ kleio$gacto2.str/translations=19
             ls$nascimento/Alcochete, diocese de Lisboa
             ls$jesuita-entrada/Coimbra/15761216
             ls$embarque/Santiago/15830408#não padre
-            ls$estadia/Japão/15860000
+            ls$chegada/Japão/15860000
             ls$estadia/Macau/16140000/obs=Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615,
+            ls$jesuita-tarefa/Assina carta anual da China/16150220
             ls$estadia/Macau/16270000
             ls$jesuita-ordenacao-padre/?/15850000#cerca de
             ls$jesuita-votos/Coadjutor Espiritual/15990000
@@ -156,7 +162,7 @@ kleio$gacto2.str/translations=19
             ls$jesuita-entrada/Coimbra/16940130
             ls$embarque/para a China/16950000#não padre
             ls$wicky/1354
-            ls$estadia/China/16950000
+            ls$chegada/China/16950000#noviço
             ls$estadia/China/17020000#até? il n'est plus au catal. de 1702
             ls$estudos/Teologia Moral/16990000
             ls$dehergne/713/obs=Rodrigues, Matias (port.) scol. 713 N. Coïmbre, 1675 -E. 30 janv. 1694, Coïmbre {JS 134, 383). Emb. (non prêtre) pour la Chine, 1695 (W 1354), arr. en Chine, novice, 1695 (JS 134, 378v). Pf. 485. Il n'est plus au catal. de 1702. Goa 25, 364 le dit N. à Espinhel, 1677, E. 1694, Coïmbre., en 1699, il étudie la théologie morale.
@@ -164,11 +170,10 @@ kleio$gacto2.str/translations=19
          n$Pero Rodrigues/id=deh-pero-rodrigues
             ls$nacionalidade/China
             ls$jesuita-estatuto/Padre
-            ls$nascimento/China%« Lusitanus in China natus » (Macao?)/15680000
+            ls$nascimento/China%«Lusitanus in China natus» (Macao?)/15680000
             ls$estadia/Arima (seminário)/15830000
-            ls$estudos/Seminário de Arima/15830000
             ls$jesuita-entrada/?/15951004
-            ls$residencia/Japão%Travaille au Japon
+            ls$estadia/Japão%Travaille au Japon
             ls$morte/Arima/16111200
             ls$dehergne/717/obs=Rodrigues, Pero (macaïste?) P. 717 N. «Lusitanus in China natus» (Macao?), 1568 -En 1583, était au Séminaire d'Arima (JS 25, 17) -E. 4 oct. 1595., M. déc. 1611 à Arima (Schutte, 999). Travaille au Japon. Ne pas le confondre avec un autre missionnaire des Indes, le P. Pero Rodrigues (port.) emb. le 4 avril 1591 sur le S. Cristovão (W 312) qui fit ses V. de pr. à Coïmbre le 13 janv. 1591 (Lus. 2, 56).
 
@@ -180,3 +185,4 @@ kleio$gacto2.str/translations=19
                ls$jesuita-votos/4V/15910113
                ls$jesuita-votos-local/Coimbra/15910113
                ls$estadia/Índia%missionnaire des Indes
+               ls$dehergne/717-ref/obs=Ne pas le confondre avec un autre missionnaire des Indes, le P. Pero Rodrigues (port.) emb. le 4 avril 1591 sur le S. Cristovâo (W 312) qui fit ses V. de pr. à Coïmbre le 13 janv. 1591 (Lus. 2, 56).
