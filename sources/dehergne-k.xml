@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-k.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-12-23 12:31:40" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-k.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-12-30 12:50:43" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -113,9 +113,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-philippe-stanislas-kang-att1-10" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="deh-philippe-stanislas-kang-att1-11" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att1-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att1-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -126,16 +126,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[China]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att1-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att1-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att2-10" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="deh-philippe-stanislas-kang-att2-11" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att2-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att2-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -144,18 +144,18 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Noviço]]></core>   </ELEMENT>
+         <core><![CDATA[Noviço Escolástico]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att2-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att2-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att3-10" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="deh-philippe-stanislas-kang-att3-11" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att3-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att3-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -166,16 +166,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Kang]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att3-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att3-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att4-10" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="deh-philippe-stanislas-kang-att4-11" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att4-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att4-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -186,16 +186,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Cang]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att4-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att4-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att5-10" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="deh-philippe-stanislas-kang-att5-11" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att5-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att5-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -208,16 +208,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17270530]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att5-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att5-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17270530]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att6-10" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="deh-philippe-stanislas-kang-att6-11" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att6-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att6-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -230,16 +230,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att6-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att6-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att7-10" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="deh-philippe-stanislas-kang-att7-11" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att7-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att7-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -250,16 +250,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Colégio Louis-le-Grand]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att7-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att7-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att8-10" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="deh-philippe-stanislas-kang-att8-11" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att8-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att8-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -273,16 +273,16 @@
          <core><![CDATA[17481029]]></core>         <comment><![CDATA[depois dos seus estudos]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att8-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att8-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17481029]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att9-10" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="deh-philippe-stanislas-kang-att9-11" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att9-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att9-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -296,16 +296,16 @@
          <core><![CDATA[17491229]]></core>         <comment><![CDATA[até]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att9-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att9-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att10-10" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="deh-philippe-stanislas-kang-att10-11" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att10-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att10-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -318,16 +318,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att10-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att10-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-rel1-10" NAME="rel" CLASS="relation" ORDER="15" LEVEL="4" LINE="18">
+<GROUP ID="deh-philippe-stanislas-kang-rel1-11" NAME="rel" CLASS="relation" ORDER="15" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rel1-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rel1-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -344,16 +344,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-rel1-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-rel1-11]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-rel2-10" NAME="rel" CLASS="relation" ORDER="16" LEVEL="4" LINE="19">
+<GROUP ID="deh-philippe-stanislas-kang-rel2-11" NAME="rel" CLASS="relation" ORDER="16" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rel2-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rel2-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -370,16 +370,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-rel2-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-rel2-11]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17491229]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att11-10" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
+<GROUP ID="deh-philippe-stanislas-kang-att11-11" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att11-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att11-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -392,16 +392,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17500624]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att11-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att11-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17500624]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-att12-10" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="22">
+<GROUP ID="deh-philippe-stanislas-kang-att12-11" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att12-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-att12-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -414,126 +414,20 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[K'ang, PMippe-Stanislas (chin.) nov. scol. 424 Kang {Franc. Catal. 1751, p. 37)., Cang (LE XXVIII (1758), p. LXXI). N. Pékin, 30 mai 1727 (registre des novices, BN: ms. lat. 10988). Parti avec Foureau en 1740 pour le collège Louis-le-Grand à Paris, il entre au noviciat après ses études, 29 oct. 1748, Paris (Fr.). Emb. à Lorient sur le Villeflix avec Amiot et Lieou, 29 déc. 1749 (AN: Col. F5B 49). M. le 24 juin 1750, en mer, en route vers la Chine (HS 53a, 68., Franc. 28, 74). Pf. 861.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-philippe-stanislas-kang-att12-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-philippe-stanislas-kang-att12-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-philippe-stanislas-kang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-regis-lieou-ref1" NAME="referido" CLASS="person" ORDER="19" LEVEL="4" LINE="23">
+<GROUP ID="deh-pierre-foureau-ref1" NAME="referido" CLASS="person" ORDER="19" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="nome" CLASS="name">
-         <core><![CDATA[Jean-Régis-Lieou]]></core>   </ELEMENT>
-   <ELEMENT NAME="xmesmo_que" CLASS="undef">
-         <core><![CDATA[deh-jean-regis-lieou]]></core>   </ELEMENT>
-   <ELEMENT NAME="sex" CLASS="sex">
-         <core><![CDATA[m]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-philippe-stanislas-kang-rela2" NAME="relation"  ORDER="20" LEVEL="5" CLASS="relation" LINE="23">
-    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
-    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>20</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
-    <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
-    <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-k</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela2</core></ELEMENT>
-    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
-</GROUP>
-<GROUP ID="deh-jean-regis-lieou-ref1-att13-10" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="5" LINE="25">
-    <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-regis-lieou-ref1-att13-10</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>22</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[embarque]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Villeflix]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[17491229]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-regis-lieou-ref1-att13-10]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-jean-regis-lieou-ref1]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[17491229]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-jean-joseph-marie-amiot-ref2" NAME="referido" CLASS="person" ORDER="23" LEVEL="4" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>23</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="nome" CLASS="name">
-         <core><![CDATA[Jean-Joseph-Marie Amiot]]></core>   </ELEMENT>
-   <ELEMENT NAME="xmesmo_que" CLASS="undef">
-         <core><![CDATA[deh-jean-joseph-marie-amiot]]></core>   </ELEMENT>
-   <ELEMENT NAME="sex" CLASS="sex">
-         <core><![CDATA[m]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-philippe-stanislas-kang-rela4" NAME="relation"  ORDER="24" LEVEL="5" CLASS="relation" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
-    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>24</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
-    <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
-    <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-k</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela4</core></ELEMENT>
-    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
-</GROUP>
-<GROUP ID="deh-jean-joseph-marie-amiot-ref2-att14-10" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="5" LINE="28">
-    <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-joseph-marie-amiot-ref2-att14-10</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>26</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[embarque]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Villeflix]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[17491229]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-joseph-marie-amiot-ref2-att14-10]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-jean-joseph-marie-amiot-ref2]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[17491229]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-pierre-foureau-ref1" NAME="referido" CLASS="person" ORDER="27" LEVEL="4" LINE="29">
-    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-foureau-ref1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>27</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[Pierre Foureau]]></core>   </ELEMENT>
@@ -543,28 +437,28 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-philippe-stanislas-kang-rela6" NAME="relation"  ORDER="28" LEVEL="5" CLASS="relation" LINE="29">
-    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
+<GROUP ID="deh-philippe-stanislas-kang-rela2" NAME="relation"  ORDER="20" LEVEL="5" CLASS="relation" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-foureau-ref1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>28</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>20</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-pierre-foureau-ref1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-k</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela6</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-pierre-foureau-ref1-rel3-10" NAME="rel" CLASS="relation" ORDER="29" LEVEL="5" LINE="30">
-    <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-foureau-ref1-rel3-10</core></ELEMENT>
+<GROUP ID="deh-pierre-foureau-ref1-rel3-11" NAME="rel" CLASS="relation" ORDER="21" LEVEL="5" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-foureau-ref1-rel3-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-foureau-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>29</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>21</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[sociabilidade]]></core>   </ELEMENT>
@@ -577,20 +471,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-pierre-foureau-ref1-rel3-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-pierre-foureau-ref1-rel3-11]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-pierre-foureau-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-pierre-foureau-ref1-att15-10" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="5" LINE="31">
-    <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-foureau-ref1-att15-10</core></ELEMENT>
+<GROUP ID="deh-pierre-foureau-ref1-att13-11" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="5" LINE="26">
+    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-foureau-ref1-att13-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-foureau-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>30</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>22</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[partida]]></core>   </ELEMENT>
@@ -599,32 +493,122 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-pierre-foureau-ref1-att15-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-pierre-foureau-ref1-att13-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-foureau-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17400000]]></core>   </ELEMENT>
 </GROUP>
 
-<RELATION ID="deh-philippe-stanislas-kang-rela3" ORG="deh-jean-regis-lieou-ref1" DEST="deh-jean-regis-lieou" TYPE="META" VALUE="same_as"/>
-<GROUP ID="deh-philippe-stanislas-kang-rela3" NAME="relation"  ORDER="21" LEVEL="5"  CLASS="relation" LINE="23">
-    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+<GROUP ID="deh-jean-regis-lieou-ref1" NAME="referido" CLASS="person" ORDER="23" LEVEL="4" LINE="27">
+    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>23</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[Jean-Régis-Lieou]]></core>   </ELEMENT>
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
+         <core><![CDATA[deh-jean-regis-lieou]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-philippe-stanislas-kang-rela3" NAME="relation"  ORDER="24" LEVEL="5" CLASS="relation" LINE="27">
+    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>21</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>24</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-    <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
-    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
-    <ELEMENT NAME="destination" CLASS="destination"><core>deh-jean-regis-lieou</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-k</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<RELATION ID="deh-philippe-stanislas-kang-rela5" ORG="deh-jean-joseph-marie-amiot-ref2" DEST="deh-jean-joseph-marie-amiot" TYPE="META" VALUE="same_as"/>
-<GROUP ID="deh-philippe-stanislas-kang-rela5" NAME="relation"  ORDER="25" LEVEL="5"  CLASS="relation" LINE="26">
-    <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
+<GROUP ID="deh-jean-regis-lieou-ref1-att14-11" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="5" LINE="29">
+    <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-regis-lieou-ref1-att14-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>26</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[embarque]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Villeflix]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17491229]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-jean-regis-lieou-ref1-att14-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-jean-regis-lieou-ref1]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17491229]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-jean-joseph-marie-amiot-ref2" NAME="referido" CLASS="person" ORDER="27" LEVEL="4" LINE="30">
+    <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>27</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="nome" CLASS="name">
+         <core><![CDATA[Jean-Joseph-Marie Amiot]]></core>   </ELEMENT>
+   <ELEMENT NAME="xmesmo_que" CLASS="undef">
+         <core><![CDATA[deh-jean-joseph-marie-amiot]]></core>   </ELEMENT>
+   <ELEMENT NAME="sex" CLASS="sex">
+         <core><![CDATA[m]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-philippe-stanislas-kang-rela5" NAME="relation"  ORDER="28" LEVEL="5" CLASS="relation" LINE="30">
+    <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>28</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-k</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela5</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
+</GROUP>
+<GROUP ID="deh-jean-joseph-marie-amiot-ref2-att15-11" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="5" LINE="32">
+    <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-joseph-marie-amiot-ref2-att15-11</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>30</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[embarque]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Villeflix]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17491229]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-jean-joseph-marie-amiot-ref2-att15-11]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-jean-joseph-marie-amiot-ref2]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17491229]]></core>   </ELEMENT>
+</GROUP>
+
+<RELATION ID="deh-philippe-stanislas-kang-rela4" ORG="deh-jean-regis-lieou-ref1" DEST="deh-jean-regis-lieou" TYPE="META" VALUE="same_as"/>
+<GROUP ID="deh-philippe-stanislas-kang-rela4" NAME="relation"  ORDER="25" LEVEL="5"  CLASS="relation" LINE="27">
+    <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -633,8 +617,24 @@
     <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-regis-lieou-ref1</core></ELEMENT>
+    <ELEMENT NAME="destination" CLASS="destination"><core>deh-jean-regis-lieou</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela4</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
+</GROUP>
+<RELATION ID="deh-philippe-stanislas-kang-rela6" ORG="deh-jean-joseph-marie-amiot-ref2" DEST="deh-jean-joseph-marie-amiot" TYPE="META" VALUE="same_as"/>
+<GROUP ID="deh-philippe-stanislas-kang-rela6" NAME="relation"  ORDER="29" LEVEL="5"  CLASS="relation" LINE="30">
+    <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-philippe-stanislas-kang</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>29</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
+    <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-jean-joseph-marie-amiot-ref2</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>deh-jean-joseph-marie-amiot</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela5</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-philippe-stanislas-kang-rela6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP></KLEIO>

@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-q.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-11-26 0:41:23" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-q.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-12-30 11:47:47" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -113,9 +113,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-tiburcio-de-quadros-att1-11" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="deh-tiburcio-de-quadros-att1-12" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att1-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att1-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -126,16 +126,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att1-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att1-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att2-11" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="deh-tiburcio-de-quadros-att2-12" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att2-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att2-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -146,16 +146,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att2-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att2-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att3-11" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="deh-tiburcio-de-quadros-att3-12" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att3-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att3-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -166,16 +166,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[António de Quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att3-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att3-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att4-11" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="deh-tiburcio-de-quadros-att4-12" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att4-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att4-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -186,16 +186,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Tibúrcio Coadros]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att4-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att4-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att5-11" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="deh-tiburcio-de-quadros-att5-12" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att5-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att5-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -209,16 +209,16 @@
          <core><![CDATA[15280000]]></core>         <comment><![CDATA[cerca de]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att5-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att5-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15280000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att6-11" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="deh-tiburcio-de-quadros-att6-12" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att6-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att6-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -231,16 +231,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15440418]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att6-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att6-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15440418]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att7-11" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="deh-tiburcio-de-quadros-att7-12" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att7-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att7-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -253,16 +253,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15550401]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att7-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att7-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15550401]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att8-11" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="deh-tiburcio-de-quadros-att8-12" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att8-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att8-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -273,16 +273,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[43]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att8-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att8-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att9-11" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="deh-tiburcio-de-quadros-att9-12" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att9-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att9-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -295,16 +295,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15550401]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att9-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att9-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15550401]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att10-11" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="deh-tiburcio-de-quadros-att10-12" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att10-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att10-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -317,16 +317,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15560101]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att10-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att10-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15560101]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att11-11" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
+<GROUP ID="deh-tiburcio-de-quadros-att11-12" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att11-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att11-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -339,16 +339,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15560906]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att11-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att11-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15560906]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att12-11" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
+<GROUP ID="deh-tiburcio-de-quadros-att12-12" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att12-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att12-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -361,16 +361,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15590902]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att12-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att12-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15590902]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att13-11" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
+<GROUP ID="deh-tiburcio-de-quadros-att13-12" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att13-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att13-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -383,16 +383,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15721121]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att13-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att13-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15721121]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att14-11" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="21">
+<GROUP ID="deh-tiburcio-de-quadros-att14-12" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="21">
     <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att14-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att14-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -405,16 +405,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Nous le citons à titre de supérieur chargé — aussi — de la Chine. Il est le « second fondateur de la Compagnie aux Indes »]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att14-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att14-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att15-11" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
+<GROUP ID="deh-tiburcio-de-quadros-att15-12" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att15-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att15-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -429,16 +429,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[a caminho da China ou do Japão, mas é forçado a voltar para trás]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att15-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att15-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15650917]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att16-11" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
+<GROUP ID="deh-tiburcio-de-quadros-att16-12" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att16-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att16-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -451,16 +451,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15660000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att16-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att16-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15660000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att17-11" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
+<GROUP ID="deh-tiburcio-de-quadros-att17-12" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att17-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att17-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -471,18 +471,19 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[?]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[15530000]]></core>   </ELEMENT>
+         <core><![CDATA[15530000]]></core>         <comment><![CDATA[antes de]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att17-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att17-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15530000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att18-11" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
+<GROUP ID="deh-tiburcio-de-quadros-att18-12" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att18-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att18-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -497,16 +498,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[na presença de D. João III]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att18-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att18-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15531001]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att19-11" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
+<GROUP ID="deh-tiburcio-de-quadros-att19-12" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att19-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att19-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -519,16 +520,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15531001]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att19-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att19-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15531001]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att20-11" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
+<GROUP ID="deh-tiburcio-de-quadros-att20-12" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att20-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att20-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -541,16 +542,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15721121]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att20-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att20-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15721121]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att21-11" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
+<GROUP ID="deh-tiburcio-de-quadros-att21-12" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att21-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att21-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -563,16 +564,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Quadros, Tibûrcio, puis Antonio de (port.) P. 666 Coadros (DI. XI, 1723). N. Santarém, v. 1528 -E. 18 avril 1544, Coïmbre (Lus. 43, 2): Tiburcius de Quadros. Emb. sur le Santa Maria, 1 avril 1555 (W 43) comme provincial d'Ethiopie. Devient vice-provincial (1 janv. au 6 sept. 1556), puis provincial, des Indes Orientales (2 sept. 1559 à sa mort)., 17 sept. 1565, Malacca, en route vers la Chine ou le Japon., mais il est contraint de rebrousser chemin., 1566, Cochin. P. avant 1553. V. Lisbonne, 1 oct. 1553, en présence du roi Jean III (Ital. 2, 248): Tiburtius de Quadros ». M. 21 nov. 1572, Goa (DI. VIII, 645, 653., son éloge, DI. IX, 759).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att21-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att21-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-tiburcio-de-quadros-att22-11" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="30">
+<GROUP ID="deh-tiburcio-de-quadros-att22-12" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att22-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-att22-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-tiburcio-de-quadros</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -585,7 +586,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Nous le citons à titre de supérieur chargé — aussi — de la Chine. Il est le « second fondateur de la Compagnie aux Indes » (DI. VIII, 645). — Sur l'admission des « mestiços » (ou métis : les eurasiatiques) dans la Compagnie, cf DI. XI, 748. Frois, Geschichte Japatts, 60., AnG, 693-696., Schutte, 993-994., Streit IV, n. 795., DI. III, 861., IV, 913., V, 804., VI, 843., VII, 748,, VIII, 822., XI, 909., XII, 1031. Lach 261, 953.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-tiburcio-de-quadros-att22-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-tiburcio-de-quadros-att22-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-tiburcio-de-quadros]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -621,9 +622,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-tiburcio-de-quadros-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-iii-ref1-att23-11" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="5" LINE="32">
+<GROUP ID="deh-joao-iii-ref1-att23-12" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="5" LINE="32">
     <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att23-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att23-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-iii-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -634,16 +635,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-iii-ref1-att23-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-iii-ref1-att23-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-iii-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-iii-ref1-att24-11" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="5" LINE="33">
+<GROUP ID="deh-joao-iii-ref1-att24-12" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="5" LINE="33">
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att24-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att24-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-iii-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -654,16 +655,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Dom]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-iii-ref1-att24-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-iii-ref1-att24-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-iii-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-iii-ref1-att25-11" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="5" LINE="34">
+<GROUP ID="deh-joao-iii-ref1-att25-12" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="5" LINE="34">
     <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att25-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att25-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-iii-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -674,16 +675,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Rei de Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-iii-ref1-att25-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-iii-ref1-att25-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-iii-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-iii-ref1-att26-11" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="5" LINE="35">
+<GROUP ID="deh-joao-iii-ref1-att26-12" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="5" LINE="35">
     <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att26-11</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-iii-ref1-att26-12</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-iii-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -696,7 +697,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15531001]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-iii-ref1-att26-11]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-iii-ref1-att26-12]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-iii-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
