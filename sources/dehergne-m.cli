@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=49
+kleio$gacto2.str/translations=50
    fonte$dehergne-m/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra M
 
       lista$dehergne-notices-m/0/0/0
@@ -135,7 +135,8 @@ kleio$gacto2.str/translations=49
             ls$chegada/Goa/15860924
             ls$cargo/Reitor de Goa/15860900
             ls$jesuita-cargo/Provincial das Índias Orientais/15860900#ou 15861000 feito por Valignano
-            ls$cargo/Bispo do Japão/15920217
+            ls$cargo/Bispo do Japão/15920217#data de sagração
+            ls$estadia/Goa/15920217
             ls$cargo/Administrador de Macau/15920400/obs=nomeado pelo arcebispo de Goa durante o cativeiro de Mgr de Sá, como [Belchior?] Carneiro e Diogo Valente
             ls$estadia/Macau/15930800
             ls$estadia/Macau/15960700
@@ -143,7 +144,7 @@ kleio$gacto2.str/translations=49
             ls$partida/Macau/15970300
             ls$jesuita-votos/4V/15700423
             ls$jesuita-votos-local/Évora/15700423
-            ls$morte/a caminho de Malaca#40 léguas antes de desembarcar/15980213/obs=morre de febre «calenturas» foi enterrado em Malaca em 15980218
+            ls$morte/a caminho de Malaca#40 léguas antes de desembarcar/15980213#=morre de febre «calenturas» foi enterrado em Malaca em 15980218
             ls$dehergne/524/obs=Martins (Martines), Pedro (port.) Mgr. 524 N. Coïmbre, 1542 -E. à l'âge de 14 ans, 25 mai 1556 (Lus. 43, 18v: Pero Miz), Coïmbre. Docteur le 26 juill. 1573 à Evora. Prédicateur du roi Sébastien, il l'accompagne en Afrique., il y est fait prisonnier à la bataille d'Alcâcer-Quibir. Libéré, vient à Rome en 1584. Emb. sur le Santiago, 13 avril 1585 (W 255)., naufrage près du Mozambique, arr. Goa sur le Bom Jésus, 24 sept. 1586. Recteur à Goa. En sept, ou oct. est fait provincial des Indes orientales (Goa) par Valignano., nommé évêque du Japon, 17 févr. 1592., à Macao, d'août 1593 à juill. 1596., arr. Nagasaki, 14 août 1596., mars 1597, il quitte le Japon pour Macao et les Indes. P. ?., sacré à Goa, 17 févr. 1592. V. Evora, 23 avril 1570, pr. (Lus. 1, 97). M. de fièvre (« calenturas ») à 40 lieues avant de débarquer à Malacca en févr. 1598, et enseveli à Malacca le 18 février (Goa 14, 362)., M. le 13 févr., disent Streit IV, n° 1795, et Verbo.
             ls$dehergne/524/obs=Distinct du P. Pedro Argudo, N. Valence v. 1533, E. Goa, 1565 et M. en 1568, qu'aux Indes on appelait Pedro Martins (DI. VI, 17*). L'évêque était fils de Pedro Afonso M. et de Barbara Fernandes. Il avait été missionnaire à Fez (Maroc) en 1578 et il y fut fait prisonnier des Maures durant près d'un an. Les évêques jésuites Carneiro et Diogo Valente, évêques du Japon, ont été, en fait, supérieurs des missionnaires de Chine. Il en est de même de Mgr Martins nommé par l'archevêque de Goa administrateur de Macao pendant la captivité de Mgr de SA, avril 1592 (Moidrey, 17). Cf Schûtte, Die Wirksatnkeit der Papste fiir Japon .., AHP 5 (Rome 1967), 1-87 du tiré à part. Pf. 74 le nomme seulement., Verbo (Pereira Gomes). Franco, Imagem Coïmbra, I, 275-300., Schutte, 959., João Pereira Gomes, Os professores de Filosofia da Universidade de Evora, Evora, 1960., AnG 82. Cardim, Batailhas, Lisbonne, 1894 p. 5., notes Schutt
 
@@ -159,10 +160,11 @@ kleio$gacto2.str/translations=49
             referido$Pedro Argudo/id=deh-pedro-argudo-ref3
                ls$nacionalidade/Espanha
                ls$jesuita-estatuto/Padre
+               ls$nome/Pedro Martins%aux Indes on l'appelait Pedro Martins
                ls$nascimento/Valença/15330000#cerca de
                ls$jesuita-entrada/Goa/15650000
                ls$morte/?/15680000
-               ls$nome/Pedro Martins%aux Indes on l'appelait Pedro Martins
+               ls$dehergne/524-ref/obs=Distinct du P. Pedro Argudo, N. Valence v. 1533, E. Goa, 1565 et M. en 1568, qu'aux Indes on appelait Pedro Martins (DI. VI, 17*).
 
             referido$Belchior Carneiro/id=deh-belchior-carneiro-ref4/obs=Dehergne 143
                ls$jesuita-estatuto/Padre
@@ -182,7 +184,7 @@ kleio$gacto2.str/translations=49
                rel$eclesiastica/nomeou/Pedro Martins/deh-pedro-martins/data=15920400
                ls$cargo/Arcebispo de Goa/15920400
 
-            referido$arcebispo de Goa/id=deh-arcebispo-de-goa-ref8
+            referido$Arcebispo de Goa/id=deh-arcebispo-de-goa-ref8
                ls$cargo/Arcebispo de Goa
                rel$eclesiastica/nomeia/Pedro Martins/deh-pedro-martins/data=15920400
 
@@ -196,14 +198,14 @@ kleio$gacto2.str/translations=49
             ls$nome/Simão Martines
             ls$nascimento/Vila Pouca do Campo, diocese de Coimbra/16190000
             ls$jesuita-entrada/Goa/16410000
-            ls$estadia/Mysore%Maïssour/obs=missionário por mais de 15 anos
+            ls$estadia/Mysore%Maïssour/obs=missionário há mais de 15 anos em 1679
             ls$cargo/Capelão na frota do Golfo Pérsico/16530000%En 1653 «regiae ad Arabicum Sinum classis per annum capellanus datus », aumônier de la flotte du Golfe Persique (Goa 25, 123).
             ls$jesuita-cargo/Provincial de Goa/16820000
             ls$jesuita-cargo/Provincial de Goa/16850000
             ls$jesuita-cargo/Visitador da China/16850113
-            ls$estadia/Malaca/16860800/obs=feito prisioneiro pelos holandeses
-            ls$estadia/Macau/16870700
-            ls$jesuita-ordenacao-padre/?/16530000/obs=nesta data já era
+            ls$chegada/Malaca/16860800/obs=feito prisioneiro pelos holandeses
+            ls$chegada/Macau/16870700
+            ls$jesuita-ordenacao-padre/?/16530000#antes de
             ls$jesuita-votos/4V/16600000
             ls$jesuita-votos-local/Goa/16600000
             ls$morte/Macau/16880102
@@ -221,11 +223,11 @@ kleio$gacto2.str/translations=49
             ls$wicky/1589
             ls$estadia/Tonquim/17230000
             ls$estadia/Hainan/17240000
-            ls$tarefa/presta juramento/17240000
-            ls$estadia/Hainan/17241123/obs=escreve de lá
-            ls$estadia/Hainan/17250000/obs=data de expulsão
+            ls$jesuita-tarefa/presta juramento/17240000
+            ls$estadia/Hainan/17241123#escreve de lá
+            ls$estadia/Hainan/17250000#data de expulsão
             ls$estadia/Sião
-            ls$estadia/Tonquim/obs=reclamé par la Propagande
+            ls$estadia/Tonquim#reclamé par la Propagande
             ls$jesuita-votos/4V/17191203
             ls$jesuita-votos-local/Ké-Sat/17191203
             ls$morte/?/17520000#depois de
@@ -239,7 +241,8 @@ kleio$gacto2.str/translations=49
             ls$estadia/Ásia/15370000
             ls$estadia/Ásia/15510000
             rel$sociabilidade/encontro/Francisco Xavier/deh-francisco-xavier-ref3/data=15510000
-            ls$jesuita-entrada/Goa/15540000/obs=sai em 1556 durante a sua quarta visita ao Japão
+            ls$jesuita-entrada/Goa/15540000
+            ls$jesuita-tarefa/sai da Companhia/15560000#durante a sua quarta visita ao Japão
             ls$estadia/Japão/15540000/obs=acompanha o padre Belchior Nunes Barreto, segundo a entrada de Barreto, este chegou ao Japão em 1554
             ls$estadia/China/15550000/obs=acompanha o padre Belchior Nunes Barreto, segundo a entrada de Barreto, este esteve na China em 1555-1556
             ls$estadia/China/15560000/obs=acompanha o padre Belchior Nunes Barreto, segundo a entrada de Barreto, este esteve na China em 1555-1556
@@ -247,7 +250,7 @@ kleio$gacto2.str/translations=49
             ls$cargo/Embaixador do vice-rei das Índias no Japão
             ls$estadia/Portugal/15580000
             ls$morte/Almada/15830708
-            ls$dehergne/543/obs=Mendes Pinto, Fernâo (« Hernan ») (port.) novice. 543 N. v. 1515 à Montemor-o-Velho, dioc. Coïmbre., entreprend dès 1537 ses voyages en Asie, où il rencontre en 1551 François Xavier, -E. 1554, Goa. Accompagne le P. Belchior Nunes Barreto en Chine et au Japon., 1556, sorti de la Compagnie à sa quatrième visite au Japon., ambassadeur du vice-roi des Indes au Japon., 1558 rentre au Portugal. Son oeuvre « Peregrinaçam » publiée en 1614 à Lisbonne. M. 8 juillet 1583, Almada.Schurhammer, G., Fernâo Mendez Pinto und seine « Peregrinaçam », Asia Major, Leipzig, 1927., Wheeler, Mendez Pinto, Georg. Journal I (1893), 139-146., Monumenta Xaveriana I (Madrid 1900), passim.,
+            ls$dehergne/543/obs=Mendes Pinto, Fernão (« Hernan ») (port.) novice. 543 N. v. 1515 à Montemor-o-Velho, dioc. Coïmbre., entreprend dès 1537 ses voyages en Asie, où il rencontre en 1551 François Xavier, -E. 1554, Goa. Accompagne le P. Belchior Nunes Barreto en Chine et au Japon., 1556, sorti de la Compagnie à sa quatrième visite au Japon., ambassadeur du vice-roi des Indes au Japon., 1558 rentre au Portugal. Son oeuvre « Peregrinaçam » publiée en 1614 à Lisbonne. M. 8 juillet 1583, Almada.Schurhammer, G., Fernâo Mendez Pinto und seine « Peregrinaçam », Asia Major, Leipzig, 1927., Wheeler, Mendez Pinto, Georg. Journal I (1893), 139-146., Monumenta Xaveriana I (Madrid 1900), passim.,
             ls$dehergne/543/obs=Charignon, A. J. et Mlle Médard, A propos des Voyages aventureux de F. M. P., Pékin, 1934, rééd. 1936., Duyvendak, JAO.S. 57 (New Haven 1937) 343-348., Lapsos duma critica, J. Pereira Gomes, Broteria 35 (Lisbonne 1942), 271-289., G. Le Gentil, Les Portugais en ExtrêmeOrient. F.M.P. Un précurseur de l'Exotisme au XVI° siècle, Paris 1947., Viconde De Lagoa, A Peregrinaçâo Lisbonne 1947., A. Van Scoy, Fact and Fiction in Mendes Pinto's « Peregrinaçam », Hispania 32 (Washington 1949) 158-167., Boxer II, 19-40., Lach, 951., Maurice Collis, The Grand Pérégrination, Londres, 1949. Les Voyages adventureux de Fernand Mendes Pinto., Traductions: française par J Boulenger, Paris, 1932., anglaise par Maurice Collis, Londres (1949) etc.: La Pérégrination... éd. par A.J. Saraiva, Paris 1968. Boxer II, 453. DI. III, 8, 852., Streit IV, 768., V, 182., XV, 2805.
 
             referido$Francisco Xavier/id=deh-francisco-xavier-ref3
@@ -281,11 +284,11 @@ kleio$gacto2.str/translations=49
             ls$nome/Manuel Mendez
             ls$nome-chines/Mong Yeou-Yi Kiu-jen
             ls$nascimento/Soure, diocese de Coimbra/16560101#ou 1757
-            ls$idade/18/16750000
             ls$jesuita-entrada/Coimbra/16730315
+            ls$idade/18/16750000
             ls$embarque/Sto. António/16400404
             ls$wicky/1194
-            ls$estadia/China/16841002
+            ls$chegada/China/16841002
             ls$estadia/Nanchang (Nan-tch'ang)/16850000
             ls$estadia/Nanchang (Nan-tch'ang)/16910000
             ls$estadia/Kiangnan, Shanghai/17000000
@@ -295,7 +298,7 @@ kleio$gacto2.str/translations=49
             ls$estadia/Shanghai/17180000
             ls$estadia/Shanghai/17210000
             ls$estadia/Cantão/17190000#exilado
-            ls$estadia/Macau#depois de Cantão
+            ls$estadia/Macau/17190000
             ls$estadia/Macau (Seminário)/17370000
             ls$jesuita-votos/4V/16900815
             ls$jesuita-votos-local/Kanchow/16900815
@@ -308,7 +311,7 @@ kleio$gacto2.str/translations=49
             ls$nome/Lourenço Mexias
             ls$nome/Lourenço Messia
             ls$nascimento/Évora/15390800
-            ls$estadia/Olivença, diocese de Elvas/obs=durante a sua juventude
+            ls$estadia/Olivença, diocese de Elvas#durante a sua juventude
             ls$jesuita-entrada/?/15600314#ou 15600325
             ls$embarque/Sta. Catarina#para Malaca/15760307
             ls$wicky/178
@@ -342,9 +345,9 @@ kleio$gacto2.str/translations=49
             ls$nome/José Montagna
             ls$nascimento/Coimbra/17080103
             ls$jesuita-entrada/Coimbra/17211031
-            ls$embarque/S. Pedro e S. Paulo/17420000/obs=embarca com Monsenhor Hilário de Santa Rosa e três jesuítas destinados à China
+            ls$embarque/S. Pedro e S. Paulo/17420000#com Monsenhor Hilário de Santa Rosa e três jesuítas destinados à China
             ls$wicky/1897
-            ls$estadia/Macau/17421105
+            ls$chegada/Macau/17421105
             ls$jesuita-tarefa/Transcreve o Archivo del Japón/17421105
             ls$estadia/Sião/17450000
             ls$estadia/Macau/17480000
@@ -353,10 +356,10 @@ kleio$gacto2.str/translations=49
             ls$estadia/Coimbra/17530000
             ls$cargo/Procurador/17530000
             ls$estadia/Braga (colégio)/17590000
-            ls$estadia/Itália/obs=deportado
+            ls$estadia/Itália#deportado
             ls$jesuita-ordenacao-padre/?/17410000#antes de
             ls$jesuita-votos/4V/17400325
-            ls$morte/Castel Gandolfo, perto de Roma/17641010
+            ls$morte/Castel Gandolfo/17641010
             ls$dehergne/559/obs=Montanha, José (port.) (II) P. 559 Montagna. N. 3 janv. 1708, Coïmbre -E. 31 oct. 1721, Coïmbre (Lus. 40, 5v). Emb. sur la frégate Sâo Pedro e Sâo Paulo avec Mgr Hilaire de S. Rosa et 3 jésuites destinés aux missions de Chine, en 1742 (W 1897., Azia Sinica e Japonica, Macau, II, 1950, p. 1212)., arr. Macao 5 nov. 1742, où il prend la peine de transcrire YArchivo del Japon (Schutte, J. F., El « Archivo del Japon », Madrid, 1964, 38-74., et du même, AHSI 31, (1962), 225-263). Destiné à la mission de Siam, où il se trouve, en 1745 (SOCP t. 48, f 715., JS 26, 47)., Macao, 1748., provincial du Japon, 1749-1752., 1753, procureur à Coïmbre., 1759, collège de Braga-. déporté en Italie. P. avant 1741 -V. 25 mars 1740 (JS 26, 47), pr. M. 10 oct. 1764, Castel Gandolfo près de Rome (Lus. 40, 90). Notes Lamalle.,
             ls$dehergne/559/obs=AHSI 30 (1961), 102., Schutte, 966., du même, les 2 études publiées dans AHSI XXX {1961), 90-134 et XXXI (1962), 225-263. Il mérite d'être cité ici pour son considérable travail si utile pour l'histoire des missions de Chine et du Japon.
 
@@ -372,7 +375,7 @@ kleio$gacto2.str/translations=49
             ls$nome/Bento Monteyro
             ls$nascimento/Coimbra/17180601
             ls$jesuita-entrada/?/17320627
-            ls$embarque/para o Japão/17350413
+            ls$embarque/para o Japão/17350413#não padre
             ls$wicky/1827
             ls$jesuita-ordenacao-padre/?/17420000#depois de
             ls$jesuita-votos/4V/17510202
@@ -389,7 +392,7 @@ kleio$gacto2.str/translations=49
             ls$jesuita-entrada/?/17040101
             ls$embarque/Sta. Ana/17160314
             ls$wicky/1602
-            ls$estadia/Macau/17160831/obs=«écarté à cause des rites»
+            ls$chegada/Macau/17160831#«écarté à cause des rites»
             ls$estadia/Cochinchina/17200000
             ls$morte/Japão/17390425
             ls$dehergne/569/obs=Moreira (Moreyra), Francisco (port.) P. 569 N. Coïmbre 27 déc. 1689 -E. 1 janv. 1704 (Lus. 47, 125). Destiné à la Chine., Emb. sur le S. Ana direct pour Macao, le 14 mars 1716 (W 1602)., arr. Macao, 31 août 1716., écarté à cause des rites., part missionnaire en Cochinchine, 1720. M. 25 avril 1739, « in missione », province du Japon (HS 53a, 28). Pf. 643 note.

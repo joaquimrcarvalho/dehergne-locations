@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=24
+kleio$gacto2.str/translations=28
    fonte$dehergne-F/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra F
 
       lista$dehergne-notices-f/0/0/0
@@ -9,9 +9,9 @@ kleio$gacto2.str/translations=24
             ls$nome/Bastião Fernandes
             ls$nascimento/Besteiros, diocese de Viseu/15730000
             ls$jesuita-entrada/Coimbra/15910000
-            ls$embarque/S. Martinho/15970405/obs=para as Índias, ainda não é padre, talvez frade coadjutor
+            ls$embarque/S. Martinho/15970405#para as Índias, ainda não é padre, talvez frade coadjutor
             ls$wicky/300
-            ls$estadia/destinado à China/16030000
+            ls$jesuita-tarefa/destinado à China/16030000
             ls$morte/Japão#?/16071030#ou 16071231
             ls$dehergne/294/obs=Fernandes, Sebastião (Bastião) (port.) (I) P. 294 N. à Besteiros, d. de Viseu, 1573 -E. Coïmbre, 1591 (Lus. 44, 82). Emb. 5 avril 1597 sur le S. Martinho (pas encore prêtre W 300), pour «les Indes» et Lus. 44 I, 128 le dit alors fr. coadj. Destiné à la Chine en 1603 (D'Elia II, 271 n. 1). M. 30 oct. 1607. HS 43, 58 dit: in Japon. 31 déc. 1607. Fils de Simão Fernandes et de Maria Brás (BEM 1968, p. 673). Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67).
 
@@ -23,11 +23,13 @@ kleio$gacto2.str/translations=24
                ls$jesuita-estatuto/Frade Coadjutor
                ls$nascimento/S. Cosme, diocese do Porto/15460000
                ls$jesuita-entrada/?/15660000
+               ls$dehergne/294-ref1/obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
 
             referido$Sebastião Fernandes/id=deh-sebastiao-fernandes-ref2
                ls$jesuita-estatuto/Frade Coadjutor
                ls$nascimento/Cernache, diocese de Coimbra/15370000
                ls$jesuita-entrada/?/15560000
+               ls$dehergne/294-ref2/obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
 
          n$André Ferrão/id=deh-andre-ferrao
             ls$nacionalidade/Portugal
@@ -39,7 +41,8 @@ kleio$gacto2.str/translations=24
             ls$jesuita-entrada/?/16400000
             ls$embarque/?/16570404
             ls$wicky/1040
-            ls$estadia/Macau/16590129#il signe l'annuelle de la vice-province de Chine de 1656
+            ls$estadia/Macau/16590129
+            ls$jesuita-tarefa/assina a carta anual da vice-província da China de 1656/16560000
             ls$estadia/Hwaian (Houaingan fou), Kiang-sou#Huai'an, Jaingsu?/16590000
             ls$jesuita-votos/4V/16590116
             ls$jesuita-votos-local/Macau/16590116
@@ -79,13 +82,13 @@ kleio$gacto2.str/translations=24
             ls$wicky/339
             ls$estadia/Macau/16040200#sai depois desta data
             ls$partida/Pequim/16040200
-            ls$estadia/Meiling/obs=a caminho de Pequim
-            ls$estadia/Nanquim%Nankin/obs=a caminho de Pequim
+            ls$estadia/Meiling#a caminho de Pequim/16040800
+            ls$estadia/Nanquim%Nankin, a caminho de Pequim/16040800
             ls$chegada/Pequim/16040800
             ls$estadia/Paoting fou/16070000
             ls$estadia/Nanchang (Nan-tch'ang)/16070000
             ls$jesuita-cargo/Mestre dos Noviços/16070000
-            ls$estadia/Schiuchow (Chao-tcheou)/16120000
+            ls$estadia/Shiuchow (Chao-tcheou)/16120000
             ls$estadia/Namyung (Nan-hiong)/16070427#data de transferência
             ls$estadia/Tchö-kiang/16171002
             ls$estadia/Kienchang no Kiangsi#no Jiangxi?/16300000
@@ -100,7 +103,7 @@ kleio$gacto2.str/translations=24
          n$Mateus de Figueiredo/id=deh-mateus-de-figueiredo
             ls$nacionalidade/Portugal
             ls$nascimento/S. Joaninho, diocese de Coimbra/17260226
-            ls$jesuita-entrada/?/17440404
+            ls$jesuita-entrada/?/17440404#para a China
             ls$dehergne/311/obs=Figueiredo, Mateus de (port.) 311 N. S. Joaninho, d. de Coïmbre, 26 févr. 1726. E. 4 avril 1744 pour la Chine (Lus. 49, 58). N'est plus au catal. de 1754 (Lus. 49, 129).
 
          n$João da Fonseca/id=deh-joao-da-fonseca
@@ -114,6 +117,7 @@ kleio$gacto2.str/translations=24
             referido$João da Fonseca Campos/id=deh-joao-da-fonseca-campos-ref1/obs= Dehergne não sabe se é o mesmo
                ls$jesuita-estatuto/Ex-jesuíta/1760000/obs=depois da supressão da Companhia pelo rei
                ls$cargo/Magistrado#em Macau?/17750920#até/obs=data de suspensão, foi suspenso por ter sido jesuíta
+               ls$dehergne/323-ref/obs=Ce serait le Joâo da Fonseca Campos ex-jésuite en 1760, lors de la suppression de la Compagnie par le roi., devenu ensuite magistrat (à Macao?) et suspendu le 20 sept. 1775 pour avoir été jésuite (Arquivos de Macau 16 (Macao, 1971), 163 et 166.
 
          n$Manuel da Fonseca/id=deh-manuel-da-fonseca
             ls$nacionalidade/Portugal
@@ -131,20 +135,21 @@ kleio$gacto2.str/translations=24
                ls$cargo/Missionário/obs=[MTO pus aqui por não saber exactamente em que se enquadra]
                ls$nascimento/diocese de Braga/17030000
                ls$morte/Pesaro, Itália/17720000
+               ls$dehergne/324-ref/obs=Distinct du missionnaire brésilien de ce nom N. 1703, d. de Braga, M. à Pesaro, Italie, 1772
 
          n$Inácio Francisco/id=deh-inacio-francisco
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nome/Inácio Francesco
             ls$nome-chines/Tchang Chou Yi-na
-            ls$nome-chines/Ki-sien
+            ls$nome-chines/Ki-Sien
             ls$nome-chines/Chang Chi-Hsien
             ls$nascimento/Conraria, diocese de Coimbra/17250814#data na lápide, ou 17250821
             ls$jesuita-entrada/?/17240824
             ls$embarque/para a China/17520000
             ls$wicky/2021
-            ls$estadia/China/17520000
-            ls$estadia/Pequim/17530000
+            ls$chegada/China/17520000
+            ls$chegada/Pequim/17530000
             ls$profissao/Cirurgião
             ls$jesuita-ordenacao-padre/?/17500000#cerca de
             ls$jesuita-votos/coadjutor espiritual/17671104/obs=no entanto, a entrada diz que é padre
@@ -155,7 +160,5 @@ kleio$gacto2.str/translations=24
             referido$Francisco Xavier Assis Pacheco/id=deh-francisco-xavier-assis-pacheco-ref1
                ls$titulo/Dom
                ls$cargo/Embaixador de Portugal
-               ls$embarque/para a China/17520000/obs=coloco este dado e o wicky porque a entrada diz que chegaram ao mesmo tempo
-               ls$wicky/2021
-               ls$estadia/China/17520000
-               ls$estadia/Pequim/17530000
+               ls$chegada/China/17520000
+               ls$chegada/Pequim/17530000
