@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-2-5 11:56:40" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-2-5 11:59:44" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -45765,16 +45765,21 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[morte]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Nanquim]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17450000]]></core>         <comment><![CDATA[ou 17460000]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-thomas-da-cruz-att1808-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-da-cruz]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[17450000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-da-cruz-att1809-99" NAME="ls" CLASS="attribute" ORDER="2262" LEVEL="4" LINE="2255">
-    <ELEMENT NAME="line" CLASS="line"><core>2255</core></ELEMENT>
+<GROUP ID="deh-thomas-da-cruz-att1809-99" NAME="ls" CLASS="attribute" ORDER="2262" LEVEL="4" LINE="2269">
+    <ELEMENT NAME="line" CLASS="line"><core>2269</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-da-cruz-att1809-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-da-cruz</core></ELEMENT>
@@ -45783,8 +45788,10 @@
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[dehergne]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[228]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
-      </ELEMENT>
+         <core><![CDATA[Cruz, Thomas da (ou a Cruce) (chin.) P. 228 de la Cruz (M 443, 681). Kong Chang-Che Kouan-Jo (Pf.., M 432, 929, avec les caractères). N. Hangchow, Chekiang, 18 déc. 1666 -E. 29 sept. 1686, Macao (JS 26, 45v). En 1694, missionnaire au Kiangnan: Shanghai., 1700 et 1713, Sungkiang (JS 134, 389 et 175, 79v)., 1719 et 1725, Foochow, Fukien (M 431, 881)., 1728, Tartarie., 1729, Fukien, où emprisonné (JS 184, 51)., Kiangnan, 1734. P. 1694, ordonné par Mgr Joâo de Cazal, évêque de Macao, SF IV, 550. V. 2 févr. 1709, « Xam hai », Shanghai, entre les mains d'Emm. Mendes, supérieur de la résidence, c. spir. (Lus. 24, 27). M. 1745 ou 1746 dans la province de Nankin (M 295, 79 et 306, 213., SF VI, 165., HS 53a l'ignore). Pf. 410. Streit VII, n° 3894 l'appelle Petrus Thomas da Cruz.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-thomas-da-cruz-att1809-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -45793,8 +45800,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-de-cazal-ref1" NAME="referido" CLASS="person" ORDER="2263" LEVEL="4" LINE="2256">
-    <ELEMENT NAME="line" CLASS="line"><core>2256</core></ELEMENT>
+<GROUP ID="deh-joao-de-cazal-ref1" NAME="referido" CLASS="person" ORDER="2263" LEVEL="4" LINE="2270">
+    <ELEMENT NAME="line" CLASS="line"><core>2270</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-de-cazal-ref1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-da-cruz</core></ELEMENT>
@@ -45807,8 +45814,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-da-cruz-rela213" NAME="relation"  ORDER="2264" LEVEL="5" CLASS="relation" LINE="2256">
-    <ELEMENT NAME="line" CLASS="line"><core>2256</core></ELEMENT>
+<GROUP ID="deh-thomas-da-cruz-rela213" NAME="relation"  ORDER="2264" LEVEL="5" CLASS="relation" LINE="2270">
+    <ELEMENT NAME="line" CLASS="line"><core>2270</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-de-cazal-ref1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -45822,8 +45829,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-da-cruz-rela213</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-de-cazal-ref1-rel39-99" NAME="rel" CLASS="relation" ORDER="2265" LEVEL="5" LINE="2257">
-    <ELEMENT NAME="line" CLASS="line"><core>2257</core></ELEMENT>
+<GROUP ID="deh-joao-de-cazal-ref1-rel39-99" NAME="rel" CLASS="relation" ORDER="2265" LEVEL="5" LINE="2271">
+    <ELEMENT NAME="line" CLASS="line"><core>2271</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-de-cazal-ref1-rel39-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-de-cazal-ref1</core></ELEMENT>
@@ -45848,8 +45855,8 @@
          <core><![CDATA[16940000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-de-cazal-ref1-att1810-99" NAME="ls" CLASS="attribute" ORDER="2266" LEVEL="5" LINE="2258">
-    <ELEMENT NAME="line" CLASS="line"><core>2258</core></ELEMENT>
+<GROUP ID="deh-joao-de-cazal-ref1-att1810-99" NAME="ls" CLASS="attribute" ORDER="2266" LEVEL="5" LINE="2272">
+    <ELEMENT NAME="line" CLASS="line"><core>2272</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-de-cazal-ref1-att1810-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-de-cazal-ref1</core></ELEMENT>
@@ -45868,8 +45875,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-de-cazal-ref1-att1811-99" NAME="ls" CLASS="attribute" ORDER="2267" LEVEL="5" LINE="2260">
-    <ELEMENT NAME="line" CLASS="line"><core>2260</core></ELEMENT>
+<GROUP ID="deh-joao-de-cazal-ref1-att1811-99" NAME="ls" CLASS="attribute" ORDER="2267" LEVEL="5" LINE="2274">
+    <ELEMENT NAME="line" CLASS="line"><core>2274</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-de-cazal-ref1-att1811-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-de-cazal-ref1</core></ELEMENT>
@@ -45890,8 +45897,8 @@
          <core><![CDATA[16940000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-manuel-mendes-ref2" NAME="referido" CLASS="person" ORDER="2268" LEVEL="4" LINE="2261">
-    <ELEMENT NAME="line" CLASS="line"><core>2261</core></ELEMENT>
+<GROUP ID="deh-manuel-mendes-ref2" NAME="referido" CLASS="person" ORDER="2268" LEVEL="4" LINE="2275">
+    <ELEMENT NAME="line" CLASS="line"><core>2275</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-manuel-mendes-ref2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-da-cruz</core></ELEMENT>
@@ -45906,8 +45913,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-da-cruz-rela214" NAME="relation"  ORDER="2269" LEVEL="5" CLASS="relation" LINE="2261">
-    <ELEMENT NAME="line" CLASS="line"><core>2261</core></ELEMENT>
+<GROUP ID="deh-thomas-da-cruz-rela214" NAME="relation"  ORDER="2269" LEVEL="5" CLASS="relation" LINE="2275">
+    <ELEMENT NAME="line" CLASS="line"><core>2275</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-manuel-mendes-ref2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -45921,8 +45928,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-da-cruz-rela214</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-manuel-mendes-ref2-rel40-99" NAME="rel" CLASS="relation" ORDER="2271" LEVEL="5" LINE="2263">
-    <ELEMENT NAME="line" CLASS="line"><core>2263</core></ELEMENT>
+<GROUP ID="deh-manuel-mendes-ref2-rel40-99" NAME="rel" CLASS="relation" ORDER="2271" LEVEL="5" LINE="2276">
+    <ELEMENT NAME="line" CLASS="line"><core>2276</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-manuel-mendes-ref2-rel40-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-manuel-mendes-ref2</core></ELEMENT>
@@ -45947,13 +45954,57 @@
          <core><![CDATA[17090202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha" NAME="n" CLASS="person" ORDER="2272" LEVEL="3" LINE="2264">
-    <ELEMENT NAME="line" CLASS="line"><core>2264</core></ELEMENT>
+<GROUP ID="deh-manuel-mendes-ref2-att1812-99" NAME="ls" CLASS="attribute" ORDER="2272" LEVEL="5" LINE="2277">
+    <ELEMENT NAME="line" CLASS="line"><core>2277</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-manuel-mendes-ref2-att1812-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-manuel-mendes-ref2</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2272</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Superior da residência de Shanghai]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17090202]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-manuel-mendes-ref2-att1812-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-manuel-mendes-ref2]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17090202]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-manuel-mendes-ref2-att1813-99" NAME="ls" CLASS="attribute" ORDER="2273" LEVEL="5" LINE="2279">
+    <ELEMENT NAME="line" CLASS="line"><core>2279</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-manuel-mendes-ref2-att1813-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-manuel-mendes-ref2</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2273</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Shanghai]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[17090202]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-manuel-mendes-ref2-att1813-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-manuel-mendes-ref2]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[17090202]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-joao-da-cunha" NAME="n" CLASS="person" ORDER="2274" LEVEL="3" LINE="2280">
+    <ELEMENT NAME="line" CLASS="line"><core>2280</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2272</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2274</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[João da Cunha]]></core>   </ELEMENT>
@@ -45961,12 +46012,12 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-c-rela216" NAME="relation"  ORDER="2273" LEVEL="4" CLASS="relation" LINE="2264">
-    <ELEMENT NAME="line" CLASS="line"><core>2264</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela216" NAME="relation"  ORDER="2275" LEVEL="4" CLASS="relation" LINE="2280">
+    <ELEMENT NAME="line" CLASS="line"><core>2280</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2273</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2275</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
@@ -45976,53 +46027,53 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela216</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-da-cunha-att1812-99" NAME="ls" CLASS="attribute" ORDER="2274" LEVEL="4" LINE="2265">
-    <ELEMENT NAME="line" CLASS="line"><core>2265</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1812-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1814-99" NAME="ls" CLASS="attribute" ORDER="2276" LEVEL="4" LINE="2281">
+    <ELEMENT NAME="line" CLASS="line"><core>2281</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1814-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2274</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2276</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1812-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1814-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1813-99" NAME="ls" CLASS="attribute" ORDER="2275" LEVEL="4" LINE="2266">
-    <ELEMENT NAME="line" CLASS="line"><core>2266</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1813-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1815-99" NAME="ls" CLASS="attribute" ORDER="2277" LEVEL="4" LINE="2282">
+    <ELEMENT NAME="line" CLASS="line"><core>2282</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1815-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2275</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2277</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1813-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1815-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1814-99" NAME="ls" CLASS="attribute" ORDER="2276" LEVEL="4" LINE="2267">
-    <ELEMENT NAME="line" CLASS="line"><core>2267</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1814-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1816-99" NAME="ls" CLASS="attribute" ORDER="2278" LEVEL="4" LINE="2283">
+    <ELEMENT NAME="line" CLASS="line"><core>2283</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1816-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2276</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2278</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nascimento]]></core>   </ELEMENT>
@@ -46031,20 +46082,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17310909]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1814-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1816-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17310909]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1815-99" NAME="ls" CLASS="attribute" ORDER="2277" LEVEL="4" LINE="2268">
-    <ELEMENT NAME="line" CLASS="line"><core>2268</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1815-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1817-99" NAME="ls" CLASS="attribute" ORDER="2279" LEVEL="4" LINE="2284">
+    <ELEMENT NAME="line" CLASS="line"><core>2284</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1817-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2277</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2279</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
@@ -46053,20 +46104,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17471123]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1815-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1817-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17471123]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1816-99" NAME="ls" CLASS="attribute" ORDER="2278" LEVEL="4" LINE="2269">
-    <ELEMENT NAME="line" CLASS="line"><core>2269</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1816-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1818-99" NAME="ls" CLASS="attribute" ORDER="2280" LEVEL="4" LINE="2285">
+    <ELEMENT NAME="line" CLASS="line"><core>2285</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1818-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2278</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2280</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
@@ -46076,20 +46127,20 @@
          <core><![CDATA[17550000]]></core>         <comment><![CDATA[entre 1755 e 1758]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1816-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1818-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17550000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1817-99" NAME="ls" CLASS="attribute" ORDER="2279" LEVEL="4" LINE="2270">
-    <ELEMENT NAME="line" CLASS="line"><core>2270</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1817-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1819-99" NAME="ls" CLASS="attribute" ORDER="2281" LEVEL="4" LINE="2286">
+    <ELEMENT NAME="line" CLASS="line"><core>2286</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1819-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2279</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2281</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
@@ -46099,57 +46150,15 @@
          <core><![CDATA[17580000]]></core>         <comment><![CDATA[entre 1755 e 1758]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1817-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-att1819-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17580000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1818-99" NAME="ls" CLASS="attribute" ORDER="2280" LEVEL="4" LINE="2271">
-    <ELEMENT NAME="line" CLASS="line"><core>2271</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1818-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2280</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[wicky]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[2101]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1818-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-joao-da-cunha-att1819-99" NAME="ls" CLASS="attribute" ORDER="2281" LEVEL="4" LINE="2272">
-    <ELEMENT NAME="line" CLASS="line"><core>2272</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1819-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2281</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[estadia]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Lisboa]]></core>   </ELEMENT>
-   <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[é preso]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-att1819-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-joao-da-cunha-att1820-99" NAME="ls" CLASS="attribute" ORDER="2282" LEVEL="4" LINE="2273">
-    <ELEMENT NAME="line" CLASS="line"><core>2273</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1820-99" NAME="ls" CLASS="attribute" ORDER="2282" LEVEL="4" LINE="2287">
+    <ELEMENT NAME="line" CLASS="line"><core>2287</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1820-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
@@ -46157,9 +46166,9 @@
     <ELEMENT NAME="order" CLASS="order"><core>2282</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[estadia]]></core>   </ELEMENT>
+         <core><![CDATA[wicky]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[China]]></core>   </ELEMENT>
+         <core><![CDATA[2101]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-joao-da-cunha-att1820-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46168,8 +46177,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1821-99" NAME="ls" CLASS="attribute" ORDER="2283" LEVEL="4" LINE="2274">
-    <ELEMENT NAME="line" CLASS="line"><core>2274</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1821-99" NAME="ls" CLASS="attribute" ORDER="2283" LEVEL="4" LINE="2288">
+    <ELEMENT NAME="line" CLASS="line"><core>2288</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1821-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
@@ -46177,9 +46186,11 @@
     <ELEMENT NAME="order" CLASS="order"><core>2283</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[profissao]]></core>   </ELEMENT>
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Matemático]]></core>   </ELEMENT>
+         <core><![CDATA[Lisboa]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[é preso]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-joao-da-cunha-att1821-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46188,8 +46199,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-att1822-99" NAME="ls" CLASS="attribute" ORDER="2284" LEVEL="4" LINE="2276">
-    <ELEMENT NAME="line" CLASS="line"><core>2276</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1822-99" NAME="ls" CLASS="attribute" ORDER="2284" LEVEL="4" LINE="2289">
+    <ELEMENT NAME="line" CLASS="line"><core>2289</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1822-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
@@ -46197,11 +46208,9 @@
     <ELEMENT NAME="order" CLASS="order"><core>2284</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[dehergne]]></core>   </ELEMENT>
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[231]]></core>   </ELEMENT>
-   <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[Cunha, Joâo da (port.) P. 231 N. Coïmbre, 9 sept. 1731 (Lus. 49, 55). E. 23 nov. 1747, Lisbonne (Lus. 41, 98 et 49, 55). Emb. pour la Chine, 1755-1758 (W 2101 et p. 426)., emprisonné à Lisbonne., redemande la Chine comme mathématicien (Krahl, 132). Un autre de ce nom est N. en 1702 (dit W p. 421)., l'un d'eux a fait ses V. à Rome, 10 août 1767 (Hisp. 34, 415) et se retrouve à Rome en 1775.]]></core>   </ELEMENT>
+         <core><![CDATA[China]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-joao-da-cunha-att1822-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46210,13 +46219,55 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-ref1" NAME="referido" CLASS="person" ORDER="2285" LEVEL="4" LINE="2277">
-    <ELEMENT NAME="line" CLASS="line"><core>2277</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-att1823-99" NAME="ls" CLASS="attribute" ORDER="2285" LEVEL="4" LINE="2290">
+    <ELEMENT NAME="line" CLASS="line"><core>2290</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1823-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2285</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[profissao]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Matemático]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-joao-da-cunha-att1823-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-joao-da-cunha-att1824-99" NAME="ls" CLASS="attribute" ORDER="2286" LEVEL="4" LINE="2292">
+    <ELEMENT NAME="line" CLASS="line"><core>2292</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-att1824-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2286</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[dehergne]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[231]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Cunha, Joâo da (port.) P. 231 N. Coïmbre, 9 sept. 1731 (Lus. 49, 55). E. 23 nov. 1747, Lisbonne (Lus. 41, 98 et 49, 55). Emb. pour la Chine, 1755-1758 (W 2101 et p. 426)., emprisonné à Lisbonne., redemande la Chine comme mathématicien (Krahl, 132). Un autre de ce nom est N. en 1702 (dit W p. 421)., l'un d'eux a fait ses V. à Rome, 10 août 1767 (Hisp. 34, 415) et se retrouve à Rome en 1775.]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-joao-da-cunha-att1824-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-joao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-joao-da-cunha-ref1" NAME="referido" CLASS="person" ORDER="2287" LEVEL="4" LINE="2293">
+    <ELEMENT NAME="line" CLASS="line"><core>2293</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2285</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2287</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[João da Cunha]]></core>   </ELEMENT>
@@ -46224,12 +46275,12 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-rela217" NAME="relation"  ORDER="2286" LEVEL="5" CLASS="relation" LINE="2277">
-    <ELEMENT NAME="line" CLASS="line"><core>2277</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-rela217" NAME="relation"  ORDER="2288" LEVEL="5" CLASS="relation" LINE="2293">
+    <ELEMENT NAME="line" CLASS="line"><core>2293</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2286</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2288</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
@@ -46239,33 +46290,33 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-rela217</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-da-cunha-ref1-att1823-99" NAME="ls" CLASS="attribute" ORDER="2287" LEVEL="5" LINE="2278">
-    <ELEMENT NAME="line" CLASS="line"><core>2278</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref1-att1823-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref1-att1825-99" NAME="ls" CLASS="attribute" ORDER="2289" LEVEL="5" LINE="2294">
+    <ELEMENT NAME="line" CLASS="line"><core>2294</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref1-att1825-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2287</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2289</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-ref1-att1823-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-ref1-att1825-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-ref1-att1824-99" NAME="ls" CLASS="attribute" ORDER="2288" LEVEL="5" LINE="2280">
-    <ELEMENT NAME="line" CLASS="line"><core>2280</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref1-att1824-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref1-att1826-99" NAME="ls" CLASS="attribute" ORDER="2290" LEVEL="5" LINE="2296">
+    <ELEMENT NAME="line" CLASS="line"><core>2296</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref1-att1826-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2288</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2290</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nascimento]]></core>   </ELEMENT>
@@ -46274,20 +46325,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17020000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-ref1-att1824-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-ref1-att1826-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17020000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-ref2" NAME="referido" CLASS="person" ORDER="2289" LEVEL="4" LINE="2281">
-    <ELEMENT NAME="line" CLASS="line"><core>2281</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref2" NAME="referido" CLASS="person" ORDER="2291" LEVEL="4" LINE="2297">
+    <ELEMENT NAME="line" CLASS="line"><core>2297</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2289</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2291</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[João da Cunha]]></core>   </ELEMENT>
@@ -46297,12 +46348,12 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-rela218" NAME="relation"  ORDER="2290" LEVEL="5" CLASS="relation" LINE="2281">
-    <ELEMENT NAME="line" CLASS="line"><core>2281</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-rela218" NAME="relation"  ORDER="2292" LEVEL="5" CLASS="relation" LINE="2297">
+    <ELEMENT NAME="line" CLASS="line"><core>2297</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2290</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2292</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
@@ -46312,13 +46363,13 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-rela218</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-da-cunha-ref2-att1825-99" NAME="ls" CLASS="attribute" ORDER="2291" LEVEL="5" LINE="2282">
-    <ELEMENT NAME="line" CLASS="line"><core>2282</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1825-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref2-att1827-99" NAME="ls" CLASS="attribute" ORDER="2293" LEVEL="5" LINE="2298">
+    <ELEMENT NAME="line" CLASS="line"><core>2298</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1827-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2291</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2293</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-votos]]></core>   </ELEMENT>
@@ -46327,20 +46378,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17670810]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-ref2-att1825-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-ref2-att1827-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17670810]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-ref2-att1826-99" NAME="ls" CLASS="attribute" ORDER="2292" LEVEL="5" LINE="2283">
-    <ELEMENT NAME="line" CLASS="line"><core>2283</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1826-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref2-att1828-99" NAME="ls" CLASS="attribute" ORDER="2294" LEVEL="5" LINE="2299">
+    <ELEMENT NAME="line" CLASS="line"><core>2299</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1828-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2292</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2294</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-votos-local]]></core>   </ELEMENT>
@@ -46349,20 +46400,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17670810]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-ref2-att1826-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-ref2-att1828-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17670810]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-joao-da-cunha-ref2-att1827-99" NAME="ls" CLASS="attribute" ORDER="2293" LEVEL="5" LINE="2285">
-    <ELEMENT NAME="line" CLASS="line"><core>2285</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1827-99</core></ELEMENT>
+<GROUP ID="deh-joao-da-cunha-ref2-att1829-99" NAME="ls" CLASS="attribute" ORDER="2295" LEVEL="5" LINE="2301">
+    <ELEMENT NAME="line" CLASS="line"><core>2301</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-joao-da-cunha-ref2-att1829-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-da-cunha-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2293</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2295</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
@@ -46371,20 +46422,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17750000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-joao-da-cunha-ref2-att1827-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-joao-da-cunha-ref2-att1829-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-joao-da-cunha-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17750000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha" NAME="n" CLASS="person" ORDER="2294" LEVEL="3" LINE="2286">
-    <ELEMENT NAME="line" CLASS="line"><core>2286</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha" NAME="n" CLASS="person" ORDER="2296" LEVEL="3" LINE="2302">
+    <ELEMENT NAME="line" CLASS="line"><core>2302</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2294</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2296</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>3</core></ELEMENT>
    <ELEMENT NAME="nome" CLASS="name">
          <core><![CDATA[Simão da Cunha]]></core>   </ELEMENT>
@@ -46392,12 +46443,12 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-c-rela219" NAME="relation"  ORDER="2295" LEVEL="4" CLASS="relation" LINE="2286">
-    <ELEMENT NAME="line" CLASS="line"><core>2286</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela219" NAME="relation"  ORDER="2297" LEVEL="4" CLASS="relation" LINE="2302">
+    <ELEMENT NAME="line" CLASS="line"><core>2302</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2295</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2297</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>n</core></ELEMENT>
@@ -46407,48 +46458,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela219</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-simao-da-cunha-att1828-99" NAME="ls" CLASS="attribute" ORDER="2296" LEVEL="4" LINE="2287">
-    <ELEMENT NAME="line" CLASS="line"><core>2287</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1828-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2296</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Portugal]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1828-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-simao-da-cunha-att1829-99" NAME="ls" CLASS="attribute" ORDER="2297" LEVEL="4" LINE="2288">
-    <ELEMENT NAME="line" CLASS="line"><core>2288</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1829-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2297</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Padre]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1829-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-simao-da-cunha-att1830-99" NAME="ls" CLASS="attribute" ORDER="2298" LEVEL="4" LINE="2289">
-    <ELEMENT NAME="line" CLASS="line"><core>2289</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1830-99" NAME="ls" CLASS="attribute" ORDER="2298" LEVEL="4" LINE="2303">
+    <ELEMENT NAME="line" CLASS="line"><core>2303</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1830-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46456,9 +46467,9 @@
     <ELEMENT NAME="order" CLASS="order"><core>2298</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[nome]]></core>   </ELEMENT>
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Simão a Cunha]]></core>   </ELEMENT>
+         <core><![CDATA[Portugal]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1830-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46467,8 +46478,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1831-99" NAME="ls" CLASS="attribute" ORDER="2299" LEVEL="4" LINE="2290">
-    <ELEMENT NAME="line" CLASS="line"><core>2290</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1831-99" NAME="ls" CLASS="attribute" ORDER="2299" LEVEL="4" LINE="2304">
+    <ELEMENT NAME="line" CLASS="line"><core>2304</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1831-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46476,9 +46487,9 @@
     <ELEMENT NAME="order" CLASS="order"><core>2299</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[nome]]></core>   </ELEMENT>
+         <core><![CDATA[jesuita-estatuto]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Simão de Acuna]]></core>   </ELEMENT>
+         <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1831-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46487,8 +46498,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1832-99" NAME="ls" CLASS="attribute" ORDER="2300" LEVEL="4" LINE="2291">
-    <ELEMENT NAME="line" CLASS="line"><core>2291</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1832-99" NAME="ls" CLASS="attribute" ORDER="2300" LEVEL="4" LINE="2305">
+    <ELEMENT NAME="line" CLASS="line"><core>2305</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1832-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46496,9 +46507,9 @@
     <ELEMENT NAME="order" CLASS="order"><core>2300</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[nome-chines]]></core>   </ELEMENT>
+         <core><![CDATA[nome]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[K'lu Si-man Fou-Yi]]></core>   </ELEMENT>
+         <core><![CDATA[Simão a Cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1832-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -46507,13 +46518,53 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1833-99" NAME="ls" CLASS="attribute" ORDER="2301" LEVEL="4" LINE="2292">
-    <ELEMENT NAME="line" CLASS="line"><core>2292</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1833-99" NAME="ls" CLASS="attribute" ORDER="2301" LEVEL="4" LINE="2306">
+    <ELEMENT NAME="line" CLASS="line"><core>2306</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1833-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>2301</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nome]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Simão de Acuna]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-simao-da-cunha-att1833-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-simao-da-cunha-att1834-99" NAME="ls" CLASS="attribute" ORDER="2302" LEVEL="4" LINE="2307">
+    <ELEMENT NAME="line" CLASS="line"><core>2307</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1834-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2302</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nome-chines]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[K'lu Si-man Fou-Yi]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-simao-da-cunha-att1834-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-simao-da-cunha-att1835-99" NAME="ls" CLASS="attribute" ORDER="2303" LEVEL="4" LINE="2308">
+    <ELEMENT NAME="line" CLASS="line"><core>2308</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1835-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2303</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nascimento]]></core>   </ELEMENT>
@@ -46522,20 +46573,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15890000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1833-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1835-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[15890000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1834-99" NAME="ls" CLASS="attribute" ORDER="2302" LEVEL="4" LINE="2293">
-    <ELEMENT NAME="line" CLASS="line"><core>2293</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1834-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1836-99" NAME="ls" CLASS="attribute" ORDER="2304" LEVEL="4" LINE="2309">
+    <ELEMENT NAME="line" CLASS="line"><core>2309</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1836-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2302</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2304</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[idade]]></core>   </ELEMENT>
@@ -46544,40 +46595,40 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1636]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1834-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1836-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[1636]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1835-99" NAME="ls" CLASS="attribute" ORDER="2303" LEVEL="4" LINE="2294">
-    <ELEMENT NAME="line" CLASS="line"><core>2294</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1835-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1837-99" NAME="ls" CLASS="attribute" ORDER="2305" LEVEL="4" LINE="2310">
+    <ELEMENT NAME="line" CLASS="line"><core>2310</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1837-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2303</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2305</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[grau-academico]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Mestre em Artes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1835-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1837-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1836-99" NAME="ls" CLASS="attribute" ORDER="2304" LEVEL="4" LINE="2295">
-    <ELEMENT NAME="line" CLASS="line"><core>2295</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1836-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1838-99" NAME="ls" CLASS="attribute" ORDER="2306" LEVEL="4" LINE="2311">
+    <ELEMENT NAME="line" CLASS="line"><core>2311</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1838-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2304</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2306</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
@@ -46586,20 +46637,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16060113]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1836-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1838-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16060113]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1837-99" NAME="ls" CLASS="attribute" ORDER="2305" LEVEL="4" LINE="2296">
-    <ELEMENT NAME="line" CLASS="line"><core>2296</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1837-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1839-99" NAME="ls" CLASS="attribute" ORDER="2307" LEVEL="4" LINE="2312">
+    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1839-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2305</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2307</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
@@ -46608,40 +46659,40 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16180416]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1837-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1839-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16180416]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1838-99" NAME="ls" CLASS="attribute" ORDER="2306" LEVEL="4" LINE="2297">
-    <ELEMENT NAME="line" CLASS="line"><core>2297</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1838-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1840-99" NAME="ls" CLASS="attribute" ORDER="2308" LEVEL="4" LINE="2313">
+    <ELEMENT NAME="line" CLASS="line"><core>2313</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1840-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2306</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2308</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[wicky]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[647]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1838-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1840-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1839-99" NAME="ls" CLASS="attribute" ORDER="2307" LEVEL="4" LINE="2298">
-    <ELEMENT NAME="line" CLASS="line"><core>2298</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1839-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1841-99" NAME="ls" CLASS="attribute" ORDER="2309" LEVEL="4" LINE="2314">
+    <ELEMENT NAME="line" CLASS="line"><core>2314</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1841-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2307</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2309</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
@@ -46651,20 +46702,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16240000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1839-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1841-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16240000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1840-99" NAME="ls" CLASS="attribute" ORDER="2308" LEVEL="4" LINE="2299">
-    <ELEMENT NAME="line" CLASS="line"><core>2299</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1840-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1842-99" NAME="ls" CLASS="attribute" ORDER="2310" LEVEL="4" LINE="2315">
+    <ELEMENT NAME="line" CLASS="line"><core>2315</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1842-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2308</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2310</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
@@ -46674,20 +46725,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16290000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1840-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1842-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16290000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1841-99" NAME="ls" CLASS="attribute" ORDER="2309" LEVEL="4" LINE="2300">
-    <ELEMENT NAME="line" CLASS="line"><core>2300</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1841-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1843-99" NAME="ls" CLASS="attribute" ORDER="2311" LEVEL="4" LINE="2316">
+    <ELEMENT NAME="line" CLASS="line"><core>2316</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1843-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2309</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2311</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
@@ -46696,58 +46747,15 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16480000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1841-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1843-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16480000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1842-99" NAME="ls" CLASS="attribute" ORDER="2310" LEVEL="4" LINE="2301">
-    <ELEMENT NAME="line" CLASS="line"><core>2301</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1842-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2310</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Procurador da vice-província]]></core>         <comment><![CDATA[por 10 anos, de 1648 a 1658??]]></comment>
-   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1842-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-simao-da-cunha-att1843-99" NAME="ls" CLASS="attribute" ORDER="2311" LEVEL="4" LINE="2302">
-    <ELEMENT NAME="line" CLASS="line"><core>2302</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1843-99</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2311</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[estadia]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Yenping (Yen-p'ing), Fukien]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16570000]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1843-99]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16570000]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-simao-da-cunha-att1844-99" NAME="ls" CLASS="attribute" ORDER="2312" LEVEL="4" LINE="2303">
-    <ELEMENT NAME="line" CLASS="line"><core>2303</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1844-99" NAME="ls" CLASS="attribute" ORDER="2312" LEVEL="4" LINE="2317">
+    <ELEMENT NAME="line" CLASS="line"><core>2317</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1844-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46757,19 +46765,18 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Vice-provincial da China]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16570000]]></core>   </ELEMENT>
+         <core><![CDATA[Procurador da vice-província]]></core>         <comment><![CDATA[por 10 anos, de 1648 a 1658??]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1844-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16570000]]></core>   </ELEMENT>
+         <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1845-99" NAME="ls" CLASS="attribute" ORDER="2313" LEVEL="4" LINE="2304">
-    <ELEMENT NAME="line" CLASS="line"><core>2304</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1845-99" NAME="ls" CLASS="attribute" ORDER="2313" LEVEL="4" LINE="2318">
+    <ELEMENT NAME="line" CLASS="line"><core>2318</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1845-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46777,21 +46784,21 @@
     <ELEMENT NAME="order" CLASS="order"><core>2313</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+         <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Vice-provincial da China]]></core>   </ELEMENT>
+         <core><![CDATA[Yenping (Yen-p'ing), Fukien]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16590000]]></core>   </ELEMENT>
+         <core><![CDATA[16570000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1845-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16590000]]></core>   </ELEMENT>
+         <core><![CDATA[16570000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1846-99" NAME="ls" CLASS="attribute" ORDER="2314" LEVEL="4" LINE="2305">
-    <ELEMENT NAME="line" CLASS="line"><core>2305</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1846-99" NAME="ls" CLASS="attribute" ORDER="2314" LEVEL="4" LINE="2319">
+    <ELEMENT NAME="line" CLASS="line"><core>2319</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1846-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46801,19 +46808,19 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Visitador da China e do Japão]]></core>   </ELEMENT>
+         <core><![CDATA[Vice-provincial da China]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16590116]]></core>   </ELEMENT>
+         <core><![CDATA[16570000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1846-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16590116]]></core>   </ELEMENT>
+         <core><![CDATA[16570000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1847-99" NAME="ls" CLASS="attribute" ORDER="2315" LEVEL="4" LINE="2306">
-    <ELEMENT NAME="line" CLASS="line"><core>2306</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1847-99" NAME="ls" CLASS="attribute" ORDER="2315" LEVEL="4" LINE="2320">
+    <ELEMENT NAME="line" CLASS="line"><core>2320</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1847-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
@@ -46823,24 +46830,68 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Vice-provincial da China]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16590000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-simao-da-cunha-att1847-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16590000]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-simao-da-cunha-att1848-99" NAME="ls" CLASS="attribute" ORDER="2316" LEVEL="4" LINE="2321">
+    <ELEMENT NAME="line" CLASS="line"><core>2321</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1848-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2316</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Visitador da China e do Japão]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16590116]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-simao-da-cunha-att1848-99]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[16590116]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-simao-da-cunha-att1849-99" NAME="ls" CLASS="attribute" ORDER="2317" LEVEL="4" LINE="2322">
+    <ELEMENT NAME="line" CLASS="line"><core>2322</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1849-99</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2317</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Visitador da China e do Japão]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16600904]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1847-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1849-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16600904]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1848-99" NAME="ls" CLASS="attribute" ORDER="2316" LEVEL="4" LINE="2307">
-    <ELEMENT NAME="line" CLASS="line"><core>2307</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1848-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1850-99" NAME="ls" CLASS="attribute" ORDER="2318" LEVEL="4" LINE="2323">
+    <ELEMENT NAME="line" CLASS="line"><core>2323</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1850-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2316</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2318</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
@@ -46849,20 +46900,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16590422]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1848-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1850-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16590422]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1849-99" NAME="ls" CLASS="attribute" ORDER="2317" LEVEL="4" LINE="2308">
-    <ELEMENT NAME="line" CLASS="line"><core>2308</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1849-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1851-99" NAME="ls" CLASS="attribute" ORDER="2319" LEVEL="4" LINE="2324">
+    <ELEMENT NAME="line" CLASS="line"><core>2324</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1851-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2317</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2319</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
@@ -46872,20 +46923,20 @@
          <core><![CDATA[16590422]]></core>         <comment><![CDATA[depois de]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1849-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1851-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16590422]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1850-99" NAME="ls" CLASS="attribute" ORDER="2318" LEVEL="4" LINE="2309">
-    <ELEMENT NAME="line" CLASS="line"><core>2309</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1850-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1852-99" NAME="ls" CLASS="attribute" ORDER="2320" LEVEL="4" LINE="2325">
+    <ELEMENT NAME="line" CLASS="line"><core>2325</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1852-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2318</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2320</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-tarefa]]></core>   </ELEMENT>
@@ -46894,20 +46945,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16600000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1850-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1852-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16600000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1851-99" NAME="ls" CLASS="attribute" ORDER="2319" LEVEL="4" LINE="2310">
-    <ELEMENT NAME="line" CLASS="line"><core>2310</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1851-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1853-99" NAME="ls" CLASS="attribute" ORDER="2321" LEVEL="4" LINE="2326">
+    <ELEMENT NAME="line" CLASS="line"><core>2326</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1853-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2319</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2321</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-votos]]></core>   </ELEMENT>
@@ -46916,20 +46967,20 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16261202]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1851-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1853-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16261202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1852-99" NAME="ls" CLASS="attribute" ORDER="2320" LEVEL="4" LINE="2311">
-    <ELEMENT NAME="line" CLASS="line"><core>2311</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1852-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1854-99" NAME="ls" CLASS="attribute" ORDER="2322" LEVEL="4" LINE="2327">
+    <ELEMENT NAME="line" CLASS="line"><core>2327</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1854-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2320</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2322</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[morte]]></core>   </ELEMENT>
@@ -46939,20 +46990,20 @@
          <core><![CDATA[16600904]]></core>         <comment><![CDATA[ou 16601004]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1852-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1854-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16600904]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-simao-da-cunha-att1853-99" NAME="ls" CLASS="attribute" ORDER="2321" LEVEL="4" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1853-99</core></ELEMENT>
+<GROUP ID="deh-simao-da-cunha-att1855-99" NAME="ls" CLASS="attribute" ORDER="2323" LEVEL="4" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-simao-da-cunha-att1855-99</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-simao-da-cunha</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2321</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2323</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[dehergne]]></core>   </ELEMENT>
@@ -46961,19 +47012,19 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Cunha, Simão da (port.) P. 232 a Cugna., De Acuna (JS 161, 364v). K'iu Si-man Fou-Yi (Pf.., Borg. Lat. 523 f° 57: K'iu Si-man). N. Coïmbre 1589 (47 ans en 1636, JS 134, 311v etc). E. 13 janv. 1606 étant M. A. (JS 134, 338). Emb. pour les Indes, 16 avril 1618 (W 647., AHSI IX, 1940, p. 87). A. Hangchow, 1624., 1629, Fukien., 1648, supérieur des résidences de Kienning fou etc (JS 134, 336), 10 ans procureur de la vice-province chinoise (JS 25, 169)., 1657, Yenping (Yen p'ing) Fukien (JA 49-V-14) f° 152)., 1657-1659, vice-provincial de Chine., du 16 janv. 1659 à sa mort, visiteur de Chine et du Japon (JS 25, 293)., 1659, 22 avril, Macao, puis Pékin., en 1660, il attribue le Kwangtung et le Kwangsi à la province du Japon (JS 162, 71). V. 2 déc. 1626 formule non retrouvée. M. 4 sept. 1660, Macao (JS 25, 179v, et 48, 28) (HS 48, 128: le 4 oct. 1660., AHU ms 1659, f° 108 dit bien 4 sept. 1660, mais il l'appelle par distraction Simâo da Silva, visiteur). Pf. 198.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-simao-da-cunha-att1853-99]]></core>   </ELEMENT>
+         <core><![CDATA[deh-simao-da-cunha-att1855-99]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-c-rela220" NAME="relation"  ORDER="2322" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela220" NAME="relation"  ORDER="2324" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2322</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2324</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -46983,12 +47034,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela220</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela221" NAME="relation"  ORDER="2323" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela221" NAME="relation"  ORDER="2325" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2323</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2325</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -46998,12 +47049,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela221</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela222" NAME="relation"  ORDER="2324" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela222" NAME="relation"  ORDER="2326" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2324</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2326</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47013,12 +47064,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela222</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela223" NAME="relation"  ORDER="2325" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela223" NAME="relation"  ORDER="2327" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2325</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2327</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47028,12 +47079,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela223</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela224" NAME="relation"  ORDER="2326" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela224" NAME="relation"  ORDER="2328" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2326</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2328</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47043,12 +47094,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela224</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela225" NAME="relation"  ORDER="2327" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela225" NAME="relation"  ORDER="2329" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2327</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2329</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47058,12 +47109,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela225</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela226" NAME="relation"  ORDER="2328" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela226" NAME="relation"  ORDER="2330" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2328</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2330</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47073,12 +47124,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela226</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela227" NAME="relation"  ORDER="2329" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela227" NAME="relation"  ORDER="2331" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2329</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2331</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47088,12 +47139,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela227</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela228" NAME="relation"  ORDER="2330" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela228" NAME="relation"  ORDER="2332" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2330</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2332</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47103,12 +47154,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela228</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela229" NAME="relation"  ORDER="2331" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela229" NAME="relation"  ORDER="2333" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2331</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2333</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>pai</core></ELEMENT>
@@ -47118,12 +47169,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela229</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela230" NAME="relation"  ORDER="2332" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela230" NAME="relation"  ORDER="2334" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2332</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2334</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47133,12 +47184,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela230</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela231" NAME="relation"  ORDER="2333" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela231" NAME="relation"  ORDER="2335" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2333</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2335</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47148,12 +47199,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela231</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela232" NAME="relation"  ORDER="2334" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela232" NAME="relation"  ORDER="2336" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2334</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2336</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47163,12 +47214,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela232</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela233" NAME="relation"  ORDER="2335" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela233" NAME="relation"  ORDER="2337" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2335</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2337</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47178,12 +47229,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela233</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela234" NAME="relation"  ORDER="2336" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela234" NAME="relation"  ORDER="2338" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2336</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2338</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47193,12 +47244,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela234</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela235" NAME="relation"  ORDER="2337" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela235" NAME="relation"  ORDER="2339" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2337</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2339</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47208,12 +47259,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela235</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela236" NAME="relation"  ORDER="2338" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela236" NAME="relation"  ORDER="2340" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2338</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2340</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47223,12 +47274,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela236</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela237" NAME="relation"  ORDER="2339" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela237" NAME="relation"  ORDER="2341" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2339</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2341</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>mae</core></ELEMENT>
@@ -47238,12 +47289,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela237</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela238" NAME="relation"  ORDER="2340" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela238" NAME="relation"  ORDER="2342" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2340</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2342</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47253,12 +47304,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela238</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra1" NAME="ls"  ORDER="2341" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra1" NAME="ls"  ORDER="2343" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2341</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2343</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47266,12 +47317,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra2" NAME="ls"  ORDER="2342" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra2" NAME="ls"  ORDER="2344" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2342</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2344</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47279,12 +47330,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela239" NAME="relation"  ORDER="2343" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela239" NAME="relation"  ORDER="2345" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2343</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2345</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47294,12 +47345,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela239</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra3" NAME="ls"  ORDER="2344" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra3" NAME="ls"  ORDER="2346" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2344</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2346</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47307,12 +47358,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra4" NAME="ls"  ORDER="2345" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra4" NAME="ls"  ORDER="2347" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2345</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2347</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47320,12 +47371,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela240" NAME="relation"  ORDER="2346" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela240" NAME="relation"  ORDER="2348" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2346</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2348</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47335,12 +47386,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela240</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra5" NAME="ls"  ORDER="2347" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra5" NAME="ls"  ORDER="2349" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2347</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2349</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47348,12 +47399,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra6" NAME="ls"  ORDER="2348" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra6" NAME="ls"  ORDER="2350" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2348</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2350</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47361,12 +47412,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela241" NAME="relation"  ORDER="2349" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela241" NAME="relation"  ORDER="2351" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2349</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2351</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47376,12 +47427,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela241</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra7" NAME="ls"  ORDER="2350" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra7" NAME="ls"  ORDER="2352" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2350</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2352</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47389,12 +47440,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra8" NAME="ls"  ORDER="2351" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra8" NAME="ls"  ORDER="2353" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2351</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2353</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47402,12 +47453,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela242" NAME="relation"  ORDER="2352" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela242" NAME="relation"  ORDER="2354" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2352</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2354</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47417,12 +47468,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela242</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra9" NAME="ls"  ORDER="2353" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra9" NAME="ls"  ORDER="2355" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2353</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2355</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47430,12 +47481,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra10" NAME="ls"  ORDER="2354" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra10" NAME="ls"  ORDER="2356" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2354</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2356</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47443,12 +47494,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela243" NAME="relation"  ORDER="2355" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela243" NAME="relation"  ORDER="2357" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2355</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2357</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47458,12 +47509,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela243</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra11" NAME="ls"  ORDER="2356" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra11" NAME="ls"  ORDER="2358" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2356</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2358</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47471,12 +47522,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra12" NAME="ls"  ORDER="2357" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra12" NAME="ls"  ORDER="2359" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2357</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2359</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47484,12 +47535,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela244" NAME="relation"  ORDER="2358" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela244" NAME="relation"  ORDER="2360" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2358</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2360</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47499,12 +47550,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela244</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra13" NAME="ls"  ORDER="2359" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra13" NAME="ls"  ORDER="2361" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2359</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2361</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47512,12 +47563,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra14" NAME="ls"  ORDER="2360" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra14" NAME="ls"  ORDER="2362" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2360</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2362</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47525,12 +47576,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-rela245" NAME="relation"  ORDER="2361" LEVEL="5" CLASS="relation" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-rela245" NAME="relation"  ORDER="2363" LEVEL="5" CLASS="relation" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2361</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2363</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>parentesco</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>marido</core></ELEMENT>
@@ -47540,12 +47591,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-rela245</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra15" NAME="ls"  ORDER="2362" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra15" NAME="ls"  ORDER="2364" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2362</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2364</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47553,12 +47604,12 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-c-atra15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-c-atra16" NAME="ls"  ORDER="2363" LEVEL="5" CLASS="attribute" LINE="2312">
-    <ELEMENT NAME="line" CLASS="line"><core>2312</core></ELEMENT>
+<GROUP ID="dehergne-notices-c-atra16" NAME="ls"  ORDER="2365" LEVEL="5" CLASS="attribute" LINE="2328">
+    <ELEMENT NAME="line" CLASS="line"><core>2328</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-c</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>2363</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>2365</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>ec</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>c</core></ELEMENT>
@@ -47743,8 +47794,8 @@
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
 <RELATION ID="deh-thomas-da-cruz-rela215" ORG="deh-manuel-mendes-ref2" DEST="deh-manuel-mendes" TYPE="META" VALUE="same_as"/>
-<GROUP ID="deh-thomas-da-cruz-rela215" NAME="relation"  ORDER="2270" LEVEL="5"  CLASS="relation" LINE="2261">
-    <ELEMENT NAME="line" CLASS="line"><core>2261</core></ELEMENT>
+<GROUP ID="deh-thomas-da-cruz-rela215" NAME="relation"  ORDER="2270" LEVEL="5"  CLASS="relation" LINE="2275">
+    <ELEMENT NAME="line" CLASS="line"><core>2275</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-da-cruz</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
