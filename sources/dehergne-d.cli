@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=17
+kleio$gacto2.str/translations=28
    fonte$dehergne-D/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra D
 
       lista$dehergne-notices-d/0/0/0
@@ -14,6 +14,7 @@ kleio$gacto2.str/translations=17
 
          n$Thomas Damaglia/id=deh-thomas-damaglia/obs=Il s'agit du P. de Mailla dont le nom est écorché par le copiste, qui écrit « Jo m. A. Damaglia »
             ls$jesuita-estatuto/Padre
+            ls$estadia/Jehol/17220611
             ls$dehergne/234a/obs=Damaglia, Thomas 234a Lettre datée de Ge-ho {= Jehol), 11 juin 1722. Il s'agit du P. de Mailla dont le nom est écorché par le copiste, qui écrit « Jo m. A. Damaglia » (JS 128, 162).
 
          n$Antão Dantas/id=deh-antao-dantas
@@ -50,7 +51,7 @@ kleio$gacto2.str/translations=17
             ls$jesuita-entrada/?/16831026
             ls$embarque/para a China/16920000
             ls$wicky/1320
-            ls$morte/A caminho da China/16920400
+            ls$morte/A caminho da China#no Índico/16920400
             ls$dehergne/236/obs=Daudy, Pierre-François (bourguignon) fr. coadj.? 236 Dande., Daudy., Daudli., Doudi. N. « Sequanus » ( = en Franche-Comté), 4 janv. 1665 -E. 26 oct. 1683 {Lugd. 22, 395). Emb. en 1692 pour la Chine (W 1320: P. Pierre Dande, bourguignon). M. en route « in navigatione indica », avril 1692 {HS 50, 38) tandis que JS 199 I, 83 dit: en 1693, « Petrus Doudi burgundus » M.., Lugd. 23, 56 le marque encore « in regno Siami » en 1693, non prêtre. Pf. 309 croit Pierre Dande prêtre ainsi que W 1320, d'après Franco.
 
          n$Giovanni Francesco De Ferrariis/id=deh-giovanni-francesco-de-ferrariis
@@ -113,7 +114,7 @@ kleio$gacto2.str/translations=17
             ls$nome/Carlo da Roca
             ls$nome/Carlo à Rocha
             ls$nome-chines/Che Kia-lo Lo-T'ien
-            ls$nascimento/Saluces, Piemonte/16120000#cerca de 1612.1614
+            ls$nascimento/Saluces, Piemonte/16120000#cerca de 1612-1614
             ls$jesuita-entrada/Chieri/16280213
             ls$partida/Índia/16410000
             ls$embarque/?/16430330
@@ -130,6 +131,510 @@ kleio$gacto2.str/translations=17
             ls$jesuita-votos-local/Salemi, Sicília/16581110
             ls$morte/Cantão/16700610
             ls$dehergne/241/obs=Délia Rocca, Carlo (ital.) P. 241 da Rocca., da Rochas., Roca., à Rocha. Che Kia-lo Lo-T'ien (Pf.). N. « Sabaudus », en Savoie (JS 187, 4) ( = d'un pays dépendant de la maison de Savoie), car « Salutiensis in Subalpinis », de Saluces en Piémont, v. 1612-1614 -E. 13 févr. 1628, Chieri (Med. 49, 117 et 50, 74). Part aux Indes, 1641 (Med. 2, 37)., Emb. 30 mars 1643 (W 906: Carlo Della Rocca)., Cochinchine, 1646., Tonkin, 1647-1658., exilé, 1658., Hainan., Cambodge, Macao et Hainan. P. 1640 ou 1641. -V. Salemi (Trapani), Sicile: Carolus la Rocca (Ital. 38, 176), 10 nov. 1658, c. spir. M. 10 juin 1670, Canton (HS 49, 37: Carolus à Rocha). Pf. 371., notes Lamalle. D
+
+         n$De Magistris/id=deh-de-magistris
+            ls$jesuita-tarefa/Destinado à China/169000000
+            ls$dehergne/242/obs=De Magistris 242 En 1690, destiné à la mission de Chine (JS 134, 372): prénom omis. Il est distinct du (ou des) P. Giacinto De Magistris. Emb. en 1637 (W 856) et 1666 (W 1093a). Serait-ce le P. Michel Ange De Magistris N. Rome, 29 sept. 1656 E. 30 oct. 1671 M. Rome 3 févr. 1727, cité par Sommervogel? En tout cas le catal. de Chine de 1692 ne connaît pas ce nom. (JS 134, 376-378).
+
+            referido$Giacinto De Magistris/id=deh-giacinto-de-magistris/obs=diferente de
+               ls$jesuita-estatuto/Padre
+               ls$embarque/?/16370000
+               ls$wicky/856
+               ls$embarque/?/16660000
+               ls$wicky/1093a
+               ls$dehergne/242-ref1/obs=Il est distinct du (ou des) P. Giacinto De Magistris. Emb. en 1637 (W 856) et 1666 (W 1093a).
+
+            referido$Michel Ange De Magistris/id=deh-michel-ange-de-magistris/obs=será um dos anteriores?
+               ls$nacionalidade/Itália
+               ls$jesuita-estatuto/Padre
+               ls$nascimento/Roma/16560929
+               ls$jesuita-entrada/?/16711030
+               ls$morte/Roma/17270203
+               ls$dehergne/242-ref2/obs=Serait-ce le P. Michel Ange De Magistris N. Rome, 29 sept. 1656 E. 30 oct. 1671 M. Rome 3 févr. 1727, cité par Sommervogel? En tout cas le catal. de Chine de 1692 ne connaît pas ce nom. (JS 134, 376-378).
+
+         n$Giovanni Filippo De Marini/id=deh-giovanni-filippo-de-marini
+            ls$nacionalidade/Itália
+            ls$jesuita-estatuto/Padre
+            ls$nome/Giovanni Filippo de Marino
+            ls$nascimento/Taggia/16080000
+            ls$jesuita-entrada/Roma (S. Andrea)/16250218
+            ls$embarque/Nossa Senhora da Atalaia/16400326
+            ls$wicky/888
+            ls$estadia/Goa/16401102
+            ls$estadia/Sião/16410000
+            ls$estadia/Sião/16420000
+            ls$estadia/Tonquim/16470000
+            ls$estadia/Macau/16490000
+            ls$cargo/Procurador da vice-província da China/16490000
+            ls$jesuita-cargo/Reitor do colégio de Macau/16560122
+            ls$estadia/Tonquim/16580000#expulso pelo novo rei, foi missionário 14 anos
+            ls$estadia/perto de Hainan#naufrágio
+            ls$estadia/Roma/16610000
+            ls$cargo/Procurador/16610000#tem acção junto a Charles II de Inglaterra, mas não diz como
+            ls$embarque/Nossa Senhora da Ajuda/16660415
+            ls$wicky/1080a
+            ls$cargo/Procurador do Japão/16660415
+            ls$cargo/Bispo eleito do Japão/16660415
+            ls$cargo/Bispo eleito de Macau/16710000#não reconhecido pelo papa
+            ls$chegada/Goa/16661013
+            ls$jesuita-cargo/Provincial do Japão/16700000
+            ls$jesuita-cargo/Provincial do Japão/16730000
+            ls$cargo/Administrador da diocese de Macau/16710000
+            ls$cargo/Administrador da diocese de Macau/16760000
+            ls$estadia/Tonquim/16730900#expulso
+            ls$estadia/Sião/16731100
+            ls$estadia/Macau/16751200#chamado de volta pela Propaganda 16771206, breve de Inocêncio XI 16781010
+            ls$jesuita-cargo/Visitador da China e do Japão/16800000
+            ls$jesuita-cargo/Visitador da China e do Japão/16820000
+            ls$jesuita-ordenacao-padre/?/16370000#cerca de
+            ls$jesuita-votos/4V/16510507
+            ls$morte/Macau/16820717
+            ls$dehergne/243/obs=De Marini (de Marino), Giovanni Filippo (ital.). P. 243 N. 1608 à Taggia (Gênes) -E. 18 févr. 1625, S. Andréa, Rome (Rom. 80, 97v). Emb. 26 mars 1640 sur le Na. Sra. d'Atalia (W 888)., 2 nov. 1640, Goa., 1641-42, Siam., 1647, Tonkin (JS 80, 67v)., 1649 « erat procurator in Sinis Macai », écrit-il (JS 18 II, 284)., recteur du collège de Macao, 22 janv. 1656 (AHSI 22 (1953), 183)., expulsé du Tonquin par le nouveau roi, 1658., naufrage près de Hainan: a été procureur de la vice-province de Chine, puis missionnaire au Tonkin 14 ans (JS 25, 205). Envoyé à Rome comme procureur, y arr. 1661., son rôle auprès de Charles II (AHSI 28 (1959), 22)., emb. 15 avril 1666 sur le Na. Sra da Ajuda (AHSI 28 (1959), 25) comme procureur du Japon et évêque élu du Japon (W 1080a)., en fait évêque élu de Macao par Pedro II en 1671, mais non confirmé par le Pape (H. Chappoulie I, 286 n. 4)
+            ls$dehergne/243/obs=arr. Goa 13 oct. 1666., provincial du Japon, 1670-1673, et administrateur de l'évêché de Macao, 1671- 1676., entre au Tonkin, d'où chassé sept. 1673., nov. 1673, Siam., déc. 1675, Macao (AHSI 22 (1953), 199)., rappelé par la Propagande 6 déc. 1677 (SOCP 1677, 1, 7 et 10)., bref d'iNNOCENT XI, 10 oct. 1678., visiteur de la Chine et du Japon, 1680-1682. P. v. 1637. V. 7 mai 1651, pr., dit JS 25, 208. M. Macao, 17 juill. 1682 (HS 49, 212v: De Marinis). II nous intéresse en tant que procureur et visiteur. Il raconte son activité missionnaire au Tonkin dans son livre Délie Missioni de' Padri délia Compagnia di Giesu, Rome, 1663, p. 312 (= livre III, ch. 6). Son Istoria e Relazione del TunKin e del Giappone a été réédité par Guglielminetti, Marziano, dans Viaggiatori del Seicento, Turin, 1967 (Classici Italiani, 7, p. 471481).
+            ls$dehergne/243/obs=Biographie: Brefs d'ALEXANDRE VII, 31 mars 1665 (Streit V, nº 1708)., Bref d'iNNOCENT XI, 10 oct. 1678 ., 31 mai 1664, aux chrétiens du P. De Marinis (Brotier 94, pas dans Streit) et Difesa dell'innocenta di P. Gio. Fit. de Marini, S. J., missionario del Tonkino, Macao, 4 déc. 1676, ms BVE. F. G. 1384 n° 12., Maybon, Notice biographique et bibliographique sur G. F. de Marini, Rev. Indochinoise, juill. 1910, 15-25., Chappoulie, t. I., BN ms. fr. 25057, p. 565-575 et 847. — Son Apologie (ARSI Fondo Gesuitico n° 721, V, H., cf. Brotier 100). Pf. 248.
+
+            referido$Pedro II/id=deh-pedro-ii-ref1
+               ls$titulo/rei de Portugal
+               rel$eclesiastica/nomeia/Giovanni Filippo De Marini/deh-giovanni-filippo-de-marini/data=16710000
+
+         n$Giovanni Battista De Monte/id=deh-giovanni-battista-de-monte
+            ls$nacionalidade/Itália
+            ls$jesuita-estatuto/Padre
+            ls$nascimento/Ferrara/15280000#cerca de
+            ls$jesuita-entrada/Ferrara/15550000#cerca de
+            ls$embarque/S. Filipe/15610309#não padre
+            ls$wicky/76
+            ls$chegada/Macau/15620814
+            rel$sociabilidade/companheiro/Luís Fróis/deh-luis-frois-ref1
+            ls$estadia/Japão/15630706
+            ls$jesuita-ordenacao-padre/Goa/15610900
+            ls$jesuita-votos/4V/15811018
+            ls$morte/Hirado, Japão/15870907
+            ls$dehergne/244/obs=De Monte, Giovanni Battista (ital.) P. 244 N. v. 1528, Ferrare (JS 25, 54) -E. v. 1555, Ferrare. Emb. non prêtre sur le S. Filipe, 9 mars 1561 (W 76). Arr. avec le P. Luis Frôis à Macao (et non Hainan), 14 août 1562 (D'Elia I, 140 et III, 126)., 6 juill. 1563, au Japon (DI. VI, 630). P. sept. 1561, Goa (DI. V, 209, 258-259). — V. 18 oct. 1581, pr. (Lus. 19, 2). M. 7 sept. 1587 à Hirado, Japon (JS 25, 54., DI. V, 18). Streit IV, nº 1441 : Montes (Monti), Joâo Bautista. Distinct du P. Ignacio de Monte, v. Monte., DI. V, 779., Schutte, 966: di Monte. Scaduto: Monte. Il signe Joannes Baptista Môris le 25 nov. 1559 (Lus. 60, 161v).
+
+            referido$Luís Fróis/id=deh-luis-frois-ref1
+               ls$jesuita-estatuto/Padre
+               ls$chegada/Macau/15620814
+
+         n$François-Xavier Dentrecolles/id=deh-francois-xavier-dentrecolles
+            ls$nacionalidade/França
+            ls$jesuita-estatuto/Padre
+            ls$nome/François-Xavier D'Entrecolles
+            ls$nome/François-Xavier d'Antrecole
+            ls$nome/François-Xavier d'Antrecolles
+            ls$nome-chines/Yin Hong-Siu Ki-Tsong
+            ls$nascimento/diocese de Limoges#N. 5 févr. 1662 (JS 134, 431)., 25 févr. 1663, « Peronicensis » Péronne près de Mâcon(?)., « lugdunensis », lyonnais (JS 134, 417)., « lemovicensis », dans le Limousin (Franc. 18, 407). Gaubil, lettre du 2 oct. 1741, le dit de Limoges, mais élevé à Lyon., cf. BN: ms. fr. 25670, p. 18: « il a ses parents à Lion, mais je le crois né à Limoges, dont ils sont originaires »./16640225
+            ls$jesuita-entrada/?/16820926#La date de son E. est aussi variable, 16 ou 26 sept. 1682., JS 134, 417 dit 16 sept. 1683.
+            ls$estadia/Port-Louis/16980221/obs=vide Dehergne 330
+            ls$embarque/?/16980221
+            rel$sociabilidade/companheiro/Jean-François Foucquet/deh-jean-francois-foucquet-ref2/data=16980221
+            rel$sociabilidade/companheiro/Jean-François Pélisson/deh-jean-francois-pelisson-ref1/data=16980221
+            rel$sociabilidade/companheiro/Pierre Frapperie/deh-pierre-frapperie-ref3/data=16980221
+            rel$sociabilidade/companheiro/Bernard Rodes/deh-bernard-rodes-ref4/data=16980221
+            ls$estadia/Chennai, Índia
+            ls$chegada/Amoy, Fukien/16990724
+            ls$estadia/Kiangsi, Nanchang/17030000
+            ls$estadia/Jaochow, Kingtechen/17030000#porcelanas
+            ls$estadia/Kiukiang/17070000
+            ls$estadia/Kiukiang/17090000
+            ls$jesuita-cargo/Superior geral da missão francesa na China/17070000
+            ls$jesuita-cargo/Superior geral da missão francesa na China/17190000
+            ls$estadia/Jaochow/17140000#?
+            ls$estadia/Kiukiang/17140000#?
+            ls$chegada/Pequim/17191230
+            ls$chegada/Pequim/17201000
+            ls$chegada/Pequim/17230000
+            ls$jesuita-ordenacao-padre/?/16960000#antes de
+            ls$jesuita-votos/4V/16980207
+            ls$jesuita-votos-local/no mar (navio de Luís XIV, Castricum)/16980207
+            ls$morte/Pequim/17410702#ou 17410602
+            ls$dehergne/245/obs=Dentrecolles (D'Entrecolles), François-Xavier (franc.) P. 245 d'Antrecole (Franc, catal. 1701 exeunte)., d'Antrecolles (Lugd. 24, 525v). Yin Hong-Siu Ki-Tsong (Pf.). N. dioc. de Limoges, 25 févr. 1664 -E. 26 sept. 1682 (Lugd. 23, 12). Emb. 21 févr. 1698, avec les PP. Foucquet et Pélisson puis les FF. Fraperie et de Rodes, de Madras à « Emoi » (Amoy) (BN: ms fr. 25055 p. 70-71), A. Amoy 24 juill. 1699 (JS 134, 417 et 431)., Kiangsi, Nanchang 1703, Jaochow, Kingtehchen (porcelaines)., 1707- 1709, Kiukiang (JS 132, 431 et 171, 118)., supérieur général de la mission française en Chine, 1707-1719, Jaochow, 1714 (JS 132, 463), Kiukiang (JS 182, 28sq, 1718)., arr. Pékin, 30 déc. 1719 (SF VI, 753), il en écrit en 1720, oct. (JS 178, 392), en 1723 (JS 141, 45). P. avant 1696. V. « In navi regia Ludovici Magni Castricum dicta, 7 févr. 1698, pr. (Gai. 14, 484): il signe Dentrecolle {sans « s ») -et non le 15 août 1698 de JS 134, 431, suivi par Pf., ni le 7 sept. (Lus. 24, 480).
+            ls$dehergne/245/obs= M. Pékin, 2 juill. 1741 (HS 53a, 36)., 2 juin 1741 dit Lugd. 26, 512. N. 5 févr. 1662 (JS 134, 431)., 25 févr. 1663, « Peronicensis » Péronne près de Mâcon(?)., « lugdunensis », lyonnais (JS 134, 417)., « lemovicensis », dans le Limousin (Franc. 18, 407). Gaubil, lettre du 2 oct. 1741, le dit de Limoges, mais élevé à Lyon., cf. BN: ms. fr. 25670, p. 18: « il a ses parents à Lion, mais je le crois né à Limoges, dont ils sont originaires ». La date de son E. est aussi variable, 16 ou 26 sept. 1682., JS 134, 417 dit 16 sept. 1683. Il signe habituellement F. X. Dentrecoli.es (JS 182, f° 163, 388 sq., JS 199 I, 303 etc.). — Il a traduit des Contes chinois, BN: Y* 61860-61862, 3 vols, et écrit De moribus Sinens. juxta Scriptores Sinens. (1722), JS 156. Sa lettre sur la Porcelaine, serait datée de Kim-te-tchim selon LE (Streit VII, n° 3007)., c'est une erreur: il était alors à Pékin (SOCP, Cina Miscell. 372). Pf. 539., Streit VII, n° 2315 et XIVi p. 648., Fournier, P., Voyages p. 43.
+
+            referido$Jean-François Foucquet/id=deh-jean-francois-foucquet-ref2/obs=Dehergne 330
+               ls$jesuita-estatuto/Padre
+               ls$estadia/Port-Louis/16980221/obs=vide Dehergne 330
+               ls$embarque/?/16980221
+               ls$estadia/Chennai, Índia
+               ls$chegada/Amoy, Fukien/16990724
+
+            referido$Jean-François Pélisson/id=deh-jean-francois-pelisson-ref1/obs=Dehergne 614 diz que embarque foi em Novembro de 1697 e chegou pelo Brasil? poderá ser outro?
+               ls$jesuita-estatuto/Padre
+               ls$estadia/Port-Louis/16980221/obs=vide Dehergne 330
+               ls$embarque/?/16980221
+               ls$estadia/Chennai, Índia
+               ls$chegada/Amoy, Fukien/16990724
+
+            referido$Pierre Frapperie/id=deh-pierre-frapperie-ref3/obs=Dehergne 337
+               ls$jesuita-estatuto/Frade Coadjutor
+               ls$estadia/Chennai, Índia%Madras
+               ls$chegada/Amoy, Fukien/16990724
+
+            referido$Bernard Rodes/id=deh-bernard-rodes-ref4/obs=Dehergne 696, como Pelisson diz que embarcou em Novembro de 169
+               ls$jesuita-estatuto/Frade Coadjutor
+               ls$estadia/Chennai, Índia%Madras
+               ls$chegada/Amoy, Fukien/16990724
+
+         n$Francesco De Petris/id=deh-francesco-de-petris
+            ls$nacionalidade/Itália
+            ls$jesuita-estatuto/Padre
+            ls$nome/Francesco Di Pietri
+            ls$nome-chines/Che Fang-si Tchen-Yu
+            ls$nascimento/Badia di Farfa/15620000
+            ls$jesuita-entrada/Roma/15830815
+            ls$embarque/?/15860411
+            ls$wicky/292
+            ls$chegada/Goa/15870529
+            ls$estadia/Goa/15880422#até
+            ls$estadia/Macau/15900728
+            ls$estadia/Shiuchow (Chao-tcheou)/15911200
+            ls$jesuita-ordenacao-padre/?/15860000#cerca de
+            ls$morte/Shiuchow (Chao-tcheou)/15931105
+            ls$dehergne/246/obs=De Pétris (DI Pietri), Francesco (ital.) P. 246 Che Fang-si Tchen-Yu (Pf.). N. Badia di Farfa, près de Rome, 1562 -E. Rome, 15 août 1583. Emb. 11 avril 1586 (W 292)., arr. Goa, 29 mai 1587, en part le 22 avril 1588., 28 juill. 1590, Macao, destiné au Japon, puis à la Chine., fin déc. 1591, Shiuchow (Chao-tcheou). P. v. 1586 (W 292). M. 5 nov. 1593, Shiuchow (JS 12, 119v, 166., D'Elia I, 257, 328). Pf. 45., Nœremberg, Firmamento Religioso, Madrid, 1644, 539-544., Streit IV, 2009. Il signe au registre du noviciat Jo. Franc. Di Pietri (Rom 171A nº 702).
+
+         n$Dominique Derives/id=deh-dominique-derives
+            ls$nacionalidade/França
+            ls$jesuita-estatuto/Padre
+            ls$nome/Dominique de Rives
+            ls$nascimento/diocese de Bourdeaux/000000
+            ls$jesuita-entrada/?/16880900
+            ls$estadia/Saint-Malo/17031226
+            ls$embarque/para a China#pela América do Sul, contorna o Cabo Horn/17031226
+            ls$chegada/Concépcion, Chile/17040513
+            ls$estadia/Lima, Peru
+            ls$estadia/França
+            ls$jesuita-votos/4V/17060530
+            ls$jesuita-votos-local/Bordeaux/17060530
+            ls$morte/Bordeaux/17090305
+            ls$dehergne/247/obs=Dérives (de Rives), Dominique (franç.) P. 247 N. « Burdigalensis », dioc. de Bordeaux -E. sept. 1688 (Aquit. 12, 413). Emb. 26 déc. 1703 à Saint-Malo pour la Chine par l'Amérique du Sud., le catal. Aquit. 1703 ex. le met déjà « apud Sinas »., Aquit. 1705 ex. dit, plus justement, « in itinere ad Sinas ». En fait, il contourne le Cap Horn., arr. 13 mai 1704, à Concepcion du Chili., puis Lima., enfin, épuisé, revient en France. V. Bordeaux, 30 mai 1706, pr. (Gai. 16, 111). Il signe Dom. de Rives. M. Bordeaux, 5 mars 1709 (Aquit. 8 I, 75v). Pf. 626., RBS 397.
+
+         n$Joseph-Louis Desrobert/id=deh-joseph-louis-desrobert
+            ls$nacionalidade/França
+            ls$jesuita-estatuto/Padre
+            ls$nome/Joseph-Louis des Robert
+            ls$nome-chines/Tchao Cheng-Sieou P'in-Tche
+            ls$nascimento/Montmédy#na altura era do Luxemburgo/17030612
+            ls$jesuita-entrada/Nancy/17200921
+            ls$estadia/Lorient/17360000
+            ls$embarque/?/17360000
+            rel$sociabilidade/companheiro/Louis-Joseph Le Febure/deh-louis-joseph-le-febure-ref1/data=17360000
+            ls$chegada/Macau/17370805
+            ls$estadia/Cantão/17370822#até
+            ls$estadia/Pé-tsiuen-chan, Hukwang
+            ls$cargo/Procurador
+            ls$estadia/Pequim/17420000
+            ls$jesuita-cargo/Superior da residência francesa de macau/17481118
+            ls$jesuita-cargo/Superior da residência francesa de macau/17540000
+            ls$jesuita-cargo/Superior da residência francesa de macau/17600000
+            ls$jesuita-ordenacao-padre/Estrasburgo/17330404#sábado santo, pelo bispo sufragâneo
+            ls$jesuita-votos/4V/17360815
+            ls$jesuita-votos-local/Sens/17360815
+            ls$morte/Pequim/17600421#às seis da tarde
+            ls$dehergne/248/obs=Desrobert (des Robert) Joseph-Louis (franç.) P. 248 Tchao Cheng-Sieou P'in-Tche (Pf.). N. 12 juin 1703 « ex ducatu Luxemburg. ex dioecesi Trevirensi »., « Luxemburgensis ex oppido Montimedio » (Gai. 111, 90)., « Montismedunensis » (Franc. 21, 65), Luxembourgeois de Montmédy (Meuse). E. 21 sept. 1720, Nancy (Camp. 15, 18v) Emb. à Lorient, 1736, avec le P. Lefebure, J. L.., arr. 5 août 1737, Macao., quitte Canton, 22 août 1737., « Pé-tsiuen-chan », au Hukwang (AHSI 26 (1967), 48)., procureur., 1742, Pékin, où nommé supérieur de la résidence française, 18 nov. 1748 à 1754 et 1760. P. le samedi saint 4 avril 1733 à Strasbourg, par l'évêque suffragant (Camp. 15, 339). V. « Senonis », à Sens (Yonne), 15 août 1736, pr. (Gai. 21, 275) (le 2 févr. 1736, dit à tort Franc. 21, 65): J. L. Desrobert. M. 21 avril 1760 « vers 6 heures du soir », Pékin (HS 53a, 114., M 446, 291-292, 293, 295., Camp. 17, 21 lv).
+            ls$dehergne/248/obs=Fils de Nicolas Des Robert, major de Montmédy et chevalier de Saint-Louis, et de Catherine Gobert D'Escouviers (Carrez). Il signe d'ordinaire: J. L. Desrobert (JS 184, 216, 229., Gai. 111, 26., Brotier 110, 63 etc.). Pf. 744., DBF (Dehergne). Carrez, Louis, Le R. P. Louis Joseph des Robert, Nancy, 1903.
+
+            pai$Nicolas des Robert/id=deh-joseph-louis-desrobert-pai
+               ls$cargo/Major de Montmédy
+               ls$cargo/cavaleiro de Saint-Louis
+
+            mae$Catherine Gobert d'Escouviers/id=deh-joseph-louis-desrobert-mae
+
+            referido$Louis-Joseph Le Febure/id=deh-louis-joseph-le-febure-ref1/obs=Dehergne 459
+               ls$estadia/Lorient/17360000
+               ls$embarque/?/17360000
+
+         n$Agostinho Detenes/id=deh-agostinho-detenes
+            ls$nacionalidade/China
+            ls$nascimento/Macau/15670000#filho de portugueses
+            ls$jesuita-entrada/?/15860000
+            ls$estadia/Arima (seminário), Japão/15880000#já não está no catálogo de 1593
+            ls$dehergne/249/obs=Detenes, Agostinho (macaïste) 249 N. 1567, « Lusitanus natus Amachao in China », à Macao -E. 1586. Etait en 1588 au Séminaire d'Arima, Japon (JS 25, 17v). N'est plus au catal. de 1593.
+
+         n$Phil. Deturil/xmesmo_que=deh-philippe-avril/id=deh-phil-deturil/obs=erro de leitura
+            ls$nacionalidade/França#?
+            ls$jesuita-estatuto/Padre
+            ls$partida/China/16920000
+            rel$sociabilidade/companheiro/Louis Barnabé/deh-louis-barnabe-ref1/data=16920000
+            ls$dehergne/249-ref1/obs=Deturil, Phil. (franç?) P. 249a Franc. 24, 205v le cite en 1692 comme parti pour la Chine avec Barnabé. Ce nom nous a beaucoup intrigué. Un P. Philippe ou Philibert Deturil (ou de Tourelle?, des Tourelles) restait introuvable dans les catalogues de France et de Belgique. C'est, en fait, une mauvaise lecture., le copiste a voulu écrire quelque chose comme Davril, D majuscule, A majuscule pointu, ce qui donne à premiè- re vue Deturil, et non DeAuril. Il s'agit du P. Philippe Avril, comme me le signale le P. E. Lamalle, recherches faites.
+
+            referido$Louis Barnabé/xmesmo_que=deh-louis-barnabe/id=deh-louis-barnabe-ref1/obs=suponho que seja o mesmo
+               ls$partida/China/16920000
+
+         n$Sabatino De Ursis/id=deh-sabatino-de-ursis
+            ls$nacionalidade/Itália
+            ls$jesuita-estatuto/Padre
+            ls$nome/Sabatino degli Orsi
+            ls$nome/Sabatino des Ursins
+            ls$nome/Sebastianus Deursis
+            ls$nome/Sabatino d'Orsi
+            ls$nome-chines/Hiong San-pa Yeou-Kang
+            ls$nascimento/Lecce, Itália#reino de Nápoles/15750000
+            ls$jesuita-entrada/Nápoles/15971106
+            ls$embarque/?/16020325
+            ls$wicky/479
+            ls$chegada/Macau/16030000#destinado ao Japão
+            ls$partida/Nanchang/16060000
+            ls$chegada/Pequim/16070000
+            ls$profissao/Astrónomo/16070000
+            ls$profissao/Engenheiro hidráulico/16070000
+            ls$estadia/Pequim/16170318#expulso
+            ls$partida/Cantão#e Macau/16170318#depois de
+            ls$estadia/Macau
+            rel$sociabilidade/companheiro/Diego Pantoja/deh-diego-pantoja-ref1/data=16170318
+            ls$tarefa/Introduz na China a farmácia europeia e a destilação de essências
+            ls$profissao/Arquitecto
+            ls$jesuita-votos/4V/16180217
+            ls$jesuita-votos-local/Macau/16180217
+            ls$morte/Macau/16200503
+            ls$dehergne/250/obs=De Ursis, Sabatino (ital.) P. 250 degll Orsi., des Urslns (Borg. Lat. 523, P 57)., Deursls Sebastianus (!)., d'Orsl Sabbatino (Streit V, p. 748). Hiong San-pa Yeou-Kang (Pf.). Hiong = ours, San-pa évoque Sabatino. N. 1575 à Lecce, royaume de Naples -E. 1597, 6 nov., Naples. Emb. 25 mars 1602 (W 479)., Arr. 1603, Macao, destiné au Japon., mais en 1606, il quitte Macao pour Nanchang., mandé par Ricci à Pékin, il y arr. en 1607 comme astronome et hydraulicien., à la persécution de 1616, il est expulsé de Pékin le 18 mars 1617 avec Pantoja pour Canton et Macao (JS 161 I, 37., D'Elia II, 387- 388)., introduit en Chine la pharmacie européenne et la distillation des essences (RBS 209). Architecte, JS 14 II, 234v. V. Macao, 17 févr. 1618 (Lus. 4, 8, 25, 126, 133), pr. M. 3 mai 1620 (20 avril 1620, selon la Lista de Defuntos, AHU ms 1659, 102v). HS 43, 57v: P. Sabatinus de Visis (!), Macai, 1620. Pf. 103., Schùtte, 1022., RBS 209 sur le Yo lou chouo, Essences médicinales.
+
+            referido$Matteo Ricci/xmesmo_que=matteo-ricci-bio/id=deh-matteo-ricci-ref4
+               rel$institucional/envia a Pequim/Sabatino De Ursis/deh-sabatino-de-ursis
+
+            referido$Diego Pantoja/id=deh-diego-pantoja-ref1/obs=Dehergne 607
+               ls$estadia/Pequim/16170318#até, expulso
+               ls$partida/Cantão#e Macau/16170318#depois de
+               ls$estadia/Macau
+
+         n$Antonio Díaz/id=deh-antonio-diaz
+            ls$nacionalidade/Espanha
+            ls$jesuita-estatuto/Padre
+            ls$nascimento/?/15240000#cristão-novo
+            ls$jesuita-entrada/Portugal/15500000
+            ls$estadia/Ceilão/15520000
+            rel$sociabilidade/companheiro/Morais/deh-morais-ref1/data=15520000
+            ls$estadia/China/15540000
+            rel$sociabilidade/companheiro/Belchior Nunes Barreto/deh-belchior-nunes-barreto-ref2/data=15540000
+            ls$estadia/Shangchuan/15550000
+            ls$estadia/Goa/15580000
+            ls$cargo/Subdiácono/15660000
+            ls$estadia/Índia#missionário dos Paravas
+            ls$jesuita-votos/Coadjutor Espiritual/000000
+            ls$morte/Chaul/15810000
+            ls$dehergne/251/obs=Diaz, Antonio (espagn.) (I) P. 251 N. 1524., nouveau chrétien -E. 1550 (DI. VII, 76) au Portugal. Il accompagne, en 1552, un P. Morais à Ceylan, et, en 1554, le P. Nunes Barreto à la Chine. En août 1555, île de Sancian (D'Elia I, 139). 1558, Goa., en 1566 était sous-diacre, et beaucoup plus tard, prêtre, missionnaire des Paravas aux Indes (DI. VII, 76). V. coadj. spir. (DI. X, 934). M. à Chaul, 1581 (Nécrologe dans l'annuelle de 1579, Goa 31, 420v, me signale le P. Wicki)., DI. XII, 606. Wicki, Historia ... Gonçalves, II, 50.
+
+            referido$Morais/id=deh-morais-ref1/obs=não é o único Morais mencionado neste catálogo
+               ls$jesuita-estatuto/Padre
+               ls$estadia/Ceilão/15520000
+
+            referido$Belchior Nunes Barreto/xmesmo_que=deh-belchior-nunes-barreto/id=deh-belchior-nunes-barreto-ref2
+               ls$jesuita-estatuto/Padre
+               ls$estadia/China/15540000
+
+         n$António Dias/id=deh-antonio-dias
+            ls$nacionalidade/Portugal
+            ls$jesuita-estatuto/Padre
+            ls$nascimento/Lavre, diocese de Évora/16661212#o catálogo do Japão de 1697 diz 1658
+            ls$jesuita-entrada/?/16810326#o catálogo do Japão de 1697 diz 1675
+            ls$embarque/Santiago/16820329
+            ls$wicky/1216
+            ls$estadia/Juthia, Sião/1690000
+            ls$estadia/Juthia, Sião/1699000
+            ls$estadia/Madurai%Maduré#?/17040000
+            ls$estadia/Goa/17050000#cerca de
+            ls$cargo/Procurador/17050000
+            ls$jesuita-cargo/Provincial do Malabar/17160000
+            ls$jesuita-cargo/Provincial do Malabar/17210000
+            ls$jesuita-cargo/Provincial do Malabar/17230000
+            ls$jesuita-cargo/Provincial do Malabar/17250000
+            ls$jesuita-cargo/Reitor do Seminário de Macau#segundo catálogo do Japão de 1697, por um ano
+            ls$jesuita-cargo/Superior do Sião#segundo catálogo do Japão de 1697, por 3 anos
+            ls$jesuita-votos/4V/16920815
+            ls$jesuita-votos-local/Sião/16920815
+            ls$morte/Travancore/17260203
+            ls$dehergne/252/obs=Dlas, Antonio (port.) (II) P. 252 N. 12 déc. 1666 Lavre, d. d'Evora -E. 26 mars 1681 (Lus. 46, 68v). Emb. le 29 mars 1682 sur le Santiago (W 1216)., est dit missionnaire de Chine., juill. 1690 à 1699, Juthia, Siam., 1704, Maduré., v. 1705, était procureur à Goa., provincial de Malabar 1716-1721, et 1723- 1725. V. 15 août 1692, à Siam, pr. (Lus. 11, 218): Dias. M. au Travancore, 3 févr. 1726 ? Le catal. Japon 1697 dit N. en 1658 E. 1675 et 1 an recteur du Séminaire de Macao., supérieur au Siam pendant 3 ans, il y réside encore (JS 25, 232v).
+
+         n$Gonçalo Dias/id=deh-goncalo-dias
+            ls$nacionalidade/Portugal
+            ls$jesuita-estatuto/Frade Coadjutor
+            ls$nascimento/Vila Real, diocese de Braga/15910000
+            ls$jesuita-entrada/?/16080000
+            ls$embarque/S. Carlos/16180400#meados
+            ls$wicky/665
+            ls$dehergne/253/obs=Dias, Gonçalo (port.) frère 253 N. Villa Real, dioc. de Braga, 1591 -E. 1608 (Lus. 44 I, 282). Emb. sur le S. Carlos, milieu d'avril 1618, pour la Chine (W 665). Un homonyme est N. 1542., E. 1560 et était en 1566 au collège de Goa (DI. VI, 820., VII, 80).
+
+            referido$Gonçalo Dias/id=deh-goncalo-dias-ref1
+               ls$nascimento/?/15420000
+               ls$jesuita-entrada/?/15600000
+               ls$estadia/Goa (colégio)/15660000
+               ls$dehergne/253-ref1/obs=Un homonyme est N. 1542., E. 1560 et était en 1566 au collège de Goa (DI. VI, 820., VII, 80).
+
+         n$Manuel Dias, o Novo/id=deh-manuel-dias-o-novo
+            ls$nacionalidade/Portugal
+            ls$jesuita-estatuto/Padre
+            ls$nome-chines/Yang Ma-no Yen-si
+            ls$nascimento/Castelo Branco/15740000
+            ls$jesuita-entrada/?/15930202
+            ls$embarque/Santiago/16010411
+            ls$wicky/426
+            ls$estadia/Goa/16010000#cerca de
+            ls$estadia/Macau#puis 6 ans, 6 anos depois ou passou 6 anos?/16070000#?
+            ls$estadia/Shiuchow (Chao-tcheou)/16110000
+            ls$estadia/Pequim/16130000
+            ls$profissao/Astrónomo/16130000
+            ls$jesuita-cargo/Visitador das missões/16140000
+            ls$jesuita-cargo/Visitador das missões/16150000
+            ls$estadia/Nanquim/16160000
+            ls$estadia/Macau/16160000#exílio após perseguição de Nanquim
+            ls$estadia/Pequim/16210000
+            ls$jesuita-cargo/Vice-provincial da China/16230000
+            ls$jesuita-cargo/Vice-provincial da China/16350000
+            ls$estadia/Shanghai/16270000
+            ls$estadia/Hangchow/16270000
+            ls$estadia/Nanchang fou, Kiangsi/16340000
+            ls$estadia/Foochow fou, Fukien/16380000
+            ls$estadia/Ningpo/16390000
+            ls$estadia/Yenping fou, Fukien/16480000
+            ls$jesuita-cargo/Vice-provincial da China/16500000
+            ls$jesuita-cargo/Vice-provincial da China/16540000
+            ls$tarefa/Traduz para o chinês dos letrados os Evangelhos dos domingos e das festas
+            ls$jesuita-votos/4V/16160918
+            ls$jesuita-votos-local/Macau/16160918
+            ls$morte/Hangchow/16590304#a anual de 1660 diz 16590301
+            ls$dehergne/254/obs=Dias, Manuel, o Novo (= junior, le jeune) (port.) (I) P. 254 Yang Ma-no Yen-si (Pf.). N. 1574 à Castelo-Branco d. de Guarda -E. 2 févr. 1593 (Lus. 44, 78v). Emb. 11 avril 1601 sur le galion Santiago (W 426)., vers 1601, Goa., puis 6 ans Macao., Shiuchow (Chao-tcheou), 1611., Pékin, 1613, astronome., visiteur des missions 1614-1615., 1616, persécution de Nankin, exil à Macao., 1621, Pékin., vice-provincial de Chine, 1623- 1635: 1616, Nankin., 1627, Shanghai, puis Hangchow., 1634, Nanchang fou, Kiangsi., 1638, Foochow fou, Fukien., 1639, Ningpo., exil., 1648, Yenping fou, Fukien (JS 134, 336)., de nouveau vice-provincial de Chine, 1650-1654. Il a traduit dans le chinois des lettrés les évangiles des dimanches et fêtes. V. 18 sept. 1616 « in urbe Maccaensi » pr. (Lus. 4, 44): « Emmanuel Dias junior ». M. 4 mars 1659, Hangchow (HS 48, 36v., Streit V, p. 968), le 1 mars 1659, dit l'annuelle de 1660, qui cite ses ouvrages (JA 49-V-14, f° 717v).
+            ls$dehergne/254/obs=Pf. 106., DHGE (R. Aubert)., Verbo (A. da Silva). J. F. R. Gervaix, Notice, Boletim Gov. Ecl. XVI, Macau 1919, 593-595., Bontinck, Fr., La lutte autour de la liturgie chinoise aux XVII' et XV111° siècles, 1962., Rodkigues, Fr., Jesuitas Portugueses Astrônomos na China, 1925., Needham IV-3 p. 578, 586, pl. CDXVII (The David Globe by Em. Diaz & Nie. Longobardo)., Wallis, Helen H. and Grinstead, E. D., A Chinese Terrestrial Globe A. D. 1623, British Muséum Quarterly 25 (London 1962) 83-91, 3 pl. (Dus & Longobardo)., RBS 180 sur le Cheng-kiao tsong-ts'ouo., Schutte 910., Streit V, p. 965-968 et XIV-1 p. 647
+
+         n$Manuel Dias, o Velho/id=deh-manuel-dias-o-velho
+            ls$nacionalidade/Portugal
+            ls$jesuita-estatuto/Padre
+            ls$nome-chines/Li Ma-no Hai-yo
+            ls$nascimento/Alpalhão, diocese de Portalegre/15590000
+            ls$jesuita-entrada/Évora/15761230
+            ls$embarque/Santiago/15850413
+            ls$wicky/260
+            ls$estadia/Costa de Sofala#naufrágio
+            ls$estadia/Goa
+            ls$chegada/Macau/15970720
+            ls$jesuita-cargo/Reitor de Macau/15970804
+            ls$chegada/Pequim/16020809#fica dois meses
+            ls$estadia/Macau/16030000
+            ls$jesuita-cargo/Superior da missão da China do sul/16030000
+            ls$estadia/Nanchang/16040300
+            ls$jesuita-cargo/Superior da missão da China do sul/16090000
+            ls$jesuita-cargo/Reitor de Macau/16111201
+            ls$jesuita-cargo/Reitor de Macau/16150400#fim do mês
+            ls$jesuita-cargo/Visitador/16220000
+            ls$jesuita-tarefa/Revê todas as residências da China
+            ls$jesuita-cargo/Visitador#das missões da China, Japão, Tonquim, Sião/16350406
+            ls$jesuita-cargo/Visitador#das missões da China, Japão, Tonquim, Sião/16391015
+            ls$jesuita-votos/4V/15950709
+            ls$jesuita-votos-local/Goa/15950709
+            ls$morte/Macau/16391128
+            ls$dehergne/255/obs=Dias, Manuel, o Velho (= senior, l'ancien) (port.) (II) P. 255 Li Ma-no Hal-yo (Pf.). N. 1559, Alpalhâo, d. de Portalègre (JS 134, 303). E. 30 déc. 1576 Evora (Lus. 43 II, 514v). Emb. 13 avril 1585 sur le Santiago (W 260)., naufrage, côte de Sofala., Goa., A. Macao, 20 juill. 1597, y est nommé recteur, 4 août 1597., A. Pékin, 9 août 1602, où il séjourne 2 mois., 1603, Macao., 1603- 1609, supérieur de la mission de Chine du sud (D'Elia II, 274, corriger ibid. III, 128), avec résidence à Nanchang (mars 1604), où d'août 1607 au 21 oct. 1608, persécution., de nouveau recteur de Macao, 1 déc. 1611 à fin avril 1615., 1622, visiteur, revoit toutes les résidences de Chine., de nouveau visiteur, 6 avril 1635 à 15 oct. 1639, visiteur des missions de Chine, Japon, Tonkin, Siam etc. V. 9 juill. 1595, Goa, pr. (Lus. 2, 100: EM t dias). M. 28 nov. 1639, Macao (JS 18, 107). Il signe M + dias (JS 13 I, 96). Pf. 74., Verbo (A. da Silva). — AnG 413., SchiItte, 909-910.
+
+         n$Melchor Díaz/id=deh-melchor-diaz
+            ls$nacionalidade/Espanha
+            ls$jesuita-estatuto/Frade coadjutor
+            ls$estadia/Shangchuan/15550800
+            ls$dehergne/256/obs=
+
+            referido$Melchior Dias/id=deh-melchior-dias-ref1/obs=não confundir
+               ls$nacionalidade/Portugal
+               ls$jesuita-estatuto/Padre
+               ls$nascimento/?/15310000
+               ls$jesuita-entrada/Lisboa/15510311
+               ls$embarque/para Goa#noviço
+               ls$estadia/Japão/15540000
+               ls$estadia/Japão/15560000
+               ls$profissao/Pintor
+               ls$estadia/Índia/15560000
+               ls$estadia/Índia/15570000
+               ls$jesuita-ordenacao-padre/Goa/15620000
+               ls$jesuita-cargo/Procurador da missão da Índia
+               ls$estadia/Portugal
+               ls$estadia/Lisboa/15771000
+               ls$partida/Índia/15771000
+               ls$jesuita-tarefa/Sai da Companhia/15770000#cerca de
+               ls$dehergne/256-ref1/obs=Ne pas le confondre avec le P. Melchior Dias (port.) N. 1531, E. Lisbonne 11 mars 1551., Emb., novice, pour Goa., 1554-1556 au Japon., peintre., 1556-1557 aux Indes, il devient P. à Goa en 1562., envoyé comme procureur de la mission des Indes au Portugal. Revient de Lisbonne, oct. 1577. Quitte la Compagnie v. 1577 (DI. IV, 288., V, 780., X, 320).
+
+         n$Bernhard Diestel/id=deh-bernhard-diestel
+            ls$nacionalidade/Alemanha
+            ls$jesuita-estatuto/Padre
+            ls$nome/Bernhard Ditel
+            ls$nome/Bernardo de Estel
+            ls$nome/Bernhard Diester
+            ls$nome/Bernhard Diestich
+            ls$nome-chines/Sou Na Tö-Yé
+            ls$nascimento/Wippach, Carniole/16230713
+            ls$jesuita-entrada/?/16391022
+            ls$estadia/Roma/16560000#até
+            rel$sociabilidade/companheiro/Johann Grueber/deh-johann-grueber-ref1/data=16560000
+            ls$chegada/China/16590000
+            ls$estadia/Pequim
+            ls$titulo/Mandarim
+            ls$estadia/Shangtung (Chan-tong)
+            ls$jesuita-ordenacao-padre/?/16500000#cerca de
+            ls$jesuita-votos/4V/16570715
+            ls$jesuita-votos-local/Damaon, Gujarat/16570715
+            ls$morte/Tsinan fou/16600917#ou 13
+            ls$dehergne/257/obs=Diestel, Bernhard (allem.) P. 257 Ditel (M 443, 671)., Bernardo De Estel (JS 134, 344)., Diester., Dlestlch Sou Na Tô-Yé (Pf.). N. 13 juill. 1623, à Wippach, Carniole (Austr. 27, 258). E. 22 oct. 1639. Part de Rome en 1656 avec le P. Grueber (JS 124, 230)., Arr. Chine, 1659., Pékin, où mandarin (RBS 426)., puis Shantung (Chan-tong). — P. v. 1650. V. Damaôn (dans le Goudjerate), 15 juill. 1657, pr. (Lus. 7, 229 et Germ. 16, 9). M. 17 sept. 1660 (selon Gabiani), à Tsinan fou., Streit V, p. 968 et Huonder disent le 13 sept. 1660, d'après le catal. chinois. HS 48, 20 écrit à tort: P. Bernardus Diestich Xantumi (= Shantung), 13 sept. 1660! et, à la page suivante: P. Bernardus Diester in Sinis, 7 jan. 1661. Pf. 313., Zimmel, Bruno, in: Festschrift fur Joseph Stummvoll Vienne, 1968., cf. ZMR 53 (1969), 1-13., ARSI FG. 722 n« 10., RBS 426.
+
+         n$Jakob Dimer/id=deh-jakob-dimer
+            ls$nacionalidade/Alemanha
+            ls$jesuita-estatuto/Padre
+            ls$nome/Jakob Damer
+            ls$nome/Jakob Dimmer
+            ls$nome/Jakob Drimer
+            ls$nome/Jakob Domer
+            ls$nascimento/Hötting-Innsbruck/16260000#cerca de
+            ls$jesuita-entrada/?/16460819
+            ls$embarque/Bom Jesus/16570404
+            ls$wicky/1035
+            ls$morte/Makassar, ilha Sulawesi%Celebes/16580621
+            ls$dehergne/258/obs=Dimer, Jakob (allem.) P. 258 Damer., Dimmer., Drlmer (Pf.)., Domer (Franco). N. v. 1626, Hôtting-Innsbruck -E. 19 août 1646. Emb., prêtre, le 4 avril 1657 sur le Bom Jésus pour la Chine (W 1035). M. 1658, aux îles Célèbes, à Macassar 21 juin 1658 (HS 48, 76). Pf. 329., Gerl, Herbert, Catalogus generalis Provinciae Germaniae Superioris et Bavariae S.J. 1556-1773, Munich, 1968.
+
+            referido$Johann Grueber/id=deh-johann-grueber-ref1/obs=Dehergne 393
+               ls$jesuita-estatuto/Padre
+               ls$estadia/Roma/16560000#até
+
+         n$Charles Dolzé/id=deh-charles-dolze
+            ls$nacionalidade/França
+            ls$jesuita-estatuto/Padre
+            ls$nome-chines/Ti King-Tch'en Tchen-Tchong
+            ls$nome-chines/Tsei
+            ls$nascimento/Metz/16630325
+            ls$grau-academico/Mestre em Artes
+            ls$jesuita-entrada/?/16831001
+            ls$chegada/Cantão/16981104
+            ls$jesuita-votos/4V/16990202
+            ls$jesuita-votos-local/«apud Sinas»/16990202
+            ls$morte/Tartária/17010724
+            ls$dehergne/259/obs=Dolzé, Charles (franç.) P. 259 Ti King-Tch'en Tchen-Tchong (Pf.). Tsei (Borg. Lat. 523, 60: Tse., Borg. cin.: Çè)., JS 187, 5: Se [Sseu]. N. « Metae », Metz 25 mars 1663 (introuvable sur les registres)., « né, je crois, à Strasbourg ou dans les environs » (BN: ms. fr. 25670, p. 17) -E. 1 oct. 1683 étant M. A. (Camp. 12, 237v). A. 4 nov. 1698, Canton. V. 2 févr. 1699, pr. « apud Sinas » (Camp. 13, 200v) formule non retrouvée. M. 24 juill. 1701 « in vicinia Tartariae » (aux confins de la Tartarie), annuelle des Jésuites français 1701, interceptée, PRO SP 9-239-1 p. 9., Planchet p. 149. (Le catal. 1702-1703 et HS 50, 58, HS 51, 51 le font mourir le 31 juillet, fête de la St Ignace, à Pékin). Pf. 497. — P. le 22 déc. 1693 « Bruntruti », à Porrentruy (Jura suisse): P. Ch. Dolzey (Camp. 13, 142v).
+
+         n$Jean Domenge/id=deh-jean-domenge
+            ls$nacionalidade/França
+            ls$jesuita-estatuto/Padre
+            ls$nome/Jean Domenges
+            ls$nome/Jean Domingue
+            ls$nome/Jean Dominge
+            ls$nome/Jean Dominges
+            ls$nome/João Dominguez
+            ls$nome-chines/Mong Tcheng-K'i Jo-wang
+            ls$nascimento/Bourdeaux/16660408
+            ls$baptizado/Bourdeaux (paróquia de St. André)/16660411
+            ls$jesuita-entrada/?/16811030
+            ls$chegada/Cantão/16981104
+            ls$cargo/Capelão#in navi gallica
+            ls$estadia/Kiukiang, Kiangsi/17000000
+            ls$estadia/Hukwang/17020000
+            ls$estadia/Sian (Si-ngan fou), Shensi/17030000
+            ls$estadia/Sian (Si-ngan fou), Shensi/17120000
+            ls$estadia/Pequim
+            ls$estadia/Nanyang fou, Honan/17130000
+            ls$estadia/Kaifeng (K'ai-fong fou) (sinagoga)/17180000
+            ls$estadia/Cantão/17250000#exilado
+            ls$estadia/Macau/17320000#exilado
+            ls$jesuita-ordenacao-padre/Poitiers#ou Bourdeaux/16930000#cerca de
+            ls$jesuita-votos/4V/16990815
+            ls$jesuita-votos-local/Cantão (no porto, navio Amphytrite)/16990815
+            ls$morte/Macau (colégio)/17351209
+            ls$dehergne/260/obs=Domenge, Jean (franç.) P. 260 Domenges., Domlngue., Dominge., Dominges (Franc. 1730, 353), prononciation locale., Domlnguez (SF VI, 1181)., Domlngue (Franc. 25 II, 404), Mong Tcheng-Ki Jo-wang (Pf.., JS 179, 388: Mem Chim Ki). N. 8 avril 1666 « Burdigalensis », à Bordeaux. E. 30 oct. 1681 (Aq.)., 31 oct. dit Aquit. 12, 412v. A. Canton, 4 nov. 1698, comme aumônier « capellanus in navi gallica » (JS 134, 386a)., 1700, Kiukiang, Kiangsi., 1702, Hukwang., 1703-1712, Sian (Si-ngan fou), Shensi (SF V, 475., VI, 1181)., Pékin., 1713, Nanyang fou, Honan (JS 176, 64)., 1718, Kaifeng (K'ai-fong fou) synagogue (JS 182, 22)., exil à Canton, 1725, et à Macao, 1732. P. v. 1693 (Aquit. 7, 236) (Poitiers, ou Bordeaux?). V. « In portu Cantoniensi in navi Gallica Amphytrite dicta », 15 août 1699, pr. (Gai. 14, 256) et non 1697 (JS 134, 417v) suivi par Pf. M. 9 déc. 1735 au collège de Macao (AHU ms 1659, f° 113: P. Joâo Domingez., HS 53a, 10)., 18 août 1734 écrit M 294, 199, à tort)
+            ls$dehergne/260/obs=« Fils de Jean Domenge, prolcureur] en la Cour, et de Jacquete Comes dam[oisel]Ie, paroisse Ste Eulalie » N. le 8 avril et baptisé le 11 avril 1666, Arch. municipales de Bordeaux, GG 38, acte 378, paroisse St André (renseignement aimablement communiqué par M.le Conservateur. Les catal. de France le font naître soit le 4, soit le 7 avril. Rappelons (parce que ni Pf. ni Stbeit ne le disent) que le Mémorial de Tamburini, 1724 (Streit VII, 3063) présenté au Pape en 1725 (JS 198a) est de Domenge, et que cet auteur sait le mandchou et le chinois « scit tartarice et sinice » (JS 134, 392) : il a composé, entre autres, un Dictionnarium Tartaro-Sinicum en 14 volumes. — Streit VII, 2854 renvoie à « Paris, B. de l'Ecole Sainte Geneviève». Cette référence, ici comme ailleurs, n'est plus exacte., il faut s'adresser aux ASJP. Pf. 498., DBF et DLF (Dehergne)., BN: ms. fr. 25056 p. 93, 98, 351. Donald D. Leslie, The Survival of the Chinese Jews, The Jewish Community of Kaifeng, Leiden 1972., EJJ X, 695, dessin de Domenge.
+
+            pai$Jean Domenge/id=deh-jean-domenge-pai
+               ls$cargo/Pocurador na corte
+
+            mae$Jacquete Comes/id=deh-jean-domenge-mae
 
          n$Xavier Duarte/id=deh-xavier-duarte
             ls$nacionalidade/Portugal
