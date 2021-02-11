@@ -1,5 +1,5 @@
 KleioTranslator - server version 2019.A2 - build 311 (Import-identifications) 29/09/2020 07:34 
-31-12-2020 21-5
+11-2-2021 16-55
 
 Processing data file dehergne-f.cli
 -------------------------------------------
@@ -12,12 +12,19 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 27
+Translation count: 37
 Obs: 
 ** Processing source fonte$dehergne-F
 6: lista$dehergne-notices-f
+
+WARNING: dehergne-f.cli line 251 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 251             irmao$Sébastien Fernandes Tchong/mesmo_que=deh-sebastien-fernandes-tchong/id=deh-jean-fernandes-tchong-irmao
+Near line: 252                ls$nacionalidade/China
+
 *** End of File
 
+Line 255 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (bio-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 372 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (bio-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
 ** Processed file- /kleio-home/sources/toliveira/sources/dehergne-f.cli
 ** Original file- /kleio-home/sources/toliveira/sources/dehergne-f.org
@@ -27,5 +34,5 @@ Obs:
 ** - /kleio-home/sources/toliveira/sources/dehergne-f.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-f.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
