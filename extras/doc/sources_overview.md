@@ -36,7 +36,10 @@ Enumeration at the start of the _Repertoire_ (before p.1):
 * Those that died in China on their way to Japan.
 * In smaller print those that were meant for China but died on their way or were detoured to other missions, the "macaistes" that have not worked in inland China and others who influenced, in various ways, the China mission.
 
-The main target are French Jesuits missionaires in China. Mas the 
+The main target are French Jesuits missionaires in China. But includes all that were in mainland China.
+Does not include those at Macau that were in transit to places other than continental China (for instance Japan).
+
+
 #### Sources ###
 * Pfister, Louis. Notices biographiques et bibliographiques sur les Jésuites de l’ancienne Mission de Chine :  1552-1773. 2 vols. Variétés sinologiques, n° 59-60. Chang-Hai: Impr. de la Mission catholique, 1932. http://gallica.bnf.fr/ark:/12148/bpt6k61546234. patiemment revisé par le Père Joseph de Lapparent (1862-1953), continué et mis à jour par le même savant dans les Renseignements du Bureau Sinologique de Zi-ka-wei (RBS), 
 * Sommervogel, Carlos, Augustin de Backer, Aloys de Backer, Auguste Carayon, Pierre Bliard, e Ismael A. Chuvas. Bibliothèque de la Compagnie de Jésus. Première partie: bibliographie / Seconde partie: histoire / par le Père Auguste Carayon. Nouvelle édition. Bruxelles : Paris: Oscar Schepens ; Alphonse Picard, 1890. et son supplément dû à Rivière; Cordier, Henri, Bibliotheca Sinica; la Bibliotheca Missionum, tomes V et VII, XII et suivants, de Streit et de ses continuateurs.
