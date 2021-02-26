@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-w.cli" TRANSLATOR="gactoxml2.str" WHEN="2020-12-30 11:14:16" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-w.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-2-26 0:59:3" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -113,9 +113,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="1024" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-adam-weidenfied-att1-10" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="deh-adam-weidenfied-att1-11" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att1-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att1-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -126,16 +126,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Alemanha]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att1-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att1-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att2-10" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="deh-adam-weidenfied-att2-11" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att2-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att2-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -146,16 +146,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att2-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att2-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att3-10" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="deh-adam-weidenfied-att3-11" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att3-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att3-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -168,16 +168,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16450908]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att3-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att3-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16450908]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att4-10" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="deh-adam-weidenfied-att4-11" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att4-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att4-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -190,16 +190,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16630412]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att4-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att4-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16630412]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att5-10" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="deh-adam-weidenfied-att5-11" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att5-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att5-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -210,16 +210,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Mestre em Artes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att5-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att5-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att6-10" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="deh-adam-weidenfied-att6-11" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att6-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att6-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -232,16 +232,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16800404]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att6-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att6-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16800404]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att7-10" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="deh-adam-weidenfied-att7-11" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att7-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att7-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -252,16 +252,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[1191]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att7-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att7-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att8-10" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="deh-adam-weidenfied-att8-11" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att8-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att8-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -275,16 +275,16 @@
          <core><![CDATA[16780000]]></core>         <comment><![CDATA[antes de]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att8-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att8-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16780000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att9-10" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="deh-adam-weidenfied-att9-11" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att9-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att9-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -297,16 +297,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16791218]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att9-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att9-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16791218]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att10-10" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="deh-adam-weidenfied-att10-11" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att10-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att10-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -319,16 +319,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16800604]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att10-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att10-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16800604]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-att11-10" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="19">
+<GROUP ID="deh-adam-weidenfied-att11-11" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att11-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-att11-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -341,16 +341,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Weidenfeld, Adam (allem.) P. 900 N. Cologne, 8 sept. 1645 -E. 12 avr. 1663 (Rh. Inf. 20, 139), M. A. En août 1679, Ant. Thomas lui propose d'aller ensemble au Japon. Les supérieurs refusent (Maggs Bros, Londres, catal. n° 455 [1924]» p. III). Emb. le 4 avril 1680 sur le S. Antonio (W 1191). P. avant 1678, (Rh. Inf. 23, 93). M. en mer, près du Brésil, 4 juin 1680 (Rh. Inf. 46, 417-423). Pf. 404 n. 1: Uncidenfeld., Huonder, p. 161. Il signe Adamus Weidenfeld, Coïmbre, 18 déc. 1679 (JS 19, 87-99). Un homonyme, aussi de Cologne, est N. 1662, E. 1679 étant M. A. (Rh. Inf. 24, 17).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-att11-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-att11-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-adam-weidenfied]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-antoine-thomas-ref2" NAME="referido" CLASS="person" ORDER="16" LEVEL="4" LINE="20">
+<GROUP ID="deh-adam-weidenfied-ref1" NAME="referido" CLASS="person" ORDER="16" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antoine-thomas-ref2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
@@ -369,23 +369,23 @@
 <GROUP ID="deh-adam-weidenfied-rela2" NAME="relation"  ORDER="17" LEVEL="5" CLASS="relation" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-antoine-thomas-ref2</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>17</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>deh-antoine-thomas-ref2</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-w</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-antoine-thomas-ref2-rel1-10" NAME="rel" CLASS="relation" ORDER="19" LEVEL="5" LINE="22">
+<GROUP ID="deh-adam-weidenfied-ref1-rel1-11" NAME="rel" CLASS="relation" ORDER="19" LEVEL="5" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-antoine-thomas-ref2-rel1-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1-rel1-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-antoine-thomas-ref2</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -402,16 +402,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[os superiores recusam]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-antoine-thomas-ref2-rel1-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref1-rel1-11]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
-         <core><![CDATA[deh-antoine-thomas-ref2]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16790800]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-ref1" NAME="referido" CLASS="person" ORDER="20" LEVEL="4" LINE="23">
+<GROUP ID="deh-adam-weidenfied-ref2" NAME="referido" CLASS="person" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>referido</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>person</core></ELEMENT>
@@ -426,23 +426,23 @@
 <GROUP ID="deh-adam-weidenfied-rela4" NAME="relation"  ORDER="21" LEVEL="5" CLASS="relation" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>21</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type"><core>function-in-act</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>referido</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-w</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-adam-weidenfied-ref1-att12-10" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="5" LINE="24">
+<GROUP ID="deh-adam-weidenfied-ref2-att12-11" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="5" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1-att12-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref2-att12-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>22</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -453,18 +453,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16620000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-ref1-att12-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2-att12-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-adam-weidenfied-ref1]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16620000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-ref1-att13-10" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="5" LINE="25">
+<GROUP ID="deh-adam-weidenfied-ref2-att13-11" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="5" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1-att13-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref2-att13-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>23</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -475,18 +475,18 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16790000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-ref1-att13-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2-att13-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-adam-weidenfied-ref1]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16790000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-ref1-att14-10" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="5" LINE="26">
+<GROUP ID="deh-adam-weidenfied-ref2-att14-11" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="5" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1-att14-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref2-att14-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>24</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -495,18 +495,18 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Mestre em Artes]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-ref1-att14-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2-att14-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-adam-weidenfied-ref1]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-adam-weidenfied-ref1-att15-10" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="5" LINE="27">
+<GROUP ID="deh-adam-weidenfied-ref2-att15-11" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="5" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref1-att15-10</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-ref2-att15-11</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-adam-weidenfied-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>25</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -517,14 +517,14 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Un homonyme, aussi de Cologne, est N. 1662, E. 1679 étant M. A. (Rh. Inf. 24, 17).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-adam-weidenfied-ref1-att15-10]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2-att15-11]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-adam-weidenfied-ref1]]></core>   </ELEMENT>
+         <core><![CDATA[deh-adam-weidenfied-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<RELATION ID="deh-adam-weidenfied-rela3" ORG="deh-antoine-thomas-ref2" DEST="deh-antoine-thomas" TYPE="META" VALUE="same_as"/>
+<RELATION ID="deh-adam-weidenfied-rela3" ORG="deh-adam-weidenfied-ref1" DEST="deh-antoine-thomas" TYPE="META" VALUE="same_as"/>
 <GROUP ID="deh-adam-weidenfied-rela3" NAME="relation"  ORDER="18" LEVEL="5"  CLASS="relation" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
@@ -535,7 +535,7 @@
     <ELEMENT NAME="type" CLASS="type"><core>identification</core></ELEMENT>
     <ELEMENT NAME="value" CLASS="value"><core>same as</core></ELEMENT>
     <ELEMENT NAME="destname" CLASS="destname"><core>n/a</core></ELEMENT>
-    <ELEMENT NAME="origin" CLASS="origin"><core>deh-antoine-thomas-ref2</core></ELEMENT>
+    <ELEMENT NAME="origin" CLASS="origin"><core>deh-adam-weidenfied-ref1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>deh-antoine-thomas</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-adam-weidenfied-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
