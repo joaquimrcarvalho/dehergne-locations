@@ -1,5 +1,5 @@
 KleioTranslator - server version 2019.A2 - build 311 (Import-identifications) 29/09/2020 07:34 
-18-3-2021 10-5
+18-3-2021 18-59
 
 Processing data file dehergne-r.cli
 -------------------------------------------
@@ -12,12 +12,18 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 42
+Translation count: 48
 Obs: 
 ** Processing source fonte$dehergne-r
 6: lista$dehergne-notices-r
+
+WARNING: dehergne-r.cli line 1099 destination id of "same as" not found. Will check again at the end of file.
+Near lines: 1099             referido$Manuel Rodrigues/mesmo_que=deh-manuel-rodrigues-iii/id=deh-luis-rodrigues-ref2/obs=mencionado no catálogo do Japão de Outubro e Novembro 1699
+Near line: 1100                ls$jesuita-estatuto/Frade Coadjutor
+
 *** End of File
 
+Line 1544 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-boussel) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
 ** Processed file- /kleio-home/sources/toliveira/sources/dehergne-r.cli
 ** Original file- /kleio-home/sources/toliveira/sources/dehergne-r.org
@@ -27,5 +33,5 @@ Obs:
 ** - /kleio-home/sources/toliveira/sources/dehergne-r.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-r.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
