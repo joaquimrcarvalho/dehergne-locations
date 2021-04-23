@@ -28,9 +28,13 @@ Type
 
     pip install python-dotenv
 
+when finish install data analysis package
+
+    pip install pandas
 
 ## References
 
 * https://pypi.org/project/ipython-sql/
 * https://pypi.org/project/python-dotenv/
 * https://pypi.org/project/mysql-connector-python/
+* https://pandas.pydata.org
