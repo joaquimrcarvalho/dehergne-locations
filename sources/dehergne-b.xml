@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-b.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-4-25 15:22:12" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-b.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-4-25 15:38:11" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -8508,7 +8508,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[a caminho da China]]></core>   </ELEMENT>
+         <core><![CDATA[[a caminho da China]]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17920000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
@@ -12852,7 +12852,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[a caminho da China]]></core>   </ELEMENT>
+         <core><![CDATA[[a caminho da China]]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17030000]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
@@ -18823,7 +18823,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[a caminho da China]]></core>   </ELEMENT>
+         <core><![CDATA[[a caminho da China]]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17070000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
@@ -22611,7 +22611,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[a caminho de Kwangsi]]></core>   </ELEMENT>
+         <core><![CDATA[[a caminho de Kwangsi]]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-michael-pierre-boym-att853-146]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">

@@ -1,5 +1,9 @@
 <?xml version='1.0'?>
+<<<<<<< HEAD
 <KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-t.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-4-25 15:27:45" OBS="" SPACE="">
+=======
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira-china/sources/dehergne-t.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-4-23 2:33:24" OBS="" SPACE="">
+>>>>>>> 2b31c773ef9208a96f230463921068ca4a327e3e
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -30,7 +34,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/toliveira/sources/dehergne-t.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/toliveira-china/sources/dehergne-t.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="lista">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -1458,7 +1462,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[A caminho da China]]></core>   </ELEMENT>
+         <core><![CDATA[[a caminho da China]]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17080000]]></core>         <comment><![CDATA[no catálogo de 1707-1708 está assim marcado, na verdade foi missionário na Índia, província do Malabar]]></comment>
    </ELEMENT>
