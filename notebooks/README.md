@@ -28,13 +28,17 @@ Type
 
     pip install python-dotenv
 
-when finish install data analysis package
+when finished install data analysis package
 
     pip install pandas
 
+when finished install notebook widgets
+
+    pip install ipywidgets
 ## References
 
 * https://pypi.org/project/ipython-sql/
 * https://pypi.org/project/python-dotenv/
 * https://pypi.org/project/mysql-connector-python/
 * https://pandas.pydata.org
+* https://ipywidgets.readthedocs.io/en/latest/index.html
