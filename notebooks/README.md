@@ -24,15 +24,15 @@ When finished install the Mysql connector
 
 ## Install auxiliary packages
 
-Type 
+Reading MHK configuration files 
 
     pip install python-dotenv
 
-when finished install data analysis package
+Data analysis with Pandas
 
     pip install pandas
 
-when finished install notebook widgets
+Widgets for interaction with user
 
     pip install ipywidgets
 ## References
