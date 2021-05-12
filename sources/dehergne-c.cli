@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=180
+kleio$gacto2.str/translations=181
    fonte$dehergne-C/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra C
 
       lista$dehergne-notices-c/0/0/0
@@ -120,7 +120,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Valadares, diocese de Braga/16891120
             ls$jesuita-entrada/Coimbra/17041224#ou 17051224
             ls$embarque/?/17140412
-            ls$wicky/1581
+            ls$wicky/1581/17140412
+            ls$wicky-viagem/137/17140412
             ls$estadia/Ganzhou, província de Jiangxi%Kanchow (du Kiangsi)/17200000
             ls$chegada/Cantão/17210524#chamado de volta pelo visitador por ter entrado sem o "piao"
             ls$estadia/Índia/17220000
@@ -185,7 +186,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Penajóia, diocese de Lamego/16830000
             ls$jesuita-entrada/?/17000000
             ls$embarque/[Para a China]/17010000#era noviço
-            ls$wicky/1446
+            ls$wicky/1446/17010000
+            ls$wicky-viagem/124/17010000
             ls$jesuita-cargo/Secretário do provincial do Japão/17200000
             ls$jesuita-votos/4V/17161213
             ls$jesuita-votos-local/Tanna (colégio)/17161213
@@ -199,7 +201,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Bobadela, diocese de Coimbra#em Oliveira do Hospital/17210707
             ls$jesuita-entrada/?/17370502
             ls$embarque/[Para o Japão]/17460000
-            ls$wicky/1917
+            ls$wicky/1917/17460000
+            ls$wicky-viagem/165/17460000
             ls$jesuita-votos/4V/17540815
             ls$jesuita-votos-local/Ké Diet, Tonquim/17540815
             ls$morte/Tonquim/17691101
@@ -269,7 +272,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Siena/16550425
             ls$jesuita-entrada/?/16721121
             ls$embarque/?/16900408
-            ls$wicky/1274
+            ls$wicky/1274/16900408
+            ls$wicky-viagem/113/16900408
             ls$chegada/?/16920000
             ls$estadia/Hainan/16950000
             ls$estadia/Hainan/17010000
@@ -290,6 +294,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Ascoli Piceno/16790828
             ls$jesuita-entrada/?/16950310
             ls$embarque/[Para o Sul da China]#Cappelli é enviado ao Malabar porque o patriarca de Tournon não quer que entre na China/17060000
+            ls$wicky/1494/17060000/obs=Dehergne não coloca o Wicky, corrigido a partir de Wicky
+            ls$wicky-viagem/129/17060000/obs=Dehergne não coloca o Wicky, corrigido a partir de Wicky
             ls$estadia/Malabar
             ls$jesuita-votos/4V/17120908
             ls$jesuita-votos-local/Aour, Madurai/17120908
@@ -300,14 +306,16 @@ kleio$gacto2.str/translations=180
                rel$sociabilidade/Companheiro/Agostino Cappelli/deh-agostino-cappelli/data=17060000
                ls$jesuita-estatuto/Padre
                ls$embarque/[Para o Sul da China]/17060000
+               ls$wicky-viagem/129/17060000
 
             referido$Johann Baptist Messari/id=deh-agostino-cappelli-ref2/obs=Dehergne 550
                rel$sociabilidade/Companheiro/Agostino Cappelli/deh-agostino-cappelli/data=17060000
                ls$jesuita-estatuto/Padre
                ls$embarque/[Para o Sul da China]/17060000
+               ls$wicky-viagem/129/17060000
 
             referido$Charles Thomas Maillard de Tournon/id=deh-agostino-cappelli-ref3
-               rel$eclesiastica/não deixa entrar na China/Agostino Cappelli/deh-agostino-cappelli/data=17060000
+               rel$eclesiastica/Não deixa entrar na China/Agostino Cappelli/deh-agostino-cappelli/data=17060000
                ls$cargo/Patriarca
 
          n$António Francisco Cardim/id=deh-antonio-francisco-cardim
@@ -403,8 +411,9 @@ kleio$gacto2.str/translations=180
             ls$nome-chines/Mei Ta-Tch'eng Eul-Tchang
             ls$nascimento/Porto de Mós, diocese de Leiria/16770613
             ls$jesuita-entrada/?/16921222
-            ls$embarque/para o Malabar/17080000
-            ls$wicky/1511
+            ls$embarque/[Para o Malabar]/17080000
+            ls$wicky/1511/17080000
+            ls$wicky-viagem/131/17080000
             ls$estadia/Lisboa/17100300
             ls$chegada/Macau/17101000
             ls$tarefa/leva presentes do rei de Portugal a K'ang Hi
@@ -437,7 +446,8 @@ kleio$gacto2.str/translations=180
             ls$jesuita-entrada/Coimbra/16640325#ou 16630325
             ls$idade/14/16640325
             ls$embarque/[Para a China]/16940000
-            ls$wicky/1326
+            ls$wicky/1326/16940000
+            ls$wicky-viagem/117/16940000
             ls$chegada/Macau#?/16960000
             ls$estadia/Chinchinim, Goa%«in Parasia chinchinensis»/17050000
             ls$cargo/Vigário de Salcete%vicarius Salsetanus/17060000
@@ -460,12 +470,12 @@ kleio$gacto2.str/translations=180
             ls$cargo/Bispo de Niceia/15550401/obs=sagrado pelo arcebispo de Goa em 15601215
             ls$cargo/Coadjutor do Patriarca da Etiópia/15550401
             ls$cargo/Patriarca da Etiópia
-            rel$eclesiastica/sucede a/João Nunes Barreto/deh-belchior-miguel-carneiro-leitao-ref1
+            rel$eclesiastica/Sucede/João Nunes Barreto/deh-belchior-miguel-carneiro-leitao-ref1
             ls$chegada/Goa/15550906#ou 15550906
             ls$cargo/Bispo do Japão e da China/15660000/obs=no final diz «il démissione», será que é deste cargo?
             ls$estadia/Roma/15601215
             ls$chegada/Macau/15680600
-            ls$jesuita-tarefa/funda o hospital de Macau/15690000
+            ls$jesuita-tarefa/Funda o hospital de Macau/15690000
             ls$estadia/Cantão/15690000#?
             ls$estadia/Cantão/15750000
             ls$estadia/Macau/15820000
@@ -636,8 +646,9 @@ kleio$gacto2.str/translations=180
             ls$jesuita-estatuto/Padre
             ls$nascimento/Porto de Mós, diocese de Leiria/17100114
             ls$jesuita-entrada/?/17240402
-            ls$embarque/[Para o Japão]/17320000
-            ls$wicky/1800
+            ls$embarque/[Para o Japão]/17320425#data completada segundo Wicky
+            ls$wicky/1800/17320425#data completada segundo Wicky
+            ls$wicky-viagem/152/17320425#data completada segundo Wicky
             ls$estadia/Tonquim/17360000
             ls$estadia/Tonquim/17500000
             ls$estadia/China
@@ -687,7 +698,10 @@ kleio$gacto2.str/translations=180
             ls$tarefa/Estuda Teologia/17540000
             ls$embarque/[Para a China]/17550000#entre 1755 e 1758
             ls$embarque/[Para a China]/17580000#entre 1755 e 1758
-            ls$wicky/2119
+            ls$wicky/2119/17550000#entre 1755 e 1758
+            ls$wicky/2119/17580000#entre 1755 e 1758
+            ls$wicky-viagem/?/17550000#entre 1755 e 1758
+            ls$wicky-viagem/?/17580000#entre 1755 e 1758
             ls$dehergne/151/obs=Carvalho, Manuel José de (port.) (V) 151 N. 5 août 1732, Moreta, dioc. Coïmbre -E. 19 juill. 1746, Lisbonne (Lus. 41, 100., 49, 152). En 1754, entre en théologie. Emb. pour la Chine entre 1755 et 1758 (W 2119).
 
          n$Valentim de Carvalho/id=deh-valentim-de-carvalho
@@ -727,12 +741,13 @@ kleio$gacto2.str/translations=180
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/Lisboa/17080810
-            ls$estadia/China/17250000
+            ls$estadia/China/17250000#com a embaixada de Alexandre de Metelo, o seu nome não vem mencionado em Wicky, mas existem dois números listados sem nome W 1692 e 1693, seria Veríssimo um deles?
             rel$sociabilidade/Companheiro/Alexandre Metelo de Sousa e Meneses/deh-verissimo-de-carvalho-ref1/data=17250000
             ls$jesuita-entrada/Macau/17270000
             ls$estadia/Portugal
-            ls$embarque/?/17360425
-            ls$wicky/1839
+            ls$embarque/[Para a China]#segundo Dehergne/17360425
+            ls$wicky/1839/17360425
+            ls$wicky-viagem/155/17360425
             ls$estadia/Kiang-nan/17371120
             ls$morte/?/17440000#ou 17450000
             ls$dehergne/153/obs=Carvalho, Verissimo de (port.) P. 153 N. 10 août 1708, Lisbonne -E. 1727, à Macao (non à Lisbonne) car il était venu en Chine en 1725 avec l'ambassadeur de Portugal, don Alexandre Metello., rentre au Portugal. Emb. 25 avril 1736 (W 1839)., 20 nov. 1737, travaille au Kiang-nan (JS 134, 435v). M. 1744 ou 1745 (annuelle de 1745, de Pinheyro). Pf. 741.
@@ -781,7 +796,8 @@ kleio$gacto2.str/translations=180
             ls$jesuita-entrada/Génova/17070116
             ls$estadia/Coimbra/17090000#retido
             ls$embarque/?/17140412
-            ls$wicky/1588
+            ls$wicky/1588/17140412
+            ls$wicky-viagem/137/17140412
             ls$chegada/Macau/17150710
             ls$chegada/Pequim/17151222
             ls$cargo/Pintor da corte de Pequim
@@ -805,7 +821,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Munique/16650207#ou 16651007
             ls$jesuita-entrada/Landsberg/16810918
             ls$embarque/?/16960300
-            ls$wicky/1630
+            ls$wicky/1360%1630, corrigido segundo Wicky/16960300
+            ls$wicky-viagem/119/16960300
             ls$estadia/Macau/16970500
             ls$estadia/Fatshan/17000000
             ls$estadia/Sin-houi/17010000
@@ -814,9 +831,10 @@ kleio$gacto2.str/translations=180
             ls$estadia/Cantão/17020114
             ls$partida/Roma/17020114
             ls$embarque/?/17060000
-            ls$wicky/1487a
+            ls$wicky/1487a/17060000
+            ls$wicky-viagem/129/17060000
             ls$chegada/China#?/17070722
-            ls$tarefa/inventa um novo caminho mais curto para a China, por Timor, sem passar pelo estreito
+            ls$tarefa/Inventa um novo caminho mais curto para a China, por Timor, sem passar pelo estreito
             ls$estadia/Pequim/17071122
             ls$cargo/Presidente do Tribunal da Matemática de Pequim/17070000#? segundo Dehergne p. 307
             ls$cargo/Tutor do príncipe imperial
@@ -954,7 +972,8 @@ kleio$gacto2.str/translations=180
             ls$nome/Alessandro Cealio
             ls$nascimento/Piemonte/000000
             ls$embarque/[Para a China]/16920000
-            ls$wicky/1314
+            ls$wicky/1314/16920000
+            ls$wicky-viagem/115/16920000
             ls$morte/Goa/16930603
             ls$dehergne/163/obs=Ceaglio (Ceallo), Alessandro (ital.) fr. coadj. 163 N. « Pedemontanus », piémontais -E. ? Emb. 1692 pour la Chine (W 1314). M. 3 juin 1693, Goa (HS 50, 38: Ceaglius), en route pour la Chine (JS 199 I, 83: Ceaglius). Nous ne trouvons pas ce nom dans les catalogues d'Italie.
 
@@ -1087,7 +1106,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Solothurn, Suíça/16591211
             ls$jesuita-entrada/?/16800708
             ls$embarque/[Para a China]/16920000
-            ls$wicky/1322
+            ls$wicky/1322/16920000
+            ls$wicky-viagem/115/16920000
             rel$sociabilidade/Companheiro/Francesco Maria Spinola/deh-jean-baptiste-charandy-ref1/data=16920000
             ls$morte/[No mar, a caminho da China]/16920400
             ls$dehergne/169/obs=Charandy, Jean-Baptiste (suisse) P. 169 Charand., Zarandi. N. « Elvetus », suisse (JS 199 I, 83), Solothurn (Soleure) 11 déc. 1659. E. 8 juill. 1680. Emb. 1692 (W 1322) avec le P. Spinola, en route vers la Chine. M. en route, en avril 1692 (HS 50, 38: Zarandi). Pf. 309.
@@ -1095,6 +1115,7 @@ kleio$gacto2.str/translations=180
             referido$Francesco Maria Spinola/id=deh-jean-baptiste-charandy-ref1
                ls$jesuita-estatuto/Padre
                ls$embarque/[Para a China]/16920000
+               ls$wicky-viagem/115/16920000
 
          n$Joseph Nicolas Charenton/id=deh-joseph-nicolas-charenton
             ls$nacionalidade/França
@@ -1235,7 +1256,7 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Limoges/17270815
             ls$jesuita-entrada/Bordeaux/17431107
             ls$estadia/Lorient/17580307
-            ls$embarque/d'Argenson/17580307
+            ls$embarque/D'Argenson/17580307
             ls$estadia/Rio de Janeiro#a caminho da China
             ls$chegada/Macau/17590725
             ls$estadia/Pequim/17600606
@@ -1278,7 +1299,8 @@ kleio$gacto2.str/translations=180
             ls$jesuita-cargo/Visitador do Japão e da China/16890205
             ls$estadia/Lisboa/16900408
             ls$embarque/?/16900408
-            ls$wicky/1273a
+            ls$wicky/1273a/16900408
+            ls$wicky-viagem/113/16900408
             ls$estadia/Macau/16910715
             ls$partida/Pequim/16911015
             ls$profissao/Médico
@@ -1328,8 +1350,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Nápoles/1609000
             ls$jesuita-entrada/Nápoles/16231013
             ls$embarque/[Para a China]#Wicky diz que o navio ia para Goa/16440412
-            ls$wicky/924
-            ls$wicky-viagem/78
+            ls$wicky/924/16440412
+            ls$wicky-viagem/78/16440412
             rel$sociabilidade/Companheiro/Álvaro Semedo/deh-francesco-leonardo-cinamo-ref1/data=16440412
             ls$estadia/Salcete%Salsette
             ls$estadia/Canari#na Índia
@@ -1345,6 +1367,7 @@ kleio$gacto2.str/translations=180
             referido$Álvaro Semedo/id=deh-francesco-leonardo-cinamo-ref1/obs=Dehergne 756
                ls$jesuita-estatuto/Padre
                ls$embarque/[Para a China]/16440412
+               ls$wicky-viagem/78/16440412
 
          n$Luigi Cipolla/id=deh-luigi-cipolla
             ls$nacionalidade/Itália
@@ -1596,7 +1619,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Semide, diocese de Coimbra/16760421
             ls$jesuita-entrada/Coimbra/16920127
             ls$embarque/[Para a China]/16950000#não padre
-            ls$wicky/1349
+            ls$wicky/1349/16950000
+            ls$wicky-viagem/118/16950000
             ls$tarefa/Termina os estudos em Filosofia/16970000
             ls$estadia/Goa (Colégio)
             ls$jesuita-ordenacao-padre/?/16990000
@@ -1691,7 +1715,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Lisboa/16890217
             ls$jesuita-entrada/?/17040921
             ls$embarque/Sta. Ana/17160314
-            ls$wicky/1598
+            ls$wicky/1598/17160314
+            ls$wicky-viagem/139/17160314
             ls$chegada/Macau/17160803
             ls$estadia/Cantão/17170000
             ls$estadia/Cantão/17210000
@@ -1767,9 +1792,10 @@ kleio$gacto2.str/translations=180
             ls$nome-chines/Teng
             ls$nascimento/Lisboa/16991111
             ls$jesuita-entrada/?/17200815
-            ls$embarque/?/17250000
-            ls$wicky/1691
-            ls$chegada/?/17260000
+            ls$embarque/[Para a China]#segundo Wicky/17250000
+            ls$wicky/1691/17250000
+            ls$wicky-viagem/146/17250000
+            ls$chegada/China#?/17260000
             ls$estadia/Kiangnan
             ls$estadia/Cham-xo
             ls$estadia/Songkiang
@@ -1788,8 +1814,9 @@ kleio$gacto2.str/translations=180
             ls$nome-chines/Ma
             ls$nascimento/Lisboa/16770224
             ls$jesuita-entrada/Lisboa/16840424
-            ls$embarque/?/16900408#não padre
-            ls$wicky/1279
+            ls$embarque/?#segundo a entrada de Cicero terá sido em Lisboa/16900408#não padre
+            ls$wicky/1279/16900408
+            ls$wicky-viagem/113/16900408
             ls$jesuita-cargo/Procurador da China e do Japão/17010100
             ls$estadia/Goa/17010100
             ls$jesuita-ordenacao-padre/Macau#?/16960000#cerca de
@@ -1814,7 +1841,10 @@ kleio$gacto2.str/translations=180
             ls$jesuita-entrada/Lisboa (Arroios)/17490309
             ls$embarque/[Para a China]/17550000#entre 1755 e 1758
             ls$embarque/[Para a China]/17580000#entre 1755 e 1758
-            ls$wicky/2100
+            ls$wicky/2100/17550000#entre 1755 e 1758
+            ls$wicky/2100/17580000#entre 1755 e 1758
+            ls$wicky-viagem/?/17550000#entre 1755 e 1758
+            ls$wicky-viagem/?/17580000#entre 1755 e 1758
             ls$dehergne/200/obs=Correa Sebastião (port.) (II) P. 200 N. à Semide, d. de Coïmbre, 20 janv. 1734 (ou 30 ou 31 sept. 1734, selon Lus. 49, 55v et 181v). E. 9 mars 1749, Arroios près Lisbonne (Lus. 41, 98) pour la mission de Chine (Lus. 49, 181v). Emb. pour la Chine 1755-1758 (W. 2100 et p. 426). Et, si c'est bien le même, un Sebastiâo C. a fait ses V. à Rome, 15 août 1767, pr. (Lus. 17a, 160). Exilé en 1767 en Italie est en 1775 à Pesaro (Lus. 49, 106v., Lus. 41, 98-99) et de retour au Portugal en mai 1782 (Lus. 40b).
 
             referido$Sebastião Correa/id=deh-sebastiao-correa-ref1
@@ -1860,7 +1890,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Braga/16620000
             ls$jesuita-entrada/?/16780000
             ls$embarque/[Para a China]/16940000
-            ls$wicky/1334
+            ls$wicky/1334/16940000
+            ls$wicky-viagem/117/16940000
             ls$jesuita-ordenacao-padre/?/16930000
             ls$jesuita-votos/4V/17120815
             ls$jesuita-votos-local/Goa (noviciado de Choram)/17120815
@@ -1883,7 +1914,7 @@ kleio$gacto2.str/translations=180
             referido$António da Costa/id=deh-antonio-da-costa-ref2
                ls$nascimento/?/15250000
                ls$jesuita-entrada/Lisboa/15550000
-               ls$embarque/[Para Goa]#noviço
+               ls$embarque/[Para Goa]#noviço, Wicky 48 menciona um irmão António da Costa para a Etiópia em 1555, poderia ser ele?
                ls$jesuita-ordenacao-padre/Goa/15570000
                ls$jesuita-votos/3V/15710000
                ls$jesuita-votos-local/Goa/15710000
@@ -1911,7 +1942,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Lisboa/16620000
             ls$jesuita-entrada/Lisboa/16811102
             ls$embarque/?/16950000
-            ls$wicky/1345
+            ls$wicky/1345/16950000
+            ls$wicky-viagem/118/16950000
             ls$estadia/Shanghai/16971000
             ls$estadia/Soochow/16980000
             ls$estadia/Cham xo/17000000
@@ -1976,7 +2008,8 @@ kleio$gacto2.str/translations=180
             ls$nascimento/Braga/16910422
             ls$jesuita-entrada/?/17070209
             ls$embarque/?/17140412
-            ls$wicky/1585
+            ls$wicky/1585/17140412
+            ls$wicky-viagem/137/17140412
             ls$chegada/?/17170000#mais le catal. de 1717 déclare « fuit in missione Cantoniensi, nunc in Cochinchina », JS 25, 273 cf. JS 25, 278
             ls$estadia/Cantão/17170000
             ls$estadia/Cochinchina/17170000
@@ -2015,7 +2048,8 @@ kleio$gacto2.str/translations=180
             ls$jesuita-entrada/Nápoles/17000311
             ls$profissao/Cirurgião
             ls$embarque/?/17140412
-            ls$wicky/1587
+            ls$wicky/1587/17140412
+            ls$wicky-viagem/137/17140412
             ls$chegada/?/17150800
             ls$estadia/Pequim/17150800#depois de, fica lá 32 anos
             ls$profissao/Médico
@@ -2215,7 +2249,8 @@ kleio$gacto2.str/translations=180
             ls$partida/Roma/16811205
             ls$estadia/Holanda/16821008#desembarca, demanda os jesuítas franceses e chamado pela propaganda
             ls$embarque/?/16920000
-            ls$wicky/1308a
+            ls$wicky/1308a/16920000
+            ls$wicky-viagem/115/16920000
             ls$profissao/Historiador
             ls$jesuita-ordenacao-padre/Bruxelas/16541125
             ls$jesuita-votos/4V/16590216
@@ -2397,8 +2432,11 @@ kleio$gacto2.str/translations=180
             ls$jesuita-entrada/Lisboa/17471123
             ls$embarque/[Para a China]/17550000#entre 1755 e 1758
             ls$embarque/[Para a China]/17580000#entre 1755 e 1758
-            ls$wicky/2101
-            ls$estadia/Lisboa/obs=é preso
+            ls$wicky/2101/17550000#entre 1755 e 1758
+            ls$wicky/2101/17580000#entre 1755 e 1758
+            ls$wicky-viagem/?/17550000#entre 1755 e 1758
+            ls$wicky-viagem/?/17580000#entre 1755 e 1758
+            ls$estadia/Lisboa#é preso
             ls$profissao/Matemático
             ls$dehergne/231/obs=Cunha, João da (port.) P. 231 N. Coïmbre, 9 sept. 1731 (Lus. 49, 55). E. 23 nov. 1747, Lisbonne (Lus. 41, 98 et 49, 55). Emb. pour la Chine, 1755-1758 (W 2101 et p. 426)., emprisonné à Lisbonne., redemande la Chine comme mathématicien (Krahl, 132). Un autre de ce nom est N. en 1702 (dit W p. 421)., l'un d'eux a fait ses V. à Rome, 10 août 1767 (Hisp. 34, 415) et se retrouve à Rome en 1775.
 
