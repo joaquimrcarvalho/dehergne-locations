@@ -76,13 +76,13 @@ No `Timelink` tratam-se conjuntos de fontes que correspondem a _comunidades_, em
 
 Nos casos mais típicos as comunidades são uma localidade, uma paróquia, uma cidade, uma empresa. 
 
-No sentido mais geral a comunidade é um conjunto de pessoas e outras entidades que têm intereações frequentes entre si e por isso deixam nas _fontes históricas_ uma série de registos que podem ser correlacionados e estudados, reconstruindo as _histórias de vida_ e as _redes de relações_ das pessoas e entidades envolvidas.
+No sentido mais geral a comunidade é um conjunto de pessoas e outras entidades que têm interações frequentes entre si e por isso deixam nas _fontes históricas_ uma série de registos que podem ser correlacionados e estudados, reconstruindo as _histórias de vida_ e as _redes de relações_ das pessoas e entidades envolvidas.
 
 Um projeto elaborado com `Timelink` envolve a transcrição de fontes históricas em quantidades significativas, seguido do seu processamento para alimentar uma base de dados centrada nas pessoas, os seus atributos, as suas relações e as funções que assumem em diferentes fontes.
 
 ## Transcrição, tradução, importação e identificação
 
-Cada comunidade tratada com a metodologia `Timelink` produz uma série de representações informáticas que correspondem a níveis progressivos de abstração, partindo da informação das fontes até à elaborações de modelos analíticos pelo investigador, como _histórias de vida_, _redes interpessoais_ e outras construções intepretativas.
+Cada comunidade tratada com a metodologia `Timelink` produz uma série de representações informáticas que correspondem a níveis progressivos de abstração, partindo da informação das fontes até à elaborações de modelos analíticos pelo investigador, como _histórias de vida_, _redes interpessoais_ e outras construções interpretativas.
 
 Essas representações informáticas são as seguintes:
 
@@ -97,7 +97,7 @@ Estas representações informáticas resultam de um _processo_ que vai desde a a
 1. O _transcritor_ regista o conteúdo das fontes segundo um formato pré-determinado que procura captar a informação numa forma próxima do texto original. 
     * As principais decisões que toma são de natureza paleográfica e de compreensão do formato e notação de transcrição. 
     * Em geral os formatos de registo pré-definidos não permitem uma grande variabilidade de resultados. Diferentes _transcritores_ perante a mesma fonte produzem textos idênticos, se não fizerem erros de leitura.
-    * O resultado da transcrição são ficheiros com a extensão `cli`. O conjunto dos ficheiros `cli` de um projecto constituti a _base factual_ (as fontes primárias) de um do estudo de uma comunidade.
+    * O resultado da transcrição são ficheiros com a extensão `cli`. O conjunto dos ficheiros `cli` de um projecto constitui a _base factual_ (as fontes primárias) de um do estudo de uma comunidade.
 
 2. O _tradutor_ gere o processo de tradução das fontes transcritas. 
 
@@ -126,10 +126,14 @@ Estas representações informáticas resultam de um _processo_ que vai desde a a
     * Assim a fase de importação não adiciona informação à fase anterior. Apenas a transforma num formato mais acessível.
     * Esta fase pode ser representada por uma exportação em linguagem `sql` do conteúdo da base de dados e pelos ficheiros `.xpt` com o relatório de importação e `.xerr`com o número de erros detectados no processo de importação.
 
-4. O `identificador` (ou o _investigador_, porque pode gerar também redes e grupos) toma decisões sobre quem é quem na informação recolhida e pode gerar entidades derivadas como redes e grupos. 
-    * Na sua essência o processo de identificação regista decisões do tipo:  a pessoa X que ocorre no acto A é a mesma que a pessoa Y que ocorre no acto B. 
-    * Essas decisões são registadas em tabelas específicas na base de dados e podem ser exportadas em formato `kleio` , facilitando a troca de dados.
-    * Como as identificações são feitas na base de dados elas também são incluídas em ficheiros de exportação da base de dados em formato `sql`.
+4. O `investigador responsável`  toma decisões que implicam interpretações não determinísticas dos dados: 
+    * _critérios de transcrição_ : de tipos de atributos e relações a usar em fontes específicas. Os critérios devem acompanhar os ficheiros de fontes, em documento de texto próprio.
+    * _normalizações_ de valores, como por exemplo que grafia usar para  uma localidade cuja ortografia variou no tempo, ou é reportada em diferentes línguas. As regras gerais de normalização devem ser registadas em documento de texto que acompanhe as fontes.
+   * _identificações_: decidir  que referências correspondem à mesma pessoa.
+      * Na sua essência o processo de identificação regista decisões do tipo:  a pessoa X que ocorre no acto A da fonte F é a mesma que a pessoa Y que ocorre no acto B da fonte G. 
+      * Essas decisões são registadas em tabelas específicas na base de dados e podem ser exportadas em formato `kleio` , facilitando a troca de dados.
+      * Como as identificações são feitas na base de dados elas também são incluídas em ficheiros de exportação da base de dados em formato `sql`.
+
 
 
 
