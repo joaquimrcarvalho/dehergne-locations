@@ -14,27 +14,27 @@ Open the terminal in VSCode: Command+j or menu `Terminal` -> `New terminal`
 
 Type 
 
-     pip install ipython-sql `[return]`
+     ``pip install ipython-sql `[return]` ``
 
 When finished install the Mysql connector
 
 
-    pip install mysql-connector-python
+    ``pip install mysql-connector-python`´
 
 
 ## Install auxiliary packages
 
 Reading MHK configuration files 
 
-    pip install python-dotenv
+    ``pip install python-dotenv``
 
 Data analysis with Pandas
 
-    pip install pandas
+    ``pip install pandas``
 
 Widgets for interaction with user
 
-    pip install ipywidgets
+    ``pip install ipywidgets``
 ## References
 
 * https://pypi.org/project/ipython-sql/
