@@ -483,3 +483,9 @@ Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
 
 `Option+SHIFT+setas cima ou baixo` mover a linha corrente para cima ou para baixo no texto (útil para reordenar linhas).
 
+## Nota sobre os nomes chineses
+
+Na tradução chinesa de 1995 o tradução explica na introdução como lidou com os nomes chineses.
+
+    The Jesuits who enter China generally have Chinese names, but except for those who have been in the Chinese Palace and those who have lived in the court and have written books and commentators (especially those who write in Chinese), the Chinese names of the fellows are not easy to find. Therefore, we fully respect the original author’s point of view, and we will use the same names for those foreign Jesuits whose Chinese names are unknown to the author.Transliteration is adopted instead of imitating Chinese names (but sometimes Mr. Feng Chengjun [Pfister?] is also used in the practice of imitation in *The Biography of the Jesuits in China*), put the original name in brackets. Within the number. The transliterated name is for reference only, and the original name should be used accurately [Google translation, editada].
+    入 华的耶稣会士们 一般均有汉名，但除那些曾在中国宫廷生活过和曾著书立说者（尤其是以汉文写书者）之外，其他 会士的汉名 则 不大容易査到，所以，我们完全尊重原 作者的 观点，对于作者不知其汉名的那些外国耶稣会士的名字一律 采取音译的办法，不再仿造汉名（但有时也沿用了冯承钧先生 在*入华耶稣会士列传*中仿造的作法），将名字的原文放在括号内。音译名字仅供参考，使用时应以原名为准. p.5
