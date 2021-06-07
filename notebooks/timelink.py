@@ -22,13 +22,16 @@ def network_from_attribute(e,a: str, mode='cliques'):
         An SQLAlchemy engine connected to the target database.
     a : str
         The name (type) of the attribute used for generating the graph.
-    mode : {"value-node", "cliques"}, optional
-        If mode = "value-node" (default) a node will be created for each different
-        value of the attribute `a` and edges will be created linking that node
-        to the entities which have that value in attribute `a`.
+    mode : {"cliques", "value-node"}, optional (default="cliques")
+        The topology the generated network.
+        
         If mode = "cliques" all the entities with attribute `a` will be 
         nodes in the graph and edges will be created between the entities with the same
         value of the attribute.
+
+        If mode = "value-node" a node will be created for each different
+        value of the attribute `a` and edges will be created linking that node
+        to the entities which have that value in attribute `a`.
         In both cases entities with several values for the attribute contribute to the 
         overall connectivity of the graph, by linking clusters of same value entities.
 
@@ -61,12 +64,19 @@ def network_from_attribute(e,a: str, mode='cliques'):
         result = conn.execute(text(sql),[{'the_type':a}])
         values= result.all()
         for (avalue,) in values:
-            sql = "select entity,the_date from attributes where the_type=:the_type and the_value = :the_value"
+            sql = "select id,name,the_date from nattributes where the_type=:the_type and the_value = :the_value"
             result = conn.execute(text(sql),[{'the_type':a,'the_value':avalue}])
             entities = result.all()
-            if (len(entities)>1):
+                    
+            if (mode=="value-node"):
+                G.add_node(avalue,desc=a)
+                for (id,name,date) in entities:
+                    G.add_node(id,desc=name)
+                    G.add_edge(avalue,id,date1 = date, date2 = date,desc="{a}={v}".format(a=a,v=avalue))
+            elif (len(entities)>1):
+                
                 pairs = list(combinations(entities,2))
                 # TODO: optional date range filtering
-                for ((e1,d1),(e2,d2)) in pairs:
-                    G.add_edges_from([(e1,e2,{'date1':d1,'date2':d2,'attribute':a,'value':avalue})])     
+                for ((e1,n1,d1),(e2,n1,d2)) in pairs:
+                    G.add_edges_from([(e1,e2,{'date1':d1,'date2':d2,'attribute':a,'value':avalue})]) 
     return G
