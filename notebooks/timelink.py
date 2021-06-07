@@ -74,7 +74,8 @@ def network_from_attribute(e,a: str, mode='cliques'):
                     G.add_node(id,desc=name)
                     G.add_edge(avalue,id,date1 = date, date2 = date,desc="{a}={v}".format(a=a,v=avalue))
             elif (len(entities)>1):
-                
+                for (id,name,date) in entities:
+                    G.add_node(id,desc=name)
                 pairs = list(combinations(entities,2))
                 # TODO: optional date range filtering
                 for ((e1,n1,d1),(e2,n1,d2)) in pairs:
