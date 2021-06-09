@@ -8,14 +8,11 @@ from sqlalchemy import create_engine,text
 from itertools import combinations
 from sqlalchemy.orm import Session
 import networkx as nx
-
-
+from sqlalchemy.sql.elements import Null
 class community:
     pass
 
-
-
-def network_from_attribute(e,a: str, mode='cliques'):
+def network_from_attribute(e,a: str, mode='cliques',user="*none*"):
     """Generate a network from common attribute values.
 
     This function will generate a network connecting the
@@ -70,8 +67,12 @@ def network_from_attribute(e,a: str, mode='cliques'):
         result = conn.execute(text(sql),[{'the_type':a}])
         values= result.all()
         for (avalue,) in values:
-            sql = "select id,name,the_date from nattributes where the_type=:the_type and the_value = :the_value"
-            result = conn.execute(text(sql),[{'the_type':a,'the_value':avalue}])
+            if (user == "*none*"):
+                sql = "select id,name,the_date from nattributes where the_type=:the_type and the_value = :the_value"
+            else:
+                sql = "SELECT IFNULL( (select rid from rlinks where instance=n.id and user=:user),id) as id, name, the_date  from nattributes n where the_type=:the_type and the_value = :the_value"
+    
+            result = conn.execute(text(sql),[{'the_type':a,'the_value':avalue,'user':user}])
             entities = result.all()
                     
             if (mode=="value-node"):
