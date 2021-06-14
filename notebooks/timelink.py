@@ -1,16 +1,57 @@
 """ timelink.py
 Interface to timelink/MHK databases.
 
+TODO get_community(dbname) gets content of mhk_env and returns a community object with the sqlAlchemy incorporated
+TODO 
+
 Joaquim Carvalho, Macau, 2021.
 MIT License.
 """
 from sqlalchemy import create_engine,text
+import os
+from dotenv import dotenv_values
 from itertools import combinations
 from sqlalchemy.orm import Session
 import networkx as nx
-from sqlalchemy.sql.elements import Null
-class community:
+from sqlalchemy import create_engine,text
+
+
+class Community:
+    """
+    Interface to a Timelink/MHK community
+
+    TODO get_community(dbname) gets content of mhk_env and returns a community object with the sqlAlchemy incorporated
+    TODO db_stats Returns the db status
+    TODO sources = a list of sources from the sources tables
+    TODO events = a list of acts and events.
+    """
     pass
+ 
+    
+def get_dbnames():
+    result = []
+    app_env = get_mhk_app_env()
+    pwd = app_env['MYSQL_ROOT_PASSWORD']  
+    connection_string = "mysql+mysqlconnector://root:{pwd}@localhost:3307/mysql".format(pwd=pwd)
+    mysql = create_engine(connection_string,echo=False,future=True)
+    with mysql.connect() as conn:
+        databases = conn.execute(text("SELECT table_schema FROM information_schema.tables WHERE  table_name = 'entities'"))
+        result = [db[0] for db in databases]
+    return result
+
+def get_mhk_env():
+    result = {}
+    home_dir=os.getenv('HOME')
+    print("home  : "+home_dir)
+    result = dotenv_values(home_dir+"/.mhk")
+    return result
+
+def get_mhk_app_env():
+    mhk_env=get_mhk_env()
+    mhk_home_dir=mhk_env['HOST_MHK_HOME']
+    app_env = dotenv_values(mhk_home_dir+'/app/.env')
+    return app_env
+
 
 def network_from_attribute(e,a: str, mode='cliques',user="*none*"):
     """Generate a network from common attribute values.
@@ -25,6 +66,7 @@ def network_from_attribute(e,a: str, mode='cliques',user="*none*"):
         An SQLAlchemy engine connected to the target database.
     a : str
         The name (type) of the attribute used for generating the graph.
+    user: str  use real persons identified by this user (optional).
     mode : {"cliques", "value-node"}, optional (default="cliques")
         The topology the generated network.
         
@@ -46,13 +88,15 @@ def network_from_attribute(e,a: str, mode='cliques',user="*none*"):
             "type" "value_node" or entity class in the database.
             "desc" a description of the node, automatically fetched
                 from the database (names of persons for instance)
-            "is_rel" a flag stating if the "id" key refers to a real 
+            "is_real" a flag stating if the "id" key refers to a real 
             entity or to an occurrence.
             "url" a link to the entity information in the database
                 inf the format http://localhost:8080/mhk/database/id/entityID
         Each edge will have associated the following key-value pairs
             "date1" date of the atribute in the left most node
             "date2" date of the attribute in the right most node
+            "attribute" the type of the attribute
+            "value" the value of the attribute 
 
     Examples
     --------
@@ -71,7 +115,10 @@ def network_from_attribute(e,a: str, mode='cliques',user="*none*"):
                 sql = "select id,name,the_date from nattributes where the_type=:the_type and the_value = :the_value"
             else:
                 sql = "SELECT IFNULL( (select rid from rlinks where instance=n.id and user=:user),id) as id, name, the_date  from nattributes n where the_type=:the_type and the_value = :the_value"
-    
+            ## TODO also fetch the instance SELECT IFNULL( (select rid from rlinks where instance=n.id and user=:user),id) as id, id as instance, name,...
+            ## TODO then test if id=instance. If not add attribute to node is_real=yes otherwise "no"
+            ## TODO do the same with the first select.
+            ## TODO add to nodes a url attribute if host and dbase are present is present https://joaquims-mbpr.local/mhk/toliveira/id/rp-1
             result = conn.execute(text(sql),[{'the_type':a,'the_value':avalue,'user':user}])
             entities = result.all()
                     
