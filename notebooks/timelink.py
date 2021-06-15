@@ -102,7 +102,8 @@ def draw_network(G,
         node_colors=('type',
                     {'person':'green',
                     'wicky-viagem':'red',
-                    'jesuita-entrada':'blue'}),
+                    'jesuita-entrada':'blue',
+                    '*default*':'gray'}),
         width=500,height=500):
 
     """ draws a network using Bokeh and networkx layout
@@ -115,8 +116,8 @@ def draw_network(G,
     # Color nodes
     (cattribute, node_colors) = node_colors
     for m in list(G.nodes):
-        nt = G.nodes[m][cattribute]
-        nc = node_colors[nt]
+        nt = G.nodes[m].get(cattribute,"*default*")
+        nc = node_colors.get(nt,'gray')
         G.nodes[m]['color'] = nc
 
     #Create a plot — set dimensions, toolbar, and title
