@@ -147,7 +147,7 @@ def draw_network(G,
         title='Timelink network',
         hover_tooltips=[("desc","@desc"),("type","@type")],
         iterations=50,
-        node_colors=('type',
+        node_colors=('type', # TODO this should be generic maybe bokeh has builtin
                     {'person':'green',
                     'wicky-viagem':'red',
                     'jesuita-entrada':'blue',
