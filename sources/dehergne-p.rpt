@@ -1,5 +1,5 @@
-KleioTranslator - server version 2019.A2 - build 311 (Import-identifications) 29/09/2020 07:34 
-28-5-2021 18-46
+KleioTranslator - server version 2021.A4 - build 1892 (master) 03/06/2021 13:00 
+15-6-2021 6-31
 
 Processing data file dehergne-p.cli
 -------------------------------------------
@@ -12,9 +12,15 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 114
+Translation count: 115
 Obs: 
 ** Processing source fonte$dehergne-p
+** Base name of file dehergne-p.cli
+
+WARNING: dehergne-p.cli line 3 * Warning: Filename should match source Id to avoid errors. File: dehergne-p.cli Id: dehergne-p.
+Near lines: 3 
+Near line: 4       lista$dehergne-notices-p/0/0/0
+
 6: lista$dehergne-notices-p
 *** End of File
 
@@ -22,13 +28,13 @@ Line 777 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antoine-thomas) CHECK IF 
 Line 839 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-goncalo-alvares) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Line 1504 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-louis-brouet) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-** Processed file- /kleio-home/sources/toliveira/sources/dehergne-p.cli
-** Original file- /kleio-home/sources/toliveira/sources/dehergne-p.org
-** Previous version- /kleio-home/sources/toliveira/sources/dehergne-p.old
-** Temp file with ids- /kleio-home/sources/toliveira/sources/dehergne-p.ids
-** - /kleio-home/sources/toliveira/sources/dehergne-p.cli-renamed to- /kleio-home/sources/toliveira/sources/dehergne-p.old
-** - /kleio-home/sources/toliveira/sources/dehergne-p.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-p.cli
+** Processed file- /kleio-home/sources/toliveira-china/sources/dehergne-p.cli
+** Original file- /kleio-home/sources/toliveira-china/sources/dehergne-p.org
+** Previous version- /kleio-home/sources/toliveira-china/sources/dehergne-p.old
+** Temp file with ids- /kleio-home/sources/toliveira-china/sources/dehergne-p.ids
+** - /kleio-home/sources/toliveira-china/sources/dehergne-p.cli-renamed to- /kleio-home/sources/toliveira-china/sources/dehergne-p.old
+** - /kleio-home/sources/toliveira-china/sources/dehergne-p.ids-renamed to- /kleio-home/sources/toliveira-china/sources/dehergne-p.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
