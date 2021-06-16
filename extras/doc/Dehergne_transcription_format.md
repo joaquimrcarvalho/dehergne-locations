@@ -206,7 +206,7 @@ Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jes
 
 #### Emb. ####
 
-Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que atribui um número a cada barco que transportou missionários para a Índia. O autor regista esse número, precedido da letra W, entre parentesis junto com a informação da viagem. Registamos esse número porque o registo do nome do navio é irregular na obra e interessa poder reconstruir com exatidão quem viajou com quem.
+Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que atribui um número a cada barco que transportou missionários para a Índia. O autor regista esse número, precedido da letra W, entre parêntesis junto com a informação da viagem. Registamos esse número porque o registo do nome do navio é irregular na obra e interessa poder reconstruir com exatidão quem viajou com quem.
 
 Regista-se na forma `ls$embarque/NAVIO/DATA` seguido de `ls$wicky/NUMERO`
 
@@ -470,10 +470,6 @@ Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
 * Por estas razões normalmente só se usa `xmesmo_que` para anotar re-ocorrências de pessoas relevantes, cujo id seja fácil de memorizar e que apareçam várias vezes (é o caso do Imperador Kangxi, potencialmente). O id fica registado num ficheiro que tem um estatuto preferencial, por exemplo um ficheiro de VIPs. E os outros ficheiros remetem para o id nesse com `xmesmo_que`.
 
 * A variante `mesmo_que` normalmente é usada quando a mesma pessoa aparece mais que uma vez numa fonte, normalmente em pontos próximos. Uma utilização típica é em batismos de gémeos, em que se registam dois batismos cujos pais são os mesmos. Não são normalmente pessoas importantes, mas é util registar nesse momento que são as mesmas pessoas porque mais tarde pode não ser claro. 
-
-
-
-
 
 ### Configurações e atalhos úteis no Visual Studio Code ###
 
