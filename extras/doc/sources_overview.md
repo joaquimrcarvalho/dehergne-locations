@@ -10,8 +10,15 @@ It also includes a "biography" of the College itself. Claims to have used a wide
 
 The author transcribes frequently correspondence from the people involved. Some of the biographies have a wealth of events and personal information on related people. Proudly states his scholarly approach: _E, tudo procurei verdade, fazendo todas as diligências que pude; por isso no fim das vidas allego de ordinário os documentos por onde escrevi, & e com que me ajustei; ainda que isto a alguem poderá parece escusado, com tudo eu o não julguei assim, conformando-me com o uso, que nisto tem outros homens, que escreveram matéria semelhante, porque nestas alegações fazem na História grande fé; podendo sempre ver-se as fontes, donde se dis, que a tal cousa se recolhera._ Whenever possible the author tried to find in the "Catálogos" the names of the parents of people he wrote about, even when _não sejam de famílias esclarecidas_  (are not of important families).
 
-
 In two volumes. The first is available online at https://books.google.pt/books?id=JDA2wD7ZRDEC .  The same author produced two other books on the College of Évora and of Lisboa. 
+
+Relevant biographies:
+* Belchior Carneiro vol. I, p. 261
+* Belchior Nunes Barreto, vol.I p. 361
+* António de Almeida, vol II
+* Francisco Peres, vol. II
+* André Palmeiro, vol . II
+  
 
 >Franco, Antonio. _Imagem da virtude em o noviciado da Companhia de Jesus do Real Collegio do Espirito Santo de Evora do Reyno de Portugal ..._ Lisboa: na Officina Real Deslandesiana, 1714. https://catalog.hathitrust.org/Record/009302029.
 
