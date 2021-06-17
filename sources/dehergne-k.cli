@@ -1,5 +1,5 @@
-kleio$gacto2.str/translations=22
-   fonte$dehergne-B/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra K
+kleio$gacto2.str/translations=52
+   fonte$dehergne-K/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra K
 
       lista$dehergne-notices-k/0/0/0
 
@@ -7,17 +7,18 @@ kleio$gacto2.str/translations=22
             ls$nacionalidade/China
             ls$jesuita-estatuto/Frade Coadjutor
             ls$nome/Matthieu Gham
-            ls$tarefa/Substitui o Frei Sébastien Fernandes, condenado à escravatura junto aos Tártaros
-            ls$estadia/Para lá da Grande Muralha
+            ls$jesuita-tarefa/Substitui o Frei Sébastien Fernandes, condenado à escravatura junto aos Tártaros
+            rel$institucional/Substitui/Sébastien Fernandes/deh-matthieu-kang-ref1
+            ls$estadia/[Para lá da Grande Muralha da China]
             ls$jesuita-entrada/?/000000/obs=depois de libertado da escravatura
             rel$sociabilidade/Substitui/Sébastien Fernandes/deh-matthieu-kang-ref1
             ls$morte/Macau (colégio)/16200000#cerca de
-            ls$dehergne/423/obs=
+            ls$dehergne/423/obs=K'ang, Matthieu (chin.) fr. coadj. 423 Le chrétien chinois Matthieu « Gham » prend la place du fr. Sébastien Fernandes condamné à l'esclavage chez les Tartares au-delà de la Grande Muraille. Libéré plus tard, il se fait jésuite. M. au collège de Macao vers 1620. Pf. 48, 151. Pas marqué au catal. Chine de 1621 ni aux catal. Japon de 1620 et 1623.
 
-            referido$Sébastien Fernandes/id=deh-matthieu-kang-ref1/obs=Será Fernandes Tcheng? A entrada dele nã o menciona?
+            referido$Sébastien Fernandes/id=deh-matthieu-kang-ref1/obs=Será Fernandes Tcheng? A entrada dele não o menciona?
                ls$jesuita-estatuto/Frade
                ls$tarefa/Escravizado pelos tártaros
-               ls$estadia/Para lá da Grande Muralha
+               ls$estadia/[Para lá da Grande Muralha da China]
 
          n$Philippe-Stanislas K'ang/id=deh-philippe-stanislas-kang
             ls$nacionalidade/China
@@ -26,17 +27,17 @@ kleio$gacto2.str/translations=22
             ls$nome-chines/Cang
             ls$nascimento/Pequim/17270530
             ls$partida/Paris/17400000
-            ls$estudos/Colégio Louis-le-Grand
+            ls$tarefa/Estuda no Colégio Louis-le-Grand
             ls$jesuita-entrada/Paris/17481029#depois dos seus estudos
             ls$estadia/Lorient/17491229#até
             ls$embarque/Villeflix/17491229
-            rel$sociabilidade/companheiro/Jean-Joseph-Marie Amiot/deh-philippe-stanislas-kang-ref3/data=17491229
-            rel$sociabilidade/companheiro/Jean-Régis-Lieou/deh-philippe-stanislas-kang-ref2/data=17491229
-            ls$morte/A caminho da China/17500624
+            rel$sociabilidade/Companheiro/Jean-Joseph-Marie Amiot/deh-philippe-stanislas-kang-ref3/data=17491229
+            rel$sociabilidade/Companheiro/Jean-Régis-Lieou/deh-philippe-stanislas-kang-ref2/data=17491229
+            ls$morte/[No mar, a caminho da China]/17500624
             ls$dehergne/424/obs=K'ang, PMippe-Stanislas (chin.) nov. scol. 424 Kang {Franc. Catal. 1751, p. 37)., Cang (LE XXVIII (1758), p. LXXI). N. Pékin, 30 mai 1727 (registre des novices, BN: ms. lat. 10988). Parti avec Foureau en 1740 pour le collège Louis-le-Grand à Paris, il entre au noviciat après ses études, 29 oct. 1748, Paris (Fr.). Emb. à Lorient sur le Villeflix avec Amiot et Lieou, 29 déc. 1749 (AN: Col. F5B 49). M. le 24 juin 1750, en mer, en route vers la Chine (HS 53a, 68., Franc. 28, 74). Pf. 861.
 
             referido$Pierre Foureau/id=deh-philippe-stanislas-kang-ref1/obs=Dehergne 331
-               rel$sociabilidade/companheiro/Philippe-Stanislas K'ang/deh-philippe-stanislas-kang/data=17400000
+               rel$sociabilidade/Companheiro/Philippe-Stanislas K'ang/deh-philippe-stanislas-kang/data=17400000
                ls$partida/Paris/17400000
 
             referido$Jean-Régis-Lieou/id=deh-philippe-stanislas-kang-ref2
@@ -60,12 +61,12 @@ kleio$gacto2.str/translations=22
             ls$estadia/Pequim/17510107#até
             ls$partida/Paris/17510107#para fazer os seus estudos no colégio de La Flèche e do Louis-le-Grand
             ls$estadia/Paris (colégio de La Flèche)
-            ls$estadia/Paris (colégio de Louis-le-Grand)
+            ls$estadia/Paris (colégio Louis-le-Grand)
             ls$jesuita-entrada/Paris/17590310
             ls$estadia/Paris/17650100#até
             ls$estadia/Lorient/17650201#até
             ls$embarque/Duc de Choiseul/17650201
-            rel$sociabilidade/companheiro/Etienne Yang/deh-aloys-kao-ref1/data=17650201
+            rel$sociabilidade/Companheiro/Etienne Yang/deh-aloys-kao-ref1/data=17650201
             ls$estadia/Pequim/17660509
             ls$jesuita-tarefa/Presta juramento/17660509
             ls$estadia/Hukwang/17850000
@@ -83,7 +84,7 @@ kleio$gacto2.str/translations=22
 
             referido$Christophe de Beaumont/id=deh-aloys-kao-ref2
                ls$titulo/Monsenhor
-               ls$cargo/Bispo de Paris
+               ls$cargo/Bispo de Paris/17630528
                ls$estadia/Paris/17630528
                rel$eclesiastica/Ordena/Aloys Kao/deh-aloys-kao/data=17630528
 
@@ -93,8 +94,8 @@ kleio$gacto2.str/translations=22
             ls$nome/Jean-Etienne Ko
             ls$nome-chines/Kao Jo-wang
             ls$nascimento/Süanhwa (Siuan-houa) fou/17051130
-            ls$estadia/Em missão/17300000
-            ls$jesuita-entrada/Em missão/17310308
+            ls$estadia/[Missão]/17300000
+            ls$jesuita-entrada/[Missão]/17310308
             ls$estadia/Hukwang, Inchow (Kin-tcheou)/17330000
             ls$estadia/Pequim
             ls$estadia/Yungping fou/17391100
@@ -114,7 +115,8 @@ kleio$gacto2.str/translations=22
             ls$nascimento/Burghausen/17060108
             ls$jesuita-entrada/Landsberg/17270921
             ls$embarque/?/17390000
-            ls$wicky/1880
+            ls$wicky/1880/17390000
+            ls$wicky-viagem/158/17390000
             ls$chegada/China/17400000
             ls$estadia/Cochinchina
             ls$estadia/Japão
@@ -143,12 +145,13 @@ kleio$gacto2.str/translations=22
             ls$nome/George Brett Haynes
             ls$nome/Giorgio Chinesio
             ls$nascimento/Compton, Somersetshire#má leitura de Taunton?/16290228
-            ls$jesuita-entrada/Roma (St. André)/16490102
+            ls$jesuita-entrada/Roma (Noviciado de Sant'Andrea al Quirinale)/16490102
             ls$partida/China/16541200
             ls$embarque/Bom Jesus do Carmo/16560330
-            ls$wicky/1010
+            ls$wicky/1010/16560330
+            ls$wicky-viagem/88/16560330
             ls$jesuita-ordenacao-padre/Liège%Coll. Leodiense (Anglorum)#Leodiense é de Liège?/16540000
-            ls$morte/No mar, perto das Filipinas/16581015
+            ls$morte/[No mar, perto das Filipinas]/16581015
             ls$dehergne/429/obs=Keynes, George Brett (angl.) P. 429 Keines., Keyne., Haynes., Giorgio Chinesio. N. 28 février 1629, à Compton [sic, mauvaise lecture pour Taunton?] dans le Somersetshire (Goa 25, 142v). E. 2 janv. 1649, Rome, St André (Rom. 59, 27: Giorgio Chinesio de Cuntonia inglese). Déc. 1654 part pour la Chine (Angl. 11, 136v). Emb. sur le Bom Jésus do Carmo, 30 mars 1656 (W 1010). P. 1654, au « Coll. Leodiense (Anglorum), Georgius Keynes, Sommersettensis » (Angl. 11, 136 et 15, 30). M. en mer, près des Philippines, 15 oct. 1658 (HS 48, 54: Keynesius). Pf. 329 n. 2., H. Foley, Records of the Engl. Province, V p. 298 et VII, p. 416., notes Edm. Lamalle. « My father is Edward Keynes, my mother Anne before marriage Brett ».
 
             pai$Edward Keynes/id=deh-george-brett-keynes-pai
@@ -196,7 +199,7 @@ kleio$gacto2.str/translations=22
             ls$profissao/Cartógrafo
             ls$profissao/Matemático
             ls$profissao/Historiador
-            ls$jesuita-ordenacao-padre/Eichstätt, Baviera/16770612
+            ls$jesuita-ordenacao-padre/Eichstätt/16770612
             ls$jesuita-votos/4V/16840815
             ls$jesuita-votos-local/San Bruno, California/16840815
             ls$morte/Magdalena de Kino, Sonora, México#primeiro chamada Santa Maria Magdalena de Buquivaga, segundo wiki/17110315
@@ -213,7 +216,7 @@ kleio$gacto2.str/translations=22
                rel$parentesco/Parente/Eusebio Francesco Kino/deh-eusebio-francesco-kino
 
             referido$Ferdinand Verbiest/id=deh-eusebio-francesco-kino-ref2
-               ls$jesuita-tarefa/Desejava Eusebio Francesco Kino como cartógrafo em Pequim
+               ls$tarefa/Deseja Eusebio Francesco Kino como cartógrafo em Pequim
 
          n$Wenzel Pantaleon Kirwitzer/id=deh-wenzel-pantaleon-kirwitzer
             ls$nacionalidade/Boémia
@@ -222,11 +225,12 @@ kleio$gacto2.str/translations=22
             ls$nome/Vinceslao Pantaleone
             ls$nome/Kobizer
             ls$nascimento/Kadaň, Boémia/15880000#ou 15900000
-            ls$jesuita-entrada/Brno/16060000
+            ls$jesuita-entrada/Brno, República Checa/16060000
             ls$embarque/S. Carlos/16180400#meados do mês, em 1616 fora designado para o Peru
-            ls$wicky/656
+            ls$wicky/656/16180400
+            ls$wicky-viagem/57/16180400#meados do mês
             ls$chegada/Macau/16190715
-            rel$sociabilidade/companheiro/Johann Adam Schall von Bell/deh-wenzel-pantaleon-kirwitzer-ref1/data=16190715
+            rel$sociabilidade/Companheiro/Johann Adam Schall von Bell/deh-wenzel-pantaleon-kirwitzer-ref1/data=16190715
             ls$estadia/Kwangtung
             ls$morte/Macau/16260522
             ls$dehergne/433/obs=Kirwitzer, Wenzel Pantaleon [Wenzel = Wenceslas] (bohém.) P. 433 Vincesl. Pantaleo (JS 134, 300)., Vinceslao Pantaleone., Koblzer. N. Kaaden, en Bohême, 1588 ou 1590 -E. 1606 à Brno (Austr. 123, 117v): Kirbitzer. Emb. sur le S. Carlos, mi-avril 1618 (W 656), alors qu'en 1616, il était désigné pour le Pérou (AHSI IX, 1940, p. 105)., arr. avec le P. Schall à Macao, 15 juill. 1619 (VâTH, p. 50)., mission du Kwangtung. M. 22 mai 1626, Macao (HS 43, 63). Pf. 160.
@@ -245,17 +249,19 @@ kleio$gacto2.str/translations=22
             ls$grau-academico/Mestre em Artes
             ls$jesuita-entrada/Landsberg/16961004
             ls$embarque/Sta. Ana#directo para Macau/17160314
+            ls$wicky/1609#segundo Wicky, Dehergne esqueceu-se de colocar o número/17160314
+            ls$wicky-viagem/139/17160314
             ls$chegada/Macau/17160830
             ls$estadia/Pequim/17170102
-            ls$cargo/Presidente do Tribunal das Matemáticas de Pequim/17170102
+            ls$cargo/Presidente do Tribunal da Matemática de Pequim/17170102
             ls$cargo/Vice-presidente do Tribunal dos Ritos/17170102
-            ls$titulo/Mandarim de 2ª classe
-            ls$cargo/Intérprete da embaixada russa d'Jsmaïloff/17190000
-            rel$sociabilidade/companheiro/Niccolò Gianpriamo/deh-ignatius-koegler-ref1/data=17190000
-            ls$jesuita-cargo/Visitador/17290000
-            ls$jesuita-cargo/Visitador/17320000
-            ls$jesuita-cargo/Visitador/17410000
-            ls$jesuita-cargo/Visitador/17450000
+            ls$cargo/Intérprete da embaixada russa d'Ismaïloff/17190000
+            rel$sociabilidade/Companheiro/Niccolò Gianpriamo/deh-ignatius-koegler-ref1/data=17190000
+            ls$titulo/Mandarim de 2ª Classe/17250000#? Dehergne p. 313
+            ls$jesuita-cargo/Visitador do Japão e da China/17290719
+            ls$jesuita-cargo/Visitador do Japão e da China/17320000
+            ls$jesuita-cargo/Visitador do Japão e da China/17411010
+            ls$jesuita-cargo/Visitador do Japão e da China/17450000
             ls$jesuita-ordenacao-padre/Eichstätt/17090525
             ls$jesuita-votos/4V/17410202
             ls$jesuita-votos-local/Ingolstadt/17410202
@@ -276,36 +282,39 @@ kleio$gacto2.str/translations=22
             ls$nascimento/?/16120000#ou Krems, 1603? ou Viena 1607?
             ls$jesuita-entrada/Viena, Áustria/16271016
             ls$embarque/?/16390000/obs=regressa devido a ventos contrários
-            ls$embarque/?/16400326
-            ls$wicky/887
+            ls$embarque/?#Nossa Senhora da Atalaia?/16400326
+            ls$wicky/887/16400326
+            ls$wicky-viagem/75/16400326
             ls$chegada/Goa/16420100
             ls$estadia/Batávia/16420000
             ls$estadia/Batávia/16440000
             ls$estadia/Macau/16450000
             ls$estadia/Cantão/16450000
             ls$cargo/Capelão dos portugueses partidos ao socorro dos Ming
+            ls$titulo/Mandarim/16460000#cerca de, Dehergne, p. 313
             ls$estadia/Kweilin, Kwangsi/16460000#sozinho
             ls$estadia/Nanning/16480300#ou abril
-            ls$jesuita-tarefa/Baptismo das princesas Ming e de Constantin, filho de Young-Li/16480300#ou abril
+            ls$jesuita-tarefa/Baptismo das princesas Ming e de Constantin, filho de Yong-Li/16480300#ou abril
             ls$jesuita-votos/4V/16490824
             ls$jesuita-votos-local/Cantão/16490824
             ls$morte/Kwangsi#Ce serait près de T'ien-tchou, actuel Kweichow, en bordure du Hunan/16521212#ou 16521222 ou 16511222 ou 16520104
-            ls$dehergne/435/obs=Koffler, Andréas Wolfgang, puis Andréas Xavier (autrich.) P. 435 Coffler (JS 105 II, 311)., appelé en Chine André Xavier (JS 134, 338). K'iu (et non Kiu de Pf.) Ngan-tô Cha-Wei T'i-T'ai (Cha-wei = Xavier). N. 1612 -E. 16 oct. 1627, Vienne {Austr. 26, 177): Wolfgangus Andréas Kofler. Emb. en 1639, mais revient « contrariis ventis »., Emb. pour de bon, 26 mars 1640 (W 887)., arr. Goa, janv. 1642., à Batavia de la fin de 1642 à 1644., va en 1645 de Macao à Canton (RBS 249)., devient aumônier des Portugais partis au secours des Ming., 1646 « sine socio », seul, au Kwangsi, à Kweilin {JS 134, 337., cf Arch. d. Jap. les. leg. 21 bis, p. 794, Madrid)., mars ou avril 1648, baptême à Nanning de princesses Ming et de Constantin, fils de Young-Li (RBS 313 et TP 1934, p. 108).
+            ls$dehergne/435/obs=Koffler, Andréas Wolfgang, puis Andréas Xavier (autrich.) P. 435 Coffler (JS 105 II, 311)., appelé en Chine André Xavier (JS 134, 338). K'iu (et non Kiu de Pf.) Ngan-tô Cha-Wei T'i-T'ai (Cha-wei = Xavier). N. 1612 -E. 16 oct. 1627, Vienne (Austr. 26, 177): Wolfgangus Andréas Kofler. Emb. en 1639, mais revient « contrariis ventis »., Emb. pour de bon, 26 mars 1640 (W 887)., arr. Goa, janv. 1642., à Batavia de la fin de 1642 à 1644., va en 1645 de Macao à Canton (RBS 249)., devient aumônier des Portugais partis au secours des Ming., 1646 « sine socio », seul, au Kwangsi, à Kweilin {JS 134, 337., cf Arch. d. Jap. les. leg. 21 bis, p. 794, Madrid)., mars ou avril 1648, baptême à Nanning de princesses Ming et de Constantin, fils de Young-Li (RBS 313 et TP 1934, p. 108).
             ls$dehergne/435/obs=V. « Cantani (sic) Sinarum », 24 août 1649, à Canton, pr. (Lus. 6, 271). Il signe Andréas Xavier. M. 12 déc. 1652 au Kwangsi (dans TP XXXI, 133, Pelliot écrit « la date demeure assez en l'air, actuellement ») on voit aussi 22 déc. 1651 ou 1652., HS 48, 2v dit 4 janv. 1652 « P. Andréas Xavier in regno Sinarum ». Ce serait près de T'ien-tchou, actuel Kweichow, en bordure du Hunan. Pf. 265., Platzweg, p. 42-53. — N. 1603 à Krems, près de Vienne, d'une famille luthérienne (TP t. XXXI, p. 99 n. 2). JS 134, 333 etc dit: « P. Andréas Xavier Austriacus Vienensis » et le fait naître en 1607. RBS 249 et 313.
 
             referido$Constantin/id=deh-andreas-wolfgang-koffler-ref1
-               rel$parentesco/Filho/Young-Li/deh-andreas-wolfgang-koffler-ref2
+               rel$parentesco/Filho/Yong-Li/deh-andreas-wolfgang-koffler-ref2
                ls$estadia/Nanning/16480300#ou abril
                ls$baptizado/Nanning/16480300#ou abril
 
-            referido$Young-li/id=deh-andreas-wolfgang-koffler-ref2
+            referido$Yong-li/id=deh-andreas-wolfgang-koffler-ref2
+               ls$titulo/Imperador da China/16480300#ou abril
 
          n$Johann Koffler/id=deh-johann-koffler
             ls$nacionalidade/Boémia
             ls$jesuita-estatuto/Padre
             ls$nome/Johann Coffe
             ls$nascimento/Praga/17110619
-            ls$jesuita-entrada/Brno/17261009
+            ls$jesuita-entrada/Brno, República Checa/17261009
             ls$embarque/?/1739000
             ls$chegada/Goa/17391124
             ls$estadia/Macau/17400726
@@ -314,8 +323,8 @@ kleio$gacto2.str/translations=22
             ls$cargo/Médico do rei/17470614
             ls$estadia/Macau/17550000
             ls$estadia/Macau/17620705#preso
-            ls$estadia/Lisboa (forte de S. Julião)/17641019
-            ls$estadia/Lisboa (forte de S. Julião)/17670710#por intervenção de Maria Teresa de Áustria
+            ls$estadia/Lisboa (Forte de S. Julião)/17641019
+            ls$estadia/Lisboa (Forte de S. Julião)/17670710#por intervenção de Maria Teresa de Áustria
             ls$estadia/Sibiu, Transilvânia/17690000
             ls$jesuita-votos/4V/17440815
             ls$jesuita-votos-local/Cochinchina/17440815
@@ -323,7 +332,7 @@ kleio$gacto2.str/translations=22
             ls$dehergne/436/obs=Koffler, Johann (bohém.) P. 436 Coffe. N. Prague, 19 juin 1711 -E. 9 oct. 1726 « Brunae » (Boh. 51, 171), Brno. Emb. 1739 (Lus. 48, 242)., arr. Goa, 24 nov. 1739., Macao, 26 juill. 1740., Cochinchine, 1742, où il devient médecin du roi, 14 juin 1747., 1755, Macao où emprisonné 5 juill. 1762 puis à la Tour St. Julien, Lisbonne, 19 oct. 1764., libéré, 10 juill. 1767 par l'intervention de Marie-Thérèse d'Autriche., 21 oct. 1768, va à Sibiu., 1769-1773, résidence « Cibiniensis », Sibiu, Transylvanie. V. 15 août 1744, en Cochinchine, pr. (Lus. 16, 159). M. Sibiu, 8 janv. 1785. Maybon dit: déc. 1780. Ne semble pas avoir travaillé en Chine? Pf. 699., notes Teschitel., Maybon, Charles B., Jean Koffler auteur de « Historica Cochinchinae description, Rev. Indochinoise, 1912 I, 539-553., WB 714, 717., Stfeit VI n° 465 et XV n» 35.
 
             referido$Maria Teresa de Áustria/id=deh-johann-koffler-ref1
-               ls$titulo/Imperatriz da Áustria
+               ls$titulo/Imperatriz da Áustria/17670710
                ls$tarefa/Intervém na libertação de Johann Koffler/17670710#antes de
 
          n$Norbert Korsak/id=deh-norbert-korsak

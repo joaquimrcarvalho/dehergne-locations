@@ -72,7 +72,7 @@ As secções seguintes detalham a transcrição dos principais atributos das ent
 
 Cada entrada é introduzida pelo grupo `n$` seguido do nome por ordem natural (primeiro nome, partículas, apelidos) e um `id` que irá identificar univocamente esta referência na base de dados. 
 
-O `id` usa o prefixo "deh-" seguido do nome em minusculas com hifens no lugar dos espaços (os identificadores de pessoas não podem ter espaços). O `id` tem de ser único para cada pessoa, de modo que em caso de homonomias tem se produzir ids diferentes, adicionando dígitos (por exemplo, se fosse necessário: `deh-antonio-de-abreu-2`.
+O `id` usa o prefixo "deh-" seguido do nome em minúsculas com hífenes no lugar dos espaços (os identificadores de pessoas não podem ter espaços). O `id` tem de ser único para cada pessoa, de modo que em caso de homonomia tem se produzir ids diferentes, adicionando dígitos (por exemplo, se fosse necessário: `deh-antonio-de-abreu-2`.
 
     n$António de Abreu/id=deh-antonio-de-abreu
 
@@ -137,7 +137,7 @@ Se acontecer que o autor fornece mais que uma data (o que acontece quando há de
 
 ### E. P. V. Atributos referentes ao percurso na Companhia de Jesus  ###
 
-Distinguimos os atributos específicos do precurso na Companhia de Jesus, dos atributos comuns a outras pessoas fora da ordem, prefixando os primeiros com "jesuita-". Isso aplica-se à entrada para o noviciado, aos diferentes votos feitos ao longo da progressão na ordem, e aos cargos específicos exercidos dentro da ordem.
+Distinguimos os atributos específicos do percurso na Companhia de Jesus, dos atributos comuns a outras pessoas fora da ordem, prefixando os primeiros com "jesuita-". Isso aplica-se à entrada para o noviciado, aos diferentes votos feitos ao longo da progressão na ordem, e aos cargos específicos exercidos dentro da ordem.
 
 #### E. ####
  Data, local (cidade) e por vezes província jesuíta onde o missionário fez o noviciado.
