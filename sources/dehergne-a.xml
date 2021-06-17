@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira-china/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-17 2:32:38" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-15 11:5:58" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -5177,7 +5177,8 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Capitaina]]></core>         <comment><![CDATA[Wicky diz que foi no S. Francisco]]></comment>
+         <core><![CDATA[S. Francisco]]></core>         <original><![CDATA[Capitaina]]></original>
+         <comment><![CDATA[corrigido segundo Wicky]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16553023]]></core>   </ELEMENT>
@@ -27863,10 +27864,10 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nascimento]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Lucca]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16351230]]></core>         <comment><![CDATA[Pf. diz Bolonha]]></comment>
+         <core><![CDATA[Lucca]]></core>         <comment><![CDATA[Pf. diz Bolonha]]></comment>
    </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16351230]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-lodovico-azzi-att1094-144]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -27908,7 +27909,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[?]]></core>         <comment><![CDATA[Nossa Senhora da Ajuda?]]></comment>
+         <core><![CDATA[?]]></core>         <comment><![CDATA[Nossa Senhora da Ajuda? vide entrada De Marini]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16660415]]></core>   </ELEMENT>
