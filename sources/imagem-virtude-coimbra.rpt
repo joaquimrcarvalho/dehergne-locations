@@ -1,5 +1,5 @@
-KleioTranslator - server version 2021.A3 - build 1643 (quotes-in-kleio-134) 10/05/2021 18:02 
-11-5-2021 3-3
+KleioTranslator - server version 2021.A4 - build 1905 (master) 17/06/2021 10:51 
+17-6-2021 3-51
 
 Processing data file imagem-virtude-coimbra.cli
 -------------------------------------------
@@ -12,9 +12,15 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 142
+Translation count: 143
 Obs: 
 ** Processing source fonte$imagem-virtude-coimbra
+** Base name of file imagem-virtude-coimbra.cli
+
+WARNING: imagem-virtude-coimbra.cli line 3 * Warning: Filename should match source Id to avoid errors. File: imagem-virtude-coimbra.cli Id: imagem-virtude-coimbra.
+Near lines: 3 
+Near line: 4       lista$imagem-virtude-cap.1/0/0/1719/obs=cit. Da-se sumária notícia do Real Colégio de Jesus de Coimbra. fim cit. Descreve o espaço da alta onde o colégio e a organização interna do edifício.
+
 6: lista$imagem-virtude-cap.1
 54: viagem$ivc-francisco-xavier-his6-35
 59: viagem$ivc-francisco-xavier-his4-38
@@ -85,5 +91,5 @@ Line 613 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (bio-matteo-ricci) CHECK IF IT
 ** - /kleio-home/sources/toliveira-china/sources/imagem-virtude-coimbra.ids-renamed to- /kleio-home/sources/toliveira-china/sources/imagem-virtude-coimbra.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.

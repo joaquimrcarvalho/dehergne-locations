@@ -1,5 +1,5 @@
-KleioTranslator - server version 2019.A2 - build 312 (master) 03/10/2020 17:40 
-15-11-2020 13-44
+KleioTranslator - server version 2021.A4 - build 1905 (master) 17/06/2021 10:51 
+17-6-2021 3-50
 
 Processing data file biographical-notes.cli
 -------------------------------------------
@@ -12,9 +12,15 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 29
+Translation count: 30
 Obs: 
 ** Processing source fonte$biographical-notes
+** Base name of file biographical-notes.cli
+
+WARNING: biographical-notes.cli line 3 * Warning: Filename should match source Id to avoid errors. File: biographical-notes.cli Id: biographical-notes.
+Near lines: 3 
+Near line: 4       lista$bio-notes-list-1/2/10/2020
+
 6: lista$bio-notes-list-1
 16: viagem$bio-alvaro-silveira-his3-4
 48: viagem$bio-michele-ruggieri-his4-19
@@ -23,13 +29,13 @@ Obs:
 
 Line 15 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (ivc-goncalo-da-silveira) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-** Processed file- /kleio-home/sources/toliveira-rev/sources/biographical-notes.cli
-** Original file- /kleio-home/sources/toliveira-rev/sources/biographical-notes.org
-** Previous version- /kleio-home/sources/toliveira-rev/sources/biographical-notes.old
-** Temp file with ids- /kleio-home/sources/toliveira-rev/sources/biographical-notes.ids
-** - /kleio-home/sources/toliveira-rev/sources/biographical-notes.cli-renamed to- /kleio-home/sources/toliveira-rev/sources/biographical-notes.old
-** - /kleio-home/sources/toliveira-rev/sources/biographical-notes.ids-renamed to- /kleio-home/sources/toliveira-rev/sources/biographical-notes.cli
+** Processed file- /kleio-home/sources/toliveira-china/sources/biographical-notes.cli
+** Original file- /kleio-home/sources/toliveira-china/sources/biographical-notes.org
+** Previous version- /kleio-home/sources/toliveira-china/sources/biographical-notes.old
+** Temp file with ids- /kleio-home/sources/toliveira-china/sources/biographical-notes.ids
+** - /kleio-home/sources/toliveira-china/sources/biographical-notes.cli-renamed to- /kleio-home/sources/toliveira-china/sources/biographical-notes.old
+** - /kleio-home/sources/toliveira-china/sources/biographical-notes.ids-renamed to- /kleio-home/sources/toliveira-china/sources/biographical-notes.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.

@@ -1,5 +1,5 @@
-KleioTranslator - server version 2019.A2 - build 311 (Import-identifications) 29/09/2020 07:34 
-15-6-2021 11-8
+KleioTranslator - server version 2021.A4 - build 1905 (master) 17/06/2021 10:51 
+17-6-2021 3-51
 
 Processing data file dehergne-k.cli
 -------------------------------------------
@@ -12,21 +12,27 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 51
+Translation count: 52
 Obs: 
 ** Processing source fonte$dehergne-K
+** Base name of file dehergne-k.cli
+
+WARNING: dehergne-k.cli line 3 * Warning: Filename should match source Id to avoid errors. File: dehergne-k.cli Id: dehergne-K.
+Near lines: 3 
+Near line: 4       lista$dehergne-notices-k/0/0/0
+
 6: lista$dehergne-notices-k
 *** End of File
 
 Line 185 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-pierre-tchen) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-** Processed file- /kleio-home/sources/toliveira/sources/dehergne-k.cli
-** Original file- /kleio-home/sources/toliveira/sources/dehergne-k.org
-** Previous version- /kleio-home/sources/toliveira/sources/dehergne-k.old
-** Temp file with ids- /kleio-home/sources/toliveira/sources/dehergne-k.ids
-** - /kleio-home/sources/toliveira/sources/dehergne-k.cli-renamed to- /kleio-home/sources/toliveira/sources/dehergne-k.old
-** - /kleio-home/sources/toliveira/sources/dehergne-k.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-k.cli
+** Processed file- /kleio-home/sources/toliveira-china/sources/dehergne-k.cli
+** Original file- /kleio-home/sources/toliveira-china/sources/dehergne-k.org
+** Previous version- /kleio-home/sources/toliveira-china/sources/dehergne-k.old
+** Temp file with ids- /kleio-home/sources/toliveira-china/sources/dehergne-k.ids
+** - /kleio-home/sources/toliveira-china/sources/dehergne-k.cli-renamed to- /kleio-home/sources/toliveira-china/sources/dehergne-k.old
+** - /kleio-home/sources/toliveira-china/sources/dehergne-k.ids-renamed to- /kleio-home/sources/toliveira-china/sources/dehergne-k.cli
 ** Translation files closed.
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
