@@ -1,5 +1,9 @@
 <?xml version='1.0'?>
+<<<<<<< HEAD
 <KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira-china/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-17 3:51:10" OBS="" SPACE="">
+=======
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-29 14:28:18" OBS="" SPACE="">
+>>>>>>> master
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -210,7 +214,7 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[embarque]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[S. Carlos]]></core>         <comment><![CDATA[vide Wicky]]></comment>
+         <core><![CDATA[S. Carlos]]></core>         <comment><![CDATA[segundo Wicky]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16180416]]></core>   </ELEMENT>
@@ -257,13 +261,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-alvaro-cabral-att7-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-alvaro-cabral]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-alvaro-cabral-att8-186" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="16">
@@ -16901,13 +16906,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[119]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16960300]]></core>   </ELEMENT>
+         <core><![CDATA[16960000]]></core>         <comment><![CDATA[16960300 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-kaspar-castner-att669-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-kaspar-castner]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16960300]]></core>   </ELEMENT>
+         <core><![CDATA[16960000]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-kaspar-castner-att670-186" NAME="ls" CLASS="attribute" ORDER="825" LEVEL="4" LINE="827">
@@ -18852,13 +18858,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-paolo-cavallina-att750-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-paolo-cavallina]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-paolo-cavallina-att751-186" NAME="ls" CLASS="attribute" ORDER="918" LEVEL="4" LINE="920">
@@ -20272,13 +20279,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-jean-de-celle-att808-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-de-celle]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-jean-de-celle-att809-186" NAME="ls" CLASS="attribute" ORDER="987" LEVEL="4" LINE="989">
@@ -47054,13 +47062,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180415]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180415 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-quentin-cousin-att1863-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-quentin-cousin]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180415]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-quentin-cousin-att1864-186" NAME="ls" CLASS="attribute" ORDER="2299" LEVEL="4" LINE="2299">
@@ -50452,13 +50461,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-simao-da-cunha-att1993-186]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-simao-da-cunha]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-simao-da-cunha-att1994-186" NAME="ls" CLASS="attribute" ORDER="2468" LEVEL="4" LINE="2468">

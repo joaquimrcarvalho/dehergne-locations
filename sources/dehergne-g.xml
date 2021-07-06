@@ -1,5 +1,9 @@
 <?xml version='1.0'?>
+<<<<<<< HEAD
 <KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira-china/sources/dehergne-g.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-17 3:51:37" OBS="" SPACE="">
+=======
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-g.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-29 14:28:35" OBS="" SPACE="">
+>>>>>>> master
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -5765,14 +5769,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>         <comment><![CDATA[meados do mês]]></comment>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-giovanni-domenico-gayati-att220-110]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-giovanni-domenico-gayati]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-giovanni-domenico-gayati-att221-110" NAME="ls" CLASS="attribute" ORDER="279" LEVEL="4" LINE="282">

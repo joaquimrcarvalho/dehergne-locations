@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira-china/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-17 3:50:57" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-a.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-6-29 14:27:38" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -1183,13 +1183,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-gil-de-abreu-att43-145]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-gil-de-abreu]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-gil-de-abreu-att44-145" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="4" LINE="61">
@@ -4031,13 +4032,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[57]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>         <comment><![CDATA[meados do mês, 16180416 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-johann-alberich-att158-145]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-alberich]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16180416]]></core>   </ELEMENT>
+         <core><![CDATA[16180400]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-johann-alberich-att159-145" NAME="ls" CLASS="attribute" ORDER="198" LEVEL="4" LINE="201">
@@ -21239,13 +21241,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[107]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>         <comment><![CDATA[16840401 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-juan-antonio-arnedo-att834-145]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-antonio-arnedo]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-juan-antonio-arnedo-att835-145" NAME="ls" CLASS="attribute" ORDER="1037" LEVEL="4" LINE="1036">
@@ -22110,13 +22113,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[107]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>         <comment><![CDATA[16840401 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-jose-ramon-arxo-att872-145]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jose-ramon-arxo]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-jose-ramon-arxo-rel23-145" NAME="rel" CLASS="relation" ORDER="1079" LEVEL="4" LINE="1078">
@@ -22626,7 +22630,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[[Para a China]]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16840401]]></core>         <comment><![CDATA[=data de acordo com a entrada de Arnedo]]></comment>
+         <core><![CDATA[16840401]]></core>         <comment><![CDATA[data de acordo com a entrada de Arnedo]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-jose-ramon-arxo-ref1-att893-145]]></core>   </ELEMENT>
@@ -22649,13 +22653,14 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[107]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>         <comment><![CDATA[16840401 segundo Dehergne]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-jose-ramon-arxo-ref1-att894-145]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jose-ramon-arxo-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[16840401]]></core>   </ELEMENT>
+         <core><![CDATA[161840000]]></core>   </ELEMENT>
 </GROUP>
 
 <GROUP ID="deh-jose-ramon-arxo-ref2" NAME="referido" CLASS="person" ORDER="1105" LEVEL="4" LINE="1104">
