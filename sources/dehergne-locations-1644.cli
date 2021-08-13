@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=13
+kleio$gacto2.str/translations=19
    fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""p. 353
       Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).
       
@@ -48,69 +48,91 @@ kleio$gacto2.str/translations=13
       lement, et que les chrétientés se sont développées le long des grandes routes 
       (le fait est frappant pour la région du Kiangnan). Pour les chrétientés an-
       ciennes des Ming voir aussi MS XVI, 1957 (avec carte en couleurs).
+   
+      NOTA TRANSCRIÇÃO
+
+      "geo1$ = Provincia"
+      "geo2$ = fou (perfeitura ou cidade de 1ª ordem)"
+      "geo3$ = tcheou-hien"
+
+      Em cada entrada o formato é 
       
+         "geoN$Nome geográfico/Tipo (província, fou, tcheou-hine)/id=deh-r1644-nome"
+
+      Exº 
+         "geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang"
+         "geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangzhou"
+         "geo3$Fuyang/tchou-hien/id=deh-r1644-fuyang"
+
+      Nos locais onde há presença de missionários:
+
+         "atr$residencia/Jesuíta/16110000 (onde aparece R)"
+         "atr$residencia/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
+                                                 ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
+         "atr$activa/sim/16110000"         (onde só aparece uma data)
+
+
       """
 
       geodesc$deh-chre-1644/0/0/1644
 
-         geo1$CHEKIANG#Zhejiang/province/deh-chre-1644-geo7-9
+         geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang
 
-            geo2$HANGCHOU#Hangzhou/deh-chre-1644-geo7-9-geo8-9/id=deh-chre-1644-geo7-9-geo1-13
-               atr$geo-status/Capital de Província
+            geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangzhou
                atr$activa/sim/16110000
-               atr$residencia/sim/16110000
+               atr$residencia/jesuita/16110000
 
-               geo3$Fuyang/deh-chre-1644-geo7-9-geo8-9-geo9-9/id=deh-chre-1644-geo7-9-geo1-13-geo2-13
+               geo3$Fuyang/tchou-hien/deh-r1644-fuyang
                   atr$activa/sim/16420000
 
-               geo3$Jenho/deh-chre-1644-geo7-9-geo8-9-geo10-9/id=deh-chre-1644-geo7-9-geo1-13-geo3-13
+               geo3$Jenho/tchou-hien/deh-r1644-jenho
                   atr$activa/sim/16080000
 
-            geo2$Chüchow/deh-chre-1644-geo7-9-geo11-9/id=deh-chre-1644-geo7-9-geo4-13
+            geo2$Chüchow/fou/deh-r1644-chuchow
                atr$activa/sim/16130000
 
-            geo2$Huchow/deh-chre-1644-geo7-9-geo12-9/id=deh-chre-1644-geo7-9-geo5-13
+            geo2$Huchow/fou/deh-r1644-huchow/obs=LIMPAR a partir daqui, colocando tipo de local e id conforme explicado acima
 
-               geo3$Tehtsing%Tehtsing du Huchow/deh-chre-1644-geo7-9-geo12-9-geo13-9/id=deh-chre-1644-geo7-9-geo5-13-geo6-13
+               geo3$Tehtsing%Tehtsing du Huchow/deh-r1644-chekiang-geo4-14-geo5-14/deh-r1644-chekiang-geo14-16-geo15-16
                   atr$activa/sim/1620
 
-            geo2$Kashing/deh-chre-1644-geo7-9-geo14-9/id=deh-chre-1644-geo7-9-geo7-13
+            geo2$Kashing/deh-r1644-chekiang-geo6-14/deh-r1644-chekiang-geo16-16
 
-               geo3$Kaosham/deh-chre-1644-geo7-9-geo14-9-geo15-9/id=deh-chre-1644-geo7-9-geo7-13-geo8-13
+               geo3$Kaosham/deh-r1644-chekiang-geo6-14-geo7-14/deh-r1644-chekiang-geo16-16-geo17-16
                   atr$activa/sim/1640
 
-               geo3$Tangsi/deh-chre-1644-geo7-9-geo14-9-geo16-9/id=deh-chre-1644-geo7-9-geo7-13-geo9-13
+               geo3$Tangsi/deh-chre-1644-geo7-9-geo14-9-geo16-9/deh-r1644-chekiang-geo6-14-geo8-14
                   atr$activa/sim/1642
 
-               geo3$Tsungteh%Tsungteh (Shihmen)/deh-chre-1644-geo7-9-geo14-9-geo17-9/id=deh-chre-1644-geo7-9-geo7-13-geo10-13
+               geo3$Tsungteh%Tsungteh (Shihmen)/deh-r1644-chekiang-geo6-14-geo9-14/deh-r1644-chekiang-geo16-16-geo18-16
                   atr$activa/1629
 
-               geo3$Tugsiang%?/deh-chre-1644-geo7-9-geo14-9-geo18-9/id=deh-chre-1644-geo7-9-geo7-13-geo11-13
+               geo3$Tugsiang%?/deh-chre-1644-geo7-9-geo14-9-geo18-9/deh-r1644-chekiang-geo6-14-geo10-14
                   atr$activa/sim/1615%?
 
-            geo2$Kinhwa/deh-chre-1644-geo7-9-geo10-10/id=deh-chre-1644-geo7-9-geo12-13
+            geo2$Kinhwa/deh-chre-1644-geo7-9-geo10-10/deh-chre-1644-geo7-9-geo12-13
                atr$activa/<1644%avant 1644
                atr$residencia/sim/<1644%pas citée em 1645
 
-               geo3$Lanchi%(qui deviendra em 1656 R des OP)/deh-chre-1644-geo7-9-geo10-10-geo11-11/id=deh-chre-1644-geo7-9-geo12-13-geo13-13
+               geo3$Lanchi%(qui deviendra em 1656 R des OP)/deh-chre-1644-geo7-9-geo10-10-geo11-11/deh-chre-1644-geo7-9-geo12-13-geo13-13
                   atr$activa/sim/1642
 
-               geo3$Tungyang/deh-chre-1644-geo7-9-geo10-10-geo12-11/id=deh-chre-1644-geo7-9-geo12-13-geo14-13
+               geo3$Tungyang/deh-chre-1644-geo7-9-geo10-10-geo12-11/deh-chre-1644-geo7-9-geo12-13-geo14-13
                   atr$activa/sim/1628
 
             geo2$Ningpo%(v. 1540?)/fou/deh-chre-1644-geo7-9-geo13-11
                atr$activa/sim/1638
 
-               geo3$Wuking%bourg de Wuking/deh-chre-1644-geo7-9-geo13-11-geo14-11/id=deh-chre-1644-geo7-9-geo13-11-geo15-13
+               geo3$Wuking%bourg de Wuking/deh-chre-1644-geo7-9-geo13-11-geo14-11/deh-chre-1644-geo7-9-geo13-11-geo15-13
                   atr$activa/sim/1628
 
-               geo3$Tinghai/deh-chre-1644-geo7-9-geo13-11-geo15-11/id=deh-chre-1644-geo7-9-geo13-11-geo16-13
+               geo3$Tinghai/deh-chre-1644-geo7-9-geo13-11-geo15-11/deh-chre-1644-geo7-9-geo13-11-geo16-13
                   atr$activa/sim/1642
 
-               geo3$Tzeki/deh-chre-1644-geo7-9-geo13-11-geo16-11/id=deh-chre-1644-geo7-9-geo13-11-geo17-13
+               geo3$Tzeki/deh-chre-1644-geo7-9-geo13-11-geo16-11/deh-chre-1644-geo7-9-geo13-11-geo17-13
                   atr$activa/sim/1637
 
-            geo2$Shaoshing/deh-chre-1644-geo7-9-geo17-11/id=deh-chre-1644-geo7-9-geo18-13
+            geo2$Shaoshing/deh-chre-1644-geo7-9-geo17-11/deh-chre-1644-geo7-9-geo18-13
                atr$activa/sim/1586
 
-            geo2$Wenchow/deh-chre-1644-geo7-9-geo18-11/id=deh-chre-1644-geo7-9-geo19-13
+            geo2$Wenchow/deh-chre-1644-geo7-9-geo18-11/deh-chre-1644-geo7-9-geo19-13
