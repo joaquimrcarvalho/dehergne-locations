@@ -1,5 +1,5 @@
 KleioTranslator - server version 2021.A4 - build 1956 (master) 07/08/2021 16:00 
-13-8-2021 8-26
+13-8-2021 9-17
 
 Processing data file dehergne-locations-1644.cli
 -------------------------------------------
@@ -12,19 +12,81 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 11
+Translation count: 12
 Obs: 
 ** Processing source fonte$dehergne-locations-1644
 ** Base name of file dehergne-locations-1644 in dehergne-locations-1644.cli
-
-ERROR: dehergne-locations-1644.cli line 53 ** geodesc unknown element: data.
-Near lines: 53 
-Near line: 54       geodesc$deh-chre-1644/data=16440000
-
 56: geodesc$deh-chre-1644
+
+WARNING: dehergne-locations-1644.cli line 63 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo8-9-geo9-9. Size:34 limit: 32
+Near lines: 63                geo3$Fuyang/deh-chre-1644-geo7-9-geo8-9-geo9-9
+Near line: 64                   atr$activa/sim/16420000
+
+
+WARNING: dehergne-locations-1644.cli line 66 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo8-9-geo10-9. Size:35 limit: 32
+Near lines: 66                geo3$Jenho/deh-chre-1644-geo7-9-geo8-9-geo10-9
+Near line: 67                   atr$activa/sim/16080000
+
+
+WARNING: dehergne-locations-1644.cli line 74 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo12-9-geo13-9. Size:36 limit: 32
+Near lines: 74                geo3$Tehtsing%Tehtsing du Huchow/deh-chre-1644-geo7-9-geo12-9-geo13-9
+Near line: 75                   atr$activa/sim/1620
+
+
+WARNING: dehergne-locations-1644.cli line 79 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo14-9-geo15-9. Size:36 limit: 32
+Near lines: 79                geo3$Kaosham/deh-chre-1644-geo7-9-geo14-9-geo15-9
+Near line: 80                   atr$activa/sim/1640
+
+
+WARNING: dehergne-locations-1644.cli line 82 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo14-9-geo16-9. Size:36 limit: 32
+Near lines: 82                geo3$Tangsi/deh-chre-1644-geo7-9-geo14-9-geo16-9
+Near line: 83                   atr$activa/sim/1642
+
+
+WARNING: dehergne-locations-1644.cli line 85 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo14-9-geo17-9. Size:36 limit: 32
+Near lines: 85                geo3$Tsungteh%Tsungteh (Shihmen)/deh-chre-1644-geo7-9-geo14-9-geo17-9
+Near line: 86                   atr$activa/1629
+
+
+WARNING: dehergne-locations-1644.cli line 88 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo14-9-geo18-9. Size:36 limit: 32
+Near lines: 88                geo3$Tugsiang%?/deh-chre-1644-geo7-9-geo14-9-geo18-9
+Near line: 89                   atr$activa/sim/1615%?
+
+
+WARNING: dehergne-locations-1644.cli line 95 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo10-10-geo11-11. Size:38 limit: 32
+Near lines: 95                geo3$Lanchi%(qui deviendra em 1656 R des OP)/deh-chre-1644-geo7-9-geo10-10-geo11-11
+Near line: 96                   atr$activa/sim/1642
+
+
+WARNING: dehergne-locations-1644.cli line 98 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo10-10-geo12-11. Size:38 limit: 32
+Near lines: 98                geo3$Tungyang/deh-chre-1644-geo7-9-geo10-10-geo12-11
+Near line: 99                   atr$activa/sim/1628
+
+
+WARNING: dehergne-locations-1644.cli line 104 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo13-11-geo14-11. Size:38 limit: 32
+Near lines: 104                geo3$Wuking%bourg de Wuking/deh-chre-1644-geo7-9-geo13-11-geo14-11
+Near line: 105                   atr$activa/sim/1628
+
+
+WARNING: dehergne-locations-1644.cli line 107 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo13-11-geo15-11. Size:38 limit: 32
+Near lines: 107                geo3$Tinghai/deh-chre-1644-geo7-9-geo13-11-geo15-11
+Near line: 108                   atr$activa/sim/1642
+
+
+WARNING: dehergne-locations-1644.cli line 110 Element value exceeds database field length: type=deh-chre-1644-geo7-9-geo13-11-geo16-11. Size:38 limit: 32
+Near lines: 110                geo3$Tzeki/deh-chre-1644-geo7-9-geo13-11-geo16-11
+Near line: 111                   atr$activa/sim/1637
+
 *** End of File
 
 
-1  errors. 
-0  warnings.
+** Processed file- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.cli
+** Original file- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.org
+** Previous version- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.old
+** Temp file with ids- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.ids
+** - /kleio-home/sources/toliveira/sources/dehergne-locations-1644.cli-renamed to- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.old
+** - /kleio-home/sources/toliveira/sources/dehergne-locations-1644.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-locations-1644.cli
+** Translation files closed.
+0  errors. 
+12  warnings.
 Translation finished.
