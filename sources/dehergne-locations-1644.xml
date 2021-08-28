@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-locations-1644.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-8-13 12:23:36" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-locations-1644.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-8-28 1:48:1" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -94,8 +94,8 @@
 
       Nos locais onde há presença de missionários:
 
-         "atr$residencia/Jesuíta/16110000 (onde aparece R)"
-         "atr$residencia/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
+         "atr$residencia-missao/Jesuíta/16110000 (onde aparece R)"
+         "atr$residencia-missao/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
                                                  ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
          "atr$activa/sim/16110000"         (onde só aparece uma data)
 
@@ -222,9 +222,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="16654" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-r1644-hangzhou-att1-19" NAME="atr" CLASS="attribute" ORDER="7" LEVEL="5" LINE="83">
+<GROUP ID="deh-r1644-hangzhou-att1-20" NAME="atr" CLASS="attribute" ORDER="7" LEVEL="5" LINE="83">
     <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-att1-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-att1-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-hangzhou</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -237,29 +237,29 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16110000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-hangzhou-att1-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-hangzhou-att1-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-hangzhou]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16110000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-r1644-hangzhou-att2-19" NAME="atr" CLASS="attribute" ORDER="8" LEVEL="5" LINE="85">
+<GROUP ID="deh-r1644-hangzhou-att2-20" NAME="atr" CLASS="attribute" ORDER="8" LEVEL="5" LINE="85">
     <ELEMENT NAME="line" CLASS="line"><core>85</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-att2-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-att2-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-hangzhou</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>8</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[residencia]]></core>   </ELEMENT>
+         <core><![CDATA[residencia-missao]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[jesuita]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16110000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-hangzhou-att2-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-hangzhou-att2-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-hangzhou]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -297,9 +297,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-fuyang-att3-19" NAME="atr" CLASS="attribute" ORDER="11" LEVEL="6" LINE="88">
+<GROUP ID="deh-r1644-fuyang-att3-20" NAME="atr" CLASS="attribute" ORDER="11" LEVEL="6" LINE="88">
     <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-fuyang-att3-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-fuyang-att3-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-fuyang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -312,7 +312,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16420000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-fuyang-att3-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-fuyang-att3-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-fuyang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -350,9 +350,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-hangzhou-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-jenho-att4-19" NAME="atr" CLASS="attribute" ORDER="14" LEVEL="6" LINE="91">
+<GROUP ID="deh-r1644-jenho-att4-20" NAME="atr" CLASS="attribute" ORDER="14" LEVEL="6" LINE="91">
     <ELEMENT NAME="line" CLASS="line"><core>91</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-jenho-att4-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-jenho-att4-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-jenho</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -365,7 +365,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16080000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-jenho-att4-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-jenho-att4-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-jenho]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -403,9 +403,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chuchow-att5-19" NAME="atr" CLASS="attribute" ORDER="17" LEVEL="5" LINE="94">
+<GROUP ID="deh-r1644-chuchow-att5-20" NAME="atr" CLASS="attribute" ORDER="17" LEVEL="5" LINE="94">
     <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chuchow-att5-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chuchow-att5-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chuchow</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -418,7 +418,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16130000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chuchow-att5-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chuchow-att5-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chuchow]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -490,9 +490,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-huchow-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chekiang-geo14-16-geo15-16-att6-19" NAME="atr" CLASS="attribute" ORDER="22" LEVEL="6" LINE="99">
+<GROUP ID="deh-r1644-chekiang-geo14-16-geo15-16-att6-20" NAME="atr" CLASS="attribute" ORDER="22" LEVEL="6" LINE="99">
     <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo14-16-geo15-16-att6-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo14-16-geo15-16-att6-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chekiang-geo14-16-geo15-16</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -505,7 +505,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1620]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chekiang-geo14-16-geo15-16-att6-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chekiang-geo14-16-geo15-16-att6-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chekiang-geo14-16-geo15-16]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -574,9 +574,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chekiang-geo16-16-geo17-16-att7-19" NAME="atr" CLASS="attribute" ORDER="27" LEVEL="6" LINE="104">
+<GROUP ID="deh-r1644-chekiang-geo16-16-geo17-16-att7-20" NAME="atr" CLASS="attribute" ORDER="27" LEVEL="6" LINE="104">
     <ELEMENT NAME="line" CLASS="line"><core>104</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-geo17-16-att7-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-geo17-16-att7-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chekiang-geo16-16-geo17-16</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -589,7 +589,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1640]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chekiang-geo16-16-geo17-16-att7-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chekiang-geo16-16-geo17-16-att7-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chekiang-geo16-16-geo17-16]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -627,9 +627,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-rela10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chekiang-geo6-14-geo8-14-att8-19" NAME="atr" CLASS="attribute" ORDER="30" LEVEL="6" LINE="107">
+<GROUP ID="deh-r1644-chekiang-geo6-14-geo8-14-att8-20" NAME="atr" CLASS="attribute" ORDER="30" LEVEL="6" LINE="107">
     <ELEMENT NAME="line" CLASS="line"><core>107</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo6-14-geo8-14-att8-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo6-14-geo8-14-att8-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chekiang-geo6-14-geo8-14</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -642,7 +642,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1642]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chekiang-geo6-14-geo8-14-att8-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chekiang-geo6-14-geo8-14-att8-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chekiang-geo6-14-geo8-14]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -681,9 +681,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-rela11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chekiang-geo16-16-geo18-16-att9-19" NAME="atr" CLASS="attribute" ORDER="33" LEVEL="6" LINE="110">
+<GROUP ID="deh-r1644-chekiang-geo16-16-geo18-16-att9-20" NAME="atr" CLASS="attribute" ORDER="33" LEVEL="6" LINE="110">
     <ELEMENT NAME="line" CLASS="line"><core>110</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-geo18-16-att9-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-geo18-16-att9-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chekiang-geo16-16-geo18-16</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -694,7 +694,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[1629]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chekiang-geo16-16-geo18-16-att9-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chekiang-geo16-16-geo18-16-att9-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chekiang-geo16-16-geo18-16]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -733,9 +733,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo16-16-rela12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-r1644-chekiang-geo6-14-geo10-14-att10-19" NAME="atr" CLASS="attribute" ORDER="36" LEVEL="6" LINE="113">
+<GROUP ID="deh-r1644-chekiang-geo6-14-geo10-14-att10-20" NAME="atr" CLASS="attribute" ORDER="36" LEVEL="6" LINE="113">
     <ELEMENT NAME="line" CLASS="line"><core>113</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo6-14-geo10-14-att10-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-geo6-14-geo10-14-att10-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-r1644-chekiang-geo6-14-geo10-14</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -749,7 +749,7 @@
          <core><![CDATA[1615]]></core>         <original><![CDATA[?]]></original>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-r1644-chekiang-geo6-14-geo10-14-att10-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-r1644-chekiang-geo6-14-geo10-14-att10-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-r1644-chekiang-geo6-14-geo10-14]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -787,9 +787,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-rela13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo12-13-att11-19" NAME="atr" CLASS="attribute" ORDER="39" LEVEL="5" LINE="115">
+<GROUP ID="deh-chre-1644-geo7-9-geo12-13-att11-20" NAME="atr" CLASS="attribute" ORDER="39" LEVEL="5" LINE="115">
     <ELEMENT NAME="line" CLASS="line"><core>115</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-att11-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-att11-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo12-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -801,30 +801,30 @@
          <core><![CDATA[<1644]]></core>         <original><![CDATA[avant 1644]]></original>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-att11-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-att11-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo12-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16440000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-chre-1644-geo7-9-geo12-13-att12-19" NAME="atr" CLASS="attribute" ORDER="40" LEVEL="5" LINE="117">
+<GROUP ID="deh-chre-1644-geo7-9-geo12-13-att12-20" NAME="atr" CLASS="attribute" ORDER="40" LEVEL="5" LINE="117">
     <ELEMENT NAME="line" CLASS="line"><core>117</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-att12-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-att12-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo12-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>40</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
-         <core><![CDATA[residencia]]></core>   </ELEMENT>
+         <core><![CDATA[residencia-missao]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[sim]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[<1644]]></core>         <original><![CDATA[pas citée em 1645]]></original>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-att12-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-att12-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo12-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -863,9 +863,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-rela14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-19" NAME="atr" CLASS="attribute" ORDER="43" LEVEL="6" LINE="120">
+<GROUP ID="deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-20" NAME="atr" CLASS="attribute" ORDER="43" LEVEL="6" LINE="120">
     <ELEMENT NAME="line" CLASS="line"><core>120</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo12-13-geo13-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -878,7 +878,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1642]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo13-13-att13-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo13-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -916,9 +916,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-rela15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-19" NAME="atr" CLASS="attribute" ORDER="46" LEVEL="6" LINE="123">
+<GROUP ID="deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-20" NAME="atr" CLASS="attribute" ORDER="46" LEVEL="6" LINE="123">
     <ELEMENT NAME="line" CLASS="line"><core>123</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo12-13-geo14-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -931,7 +931,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1628]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo14-13-att14-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo12-13-geo14-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -970,9 +970,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-rela16</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo13-11-att15-19" NAME="atr" CLASS="attribute" ORDER="49" LEVEL="5" LINE="126">
+<GROUP ID="deh-chre-1644-geo7-9-geo13-11-att15-20" NAME="atr" CLASS="attribute" ORDER="49" LEVEL="5" LINE="126">
     <ELEMENT NAME="line" CLASS="line"><core>126</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-att15-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-att15-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo13-11</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -985,7 +985,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1638]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-att15-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-att15-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo13-11]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1024,9 +1024,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-rela17</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-19" NAME="atr" CLASS="attribute" ORDER="52" LEVEL="6" LINE="129">
+<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-20" NAME="atr" CLASS="attribute" ORDER="52" LEVEL="6" LINE="129">
     <ELEMENT NAME="line" CLASS="line"><core>129</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo13-11-geo15-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1039,7 +1039,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1628]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo15-13-att16-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo15-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1077,9 +1077,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-rela18</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-19" NAME="atr" CLASS="attribute" ORDER="55" LEVEL="6" LINE="132">
+<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-20" NAME="atr" CLASS="attribute" ORDER="55" LEVEL="6" LINE="132">
     <ELEMENT NAME="line" CLASS="line"><core>132</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo13-11-geo16-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1092,7 +1092,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1642]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo16-13-att17-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo16-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1130,9 +1130,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-rela19</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-19" NAME="atr" CLASS="attribute" ORDER="58" LEVEL="6" LINE="135">
+<GROUP ID="deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-20" NAME="atr" CLASS="attribute" ORDER="58" LEVEL="6" LINE="135">
     <ELEMENT NAME="line" CLASS="line"><core>135</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo13-11-geo17-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1145,7 +1145,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1637]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo17-13-att18-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo13-11-geo17-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1183,9 +1183,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-r1644-chekiang-rela20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16440000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-chre-1644-geo7-9-geo18-13-att19-19" NAME="atr" CLASS="attribute" ORDER="61" LEVEL="5" LINE="138">
+<GROUP ID="deh-chre-1644-geo7-9-geo18-13-att19-20" NAME="atr" CLASS="attribute" ORDER="61" LEVEL="5" LINE="138">
     <ELEMENT NAME="line" CLASS="line"><core>138</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo18-13-att19-19</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-chre-1644-geo7-9-geo18-13-att19-20</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>atr</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-chre-1644-geo7-9-geo18-13</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1198,7 +1198,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[1586]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-chre-1644-geo7-9-geo18-13-att19-19]]></core>   </ELEMENT>
+         <core><![CDATA[deh-chre-1644-geo7-9-geo18-13-att19-20]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-chre-1644-geo7-9-geo18-13]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">

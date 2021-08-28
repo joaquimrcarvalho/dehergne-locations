@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=19
+kleio$gacto2.str/translations=20
    fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""p. 353
       Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).
       
@@ -66,8 +66,8 @@ kleio$gacto2.str/translations=19
 
       Nos locais onde há presença de missionários:
 
-         "atr$residencia/Jesuíta/16110000 (onde aparece R)"
-         "atr$residencia/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
+         "atr$residencia-missao/Jesuíta/16110000 (onde aparece R)"
+         "atr$residencia-missao/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
                                                  ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
          "atr$activa/sim/16110000"         (onde só aparece uma data)
 
@@ -80,7 +80,7 @@ kleio$gacto2.str/translations=19
 
             geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangzhou
                atr$activa/sim/16110000
-               atr$residencia/jesuita/16110000
+               atr$residencia-missao/jesuita/16110000
 
                geo3$Fuyang/tchou-hien/deh-r1644-fuyang
                   atr$activa/sim/16420000
@@ -112,7 +112,7 @@ kleio$gacto2.str/translations=19
 
             geo2$Kinhwa/deh-chre-1644-geo7-9-geo10-10/deh-chre-1644-geo7-9-geo12-13
                atr$activa/<1644%avant 1644
-               atr$residencia/sim/<1644%pas citée em 1645
+               atr$residencia-missao/sim/<1644%pas citée em 1645
 
                geo3$Lanchi%(qui deviendra em 1656 R des OP)/deh-chre-1644-geo7-9-geo10-10-geo11-11/deh-chre-1644-geo7-9-geo12-13-geo13-13
                   atr$activa/sim/1642
