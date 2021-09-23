@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=20
+kleio$gacto2.str/translations=22
    fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""p. 353
       Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).
       
@@ -62,7 +62,7 @@ kleio$gacto2.str/translations=20
       Exº 
          "geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang"
          "geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangzhou"
-         "geo3$Fuyang/tchou-hien/id=deh-r1644-fuyang"
+         "geo3$Fuyang/tchou-hien/deh-r1644-fuyang"
 
       Nos locais onde há presença de missionários:
 
@@ -78,7 +78,7 @@ kleio$gacto2.str/translations=20
 
          geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang
 
-            geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangzhou
+            geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangchou
                atr$activa/sim/16110000
                atr$residencia-missao/jesuita/16110000
 
@@ -91,48 +91,156 @@ kleio$gacto2.str/translations=20
             geo2$Chüchow/fou/deh-r1644-chuchow
                atr$activa/sim/16130000
 
-            geo2$Huchow/fou/deh-r1644-huchow/obs=LIMPAR a partir daqui, colocando tipo de local e id conforme explicado acima
+            geo2$Huchow/fou/deh-r1644-huchow
 
-               geo3$Tehtsing%Tehtsing du Huchow/deh-r1644-chekiang-geo4-14-geo5-14/deh-r1644-chekiang-geo14-16-geo15-16
+               geo3$Tehtsing%Tehtsing du Huchow/deh-r1644-tehtsing/deh-r1644-huchow-geo1-21
                   atr$activa/sim/1620
 
-            geo2$Kashing/deh-r1644-chekiang-geo6-14/deh-r1644-chekiang-geo16-16
+            geo2$Kashing/fou/deh-r1644-kashing
 
-               geo3$Kaosham/deh-r1644-chekiang-geo6-14-geo7-14/deh-r1644-chekiang-geo16-16-geo17-16
+               geo3$Kaosham/tchou-hien/deh-r1644-kaosham
                   atr$activa/sim/1640
 
-               geo3$Tangsi/deh-chre-1644-geo7-9-geo14-9-geo16-9/deh-r1644-chekiang-geo6-14-geo8-14
+               geo3$Tangsi/tchou-hien/deh-r1644-tangsi
                   atr$activa/sim/1642
 
-               geo3$Tsungteh%Tsungteh (Shihmen)/deh-r1644-chekiang-geo6-14-geo9-14/deh-r1644-chekiang-geo16-16-geo18-16
+               geo3$Tsungteh%Tsungteh (Shihmen)/tchou-hien/deh-r1644-tsungteh
                   atr$activa/1629
 
-               geo3$Tugsiang%?/deh-chre-1644-geo7-9-geo14-9-geo18-9/deh-r1644-chekiang-geo6-14-geo10-14
+               geo3$Tugsiang%?/tchou-hien/deh-r1644-tungsiang
                   atr$activa/sim/1615%?
 
-            geo2$Kinhwa/deh-chre-1644-geo7-9-geo10-10/deh-chre-1644-geo7-9-geo12-13
-               atr$activa/<1644%avant 1644
-               atr$residencia-missao/sim/<1644%pas citée em 1645
+            geo2$Kinhwa/fou/deh-r1644-kinhwa
+               atr$activa/sim/<1644%avant 1644
+               atr$residencia-missao/jesuita/<1644%pas citée em 1645
 
-               geo3$Lanchi%(qui deviendra em 1656 R des OP)/deh-chre-1644-geo7-9-geo10-10-geo11-11/deh-chre-1644-geo7-9-geo12-13-geo13-13
+               geo3$Lanchi%(qui deviendra em 1656 R des OP)/tchou-hien/deh-r1644-lanchi
                   atr$activa/sim/1642
+                  atr$residencia-missao/dominicana/>1656#a partir desta data
 
-               geo3$Tungyang/deh-chre-1644-geo7-9-geo10-10-geo12-11/deh-chre-1644-geo7-9-geo12-13-geo14-13
+               geo3$Tungyang/tchou-hien/deh-r1644-tungyang
                   atr$activa/sim/1628
 
-            geo2$Ningpo%(v. 1540?)/fou/deh-chre-1644-geo7-9-geo13-11
+            geo2$Ningpo%(v. 1540?)/fou/deh-r1644-ningpo
                atr$activa/sim/1638
 
-               geo3$Wuking%bourg de Wuking/deh-chre-1644-geo7-9-geo13-11-geo14-11/deh-chre-1644-geo7-9-geo13-11-geo15-13
+               geo3$Wuking%bourg de Wuking/tchou-hien/deh-r1644-wuking
                   atr$activa/sim/1628
 
-               geo3$Tinghai/deh-chre-1644-geo7-9-geo13-11-geo15-11/deh-chre-1644-geo7-9-geo13-11-geo16-13
+               geo3$Tinghai/tchou-hien/deh-r1644-tinghai
                   atr$activa/sim/1642
 
-               geo3$Tzeki/deh-chre-1644-geo7-9-geo13-11-geo16-11/deh-chre-1644-geo7-9-geo13-11-geo17-13
+               geo3$Tzeki/tchou-hien/deh-r1644-tzeki
                   atr$activa/sim/1637
 
-            geo2$Shaoshing/deh-chre-1644-geo7-9-geo17-11/deh-chre-1644-geo7-9-geo18-13
+            geo2$Shaoshing/fou/deh-r1644-shaoshing
                atr$activa/sim/1586
 
-            geo2$Wenchow/deh-chre-1644-geo7-9-geo18-11/deh-chre-1644-geo7-9-geo19-13
+            geo2$Wenchow/fou/deh-r1644-wenchow
+
+               geo3$Juian/tchou-hien/deh-r1644-juian
+                  atr$activa/sim/1638
+
+         geo1$Fukien#Fujian/província/deh-r1644-fukien
+
+            geo2$Foochow#Fuzhou/capital provincial/deh-r1644-foochow
+               atr$activa/sim/1617; en 1638 17 églises%en 1636 23 chrétientés;
+               atr$residencia-missao/jesuita/<16450000%avant 1645
+
+               geo3$Hungtang%bourg de Hungtang/tchou-hien/deh-r1644-hungtang
+                  atr$activa/sim/1636
+
+               geo3$Machang%bourg de Machang/tchou-hien/deh-r1644-machang
+                  atr$activa/sim/1636
+
+               geo3$Diongloh%Diongloh (Tch'ang-lo)/tchou-hien/deh-r1644-diongloh
+                  atr$activa/sim/1637
+
+               geo3$Hoihow%bourg de Hoihow (Haikeu)/tchou-hien/deh-r1644-hoihow
+                  atr$activa/sim/1636
+
+               geo3$Niensien%bourg de Niensien/tchou-hien/deh-r1644-niensien
+                  atr$activa/sim/1636
+
+               geo3$Futsing/tchou-hien/deh-r1644-futsing
+                  atr$activa/sim/1631
+
+               geo3$Kutien/tchou-hien/deh-r1644-kutien
+                  atr$activa/sim/1639
+
+               geo3$Lienkong/tchou-hien/deh-r1644-lienkong
+                  atr$activa/sim/1636
+
+            geo2$Changchow%Changchow (Lungki)#Zhangzhou/fou/deh-r1644-changchow/obs=et la baie d'Amoy entre Changchow et Chüanchow v. 1616
+
+               geo3$Aupua/tchou-hien/deh-r1644-aupua
+
+            geo2$Chüanchow#Quanzhou?/fou/deh-r1644-chuanchow
+               atr$activa/sim/1625#cerca de
+               atr$residencia-missao/dominicana/1632
+               atr$residencia-missao/jesuita/<1645#antes de
+
+               geo3$Amoy%Amoy (Szeming)/tchou-hien/deh-r1644-amoy
+                  atr$residencia-missao/dominicana/1594%tentatives OP 1594
+
+               geo3$Anhai/tchou-hien/deh-r1644-anhai
+                  atr$activa/sim/1634
+
+               geo3$Hweian/tchou-hien/deh-r1644-hweian
+                  atr$activa/sim/1636
+
+               geo3$Tsinkiang/tchou-hien/deh-r1644-tsinkiang
+                  atr$activa/sim/1635
+
+               geo3$Yungchun/tchou-hien/deh-r1644-yungchun
+                  atr$activa/sim/1635
+
+            geo2$Funing%Funing (tcheou indép.)/tcheou independente/deh-r1644-funing
+               atr$activa/sim/1638
+               atr$residencia-missao/dominicana/1638
+
+               geo3$Fuan/tchou-hien/deh-r1644-fuan
+                  atr$activa/sim/<1632#antes de
+                  atr$residencia-missao/dominicana/1632
+
+               geo3$Hiapoey%Hiapoey (Apuy)/tchou-hien/deh-r1644-hiapoey
+                  atr$activa/sim/1634
+
+               geo3$Lokia/tchou-hien/deh-r1644-lokia
+                  atr$activa/sim/1634
+                  atr$residencia-missao/franciscana/1634
+
+               geo3$Muyang/tchou-hien/deh-r1644-muyang
+                  atr$activa/sim/1634
+                  atr$residencia-missao/dominicana/1634
+
+               geo3$Tingteo/tchou-hien/deh-r1644-tingteo
+                  atr$activa/sim/1633
+                  atr$residencia-missao/dominicana/1633
+
+               geo3$Ningteh/tchou-hien/deh-r1644-ningteh
+                  atr$activa/sim/1634
+                  atr$residencia-missao/franciscana/1634
+
+               geo3$Showning/tchou-hien/deh-r1644-showning
+                  atr$activa/sim/1642
+                  atr$residencia-missao/dominicana/1642
+
+            geo2$Hinghwa/fou/deh-r1644-hinghwa
+               atr$activa/sim/1626
+
+               geo3$Putien/tchou-hien/deh-r1644-putien
+                  atr$activa/sim/1636
+
+               geo3$Sienyu/tchou-hien/deh-r1644-sienyu
+                  atr$activa/sim/1631
+
+            geo2$Kienning%Kienning (Kienow)/fou/deh-r1644-kienning
+               atr$activa/sim/1629
+               atr$residencia-missao/jesuita/<1645#antes de
+
+               geo3$Kienyang/tchou-hien/deh-r1644-kienyang
+                  atr$activa/sim/1636
+
+               geo3$Chungan/tchou-hien/deh-r1644-chungan
+                  atr$activa/sim/1635#cerca de
