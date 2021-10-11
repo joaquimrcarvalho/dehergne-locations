@@ -1,5 +1,6 @@
-kleio$gacto2.str/translations=2
-   fonte$dehergne-locations-1701/1701/geoinformation/obs="""p. 357
+kleio$gacto2.str
+    fonte$dehergne-locations-1701/1701/geoinformation
+        /obs="""p. 357
 
         Depuis le 17 août 1658 est créé le vicariat apostolique de Nankin; 
         puis celui de Cochinchine, et celui du Tonkin; chacun d'eux a 
@@ -87,10 +88,10 @@ kleio$gacto2.str/translations=2
   
         """
 
-      geodesc$deh-chre-1701/0/0/1701
+        geodesc$deh-chre-1701/0/0/1701
 
          geo1$Chekiang%CHEKIANG (actuel ZHEJIANG)#Zhejiang/província/deh-r1701-chekiang
-
+            
             geo2$Hangchou#Hangzhou/capital provincial/deh-r1701-hangchou
                atr$activa/sim/1701%R «Collège ou R.»?
                atr$residencia-missao/Jesuíta/1701%R «Collège ou R.»?
@@ -102,24 +103,26 @@ kleio$gacto2.str/translations=2
 
             geo2$Kashing/fou/deh-r1701-kashing
                atr$activa/não/1701
+               atr$residencia-missao/Jesuíta/1701
 
             geo2$Kinhwa/fou/deh-r1701-kinhwa
                atr$activa/não/1701
                atr$residencia-missao/Missões estrangeiros%R' OP dit la Liste 1701, il faut lire R' MEP/1701
 
-               geo3$Lanchi/tchou-hien/deh-r1701-lanchi
+                geo3$Lanchi/tchou-hien/deh-r1701-lanchi
                   atr$activa/sim/1701
                   atr$residencia-missao/Dominicanos/1701
 
             geo2$Ningpo/fou/deh-r1701-ningpo
                atr$activa/sim/1701
+               atr$residencia-missao/Jesuíta/1701
 
                geo3$Yenchow/tchou-hien/deh-r1701-yenchow
                   atr$activa/não/1701
                   atr$residencia-missao/Missões estrangeiros/1701
 
          geo1$Fukien#Fujian/província/deh-r1701-fukien
-
+            
             geo2$Foochow#Fuzhou/capital provincial/deh-r1701-foochow
                atr$activa/sim/1701
                atr$residencia-missao/Jesuíta/1701
@@ -129,6 +132,7 @@ kleio$gacto2.str/translations=2
 
                geo3$Lienkong/tchou-hien/deh-r1701-lienkong
                   atr$activa/não/1701
+                  atr$residencia-missao/Jesuíta/1701
 
             geo2$Changchow/fou/deh-r1701-changchow
                atr$activa/sim/1701
@@ -137,7 +141,7 @@ kleio$gacto2.str/translations=2
             geo2$Chüanchow/fou/deh-r1701-chuanchow
                atr$activa/sim/1701
                atr$residencia-missao/Dominicanos/1701
-
+               
                geo3$Amoy/tchou-hien#? como burgo em 1644/deh-r1701-amoy
                   atr$activa/não/1701
                   atr$residencia-missao/Missões estrangeiras/1701
@@ -157,9 +161,10 @@ kleio$gacto2.str/translations=2
                atr$residencia-missao/Missões estrangeiras/1701
 
             geo2$Kienning%Kienning fou/fou/deh-r1701-kienning
-
+               
                geo3$Pucheng/tchou-hien/deh-r1701-pucheng
                   atr$activa/não/1701
+                  atr$residencia-missao/Jesuíta/1701
 
             geo2$Shaowu/fou/deh-r1701-shaowu
                atr$activa/não/1701
@@ -171,120 +176,36 @@ kleio$gacto2.str/translations=2
 
             geo2$Tingchow/fou/deh-r1701-tingchow
                atr$activa/sim/1701
+               atr$residencia-missao/Jesuíta/1701
 
                geo3$Shanghang/tchou-hien/deh-r1701-shanghang
                   atr$activa/não/1701
+                  atr$residencia-missao/Jesuíta/1701
 
             geo2$Yenping/fou/deh-r1701-yenping
                atr$activa/sim/1701
+               atr$residencia-missao/Jesuíta/1701
 
                geo3$Tsianglo/tchou-hien/deh-r1701-tsianglo
                   atr$activa/sim/1701
                   atr$residencia-missao/Franciscanos/1701
 
          geo1$Honan#Henan/província/deh-r1701-honan
-
+         
             geo2$Kaifeng/capital provincial/deh-r1701-kaifeng
                atr$activa/sim/1701
+               atr$residencia-missao/Jesuíta/1701
 
             geo2$Kweiteh/fou/deh-r1701-kweiteh
                atr$activa/não/1701
+               atr$residencia-missao/Jesuíta/1701
 
-         geo1$Hukwang%(actuel HUNAN + HUBEI)/região/deh-r1701-hukwang
+         geo1$Hukwang%(actuel HUNAN + HUBEI)/província/deh-r1701-hukwang
 
             geo2$Wuchang/capital provincial/deh-r1701-wuchang
                atr$activa/sim/1701
-
-            geo2$Anlu/fou/deh-r1701-anlu
-               atr$activa/não/1701
-
-            geo2$Changsha/fou/deh-r1701-changsha
-               atr$activa/não/1701
-
-               geo3$Siangtan/tchou-hien/deh-r1701-siangtan
-                  atr$activa/sim/1701
-
-            geo2$Chengchow%Chen(g)chow/tcheou independente/deh-r1701-chengchow/obs=Chen(g)chow, tcheou indép., tout au sud du Hunan R' MEP
-               atr$activa/não/1701
-               atr$residencia-missao/Missões estrangeiras/1701
-
-            geo2$Hengchow/fou/deh-r1701-hengchow
-               atr$activa/não/1701
-
-            geo2$Kingchow/fou/deh-r1701-kingchow
-               atr$activa/não/1701
-
-            geo2$Teian/fou/deh-r1701-teian
-               atr$activa/não/1701
-
-            geo2$Yungchow/fou/deh-r1701-yungchow
-               atr$activa/não/1701
-
-         geo1$Kiangnan%KIANGNAN ou NANKIN (actuel ANHUI + JIANGSU)/região/deh-r1701-kiangnan
-
-            geo2$Nanking#Nanjing/capital provincial/deh-r1701-nanking
-               atr$activa/sim%collège/1701
                atr$residencia-missao/Jesuíta/1701
-               atr$activa/sim/1701
-               atr$residencia-missao/Franciscanos/1701
 
-            geo2$Anking/fou/deh-r1701-anking
-               atr$activa/sim/1701
-               atr$residencia-missao/Franciscanos/1701
-
-            geo2$Changchow/fou/deh-r1701-changchow-fou
-
-               geo3$Wusih/tchou-hien/deh-r1701-wusih
-                  atr$activa/não/1701
-
-            geo2$Chinchow%Chinchow (= Kweichih)/fou/deh-r1701-chinchow
-               atr$activa/sim/1701
-               atr$residencia-missao/Missões estrangeiras/1701
-
-            geo2$Chinkiang/fou/deh-r1701-chinkiang
-               atr$activa/sim/1701
-
-               geo3$Tanyang/tchou-hien/deh-r1701-tanyang
-                  atr$activa/não/1701
-
-            geo2$Fengyang/fou/deh-r1701-fengyang
-               atr$activa/sim/1703
-
-               geo3$Wuho/tchou-hien/deh-r1701-wuho
-                  atr$activa/não/1701
-
-            geo2$Hwaian/fou/deh-r1701-hwaian
-               atr$activa/sim/1701
-
-            geo2$Soochow/fou/deh-r1701-soochow
-               atr$activa/sim/1701
-
-               geo3$Changshu%Changshu (Cham xo)/tchou-hien/deh-r1701-changshu
-                  atr$activa/sim/1701
-
-               geo3$Kunshan/tchou-hien/deh-r1701-kunshan
-                  atr$activa/não/1701
-
-            geo2$Süchow/tcheou independente/deh-r1701-suchow
-               atr$activa/não/1701
-
-            geo2$Sungkiang/fou/deh-r1701-sungkiang/obs=avec 28 églises
-               atr$activa/sim/1701
-
-               geo3$Shanghai/tchou-hien/deh-r1701-shanghai/obs=avec 60 églises
-                  atr$activa/sim/1701
-
-               geo3$Tsingpu/tchou-hien/deh-r1701-tsingpu
-                  atr$activa/não/1701
-
-            geo2$Taitsang/tcheou independente/deh-r1701-taitsang
-               atr$activa/não/1701
-
-               geo3$Kiating/tchou-hien/deh-r1701-kiating
-                  atr$activa/sim/1701
-
-               geo3$Tsungming/tchou-hien/deh-r1701-tsungming/obs=9 églises
-                  atr$activa/não/1701
-
-            geo2$Yangchow/fou/deh-r1701-yangchow
-               atr$activa/não/1701
+         geo2$Anlu/fou/deh-r1701-anlu
+            atr$activa/não/1701
+            atr$residencia-missao/Jesuíta/1701
