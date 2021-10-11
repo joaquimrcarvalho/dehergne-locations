@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=30
+kleio$gacto2.str/translations=32
    fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""p. 353
       Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).
       
@@ -70,7 +70,7 @@ kleio$gacto2.str/translations=30
 
       Em cada entrada o formato é 
       
-         "geoN$Nome geográfico/Tipo (província, fou, tcheou-hine)/id=deh-r1644-nome"
+         "geoN$Nome geográfico/Tipo (província, fou, tcheou-hien)/id=deh-r1644-nome"
 
       Exº 
          "geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang"
@@ -93,7 +93,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangchou
                atr$activa/sim/16110000
-               atr$residencia-missao/jesuita/16110000
+               atr$residencia-missao/Jesuíta/16110000
 
                geo3$Fuyang/tchou-hien/deh-r1644-fuyang
                   atr$activa/sim/16420000
@@ -125,11 +125,11 @@ kleio$gacto2.str/translations=30
 
             geo2$Kinhwa/fou/deh-r1644-kinhwa
                atr$activa/sim/<1644%avant 1644
-               atr$residencia-missao/jesuita/<1644%pas citée em 1645
+               atr$residencia-missao/Jesuíta/<1644%pas citée em 1645
 
                geo3$Lanchi%(qui deviendra em 1656 R des OP)/tchou-hien/deh-r1644-lanchi
                   atr$activa/sim/1642
-                  atr$residencia-missao/dominicana/>1656#a partir desta data
+                  atr$residencia-missao/Dominicanos/>1656#a partir desta data
 
                geo3$Tungyang/tchou-hien/deh-r1644-tungyang
                   atr$activa/sim/1628
@@ -158,7 +158,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Foochow#Fuzhou/capital provincial/deh-r1644-foochow
                atr$activa/sim/1617%en 1636 23 chrétientés., en 1638 17 églises
-               atr$residencia-missao/jesuita/<1645%avant 1645
+               atr$residencia-missao/Jesuíta/<1645%avant 1645
 
                geo3$Hungtang/burgo%bourg de Hungtang/deh-r1644-hungtang
                   atr$activa/sim/1636
@@ -190,11 +190,11 @@ kleio$gacto2.str/translations=30
 
             geo2$Chüanchow#Quanzhou?/fou/deh-r1644-chuanchow
                atr$activa/sim/1625#cerca de
-               atr$residencia-missao/dominicana/1632
-               atr$residencia-missao/jesuita/<1645#antes de
+               atr$residencia-missao/Dominicanos/1632
+               atr$residencia-missao/Jesuíta/<1645#antes de
 
                geo3$Amoy%Amoy (Szeming)/burgo%principaux bourgs/deh-r1644-amoy
-                  atr$residencia-missao/dominicana/1594%tentatives OP 1594
+                  atr$residencia-missao/Dominicanos/1594%tentatives OP 1594
 
                geo3$Anhai/burgo%principaux bourgs/deh-r1644-anhai
                   atr$activa/sim/1634
@@ -210,34 +210,34 @@ kleio$gacto2.str/translations=30
 
             geo2$Funing%Funing (tcheou indép.)/tcheou independente/deh-r1644-funing
                atr$activa/sim/1638
-               atr$residencia-missao/dominicana/1638
+               atr$residencia-missao/Dominicanos/1638
 
                geo3$Fuan/tchou-hien/deh-r1644-fuan
                   atr$activa/sim/<1632#antes de
-                  atr$residencia-missao/dominicana/1632
+                  atr$residencia-missao/Dominicanos/1632
 
                geo3$Hiapoey%Hiapoey (Apuy)/burgo%principaux bourgs/deh-r1644-hiapoey
                   atr$activa/sim/1634
 
                geo3$Lokia/burgo%principaux bourgs/deh-r1644-lokia
                   atr$activa/sim/1634
-                  atr$residencia-missao/franciscana/1634
+                  atr$residencia-missao/Franciscanos/1634
 
                geo3$Muyang/burgo%principaux bourgs/deh-r1644-muyang
                   atr$activa/sim/1634
-                  atr$residencia-missao/dominicana/1634
+                  atr$residencia-missao/Dominicanos/1634
 
                geo3$Tingteo/burgo%principaux bourgs/deh-r1644-tingteo
                   atr$activa/sim/1633
-                  atr$residencia-missao/dominicana/1633
+                  atr$residencia-missao/Dominicanos/1633
 
                geo3$Ningteh/tchou-hien/deh-r1644-ningteh
                   atr$activa/sim/1634
-                  atr$residencia-missao/franciscana/1634
+                  atr$residencia-missao/Franciscanos/1634
 
                geo3$Showning/tchou-hien/deh-r1644-showning
                   atr$activa/sim/1642
-                  atr$residencia-missao/dominicana/1642
+                  atr$residencia-missao/Dominicanos/1642
 
             geo2$Hinghwa/fou/deh-r1644-hinghwa
                atr$activa/sim/1626
@@ -250,7 +250,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Kienning%Kienning (Kienow)/fou/deh-r1644-kienning
                atr$activa/sim/1629
-               atr$residencia-missao/jesuita/<1645#antes de
+               atr$residencia-missao/Jesuíta/<1645#antes de
 
                geo3$Kienyang/tchou-hien/deh-r1644-kienyang
                   atr$activa/sim/1636
@@ -260,11 +260,11 @@ kleio$gacto2.str/translations=30
 
             geo2$Shaowu/fou/deh-r1644-shaowu
                atr$activa/sim/1631
-               atr$residencia-missao/jesuita/<1645#antes de
+               atr$residencia-missao/Jesuíta/<1645#antes de
 
                geo3$Kienning hien/tchou-hien/deh-r1644-kienning-hien
                   atr$activa/sim/1644
-                  atr$residencia-missao/jesuita/1644
+                  atr$residencia-missao/Jesuíta/1644
 
                geo3$Taining/tchou-hien/deh-r1644-taining
                   atr$activa/sim/1644
@@ -280,7 +280,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Yenping/fou/deh-r1644-yenping
                atr$activa/sim/1637
-               atr$residencia-missao/jesuita/<1645#antes de
+               atr$residencia-missao/Jesuíta/<1645#antes de
 
                geo3$Shahsien/tchou-hien/deh-r1644-shahsien
                   atr$activa/sim/1637
@@ -288,19 +288,19 @@ kleio$gacto2.str/translations=30
             geo2$Taiwan%Formose (Taiwan)/fou/deh-r1644-taiwan
 
                geo3$Kilung/tchou-hien/deh-r1644-kilung
-                  atr$residencia-missao/dominicana/1626
+                  atr$residencia-missao/Dominicanos/1626
 
                geo3$Cabaran/burgo%bourg de Cabaran, Tamsui/deh-r1644-cabaran
-                  atr$residencia-missao/dominicana/1629
+                  atr$residencia-missao/Dominicanos/1629
 
                geo3$Taparri/tchou-hien/deh-r1644-taparri
-                  atr$residencia-missao/dominicana/1630
+                  atr$residencia-missao/Dominicanos/1630
 
                geo3$Camarri/tchou-hien/deh-r1644-camarri
-                  atr$residencia-missao/dominicana/1633
+                  atr$residencia-missao/Dominicanos/1633
 
                geo3$Santiago/tchou-hien/deh-r1644-santiago
-                  atr$residencia-missao/dominicana/1635
+                  atr$residencia-missao/Dominicanos/1635
 
          geo1$Honan/província/deh-r1644-honan/obs=(12 ou 13 chrétientés en 1641)
 
@@ -375,7 +375,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Nanking#Nanjing/capital provincial/deh-r1644-nanking
                atr$activa/sim/1595#Ricci
-               atr$residencia-missao/jesuita/1599
+               atr$residencia-missao/Jesuíta/1599
 
                geo3$Siaolingwei/burgo%bourg/deh-r1644-siaolingwei
                   atr$activa/sim/1610#cerca de
@@ -415,17 +415,17 @@ kleio$gacto2.str/translations=30
 
                geo3$Changshu/tchou-hien/deh-r1644-changshu
                   atr$activa/sim/1623
-                  atr$residencia-missao/jesuita/1635/obs=R 1635 «Cham Xo», cf AHSI 28 (1951) 311-312
+                  atr$residencia-missao/Jesuíta/1635/obs=R 1635 «Cham Xo», cf AHSI 28 (1951) 311-312
 
                geo3$Kiating/tchou-hien/deh-r1644-kiating
                   atr$activa/sim/1617
-                  atr$residencia-missao/jesuita/1621
+                  atr$residencia-missao/Jesuíta/1621
 
                geo3$Tsungming%Tsungming (île)/tchou-hien#é uma ilha/deh-r1644-tsungming
                   atr$activa/sim/1639
 
             geo2$Sungkiang/fou/deh-r1644-sungkiang
-               atr$residencia-missao/jesuita/1624
+               atr$residencia-missao/Jesuíta/1624
 
                geo3$Kaokia/burgo%bourg/deh-r1644-kaokia
 
@@ -444,7 +444,7 @@ kleio$gacto2.str/translations=30
 
                geo3$Shanghai/tchou-hien/deh-r1644-shanghai/obs=nombreux bourgs
                   atr$activa/sim/1608
-                  atr$residencia-missao/jesuita/1622
+                  atr$residencia-missao/Jesuíta/1622
 
                geo3$Tsingpu/tchou-hien/deh-r1644-tsingpu
 
@@ -465,12 +465,12 @@ kleio$gacto2.str/translations=30
          geo1$Kiangsi#Jiangxi/província/deh-r1644-kiangsi
 
             geo2$Nanchang/capital provincial/deh-r1644-nanchang
-               atr$residencia-missao/jesuita/1595
-               atr$residencia-missao/jesuita/1607
+               atr$residencia-missao/Jesuíta/1595
+               atr$residencia-missao/Jesuíta/1607
 
             geo2$Kienchang/fou/deh-r1644-kienchang
                atr$activa/sim/1618
-               atr$residencia-missao/jesuita/1636
+               atr$residencia-missao/Jesuíta/1636
 
             geo2$Nanan/fou/deh-r1644-nanan
                atr$activa/sim/1628%?
@@ -492,11 +492,11 @@ kleio$gacto2.str/translations=30
          geo1$Kwangtung#Guangdong/província/deh-r1644-kwangtung
 
             geo2$Macau/Macau%à part/deh-r1644-macau
-               atr$residencia-missao/jesuita/1565/obs=la R de 1565 devient en 1694 Collège St Paul
-               atr$residencia-missao/franciscana/1579
-               atr$residencia-missao/agostinha/1586
-               atr$residencia-missao/dominicana/1587
-               atr$residencia-missao/clarissa/1633
+               atr$residencia-missao/Jesuíta/1565/obs=la R de 1565 devient en 1694 Collège St Paul
+               atr$residencia-missao/Franciscanos/1579
+               atr$residencia-missao/Agostinhos/1586
+               atr$residencia-missao/Dominicanos/1587
+               atr$residencia-missao/Clarissas/1633
 
                geo3$Tsingchow%Ilha Verde (Tsingchow)/tchou-hien/deh-r1644-tsingchow
                   atr$activa/sim/1603
@@ -506,9 +506,9 @@ kleio$gacto2.str/translations=30
 
             geo2$Cantão/capital provincial/deh-r1644-cantao
                atr$activa/sim/1555
-               atr$residencia-missao/jesuita/1580
-               atr$residencia-missao/franciscana/0000
-               atr$residencia-missao/dominicana/0000
+               atr$residencia-missao/Jesuíta/1580
+               atr$residencia-missao/Franciscanos/0000
+               atr$residencia-missao/Dominicanos/0000
 
                geo3$Tungkun/tchou-hien/deh-r1644-tungkun
 
@@ -521,7 +521,7 @@ kleio$gacto2.str/translations=30
             geo2$Kiungchow%Kiungchow (île de Hainan)/fou/deh-r1644-kiungchow
                atr$activa/sim/1560
                atr$activa/sim/1632
-               atr$residencia-missao/jesuita/1635
+               atr$residencia-missao/Jesuíta/1635
 
                geo3$Tingan/tchou-hien/deh-r1644-tingan
                   atr$activa/sim/1636
@@ -538,7 +538,7 @@ kleio$gacto2.str/translations=30
             geo2$Namyung%Namyung (alors fou)/fou/deh-r1644-namyung
                atr$activa/sim/1585
                atr$activa/sim/1592
-               atr$residencia-missao/jesuita/1612
+               atr$residencia-missao/Jesuíta/1612
 
             geo2$Schiuchow%Shiuchow (Chao-tcheou)/fou/deh-r1644-shiuchow
 
@@ -557,7 +557,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Shiuhing%Shiuhing (Tchao-k'ing, actuel Hoyiu)/fou/deh-r1644-shiuhing
                atr$activa/sim/1583
-               atr$residencia-missao/jesuita/1585:1589
+               atr$residencia-missao/Jesuíta/1585:1589
 
          geo1$Kwichow/província/deh-r1644-kwichow/obs=nada
 
@@ -565,7 +565,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Pequim;%Peking (Shuntien) (1598), 1601/capital provincial/deh-r1644-pequim/obs=En 1637 16 chrétientés et 14 oratoires autour de Pékin
                atr$activa/sim/1610
-               atr$residencia-missao/jesuita/1605/obs=em Nan-t'ang
+               atr$residencia-missao/Jesuíta/1605/obs=em Nan-t'ang
 
                geo3$Chala%Chala (cimetière et chapelle)/tchou-hien/deh-r1644-chala
                   atr$activa/sim/1610
@@ -616,7 +616,7 @@ kleio$gacto2.str/translations=30
 
                geo3$Kiangchow/tchou-hien/deh-r1644-kiangchow
                   atr$activa/sim/1620
-                  atr$residencia-missao/jesuita/1625
+                  atr$residencia-missao/Jesuíta/1625
                   atr$activa/sim/1631#cerca de/obs=30 igrejas por esta data
 
                geo3$Kianghsien%Kianghsien (au Sud de Kiangchow)/tchou-hien/deh-r1644-kianghsien
@@ -627,7 +627,7 @@ kleio$gacto2.str/translations=30
 
                geo3$Puchow%pas encore fou/tchou-hien/deh-r1644-puchow
                   atr$activa/sim/1631
-                  atr$residencia-missao/jesuita/1637
+                  atr$residencia-missao/Jesuíta/1637
 
                geo3$Siahsien/tchou-hien/deh-r1644-siahsien
                   atr$activa/sim/1625#cerca de
@@ -648,7 +648,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Tsinan/capital provincial/deh-r1644-tsinan
                atr$activa/sim/1636
-               atr$residencia-missao/jesuita/1640
+               atr$residencia-missao/Jesuíta/1640
 
                geo3$Taian%Taian tcheou/tchou-hien/deh-r1644-taian
                   atr$activa/sim/1636
@@ -688,7 +688,7 @@ kleio$gacto2.str/translations=30
 
             geo2$Sian%Sun (Changan)/capital provincial/deh-r1644-sian
                atr$activa/sim/1625
-               atr$residencia-missao/jesuita/1631/obs=avec 15 chrétientés en 1638
+               atr$residencia-missao/Jesuíta/1631/obs=avec 15 chrétientés en 1638
                atr$activa/sim/1638
 
                geo3$Chowchih/tchou-hien/deh-r1644-chowchih
@@ -710,10 +710,10 @@ kleio$gacto2.str/translations=30
 
             geo2$Hanchung%Hanchung (Nancheng)/fou/deh-r1644-hanchung
                atr$activa/sim/1635
-               atr$residencia-missao/jesuita/1644
+               atr$residencia-missao/Jesuíta/1644
 
                geo3$Chengku/tchou-hien/deh-r1644-chenku
-                  atr$residencia-missao/jesuita/1642
+                  atr$residencia-missao/Jesuíta/1642
 
                geo3$Siao tchai tse/burgo%bourg/deh-r1644-siao-tchai-tse
                   atr$activa/sim/1635#cerca de
@@ -724,7 +724,7 @@ kleio$gacto2.str/translations=30
          geo1$Szechwan/província/deh-r1644-szechwan
 
             geo2$Chengtu%Chengtu (Hwayang)/capital provincial/deh-r1644-chengtu
-               atr$residencia-missao/jesuita/1640
+               atr$residencia-missao/Jesuíta/1640
 
                geo3$Mienchow/tchou-hien/deh-r1644-mienchow
                   atr$activa/sim/1643
