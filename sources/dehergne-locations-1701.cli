@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=4
+kleio$gacto2.str/translations=5
    fonte$dehergne-locations-1701/1701/geoinformation/obs="""p. 357
 
         Depuis le 17 août 1658 est créé le vicariat apostolique de Nankin; 
@@ -483,8 +483,82 @@ kleio$gacto2.str/translations=4
 
                geo3$Taiping/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-taiping/obs=cristandade, não residência
 
-               geo3$Wanchuan/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/obs=cristandade, não residência/id=deh-r1701-pingyang-geo1-4
+               geo3$Wanchuan/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-pingyang-geo1-4/obs=cristandade, não residência
 
             geo2$Sinchow/tcheou independente%Sinchow indépendant/deh-r1701-sinchow
 
                geo3$Tsinglo/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-tsinglo
+
+         geo1$Shantung%actuel Shandong/deh-r1701-shantung/id=deh-chre-1701-geo1-5
+
+            geo2$Tsinan/capital provincial/deh-r1701-tsinan
+               atr$activa/sim/1701%R et 8 églises
+               atr$residencia-missao/Franciscanos/1701
+
+               geo3$Taian/tchou-hien%alors tcheou/deh-r1701-taian
+                  atr$activa/sim/1701
+                  atr$residencia-missao/Franciscanos/1701
+                  atr$activa/não/1701
+                  atr$residencia-missao/Jesuíta/1701
+
+               geo3$Tehchow/tchou-hien/deh-r1701-tehchow
+                  atr$activa/sim/1701
+                  atr$residencia-missao/Jesuíta/1701
+
+            geo2$Tsingchow%(-- Idu, Yitu)/fou/deh-r1701-tsingchow
+               atr$activa/sim/1701
+               atr$residencia-missao/Franciscanos/1701
+
+            geo2$Linchu%Linkiu/fou/deh-r1701-linchu
+               atr$activa/sim/1701
+               atr$residencia-missao/Franciscanos/1701
+
+            geo2$Tungchang/fou/deh-r1701-tungchang
+               atr$activa/não/1701
+
+               geo3$Lintsing/tchou-hien/deh-r1701-lintsing
+                  atr$activa/sim/1701
+                  atr$residencia-missao/Franciscanos/1701
+
+            geo2$Yenchow/fou/deh-r1701-yenchow-fou
+
+               geo3$Ichow%Ichow ( -- Lini)/tchou-hien/deh-r1701-ichow
+                  atr$activa/sim/1701
+                  atr$residencia-missao/Franciscanos/1701
+
+               geo3$Tsining/tchou-hien/deh-r1701-tsining
+                  atr$activa/sim/1701
+                  atr$residencia-missao/Franciscanos/1701
+
+         geo1$Shensi%(actuel SHANXI)/província/deh-r1701-shensi
+
+            geo2$Sian/capital provincial/deh-r1701-sian
+               atr$activa/sim/1701
+               atr$residencia-missao/Franciscanos%avec OFM/1701
+
+               geo3$Sanyuan/tchou-hien/deh-r1701-sanyuan
+                  atr$activa/não/1701
+
+            geo2$Hanchung/fou/deh-r1701-hanchung
+               atr$activa/não/1701
+
+            geo2$Chengku/fou#?/deh-r1701-chengku
+
+               geo3$Siao-tchai%Siao-tchai du Chengku/tchou-hien/deh-r1701-siao-tchai
+                  atr$activa/não/1701
+
+         geo1$Szechwan%actuel SICHUAN)/província/deh-r1701-szechwan/obs=nada
+
+            geo2$Chengtu/capital provincial/deh-r1701-chengtu
+               atr$activa/sim/17020400#será aberta nesta data
+               atr$residencia-missao/Missões Estrangeiras/17020400#será aberta nesta data
+
+            geo2$Chungking/fou/deh-r1701-chungking
+               atr$activa/sim/17020400#será aberta nesta data
+               atr$residencia-missao/Lazaristas/17020400#será aberta nesta data
+
+         geo1$Yunnan/província/deh-r1701-yunnan
+
+            geo2$Yunnanfu/capital provincial/deh-r1701-yunnanfu
+               atr$activa/sim/17021100#será aberta nesta data
+               atr$residencia-missao/Missões Estrangeiras/17021100#será aberta nesta data
