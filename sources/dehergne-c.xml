@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/toliveira/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2021-12-15 21:41:32" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-c.cli" TRANSLATOR="gactoxml2.str" WHEN="2022-10-31 6:36:34" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -31,7 +31,7 @@
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/toliveira/sources/dehergne-c.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-c.cli]]></core>   </ELEMENT>
 </GROUP>
 <CLASS NAME="act" SUPER="entity" TABLE="acts" GROUP="lista">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -19985,7 +19985,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Piemonte]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[000000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-alessandro-caeglio-att796-190]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -31594,7 +31594,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[3V]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[000000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-gaspar-coelho-ref3-att1239-190]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -34229,7 +34229,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Amphitrite]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[000000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-cyr-contancin-att1339-190]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -38223,7 +38223,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Macau]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>         <comment><![CDATA[filho de portugueses]]></comment>
+         <core><![CDATA[000000]]></core>         <comment><![CDATA[filho de portugueses]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-manuel-cortese-att1504-190]]></core>   </ELEMENT>
@@ -40904,7 +40904,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Goa]]></core>   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[000000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-cristovao-da-costa-att1614-190]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -42355,7 +42355,7 @@
          <core><![CDATA[Macau]]></core>         <comment><![CDATA[designado como cristão de Macau]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
+         <core><![CDATA[000000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-giovanni-giuseppe-costa-ref2-att1670-190]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
