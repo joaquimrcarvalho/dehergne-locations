@@ -1,6 +1,6 @@
 # Timelink source file repository
 
-Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th centuries, by Joaquim Carvalho
+Transcription of the biographies of Joseph Dehergne, Répertoire des Jésuites de Chine de 1552 à 1800, Bibliotheca Instituti Historici S.I 37 (Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973)
 
 ## Source collections included in this repository
 
@@ -8,12 +8,11 @@ Prosopography of the Europe-Portugal-Coimbra-China relations in the 16-18th cent
 
     Contains biographical information from 
 
-    * `imagem-virtude-coimbra.cli` Contains selected material from Franco (S.I.), Antonio. Imagem da virtude em o noviciado da Companhia de Jesus no Real Collegio de Jesus de Coimbra em Portugal ... Évora: na Officina da Universidade, 1719. 
-    * `dehergne.cli` Includes a transcription of Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973. 
-    * `tomas-pereira-obras.cli` Contains selected information from Pereira, Tomás, Luís Filipe Barreto, Arnaldo Espírito Santo, Ana Cristina da Costa Gomes, Isabel Murta Pina, e Pedro Lage Reis Correia. Obras. Lisboa: Centro Científico e Cultural de Macau, 2011. 
-    * `bio-notes.cli` contains varied briographical information collected 
-    in various sources and bibliographical words that do not constitute a 
-    source on itself. It is used to note fragments. The `obs` field is normally used to identify the source.
+    Joseph Dehergne, Répertoire des Jésuites de Chine de 1552 à 1800, Bibliotheca Instituti Historici S.I 37 (Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973)
+
+    Completed with:
+    * Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
+
 
 
 
