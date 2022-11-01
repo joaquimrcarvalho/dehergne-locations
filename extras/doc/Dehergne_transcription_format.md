@@ -206,14 +206,64 @@ Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jes
 
 #### Emb. ####
 
-Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que atribui um número a cada barco que transportou missionários para a Índia. O autor regista esse número, precedido da letra W, entre parêntesis junto com a informação da viagem. Registamos esse número porque o registo do nome do navio é irregular na obra e interessa poder reconstruir com exatidão quem viajou com quem.
+Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que lista todas as armadas que partiram para a Índia com missionários Jesuítas.
+Wicky atribui um número sequencial a cada armada e outro número, sequencial, a cada missionário. 
 
-Regista-se na forma `ls$embarque/NAVIO/DATA` seguido de `ls$wicky/NUMERO`
+![Extract de Wicky](./wicky-exemplo.png)
 
-    n$António de Abreu/id=deh-antonio-de-abreu
-        ....
-        ls$embarque/S. Valentim/16020325
-        ls$wicky/486/16020325
+Dehergne regista apenas o número atribuído ao missionário, o que impede de reconstruir quem viajou com quem.
+
+No exemplo acima __Manuel Teixeira (34)__ viajou na mesma armada e no mesmo barco com __Belchior Nunes Barreto (31)__.
+Na mesma armada, mas em barco diferente, viajou __Cristovão
+da Costa (37)__.
+
+Para não perder essa informação a informação
+fornecida por Dehergne foi completada com a consulta
+da obra de Wicky, para acrescentar o número da 
+armada.
+
+Assim, a informação original de Dehergne é registada
+ na forma `ls$embarque/NAVIO/DATA` seguido de `ls$wicky/NUMERO`.
+
+ A informação complementar do número da armada, é
+ adicionada na forma `ls$wicky-viagem/ARMADA/DATA`
+
+ Exemplo:
+
+         n$Belchior Nunes Barreto/id=deh-belchior-nunes-barreto
+            ...
+            ls$embarque/Esfera/15510310
+            ls$wicky/31/15510310
+            ls$wicky-viagem/5/15510310
+
+        n$Cristóvão da Costa/id=deh-cristovao-da-costa
+            ls$embarque/?/15510310
+            ls$wicky/37/15510310
+            ls$wicky-viagem/5/15510310
+
+        n$Manuel Teixeira/id=deh-manuel-teixeira
+            ...
+            ls$embarque/Esfera/15510310#não padre
+            ls$wicky/34/15510310
+            ls$wicky-viagem/5/15510310
+
+__Nota__:
+
+>11/05/2021 Devo corrigir Dehergne quando ele se engana na informação? Não tem acontecido muito, principalmente tenho acrescentado, além do número da viagem, o nome dos navios, que Dehergne, por alguma razão, nem sempre colocou nalguns casos em que Wicky os menciona. Não me pareceu que isso fosse muito problemático porque são casos em que até se deduziria dos dados dados por Dehergne (por exemplo, com Prospero Intorcetta, Dehergne não colocou o número da sua viagem de regresso da Europa, mas consegue-se deduzir que era aquela, mesmo sem ver Wicky, porque ele aparece como companheiro de uma série de outros jesuítas que embarcaram ao mesmo tempo). Mas há um ou outro caso em que uma data não bate certo ou o nome do navio (no caso uma Santa Maria que segundo Wicky é Santa Marta)...
+
+Resposta:
+>É importante ser muito claro no que toca à origem de informação, porque fazemos isto dentro da ideologia da "Ciência Aberta”.
+
+>Quem mais tarde veja os dados tem de confiar que está a ver uma transcrição do Dehergne. 
+
+>Nos casos em que completámos ou corrigimos, isso tem que ficar claro num comentário ou no campos de observações. 
+
+>De outro modo quem mais tarde comparasse a transcrição com o original impresso não entenderia de onde veio certa informação, o que tiraria confiança no nosso trabalho.
+
+>Assim pode fazer por exemplo 
+
+	ls$embarque/Santa Marta% Dehergne tem "Santa Maria”, corrigido a partir de Wicky
+
 
 #### A. ou arr. ####
 
@@ -255,7 +305,7 @@ Nem sempre é fácil reconstruir as datas do texto sintético da entrada. Exempl
 
 #### Viagens sucessivas entre Europa e o Oriente ####
 
-Pergunta: "Quando um jesuíta regressa à Europa por um tempo e volta a embarcar, como acontece com Miguel do Amaral (33), repetem-se os campos de embarque e wicky (quando mencionado) sem mais nada? Ou deve haver alguma especificação, uma vez que se trata de um segundo embarque?"
+Pergunta: "Quando um jesuíta regressa à Europa por um tempo e volta a embarcar, como acontece com Miguel do Amaral (33), repetem-se os campos de embarque e Wicky (quando mencionado) sem mais nada? Ou deve haver alguma especificação, uma vez que se trata de um segundo embarque?"
 
 Resposta: "Repetem-se os registos. Nesses casos deve haver uma entrada do tipo "estadia" ou entradas de "partida" e "chegada" relativas à ida à Europa que ajudarão a entender a sequência. Assim não é necessário uma observação."
 
