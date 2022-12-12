@@ -1,5 +1,5 @@
 KleioTranslator - server version 10.18 - build 463 (MHK: 2082/issue140) (2022-06-15 14:08:16, MHK: 22/11/2022 12:27 )
-12-12-2022 11-41
+12-12-2022 11-52
 
 Processing data file dehergne-other.cli
 -------------------------------------------
@@ -12,26 +12,10 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 134
+Translation count: 135
 Obs: 
 ** Processing source fonte$dehergne-other
-8: lista$dehergne-notices-other
-** Processing source fonte$limpar1
-
-WARNING: dehergne-other.cli line 67 * Warning: Filename should match source Id to avoid errors. File: dehergne-other Id: limpar1.
-Near lines: 67    fonte$limpar1/obs=limpa ficheiros não relacionados/substitui=imagem-virtude-coimbra
-Near lines: 68    fonte$limpar2/obs=limpa ficheiros não relacionados/substitui=biographical-notes
-
-** Processing source fonte$limpar2
-
-WARNING: dehergne-other.cli line 68 * Warning: Filename should match source Id to avoid errors. File: dehergne-other Id: limpar2.
-Near lines: 68    fonte$limpar2/obs=limpa ficheiros não relacionados/substitui=biographical-notes
-Near lines: 69    fonte$limpar3/obs=limpa ficheiros não relacionados/substitui=tomas-pereira
-
-** Processing source fonte$limpar3
-
-WARNING: dehergne-other.cli line 69 * Warning: Filename should match source Id to avoid errors. File: dehergne-other Id: limpar3.
-Near lines: 69 Near lines: 70 
+9: lista$dehergne-notices-other
 *** End of File
 
 
@@ -41,5 +25,5 @@ Near lines: 69 Near lines: 70
 ** Temp file with ids- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-other.ids
 ** - /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-other.cli-renamed to- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-other.old
 0  errors. 
-3  warnings.
+0  warnings.
 Translation finished.
