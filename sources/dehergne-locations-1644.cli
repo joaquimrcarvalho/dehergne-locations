@@ -1,6 +1,6 @@
-kleio$gacto2.str/translations=32
-   fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""p. 353
-      Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).
+kleio$gacto2.str/translations=42
+   fonte$dehergne-locations-1644/1644/geoinformation/substitui=dehergne-map-1644/obs="""
+      Planche: Carte des Chrétientés Chinoises de la fin des Ming (1644).p. 353
       
       _Diocèse_
       Depuis 1514, l'évêché de Funchal (île
@@ -80,8 +80,9 @@ kleio$gacto2.str/translations=32
       Nos locais onde há presença de missionários:
 
          "atr$residencia-missao/Jesuíta/16110000 (onde aparece R)"
-         "atr$residencia-missao/Dominicanos%OP/16560000" (quando passa a residência de outra ordem
-                                                 ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
+         "atr$residencia-missao/Dominicanos%OP/16560000"
+                        (quando passa a residência de outra ordem
+                         ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
          "atr$activa/sim/16110000"         (onde só aparece uma data)
 
 
@@ -89,29 +90,30 @@ kleio$gacto2.str/translations=32
 
       geodesc$deh-chre-1644/0/0/1644
 
-         geo1$Chekiang#Zhejiang/província/deh-r1644-chekiang
+         geo1$Chekiang#Tche-kiang, hoje:Zhejiang, 浙江, @wikidata:Q16967/província/deh-r1644-chekiang
 
-            geo2$Hangchou#Hangzhou/capital provincial/deh-r1644-hangchou
+            geo2$Hangchou#Hang-tcheou, hoje: Hangzhou, 杭州, @wikidata:Q4970/capital provincial/deh-r1644-hangchou
                atr$activa/sim/16110000
                atr$residencia-missao/Jesuíta/16110000
 
-               geo3$Fuyang/tchou-hien/deh-r1644-fuyang
+               geo3$Fuyang#Fou-yang, hoje:Fuyang, 富阳, @wikidata:Q1011103/tchou-hien/deh-r1644-fuyang
                   atr$activa/sim/16420000
 
-               geo3$Jenho/tchou-hien/deh-r1644-jenho
+               geo3$Jenho#Jen.houo, hoje: Renhe, 仁和县/tchou-hien/deh-r1644-jenho/obs= Historical county name. 30.448897N, 120.307504E, no wikidata.
                   atr$activa/sim/16080000
 
-            geo2$Chüchow/fou/deh-r1644-chuchow
+            geo2$Chüchow#K'iu-tcheou, hoje:Quzhou, 衢州, @wikidata:Q58235/fou/deh-r1644-chuchow/obs=in the Chinese translation it is recognized as “遂州”, which is wrong, both phonetically and geographically. In Dehergne(1957), it is noted as "衢州".
                atr$activa/sim/16130000
 
-            geo2$Huchow/fou/deh-r1644-huchow
+            geo2$Huchow#Hou-tcheou, hoje: Huzhou, 湖州, @wikidata:Q42664/fou/deh-r1644-huchow
 
-               geo3$Tehtsing%Tehtsing du Huchow/deh-r1644-tehtsing/deh-r1644-tehtsing
+               geo3$Tehtsing%Tehtsing du Huchow, Té-ts'ing,Teching, hoje: Deqing, 德清, @wikidata:Q1191987/deh-r1644-tehtsing/deh-r1644-tehtsing
                   atr$activa/sim/1620
 
-            geo2$Kashing/fou/deh-r1644-kashing
+            geo2$Kashing#Kia-hing, hoje:Jiaxing, 嘉兴, @widata:Q58178/fou/deh-r1644-kashing
 
-               geo3$Kaosham/tchou-hien/deh-r1644-kaosham
+               geo3$Kashan%Kaosham#Kia-chan, hoje: Jiashan, 嘉善, @wikidata:Q1361347/tchou-hien/deh-r1644-kaosham/obs="""
+               The place name in the book Dehergne(1973) is "Kaoshan", and in the Chinese translation it is recognized as “高山”. But this place cannot be found. According to Dehergne(1957), it probably shoud be "Kashan 嘉善", which means in the 1973 book, this place is wrongly spelled by mistake."""
                   atr$activa/sim/1640
 
                geo3$Tangsi/tchou-hien/deh-r1644-tangsi
