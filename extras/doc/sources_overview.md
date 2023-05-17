@@ -8,7 +8,7 @@ Biographical dictionary focussed on the french jesuit missionaries on China but 
 
 This work is used as reference for names, dates and other bibliographical information by Brockey, Liam Matthew. Journey to the East: The Jesuit Mission to China, 1579-1724. Cambridge, Mass.: Belknap Press: An Imprint of Harvard University Press, 2008.
 
-There is a Chinese translation, which very helpful in what regards the Chinese names of missionaries and current names of places. 
+There is a Chinese translation, which is very helpful in what regards the Chinese names of missionaries and current names of places. 
 
 > Joseph, S. I. Dehergne. 在華耶穌會士列傳及書目補編. 第1版.., 中華書局, 1995.
 
