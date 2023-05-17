@@ -2,12 +2,7 @@
 
 Transcription of the biographies of Joseph Dehergne, Répertoire des Jésuites de Chine de 1552 à 1800, Bibliotheca Instituti Historici S.I 37 (Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973)
 
-## Source collections included in this repository
-
-    Completed with:
-    * Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
-
-
+## Sources included in this repository
 ### Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973. ###
 
 Biographical dictionary focussed on the french jesuit missionaries on China but including many others. Available at archive.org as PDF with embedded OCR. Also in text format, but the OCR in the text format version is of lower quality than the one embedded in the PDF.
@@ -32,10 +27,19 @@ Enumeration at the start of the _Repertoire_ (before p.1):
 The main target are French Jesuits missionaires in China. But includes all that were in mainland China.
 Does not include those at Macau that were in transit to places other than continental China (for instance Japan).
 
-Completed with:
-    * Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
-        * Wicki lists all missionaries aboard the portuguese "armadas" to India. 
-            There was one voyage per ye
+### Aditional information ###
+
+Dehergne includes information from:
+
+* Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
+
+This information relates to the voyage from Lisbon to Goa, India. In Wicky's work there is a sequential number for each fleet of ships that made the voyage in a given
+year, and another sequentitial number each missionary abroad.
+
+Dehergne keeps only the missionary numbers, not the fleet numbers. This prevents knowing
+who travelled with whom. We recovered the fleet numbers from the Wicki list and
+added to each entry. More information in the 
+transcription documentation [in portuguese](./extras/doc/Dehergne_transcription_format.md)
 
 
 
