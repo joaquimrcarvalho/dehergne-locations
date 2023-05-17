@@ -42,7 +42,10 @@ added to each entry. More information in the
 transcription documentation [in portuguese](./extras/doc/Dehergne_transcription_format.md)
 
 
+Current work on identifying place names is going
+on in a fork:
 
+    https://github.com/joaquimrcarvalho/dehergne-locations 
 
 ## License
 
