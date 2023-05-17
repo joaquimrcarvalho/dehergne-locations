@@ -40,7 +40,7 @@ The model is based on a structure source/act/actor-object/attributes-relations
 
 Each source contains one or more acts. Each act contains actors (people) and in some cases objects (e.g. properties).
 
-Each person or objection contains information about individual attributes and about relations with other people or objects.
+Each person or object contains information about individual attributes and about relations with other people or objects.
 
 
 Person related information is registred in `ls$` (life-story) and `rel$` (relation) groups.
