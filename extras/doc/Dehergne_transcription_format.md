@@ -9,7 +9,7 @@ Produz-se um ficheiro por cada letra, para evitar ficheiros demasiados grandes.
 
 Os ficheiros têm os nomes dehergne-a.cli, dehergne-b.cli, dehergne-c.cli, etc...
 
-Cada ficheiro inclui uma fonte com `id` dehergne-A, dehergne-B, dehergne-C, etc...
+Cada ficheiro inclui uma fonte com `id` dehergne-a, dehergne-b, dehergne-c, etc...
 
 Cada "fonte" inclui um único "acto", do tipo `lista$` com `id` dehergne-notices-a,  dehergne-notices-b, dehergne-notices-c, etc... e sem data.
 
@@ -17,7 +17,7 @@ Cada "fonte" inclui um único "acto", do tipo `lista$` com `id` dehergne-notices
 O cabeçalho de cada ficheiro é assim:
 
     kleio$gacto2.str
-        fonte$dehergne-A/1973/Dicionário Biográfico
+        fonte$dehergne-a/1973/Dicionário Biográfico
             /Online archive.org:details:bhsi37
             /obs=Dehergne, Joseph, Répertoire des
              Jésuites de Chine, 
@@ -62,9 +62,12 @@ Transcrição da informação biográfica
         ls$morte/Changchow#no rio, a caminho do Japão/16110000
         ls$dehergne/1
 
-O desdobramento das abreviaturas vem detalhado na p. XIII da obra e é recapitulado de forma breve na página imediatamente anterior ao início da entradas (p.1). 
+O desdobramento das abreviaturas vem detalhado na p. XIII da obra 
+é recapitulado de forma breve na página imediatamente anterior 
+ao início da entradas (p.1). 
 
-As secções seguintes detalham a transcrição dos principais atributos das entradas da obra, nem todos presentes no exemplo acima. 
+As secções seguintes detalham a transcrição dos principais 
+atributos das entradas da obra, nem todos presentes no exemplo acima. 
 
 #### Nome, nacionalidade, posição na hierarquia jesuíta, número de ordem e identificador na base de dados ####
 
@@ -180,7 +183,7 @@ Notar que este P. aparece no corpo de algumas entradas quando o autor tem inform
 
 O P. no corpo da entrada é registado como `ls$jesuita-ordenacao-padre/LOCAL/DATA` 
 
-* Como dito acima o P. associado ao nome no cabeçalho da entrada fica registado como `ls$jesuita-estatuto/padre`. É sempre registado. Tal como na obra, uma entrada com dois P. fica com dois `ls$` um para o estatuto outro para a informação de ordenação.
+* Como dito acima o P. associado ao nome no cabeçalho da entrada fica registado como `ls$jesuita-estatuto/padre`. É sempre registado. Tal como na obra, uma entrada com dois P. fica com dois `ls$`, um para o estatuto,outro para a informação de ordenação.
 
 Se o local é desconhecido coloca-se "?". A data na forma AAAMMDD com zeros nos elementos desconhecidos.
 
