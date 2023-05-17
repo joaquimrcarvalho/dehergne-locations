@@ -450,7 +450,7 @@ Assim na primeira entrada, de António de Abreu ficaria:
             ls$wicky/486/16020325
             ls$jesuita-votos/Negaptattinam%Negapatami (Négapatam)/16040106
             ls$morte/Changchow#no rio, a caminho do Japão/16110000/obs=Talvez 漳州 (Zhangzhou) Fujian
-            ls$dehergne/1/obs=E. Goa, déc. 1579 (DI XII, 612 n. 54). 
+            ls$dehergne/1/obs="""E. Goa, déc. 1579 (DI XII, 612 n. 54). 
             Emb. non prêtre, le 25 mars 1602, sur le S. Valentim 
             (W 486) | V. « Negapatami » (Négapatam), 6 janv. 1604, 
             pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la 
@@ -462,12 +462,16 @@ Assim na primeira entrada, de António de Abreu ficaria:
             (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage 
             le 31 oct. 1611, mais à Coulam, sur la côte malabare 
             (Goa 24 II). HS 43a, 2v parle, semble-t-il, 
-            de ce dernier qu'il reporte à l'an 1612.
+            de ce dernier qu'il reporte à l'an 1612."""
 
 
 
-Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada para o elemento `obs` não contenha os carateres especiais seguintes: $/=#%; . No caso desses caracters ocorrerem (= e ; ocorrerem com alguma frequência no texto devem ser substituídos. Por exemplo "=" por "--" e ";" por ".,"
-
+Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada
+ para o elemento `obs` esteja delimitada por aspas triplas -"""- sempre que contenha os 
+ carateres especiais seguintes: $/=#%; . 
+ 
+ (originalmente a notação de triplas aspas não estava disponível pelo que a maior parte
+ das entrada evita o uso dos caracteres especiais referidos).
 
 ### Assinalar que dois registos dizem respeito à mesma pessoa ###
 
