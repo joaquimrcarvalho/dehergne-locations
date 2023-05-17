@@ -41,12 +41,10 @@ who travelled with whom. We recovered the fleet numbers from the Wicki list and
 added to each entry. More information in the 
 transcription documentation [in portuguese](./extras/doc/Dehergne_transcription_format.md)
 
-
 Current work on identifying place names is going
 on in a fork:
 
     https://github.com/joaquimrcarvalho/dehergne-locations 
-
 
 Idenfication of locations is done by adding a linked data identifier to each location.
 
