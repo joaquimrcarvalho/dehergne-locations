@@ -1,6 +1,6 @@
 ### Entradas em Dehergne com referências a Coimbra ###
 
-As referências podem ser: nascidos em Coimbra ou na diocése de Coimbra, entrada para o noviciado em Coimbra, ordenação ou votos em Coimbra, estudos em Coimbra.
+As referências podem ser: nascidos em Coimbra ou na diocese de Coimbra, entrada para o noviciado em Coimbra, ordenação ou votos em Coimbra, estudos em Coimbra.
 
 Sabemos que missionários sem referências a Coimbra  nesta obra estiveram de facto em Coimbra, pelo menos durante alguns meses esperando o embarque (Ricci, Verbiest). Esses serão introduzidos posteriormente.
 
