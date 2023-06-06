@@ -47,7 +47,7 @@ Wikidata. Information on place names in Wikidata includes geographic coordinates
 
 The Wikidata identifier is a URI that can be used to retrieve information about the place from the web. For example, the URI for Macau is <https://www.wikidata.org/wiki/Q14773>. The identifier is the part of the URI after the last slash, `Q14773`.
 
-To identify a place in the sources we use the Wikidata identifier after the place name, as a comment. Comment are introduced with the cardonal sign(#) For example:
+To identify a place in the sources we use the Wikidata identifier after the place name, as a comment. Comments are introduced with the cardonal sign(#) For example:
 
     ls$estadia/macau#@wikidata:Q14773
 
@@ -56,6 +56,6 @@ If there was a previous comment on the entry the new comment is added after a sp
       ls$morte/Changchow, China#no rio, a caminho do Japão @wikidata:Q57970/16110000
 
 If the identifier is not available in Wikidata, or there
-ambiguity in the identification, add a comment with the work ILOC. For example:
+ambiguity in the identification, add a comment with the word ILOC. For example:
 
     ls$estadia/Changchow, China#ILOC
