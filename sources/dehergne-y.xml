@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-y.cli" TRANSLATOR="gactoxml2.str" WHEN="2023-6-6 8:14:15" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/system/conf/kleio/stru/gacto2.str" SOURCE="/kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-y.cli" TRANSLATOR="gactoxml2.str" WHEN="2023-6-16 10:28:47" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -114,9 +114,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="16654" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-etienne-yang-att1-15" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
+<GROUP ID="deh-etienne-yang-att1-16" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att1-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att1-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -127,16 +127,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[China]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att1-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att2-15" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
+<GROUP ID="deh-etienne-yang-att2-16" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att2-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att2-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -147,16 +147,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att2-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att2-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att3-15" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
+<GROUP ID="deh-etienne-yang-att3-16" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att3-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att3-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -168,16 +168,16 @@
          <core><![CDATA[Etienne Laforest]]></core>         <comment><![CDATA[enquanto está em Paris]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att3-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att3-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att4-15" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
+<GROUP ID="deh-etienne-yang-att4-16" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att4-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att4-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -188,16 +188,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yang Tche-Tö Tö-wang]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att4-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att4-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att5-15" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
+<GROUP ID="deh-etienne-yang-att5-16" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att5-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att5-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -208,16 +208,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Se-tö-wang, Stephanus]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att5-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att5-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att6-15" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
+<GROUP ID="deh-etienne-yang-att6-16" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att6-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att6-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -228,16 +228,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yang Té-wang]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att6-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att6-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att7-15" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
+<GROUP ID="deh-etienne-yang-att7-16" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att7-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att7-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -251,16 +251,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17330208]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att7-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att7-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17330208]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att8-15" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
+<GROUP ID="deh-etienne-yang-att8-16" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att8-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att8-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -273,16 +273,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17510707]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att8-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att8-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17510707]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att9-15" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
+<GROUP ID="deh-etienne-yang-att9-16" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att9-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att9-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -291,20 +291,21 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Paris]]></core>   </ELEMENT>
+         <core><![CDATA[Paris]]></core>         <comment><![CDATA[ @wikidata:Q90]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17590310]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att9-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att9-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17590310]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att10-15" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
+<GROUP ID="deh-etienne-yang-att10-16" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att10-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att10-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -317,16 +318,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17621218]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att10-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att10-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17621218]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att11-15" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
+<GROUP ID="deh-etienne-yang-att11-16" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att11-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att11-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -339,16 +340,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att11-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att11-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att12-15" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
+<GROUP ID="deh-etienne-yang-att12-16" NAME="ls" CLASS="attribute" ORDER="16" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att12-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att12-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -362,16 +363,16 @@
          <core><![CDATA[17650201]]></core>         <comment><![CDATA[como padre secular, já que a companhia fora suprimida]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att12-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att12-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-rel1-15" NAME="rel" CLASS="relation" ORDER="17" LEVEL="4" LINE="20">
+<GROUP ID="deh-etienne-yang-rel1-16" NAME="rel" CLASS="relation" ORDER="17" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rel1-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rel1-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -388,16 +389,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-rel1-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-rel1-16]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att13-15" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="21">
+<GROUP ID="deh-etienne-yang-att13-16" NAME="ls" CLASS="attribute" ORDER="18" LEVEL="4" LINE="21">
     <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att13-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att13-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -411,16 +412,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17650702]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att13-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att13-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650702]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att14-15" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
+<GROUP ID="deh-etienne-yang-att14-16" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att14-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att14-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -435,16 +436,16 @@
          <core><![CDATA[17651117]]></core>         <comment><![CDATA[até]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att14-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att14-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17651117]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att15-15" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
+<GROUP ID="deh-etienne-yang-att15-16" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att15-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att15-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -459,16 +460,16 @@
          <core><![CDATA[17660202]]></core>         <comment><![CDATA[volta a ser jesuíta]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att15-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att15-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17660202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att16-15" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
+<GROUP ID="deh-etienne-yang-att16-16" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att16-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att16-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -481,16 +482,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17670000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att16-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att16-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17670000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att17-15" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
+<GROUP ID="deh-etienne-yang-att17-16" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att17-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att17-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -504,16 +505,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att17-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att17-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att18-15" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
+<GROUP ID="deh-etienne-yang-att18-16" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att18-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att18-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -526,16 +527,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att18-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att18-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att19-15" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
+<GROUP ID="deh-etienne-yang-att19-16" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att19-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att19-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -549,16 +550,16 @@
          <core><![CDATA[17840125]]></core>         <comment><![CDATA[título transferido ao novo superior]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att19-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att19-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att20-15" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
+<GROUP ID="deh-etienne-yang-att20-16" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="28">
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att20-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att20-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -572,16 +573,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att20-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att20-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att21-15" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="29">
+<GROUP ID="deh-etienne-yang-att21-16" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="29">
     <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att21-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att21-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -594,16 +595,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17850000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att21-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att21-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17850000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att22-15" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="30">
+<GROUP ID="deh-etienne-yang-att22-16" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att22-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att22-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -617,16 +618,16 @@
          <core><![CDATA[17870500]]></core>         <comment><![CDATA[preso]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att22-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att22-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17870500]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att23-15" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="31">
+<GROUP ID="deh-etienne-yang-att23-16" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="31">
     <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att23-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att23-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -640,16 +641,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17890000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att23-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att23-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17890000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att24-15" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="32">
+<GROUP ID="deh-etienne-yang-att24-16" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="32">
     <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att24-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att24-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -662,16 +663,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17890000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att24-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att24-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17890000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att25-15" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="4" LINE="33">
+<GROUP ID="deh-etienne-yang-att25-16" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="4" LINE="33">
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att25-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att25-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -680,20 +681,21 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-ordenacao-padre]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Paris]]></core>   </ELEMENT>
+         <core><![CDATA[Paris]]></core>         <comment><![CDATA[ @wikidata:Q90]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att25-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att25-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att26-15" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="34">
+<GROUP ID="deh-etienne-yang-att26-16" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="34">
     <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att26-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att26-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -706,16 +708,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att26-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att26-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att27-15" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="35">
+<GROUP ID="deh-etienne-yang-att27-16" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="35">
     <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att27-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att27-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -730,16 +732,16 @@
          <core><![CDATA[17980000]]></core>         <comment><![CDATA[?]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att27-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att27-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17980000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att28-15" NAME="ls" CLASS="attribute" ORDER="33" LEVEL="4" LINE="36">
+<GROUP ID="deh-etienne-yang-att28-16" NAME="ls" CLASS="attribute" ORDER="33" LEVEL="4" LINE="36">
     <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att28-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att28-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -752,16 +754,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Yang (Laforest), Etienne (chin.) P. 911 Yang Tche-To Tô-wang (Se-tô-wang, Stephanus)., Pf.: Yang Té-wang. N. 8 févr. 1733 près de Pékin -E. Paris, 10 mars 1759 (Fr.) (Il avait quitté Pékin pour La Flèche et Paris, 7 juill. 1751). Emb. à Lorient, avec Aloys Kao comme prêtres séculiers (la Compagnie supprimée en France) le 1er févr. 1765, sur le Duc de Choiseul., 2 juill., Macao., 29 juill. Canton, qu'ils quittent v. le 17 nov.., arr. Pékin, 2 févr. 1766 (B. Institut, ms 1520, f° 162) et redeviennent jésuites., 1767, Yang au Kiangsi., Louis XVI le nomme, 30 nov. 1776, procureur de la mission française à Canton (AN: Colon. F5A 24 f 57., Rochemonteix, 222-223, charge transférée, 25 janv. 1784, au nouveau supérieur, Raux)., 1785, de nouveau au Kiangsi (M 447, 1385) où arrêté à Pé-pou du Linkiang fou, mai 1787., en 1789, à Pékin et en Tartarie (Ai 448, 93), missions.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att28-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att28-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att29-15" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="37">
+<GROUP ID="deh-etienne-yang-att29-16" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="37">
     <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att29-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att29-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -774,16 +776,16 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[P. diacre 18 déc. 1762, et prêtre, 28 mai 1763, par Mgr Christophe de Beaumont, archevêque de Paris, qui l'incardine alors à son diocèse, ainsi que Louis Kao, et qui accepte ensuite leur retour en Chine (Archive historique, Archev. de Paris, Registre des ordinations 1761-1770, p. 46). M. 1798?, au Kiangsi ? (RBS 396: en 1790, s'offre à aller en Corée). Fils d'André Yang et de Catherine LI (Arch. histor. archidiocèse de Paris 4rDs 2, Registre des Ordin.). . Portrait : montré en 1769 par Bertin à un Chinois de passage à Paris « qui vous a reconnu» (B. Institut 1521 f° 121). Il se fait appeler aussi, durant son séjour en France, Laforest. Les dates respectives de Kao et de Yang font question. Le registre d'entrée au noviciat (BN: ms. lat. 10988) dit Yang né le 19 janv. 1732 et Kao le 8 févr. 1733, et c'est aussi l'avis du P. Bourgeois (AN: Colon. FSA 23 f 96v).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att29-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att29-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-att30-15" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="39">
+<GROUP ID="deh-etienne-yang-att30-16" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="39">
     <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att30-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-att30-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -796,7 +798,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Pf. 920., Bernard [Maître], BUA 1949, 151-197., Combaluzier, F., BCP 1940. 310- 314., Dehergne, J., Voyageurs chinois vertus à Paris au temps de la marine à voiles... MS 23 (1964), 372-397 (extrait de la thèse Les deux Chinois de Bertin: l'enquête industrielle de 1764 et les débuts de la collaboration technique francochinoise (Université de Paris, thèse 1965, non éditée)., Bernard-Maître, H., Les sciences et ta correspondance de la mission française de Pékin au 18' siècle, XII' Congrès international d'histoire des Sciences, Paris, 1968, Actes XI, 1971, 11-15.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-att30-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-att30-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -892,9 +894,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-etienne-yang-ref1-att31-15" NAME="ls" CLASS="attribute" ORDER="42" LEVEL="5" LINE="45">
+<GROUP ID="deh-etienne-yang-ref1-att31-16" NAME="ls" CLASS="attribute" ORDER="42" LEVEL="5" LINE="45">
     <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att31-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att31-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -905,16 +907,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Louis Kao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att31-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att31-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att32-15" NAME="ls" CLASS="attribute" ORDER="43" LEVEL="5" LINE="46">
+<GROUP ID="deh-etienne-yang-ref1-att32-16" NAME="ls" CLASS="attribute" ORDER="43" LEVEL="5" LINE="46">
     <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att32-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att32-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -928,16 +930,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17320119]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att32-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att32-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17320119]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att33-15" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="5" LINE="47">
+<GROUP ID="deh-etienne-yang-ref1-att33-16" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="5" LINE="47">
     <ELEMENT NAME="line" CLASS="line"><core>47</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att33-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att33-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -950,16 +952,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att33-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att33-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att34-15" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="5" LINE="48">
+<GROUP ID="deh-etienne-yang-ref1-att34-16" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="5" LINE="48">
     <ELEMENT NAME="line" CLASS="line"><core>48</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att34-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att34-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -973,16 +975,16 @@
          <core><![CDATA[17650201]]></core>         <comment><![CDATA[como padre secular, já que a companhia fora suprimida]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att34-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att34-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650201]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att35-15" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="5" LINE="49">
+<GROUP ID="deh-etienne-yang-ref1-att35-16" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="5" LINE="49">
     <ELEMENT NAME="line" CLASS="line"><core>49</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att35-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att35-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -996,16 +998,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17650702]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att35-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att35-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17650702]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att36-15" NAME="ls" CLASS="attribute" ORDER="47" LEVEL="5" LINE="50">
+<GROUP ID="deh-etienne-yang-ref1-att36-16" NAME="ls" CLASS="attribute" ORDER="47" LEVEL="5" LINE="50">
     <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att36-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att36-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1020,16 +1022,16 @@
          <core><![CDATA[17651117]]></core>         <comment><![CDATA[até]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att36-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att36-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17651117]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att37-15" NAME="ls" CLASS="attribute" ORDER="48" LEVEL="5" LINE="51">
+<GROUP ID="deh-etienne-yang-ref1-att37-16" NAME="ls" CLASS="attribute" ORDER="48" LEVEL="5" LINE="51">
     <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att37-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att37-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1044,16 +1046,16 @@
          <core><![CDATA[17660202]]></core>         <comment><![CDATA[volta a ser jesuíta]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att37-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att37-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17660202]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref1-att38-15" NAME="ls" CLASS="attribute" ORDER="49" LEVEL="5" LINE="53">
+<GROUP ID="deh-etienne-yang-ref1-att38-16" NAME="ls" CLASS="attribute" ORDER="49" LEVEL="5" LINE="53">
     <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att38-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref1-att38-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1062,11 +1064,12 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-ordenacao-padre]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Paris]]></core>   </ELEMENT>
+         <core><![CDATA[Paris]]></core>         <comment><![CDATA[ @wikidata:Q90]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref1-att38-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref1-att38-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1102,9 +1105,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-etienne-yang-ref2-att39-15" NAME="ls" CLASS="attribute" ORDER="52" LEVEL="5" LINE="55">
+<GROUP ID="deh-etienne-yang-ref2-att39-16" NAME="ls" CLASS="attribute" ORDER="52" LEVEL="5" LINE="55">
     <ELEMENT NAME="line" CLASS="line"><core>55</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref2-att39-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref2-att39-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1117,16 +1120,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref2-att39-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref2-att39-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref2-rel2-15" NAME="rel" CLASS="relation" ORDER="53" LEVEL="5" LINE="57">
+<GROUP ID="deh-etienne-yang-ref2-rel2-16" NAME="rel" CLASS="relation" ORDER="53" LEVEL="5" LINE="57">
     <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref2-rel2-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref2-rel2-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref2</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1143,7 +1146,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17761130]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref2-rel2-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref2-rel2-16]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-etienne-yang-ref2]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1181,9 +1184,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rela6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-etienne-yang-ref3-att40-15" NAME="ls" CLASS="attribute" ORDER="56" LEVEL="5" LINE="59">
+<GROUP ID="deh-etienne-yang-ref3-att40-16" NAME="ls" CLASS="attribute" ORDER="56" LEVEL="5" LINE="59">
     <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att40-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att40-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1196,16 +1199,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref3-att40-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref3-att40-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref3-att41-15" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="60">
+<GROUP ID="deh-etienne-yang-ref3-att41-16" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="60">
     <ELEMENT NAME="line" CLASS="line"><core>60</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att41-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att41-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1219,16 +1222,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref3-att41-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref3-att41-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17840125]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref3-att42-15" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="5" LINE="62">
+<GROUP ID="deh-etienne-yang-ref3-att42-16" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="5" LINE="62">
     <ELEMENT NAME="line" CLASS="line"><core>62</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att42-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref3-att42-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref3</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1243,7 +1246,7 @@
          <core><![CDATA[17840125]]></core>         <comment><![CDATA[?]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref3-att42-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref3-att42-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref3]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1279,9 +1282,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-etienne-yang-ref4-att43-15" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="5" LINE="64">
+<GROUP ID="deh-etienne-yang-ref4-att43-16" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="5" LINE="64">
     <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att43-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att43-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1292,16 +1295,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Monsenhor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref4-att43-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref4-att43-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref4-att44-15" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="65">
+<GROUP ID="deh-etienne-yang-ref4-att44-16" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="65">
     <ELEMENT NAME="line" CLASS="line"><core>65</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att44-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att44-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1314,16 +1317,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref4-att44-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref4-att44-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref4-att45-15" NAME="ls" CLASS="attribute" ORDER="63" LEVEL="5" LINE="66">
+<GROUP ID="deh-etienne-yang-ref4-att45-16" NAME="ls" CLASS="attribute" ORDER="63" LEVEL="5" LINE="66">
     <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att45-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-att45-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1332,20 +1335,21 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Paris]]></core>   </ELEMENT>
+         <core><![CDATA[Paris]]></core>         <comment><![CDATA[ @wikidata:Q90]]></comment>
+   </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref4-att45-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref4-att45-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-etienne-yang-ref4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref4-rel3-15" NAME="rel" CLASS="relation" ORDER="64" LEVEL="5" LINE="67">
+<GROUP ID="deh-etienne-yang-ref4-rel3-16" NAME="rel" CLASS="relation" ORDER="64" LEVEL="5" LINE="67">
     <ELEMENT NAME="line" CLASS="line"><core>67</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-rel3-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-rel3-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1362,16 +1366,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref4-rel3-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref4-rel3-16]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-etienne-yang-ref4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-etienne-yang-ref4-rel4-15" NAME="rel" CLASS="relation" ORDER="65" LEVEL="5" LINE="69">
+<GROUP ID="deh-etienne-yang-ref4-rel4-16" NAME="rel" CLASS="relation" ORDER="65" LEVEL="5" LINE="69">
     <ELEMENT NAME="line" CLASS="line"><core>69</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-rel4-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-etienne-yang-ref4-rel4-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>rel</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-etienne-yang-ref4</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -1388,7 +1392,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630528]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-etienne-yang-ref4-rel4-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-etienne-yang-ref4-rel4-16]]></core>   </ELEMENT>
    <ELEMENT NAME="origin" CLASS="origin">
          <core><![CDATA[deh-etienne-yang-ref4]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1424,9 +1428,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-y-rela8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-thomas-yang-att46-15" NAME="ls" CLASS="attribute" ORDER="68" LEVEL="4" LINE="71">
+<GROUP ID="deh-thomas-yang-att46-16" NAME="ls" CLASS="attribute" ORDER="68" LEVEL="4" LINE="71">
     <ELEMENT NAME="line" CLASS="line"><core>71</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att46-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att46-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1437,16 +1441,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[China]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att46-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att46-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att47-15" NAME="ls" CLASS="attribute" ORDER="69" LEVEL="4" LINE="72">
+<GROUP ID="deh-thomas-yang-att47-16" NAME="ls" CLASS="attribute" ORDER="69" LEVEL="4" LINE="72">
     <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att47-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att47-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1457,16 +1461,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Frade Coadjutor]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att47-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att47-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att48-15" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="73">
+<GROUP ID="deh-thomas-yang-att48-16" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="73">
     <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att48-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att48-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1477,16 +1481,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yang Ta T'ong-Ming]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att48-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att48-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att49-15" NAME="ls" CLASS="attribute" ORDER="71" LEVEL="4" LINE="74">
+<GROUP ID="deh-thomas-yang-att49-16" NAME="ls" CLASS="attribute" ORDER="71" LEVEL="4" LINE="74">
     <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att49-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att49-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1499,16 +1503,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16680000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att49-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att49-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[16680000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att50-15" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="75">
+<GROUP ID="deh-thomas-yang-att50-16" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="75">
     <ELEMENT NAME="line" CLASS="line"><core>75</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att50-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att50-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1519,16 +1523,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Catequista]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att50-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att50-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att51-15" NAME="ls" CLASS="attribute" ORDER="73" LEVEL="4" LINE="76">
+<GROUP ID="deh-thomas-yang-att51-16" NAME="ls" CLASS="attribute" ORDER="73" LEVEL="4" LINE="76">
     <ELEMENT NAME="line" CLASS="line"><core>76</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att51-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att51-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1542,16 +1546,16 @@
          <core><![CDATA[17511123]]></core>         <comment><![CDATA[octagenário obtém ao morrer os seus votos de religião, depois de vários anos ao serviço dos padres franceses]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att51-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att51-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17511123]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att52-15" NAME="ls" CLASS="attribute" ORDER="74" LEVEL="4" LINE="77">
+<GROUP ID="deh-thomas-yang-att52-16" NAME="ls" CLASS="attribute" ORDER="74" LEVEL="4" LINE="77">
     <ELEMENT NAME="line" CLASS="line"><core>77</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att52-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att52-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1565,16 +1569,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17511123]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att52-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att52-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17511123]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-thomas-yang-att53-15" NAME="ls" CLASS="attribute" ORDER="75" LEVEL="4" LINE="79">
+<GROUP ID="deh-thomas-yang-att53-16" NAME="ls" CLASS="attribute" ORDER="75" LEVEL="4" LINE="79">
     <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att53-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-yang-att53-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-yang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1587,7 +1591,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Yang, Thomas (et non Théodore) (chin.) fr. coadj. 912 Yang Ta T'ong-Mlng (Pf.). N. 1668. Longtemps au service des Pères français, catéchiste octogénaire, obtient, en mourant, de faire ses voeux de religion, 23 nov. 1751 (JS 184, 219). M. Pékin, 23 nov. 1751. Pf. 868 distingue, à tort, les n°s 400 et 452, p. 983: il s'agit, pensons-nous, de la même personne.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-thomas-yang-att53-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-thomas-yang-att53-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-thomas-yang]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1623,9 +1627,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-y-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-jean-yao-att54-15" NAME="ls" CLASS="attribute" ORDER="78" LEVEL="4" LINE="81">
+<GROUP ID="deh-jean-yao-att54-16" NAME="ls" CLASS="attribute" ORDER="78" LEVEL="4" LINE="81">
     <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att54-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att54-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1636,16 +1640,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[China]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att54-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att54-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att55-15" NAME="ls" CLASS="attribute" ORDER="79" LEVEL="4" LINE="82">
+<GROUP ID="deh-jean-yao-att55-16" NAME="ls" CLASS="attribute" ORDER="79" LEVEL="4" LINE="82">
     <ELEMENT NAME="line" CLASS="line"><core>82</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att55-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att55-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1656,16 +1660,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att55-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att55-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att56-15" NAME="ls" CLASS="attribute" ORDER="80" LEVEL="4" LINE="83">
+<GROUP ID="deh-jean-yao-att56-16" NAME="ls" CLASS="attribute" ORDER="80" LEVEL="4" LINE="83">
     <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att56-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att56-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1676,16 +1680,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Jean-Baptiste Yao]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att56-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att56-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att57-15" NAME="ls" CLASS="attribute" ORDER="81" LEVEL="4" LINE="84">
+<GROUP ID="deh-jean-yao-att57-16" NAME="ls" CLASS="attribute" ORDER="81" LEVEL="4" LINE="84">
     <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att57-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att57-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1696,16 +1700,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yao Jo-han]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att57-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att57-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att58-15" NAME="ls" CLASS="attribute" ORDER="82" LEVEL="4" LINE="85">
+<GROUP ID="deh-jean-yao-att58-16" NAME="ls" CLASS="attribute" ORDER="82" LEVEL="4" LINE="85">
     <ELEMENT NAME="line" CLASS="line"><core>85</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att58-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att58-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1719,16 +1723,16 @@
          <core><![CDATA[17220000]]></core>         <comment><![CDATA[?]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att58-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att58-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17220000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att59-15" NAME="ls" CLASS="attribute" ORDER="83" LEVEL="4" LINE="86">
+<GROUP ID="deh-jean-yao-att59-16" NAME="ls" CLASS="attribute" ORDER="83" LEVEL="4" LINE="86">
     <ELEMENT NAME="line" CLASS="line"><core>86</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att59-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att59-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1740,16 +1744,16 @@
          <core><![CDATA[Kiangsi]]></core>         <comment><![CDATA[dizem que nasceu lá e que passa lá a infância]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att59-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att59-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att60-15" NAME="ls" CLASS="attribute" ORDER="84" LEVEL="4" LINE="87">
+<GROUP ID="deh-jean-yao-att60-16" NAME="ls" CLASS="attribute" ORDER="84" LEVEL="4" LINE="87">
     <ELEMENT NAME="line" CLASS="line"><core>87</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att60-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att60-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1760,16 +1764,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Mercador]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att60-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att60-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att61-15" NAME="ls" CLASS="attribute" ORDER="85" LEVEL="4" LINE="88">
+<GROUP ID="deh-jean-yao-att61-16" NAME="ls" CLASS="attribute" ORDER="85" LEVEL="4" LINE="88">
     <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att61-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att61-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1783,16 +1787,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17630000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att61-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att61-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17630000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att62-15" NAME="ls" CLASS="attribute" ORDER="86" LEVEL="4" LINE="89">
+<GROUP ID="deh-jean-yao-att62-16" NAME="ls" CLASS="attribute" ORDER="86" LEVEL="4" LINE="89">
     <ELEMENT NAME="line" CLASS="line"><core>89</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att62-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att62-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1805,16 +1809,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17670517]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att62-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att62-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17670517]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att63-15" NAME="ls" CLASS="attribute" ORDER="87" LEVEL="4" LINE="90">
+<GROUP ID="deh-jean-yao-att63-16" NAME="ls" CLASS="attribute" ORDER="87" LEVEL="4" LINE="90">
     <ELEMENT NAME="line" CLASS="line"><core>90</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att63-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att63-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1825,16 +1829,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Honan]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att63-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att63-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att64-15" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="4" LINE="91">
+<GROUP ID="deh-jean-yao-att64-16" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="4" LINE="91">
     <ELEMENT NAME="line" CLASS="line"><core>91</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att64-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att64-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1845,16 +1849,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Pequim]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att64-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att64-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att65-15" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="4" LINE="92">
+<GROUP ID="deh-jean-yao-att65-16" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="4" LINE="92">
     <ELEMENT NAME="line" CLASS="line"><core>92</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att65-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att65-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1867,16 +1871,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17750000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att65-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att65-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17750000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att66-15" NAME="ls" CLASS="attribute" ORDER="90" LEVEL="4" LINE="93">
+<GROUP ID="deh-jean-yao-att66-16" NAME="ls" CLASS="attribute" ORDER="90" LEVEL="4" LINE="93">
     <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att66-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att66-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1889,16 +1893,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att66-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att66-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att67-15" NAME="ls" CLASS="attribute" ORDER="91" LEVEL="4" LINE="94">
+<GROUP ID="deh-jean-yao-att67-16" NAME="ls" CLASS="attribute" ORDER="91" LEVEL="4" LINE="94">
     <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att67-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att67-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1911,16 +1915,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att67-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att67-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17900000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att68-15" NAME="ls" CLASS="attribute" ORDER="92" LEVEL="4" LINE="95">
+<GROUP ID="deh-jean-yao-att68-16" NAME="ls" CLASS="attribute" ORDER="92" LEVEL="4" LINE="95">
     <ELEMENT NAME="line" CLASS="line"><core>95</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att68-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att68-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1933,16 +1937,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17920000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att68-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att68-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17920000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att69-15" NAME="ls" CLASS="attribute" ORDER="93" LEVEL="4" LINE="96">
+<GROUP ID="deh-jean-yao-att69-16" NAME="ls" CLASS="attribute" ORDER="93" LEVEL="4" LINE="96">
     <ELEMENT NAME="line" CLASS="line"><core>96</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att69-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att69-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1955,16 +1959,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17920000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att69-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att69-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17920000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att70-15" NAME="ls" CLASS="attribute" ORDER="94" LEVEL="4" LINE="97">
+<GROUP ID="deh-jean-yao-att70-16" NAME="ls" CLASS="attribute" ORDER="94" LEVEL="4" LINE="97">
     <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att70-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att70-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1978,16 +1982,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17660000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att70-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att70-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17660000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att71-15" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="98">
+<GROUP ID="deh-jean-yao-att71-16" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="98">
     <ELEMENT NAME="line" CLASS="line"><core>98</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att71-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att71-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2000,16 +2004,16 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[17960000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att71-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att71-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[17960000]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-jean-yao-att72-15" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="99">
+<GROUP ID="deh-jean-yao-att72-16" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="99">
     <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att72-15</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-jean-yao-att72-16</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-yao</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2022,7 +2026,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Yao, Jean (il signe ainsi, et non Jean-Baptiste) (chin.) P. 913 Yao Jo-han (Pf.). N. Ché-hien, quartier du Hweichow (Houei-tcheou fou), celui du Anhwei (Ngan-houei), 1722 ? Marchand converti et E. Pékin, 1763. Serment 17 mai 1767 (SOCP t. 55, 1765-1768, f° 663)., Missions au Honan., à Pékin., au Kiangnan, dès 1775 (Krahl 220)., fonde la chrétienté du Haimen en 1790-1792, Kiang-sou. P. 1766 (Krahl, 109) ordonné par Mgr de Laimbeckhoven (au Honan?). M. Sou-tcheou fou, Kiang-sou, 1796. Il signe Jean Yao (SOCP t. 55 f° 663)., on le déclare né au Kiang-si (où il passe son enfance) (SOCP t. 59, 1771, f> 306v). Pf. 910.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-jean-yao-att72-15]]></core>   </ELEMENT>
+         <core><![CDATA[deh-jean-yao-att72-16]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-jean-yao]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
