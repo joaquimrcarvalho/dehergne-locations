@@ -47,6 +47,9 @@ on in a fork:
 
     https://github.com/joaquimrcarvalho/dehergne-locations 
 
+
+Idenfication of locations is done by adding a linked data identifier to each location.
+
 ## License
 
 Timelink link software is distributed under a MIT license that includes usage for commercial purposes. 
