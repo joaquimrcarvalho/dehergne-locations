@@ -61,7 +61,7 @@ kleio$gacto2.str/translations=119
             ls$chegada/Macau# @wikidata:Q14773/16940718
             ls$jesuita-cargo/Socius de Francesco Maria Spinola/16940718/obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
             rel$institucional/Socius/Francesco Maria Spinola/deh-manuel-de-sa-ref1/data=16940718/obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
-            ls$estadia/Goa#empêché d'aller à Pékin, il retourne à Goa, puis en Europe
+            ls$estadia/Goa#empêché d'aller à Pékin, il retourne à Goa, puis en Europe @wikidata:Q1171
             ls$estadia/Europa
             ls$embarque/[Para Goa]/17090408
             ls$wicky/1534a%corrigido segundo Wicky, Dehergne coloca erradamente o número 153a/17090408
@@ -534,7 +534,7 @@ kleio$gacto2.str/translations=119
             ls$wicky/1943/17490000
             ls$wicky-viagem/168/17490000
             ls$estadia/Damão/17520000#chamado para a China, mas fica na Índia
-            ls$estadia/Goa
+            ls$estadia/Goa # @wikidata:Q1171
             ls$jesuita-cargo/Procurador
             ls$estadia/Mysore/17520000
             ls$estadia/Mysore/17540000#está lá há dois anos
@@ -835,7 +835,7 @@ kleio$gacto2.str/translations=119
             ls$wicky-viagem/120/16970000
             ls$estadia/Mysore
             ls$jesuita-votos/4V/17020815
-            ls$jesuita-votos-local/Goa (noviciado)/17020815
+            ls$jesuita-votos-local/Goa (noviciado)# @wikidata:Q1171/17020815
             ls$morte/Goa# @wikidata:Q1171/17120403
             ls$dehergne/763/obs=Serra, Giacinto (Hyacinthe) (ital.) P. 763 N. 12 mai 1667, Gênes -E. 30 juill. 1685 (Med. 60, 175v). P. v. 1695, Milan (Med. 60, 175v). Emb. 1697 (W 1373). V. 15 août 1702, au noviciat de Goa, pr. (Lus. 12, 181). M. Goa, 3 avril 1712 (HS 51, 147). Est marqué, en 1697 comme ministre de la maison professe de Goa, mais « appartenant à la vice-province de Chine » (Goa 27, 118, 120). Nous ne trouvons pas son nom aux catat. Goa, 1698., Chine, 1697., Japon 1697. En fait, il sera missionnaire à Mysore (Maïssour) (Goa 26, 24).
 
@@ -1142,7 +1142,7 @@ kleio$gacto2.str/translations=119
             ls$nascimento/São João de Areias/16470000
             ls$jesuita-entrada/Coimbra# @wikidata:Q45412/16680000
             ls$jesuita-votos/4V/16850202
-            ls$jesuita-votos-local/Goa (casa professa)/16850202
+            ls$jesuita-votos-local/Goa (casa professa)# @wikidata:Q1171/16850202
             ls$dehergne/777/obs=Silva, João da (port.) (II) P. 777 Les catal. brefs de Goa de 1678 et de 1681 citent comme envoyé en Chine le P. maître Joâo da Sylva (Goa 27, 94 et lOOv). Nous connaissons un Joâo da Silva N. Sâo Joâo do Areas, 1647, E. Coïmbre, 1668 (Goa 25, 280), V. Goa, maison professe, 2 févr. 1685., pr.: Jo. da Silva (Lus. 10, 245). Il s'agit donc d'un prêt de la province de Goa à celle du Japon (Macao).
 
          n$José da Silva/id=deh-jose-da-silva
@@ -1327,7 +1327,7 @@ kleio$gacto2.str/translations=119
             ls$estadia/Pequim#enviado doente
             ls$jesuita-ordenacao-padre/?/16810000#antes de
             ls$jesuita-votos/4V/16850202#ou 16810815, segundo Pf.
-            ls$jesuita-votos-local/Goa (casa professa)/16850202#ou 16810815, segundo Pf.
+            ls$jesuita-votos-local/Goa (casa professa)# @wikidata:Q1171/16850202#ou 16810815, segundo Pf.
             ls$morte/Pequim# @wikidata:Q956/16940505#ou junho
             ls$dehergne/785/obs=Simões (Simõis), Francisco (port.) P. 785 Kouo T'ien-Tsio, Leang-Kouei (Pf.). N. 8 sept. 1650 -E. 28 oct. 1666. Emb., novice, 22 avril 1668 (W 1107)., Indes., arr. 1690, Macao (SF V, 221)., Nankin et Shanghai, Kiang-nan, 1691 (JS 134, 375)., Shantung, 1692., Chengtirig (Tcheng-ting fou, Hopei) en 1693 (JA 49-V-22 f 145, 150)., 1694, au Kiang-nan (Goa 27, 107)., malade, envoyé à Pékin. P. avant 1681. M. « nonas maji 1694 », Pékin (JS 116a, 287v), le 5 mai 1694 (SF V, 248., VI, 131., Planchet, p. 168). HS 49, 85v et 50, 48 disent juin 1694, P. Franc. « Simoeri apud Sinas »! Pf. 461. V. 15 août 1681 dit Pf.., mais nous trouvons à Lus. 10, 254 les formules d'un P. Franc. Simois V. 2 févr. 1685, Goa, maison professe, pr.
 
@@ -1342,8 +1342,8 @@ kleio$gacto2.str/translations=119
             ls$embarque/?/17410000
             ls$wicky/1888/17410000
             ls$wicky-viagem/160/17410000
-            ls$chegada/?#Goa?/17430000
-            ls$estadia/?#Goa?/17460410#prisioneiro
+            ls$chegada/?#Goa? @wikidata:Q1171/17430000
+            ls$estadia/?#Goa? @wikidata:Q1171/17460410#prisioneiro
             ls$chegada/Macau# @wikidata:Q14773/17470702#expulso para, tem ordem de regressar à Europa no próximo navio
             ls$estadia/Pequim# @wikidata:Q956/17480000
             ls$estadia/Macau# @wikidata:Q14773/17520000
@@ -1488,11 +1488,11 @@ kleio$gacto2.str/translations=119
             ls$profissao/Cirurgião
             ls$cargo/Cirurgião-maior no exército do imperador austríaco
             ls$jesuita-entrada/Goa# @wikidata:Q1171/17360000#cerca de
-            ls$estadia/Goa (colégio de S. Paulo)/17400000
+            ls$estadia/Goa (colégio de S. Paulo)# @wikidata:Q1171/17400000
             ls$tarefa/Estuda Teologia Moral/17400000
             ls$profissao/Médico/17470300
             ls$estadia/Cochinchina# @wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]/17470300
-            ls$jesuita-ordenacao-padre/?#Goa?/17410000#cerca de
+            ls$jesuita-ordenacao-padre/?#Goa? @wikidata:Q1171/17410000#cerca de
             ls$morte/Hué, Cochinchina/17470607
             ls$dehergne/792/obs=Slamenski, Karl (bohém.) P. 792 N. « Bohemus », v. 1708. Chirurgien-major dans les armées de l'empereur d'Autriche., E. v. 1736, Goa (Goa 26, 240v). Médecin à la cour de Cochinchine, de mars 1747 à sa mort. P. v. 1741 (en 1740 au collège St Paul, Goa, en théologie morale, Goa 27, 166v). M. 7 juin 1747, en Cochinchine (WB V n° 714 p. 90), à Hué. HS 53, 64 le dit de la vice-province de Chine (à tort, semble-t-il). HUONDER, 183.
 
@@ -1743,7 +1743,7 @@ kleio$gacto2.str/translations=119
             ls$estadia/Goa# @wikidata:Q1171/16730000
             ls$jesuita-cargo/Procurador da província do Japão/16730000
             ls$jesuita-votos/4V/16750815
-            ls$jesuita-votos-local/Goa (casa professa)/16750815
+            ls$jesuita-votos-local/Goa (casa professa)# @wikidata:Q1171/16750815
             ls$morte/?/16830215#ou 16830410
             ls$dehergne/804/obs=Sotomaior (Sottomayor), Diogo [de] (port.) P. 804 Lo Ko-pei (= Jacques — «Ya-ko-pé» en chinois — Lo). N. « Transtaganus Vianensis », Viana do Alentejo, 1635 -E. 1651 (JS 25, 185v). Emb. 6 avril 1661 (W 1059)., 1664, Macao., 1665, Canton., Macao., procureur de la vice-province de Chine, à Canton., en 1673, devient à Goa procureur de la province du Japon (JS 25, 204, 206). V. 15 août 1675, Goa maison professe, pr. (Lus. 9, 206): Didac. de Sottomayor. M. 15 févr. (ou 10 avril) 1683. Pf. 370. — M., les 2 dates sont données successivement à 2 lignes de distance (HS 49, 56v)
 
@@ -1773,7 +1773,7 @@ kleio$gacto2.str/translations=119
             ls$embarque/[Para a China]/17340402
             ls$wicky/1809/17340402
             ls$wicky-viagem/153/17340402
-            ls$morte/Goa (colégio)/17341203#era da vice-província da China
+            ls$morte/Goa (colégio)# @wikidata:Q1171/17341203#era da vice-província da China
             ls$dehergne/806/obs=Sousa (Souza), Inâcio de (port.) P. 806 Emb. pour la Chine, 2 avril 1734 (W 1809., Lus. 48, 199v). M. au collège de Goa, 3 déc. 1734, il était de la vice-province de Chine (HS 53a, 6., Goa 27, 165v). Deux autres missionnaires de ce nom, l'un, au Brésil, N. Lisbonne, févr. 1704, E. 17 févr. 1719, V. Olinde, 15 août 1737., déporté en 1760 de Récife pour Lisbonne, et M. à Rome, 8 juill. 1764., — et l'autre, N. 1655, E. 1674 (Lits. 46, 11), M. «in missione Senensi», Senna, province de Goa (et non « Sinensi», vice-province de Chine).
 
             referido$Inácio de Sousa/id=deh-inacio-de-sousa-ref1
@@ -1833,7 +1833,7 @@ kleio$gacto2.str/translations=119
             ls$estadia/Cantão# @wikidata:Q16572/17070402#exilado
             ls$estadia/Cantão#exilado novamente, depois de reentrar
             ls$estadia/Macau# @wikidata:Q14773/17170912
-            ls$estadia/Goa
+            ls$estadia/Goa# @wikidata:Q1171
             ls$jesuita-ordenacao-padre/?/17060000#antes de
             ls$jesuita-votos/?/17120731
             ls$jesuita-votos-local/Fatshan (igreja de S. José)/17120731
@@ -1856,7 +1856,7 @@ kleio$gacto2.str/translations=119
             ls$wicky/661/16180416
             ls$wicky-viagem/57/16180400#meados do mês, 16180416 segundo Dehergne
             rel$sociabilidade/Companheiro/Nicolas Trigault/deh-matias-de-sousa-ref1/data=16180416
-            ls$estadia/Goa
+            ls$estadia/Goa# @wikidata:Q1171
             ls$tarefa/Faz os seus estudos#em Goa
             ls$estadia/Baçaim
             ls$estadia/Europa
