@@ -59,7 +59,7 @@ kleio$gacto2.str/translations=61
             ls$jesuita-entrada/?/16320422
             ls$profissao/Professor de Física no colégio de Tulle%auditor Physicae/16350000
             ls$estadia/Tulle (colégio)/16350000
-            ls$estadia/Toulouse/16420000
+            ls$estadia/Toulouse# @wikidata:Q7880/16420000
             ls$tarefa/Estuda Teologia - 4º ano/16420000
             ls$embarque/?/16450406
             ls$wicky/931/16450406
@@ -84,7 +84,7 @@ kleio$gacto2.str/translations=61
             ls$estadia/Hopei/16880000
             ls$jesuita-cargo/Visitador do colégio de Pequim/16880000#em 1692 tinha passado quatro anos na missão da Índia e 40 na da China
             ls$estadia/China# @wikidata:Q148/16920000
-            ls$jesuita-ordenacao-padre/Toulouse#?/16420000#depois de
+            ls$jesuita-ordenacao-padre/Toulouse#? @wikidata:Q7880/16420000#depois de
             ls$jesuita-votos/4V/16501202
             ls$jesuita-votos-local/Macau# @wikidata:Q14773/16501202
             ls$morte/Tsinan fou/16961007
@@ -358,7 +358,7 @@ kleio$gacto2.str/translations=61
 
          n$Pero Vasques/id=deh-pero-vasques/obs=será um erro por Pero Vaz, Dehergne 873?
             ls$jesuita-estatuto/Padre
-            ls$estadia/China#Macau?/15720000
+            ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
             ls$jesuita-cargo/Superior da missão da China/15720000
             rel$sociabilidade/Companheiro/António Pais/deh-pero-vasques-ref1
             rel$institucional/Sucede/Pero Vaz/deh-pero-vasques-ref9/data=15720000
@@ -368,34 +368,34 @@ kleio$gacto2.str/translations=61
                ls$jesuita-estatuto/Frade Coadjutor
                ls$nome/António Paes
                ls$nome/António Paiz
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
 
             referido$Nome desconhecido/id=deh-pero-vasques-ref2
                ls$jesuita-estatuto/Padre
                ls$cargo/Bispo
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
 
             referido$António Vaz/id=deh-pero-vasques-ref3
                ls$jesuita-estatuto/Padre
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
                ls$nome/António Vaas
 
             referido$Christovão da Costa/id=deh-pero-vasques-ref4
                ls$jesuita-estatuto/Padre
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
 
             referido$Ynofre Roiz/id=deh-pero-vasques-ref5
                ls$jesuita-estatuto/Padre
                ls$nome/Ynofre Rodrigues
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
 
             referido$João Francisco Estephanonio/id=deh-pero-vasques-ref6
                ls$jesuita-estatuto/Padre
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
 
             referido$Jacome da Fonseca/id=deh-pero-vasques-ref7
                ls$jesuita-estatuto/Frade#escolástico?
-               ls$estadia/China#Macau?/15720000
+               ls$estadia/China#Macau? @wikidata:Q148 ou @wikidata:Q14773/15720000
                ls$profissao/Mestre escola
 
             referido$Pero Vaz/id=deh-pero-vasques-ref8
@@ -567,7 +567,7 @@ kleio$gacto2.str/translations=61
             ls$embarque/S. Carlos/16180400#meados do mês
             ls$wicky/664/16180400
             ls$wicky-viagem/57/16180400#meados do mês
-            ls$estadia/Goa (colégio)/16200000
+            ls$estadia/Goa (colégio)# @wikidata:Q1171/16200000
             ls$dehergne/876/obs=Veiga, Joâo da (port.) scol. 876 N. 1597, Verros -E. 1614 (Goa 25, 24). Emb. mi-avril 1618 pour la Chine sur le S. Carlos (W 664). En 1620, au collège de Goa. N'est pas aux catal. de Chine 1621, 1626, ni de Goa, 1627.
 
          n$Louis Velay/id=deh-louis-velay
@@ -585,7 +585,7 @@ kleio$gacto2.str/translations=61
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/Lisboa# @wikidata:Q597/16310000
-            ls$jesuita-entrada/Goa#?/16450000#com 14 anos
+            ls$jesuita-entrada/Goa#? @wikidata:Q1171/16450000#com 14 anos
             ls$idade/14/16450000
             ls$embarque/Bom Jesus do Carmo/16560330
             ls$wicky/1013/16560330
@@ -614,7 +614,7 @@ kleio$gacto2.str/translations=61
             ls$nome/Gonzalo de Belmonte
             ls$nascimento/Moguer/15410000
             ls$jesuita-entrada/?/15771218
-            ls$estadia/México#a caminho da China
+            ls$estadia/México#a caminho da China @wikidata:Q96
             ls$chegada/Macau# @wikidata:Q14773/15900000#não consegue penetrar no continente
             ls$estadia/Peru/15980000#cerca de, depois de 8 anos de espera, impossibilitado de entrar na China vai para o Peru, em 1594 é prisioneiro com Leandro Felipe
             rel$sociabilidade/Companheiro/Leandro Felipe/deh-gonzalo-de-velmonte-ref1/data=15980000
@@ -879,9 +879,9 @@ kleio$gacto2.str/translations=61
             ls$estadia/Superior da missão#do Kiangnan?
             ls$chegada/Macau# @wikidata:Q14773/17560401#preso em Maio de 1754 e exilado
             ls$estadia/Macau# @wikidata:Q14773/17610000
-            ls$estadia/Filipinas/17680000
+            ls$estadia/Filipinas# @wikidata:Q928/17680000
             ls$jesuita-votos/4V/17468015#ou 17470202
-            ls$jesuita-votos-local/Lisboa (casa professa)/17468015#se for esta a data ou 17470202
+            ls$jesuita-votos-local/Lisboa (casa professa)# @wikidata:Q597/17468015#se for esta a data ou 17470202
             ls$morte/?/17680000#depois desta data
             ls$dehergne/885/obs=Viegas, Manuel de (port.) P. 885 Lleou Ma-no (SOCP t. 51, 1757, P 521v: Lieu Ma-no., M 445, 245-248). Wel Ma-no, selon Siao II, 111. N. Morvam, d. de Portalègre, 2 juill. 1713 -E. 31 juill. 1729, M. A. (JS 134, 440), v. ci-dessous. Emb. non prêtre, en 1746 (W 1911)., procureur de la vice-province de Chine, à Goa, dit-on en 1751 (JS 134, 438)., arr. 1752 au Kiangnan (JS 134, 442, 446)., supérieur de la mission., arrêté, mai 1754., exilé à Macao, y arr. 1 avril 1756 (SOCP, 1757-1760, P 525-528)., 1761, Macao (JS 98, 74)., en 1768 était aux Philippines (Cushner, 68). V. 15 août 1746, ou 2 févr. 1747, pr. (JS 134, 434, 446). Nous trouvons à Lisbonne, maison professe, les V. d'un Emmanuel Viegaz 15 août 1746 (Lus. 16 II, 219). M. après 1768 (date du dernier catalogue des Philippines). Le catal. de 1717 le dit N. S. Marcos, d. d'Evora, E. 9 mai 1717 (Lus. 47, 198)., le catal. de 1734 ignore le précédent et donne les dates ci-dessus N. 2 juill. 1713, Morvam, E. 31 juill. 1729. Pf. 869.
 
@@ -894,9 +894,9 @@ kleio$gacto2.str/translations=61
             ls$embarque/S. Salvador/15810408#não padre
             ls$wicky/225/15810408
             ls$wicky-viagem/27/15810408
-            ls$estadia/Goa
+            ls$estadia/Goa# @wikidata:Q1171
             ls$jesuita-cargo/Procurador
-            ls$estadia/Roma
+            ls$estadia/Roma# @wikidata:Q220
             ls$embarque/S. Roque/16020325
             ls$wicky/450a/16020325
             ls$wicky-viagem/44/16020325
@@ -952,7 +952,7 @@ kleio$gacto2.str/translations=61
             ls$partida/Pequim# @wikidata:Q956/17070000
             ls$profissao/Boticário#na Corte, durante 6 anos
             ls$cargo/Boticário da Corte/17070000
-            ls$estadia/Goa
+            ls$estadia/Goa# @wikidata:Q1171
             ls$cargo/Boticário do hospital real de Goa
             ls$jesuita-cargo/Procurador da vice-província da China#Na Índia/17250000
             ls$estadia/Aquilon
@@ -976,7 +976,7 @@ kleio$gacto2.str/translations=61
             ls$wicky-viagem/44/16020325
             ls$jesuita-cargo/Mestre dos Noviços/16040000
             ls$estadia/Macau# @wikidata:Q14773/16040000
-            ls$estadia/Manila#a caminho do Japão
+            ls$estadia/Manila#a caminho do Japão @wikidata:Q1461
             ls$chegada/Japão# @wikidata:Q17/16150800
             ls$estadia/Macau# @wikidata:Q14773/16191100
             ls$jesuita-cargo/Secretário da Congregação Provincial do Japão/16191100
@@ -995,7 +995,7 @@ kleio$gacto2.str/translations=61
             ls$wicky/738a/16290403
             ls$wicky-viagem/67/16290403
             ls$estadia/Macau#a caminho do Japão
-            ls$estadia/Filipinas#a caminho do Japão
+            ls$estadia/Filipinas#a caminho do Japão @wikidata:Q928
             ls$chegada/Japão# @wikidata:Q17/16320000
             ls$jesuita-cargo/Vice-provincial do Japão/16330803
             ls$jesuita-cargo/Vice-provincial do Japão/16340500#é preso
@@ -1008,7 +1008,7 @@ kleio$gacto2.str/translations=61
 
             referido$Urbano VIII/id=deh-sebastiao-vieira-ref1
                ls$cargo/Papa
-               ls$residencia/Roma
+               ls$residencia/Roma# @wikidata:Q220
                rel$eclesiastica/Recebe duas vezes/Sebastião Vieira/deh-sebastiao-vieira/data=16260500#cerca de
 
             referido$Cristophe Ferreira/id=deh-sebastiao-vieira-ref2
@@ -1100,7 +1100,7 @@ kleio$gacto2.str/translations=61
             ls$jesuita-tarefa/Tenta descobrir um caminho por terra para a China%Vers 1703 il renouvelle sa tentative avec le P. Beauclerc à la suite du prince tartare « don Carlos » d'Ispahan pour la Chine. Mais la Perse refuse alors le passage (?)./17030000#cerca de
             rel$sociabilidade/Companheiro/Beauclerc/deh-jacques-villotte-ref1/data=17030000#cerca de
             ls$estadia/Pérsia# @wikidata:Q83311/17030000#cerca de, é barrado, Camp. 13, 198 et 262v põe-no na Arménia entre 1700 e 1705
-            ls$estadia/França
+            ls$estadia/França# @wikidata:Q142
             ls$estadia/Bar-le-Duc/17120000
             ls$jesuita-cargo/Reitor/17120000
             ls$jesuita-ordenacao-padre/?/16810000#cerca de
