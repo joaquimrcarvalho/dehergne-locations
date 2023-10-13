@@ -105,8 +105,8 @@ kleio$gacto2.str/translations=126
             ls$nome/Pierre Lamiral
             ls$nome/Pierre Amiral
             ls$nome/Xavier Lamiral
-            ls$nascimento/Champagne, Turny (Yonne)/17231215#baptizado nesse dia
-            ls$baptizado/Champagne, Turny (Yonne)/17231215
+            ls$nascimento/Champagne, Turny (Yonne)# @wikidata:Q780655/17231215#baptizado nesse dia
+            ls$baptizado/Champagne, Turny (Yonne)# @wikidata:Q780655/17231215
             ls$jesuita-entrada/Nancy# @wikidata:Q40898/17440630#ou 17440730
             ls$estadia/Lorient# @wikidata:Q71724/17660118
             ls$embarque/Duc de Duras/17660118
@@ -146,7 +146,7 @@ kleio$gacto2.str/translations=126
 
             referido$Pierre l'Admiral/id=deh-pierre-ladmiral-ref4
                ls$jesuita-estatuto/Padre
-               ls$nascimento/Diocese de Nevers/17411120
+               ls$nascimento/Diocese de Nevers# @wikidata:Q873021/17411120
                ls$jesuita-entrada/Paris# @wikidata:Q90/17561011
                ls$morte/Douzy, Ardennes# @wikidata:Q877384/18230600
                ls$dehergne/441-ref4/obs=Ne pas le confondre avec le P. Pierre L'Admiral, N. diocèse de Nevers 20 nov. 1741, E. 11 oct. 1756, Paris, et M. à Douzy, Ardennes, juin 1823. « Fils de Toussaint Ladmiral (profession non indiqué
@@ -221,7 +221,7 @@ kleio$gacto2.str/translations=126
             referido$Philippe de Fontaine/id=deh-jean-philippe-sidoine-de-la-fontaine-ref3
                ls$nascimento/Douai# @wikidata:Q193826/16830109
                ls$jesuita-entrada/?/16990930
-               ls$morte/Valenciennes# wikidata:Q163795/17590412
+               ls$morte/Valenciennes# @wikidata:Q163795/17590412
                ls$dehergne/443-ref3/obs=Distinct du Philippe de Fontaine N. à Douai, 9 janv. 1683, E. 30 sept. 1699, M. à Valenciennes, 12 avr. 1759 (Sommervogel, III, col. 848)
 
             referido$Jacques de La Fontaine/id=deh-jean-philippe-sidoine-de-la-fontaine-ref4
@@ -385,7 +385,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Hukwang/17590000
             ls$estadia/Pequim# @wikidata:Q956/17620000#cerca de
             ls$estadia/Pequim# @wikidata:Q956/17750000
-            ls$jesuita-ordenacao-padre/Noyon/17530528#cerca de
+            ls$jesuita-ordenacao-padre/Noyon# @wikidata:Q49831/17530528#cerca de
             ls$jesuita-votos/Coadjutor Espiritual/17600430
             ls$jesuita-votos-local/Hou quang/17600430
             ls$morte/Pequim# @wikidata:Q956/17960730
@@ -513,7 +513,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-cargo/Visitador do Japão e da China/17210908
             ls$estadia/Pequim# @wikidata:Q956
             ls$cargo/Legado do imperador
-            ls$estadia/Cantão#como legado
+            ls$estadia/Cantão#como legado @wikidata:Q16572
             ls$estadia/Nan-tch'ang fou, Kiangsi/17220000
             ls$estadia/Nan-tch'ang fou, Kiangsi/17250000
             ls$estadia/Cantão# @wikidata:Q16572/17250000#exilado
@@ -732,7 +732,7 @@ kleio$gacto2.str/translations=126
             ls$nome-chines/Lieu Tie Ngo
             ls$nascimento/Paris# @wikidata:Q90/16130320
             ls$jesuita-entrada/Paris# @wikidata:Q90/16300108
-            ls$estadia/Pérsia#a caminho de Goa
+            ls$estadia/Pérsia#a caminho de Goa @wikidata:Q83311
             ls$estadia/Goa#através da Pérsia @wikidata:Q1171/16540000
             ls$estadia/Sião# @wikidata:Q869
             ls$estadia/China# @wikidata:Q148/16561105
@@ -882,7 +882,7 @@ kleio$gacto2.str/translations=126
          n$Abraham Le Royer/id=deh-abraham-le-royer
             ls$nacionalidade/França
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Domfront, diocese de Mans/16460209
+            ls$nascimento/Domfront, diocese de Mans# @wikidata:Q659992/16460209
             ls$jesuita-entrada/Paris# @wikidata:Q90/16650831
             ls$estadia/Brest# @wikidata:Q12193/16870301
             ls$embarque/Oyseau/16870301
@@ -913,7 +913,7 @@ kleio$gacto2.str/translations=126
             rel$sociabilidade/Companheiro/Claudio Filippo Grimaldi/deh-jean-pierre-levert-ref1/data=16930000
             ls$estadia/Arménia#durante 17 anos @wikidata:Q399
             ls$estadia/São Tomé# @wikidata:Q3932
-            ls$estadia/Surat
+            ls$estadia/Surat# @wikidata:Q735073
             ls$estadia/França# @wikidata:Q142
             ls$jesuita-ordenacao-padre/?/16770000
             ls$jesuita-votos/4V/16810202
@@ -947,7 +947,7 @@ kleio$gacto2.str/translations=126
             ls$nascimento/Neisse, Silésia# @wikidata:Q815721/16670120
             ls$jesuita-entrada/?/16851014
             ls$jesuita-tarefa/Pede para ir para a China/17050126
-            ls$estadia/Wrocław#Breslau @wikidata:Q1799/17050126
+            ls$estadia/Wrocław%Breslau# @wikidata:Q1799/17050126
             ls$embarque/[Para a China]/17060000
             ls$wicky/1488/17060000
             ls$wicky-viagem/129/17060000
@@ -958,7 +958,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-ordenacao-padre/?/16960000
             ls$jesuita-ordenacao-padre/?/17000000
             ls$jesuita-votos/4V/17030202
-            ls$jesuita-votos-local/Wrocław#Breslau @wikidata:Q1799/17030202
+            ls$jesuita-votos-local/Wrocław%Breslau# @wikidata:Q1799/17030202
             ls$morte/Pequim# @wikidata:Q956/17110426
             ls$dehergne/468/obs=Liebstain (Llebsteln), Leopold (bohém.) P. 468 Lien Tai-Wa, Che (M 443, 676: Léopold Lintaiva (germ.), Xe « = Che ». Che K'o-Cheng Sleou-Tchal (Pf.)., Lei. N. 20 janv. 1667, « Nissensis », Neisse en Silésie (Streit VII, 2689). E. 14 oct. 1685 (Boh. 90 II, 592). Demande la Chine, lettre de Breslau, 26 janv. 1705 (Indip.). Emb. 1706 pour la Chine (W 1488)., Macao, 1707., Pékin, 22 nov. 1707 (SF VI, 639), musicien à la Cour. P. entre 1696 et 1700, d'après les catalogues. V. « Wratislaviae », Breslau, 2 févr. 1703, pr. (Germ. 31, 130). M. 26 avril 1711, Pékin. Pf. 617.
 
@@ -1018,7 +1018,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-estatuto/Padre
             ls$nome-chines/Lieou To-mé
             ls$nome-chines/Tao-Lou
-            ls$nascimento/Pequim#província/17261230
+            ls$nascimento/Pequim#província @wikidata:Q956/17261230
             ls$partida/França# @wikidata:Q142
             rel$sociabilidade/Companheiro/Pierre Foureau/deh-thomas-jean-baptiste-lieou-ref1
             ls$chegada/Paris (colégio Louis-le-Grand)# @wikidata:Q90/17420609
@@ -1474,7 +1474,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Hupei
             ls$estadia/Hukwang (montanhas)/17400315
             ls$estadia/Honan
-            ls$jesuita-ordenacao-padre/Paris#?# @wikidata:Q90/17370000
+            ls$jesuita-ordenacao-padre/Paris#? @wikidata:Q90/17370000
             ls$jesuita-votos/4V/17410310
             ls$jesuita-votos-local/Hukwang (monte Mou-pouan chan, no oratório de André Yuen)#« in Hou quang in monte Mou-Pouan chan in op[pido]. Kou-tchim in orat[orio]. dom[estico]. Andreae Yuen, 10 mars 1741 »/obs=assinam André Yuan e T'ang Stanislas, na falta de um padre jesuíta
             ls$morte/Hupei/17420821#ou 17430822
