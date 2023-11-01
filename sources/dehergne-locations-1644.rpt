@@ -1,5 +1,5 @@
-KleioTranslator - server version 10.18 - build 463 (MHK: 2065/master) (2022-06-15 14:08:16, MHK: 12/11/2022 13:27 )
-14-12-2022 10-52
+KleioTranslator - server version 12.0 - build 541 (MHK: 2235/master) (2023-07-04 04:34:23, MHK: 06/08/2023 04:15 )
+13-10-2023 4-47
 
 Processing data file dehergne-locations-1644.cli
 -------------------------------------------
@@ -12,18 +12,98 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 41
+Translation count: 44
 Obs: 
 ** Processing source fonte$dehergne-locations-1644
-93: geodesc$deh-chre-1644
+96: geodesc$deh-chre-1644
+
+ERROR: dehergne-locations-1644.cli line 105 ** Failure: undefined element.  no wikidata.
+
+Near lines: 105                geo3$Jenho#Jen-houo, hoje: Renhe, 仁和县, Historical county name. coordinate: 30.448897N, 120.307504E/tchou-hien/deh-r1644-jenho/ no wikidata.
+
+
+WARNING: dehergne-locations-1644.cli line 147 Element value exceeds database field length: type=burgo;Ou kin, hoje:? Dehergne(1957) did not give its Chinese name. In the Chinese translation it is recognized as “五井村”, which cannot be found.. Size:143 limit: 32
+Near lines: 147                   atr$activa/sim/1628
+
+
+ERROR: dehergne-locations-1644.cli line 170 ** Failure: undefined element. 
+
+Near lines: 170                   atr$activa/sim/1636/
+
+
+ERROR: dehergne-locations-1644.cli line 173 ** Failure: undefined element. 
+
+Near lines: 173                   atr$activa/sim/1636/
+
+
+WARNING: dehergne-locations-1644.cli line 197 Element value exceeds database field length: name=Aupua;Heupuen, hoje: Houban, 后坂, in the Chinese translation it is recognized as “章浦”（漳浦）, which is wrong. It should be "后坂", because "Aupua" corresponds to the prinunciation of "后坂" in the southern Fujina dialect, and in Dehergne(1957), it has another transcription "Heupuen", which proves it coordinate：24.50213852506329N, 117.6917197408656E. Size:342 limit: 64
+Near lines: 197             geo2$Chüanchow#Quanzhou, Ts'iuen-tcheou, hoje:Quanzhou, 泉州, @wikidata:Q68695/fou/deh-r1644-chuanchow
+
+
+ERROR: dehergne-locations-1644.cli line 204 ** Error: missing element(s) in atr(att-37) must have: valor
+Near lines: 204                   atr$alternative-name#hoje:Siming, 思明,  @wikidata:Q1374907, Siming is the historical name and the current central district of Xiamen in the Chinese translation it is written as“四明” (wrong character)
+
+
+ERROR: dehergne-locations-1644.cli line 220 ** Failure: undefined element. 
+
+Near lines: 220                atr$residencia-missao/Dominicanos/1638/
+
+
+ERROR: dehergne-locations-1644.cli line 229 ** Failure: undefined element. 
+
+Near lines: 229                geo3$Lokia/burgo%principaux bourgs#Lukiahsiang;Lokahoeng, hoje:Luojiaxiang, 罗家巷, in the Chinese translation, it is recognized as "闾峡", but in Dehergne(1957), it is noted as "罗家巷". "罗家巷" now is in 罗江.coordinate: 26.971131830911116N, 119.67270683499889E/deh-r1644-lokia/
+
+
+WARNING: dehergne-locations-1644.cli line 230 Element value exceeds database field length: type=burgo;Lokahoeng, hoje:Luojiaxiang, 罗家巷, in the Chinese translation, it is recognized as "闾峡", but in Dehergne(1957), it is noted as "罗家巷". "罗家巷" now is in 罗江.coordinate: 26.971131830911116N, 119.67270683499889E. Size:210 limit: 32
+Near lines: 230                   atr$activa/sim/1634
+
+
+WARNING: dehergne-locations-1644.cli line 273 Element value exceeds database field length: name=Kienning hien;Chienning, hoje:Jianning Xian, 建宁县, @wikidata:Q781559. Size:67 limit: 64
+Near lines: 273                   atr$activa/sim/1644
+
+
+WARNING: dehergne-locations-1644.cli line 304 Element value exceeds database field length: name=Taparri; in Dehergne(1957) it is noted as "大包里", Which cannot be found in the map. As Dehergne(1957) said it is at "Pninsule de Masu, à 1 lieue nord-ouest de San Salvador (社寮)", I gave the cordingate of Pninsule Masu: 25.201218764354735N, 121.68618375811317E. Size:258 limit: 64
+Near lines: 304                   atr$residencia-missao/Dominicanos/1630
+
+
+WARNING: dehergne-locations-1644.cli line 322 Element value exceeds database field length: name=Kweiteh;Kueite, hoje: Guide, 归德, @wikidata:Q404817, Today it is named 商丘 Shanqiu. Wikidata code is that of Shangqiu. Size:115 limit: 64
+Near lines: 322                atr$activa/sim/>1637#antes de
+
+
+WARNING: dehergne-locations-1644.cli line 345 Element value exceeds database field length: name=Kingchow;Chichou, hoje: Qizhou, 蕲州, @wikidata:Q14135188, in the Chinese translation it is recogniazed as “蕲水”, which is also a place at that area, but according to the phonetic, it should be "蕲州", which is also noted in Dehergne(1957).. Size:235 limit: 64
+Near lines: 345                geo3$Kungan#Kong-ngan, hoje:Gong'an, 公安, @wikidata:Q1198857/tchou-hien/deh-r1644-kungan
+
+
+WARNING: dehergne-locations-1644.cli line 386 Element value exceeds database field length: name=Siaolingwei;Hsiaolingwei, hoje: Xiaolingwei, 孝陵卫, @wikidata: Q8044278. Size:69 limit: 64
+Near lines: 386                   atr$activa/sim/1610#cerca de
+
+
+WARNING: dehergne-locations-1644.cli line 433 Element value exceeds database field length: name=Sungkiang;Sungching, hoje: Songjiang, 松江, @wikidata: Q11104671, 松江府 is an ancient superior prefecture of china. Size:110 limit: 64
+Near lines: 433                atr$residencia-missao/Jesuíta/1624
+
+
+WARNING: dehergne-locations-1644.cli line 448 Element value exceeds database field length: name=Chuking;Chuching, hoje:Zhujing, 朱泾, @wikidata: Q11094342, in the Chinese traslation it is written as “诸泾”, which should be “朱泾”. Size:127 limit: 64
+Near lines: 448                   atr$activa/sim/1642
+
+
+WARNING: dehergne-locations-1644.cli line 457 Element value exceeds database field length: name=Tsipao;Chipao, hoje: Qibao, 七宝, @wikidata: Q1875153, in the Chinses translation it is written as “七堡”, which should be “七宝”. Size:123 limit: 64
+Near lines: 457                   atr$activa/sim/1643
+
+
+WARNING: dehergne-locations-1644.cli line 507 Element value exceeds database field length: name=Tsingchow;Ts'ing-tcheou, hoje: Ilha Verde, 青州, @wikidata: Q3319473. Size:66 limit: 64
+Near lines: 507                   atr$activa/sim/1603
+
+
+WARNING: dehergne-locations-1644.cli line 510 Element value exceeds database field length: name=Wantchai;Wantchai, hoje: Wanzai, 湾仔, @wikidata: Q14342082, In the Chinese translation, Lappa is recognized as “浪白”, acutuallythe Portugese people called “湾仔 Wanzai” as Lappa. 湾仔 is now a place in Zhuhai.. Size:203 limit: 64
+Near lines: 510                   atr$activa/sim/1644
+
+
+WARNING: dehergne-locations-1644.cli line 527 Element value exceeds database field length: name=Kiungchow;Chiungchou, hoje: Qiongzhou, 琼州, @wikidata: Q1081204, Qiongzhou is the ancient name of Hainan Island. Wikidata code same as Hainan Island.. Size:148 limit: 64
+Near lines: 527                atr$activa/sim/1560
+
 *** End of File
 
 
-** Processed file- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.cli
-** Original file- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.org
-** Previous version- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.old
-** Temp file with ids- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.ids
-** - /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.cli-renamed to- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-locations-1644.old
-0  errors. 
-0  warnings.
+6  errors. 
+14  warnings.
 Translation finished.
