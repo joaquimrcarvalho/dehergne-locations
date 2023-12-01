@@ -1,5 +1,5 @@
-KleioTranslator - server version 2021.A4 - build 1957 (master) 13/08/2021 16:53 
-23-9-2021 11-59
+KleioTranslator - server version 12.0 - build 553 2023-09-27 16:03:59
+30-11-2023 11-21
 
 Processing data file dehergne-g.cli
 -------------------------------------------
@@ -12,21 +12,458 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 110
+Translation count: 116
 Obs: 
 ** Processing source fonte$dehergne-g
-** Base name of file dehergne-g in dehergne-g.cli
-6: lista$dehergne-notices-g
+18: lista$dehergne-notices-g
+
+ERROR: dehergne-g.cli line 978 ** Error: missing element(s) in ls(att-765) must have: valor
+Near lines: 978             ls$jesuita-entrada/?/16080502#ou 16090502, segundo Gouvea, A. de, & Araújo, H. P. de. (1998)p. 19-20 entrou em Coimbra segundo os
+
+
+ERROR: dehergne-g.cli line 981 ** Error: missing element(s) in ls(att-766) must have: valor
+Near lines: 981             ls$jesuita-tarefa/Sai da companhia
+
+
+ERROR: dehergne-g.cli line 982 ** Error: missing element(s) in ls(att-767) must have: valor
+Near lines: 982             ls$jesuita-entrada/?/16110000
+
+
+ERROR: dehergne-g.cli line 983 ** Error: missing element(s) in ls(att-768) must have: valor
+Near lines: 983             ls$embarque/[Para a Índia]/16230324
+
+
+ERROR: dehergne-g.cli line 984 ** Error: missing element(s) in ls(att-769) must have: valor
+Near lines: 984             ls$wicky/686/16230324
+
+
+ERROR: dehergne-g.cli line 985 ** Error: missing element(s) in ls(att-770) must have: valor
+Near lines: 985             ls$wicky-viagem/61/16230324
+
+
+ERROR: dehergne-g.cli line 986 ** Error: missing element(s) in ls(att-771) must have: valor
+Near lines: 986             ls$tarefa/Estuda Teologia/16230100#não era ainda padre
+
+
+ERROR: dehergne-g.cli line 987 ** Error: missing element(s) in ls(att-772) must have: valor
+Near lines: 987             ls$estadia/Goa# @wikidata:Q1171/16240000
+
+
+ERROR: dehergne-g.cli line 988 ** Error: missing element(s) in ls(att-773) must have: valor
+Near lines: 988             ls$estadia/China# @wikidata:Q148/16360000
+
+
+ERROR: dehergne-g.cli line 989 ** Error: missing element(s) in ls(att-774) must have: valor
+Near lines: 989             ls$estadia/Hangchow
+
+
+ERROR: dehergne-g.cli line 990 ** Error: missing element(s) in ls(att-775) must have: valor
+Near lines: 990             ls$estadia/Wuchang (Wou-tch'ang fou)
+
+
+ERROR: dehergne-g.cli line 991 ** Error: missing element(s) in ls(att-776) must have: valor
+Near lines: 991             ls$estadia/Foochow (Fou-tcheou fou), Fukien#Fuzhou, Fujian?/16480000
+
+
+ERROR: dehergne-g.cli line 992 ** Error: missing element(s) in ls(att-777) must have: valor
+Near lines: 992             ls$estadia/Foochow, Fukien#Fuzhou?/16560000
+
+
+ERROR: dehergne-g.cli line 993 ** Error: missing element(s) in ls(att-778) must have: valor
+Near lines: 993             ls$estadia/Foochow, Fukien#Fuzhou?/16650000/obs=preso na perseguição e enviado para o Cantão
+
+
+ERROR: dehergne-g.cli line 994 ** Error: missing element(s) in ls(att-779) must have: valor
+Near lines: 994             ls$estadia/Cantão# @wikidata:Q16572/16650000#em 1666 «appliqué à province du Japon»
+
+
+ERROR: dehergne-g.cli line 995 ** Error: missing element(s) in ls(att-780) must have: valor
+Near lines: 995             ls$jesuita-cargo/Vice-provincial da China/16690000#em Foochow
+
+
+ERROR: dehergne-g.cli line 996 ** Error: missing element(s) in ls(att-781) must have: valor
+Near lines: 996             ls$jesuita-cargo/Vice-provincial da China/16720000#em Foochow
+
+
+ERROR: dehergne-g.cli line 997 ** Error: missing element(s) in ls(att-782) must have: valor
+Near lines: 997             ls$estadia/Foochow, Fukien#Fuzhou?/16690000
+
+
+ERROR: dehergne-g.cli line 998 ** Error: missing element(s) in ls(att-783) must have: valor
+Near lines: 998             ls$estadia/Foochow, Fukien#Fuzhou?/16720000
+
+
+ERROR: dehergne-g.cli line 999 ** Error: missing element(s) in ls(att-784) must have: valor
+Near lines: 999             ls$jesuita-cargo/Visitador#durante 8 meses
+
+
+ERROR: dehergne-g.cli line 1000 ** Error: missing element(s) in ls(att-785) must have: valor
+Near lines: 1000             ls$profissao/Historiador
+
+
+ERROR: dehergne-g.cli line 1001 ** Error: missing element(s) in ls(att-786) must have: valor
+Near lines: 1001             ls$jesuita-votos/4V/16460714#completados a 16460727
+
+
+ERROR: dehergne-g.cli line 1002 ** Error: missing element(s) in ls(att-787) must have: valor
+Near lines: 1002             ls$jesuita-votos-local/Fukien#Fujian?/16460714
+
+
+ERROR: dehergne-g.cli line 1003 ** Error: missing element(s) in ls(att-788) must have: valor
+Near lines: 1003             ls$morte/Foochow, Fukien#Fuzhou?/16770214
+
+
+ERROR: dehergne-g.cli line 1004 ** Error: missing element(s) in ls(att-789) must have: valor
+Near lines: 1004             ls$dehergne/381/obs="""
+
+
+WARNING: dehergne-g.cli line 1040 Element value exceeds database field length: tipo=dehergne/381/obs=""" Gouvea, Antonio de (port.) P. 381  Gouveia., Govea. Ho Ta-Houa Tô-Tch'ouan (Pf.., JA 49-IV-15 f° 362 écrit: Lo Ta-Hoa).  N. Casai, d. de Vizeu, 1592 (JS 134, 312v).  E. 2 mai 1608 (Rivière 4634)., ou 1609 (JS 25, 184) et en 1611, car «dimissus, iterum admissus» (W p. 370).  — Lus. 44 II, 313 le dit N. à Gouvea, d. de Coïmbre, 1594,  E. 1608. Emb. pour les Indes, 24 mars 1623 (W 686).,  Goa, 1624., Chine, 1636.,  Hangchow., puis Wuchang (Wou-tch'ang fou).,  Foochow (Foutcheou fou) capitale du Fukien, 1648., en 1656  il y compte 8 chrétientés., arrêté à la persécution de 1665,  et relégué à Canton., appliqué à la province du Japon  en 1666 (JS 25, 183)., vice-provincial de Chine, 1669-1672,  Foocho., visiteur huit mois (selon JS 134, 348)., «in missione sinica fuit 27 annos», 27 ans de Chine,  disait déjà le catal. de 1666 (JS 25, 184). Historien (JS 107 et 129). P. (le catal. de janv. 1623  le marque en théologie, pas encore prêtre,  Lus. 39, 133v -V. «Fo kien», 14 juill.  (complétés le 27 juill.) 1646, pr. (Lus. 6, 142-142v).  Il signe: Ant. a Gouvea. M. 14 févr. 1677, Foochow.  HS 49, 5v dit: «febr., apud Sinas».  Son Innocentia Victrix, 1671.  Boxer III, 202: «The Portuguese Padre Ant. de Gouvea, S. J., was one  of Navarrete's bêtes noires». La Lettre que ce dernier  lui adresse, 29 sept. 1669, est étudiée ibid 206-208.,  cf. Boxer IV, photocopie et JA 49-V-16, 467-504.,  BN: chin 9261., JS II, 74. Pf. 220.  — Vak Hee, Le Bouddha et les premiers missionnaires  Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,  Pontes, M. de L. Belchior, A Asia Extrema do Padre  A. de G., Revista da Faculdade de Letras 22  (Lisboa, 1956), 271-286., AnG 710., Streit V n° 2396. """
+
+. Size:1716 limit: 512
+Near lines: 1040          n$Pierre de Goville/id=deh-pierre-de-goville
+
+
+ERROR: dehergne-g.cli line 1041 ** Error: missing element(s) in ls(att-790) must have: valor
+Near lines: 1041             ls$nacionalidade/França
+
+
+ERROR: dehergne-g.cli line 1042 ** Error: missing element(s) in ls(att-791) must have: valor
+Near lines: 1042             ls$jesuita-estatuto/Padre
+
+
+ERROR: dehergne-g.cli line 1043 ** Error: missing element(s) in ls(att-792) must have: valor
+Near lines: 1043             ls$nome/Pierre Degoville
+
+
+ERROR: dehergne-g.cli line 1044 ** Error: missing element(s) in ls(att-793) must have: valor
+Near lines: 1044             ls$nome/Pierre Degouville
+
+
+ERROR: dehergne-g.cli line 1045 ** Error: missing element(s) in ls(att-794) must have: valor
+Near lines: 1045             ls$nome/Pierre Gaudeville
+
+
+ERROR: dehergne-g.cli line 1046 ** Error: missing element(s) in ls(att-795) must have: valor
+Near lines: 1046             ls$nome-chines/Kouo Wei-Li Pei-tou
+
+
+ERROR: dehergne-g.cli line 1047 ** Error: missing element(s) in ls(att-796) must have: valor
+Near lines: 1047             ls$nascimento/Rouen# @wikidata:Q30974/16680920
+
+
+ERROR: dehergne-g.cli line 1048 ** Error: missing element(s) in ls(att-797) must have: valor
+Near lines: 1048             ls$jesuita-entrada/Paris# @wikidata:Q90/16840920
+
+
+ERROR: dehergne-g.cli line 1049 ** Error: missing element(s) in ls(att-798) must have: valor
+Near lines: 1049             ls$embarque/?/17010909
+
+
+ERROR: dehergne-g.cli line 1050 ** Error: missing element(s) in ls(att-799) must have: valor
+Near lines: 1050             ls$estadia/Kiangsi
+
+
+ERROR: dehergne-g.cli line 1051 ** Error: missing element(s) in ls(att-800) must have: valor
+Near lines: 1051             ls$estadia/Cantão# @wikidata:Q16572/17070000
+
+
+ERROR: dehergne-g.cli line 1052 ** Error: missing element(s) in ls(att-801) must have: valor
+Near lines: 1052             ls$jesuita-cargo/Procurador da missão francesa#da missão francesa no Cantão, responsável pela gestão das finanças, vide Dehergne p. 315, em 1713/17070000
+
+
+ERROR: dehergne-g.cli line 1053 ** Error: missing element(s) in ls(att-802) must have: valor
+Near lines: 1053             ls$estadia/Cantão# @wikidata:Q16572/17240000
+
+
+ERROR: dehergne-g.cli line 1054 ** Error: missing element(s) in ls(att-803) must have: valor
+Near lines: 1054             ls$jesuita-cargo/Procurador da missão francesa/17240000
+
+
+ERROR: dehergne-g.cli line 1055 ** Error: missing element(s) in ls(att-804) must have: valor
+Near lines: 1055             ls$estadia/Pequim# @wikidata:Q956/17190000
+
+
+ERROR: dehergne-g.cli line 1056 ** Error: missing element(s) in ls(att-805) must have: valor
+Near lines: 1056             ls$partida/França# @wikidata:Q142/17240100#no navio inglês Montagu
+
+
+ERROR: dehergne-g.cli line 1057 ** Error: missing element(s) in ls(att-806) must have: valor
+Near lines: 1057             ls$estadia/Paris# @wikidata:Q90/17241105
+
+
+ERROR: dehergne-g.cli line 1058 ** Error: missing element(s) in ls(att-807) must have: valor
+Near lines: 1058             ls$estadia/Versailles# @wikidata:Q621/17250202#apresentado a Luís XIV
+
+
+ERROR: dehergne-g.cli line 1059 ** Error: missing element(s) in ls(att-808) must have: valor
+Near lines: 1059             ls$jesuita-ordenacao-padre/?/16970000
+
+
+ERROR: dehergne-g.cli line 1060 ** Error: missing element(s) in ls(att-809) must have: valor
+Near lines: 1060             ls$jesuita-votos/4V/17061101
+
+
+ERROR: dehergne-g.cli line 1061 ** Error: missing element(s) in ls(att-810) must have: valor
+Near lines: 1061             ls$morte/Paris (casa professa)# @wikidata:Q90/17580123
+
+
+ERROR: dehergne-g.cli line 1062 ** Error: missing element(s) in ls(att-811) must have: valor
+Near lines: 1062             ls$dehergne/382/obs=Goville, Pierre de (franç.) P. 382 Degoville (JS 134, 418)., Degouville (Franc. 18, 407)., et, a tort, Gaudevile (WB n° 411, préface du fasc. XIX). Kouo Wei-Li Pei-tou (Pf.., B. Casanatense ms 2341, f° 34). N. Rouen, 20 sept. 1668 (JS 134, 418) -E. 20 sept. 1684, Paris (Fr.). Arr. 9 sept. 1701 (JS 134, 390v)., Kiangsi., procureur de la mission française à Canton, 1707-1724., voyage à Pékin, 1719., envoyé en France, janv. 1724, sur le navire anglais Montagu (JS 183, 150)., il écrit de Paris, 5 nov. 1724 (SRC t. 19, 1727). Présentation à Louis XIV à Versailles, 2 févr. 1725 (LE t. 12, 1819, p. 100). P. 1697 (Franc. 17, 28v) -V. 1 nov. 1706, pr., selon catal. primus Franciae 1723., formule non retrouvée. M. 23 janv. 1758, à la maison professe, Paris (HS 53a, 99., catal. Franc. 1758 ex.), presque nonagénaire. Pf. 578., BN: ms. fr. 25057, p. 468-470 et 827-829.
+
+
+WARNING: dehergne-g.cli line 1064 Element value exceeds database field length: tipo=dehergne/382/obs=Goville, Pierre de (franç.) P. 382 Degoville (JS 134, 418)., Degouville (Franc. 18, 407)., et, a tort, Gaudevile (WB n° 411, préface du fasc. XIX). Kouo Wei-Li Pei-tou (Pf.., B. Casanatense ms 2341, f° 34). N. Rouen, 20 sept. 1668 (JS 134, 418) -E. 20 sept. 1684, Paris (Fr.). Arr. 9 sept. 1701 (JS 134, 390v)., Kiangsi., procureur de la mission française à Canton, 1707-1724., voyage à Pékin, 1719., envoyé en France, janv. 1724, sur le navire anglais Montagu (JS 183, 150)., il écrit de Paris, 5 nov. 1724 (SRC t. 19, 1727). Présentation à Louis XIV à Versailles, 2 févr. 1725 (LE t. 12, 1819, p. 100). P. 1697 (Franc. 17, 28v) -V. 1 nov. 1706, pr., selon catal. primus Franciae 1723., formule non retrouvée. M. 23 janv. 1758, à la maison professe, Paris (HS 53a, 99., catal. Franc. 1758 ex.), presque nonagénaire. Pf. 578., BN: ms. fr. 25057, p. 468-470 et 827-829.
+
+. Size:887 limit: 512
+Near lines: 1064             referido$Luís XIV/id=deh-pierre-de-goville-ref1
+
+
+ERROR: dehergne-g.cli line 1065 ** Error: missing element(s) in rel(rel-29) must have: iddest nomedest valor
+Near lines: 1065                rel$sociabilidade/Recebe/Pierre de Goville/deh-pierre-de-goville/data=17250202
+
+
+WARNING: dehergne-g.cli line 1067 Element value exceeds database field length: tipo=sociabilidade/Recebe/Pierre de Goville/deh-pierre-de-goville/data=17250202
+
+. Size:76 limit: 32
+Near lines: 1067          n$Giampaolo Gozani/id=deh-giampaolo-gozani
+
+
+ERROR: dehergne-g.cli line 1068 ** Error: missing element(s) in ls(att-812) must have: valor
+Near lines: 1068             ls$nacionalidade/Itália
+
+
+ERROR: dehergne-g.cli line 1069 ** Error: missing element(s) in ls(att-813) must have: valor
+Near lines: 1069             ls$jesuita-estatuto/Padre
+
+
+ERROR: dehergne-g.cli line 1070 ** Error: missing element(s) in ls(att-814) must have: valor
+Near lines: 1070             ls$nome/Giampaolo Gozano
+
+
+ERROR: dehergne-g.cli line 1071 ** Error: missing element(s) in ls(att-815) must have: valor
+Near lines: 1071             ls$nome/Giampaolo Gosano
+
+
+ERROR: dehergne-g.cli line 1072 ** Error: missing element(s) in ls(att-816) must have: valor
+Near lines: 1072             ls$nome/Giampaolo Grosano
+
+
+ERROR: dehergne-g.cli line 1073 ** Error: missing element(s) in ls(att-817) must have: valor
+Near lines: 1073             ls$nome/Giampaolo Gozzani
+
+
+ERROR: dehergne-g.cli line 1074 ** Error: missing element(s) in ls(att-818) must have: valor
+Near lines: 1074             ls$nome/Giampaolo Gozalo
+
+
+ERROR: dehergne-g.cli line 1075 ** Error: missing element(s) in ls(att-819) must have: valor
+Near lines: 1075             ls$nome-chines/Lou Pao-lo
+
+
+ERROR: dehergne-g.cli line 1076 ** Error: missing element(s) in ls(att-820) must have: valor
+Near lines: 1076             ls$nome-chines/Lo Pao-lou
+
+
+ERROR: dehergne-g.cli line 1077 ** Error: missing element(s) in ls(att-821) must have: valor
+Near lines: 1077             ls$nome-chines/Lou Ngen-Tö
+
+
+ERROR: dehergne-g.cli line 1078 ** Error: missing element(s) in ls(att-822) must have: valor
+Near lines: 1078             ls$nascimento/Casale Monferrato%Casale, Piemonte# @wikidata:Q16333/16591202
+
+
+ERROR: dehergne-g.cli line 1079 ** Error: missing element(s) in ls(att-823) must have: valor
+Near lines: 1079             ls$jesuita-entrada/?/16741015
+
+
+ERROR: dehergne-g.cli line 1080 ** Error: missing element(s) in ls(att-824) must have: valor
+Near lines: 1080             ls$embarque/?#segundo a entrada de Cicero terá sido em Lisboa/16200408
+
+
+ERROR: dehergne-g.cli line 1081 ** Error: missing element(s) in ls(att-825) must have: valor
+Near lines: 1081             ls$wicky/1282/16900408
+
+
+ERROR: dehergne-g.cli line 1082 ** Error: missing element(s) in ls(att-826) must have: valor
+Near lines: 1082             ls$wicky-viagem/113/16900408
+
+
+ERROR: dehergne-g.cli line 1083 ** Error: missing element(s) in ls(att-827) must have: valor
+Near lines: 1083             ls$chegada/?/16941219
+
+
+ERROR: dehergne-g.cli line 1084 ** Error: missing element(s) in ls(att-828) must have: valor
+Near lines: 1084             ls$estadia/Kaifeng (K'ai-fong fou) (sinagoga)/16980000
+
+
+ERROR: dehergne-g.cli line 1085 ** Error: missing element(s) in ls(att-829) must have: valor
+Near lines: 1085             ls$cargo/Vigário Forâneo do bispo de Nanquim/16980000
+
+
+ERROR: dehergne-g.cli line 1086 ** Error: missing element(s) in ls(att-830) must have: valor
+Near lines: 1086             ls$estadia/Foochow, Fou-kien/16990000
+
+
+ERROR: dehergne-g.cli line 1087 ** Error: missing element(s) in ls(att-831) must have: valor
+Near lines: 1087             ls$estadia/Foochow, Fou-kien/17020000
+
+
+ERROR: dehergne-g.cli line 1088 ** Error: missing element(s) in ls(att-832) must have: valor
+Near lines: 1088             ls$estadia/Kaifeng/17030000
+
+
+ERROR: dehergne-g.cli line 1089 ** Error: missing element(s) in ls(att-833) must have: valor
+Near lines: 1089             ls$jesuita-cargo/Visitador do Japão e da China/17080100#?
+
+
+ERROR: dehergne-g.cli line 1090 ** Error: missing element(s) in ls(att-834) must have: valor
+Near lines: 1090             ls$estadia/Kaifeng/17110000
+
+
+ERROR: dehergne-g.cli line 1091 ** Error: missing element(s) in ls(att-835) must have: valor
+Near lines: 1091             ls$estadia/Kaifeng/17130000
+
+
+ERROR: dehergne-g.cli line 1092 ** Error: missing element(s) in ls(att-836) must have: valor
+Near lines: 1092             ls$tarefa/Oferece memorial a K'ang Hi/17131201
+
+
+ERROR: dehergne-g.cli line 1093 ** Error: missing element(s) in rel(rel-30) must have: iddest nomedest valor
+Near lines: 1093             rel$sociabilidade/Oferece memorial/K'ang Hi/deh-giampaolo-gozani-ref2/data=17131201
+
+
+WARNING: dehergne-g.cli line 1094 Element value exceeds database field length: tipo=sociabilidade/Oferece memorial/K'ang Hi/deh-giampaolo-gozani-ref2/data=17131201
+. Size:80 limit: 32
+Near lines: 1094             ls$jesuita-cargo/Visitador do Japão e da China/17140900
+
+
+ERROR: dehergne-g.cli line 1094 ** Error: missing element(s) in ls(att-837) must have: valor
+Near lines: 1094             ls$jesuita-cargo/Visitador do Japão e da China/17140900
+
+
+ERROR: dehergne-g.cli line 1095 ** Error: missing element(s) in ls(att-838) must have: valor
+Near lines: 1095             ls$jesuita-cargo/Reitor do colégio de Pequim
+
+
+ERROR: dehergne-g.cli line 1096 ** Error: missing element(s) in ls(att-839) must have: valor
+Near lines: 1096             ls$estadia/Kaifeng/17220000
+
+
+ERROR: dehergne-g.cli line 1097 ** Error: missing element(s) in ls(att-840) must have: valor
+Near lines: 1097             ls$estadia/Kanchow do Kiangsi/17240000#exilado para o Cantão, esconde-se aqui algum tempo
+
+
+ERROR: dehergne-g.cli line 1098 ** Error: missing element(s) in ls(att-841) must have: valor
+Near lines: 1098             ls$estadia/Cantão# @wikidata:Q16572/17250000#exilado
+
+
+ERROR: dehergne-g.cli line 1099 ** Error: missing element(s) in ls(att-842) must have: valor
+Near lines: 1099             ls$jesuita-cargo/Vice-provincial do Japão#o provincial estando no Tonquim/17250000
+
+
+ERROR: dehergne-g.cli line 1100 ** Error: missing element(s) in ls(att-843) must have: valor
+Near lines: 1100             ls$estadia/Cantão# @wikidata:Q16572/17250000
+
+
+ERROR: dehergne-g.cli line 1101 ** Error: missing element(s) in ls(att-844) must have: valor
+Near lines: 1101             ls$jesuita-cargo/Vice-provincial do Japão#o provincial estando no Tonquim/17260000
+
+
+ERROR: dehergne-g.cli line 1102 ** Error: missing element(s) in ls(att-845) must have: valor
+Near lines: 1102             ls$estadia/Cantão# @wikidata:Q16572/17260000
+
+
+ERROR: dehergne-g.cli line 1103 ** Error: missing element(s) in ls(att-846) must have: valor
+Near lines: 1103             ls$estadia/Macau# @wikidata:Q14773
+
+
+ERROR: dehergne-g.cli line 1104 ** Error: missing element(s) in ls(att-847) must have: valor
+Near lines: 1104             ls$jesuita-ordenacao-padre/?/16870000#ou 1688
+
+
+ERROR: dehergne-g.cli line 1105 ** Error: missing element(s) in ls(att-848) must have: valor
+Near lines: 1105             ls$jesuita-votos/4V/17001121
+
+
+ERROR: dehergne-g.cli line 1106 ** Error: missing element(s) in ls(att-849) must have: valor
+Near lines: 1106             ls$jesuita-votos-local/Foochow/17001121
+
+
+ERROR: dehergne-g.cli line 1107 ** Error: missing element(s) in ls(att-850) must have: valor
+Near lines: 1107             ls$morte/Macau (colégio de S. José)# @wikidata:Q14773/17320000/obs=data controversa: 23 de agosto, 6 de setembro ou 4 de outubro
+
+
+ERROR: dehergne-g.cli line 1108 ** Error: missing element(s) in ls(att-851) must have: valor
+Near lines: 1108             ls$dehergne/383/obs=Gozani (Gozano), Giampaolo (ital.) P. 383 Gosano., Grosano., Gozzani., Gozalo (Archivo del Japon, B. Nat. Madrid 17620). Lou Pao-lo (Pf.., JS 199 I, 203., JS 175, 100., Rosso, 273)., Lo Pao-lou (Pf.., SF V, 510)., Lou Ngen-Tô (Gaubil, p. 88, parle du R. P. Luenteux, ce serait Gozanl). N. « Italus Cazalensis », Casale en Piémont, dans le Montferrat (Gaubil, 600), 2 déc. 1659 (Med. 56, 144) et non 2 déc. 1657 (JS 134, 398v) -E. 15 oct. 1674. Emb. 8 avril 1690 (W 1282: Giovanni Paolo Gozano). Arr. 19 déc. 1694 (JS 134, 381)., 1698, Kaifeng (K'ai-fong fou), synagogue., 1698, Mgr Cicero le nomme son vicaire forain pour le diocèse de Nankin (M 429, 356)., 1699-1702, Foochow, Fou-kien (JS 134, 388)., 1703, Kaifeng (JS 134, 408)., 1708-1714, visiteur de la Chine et du Japon, 1711 et 1713 à Kaifeng (JS 175, 79)., rapports avec jésuites français (JS 132, 442 ... 500., JS 175, 190-195, 320-327)., recteur du collège de Pékin., Kaifeng, 1722
+
+
+WARNING: dehergne-g.cli line 1109 Element value exceeds database field length: tipo=dehergne/383/obs=Gozani (Gozano), Giampaolo (ital.) P. 383 Gosano., Grosano., Gozzani., Gozalo (Archivo del Japon, B. Nat. Madrid 17620). Lou Pao-lo (Pf.., JS 199 I, 203., JS 175, 100., Rosso, 273)., Lo Pao-lou (Pf.., SF V, 510)., Lou Ngen-Tô (Gaubil, p. 88, parle du R. P. Luenteux, ce serait Gozanl). N. « Italus Cazalensis », Casale en Piémont, dans le Montferrat (Gaubil, 600), 2 déc. 1659 (Med. 56, 144) et non 2 déc. 1657 (JS 134, 398v) -E. 15 oct. 1674. Emb. 8 avril 1690 (W 1282: Giovanni Paolo Gozano). Arr. 19 déc. 1694 (JS 134, 381)., 1698, Kaifeng (K'ai-fong fou), synagogue., 1698, Mgr Cicero le nomme son vicaire forain pour le diocèse de Nankin (M 429, 356)., 1699-1702, Foochow, Fou-kien (JS 134, 388)., 1703, Kaifeng (JS 134, 408)., 1708-1714, visiteur de la Chine et du Japon, 1711 et 1713 à Kaifeng (JS 175, 79)., rapports avec jésuites français (JS 132, 442 ... 500., JS 175, 190-195, 320-327)., recteur du collège de Pékin., Kaifeng, 1722
+. Size:960 limit: 512
+Near lines: 1109             ls$dehergne/383/obs=exilé à Canton en 1724, se cache quelque temps à Kanchow du Kiangsi., Canton, 1725 (JS 82, 372)., vice-provincial du Japon (le provincial étant au Tonkin), 1725-26, Canton (JS 180, 130v)., Macao. P. 1687 ou 1688 -V. « Fo cheu », Foochow, 21 nov. 1700, pr. (Lus. 12, 110) J. P. Gozanus. M. Macao, 1732., la date est controversée 23 août (HS 52, 140) ou 6 sept. (HS 50, 135) ou 4 oct. (écrit Pinto., AHU ms 1659 f° 112v précise: mort à S. José (de Macao). Mémorial offert à K'ang Hi, 1 déc. 1713 (JS 199 I, 201-217). Rapport sur les troubles de Foochow (ASV. Albani 259, 91-114). — Il signe sa lettre du 24 août 1707: Pacomio ex Thebalde, [Kaifeng]. Pf. 469., BN: ms fr. 25057, p. 472-477., Leslœ.
+
+
+ERROR: dehergne-g.cli line 1109 ** Error: missing element(s) in ls(att-852) must have: valor
+Near lines: 1109             ls$dehergne/383/obs=exilé à Canton en 1724, se cache quelque temps à Kanchow du Kiangsi., Canton, 1725 (JS 82, 372)., vice-provincial du Japon (le provincial étant au Tonkin), 1725-26, Canton (JS 180, 130v)., Macao. P. 1687 ou 1688 -V. « Fo cheu », Foochow, 21 nov. 1700, pr. (Lus. 12, 110) J. P. Gozanus. M. Macao, 1732., la date est controversée 23 août (HS 52, 140) ou 6 sept. (HS 50, 135) ou 4 oct. (écrit Pinto., AHU ms 1659 f° 112v précise: mort à S. José (de Macao). Mémorial offert à K'ang Hi, 1 déc. 1713 (JS 199 I, 201-217). Rapport sur les troubles de Foochow (ASV. Albani 259, 91-114). — Il signe sa lettre du 24 août 1707: Pacomio ex Thebalde, [Kaifeng]. Pf. 469., BN: ms fr. 25057, p. 472-477., Leslœ.
+
+
+WARNING: dehergne-g.cli line 1111 Element value exceeds database field length: tipo=dehergne/383/obs=exilé à Canton en 1724, se cache quelque temps à Kanchow du Kiangsi., Canton, 1725 (JS 82, 372)., vice-provincial du Japon (le provincial étant au Tonkin), 1725-26, Canton (JS 180, 130v)., Macao. P. 1687 ou 1688 -V. « Fo cheu », Foochow, 21 nov. 1700, pr. (Lus. 12, 110) J. P. Gozanus. M. Macao, 1732., la date est controversée 23 août (HS 52, 140) ou 6 sept. (HS 50, 135) ou 4 oct. (écrit Pinto., AHU ms 1659 f° 112v précise: mort à S. José (de Macao). Mémorial offert à K'ang Hi, 1 déc. 1713 (JS 199 I, 201-217). Rapport sur les troubles de Foochow (ASV. Albani 259, 91-114). — Il signe sa lettre du 24 août 1707: Pacomio ex Thebalde, [Kaifeng]. Pf. 469., BN: ms fr. 25057, p. 472-477., Leslœ.
+
+. Size:714 limit: 512
+Near lines: 1111             referido$Alessandro Cicero/id=deh-giampaolo-gozani-ref1/obs=Dehergne 177, folha Dehergne.cli
+
+
+ERROR: dehergne-g.cli line 1112 ** Error: missing element(s) in ls(att-853) must have: valor
+Near lines: 1112                ls$titulo/Monsenhor
+
+
+ERROR: dehergne-g.cli line 1113 ** Error: missing element(s) in ls(att-854) must have: valor
+Near lines: 1113                ls$cargo/Bispo de Nanquim/16980000
+
+
+ERROR: dehergne-g.cli line 1114 ** Error: missing element(s) in rel(rel-31) must have: iddest nomedest valor
+Near lines: 1114                rel$eclesiastica/Nomeia/Giampaolo Gozani/deh-giampaolo-gozani/data=16980000
+
+
+WARNING: dehergne-g.cli line 1116 Element value exceeds database field length: tipo=eclesiastica/Nomeia/Giampaolo Gozani/deh-giampaolo-gozani/data=16980000
+
+. Size:73 limit: 32
+Near lines: 1116             referido$K'ang Hi/id=deh-giampaolo-gozani-ref2
+
+
+ERROR: dehergne-g.cli line 1117 ** Error: missing element(s) in ls(att-855) must have: valor
+Near lines: 1117                ls$titulo/Imperador da China
+
+
+ERROR: dehergne-g.cli line 1120 ** Error: missing element(s) in ls(att-856) must have: valor
+Near lines: 1120             ls$nacionalidade/Alemanha
+
+
+ERROR: dehergne-g.cli line 1121 ** Error: missing element(s) in ls(att-857) must have: valor
+Near lines: 1121             ls$jesuita-estatuto/Padre
+
+
+ERROR: dehergne-g.cli line 1122 ** Error: missing element(s) in ls(att-858) must have: valor
+Near lines: 1122             ls$nascimento/Niederberg/17090813
+
+
+ERROR: dehergne-g.cli line 1123 ** Error: missing element(s) in ls(att-859) must have: valor
+Near lines: 1123             ls$jesuita-entrada/Trier%Trèves# @wikidata:Q31388/17271019
+
+
+ERROR: dehergne-g.cli line 1124 ** Error: missing element(s) in ls(att-860) must have: valor
+Near lines: 1124             ls$embarque/?/1739
+
+
+ERROR: dehergne-g.cli line 1125 ** Error: missing element(s) in ls(att-861) must have: valor
+Near lines: 1125             ls$wicky/1882/17390000
+
+*** ERROR: MAXIMUM NUMBER OF ERRORS REACHED. TRANSLATION ABORTED.
+
+ERROR: dehergne-g.cli line 1126 ** Error: missing element(s) in ls(att-862) must have: valor
+Near lines: 1126             ls$wicky-viagem/158/17390000
+
 *** End of File
 
 
-** Processed file- /kleio-home/sources/toliveira/sources/dehergne-g.cli
-** Original file- /kleio-home/sources/toliveira/sources/dehergne-g.org
-** Previous version- /kleio-home/sources/toliveira/sources/dehergne-g.old
-** Temp file with ids- /kleio-home/sources/toliveira/sources/dehergne-g.ids
-** - /kleio-home/sources/toliveira/sources/dehergne-g.cli-renamed to- /kleio-home/sources/toliveira/sources/dehergne-g.old
-** - /kleio-home/sources/toliveira/sources/dehergne-g.ids-renamed to- /kleio-home/sources/toliveira/sources/dehergne-g.cli
-** Translation files closed.
-0  errors. 
-0  warnings.
+101  errors. 
+7  warnings.
 Translation finished.

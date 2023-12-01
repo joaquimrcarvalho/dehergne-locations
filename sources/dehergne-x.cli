@@ -1,4 +1,5 @@
-kleio$gacto2.str/translations=17
+kleio$gacto2.str/translations=22
+   link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-21
    fonte$dehergne-x/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra X
 
       lista$dehergne-notices-x/0/0/0
@@ -6,8 +7,8 @@ kleio$gacto2.str/translations=17
          n$António Xavier/id=deh-antonio-xavier
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Frade Coadjutor
-            ls$nascimento/Évora/16720000
-            ls$jesuita-entrada/Goa/16960504
+            ls$nascimento/Évora# @wikidata:Q179948/16720000
+            ls$jesuita-entrada/Goa# @wikidata:Q1171/16960504
             ls$embarque/?/16970000
             ls$wicky/1379/16970000
             ls$wicky-viagem/120/16970000
@@ -25,9 +26,9 @@ kleio$gacto2.str/translations=17
                ls$nome/António Xavier Cham
                ls$nascimento/?/16570000
                ls$jesuita-entrada/?/16790328
-               ls$estadia/Lisboa/16930000
+               ls$estadia/Lisboa# @wikidata:Q597/16930000
                ls$jesuita-cargo/Socius do procurador das Índias, China e Japão/16930000
-               ls$estadia/Macau (colégio)/17000000#est « villicus », chargé de la ferme du collège de Macao, mais qui est de la prov. du Japon (JS 25, 248)
+               ls$estadia/Macau (colégio)# @wikidata:Q14773/17000000#est « villicus », chargé de la ferme du collège de Macao, mais qui est de la prov. du Japon (JS 25, 248)
                ls$dehergne/903-ref2/obs=Il y a un fr. coadj. Antonio Xavier Cham [= Tchang], qui, en 1700 est « villicus », chargé de la ferme du collège de Macao, mais qui est de la prov. du Japon (JS 25, 248), N. 1657, E. 28 mars 1679., en 1693, socius à Lisbonne du procureur des Indes, Chine et Japon (Lus. 46, 279v, 336).
 
          n$Francisco Xavier/id=deh-francisco-xavier
@@ -41,7 +42,7 @@ kleio$gacto2.str/translations=17
             ls$titulo/Santo/16220312
             ls$nascimento/Navarra (palácio de Xavier)/15060407
             ls$grau-academico/Mestre em Artes/15300000
-            ls$estadia/Paris/15300000
+            ls$estadia/Paris# @wikidata:Q90/15300000
             rel$sociabilidade/Companheiro/Inácio de Loyola/deh-francisco-xavier-ref1/data=15340815
             ls$estadia/Montmartre/15340815
             ls$jesuita-entrada/Montmartre/15340815/obs=Será que vale mesmo a pena chamar-lhe entrada?
@@ -49,18 +50,18 @@ kleio$gacto2.str/translations=17
             ls$wicky/1/15410407
             ls$wicky-viagem/1/15410407
             ls$cargo/Núncio apostólico/15410407
-            ls$estadia/Goa/15420506
+            ls$estadia/Goa# @wikidata:Q1171/15420506
             ls$jesuita-cargo/Superior dos jesuítas da Índia/15491010#de facto a partir de 1550
             ls$jesuita-cargo/Superior dos jesuítas da Índia/15520000
-            ls$estadia/Japão/15490815
-            ls$estadia/Japão/15511115#reparte de lá entre 15 e 20 de novembro
-            ls$estadia/Índia/15520124
+            ls$estadia/Japão# @wikidata:Q17/15490815
+            ls$estadia/Japão# @wikidata:Q17/15511115#reparte de lá entre 15 e 20 de novembro
+            ls$estadia/Índia# @wikidata:Q668/15520124
             ls$tarefa/Prepara embaixada à China/15520224#a partir de
             ls$chegada/Shangchuan/15520800
             ls$jesuita-ordenacao-padre/Veneza/15370624
             rel$sociabilidade/Companheiro/Inácio de Loyola/deh-francisco-xavier-ref1/data=15370624
             ls$jesuita-votos/4V/15431200#data controversa, também se diz 15410422, também se diz que foi entre as mãos de St. Inácio mas é um texto tardio e duvidoso
-            ls$jesuita-votos-local/Goa/15431200#data controversa, também se diz 15410422, também se diz que foi entre as mãos de St. Inácio mas é um texto tardio e duvidoso
+            ls$jesuita-votos-local/Goa# @wikidata:Q1171/15431200#data controversa, também se diz 15410422, também se diz que foi entre as mãos de St. Inácio mas é um texto tardio e duvidoso
             ls$morte/Shangchuan/15521202#noite de 2 para 3
             ls$dehergne/904/obs=Xavier (Javier), Saint François (espagn.) P. 904 Francisco Javier., don Francisco de Jasu y Xavier Fan Tsi-Ko (épitaphe dédiée en 1639 par les Jésuites de Macao, Rosso p. 44) Cha-Wei-Eul. Fang Tsi-ko, Cha Wou (Pf.). M 443, 669 écrit par distraction: Tang. N. 7 avril 1506 au château de Xavier, Navarre. Maître ès Arts, Paris 1530. -E. 27 sept. 1540. 15 août 1534, premiers voeux à Montmartre, Paris, avec St Ignace et ses compagnons (la Compagnie de Jésus sera approuvée par Paul III, le 27 sept. 1540). Emb. sur le Santiago, 7 avril 1541, comme nonce apostolique (W 1)., Goa, 6 mai 1542., supérieur des jésuites des Indes, 1542-1549, puis premier provincial des Indes (Goa), 10 oct. 1549, en réalité 1550 à 1552., Japon, 15 août 1549., il en repart entre le 15 et le 20 nov. 1551., 24 janv. 1552, de retour aux Indes, où il va préparer une ambassade pour la Chine., en août 1552, arr. Sancian (Shangchuan, St John Island). P. 24 juin 1537, en même temps que St Ignace de Loyola, à Venise.
             ls$dehergne/904/obs= V. on trouve 22 avril 1541, pr., c'est douteux. La question a été étudiée dans Gonçalves, Sebastiam, Histôria dos Réligiosos da Companhia de Jésus, rééd. Wicki, Coïmbre 1957, t. I, 157-161. Il semble bien qu'il ait fait ses V. de pr. à Goa, en déc. 1543, Xavier II, 575-581., (« entre les mains de St Ignace » (Rom. 78b, 2v) est un texte tardif!). N. 7 avril 1506 au château de Xavier, Navarre. Maître ès Arts, Paris 1530. -E. 27 sept. 1540. 15 août 1534, premiers voeux à Montmartre, Paris, avec St Ignace et ses compagnons (la Compagnie de Jésus sera approuvée par Paul III, le 27 sept. 1540). Emb. sur le Santiago, 7 avril 1541, comme nonce apostolique (W 1)., Goa, 6 mai 1542., supérieur des jésuites des Indes, 1542-1549, puis premier provincial des Indes (Goa), 10 oct. 1549, en réalité 1550 à 1552., Japon, 15 août 1549., il en repart entre le 15 et le 20 nov. 1551., 24 janv. 1552, de retour aux Indes, où il va préparer une ambassade pour la Chine., en août 1552, arr. Sancian (Shangchuan, St John Island).
@@ -95,26 +96,26 @@ kleio$gacto2.str/translations=17
             ls$embarque/Bom Jesus da Vidigueira/16570404
             ls$wicky/1034/16570404
             ls$wicky-viagem/89/16570404
-            ls$estadia/Goa/16600000#será ele?
-            ls$chegada/Macau/16630000#para ensinar
-            ls$estadia/Macau/16650000
-            ls$morte/Macau/16660817
+            ls$estadia/Goa# @wikidata:Q1171/16600000#será ele?
+            ls$chegada/Macau# @wikidata:Q14773/16630000#para ensinar
+            ls$estadia/Macau# @wikidata:Q14773/16650000
+            ls$morte/Macau# @wikidata:Q14773/16660817
             ls$dehergne/904a/obs=Xavier (Xaver), Franz (allem.) (II) P. 904a Le nom de famille n'est pas connu (W p. 382, n° 1034). Emb. sur le Bom Jésus da Vidigueira pour la Chine, 4 avr. 1657 (W 1034). Le catal. 1660 cite un P. de ce nom à Goa, sujet de la vice-province de Chine., il arr. à Macao en 1663 « para adocer », « pour enseigner » (JS 134, 344, 346) ., celui de 1665 parle encore du « P. Franco. Xavier, Alemâo que a inda nao foi à China » (JS 134, 375). M. à Macao, 17 août 1666 (JS 134, 352). Ce dernier détail nous fait croire qu'il s'agit du P. F.X. Scheffelmayr, M. à Macao, 7 août 1666 (HS 48, 48).
 
          n$Francisco Xavier júnior/id=deh-francisco-xavier-junior/obs=deve ser Francisco Xavier Rosario Ho, Dehergne 722
             ls$nacionalidade/China
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Macau/000000
+            ls$nascimento/Macau# @wikidata:Q14773/000000
             ls$dehergne/904b/obs=Xavier, Francisco (macaïste) junior (JS 134, 335) (III) P. 904b Nous y voyons le P. François Xavier a Rosario HO (1667-1736).
 
             referido$Francisco Xavier Rosário Ho/id=deh-francisco-xavier-junior-ref1
-               ls$nascimento/Macau/16670000
+               ls$nascimento/Macau# @wikidata:Q14773/16670000
                ls$morte/?/17360000
 
          n$Francisco Xavier/id=deh-francisco-xavier-iv
             ls$nacionalidade/China
             ls$jesuita-estatuto/Noviço
-            ls$nascimento/Macau#?/00000000
+            ls$nascimento/Macau#? @wikidata:Q14773/00000000
             ls$morte/Macau (S. José)/17340515
             ls$dehergne/905/obs=Xavier, Francisco (macaïste?) (IV) fr. novice 905 Ce novice est mort à S. José de Macao — donc pour la vice-province de Chine — le 15 mai 1734 (AHU ms 1659, f° 112v). Remarquons qu'après 1711, trois Francisco Xavier portugais se sont embarqués « pour les Indes»: en 1712 (W 1562), 1717 (W 1619) et 1723 (W 1673) — sans parier d'un fr. tonkinois de ce nom, N. 1717, E. 14 août 1747, en théologie morale en 1753 (JS 26, 48), v. ci-dessus Cuinh nº 229.
 
@@ -152,7 +153,7 @@ kleio$gacto2.str/translations=17
             ls$nascimento/?/16080000
             ls$jesuita-entrada/?%gallo-belge/16320000
             ls$profissao/Pintor
-            ls$estadia/Macau (colégio)/16480000
+            ls$estadia/Macau (colégio)# @wikidata:Q14773/16480000
             ls$dehergne/906/obs=Xavier, Henri (belge) fr. coadj. 906 N. 1608 -E. 1632, gallo-belge. Etait en 1648 au collège de Macao, comme peintre, mais « pertinet ad vice-provinciam Sinensem » (JS 25, 148). Nous ne le trouvons pas, en 1633, aux noviciats de Tournai (gallo-belge) ni de Malines (fl. belge).
 
          n$Inácio Xavier Pao/id=deh-inacio-xavier-pao/xmesmo_que=deh-jacques-madeira-pao/obs=mesmo que Jacques Madeira Pao, Dehergne considera suprimir a notícia
@@ -160,19 +161,19 @@ kleio$gacto2.str/translations=17
             ls$jesuita-estatuto/Padre#já não era quando mencionado
             ls$nome/Jacobus Ling
             ls$nome/Ignace Xavier Pao
-            ls$nascimento/Macau/00000000
+            ls$nascimento/Macau# @wikidata:Q14773/00000000
             ls$estadia/Hainan
             ls$dehergne/907/obs=Xavier Pao, Inâcio (macaïste) P. (907) Ignace Xavier Pao, « nunc vulgo P. Jacobus Ling, qui olim sacerdos Soc. Jesu, nunc vero saecularis, cujus opéra usus est Illus Epus Macaonensis pro missione Hai nâng » [Hainan], lettre de Jean Evangéliste Ciang [Tchang], missionnaire de la Propagande, Canton, 16 déc. 1768 (A. Vatic. fonds Missioni vol. 110). Dans la Compagnie il avait donc le prénom Ignace., voir ci-dessus Madeira Pao, Diego, pékinois. Notice à supprimer?
 
             referido$Jean Evangéliste Tchang/id=deh-inacio-xavier-pao-ref1
                ls$nome/Jean Evangéliste Ciang
                ls$cargo/Missionário da Propaganda
-               ls$estadia/Cantão/17681216
+               ls$estadia/Cantão# @wikidata:Q16572/17681216
 
             referido$Jacques Madeira Pao/id=deh-inacio-xavier-pao-ref2/obs=Dehergne 503
                ls$nome/Diego Madeira Pao
                ls$nome/Ignace
-               ls$nascimento/Pequim/00000000
+               ls$nascimento/Pequim# @wikidata:Q956/00000000
 
          n$Julien Xavier Tch'eng/id=deh-julien-xavier-tcheng
             ls$nacionalidade/China
@@ -182,7 +183,7 @@ kleio$gacto2.str/translations=17
             ls$nascimento/Fukien/16990325
             ls$jesuita-entrada/?/17290324
             ls$estadia/[Missão]/17330000
-            ls$estadia/Tartária/17350000
+            ls$estadia/Tartária#ILOC/17350000
             ls$estadia/Leao-tong/17430000
             ls$estadia/Kiang-nan/17460000
             ls$estadia/Soochow
@@ -192,7 +193,7 @@ kleio$gacto2.str/translations=17
             ls$jesuita-ordenacao-padre/?#Pequim?/17301200
             ls$jesuita-votos/Coadjutor Espiritual/17410202
             ls$jesuita-votos-local/Pequim (colégio da Imaculada Conceição)/17410202
-            ls$morte/Nanquim/17640105
+            ls$morte/Nanquim# @wikidata:Q16666/17640105
             ls$dehergne/908/obs=Xavier Tch'eng, Julien (chin.) P. 908 Tch'eng Jou-liang (Pf. M 306, 320: Tchin) N. au Fou-kien, 25 mars 1699 -E. 24 mars 1729. En mission en 1733 (JS 134, 435 etc)., 1735, Tartarie (WB n° 579, 39 et 44)., Leao-tong, 1743 (SOCP 1745, 107 et 1746, 165, 215 et t. 8, p. 97)., Kiang-nan 1746: Soochow, Sungkiang, Shanghai et Tsungming (Krahl 108: J. X. Ch'eng, en anglais)., nom de ses chré- tientés en 1761 (SOCP t. 52, 1760, P 580). P. déc. 1730, ordonné par l'évêque de Pékin [Mgr François de la Purification] (JS 181, 2v). V. 2 févr. 1741, coadj. spir. Pékin in E. Coll. Imm. Concept. (Lus. 24, 198): Xaverius Julianus. M. dans la mission de Nankin, 5 janv. 1764, du P. Julianus Xavo (sic) (HS 53a, 130). Pf. 728 et 729, notices 326 et 327, qui sont complémentaires, il s'agit du même personnage, croyons-nous. Prêtre chinois « egregium quidem » (JS 126, 253v), remarquable.
 
             referido$François de la Purification/id=deh-julien-xavier-tcheng-ref1
@@ -206,16 +207,16 @@ kleio$gacto2.str/translations=17
             ls$nome-chines/Li
             ls$nascimento/?/17110919
             ls$jesuita-entrada/Macau#segundo Ripa/17331009
-            ls$estadia/Macau (colégio)/17370000
+            ls$estadia/Macau (colégio)# @wikidata:Q14773/17370000
             ls$tarefa/Estuda Teologia Moral/17370000
-            ls$estadia/Hainan/17440000
+            ls$estadia/Hainan# @wikidata:Q42200/17440000
             rel$sociabilidade/Companheiro/Jean-François Xavier Régis Tch'en/deh-matthieu-xavier-li-ref1/data=17440000
-            ls$estadia/Hainan/17460000
+            ls$estadia/Hainan# @wikidata:Q42200/17460000
             rel$sociabilidade/Companheiro/Jean-François Xavier Régis Tch'en/deh-matthieu-xavier-li-ref1/data=17460000
-            ls$estadia/China/17530000
+            ls$estadia/China# @wikidata:Q148/17530000
             ls$jesuita-ordenacao-padre/?/17370000#cerca de
             ls$jesuita-votos/Coadjutor Espiritual/17440815
-            ls$jesuita-votos-local/Macau/17440815
+            ls$jesuita-votos-local/Macau# @wikidata:Q14773/17440815
             ls$jesuita-tarefa/Sai da Companhia/17630000#antes de, segundo Laimbeckhoven
             ls$estadia/Fatshan%Fuoxian (Fatshan?)#?/17630000#cerca de, segundo Laimbeckhoven
             ls$estadia/Kwangtung/17710000#segundo SOCP, t. 59, 1773, fº 81
@@ -224,14 +225,14 @@ kleio$gacto2.str/translations=17
 
             referido$Jean-François Xavier Régis Tch'en/id=deh-matthieu-xavier-li-ref1/obs=Dehergne 673
                ls$jesuita-estatuto/Padre
-               ls$estadia/Hainan/17440000
-               ls$estadia/Hainan/17460000
+               ls$estadia/Hainan# @wikidata:Q42200/17440000
+               ls$estadia/Hainan# @wikidata:Q42200/17460000
 
          n$Thaddée Xavier/id=deh-thaddee-xavier
             ls$nacionalidade/China
             ls$jesuita-estatuto/Padre
             ls$nome-chines/Nan
-            ls$nascimento/Pequim/00000000
+            ls$nascimento/Pequim# @wikidata:Q956/00000000
             ls$jesuita-entrada/?/17401101
             ls$cargo/Capelão do bispo de Pequim/17461101
             rel$eclesiastica/Capelão de/Policarpo de Sousa/deh-thaddee-xavier-ref1/data=17461101
