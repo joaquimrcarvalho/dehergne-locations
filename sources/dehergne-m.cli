@@ -1,6 +1,18 @@
-kleio$gacto2.str/translations=169
+kleio$gacto2.str/translations=172
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-161
-   fonte$dehergne-m/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra M
+   fonte$dehergne-m/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs= """Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra M
+
+      Referências (informação adicional)
+
+      Louis Buglio. (1688). Abrégé de la vie et de la mort du R. Père Gabriel de Magaillans, de la Compagnie de Jésus, missionnaire de la Chine. Em Nouvelle relation de la Chine contenant la description des particularitez les plus considerables de ce grand Empire composee en l’annee 1668 (pp. 371–385). Claude Barbin.
+
+      Dominguez, J. M., & O’Neill, C. (2001). Diccionario Histórico de la Compañía de Jesús: Biográfico-temático: Institutum Historicum, S.I; Universidad Pontificia Comillas.
+
+      Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).
+      Cartas ânuas da Cochinchina (1619-1635).
+      Centro Cientifico e Cultural de Macau; Universidade de Macau.
+
+      """
 
       lista$dehergne-notices-m/0/0/0
 
@@ -174,16 +186,19 @@ kleio$gacto2.str/translations=169
             ls$nome-chines/Ngan Wen-Sseu
             ls$nome-chines/King-Ming
             ls$nascimento/Pedrógão Grande, perto de Coimbra%«ex oppido Pedrogam prioratus Crati» vila de Pedrógão, priorado do Crato, perto de Coimbra# @wikidata:Q1013094/1610/obs=familiar de Fernão de Magalhães
-            ls$jesuita-entrada/?/16250000
+            ls$jesuita-entrada/Coimbra#Segundo Louis Buglio 1688/16250000
             ls$embarque/?/16340321#não padre
             ls$wicky/818/16340321
             ls$wicky-viagem/71/16340321
             ls$grau-academico/Mestre em Artes
             ls$tarefa/Estuda Teologia
             ls$estadia/Goa# @wikidata:Q1171/16340000
+            ls$estadia/Macau/16360000# """Buglio 1688: "Il arriva en 1634 à Goa, où il fut aussitôt employé à enseigner la rhétorique aux jeunes religieux de la maison. Deux ans après il demanda instamment d'être envoyé à la mission du Japon ; ce que ses supérieurs lui accordèrent avec beaucoup de peine, à cause du progrès extraordinaire que ses écoliers faisaient sous un tel maître. Quand il fut arrivé à Macao, le père visiteur lui ordonna d'enseigner la philosophie ;"
+            """
+            ls$jesuita-tarefa/Ensinar Filosofia/16360000#segundo Buglio, 1688
             ls$estadia/Hangchow# @wikidata:Q4970/16400000
             ls$estadia/Chengdu, Sichuan%Chengtu (Tch'eng-tou), Sseu-tch'ouan/16420528
-            ls$titulo/Mandarim/16440000#Dehergne, p. 313
+            ls$titulo/Mandarim[verificar]/16440000#Dehergne, p. 313
             ls$estadia/Chengdu, Sichuan%Chengtu (Tch'eng-tou), Sseu-tch'ouan/16470000/obs=difficultés avec le tyran Tchang hien-tchong
             ls$estadia/Pequim# @wikidata:Q956/16480222/obs=segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes
             ls$estadia/Pequim# @wikidata:Q956/16510000/obs=libertado com Buglio segundo a entrada deste último Dehergne 121
@@ -440,19 +455,21 @@ kleio$gacto2.str/translations=169
             ls$jesuita-estatuto/Padre
             ls$nome/Pedro Marches
             ls$nascimento/Mourão, diocese de Évora# @wikidata:Q1005121/15770000
-            ls$jesuita-entrada/?/15930000
+            ls$jesuita-entrada/Évora# segundo Lourenço e Pinto 2023, p. 37/15930100
             ls$embarque/S. João/16000404#não padre
+            ls$estadia/Goa# @wikidata:Q1171/16000000# segundo Lourenço e Pinto 2023, p. 37
+            ls$estadia/Macau# @wikidata:Q14773/16030000# segundo Lourenço e Pinto 2023, p. 37
             ls$wicky/419/16000404
             ls$wicky-viagem/42/16000404
             ls$estadia/Japão# @wikidata:Q17/16090000
             ls$estadia/Japão# @wikidata:Q17/16140000#expulso na perseguição
-            ls$estadia/Macau# @wikidata:Q14773
+            ls$estadia/Macau# @wikidata:Q14773/16170000# segundo Lourenço e Pinto 2023, p. 37
             ls$estadia/Cambodja# @wikidata:Q424/16160000
             ls$jesuita-tarefa/Funda a missão do Cambodja para os japoneses aí refugiados/16160000
             ls$estadia/Cochinchina# @wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]/16190000
             ls$estadia/Tonquim/16270319
-            ls$estadia/Hainan# @wikidata:Q42200/16330000
-            ls$jesuita-tarefa/Funda a missão de Hainan/16330000
+            ls$estadia/Hainan# @wikidata:Q42200/16330000# 1632 segundo Lourenço e Pinto 2023, p. 37
+            ls$jesuita-tarefa/Funda a missão de Hainan/16320000
             ls$jesuita-tarefa/Escreve a carta anual de Hainan/16330729
             ls$estadia/Macau# @wikidata:Q14773/16350800#doente
             ls$estadia/Manila# @wikidata:Q1461/16400000
@@ -631,7 +648,7 @@ kleio$gacto2.str/translations=169
             ls$nome-chines/Ming-Cha
             ls$nome-chines/Wong
             ls$nascimento/Macau# @wikidata:Q14773/15690000#aparentado com portugueses
-            ls$jesuita-entrada/Shiuchow (Chao-tcheou)/15910101#no noviciado
+            ls$jesuita-entrada/Shiuchow% (Chao-tcheou)/15910101#no noviciado
             ls$estadia/Nanchang (Nan-tch'ang, Kiangsi)/15951224
             ls$estadia/Shiuchow/15961000
             ls$estadia/Shiuchow/16050000
@@ -1342,7 +1359,9 @@ kleio$gacto2.str/translations=169
             ls$nome/Lourenço Messia
             ls$nascimento/Évora# @wikidata:Q179948/15390800
             ls$estadia/Olivença, diocese de Elvas#durante a sua juventude @wikidata:Q488052
-            ls$jesuita-entrada/?/15600314#ou 15600325
+            ls$jesuita-entrada/Coimbra#Domingues & O Neil, IV: 2645/15600314#ou 15600325
+            ls$jesuita-votos/4V/15700423
+            ls$jesuita-votos-local/Coimbra# @wikidata:Q45412/15700423
             ls$embarque/Sta. Catarina#para Malaca/15760307
             ls$wicky/178/15760307
             ls$wicky-viagem/23/15760307
@@ -1360,8 +1379,6 @@ kleio$gacto2.str/translations=169
             ls$jesuita-cargo/Admoestador de Alessandro Valignano
             rel$institucional/Admoestador/Alessandro Valignano/deh-lourenco-mexia-ref1
             ls$jesuita-ordenacao-padre/?/15660000#pouco antes
-            ls$jesuita-votos/4V/15700423
-            ls$jesuita-votos-local/Coimbra# @wikidata:Q45412/15700423
             ls$morte/Macau# @wikidata:Q14773/15990000
             ls$dehergne/552/obs=Mexia, Lourenço (port.) P. 552 Mexias., Messia (DI. X, 529). N. Evora, août 1539., mais vécut en sa jeunesse « Olivensis », à Olivença, dioc. «Elviorum», d'Elvas (qui se trouve, depuis 1801, en territoire espagnol, Badajoz). E. 14 (ou 25) mars 1560 (Goa 24, 179v écrit: 1559). Emb. 7 mars 1576 (W 178) sur le Santa Catharina pour Malacca., le 7 juill. 1579, quitte Macao pour le Japon., en repart le 20 févr. 1582 sur Macao., supérieur, 1588 de la résidence de Macao (alors il y avait, jusqu'à cette date, 2 supérieurs à Macao, l'un, de la résidence, l'autre de la mission de Chine, D'Elia, FR I 294., Goa 24, 160v, 179v). P. peu avant 1566 -V. « Conimbricae », Coïmbre, 23 avril 1570, pr. (Lus. 1, 39). M. 1599, « in Regno Sinarum » (HS 42, 29): en fait, à Macao (Schutte, 963).
             ls$dehergne/552/obs=Nous ne le citons que pour s'être fait, au XVI* siècle, l'annaliste des missions de Chine (et du Japon): 13 févr. 1583 (IS 9 I, 126)., janv. 1584 (JS 9 II, 259)., janv. 1593 (JS 12 I, 98)., 13-15 nov. 1596 (JS 13 I, 26-30). Il a été donné par le P. Général (Mercurian) comme compagnon et admoniteur de Valignano. Cooper, Michael, They came to Japon, Londres 1965., DI. IX, 584 et X, 1099., Schutte, 963.
@@ -1462,7 +1479,7 @@ kleio$gacto2.str/translations=169
             ls$nome/Ferdinando Bonaventura Moge
             ls$nome-chines/Li Po-Ming Min-Kong
             ls$nascimento/Florença# @wikidata:Q2044/16840713#baptizado no mesmo dia
-            ls$jesuita-entrada/Roma (Noviciado de Sant'Andrea al Quirinale)#@wikidata:Q220/17111213
+            ls$jesuita-entrada/Roma% (Noviciado de Sant'Andrea al Quirinale)# @wikidata:Q220/17111213
             ls$embarque/Nossa Senhora do Cabo/17200000
             ls$wicky/1647/17200000
             ls$wicky-viagem/143/17200000
