@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-d.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-3-16 10:11:4" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-d.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-4-28 12:25:30" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -3694,7 +3694,7 @@
     <ELEMENT NAME="order" CLASS="order"><core>197</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[jesuita-entrada@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q220]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Roma (Noviciado de Sant'Andrea al Quirinale)]]></original></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q220]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Roma]]></original></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>deh-giovanni-filippo-de-marini</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-giovanni-filippo-de-marini-atra32</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16250218</core></ELEMENT>
@@ -3710,7 +3710,8 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Roma (Noviciado de Sant'Andrea al Quirinale)]]></core>         <comment><![CDATA[ @wikidata:Q220]]></comment>
+         <core><![CDATA[Roma]]></core>         <original><![CDATA[ (Noviciado de Sant'Andrea al Quirinale)]]></original>
+         <comment><![CDATA[ @wikidata:Q220]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16250218]]></core>   </ELEMENT>
@@ -15813,34 +15814,34 @@
          <core><![CDATA[261]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA["""
-            Dorville (d'Orville), Albert le Comte [de] (belg.) P. 261 
-                 Wou Eul-To Tchao-Pei (Pf.., JS 187, 3v: Û). 
-            N. 12 août 1621, Bruxelles 
-            E. 2 nov. 1646, Landsberg (G. Sup. 23, 42). 
-            Emb. sur le Boni Jésus 4 avril 1657 (W 1047)., 
-                  arr. 17 juill. 1658, Macao., 
-            1659-1661, Kiangchow du Shansi (JA 49-V-14 f° 686v)., Sian fou, Shensi, 
-                       d'où il repart le 13 avril 1661, avec le P. Grueber, 
-                       par le Chamo et le Tibet (2 mois à Lhassa)., 
-            Népal., Bengale., Bé- narès., 
-            Agra (tentative pour relier le Shensi à Rome par la route de terre). 
-            
-            P. 2 juill. 1654, Bruxelles, par Mgr de la Torre, archev. d'Ephèse (Fl. Belg. 19, 91). 
+            Dorville (d'Orville), Albert le Comte [de] (belg.) P. 261
+                 Wou Eul-To Tchao-Pei (Pf.., JS 187, 3v: Û).
+            N. 12 août 1621, Bruxelles
+            E. 2 nov. 1646, Landsberg (G. Sup. 23, 42).
+            Emb. sur le Boni Jésus 4 avril 1657 (W 1047).,
+                  arr. 17 juill. 1658, Macao.,
+            1659-1661, Kiangchow du Shansi (JA 49-V-14 f° 686v)., Sian fou, Shensi,
+                       d'où il repart le 13 avril 1661, avec le P. Grueber,
+                       par le Chamo et le Tibet (2 mois à Lhassa).,
+            Népal., Bengale., Bé- narès.,
+            Agra (tentative pour relier le Shensi à Rome par la route de terre).
+
+            P. 2 juill. 1654, Bruxelles, par Mgr de la Torre, archev. d'Ephèse (Fl. Belg. 19, 91).
             M. Agra, aux Indes, samedi-saint 8 avr. 1662 {HS 48, 12).
 
-            Fils de Louis LE Comte seigneur d'ORViLLE, lieutenant Grand-Veneur de Brabant, 
-            en 1609, Grand Gruyer en 1615, et de Anne Hellincx, fille de Nicolas H., 
-            receveur général du Brabant. C'est le 3° fils du seigneur 
-            d'ORViLLE (Wessels, 176-178). Il signe lui-même: de Dorville (Wessels, 176). 
-            
-            Pf. 314., 
-            Bosmans, Documents sur Albert Dorville, AHEB XXXVII, Louvain, 1911, p. 329-384, 470-497., 
-            R. Tronnier, Die Durchquerung Tibets seitens der Jesuiten Zt der Geseltschaft fur Erdkunde, Berlin, 1904, 328-361 ., 
+            Fils de Louis LE Comte seigneur d'ORViLLE, lieutenant Grand-Veneur de Brabant,
+            en 1609, Grand Gruyer en 1615, et de Anne Hellincx, fille de Nicolas H.,
+            receveur général du Brabant. C'est le 3° fils du seigneur
+            d'ORViLLE (Wessels, 176-178). Il signe lui-même: de Dorville (Wessels, 176).
+
+            Pf. 314.,
+            Bosmans, Documents sur Albert Dorville, AHEB XXXVII, Louvain, 1911, p. 329-384, 470-497.,
+            R. Tronnier, Die Durchquerung Tibets seitens der Jesuiten Zt der Geseltschaft fur Erdkunde, Berlin, 1904, 328-361 .,
             Wessels, Early Jesuits Travelters, The Hague, 1924, 164-204.,
-            Heras, H., The Tomb of Fr. Alb. d'Orville, 
-            AHSI II, 1933, 17-24., 
-            Margiotti, 121., W.K. 234-235. 
-            
+            Heras, H., The Tomb of Fr. Alb. d'Orville,
+            AHSI II, 1933, 17-24.,
+            Margiotti, 121., W.K. 234-235.
+
             BNW (au mot Orville, Van Hecken)"""]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-albert-le-comte-dorville-att563-96]]></core>   </ELEMENT>

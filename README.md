@@ -29,6 +29,8 @@ Does not include those at Macau that were in transit to places other than contin
 
 ### Aditional information ###
 
+#### Identifying the fleet of the voyage from Lisbon to Goa
+
 Dehergne includes information from:
 
 * Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
@@ -41,11 +43,30 @@ who travelled with whom. We recovered the fleet numbers from the Wicki list and
 added to each entry. More information in the
 transcription documentation [in portuguese](./extras/doc/Dehergne_transcription_format.md)
 
+#### Identifying names
 
 Current work on identifying place names is going
 on in a fork:
 
     https://github.com/joaquimrcarvalho/dehergne-locations
+
+We use wikidata links to identity the place names, e.g.
+
+    ls$estadia/Goa# @wikidata:Q1171
+
+#### Complementary sources
+
+Whenever possible missing information was added, mostly
+from reports "Cartas ânuas", using modern editions when available.
+
+The main items added are place of entry in the Jesuits, places of
+stay, and tasks ("jesuitas-tarefa").
+
+Currently:
+* Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023). Cartas ânuas da Cochinchina (1619-1635). Centro Cientifico e Cultural de Macau; Universidade de Macau.
+
+
+
 
 ## License
 
