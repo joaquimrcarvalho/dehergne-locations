@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=203
+kleio$gacto2.str/translations=206
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-194
    fonte$dehergne-c/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra C
 
@@ -156,6 +156,7 @@ kleio$gacto2.str/translations=203
             ls$profissao/Mercador#protestante convertido em Lisboa
             ls$estadia/Lisboa# @wikidata:Q597
             ls$jesuita-entrada/Portugal# @wikidata:Q45/16780000
+            ls$estadia-x/Coimbra/16810106# Done escreve a Giovani Paulo Oliva, segundo Brockey, cit. ARSI, FG, 757, n.222
             ls$embarque/Santiago#segundo Wicky/16820329
             ls$wicky/1214/16820329
             ls$wicky-viagem/105/16820329
@@ -1930,7 +1931,18 @@ kleio$gacto2.str/translations=203
             ls$wicky-viagem/23/15760307
             ls$estadia/China#a caminho do Japão @wikidata:Q148/15771123
             ls$morte/Macau# @wikidata:Q14773/15770000
-            ls$dehergne/203/obs=Costa, Amador da (port.) fr. scolastique. 203 N. Ile de Fayal (Açores), dioc. d'Angra, 1536 -E. 5 août 1557 (Lus. 43 I, 46). En 1569, il reprend les études scolastiques et se destine donc à être prêtre. Emb. non prêtre, 7 mars 1576 sur le Santa Catharina (W 181). Il écrit « da China », de Chine, 23 nov. 1577 (Stheit IV, nº 971, texte publié dans DI. X, 1042), en route pour le Japon. M. « en Chine » en 1577 (HS 42, 27) -- à Macao (DI. XI, 550). DI. X, 17*, 23*.
+            ls$dehergne/203/0/obs="""
+            Costa, Amador da (port.) fr. scolastique. 203 N. Ile de Fayal (Açores), dioc. d'Angra, 1536 -
+            E. 5 août 1557 (Lus. 43 I, 46).
+            En 1569, il reprend les études scolastiques et se destine donc à être prêtre.
+            Emb. non prêtre, 7 mars 1576 sur le Santa Catharina (W 181). Il écrit « da
+            China », de Chine, 23 nov. 1577 (Stheit IV, nº 971, texte publié dans DI. X,
+            1042 [visto: descreve viagem até Malaca e termina com a chegada do recado do
+            Visitador [Valignano] para partir para a China]), en route pour le Japon. M.
+            « en Chine » en 1577 (HS 42, 27) -- à Macao (DI. XI, 550). DI. X, 17* [visto],
+            23* [visto].
+
+        """
 
          n$André da Costa/id=deh-andre-da-costa
             ls$nacionalidade/Portugal
@@ -2508,7 +2520,7 @@ kleio$gacto2.str/translations=203
             ls$nascimento/Coimbra# @wikidata:Q45412/15890000
             ls$idade/47/16360000
             ls$grau-academico/Mestre em Artes
-            ls$jesuita-entrada/?/16060113
+            ls$jesuita-entrada/Coimbra%?#Dehergne não especifica local, Brockey estudos Filosofia e Teologia em Coimbra/16060113
             ls$embarque/S. Carlos#para a Índia, segundo Wicky/16180416
             ls$wicky/647/16180416
             ls$wicky-viagem/57/16180400#meados do mês, 16180416 segundo Dehergne
@@ -2526,7 +2538,24 @@ kleio$gacto2.str/translations=203
             ls$jesuita-tarefa/Atribui o Kwangtung e o Kwangsi à província do Japão/16600000
             ls$jesuita-votos/4V/16261202
             ls$morte/Macau# @wikidata:Q14773/16600904#ou 16601004
-            ls$dehergne/232/obs=Cunha, Simão da (port.) P. 232 a Cugna., De Acuna (JS 161, 364v). K'iu Si-man Fou-Yi (Pf.., Borg. Lat. 523 f° 57: K'iu Si-man). N. Coïmbre 1589 (47 ans en 1636, JS 134, 311v etc). E. 13 janv. 1606 étant M. A. (JS 134, 338). Emb. pour les Indes, 16 avril 1618 (W 647., AHSI IX, 1940, p. 87). A. Hangchow, 1624., 1629, Fukien., 1648, supérieur des résidences de Kienning fou etc (JS 134, 336), 10 ans procureur de la vice-province chinoise (JS 25, 169)., 1657, Yenping (Yen p'ing) Fukien (JA 49-V-14) f° 152)., 1657-1659, vice-provincial de Chine., du 16 janv. 1659 à sa mort, visiteur de Chine et du Japon (JS 25, 293)., 1659, 22 avril, Macao, puis Pékin., en 1660, il attribue le Kwangtung et le Kwangsi à la province du Japon (JS 162, 71). V. 2 déc. 1626 formule non retrouvée. M. 4 sept. 1660, Macao (JS 25, 179v, et 48, 28) (HS 48, 128: le 4 oct. 1660., AHU ms 1659, f° 108 dit bien 4 sept. 1660, mais il l'appelle par distraction Simâo da Silva, visiteur). Pf. 198.
+            ls$dehergne/232/obs="""
+            Cunha, Simão da (port.) P. 232 a Cugna., De Acuna (JS 161, 364v).
+            K'iu Si-man Fou-Yi (Pf.., Borg. Lat. 523 f° 57: K'iu Si-man).
+            N. Coïmbre 1589 (47 ans en 1636, JS 134, 311v etc).
+            E. 13 janv. 1606 étant M. A. (JS 134, 338).
+            Emb. pour les Indes, 16 avril 1618 (W 647., AHSI IX, 1940, p. 87).
+            A. Hangchow, 1624., 1629,
+            Fukien., 1648, supérieur des résidences de Kienning fou etc (JS 134, 336),
+            10 ans procureur de la vice-province chinoise (JS 25, 169)., 1657,
+            Yenping (Yen p'ing) Fukien (JA 49-V-14) f° 152)., 1657-1659,
+            vice-provincial de Chine., du 16 janv. 1659 à sa mort,
+            visiteur de Chine et du Japon (JS 25, 293)., 1659, 22 avril,
+            Macao, puis Pékin., en 1660, il attribue le Kwangtung et le Kwangsi
+            à la province du Japon (JS 162, 71).
+            V. 2 déc. 1626 formule non retrouvée.
+            M. 4 sept. 1660, Macao (JS 25, 179v, et 48, 28)
+            (HS 48, 128: le 4 oct. 1660., AHU ms 1659, f° 108 dit bien 4 sept. 1660,
+            mais il l'appelle par distraction Simâo da Silva, visiteur). Pf. 198."""
 
          n$Simon-Xavier a Cunha Wou Li/id=deh-simon-xavier-a-cunha-wou-li
             ls$nacionalidade/China
