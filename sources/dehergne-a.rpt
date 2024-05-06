@@ -1,5 +1,5 @@
-KleioTranslator - server version 12.4 - build 567 2024-02-07 13:02:03
-2-5-2024 6-35
+KleioTranslator - server version 12.5 - build 570 2024-02-29 07:39:02
+6-5-2024 0-23
 
 Processing data file dehergne-a.cli
 -------------------------------------------
@@ -12,15 +12,41 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 198
+Translation count: 199
 Obs: 
 ** Processing source fonte$dehergne-a
-7: lista$dehergne-notices-a
+14: lista$dehergne-notices-a
+
+ERROR: dehergne-a.cli line 745 ** ID already used in this file: deh-gaspar-do-amaral-ref1
+Near lines: 745                /obs=[Franco, Imagem...Coimbra, II, p.522]
+Near lines: 746             referido$André Palmeiro/id=deh-gaspar-do-amaral-ref1/xmesmo_que=deh-andre-palmeiro
+
+
+ERROR: dehergne-a.cli line 749 ** Failure: undefined element. 16230000#[inferido]
+
+Near lines: 749 
+Near lines: 750                rel$sociabilidade/esteve com#em Macau/Gaspar do Amaral/deh-gaspar-do-amaral/16230000#[inferido]
+
+
+ERROR: dehergne-a.cli line 754 ** Failure: undefined element. 16230000
+
+Near lines: 754 
+Near lines: 755                rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/16230000
+
+
+ERROR: dehergne-a.cli line 759 ** Failure: undefined element. 16230000
+
+Near lines: 759 
+Near lines: 760                rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/16230000
+
 *** End of File
 
-Line 545 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-belchior-miguel-carneiro-leitao) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 818 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-jean-regis-lieou) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 880 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-alessandro-cicero) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 552 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-belchior-miguel-carneiro-leitao) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 748 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-andre-palmeiro) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 754 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antonio-cardim) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 759 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antonio-de-fontes) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 875 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-jean-regis-lieou) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 937 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-alessandro-cicero) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
 Structure file: /kleio-home/structures/sources.str
 Structure processing report: /kleio-home/structures/sources.srpt
@@ -29,8 +55,6 @@ Structure in JSON: /kleio-home/structures/sources.str.json
 Kleio file: /kleio-home/sources/dehergne-a.cli
 Original file: /kleio-home/sources/dehergne-a.org
 Previous version: /kleio-home/sources/dehergne-a.old
-Temp file with ids: /kleio-home/sources/dehergne-a.ids
-** - /kleio-home/sources/dehergne-a.cli-renamed to- /kleio-home/sources/dehergne-a.old
-0  errors. 
+4  errors. 
 0  warnings.
 Translation finished.
