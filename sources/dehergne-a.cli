@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=199
+kleio$gacto2.str/translations=204
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-175
    fonte$dehergne-a/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""
       Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra A - Entradas relacionadas com Coimbra.
@@ -9,6 +9,7 @@ kleio$gacto2.str/translations=199
 
 
       """
+
       lista$dehergne-notices-a/0/0/0
 
          n$António de Abreu/id=deh-antonio-de-abreu
@@ -485,7 +486,7 @@ kleio$gacto2.str/translations=199
             ls$nome/José Bernardo de Almeyda
             ls$nome-chines/So To-Tch'ao Yue-Tch'ang
             ls$nascimento/Penela, diocese de Coimbra# @wikidata:Q576924/17280918#ou 17280115
-            ls$jesuita-entrada/Lisboa#Arroios @wikidata:@wikidata:Q15041623/17460223
+            ls$jesuita-entrada/Lisboa, Arroios#@wikidata:@wikidata:Q15041623/17460223
             ls$embarque/[Para a China]#segundo Wicky, chama-lhe João/17550000#entre 1755 e 1758, não padre
             ls$embarque/[Para a China]#segundo Wicky, chama-lhe João/17580000#entre 1755 e 1758, não padre
             ls$wicky/2099/17550000#entre 1755 e 1758
@@ -589,7 +590,15 @@ kleio$gacto2.str/translations=199
             ls$estadia/Macau (Colégio de S. José)# @wikidata:Q14773/17510000
             ls$estadia/Lisboa# @wikidata:Q597/17620705#depois de, data de deportação
             ls$morte/Lisboa (Forte de S. Julião)# @wikidata:Q597/17650106
-            ls$dehergne/27/obs=Almeida (Almeyda), Simâo de (port.) fr. coadj. 27 N. 25 déc. 1718, Vizeu et E. 18 mars 1746 (JS 134, 441v). Destiné à la Chine, en 1747 (W p. 425)., en 1751, sous-ministre à Macao (JS 134, 439v) au collège St Joseph, de la vice-province., emprisonné 5 juill. 1762., déporté à Lisbonne. M. 6 janv. 1765, au fort St Julien (HS 53a, 134).
+            ls$dehergne/27/obs="""
+            Almeida (Almeyda), Simâo de (port.) fr. coadj. 27
+            N. 25 déc. 1718, Vizeu et
+            E. 18 mars 1746 (JS 134, 441v).
+            Destiné à la Chine, en 1747 (W p. 425).,
+            en 1751, sous-ministre à Macao (JS 134, 439v) au collège St Joseph, de la vice-province.,
+            emprisonné 5 juill. 1762., déporté à Lisbonne.
+            M. 6 janv. 1765, au fort St Julien (HS 53a, 134).
+            [MMHM:p.7, como irmão-coadjuntor]"""
 
             referido$Simão de Almeida/id=deh-simao-de-almeida-ref1
                ls$nacionalidade/Portugal
@@ -685,7 +694,6 @@ kleio$gacto2.str/translations=199
          n$Gaspar do Amaral/id=deh-gaspar-do-amaral
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
-
             ls$nascimento/Corvaceira, diocese de Viseu%« Covaceira », Curvaceira (Carvalheira?) d. Vizeu, Franco, Imagem...Coimbra, II.522# Aldeia da freguesia de Tavares, em Mangualde, @wikidata:Q74384/15920000
             ls$jesuita-entrada/Coimbra%?#[Adicionado a partir de Franco, Imagem...Coimbra, II, 522/16080601#MMHM:p.8
             ls$idade/14/16080601
@@ -697,8 +705,7 @@ kleio$gacto2.str/translations=199
             ls$embarque/?/16230324
             ls$wicky/684/16230324
             ls$wicky-viagem/61/16230324#[em companhia do Patriarca Afonso Mendes, Franco, Imagem...Coimbra, II, 522]
-            ls$estadia-x/Macau# @wikidata:Q14773 para aprender japonês, segundo Franco, Imagem...Coimbra, II, p.522
-               /obs=[Esteve com André Palmeiro em Macau, Franco, Imagem...Coimbra, II, p.522]
+            ls$estadia-x/Macau# @wikidata:Q14773 para aprender japonês, segundo Franco, Imagem...Coimbra, II, p.522/obs=[Esteve com André Palmeiro em Macau, Franco, Imagem...Coimbra, II, p.522]
             ls$estadia/Tonquim/16230000/obs=[com os padres António Cardim e António de Fontes, Franco, Imagem...Coimbra, II, p.522]
             ls$jesuita-tarefa/Faz mais de 40000 baptismos no Tonquim
             ls$jesuita-cargo/Superior da missão do Tonquim/16310000
@@ -738,26 +745,22 @@ kleio$gacto2.str/translations=199
 
             mae$Domingas Francica/id=deh-gaspar-do-amaral-mae
 
-            referido$António do Amaral/id=deh-gaspar-do-amaral-ref1
-               /obs=[Franco, Imagem...Coimbra, II, p.522]
+            referido$António do Amaral/id=deh-gaspar-do-amaral-ref1/obs=[Franco, Imagem...Coimbra, II, p.522]
                ls$jesuita-estatuto/Padre
                rel$parentesco/irmao/Gaspar do Amaral/deh-gaspar-do-amaral/data=15920000
 
-            referido$André Palmeiro/id=deh-gaspar-do-amaral-ref1/xmesmo_que=deh-andre-palmeiro
-               /obs=[Franco, Imagem...Coimbra, II, p.522]
+            referido$André Palmeiro/id=deh-gaspar-do-amaral-ref2/xmesmo_que=deh-andre-palmeiro/obs=[Franco, Imagem...Coimbra, II, p.522]
                ls$jesuita-estatuto/Padre
                ls$jesuita-cargo/Primeiro Superior da Companhia
-               rel$sociabilidade/esteve com#em Macau/Gaspar do Amaral/deh-gaspar-do-amaral/16230000#[inferido]
+               rel$sociabilidade/esteve com#em Macau/Gaspar do Amaral/deh-gaspar-do-amaral/data=16230000#[inferido]
 
-            referido$António Cardim/id=deh-gaspar-do-amaral-ref2/xmesmo_que=deh-antonio-cardim
-               /obs=[Franco, Imagem...Coimbra, II, p.522]
+            referido$António Cardim/id=deh-gaspar-do-amaral-ref3/xmesmo_que=deh-antonio-cardim/obs=[Franco, Imagem...Coimbra, II, p.522]
                ls$jesuita-estatuto/Padre
-               rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/16230000
+               rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/data=16230000
 
-            referido$António de Fontes/id=deh-gaspar-do-amaral-ref3/xmesmo_que=deh-antonio-de-fontes
-               /obs=[Franco, Imagem...Coimbra, II, p.522]
+            referido$António de Fontes/id=deh-gaspar-do-amaral-ref4/xmesmo_que=deh-antonio-de-fontes/obs=[Franco, Imagem...Coimbra, II, p.522]
                ls$jesuita-estatuto/Padre
-               rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/16230000
+               rel$sociabilidade/esteve com#no Tonquim/Gaspar do Amaral/deh-gaspar-do-amaral/data=16230000
 
          n$Miguel do Amaral/id=deh-miguel-do-amaral
             ls$nacionalidade/Portugal
