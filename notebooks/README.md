@@ -12,7 +12,7 @@ In order to use the notebooks you need to install VSCode, the Python interpreter
          ``pip install -r notebooks\requirements.txt``
 4. Install Docker. See https://docs.docker.com/get-docker/
 
-See the notebook [0.tutorial](tests/timelink-home/projects/test-project/notebooks/0.tutorial.ipynb) for a tutorial on how to use `timelink` in a notebook.
+See the notebook [0.tutorial](0.tutorial.ipynb) for a tutorial on how to use `timelink` in a notebook.
 
 If you have problems create an issue or start a discussion in https://github.com/time-link/timelink-py
 
