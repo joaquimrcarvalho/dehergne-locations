@@ -1,12 +1,21 @@
-kleio$gacto2.str/translations=133
+kleio$gacto2.str/translations=135
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-121
    fonte$dehergne-r/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs= """Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra R
 
       Referências (informação adicional)
 
       Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).
-      Cartas ânuas da Cochinchina (1619-1635).
-      Centro Cientifico e Cultural de Macau; Universidade de Macau.
+            Cartas ânuas da Cochinchina (1619-1635).
+            Centro Cientifico e Cultural de Macau; Universidade de Macau.
+
+      Ricci, M., & Tacchi Venturi, P. (1911). Opere storiche del p. Matteo Ricci s. I.
+               Stab. tip. F. Giorgetti.
+
+      Schutte, Josef Franz, ed. Monumenta historica japoniae I: textus catalogorum
+               Japoniae aliaeque de personis domibusque S.J. in Japonia informationes
+               et relationes 1549-1654. Monumenta Historica Societatis Iesu 111.
+               Romae: Apud “Monumenta Historica Soc. Iesu,” 1975.
+
 
       """
 
@@ -448,7 +457,13 @@ kleio$gacto2.str/translations=133
             ls$nome-chines/Si-T'ai
             ls$nascimento/Macerata# @wikidata:Q13135/15521006
             ls$jesuita-entrada/Roma% (Noviciado de Sant'Andrea al Quirinale)# @wikidata:Q220/15710816
-            ls$embarque/S. Luís/15780324
+            ls$partida-x/Roma/1577-05-18/obs=Schutte, Monumenta historica japoniae I.1280
+            ls$estadia-x/Coimbra/obs="""
+                  Ricci and Tacchi Venturi, Opere Storiche Del p. Matteo Ricci s. i.
+                     de Junho de 1577 a fim de março de 1578, p. lxiii
+
+                  Schutte, Monumenta historica japoniae I. 1280"""
+            ls$embarque/S. Luís/15780324zotero
             ls$wicky/200/15780324
             ls$wicky-viagem/25/15780324
             ls$chegada/Goa# @wikidata:Q1171/15780913
@@ -486,6 +501,16 @@ kleio$gacto2.str/translations=133
             ls$dehergne/684/obs=Sur l'art chinois: Sepp Schûller, P. M. Ricci und die christliche Kunst, Die Kath. Miss. LXIV (Diisseldorf, 1936), 3-8., H. Bernard [Maître], L'Art chré- tien en Chine au temps du P. M. R., RHM 12 (1935), 199-229., D'Elia, Le origini delt'arte cristiana cinese, Rome 1939. Sur l'influence au Japon des cartes de Ricci, Aleni et Verbiest, l'art, de Shintarô Ayusawa, MNipp. 19 (1964), 45-49. Sur le Ki-jen che p'ien, RBS 228 et 399. Principaux autographes de RICCI: — Son catéchisme, B. Casanatense ms 2136 G. I 1, daté de 1603, cf. JS 195.
             ls$dehergne/684/obs=— Délia Entrata delta Comp. nella Cina, avec additions de N. Trigault, JS 106a. Cf D'Elia. Une édition nouvelle, avec un important appareil documentaire et critique est en préparation à l'Université de Paris VII (Bulletin de Liaison, Ecole Pratique des Hautes Etudes, VI* section, 54 bd Raspail, 75006 Paris, vol. V (1972) p. 42. — La Carte de Chine, 28 sept. 1584, reproduite dans Colin, Francisco & Pastells, Pablo, Labor Evangelica .... Barcelone, 1902, III, planche, p. 448 (Arch. d. Ind., 145-7-7). Sa carte du Monde, supra. Gaibandi, Pietro, -- P. M.R e ta geografia délia Cina, Rivista di fisica, matematica e scienze naturali, Padua, VIII, 1903, 321-355, 459-464.
             ls$dehergne/684/obs=pécimen d'écriture, nom chinois et romanisation, Allan, pl. p. 49 (noter le -RI de Ricci, écrit à la fois RI et LI. Copie de la lettre du P. « Matheo Risi y Saliano » (1584) à Juan Bautista RomAn, facteur des îles Philippines à Macao, dans Carlos Sanz, Primitivas Relaciones de Espana con Asia y Oceania, Madrid, 1958, 372-384 (Archivos de Indias 67-6-29) et l'art, de Léon Lopetegui, Miss. Hisp. I, 1944, 341-352., Razén y Fe IV, 1902, 463477.
+            ls$nota/JRC/obs="""
+
+            Schutte, Monumenta historica japoniae I. 1280
+            “18. Maji 1577 Roma discessit, in Lusitaniam se
+            contulit, Conimbricae studio deditus;
+            24. Martii 1578 e Lusitania in Indiam solvit,
+            13. Sept. 1578 Goam advenit. Cochini deinceps
+            et Goae studium prosecu-tus. litt. quoque human. docuit.”
+
+            """
 
             pai$Giovanni Battista Ricci/id=deh-matteo-ricci-pai
                ls$profissao/Boticário
