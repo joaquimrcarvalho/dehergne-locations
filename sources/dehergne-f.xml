@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-f.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-16 6:22:16" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-f.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-16 14:14:44" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -34551,7 +34551,8 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[jesuita-entrada]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
-         <core><![CDATA[Coimbra]]></core>         <comment><![CDATA["""Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3"""]]></comment>
+         <core><![CDATA[Coimbra]]></core>         <original><![CDATA[?]]></original>
+         <comment><![CDATA["""Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3"""]]></comment>
    </ELEMENT>
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16100000]]></core>   </ELEMENT>
@@ -35127,8 +35128,8 @@
          <core><![CDATA[deh-francisco-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-francisco-furtado-att1242-137" NAME="ls" CLASS="attribute" ORDER="1904" LEVEL="4" LINE="1616">
-    <ELEMENT NAME="line" CLASS="line"><core>1616</core></ELEMENT>
+<GROUP ID="deh-francisco-furtado-att1242-137" NAME="ls" CLASS="attribute" ORDER="1904" LEVEL="4" LINE="1641">
+    <ELEMENT NAME="line" CLASS="line"><core>1641</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-francisco-furtado-att1242-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-francisco-furtado</core></ELEMENT>
@@ -35140,7 +35141,31 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[342]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
-         <core><![CDATA[Furtado, Francisco (port.) P. 342 Furtatus (JS 134, 300)., Hurtado (Borg. lot. 523, 58). Fou Fan-tsi T'i-Tchal (Pf.). N. 1589 « ex insulis tertiariis » (JS 134, 303v), île de Fayal., Açores -E. 1610 (Lus. 44 II, 311v). Emb. mi-avril 1618 sur le S. Carlos (W 646)., arr. Macao, 15 juill. 1619., Kiating, Kiangnan., puis Hangchow, 1625., 1630, Shensi., v. 1631, résidence de Sian (Si-ngan fou)., vice-provincial de Chine, 1635-1641., à ce titre, il abandonne en 1640 la Corée (non encore évangélisée) à la province du Japon (Margiotti, p. 64)., 1641-1650, à Pékin supérieur des 6 résidences du nord., vice-provincial de la Chine du sud et visiteur du 8 sept. 1646 (puis du 2 déc. 1647, JS 25, 293), en fait, de 1650 à sa mort., 1646-47, Puchow, Shansi. P. v. 1616. V. « Ham cheu » (Hangchow), 3 mai 1626, pr. (Lus. 4, 263). M. 21 nov. 1653, Macao (HS 48, 41: Furtadus). Pf. 151., Streit V, n» 2148, XIVi p. 650.]]></core>   </ELEMENT>
+         <core><![CDATA["""
+            Furtado, Francisco (port.) P. 342
+            Furtatus (JS 134, 300).,
+            Hurtado (Borg. lot. 523, 58).
+            Fou Fan-tsi T'i-Tchal (Pf.).
+            N. 1589 « ex insulis tertiariis » (JS 134, 303v),
+            île de Fayal., Açores -
+            E. 1610 (Lus. 44 II, 311v).
+            Emb. mi-avril 1618 sur le S. Carlos (W 646).,
+            arr. Macao, 15 juill. 1619.,
+            Kiating, Kiangnan., puis Hangchow, 1625., 1630,
+            Shensi., v. 1631,
+            résidence de Sian (Si-ngan fou).,
+            vice-provincial de Chine, 1635-1641.,
+            à ce titre, il abandonne en 1640 la Corée (non encore évangélisée)
+            à la province du Japon (Margiotti, p. 64).,
+            1641-1650, à Pékin supérieur des 6 résidences du nord.,
+            vice-provincial de la Chine du sud et visiteur du 8 sept.
+            1646 (puis du 2 déc. 1647, JS 25, 293), en fait, de 1650 à sa mort.,
+            1646-47, Puchow, Shansi.
+            P. v. 1616. V. « Ham cheu » (Hangchow),
+            3 mai 1626, pr. (Lus. 4, 263).
+            M. 21 nov. 1653, Macao (HS 48, 41: Furtadus).
+            Pf. 151.,
+            Streit V, n» 2148, XIVi p. 650."""]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-francisco-furtado-att1242-137]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -35149,8 +35174,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado" NAME="n" CLASS="person" ORDER="1905" LEVEL="3" LINE="1617">
-    <ELEMENT NAME="line" CLASS="line"><core>1617</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado" NAME="n" CLASS="person" ORDER="1905" LEVEL="3" LINE="1642">
+    <ELEMENT NAME="line" CLASS="line"><core>1642</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>n</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-f</core></ELEMENT>
@@ -35163,8 +35188,8 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-f-rela141" NAME="relation"  ORDER="1906" LEVEL="4" CLASS="relation" LINE="1617">
-    <ELEMENT NAME="line" CLASS="line"><core>1617</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela141" NAME="relation"  ORDER="1906" LEVEL="4" CLASS="relation" LINE="1642">
+    <ELEMENT NAME="line" CLASS="line"><core>1642</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35178,8 +35203,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela141</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-silvestre-furtado-att1243-137" NAME="ls" CLASS="attribute" ORDER="1907" LEVEL="4" LINE="1618">
-    <ELEMENT NAME="line" CLASS="line"><core>1618</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1243-137" NAME="ls" CLASS="attribute" ORDER="1907" LEVEL="4" LINE="1643">
+    <ELEMENT NAME="line" CLASS="line"><core>1643</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1243-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35198,8 +35223,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1244-137" NAME="ls" CLASS="attribute" ORDER="1908" LEVEL="4" LINE="1619">
-    <ELEMENT NAME="line" CLASS="line"><core>1619</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1244-137" NAME="ls" CLASS="attribute" ORDER="1908" LEVEL="4" LINE="1644">
+    <ELEMENT NAME="line" CLASS="line"><core>1644</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1244-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35218,8 +35243,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-atra355" NAME="ls"  ORDER="1909" LEVEL="5" CLASS="attribute" LINE="1620">
-    <ELEMENT NAME="line" CLASS="line"><core>1620</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-atra355" NAME="ls"  ORDER="1909" LEVEL="5" CLASS="attribute" LINE="1645">
+    <ELEMENT NAME="line" CLASS="line"><core>1645</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35231,8 +35256,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-atra355</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16740000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-silvestre-furtado-att1245-137" NAME="ls" CLASS="attribute" ORDER="1910" LEVEL="4" LINE="1620">
-    <ELEMENT NAME="line" CLASS="line"><core>1620</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1245-137" NAME="ls" CLASS="attribute" ORDER="1910" LEVEL="4" LINE="1645">
+    <ELEMENT NAME="line" CLASS="line"><core>1645</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1245-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35252,8 +35277,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1246-137" NAME="ls" CLASS="attribute" ORDER="1911" LEVEL="4" LINE="1621">
-    <ELEMENT NAME="line" CLASS="line"><core>1621</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1246-137" NAME="ls" CLASS="attribute" ORDER="1911" LEVEL="4" LINE="1646">
+    <ELEMENT NAME="line" CLASS="line"><core>1646</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1246-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35272,8 +35297,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1247-137" NAME="ls" CLASS="attribute" ORDER="1912" LEVEL="4" LINE="1622">
-    <ELEMENT NAME="line" CLASS="line"><core>1622</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1247-137" NAME="ls" CLASS="attribute" ORDER="1912" LEVEL="4" LINE="1647">
+    <ELEMENT NAME="line" CLASS="line"><core>1647</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1247-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35292,8 +35317,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1248-137" NAME="ls" CLASS="attribute" ORDER="1913" LEVEL="4" LINE="1623">
-    <ELEMENT NAME="line" CLASS="line"><core>1623</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1248-137" NAME="ls" CLASS="attribute" ORDER="1913" LEVEL="4" LINE="1648">
+    <ELEMENT NAME="line" CLASS="line"><core>1648</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1248-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35312,8 +35337,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1249-137" NAME="ls" CLASS="attribute" ORDER="1914" LEVEL="4" LINE="1624">
-    <ELEMENT NAME="line" CLASS="line"><core>1624</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1249-137" NAME="ls" CLASS="attribute" ORDER="1914" LEVEL="4" LINE="1649">
+    <ELEMENT NAME="line" CLASS="line"><core>1649</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1249-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35332,8 +35357,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1250-137" NAME="ls" CLASS="attribute" ORDER="1915" LEVEL="4" LINE="1625">
-    <ELEMENT NAME="line" CLASS="line"><core>1625</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1250-137" NAME="ls" CLASS="attribute" ORDER="1915" LEVEL="4" LINE="1650">
+    <ELEMENT NAME="line" CLASS="line"><core>1650</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1250-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35352,8 +35377,8 @@
          <core><![CDATA[deh-silvestre-furtado]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-silvestre-furtado-att1251-137" NAME="ls" CLASS="attribute" ORDER="1916" LEVEL="4" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-silvestre-furtado-att1251-137" NAME="ls" CLASS="attribute" ORDER="1916" LEVEL="4" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-silvestre-furtado-att1251-137</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-silvestre-furtado</core></ELEMENT>
@@ -35374,8 +35399,8 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-f-rela142" NAME="relation"  ORDER="1917" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela142" NAME="relation"  ORDER="1917" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-faure-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35389,8 +35414,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela142</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela143" NAME="relation"  ORDER="1918" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela143" NAME="relation"  ORDER="1918" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-fernandes-tsai-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35404,8 +35429,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela143</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela144" NAME="relation"  ORDER="1919" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela144" NAME="relation"  ORDER="1919" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pascoal-fernandes-fan-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35419,8 +35444,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela144</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela145" NAME="relation"  ORDER="1920" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela145" NAME="relation"  ORDER="1920" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-sebastiao-fernandes-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35434,8 +35459,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela145</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela146" NAME="relation"  ORDER="1921" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela146" NAME="relation"  ORDER="1921" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-bernardino-ferrario-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35449,8 +35474,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela146</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela147" NAME="relation"  ORDER="1922" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela147" NAME="relation"  ORDER="1922" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-luis-de-figueiredo-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35464,8 +35489,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela147</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela148" NAME="relation"  ORDER="1923" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela148" NAME="relation"  ORDER="1923" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-caetano-da-fonseca-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35479,8 +35504,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela148</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela149" NAME="relation"  ORDER="1924" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela149" NAME="relation"  ORDER="1924" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-frois-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35494,8 +35519,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela149</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela150" NAME="relation"  ORDER="1925" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela150" NAME="relation"  ORDER="1925" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-faure-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35509,8 +35534,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela150</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela151" NAME="relation"  ORDER="1926" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela151" NAME="relation"  ORDER="1926" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-fernandes-tsai-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35524,8 +35549,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela151</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela152" NAME="relation"  ORDER="1927" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela152" NAME="relation"  ORDER="1927" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pascoal-fernandes-fan-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35539,8 +35564,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela152</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela153" NAME="relation"  ORDER="1928" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela153" NAME="relation"  ORDER="1928" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-sebastiao-fernandes-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35554,8 +35579,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela153</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela154" NAME="relation"  ORDER="1929" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela154" NAME="relation"  ORDER="1929" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-bernardino-ferrario-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35569,8 +35594,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela154</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela155" NAME="relation"  ORDER="1930" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela155" NAME="relation"  ORDER="1930" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-luis-de-figueiredo-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35584,8 +35609,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela155</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela156" NAME="relation"  ORDER="1931" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela156" NAME="relation"  ORDER="1931" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-caetano-da-fonseca-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35599,8 +35624,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela156</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela157" NAME="relation"  ORDER="1932" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela157" NAME="relation"  ORDER="1932" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-frois-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35614,8 +35639,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela157</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela158" NAME="relation"  ORDER="1933" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela158" NAME="relation"  ORDER="1933" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-faure-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35629,8 +35654,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela158</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-pierre-faure-pai-atra356" NAME="ls"  ORDER="1934" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-pierre-faure-pai-atra356" NAME="ls"  ORDER="1934" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-faure-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35642,8 +35667,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-faure-pai-atra356</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-pierre-faure-mae-atra357" NAME="ls"  ORDER="1935" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-pierre-faure-mae-atra357" NAME="ls"  ORDER="1935" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-faure-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35655,8 +35680,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-faure-mae-atra357</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela159" NAME="relation"  ORDER="1936" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela159" NAME="relation"  ORDER="1936" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-fernandes-tsai-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35670,8 +35695,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela159</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-antonio-fernandes-tsai-pai-atra358" NAME="ls"  ORDER="1937" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-antonio-fernandes-tsai-pai-atra358" NAME="ls"  ORDER="1937" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-fernandes-tsai-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35683,8 +35708,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-fernandes-tsai-pai-atra358</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-antonio-fernandes-tsai-mae-atra359" NAME="ls"  ORDER="1938" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-antonio-fernandes-tsai-mae-atra359" NAME="ls"  ORDER="1938" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-antonio-fernandes-tsai-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35696,8 +35721,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-antonio-fernandes-tsai-mae-atra359</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela160" NAME="relation"  ORDER="1939" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela160" NAME="relation"  ORDER="1939" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pascoal-fernandes-fan-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35711,8 +35736,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela160</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-pascoal-fernandes-fan-pai-atra360" NAME="ls"  ORDER="1940" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-pascoal-fernandes-fan-pai-atra360" NAME="ls"  ORDER="1940" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pascoal-fernandes-fan-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35724,8 +35749,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pascoal-fernandes-fan-pai-atra360</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-pascoal-fernandes-fan-mae-atra361" NAME="ls"  ORDER="1941" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-pascoal-fernandes-fan-mae-atra361" NAME="ls"  ORDER="1941" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-pascoal-fernandes-fan-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35737,8 +35762,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pascoal-fernandes-fan-mae-atra361</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela161" NAME="relation"  ORDER="1942" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela161" NAME="relation"  ORDER="1942" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-sebastiao-fernandes-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35752,8 +35777,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela161</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-sebastiao-fernandes-pai-atra362" NAME="ls"  ORDER="1943" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-sebastiao-fernandes-pai-atra362" NAME="ls"  ORDER="1943" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-sebastiao-fernandes-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35765,8 +35790,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-sebastiao-fernandes-pai-atra362</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-sebastiao-fernandes-mae-atra363" NAME="ls"  ORDER="1944" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-sebastiao-fernandes-mae-atra363" NAME="ls"  ORDER="1944" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-sebastiao-fernandes-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35778,8 +35803,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-sebastiao-fernandes-mae-atra363</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela162" NAME="relation"  ORDER="1945" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela162" NAME="relation"  ORDER="1945" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-bernardino-ferrario-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35793,8 +35818,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela162</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-bernardino-ferrario-pai-atra364" NAME="ls"  ORDER="1946" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-bernardino-ferrario-pai-atra364" NAME="ls"  ORDER="1946" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-bernardino-ferrario-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35806,8 +35831,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-bernardino-ferrario-pai-atra364</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-bernardino-ferrario-mae-atra365" NAME="ls"  ORDER="1947" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-bernardino-ferrario-mae-atra365" NAME="ls"  ORDER="1947" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-bernardino-ferrario-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35819,8 +35844,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-bernardino-ferrario-mae-atra365</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela163" NAME="relation"  ORDER="1948" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela163" NAME="relation"  ORDER="1948" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-luis-de-figueiredo-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35834,8 +35859,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela163</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-luis-de-figueiredo-pai-atra366" NAME="ls"  ORDER="1949" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-luis-de-figueiredo-pai-atra366" NAME="ls"  ORDER="1949" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-luis-de-figueiredo-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35847,8 +35872,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-luis-de-figueiredo-pai-atra366</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-luis-de-figueiredo-mae-atra367" NAME="ls"  ORDER="1950" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-luis-de-figueiredo-mae-atra367" NAME="ls"  ORDER="1950" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-luis-de-figueiredo-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35860,8 +35885,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-luis-de-figueiredo-mae-atra367</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela164" NAME="relation"  ORDER="1951" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela164" NAME="relation"  ORDER="1951" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-caetano-da-fonseca-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35875,8 +35900,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela164</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-caetano-da-fonseca-pai-atra368" NAME="ls"  ORDER="1952" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-caetano-da-fonseca-pai-atra368" NAME="ls"  ORDER="1952" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-caetano-da-fonseca-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35888,8 +35913,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-caetano-da-fonseca-pai-atra368</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-caetano-da-fonseca-mae-atra369" NAME="ls"  ORDER="1953" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-caetano-da-fonseca-mae-atra369" NAME="ls"  ORDER="1953" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-caetano-da-fonseca-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35901,8 +35926,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-caetano-da-fonseca-mae-atra369</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela165" NAME="relation"  ORDER="1954" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela165" NAME="relation"  ORDER="1954" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-frois-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
@@ -35916,8 +35941,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-f-rela165</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-frois-pai-atra370" NAME="ls"  ORDER="1955" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-joao-frois-pai-atra370" NAME="ls"  ORDER="1955" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-frois-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35929,8 +35954,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-frois-pai-atra370</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-joao-frois-mae-atra371" NAME="ls"  ORDER="1956" LEVEL="5" CLASS="attribute" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="deh-joao-frois-mae-atra371" NAME="ls"  ORDER="1956" LEVEL="5" CLASS="attribute" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-joao-frois-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -35942,8 +35967,8 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-joao-frois-mae-atra371</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="dehergne-notices-f-rela166" NAME="relation"  ORDER="1957" LEVEL="5" CLASS="relation" LINE="1626">
-    <ELEMENT NAME="line" CLASS="line"><core>1626</core></ELEMENT>
+<GROUP ID="dehergne-notices-f-rela166" NAME="relation"  ORDER="1957" LEVEL="5" CLASS="relation" LINE="1651">
+    <ELEMENT NAME="line" CLASS="line"><core>1651</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-jean-fernandes-tchong-irmao</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
