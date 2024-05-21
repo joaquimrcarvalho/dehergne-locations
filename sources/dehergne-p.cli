@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=139
+kleio$gacto2.str/translations=140
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-126
    fonte$dehergne-p/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs= """Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra P
 
@@ -430,26 +430,36 @@ kleio$gacto2.str/translations=139
             ls$nacionalidade/China
             ls$jesuita-estatuto/Padre
             ls$nome/Jean P'ong
-            ls$nascimento/Pequim# @wikidata:Q956/17190000
-            ls$jesuita-entrada/?/000000
+            ls$nascimento/Pequim# @wikidata:Q956/17190815
+            ls$jesuita-entrada/Pequim# @wikidata:Q956/17380713
             ls$chegada/Nanquim# @wikidata:Q16666/17450000
             rel$sociabilidade/Companheiro/Etienne Baptista P'eng/deh-jean-peng-tio/data=17450000
             ls$jesuita-ordenacao-padre/Macau#? @wikidata:Q14773/17510000#cerca de, nessa data acaba dois anos de teologia moral
             ls$morte/?/17700000#depois de
-            ls$dehergne/614a/obs=P'eng (P'ong), Jean (chin.) P. 614a N. Pékin, 1719, neveu du P. Etienne Baptista P'eng -E. ? Arr. au Nankin en 1745, où il travaille avec son oncle (Krahl, 108., SOCP t. 52, 1760, 580v). P. à Macao ? En 1751, il achève 2 ans de théologie morale (JS 134, 439). M. après 1770 (SOCP t. 59, 306v). BN: ms. fr. 25057 p. 805 l'appelle Pung Jacome (sic). Les catal. de 1741 et de 1751 ne le nomment pas (JS 134, 435, 439), sauf que ce dernier parle d'un P. Jean de Silva N. au Pékin, le 15 août 1719, E. 13 juill. 1738 et E. en mission en 1746. Ces coïncidences sont troublantes, et nous hésitons à le distinguer du P. Jean Silva P'eng.
+            ls$dehergne/614a/obs="""
+               P'eng (P'ong), Jean (chin.) P. 614a
+               N. Pékin, 1719, neveu du P. Etienne Baptista P'eng -
+               E. ?
+               Arr. au Nankin en 1745, où il travaille avec son oncle
+                  (Krahl, 108., SOCP t. 52, 1760, 580v).
+               P. à Macao ?
+               En 1751, il achève 2 ans de théologie morale (JS 134, 439).
+               M. après 1770 (SOCP t. 59, 306v).
+               BN: ms. fr. 25057 p. 805 l'appelle Pung Jacome (sic).
+               Les catal. de 1741 et de 1751 ne le nomment pas (JS 134, 435, 439),
+               sauf que ce dernier parle d'un P. Jean de Silva
+                  N. au Pékin, le 15 août 1719,
+                  E. 13 juill. 1738 et
+                  E. en mission en 1746. Ces coïncidences sont troublantes,
+                     et nous hésitons à le distinguer du P. Jean Silva P'eng.
+               [JRC numa primeira transcrição criou-se um novo registo para Jean Silva P'eng,
+                  mas depois optou-se por juntar tudo num só registo]
+               """
 
             referido$Etienne Baptista P'eng/id=deh-jean-peng-tio/obs=Dehergne 70
                ls$jesuita-estatuto/Padre
                rel$parentesco/Tio/Jean P'eng/deh-jean-peng
                ls$estadia/Nanquim# @wikidata:Q16666/17450000
-
-            referido$Jean de Silva/id=deh-jean-peng-ref1/obs=Jean da Silva P'eng? Dehergne hesita em dizer que são os mesmos devido às coincidências
-               ls$nacionalidade/China
-               ls$jesuita-estatuto/Padre
-               ls$nascimento/Pequim# @wikidata:Q956/17190815
-               ls$jesuita-entrada/?/17380713
-               ls$jesuita-tarefa/Entra em missão/17460000
-               ls$dehergne/614a-ref1/obs= Les catal. de 1741 et de 1751 ne le nomment pas (JS 134, 435, 439), sauf que ce dernier parle d'un P. Jean de Silva N. au Pékin, le 15 août 1719, E. 13 juill. 1738 et E. en mission en 1746. Ces coïncidences sont troublantes, et nous hésitons à le distinguer du P. Jean Silva P'eng.
 
          n$André Pereira/id=deh-andre-pereira
             ls$nacionalidade/Portugal#Inglaterra
