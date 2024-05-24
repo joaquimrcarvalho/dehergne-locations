@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-16 6:22:15" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-23 2:46:37" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -12,8 +12,8 @@
      <ATTRIBUTE NAME="replace" COLUMN="replaces" CLASS="replace" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="197">
-    <ELEMENT NAME="line" CLASS="line"><core>197</core></ELEMENT>
+<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="259">
+    <ELEMENT NAME="line" CLASS="line"><core>259</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-0-abrev</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
@@ -25,7 +25,7 @@
    <ELEMENT NAME="type" CLASS="type">
          <core><![CDATA[Dicionário Biográfico]]></core>   </ELEMENT>
    <ELEMENT NAME="loc" CLASS="loc">
-         <core><![CDATA[Online archive.org:details:bhsi37]]></core>   </ELEMENT>
+         <core><![CDATA[Online "http://archive.org/details/bhsi37"]]></core>   </ELEMENT>
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA["""
 
@@ -58,7 +58,68 @@
         Arag. Jésuites de la province d'Aragon, section des ARSI
             (*).
         Arch. Archives.
+        Arch. d. Jap. Schutte, Josef Franz, El «Archivo del Japôn»,
+            Real Academia de la Historia, t. XX, Madrid, 1964.
+        Arch. SJ. Lyon Archives des Jésuites de la Province de Lyon,
+            France. (voir ASJM).
+        Arr. arrivé (à, ou le).
+        ARSI Archivum Romanum Societatis Jesu, Archives de la
+            Compagnie de Jésus, maison généralice, Rome.
+        ARSI, FG. Ibid., Le « Fondo Gesuitico », section
+            restituée en 1924. (catalogue, v. ci-dessus au mot Lamalle).
+        ASJFN Archives des Jésuites de la Province de France-Nord
+            (anciennement Champagne).
+        ASJM Archives des Jésuites de la province de
+            France-Méditerranée (anciennement province de Lyon).
+        ASJP Archives des Jésuites de la province de Paris
+            (anciennement province de France, Franciae, non Galliae).
+        ASV v. A. Vatic.
+        Austr. Austria, Jésuites de la province d'Autriche,
+            section des ARSI (*).
+        A. Vatic. (ASV) Archivio Segreto Vaticano,
+            Archives Vaticanes. Par exemple Fondo Albani (= Clément XI);
+            Fondo Missioni, etc.
 
+        B. Bibliothèque (en général, le départment des manuscrits).
+            Par exemple: B. Arsenal, Paris; B. Casanatense, Rome;
+            B. Evora, Biblioteca Pûblica de Evora;
+            B. Inst., Bibliothèque de l'Institut de France, Paris;
+            B. Vat., Bibliothèque Vaticane. Etc. ...voir plus loin BN:
+        BCP Bulletin Catholique de Pékin, 1914 sq.
+        BEFEO Bulletin de l'Ecole Française d'Extrême-Orient, 1901 sq.
+        BEM Boletim Ecclesidstico da Diocèse de Macau, Macao, 1903 sq.
+        BN: Bibliothèque Nationale, Paris. Par exemple:
+            BN: ms. fr. n. a. = Manuscrits français, nouvelles acquisitions (*).
+            BN: ms. lat. = manuscrits latins (*).
+            BN: ms. chin. = manuscrits chinois (cf Courant).
+        BN Lisboa Biblioteca Nacional de Lisbonne.
+        BNB Biographie Nationale... de Belgique.
+        Boh. Jésuites de la province de Bohême, section des ARSI(*).
+        Borg. cin. B. Vaticane, ms du Fonds Borgia chinois (*).
+        Borg.lat. B. Vaticane, ms du fonds Borgia latin (*).
+        Br. Mus. British Muséum, Londres.
+        Bras. Maragn. Jésuites de la province du Brésil-Maragnon,
+            section des ARSI (*).
+            (contient un document sur les prisonniers de Pombal).
+        Bras. Jésuites de la province du Brésil, section des ARSI (*).
+        Brux. Arch. roy. Bruxelles, Archives du royaume de Belgique.
+        B.S., v. Cordier, Bibliotheca Sinica{*).
+        BSR Bibliotheca Sanctorum, p.p. l'Istituto Giovanni XXIII
+            délia Pontificia Université Lateranense, Rome.
+        BUA Bulletin de l'Université l'Aurore, Shanghai.
+        B. Vat. Biblioteca Apostolica Vaticana, Bibliothèque Vaticane.
+        BVE.FG Biblioteca Nazionale Centrale Vittorio Emanuele, Rome,
+            le Fondo Gesuitico (Mss. Gesuitici, faisant partie des
+            Fondi minores (*).
+
+        ct. ou c. temp. coadjuteur temporel.
+        Camp. Campaniae, Jésuites de la province de Champagne,
+            section des ARSI (*).
+        Cast. Jésuites de la province de Castille, section des ARSI (*).
+        Catal. Catalogue des Jésuites. Par exemple
+            Franc. 1696 ex. = catalogue de la province de France
+                année 1696 exeunte (= d'octobre 1696 à octobre 1697),
+                soit 1696-1697 (*).
         Catal. Pé-t'ang Catalogue de la Bibliothèque du Pé-t'ang,
                 Pékin, Imprimerie des Lazaristes, 1949; réédition. Paris, Les Belles Lettres, 1969.
         Catal. E. Catalogus Ecclesiarum, capellarum, aedium
@@ -221,7 +282,8 @@
                 missionnaires jésuites, formant 40 fascicules en 5 volumes (pour Je détail des lettres voir Carayon, Bibliographie historique de la Compagnie de Jésus, Paris, 1864, pp. 546-570).
         W.K. Wicki, Josef, Die « Miscellanea Epistolarum » des P. Athanasius Kircher,
                 dans Euntes Docete, XXI (Rome, 1968) 221-254. Voir ci-dessus W, puis Wicki.
-        ZMR Zeitschrift fur Missionswissenschaft und Religionswissenschaft, Munster i.W., 1929 sq.]]></core>   </ELEMENT>
+        ZMR Zeitschrift fur Missionswissenschaft und Religionswissenschaft, Munster i.W., 1929 sq.
+]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
