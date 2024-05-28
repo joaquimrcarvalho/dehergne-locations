@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=131
+kleio$gacto2.str/translations=140
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-115
    fonte$dehergne-g/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra G
 
@@ -21,7 +21,7 @@ kleio$gacto2.str/translations=131
             ls$wicky/997/16550323
             ls$wicky-viagem/87/16550323
             ls$chegada/Macau# @wikidata:Q14773/16560000
-            ls$estadia/Kiangnan/16600000
+            ls$estadia/Kiangnan#@wikidata:Q11133842/16600000
             ls$estadia/Yangchow/16600000
             ls$estadia/Chinkiang/16600000
             ls$partida/Cantão# @wikidata:Q16572/16650000#exilado
@@ -200,7 +200,7 @@ kleio$gacto2.str/translations=131
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/São João Batista de Lobrigos, diocese do Porto# @wikidata:Q774911/15540000
-            ls$jesuita-entrada/Coimbra%?#Schutte, Monumenta historica japoniae I.,p.1180/15750926
+            ls$jesuita-entrada/Coimbra%?#@wikidata:Q45412 Schutte, Monumenta historica japoniae I.,p.1180/15750926
             ls$embarque/S. Bernardo/15890404
             ls$wicky/307/15890404
             ls$wicky-viagem/33/15890404
@@ -354,11 +354,11 @@ kleio$gacto2.str/translations=131
             ls$nascimento/Diocese de Clermont-Ferrand# @wikidata:Q1640132/16671018
             ls$jesuita-entrada/?/16900907
             ls$chegada/Cantão# @wikidata:Q16572/16981104
-            ls$estadia/Hwaian (Houai-ngan fou), Kiangnan
+            ls$estadia/Hwaian (Houai-ngan fou), Kiangnan#@wikidata:Q57818
             ls$jesuita-tarefa/Música chinesa e a sua história#estuda? Dehergne não explicita
             ls$estadia/Hangchow# @wikidata:Q4970/16990000#doente
             ls$jesuita-ordenacao-padre/?/16950000
-            ls$morte/Hwaian fou/16990930#ou 1700 segundo Tolos, 13, 377
+            ls$morte/Hwaian fou#@wikidata:Q57818/16990930#ou 1700 segundo Tolos, 13, 377
             ls$dehergne/358/obs=Geneix, Philibert (franç.) P. 358 Genoix (BN: ms. fr. 21690 f° 307v)., Genln (Franc. 1697 ex., 388v). Yen Li-pei Wou-Pen (Pf.): Li-pé = (Phi)libe(rt). N. 18 oct. 1667, dioc. de Clermont-Ferrand -E. 7 sept. 1690 (Tolos. 13, 9). Arr. 4 nov. 1698, Canton., Hwaian (Houai-ngan fou), Kiangnan., musique chinoise et son histoire., en 1699, à Hangchow, malade. P. 1695 (Tolos. 13, 159). M. 30 sept. 1699, Hwaian fou (BN: ms. fr. 25057, 452), M. en 1700, dit Tolos. 13, 377 sans autre précision. Pf. 500.
 
          n$Giovanni Gerardino/id=deh-giovanni-gerardino
@@ -557,7 +557,7 @@ kleio$gacto2.str/translations=131
             ls$estadia/Kiang-si#Kiangxi?
             ls$jesuita-ordenacao-padre/?/16450000
             ls$jesuita-votos/4V/16490000
-            ls$morte/Nanchang (Nan-tch'ang fou)/16611122
+            ls$morte/Nanchang (Nan-tch'ang fou)#@wikidata:Q171943/16611122
             ls$dehergne/364/obs=Gobet (Gobbé), Louis (franç.) P. 364 Goubet (JS 134, 345, 352)., Gobé., Jobée. Yo Lei-sseu Neng-Liu (Pf.) (Yo, que JS 187, 3v prononce L6)., Lo Loui-sù (Borg. Lat. 523, 58., Pk). N. « Chasteau-Thierry », 1609 <BN: coll. Moreau ms 841, 255)., « Castrotheodoricensis », dioc. de Soissons, 1613 -E. 27 sept. 1632: Gobbé (Camp. 10, 167v). Emb. La Rochelle, févr. 1655 (Pf. 294)., Lisbonne, 23 mars 1655 (W 999: Gobbé), arr. 1657, Macao., Fou-kien., puis Kiang-si. P. 1645 -V. 1649, pr.: Gobbé (Camp. 11, 42). M. Nanchang (Nan-tch'ang fou), 22 nov. 1661 (JS 112, 181-182 et 124, 52). Nous avons personnellement consulté sans succès les registres conservés et aux Archives et à la mairie de Château-Thierry. Couplet, qui l'assista, l'appelle Gobet. HS 48, lOv fait mourir le « P. Aloys. Goubet in Sinis » en 1660, et le 20 nov. 1661, dit-il, à la page suivante, en répétant le nom. Pf. 299. — Le caractère (classif. 75) se prononce tantôt LO tantôt YO.
 
          n$Anton Gogeisl/id=deh-anton-gogeisl
@@ -648,10 +648,10 @@ kleio$gacto2.str/translations=131
             ls$estadia/Cantão# @wikidata:Q16572/15570000
             ls$tarefa/Aprende chinês/15570000
             ls$estadia/Goa#doente @wikidata:Q1171
-            ls$estadia/Costa da Pescaria# costa este do Sul da Índia, a norte do Cabo Comorim/15840000
+            ls$estadia/Costa da Pescaria# costa este do Sul da Índia, a norte do Cabo Comorimo @wikidata:Q41562 [Thoothukudi ]/15840000
             ls$jesuita-ordenacao-padre/?/15640000#cerca de
             ls$jesuita-votos/Coadjutor Espiritual/15760000
-            ls$morte/Costa da Pescaria# costa este do Sul da Índia, a norte do Cabo Comorim/15880000
+            ls$morte/Costa da Pescaria# costa este do Sul da Índia, a norte do Cabo Comorimo @wikidata:Q41562 [Thoothukudi ]/15880000
             ls$dehergne/367/obs=Góis, Estêvão de (port.) P. 367 Goyos (DI. IX, 739). N. 1526, Moura, d. d'Evora -E. février 1554, Goa (Goa 24, 144). Destiné au Japon., « dogique » (catéchiste) venu avec le P. Belchior Nunes Barreto (1551)., apprend (sans succès) le chinois à Canton, fin de 1555, et de juin 1556 à 1557., mais il revient, malade, se soigner à Goa (D'Elia I, 140)., Côte de la Pêcherie 1584. P. v. 1564 -V. c. spir. 1576 (DI. X, 761, 934). M. en 1588, côte de la Pêcherie (HS 42, 27v., Goa 24, 183). Pf. 8., BI. III, 181., IV, 895., V, 786.
 
             referido$Belchior Nunes Barreto/id=deh-estevao-de-gois-ref1
@@ -731,7 +731,7 @@ kleio$gacto2.str/translations=131
             ls$chegada/China# @wikidata:Q148/17420000
             ls$estadia/Pequim# @wikidata:Q956/17440000
             ls$profissao/Cirurgião/17440000
-            ls$estadia/Kiangnan/17460000
+            ls$estadia/Kiangnan#@wikidata:Q11133842/17460000
             ls$jesuita-cargo/Vice-provincial da China/17480000
             ls$jesuita-cargo/Vice-provincial da China/17510000
             ls$jesuita-ordenacao-padre/?/17330000
@@ -824,7 +824,7 @@ kleio$gacto2.str/translations=131
             ls$jesuita-cargo/Catequista
             ls$tarefa/Estuda chinês clássico#dois anos, depois do noviciado
             ls$jesuita-cargo/Catequista/16880000
-            ls$estadia/Sungkiang/16880000
+            ls$estadia/Sungkiang#@wikidata:Q11104671/16880000
             ls$estadia/Siangtang du Hukwang/16910000
             ls$estadia/Siangtang du Hukwang/17120000
             ls$morte/Cantão# @wikidata:Q16572/17300302
@@ -838,9 +838,9 @@ kleio$gacto2.str/translations=131
             ls$nacionalidade/Tonquim
             ls$jesuita-estatuto/Padre
             ls$nome-chines/Li Leang Kong-sa
-            ls$nascimento/Tonquim/16630000
+            ls$nascimento/Tonquim#@wikidata:Q622778/16630000
             ls$jesuita-entrada/?/16690000
-            ls$estadia/Tonquim/16920000#não padre
+            ls$estadia/Tonquim#@wikidata:Q622778/16920000#não padre
             ls$chegada/China# @wikidata:Q148/17010000
             ls$estadia/Lien-tcheou, Kwangtung (residência)/17090000
             ls$jesuita-tarefa/Sai da Companhia
@@ -909,7 +909,7 @@ kleio$gacto2.str/translations=131
          n$Philippe Gonzaga/id=deh-philippe-gonzaga
             ls$nacionalidade/Tonquim
             ls$jesuita-estatuto/Frade Coadjutor
-            ls$nascimento/Tonquim/17090000
+            ls$nascimento/Tonquim#@wikidata:Q622778/17090000
             ls$jesuita-entrada/?/17301027
             ls$estadia/Macau (colégio)# @wikidata:Q14773
             ls$estadia/Macau (colégio)# @wikidata:Q14773/17580316
@@ -920,7 +920,7 @@ kleio$gacto2.str/translations=131
             referido$François Gonzaga/id=deh-philippe-gonzaga-ref1
                ls$nacionalidade/Tonquim
                ls$jesuita-estatuto/Frade Coadjutor
-               ls$nascimento/Tonquim/17040000
+               ls$nascimento/Tonquim#@wikidata:Q622778/17040000
                ls$jesuita-entrada/?/17340523
                ls$jesuita-votos/Coadjutor Temporal/17440815
                ls$dehergne/376a-ref1/obs=Il en est de même d'un autre fr. coadj. tonkinois contemporain, du nom de François Gonzaga N. 1704, E. 23 mai 1734, V. de c. temp. 15 août 1744 (JS 26, 48)
@@ -1010,7 +1010,7 @@ kleio$gacto2.str/translations=131
             ls$nome-chines/Ho Ta-HouaTö-Tch'ouan
             ls$nome-chines/Lo Ta-Hoa
             ls$nascimento/Casal, diocese de Viseu#ILOC/15920000#ou Gouveia, diocese de Coimbra em 15940000, segundo Lus. 44 II @wikidata:Q599317
-            ls$jesuita-entrada/Coimbra%?#(Franco, 1719, t.II, p. 612)/16080502#ou 16090502
+            ls$jesuita-entrada/Coimbra%?#@wikidata:Q45412 (Franco, 1719, t.II, p. 612)/16080502#ou 16090502
             ls$jesuita-tarefa/Sai da companhia
             ls$jesuita-entrada/?/16110000
             ls$embarque/[Para a Índia]/16230324
@@ -1021,19 +1021,19 @@ kleio$gacto2.str/translations=131
             ls$estadia/China# @wikidata:Q148/16360000
             ls$estadia/Hangchow
             ls$estadia/Wuchang (Wou-tch'ang fou)
-            ls$estadia/Foochow (Fou-tcheou fou), Fukien#Fuzhou, Fujian?/16480000
-            ls$estadia/Foochow, Fukien#Fuzhou?/16560000
-            ls$estadia/Foochow, Fukien#Fuzhou?/16650000/obs=preso na perseguição e enviado para o Cantão
+            ls$estadia/Foochow (Fou-tcheou fou), Fukien#@wikidata:Q68481/16480000
+            ls$estadia/Foochow, Fukien#@wikidata:Q68481/16560000
+            ls$estadia/Foochow, Fukien#@wikidata:Q68481/16650000/obs=preso na perseguição e enviado para o Cantão
             ls$estadia/Cantão# @wikidata:Q16572/16650000#em 1666 «appliqué à province du Japon»
             ls$jesuita-cargo/Vice-provincial da China/16690000#em Foochow
             ls$jesuita-cargo/Vice-provincial da China/16720000#em Foochow
-            ls$estadia/Foochow, Fukien#Fuzhou?/16690000
-            ls$estadia/Foochow, Fukien#Fuzhou?/16720000
+            ls$estadia/Foochow, Fukien#@wikidata:Q68481/16690000
+            ls$estadia/Foochow, Fukien#@wikidata:Q68481/16720000
             ls$jesuita-cargo/Visitador#durante 8 meses
             ls$profissao/Historiador
             ls$jesuita-votos/4V/16460714#completados a 16460727
-            ls$jesuita-votos-local/Fukien#Fujian?/16460714
-            ls$morte/Foochow, Fukien#Fuzhou?/16770214
+            ls$jesuita-votos-local/Fukien#@wikidata:Q68481/16460714
+            ls$morte/Foochow, Fukien#@wikidata:Q68481/16770214
             ls$dehergne/381/obs="""
                Gouvea, Antonio de (port.) P. 381
                Gouveia., Govea.
@@ -1060,15 +1060,15 @@ kleio$gacto2.str/translations=131
                pr. (Lus. 6, 142-142v).
                Il signe: Ant. a Gouvea.
                M. 14 févr. 1677, Foochow. HS 49, 5v dit: «febr., apud Sinas».
-            Son Innocentia Victrix, 1671.
-            Boxer III, 202: «The Portuguese Padre Ant. de Gouvea, S. J., was one of Navarrete's bêtes noires».
-               La Lettre que ce dernier lui adresse, 29 sept. 1669, est étudiée ibid 206-208.,
-            cf. Boxer IV, photocopie et JA 49-V-16, 467-504.,
-            BN: chin 9261., JS II, 74.
-            Pf. 220. —
-            Vak Hee, Le Bouddha et les premiers missionnaires Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,
-            Pontes, M. de L. Belchior, A Asia Extrema do Padre A. de G., Revista da Faculdade de Letras 22 (Lisboa, 1956),
-            271-286., AnG 710., Streit V n° 2396."""
+               Son Innocentia Victrix, 1671.
+               Boxer III, 202: «The Portuguese Padre Ant. de Gouvea, S. J., was one of Navarrete's bêtes noires».
+                  La Lettre que ce dernier lui adresse, 29 sept. 1669, est étudiée ibid 206-208.,
+               cf. Boxer IV, photocopie et JA 49-V-16, 467-504.,
+               BN: chin 9261., JS II, 74.
+               Pf. 220. —
+               Vak Hee, Le Bouddha et les premiers missionnaires Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,
+               Pontes, M. de L. Belchior, A Asia Extrema do Padre A. de G., Revista da Faculdade de Letras 22 (Lisboa, 1956),
+               271-286., AnG 710., Streit V n° 2396."""
 
          n$Pierre de Goville/id=deh-pierre-de-goville
             ls$nacionalidade/França
@@ -1223,12 +1223,12 @@ kleio$gacto2.str/translations=131
             ls$wicky/753/16290403
             ls$wicky-viagem/67/16290403
             ls$chegada/?/16301000
-            ls$estadia/Nanchang (Nan-tch'ang fou), Kiangsi/16310000
-            ls$estadia/Nanchang (Nan-tch'ang fou), Kiangsi/16480000#durante a invasão tártara
+            ls$estadia/Nanchang (Nan-tch'ang fou), Kiangsi#@wikidata:Q171943/16310000
+            ls$estadia/Nanchang (Nan-tch'ang fou), Kiangsi#@wikidata:Q171943/16480000#durante a invasão tártara
             ls$jesuita-ordenacao-padre/?/16250000
             ls$jesuita-ordenacao-padre/?/16290000
             ls$jesuita-votos/4V/16400625
-            ls$jesuita-votos-local/Nanchang (Nan-tch'ang fou), Kiangsi/16400625
+            ls$jesuita-votos-local/Nanchang (Nan-tch'ang fou), Kiangsi#@wikidata:Q171943/16400625
             ls$morte/Kiangsi#durante a invasão tártara/16470000#ainda está registado em 1648
             ls$dehergne/386/obs="""
             Grassetti, Tranquillo (ital.) P. 386
@@ -1556,7 +1556,7 @@ kleio$gacto2.str/translations=131
             ls$wicky-viagem/164/17450000
             ls$chegada/?/17460000
             ls$profissao/Matemático
-            ls$estadia/Tonquim/17510000
+            ls$estadia/Tonquim#@wikidata:Q622778/17510000
             ls$jesuita-cargo/Socius do procurador do Japão/17510000
             ls$estadia/Goa# @wikidata:Q1171/17590000#prisioneiro
             ls$jesuita-votos/4V#ou 3V/17510106#ou 17510206
