@@ -16,7 +16,8 @@ n$Pedro de Alcáçova/m/id=deh-pedro-de-alcacova
   ls$estadia/Japão/15520000/obs=extra_info: {"value": {"comment": "@wikidata:Q17"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q15674"/15520814/obs=extra_info: {"value": {"original": "Kagoshima"}}
   ls$estadia/Kagoshima/15520814/obs=extra_info: {"value": {"comment": "@wikidata:Q15674"}}
-  ls$estadia/Shangchuan/15530000/obs=extra_info: {"value": {"original": "ilha de \u00abSancien\u00bb (Changtch'ouan, Shangchwan)"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1397551"/15530000/obs=extra_info: {"value": {"original": "Shangchuan"}}
+  ls$estadia/Shangchuan/15530000/obs=extra_info: {"value": {"comment": "@wikidata:Q1397551", "original": "ilha de \u00abSancien\u00bb (Changtch'ouan, Shangchwan)"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"/15550000/obs=extra_info: {"value": {"original": "Goa"}}
   ls$estadia/Goa/15550000/obs=extra_info: {"value": {"comment": "@wikidata:Q1171"}}
   ls$morte/?/15790000
@@ -73,7 +74,8 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   ls$jesuita-cargo/Vice-provincial das Índias Orientais/15530000/obs=extra_info: {"value": {"comment": "inclui Jap\u00e3o"}}
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"/15540000/obs=extra_info: {"value": {"original": "Jap\u00e3o"}}
   ls$chegada/Japão/15540000/obs=extra_info: {"value": {"comment": "@wikidata:Q17"}}
-  ls$estadia/Shangchuan/15550000/obs=extra_info: {"value": {"original": "Sancian"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1397551"/15550000/obs=extra_info: {"value": {"original": "Shangchuan"}}
+  ls$estadia/Shangchuan/15550000/obs=extra_info: {"value": {"comment": "@wikidata:Q1397551", "original": "Sancian"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q6482357"/15550000/obs=extra_info: {"value": {"original": "Lampacao"}}
   ls$estadia/Lampacao/15550000/obs=extra_info: {"value": {"comment": "@wikidata:Q6482357"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"/15550000/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
@@ -126,14 +128,10 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   irmao$João Nunes Barreto/m/id=deh-belchior-nunes-barreto-irmao/obs=wicky 55, viagem 9, acompanha João Rodrigues Sainan
     ls$titulo/Dom/0
     ls$cargo/Patriarca da Etiópia/0
-    rel$parentesco/irmao/Belchior Nunes Barreto/deh-belchior-nunes-barreto/0
   pai$Fernão Nunes Barreto/m/id=deh-belchior-nunes-barreto-pai
-    rel$parentesco/pai/Belchior Nunes Barreto/deh-belchior-nunes-barreto/0
-    rel$parentesco/marido/Isabel Ferraz/deh-belchior-nunes-barreto-mae/0
     ls$ec/c/17040513
   mae$Isabel Ferraz/f/id=deh-belchior-nunes-barreto-mae
     ls$titulo/Dona/0
-    rel$parentesco/mae/Belchior Nunes Barreto/deh-belchior-nunes-barreto/0
     ls$ec/c/17040513
 
 n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
@@ -234,11 +232,8 @@ n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q220"/15601215/obs=extra_info: {"value": {"original": "Roma"}}
     ls$estadia/Roma/15601215/obs=extra_info: {"value": {"comment": "@wikidata:Q220"}}
   pai$Pedro Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao-pai
-    rel$parentesco/pai/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao/0
-    rel$parentesco/marido/Maria Nunes/deh-belchior-miguel-carneiro-leitao-mae/0
     ls$ec/c/16950815
   mae$Maria Nunes/f/id=deh-belchior-miguel-carneiro-leitao-mae
-    rel$parentesco/mae/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao/0
     ls$ec/c/16950815
 
 n$Francisco Pérez/m/id=deh-francisco-perez
@@ -657,7 +652,7 @@ n$Pedro Martins/m/id=deh-pedro-martins
     ls$jesuita-estatuto/Padre/0
     ls$cargo/Bispo do Japão/0
     ls$cargo/Administrador de Macau/0
-  rel$identification/same as/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao/0
+  rel$identification/same as/None/0
   referido$Diogo Valente/m/id=deh-pedro-martins-ref5/obs=Dehergne 194
     ls$jesuita-estatuto/Padre/0
     ls$cargo/Bispo do Japão/0
@@ -672,11 +667,8 @@ n$Pedro Martins/m/id=deh-pedro-martins
     ls$cargo/Arcebispo de Goa/0
     rel$eclesiastica/Nomeia/Pedro Martins/deh-pedro-martins/15920400
   pai$Pedro Afonso Martins/m/id=deh-pedro-martins-pai
-    rel$parentesco/pai/Pedro Martins/deh-pedro-martins/0
-    rel$parentesco/marido/Bárbara Fernandes/deh-pedro-martins-mae/0
     ls$ec/c/0
   mae$Bárbara Fernandes/f/id=deh-pedro-martins-mae
-    rel$parentesco/mae/Pedro Martins/deh-pedro-martins/0
     ls$ec/c/0
 
 n$Lourenço Mexia/m/id=deh-lourenco-mexia
@@ -688,8 +680,9 @@ n$Lourenço Mexia/m/id=deh-lourenco-mexia
   ls$nascimento/Évora/15390800/obs=extra_info: {"value": {"comment": "@wikidata:Q179948"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q488052"/0/obs=extra_info: {"value": {"original": "Oliven\u00e7a, diocese de Elvas"}}
   ls$estadia/Olivença, diocese de Elvas/0/obs=extra_info: {"value": {"comment": "durante a sua juventude @wikidata:Q488052"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15600314/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/15600314/obs="""
-      extra_info: {"date": {"comment": "ou 15600325 ou Coimbra, 25-03-1560 MMHM"}, "value": {"comment": "Domingues & O Neil, IV: 2645. MMHM:p.226", "original": "?"}}
+      extra_info: {"date": {"comment": "ou 15600325 ou Coimbra, 25-03-1560 MMHM"}, "value": {"comment": "@wikidata:Q45412 Domingues & O Neil, IV: 2645. MMHM:p.226", "original": "?"}}
   """
   ls$jesuita-votos/4V/15700423
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q45412"/15700423/obs=extra_info: {"value": {"original": "Coimbra"}}
@@ -780,14 +773,14 @@ n$Nicolau Pimenta/m/id=deh-nicolau-pimenta
     ls$estadia/China/0/obs=extra_info: {"value": {"comment": "enviado \u00e0 descoberta do Gr\u00e3o-Cataio @wikidata:Q148"}}
   pai$Nome desconhecido/m/id=deh-nicolau-pimenta-pai
     ls$cargo/Vereador da Câmara de Lisboa/0
-    rel$parentesco/pai/Nicolau Pimenta/deh-nicolau-pimenta/0
 
 n$Manuel Gaspar/m/id=deh-manuel-gaspar
   ls$nacionalidade/Portugal/0
   ls$jesuita-estatuto/Padre/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q774911"/15540000/obs=extra_info: {"value": {"original": "S\u00e3o Jo\u00e3o Batista de Lobrigos, diocese do Porto"}}
   ls$nascimento/São João Batista de Lobrigos, diocese do Porto/15540000/obs=extra_info: {"value": {"comment": "@wikidata:Q774911"}}
-  ls$jesuita-entrada/Coimbra/15750926/obs=extra_info: {"value": {"comment": "Schutte, Monumenta historica japoniae I.,p.1180", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15750926/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/15750926/obs=extra_info: {"value": {"comment": "@wikidata:Q45412 Schutte, Monumenta historica japoniae I.,p.1180", "original": "?"}}
   ls$embarque/S. Bernardo/15890404
   ls$wicky/307/15890404
   ls$wicky-viagem/33/15890404
@@ -876,11 +869,8 @@ n$João Rodrigues Girão/m/id=deh-joao-rodrigues-girao
       Rodrigues Girão, João (port.) (II) P. 705 Giram., Giron., Hirão., Roiz., Juan Ruis Rodrlguez (Streit V, p. 749). N. Alcochete, dioc. de Lisbonne. E. 16 déc. 1576, Coïmbre (JS 25, 114 et Streit V, 1026., Lus. 43 II, 509v). Emb. non prêtre sur le Santiago, 8 avril 1583 (W 236)., son voyage (DI. XII, 866-873)., arr. 1586 au Japon. A Macao de 1614 à 1627. P. vers 1585. -V. en 1599, c. spir. (JS 25, 114). Formules en déficit. M. 15 oct. 1629 (AHU ms 1659). Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615, et de nombreuses annuelles du Japon (et de la Chine), v. g. 1627 (BN Lisboa caixa 30). Il était fils de Francisco Girâo et de Beatriz Lourenço (BEM 1968). Pf. Addenda 23., Boxer, C. R., Boletim Instituto portuguès de Hong-Kong 1950., Streit V, n° 1026., DI.XII, 13., Schutte, 997-998.
   """
   pai$Francisco Girão/m/id=deh-joao-rodrigues-girao-pai
-    rel$parentesco/pai/João Rodrigues Girão/deh-joao-rodrigues-girao/0
-    rel$parentesco/marido/Beatriz Lourenço/deh-joao-rodrigues-girao-mae/0
     ls$ec/c/15880000
   mae$Beatriz Lourenço/f/id=deh-joao-rodrigues-girao-mae
-    rel$parentesco/mae/João Rodrigues Girão/deh-joao-rodrigues-girao/0
     ls$ec/c/15880000
 
 n$João da Rocha/m/id=deh-joao-da-rocha
@@ -891,8 +881,9 @@ n$João da Rocha/m/id=deh-joao-da-rocha
   ls$nome-chines/Houai-Tchong/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1474626"/15650000/obs=extra_info: {"value": {"original": "Santiago de Priscos, diocese de Braga"}}
   ls$nascimento/Santiago de Priscos, diocese de Braga/15650000/obs=extra_info: {"value": {"comment": "Priscos @wikidata:Q1474626"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15830000/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/15830000/obs="""
-      Corrigido: local de entrada extra_info: {"value": {"comment": "Em Coimbra no ano de 1582 segundo a Carta Annua de 1623 BA", "original": "?"}}
+      Corrigido: local de entrada extra_info: {"value": {"comment": "@wikidata:Q45412 Em Coimbra no ano de 1582 segundo a Carta Annua de 1623 BA", "original": "?"}}
   """
   ls$embarque/[Para a Índia]/15860411/obs="""
       extra_info: {"value": {"comment": "partiram nesta data os navios S. Filipe, Caranja e Jesus, Wicky n\u00e3o especifica quem foi em qual"}}
@@ -901,7 +892,8 @@ n$João da Rocha/m/id=deh-joao-da-rocha
   ls$wicky-viagem/31/15860411
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"/15910800/obs=extra_info: {"value": {"original": "Macau"}}
   ls$chegada/Macau/15910800/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$estadia/Chao-tcheou/15970700
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"/15970700/obs=extra_info: {"value": {"original": "Chao-tcheou"}}
+  ls$estadia/Chao-tcheou/15970700/obs=extra_info: {"value": {"comment": "@wikidata:Q1346617"}}
   ls$estadia/Nan-tch'ang fou/15980623
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/16000000/obs=extra_info: {"value": {"original": "Nanquim"}}
   ls$estadia/Nanquim/16000000/obs=extra_info: {"date": {"comment": "fim de"}, "value": {"comment": "@wikidata:Q16666"}}
@@ -913,7 +905,8 @@ n$João da Rocha/m/id=deh-joao-da-rocha
   ls$estadia/Nan-tch'ang fou/16160000
   ls$tarefa/Traduz o catecismo português para chinês/0
   ls$estadia/Kien-tch'ang, Kiangsi/16160000
-  ls$estadia/Changchow, Fukien/0
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68695"/0/obs=extra_info: {"value": {"original": "Changchow, Fukien"}}
+  ls$estadia/Changchow, Fukien/0/obs=extra_info: {"value": {"comment": "@wikidata:Q68695"}}
   ls$estadia/Kiating/0
   ls$estadia/Hangchow/0
   ls$jesuita-cargo/Superior da missão da China/16220600
@@ -953,7 +946,8 @@ n$Mateus de Couros/m/id=deh-mateus-de-couros
   ls$nome-japones/Josui/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"/15690000/obs=extra_info: {"value": {"original": "Lisboa"}}
   ls$nascimento/Lisboa/15690000/obs=extra_info: {"value": {"comment": "@wikidata:Q597"}}
-  ls$jesuita-entrada/Coimbra/15831222/obs=extra_info: {"value": {"comment": "MMHM:p.94 (ARSI Japsin 35 13)", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15831222/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/15831222/obs=extra_info: {"value": {"comment": "@wikidata:Q45412 MMHM:p.94 (ARSI Japsin 35 13)", "original": "?"}}
   ls$embarque/?/15860411/obs="""
       extra_info: {"date": {"comment": "n\u00e3o padre"}, "value": {"comment": "partiram nesta data os navios S. Filipe, Caranja e Jesus, Wicky n\u00e3o especifica quem foi em qual"}}
   """
@@ -1005,8 +999,10 @@ n$João Soeiro/m/id=deh-joao-soeiro
   ls$wicky-viagem/31/15860411
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"/15910700/obs=extra_info: {"value": {"original": "Macau"}}
   ls$chegada/Macau/15910700/obs=extra_info: {"date": {"comment": "ou 15910800"}, "value": {"comment": "@wikidata:Q14773"}}
-  ls$estadia/Nanchang (Nan-tch'ang fou)/15951224
-  ls$estadia/Nanchang (Nan-tch'ang fou)/16040000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/15951224/obs=extra_info: {"value": {"original": "Nanchang (Nan-tch'ang fou)"}}
+  ls$estadia/Nanchang (Nan-tch'ang fou)/15951224/obs=extra_info: {"value": {"comment": "@wikidata:Q171943"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/16040000/obs=extra_info: {"value": {"original": "Nanchang (Nan-tch'ang fou)"}}
+  ls$estadia/Nanchang (Nan-tch'ang fou)/16040000/obs=extra_info: {"value": {"comment": "@wikidata:Q171943"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16070500/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16070500/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q14773"/15950000/obs=extra_info: {"value": {"original": "Macau"}}
@@ -1057,7 +1053,6 @@ n$Diogo Correia Valente/m/id=deh-diogo-correia-valente/obs=usa o nome da mãe
       Correia Valente, Diogo (port.), Mgr. 194 Diodo Valente (Lus. 44 I, 293)., Didacus Coreira Valens. N. v. 1568, Lisbonne -E. 10 janv. 1584, Coïmbre (Lus. 44, 71v). Emb. sur le S. Amaro, milieu d'avril 1618 (W 635: Don Diogo Valente)., nommé évêque de Funai, 8 janv. 1618., arr. Macao, nov. 1619., nommé administrateur de Macao par le clergé, 10 juill. 1623 (JS 21 III, 321) et le 27 août 1626, administrateur apostolique du siège de Macao. P. v. 1600., sacré à Lisbonne, 8 janv. 1618 (JS 21 III, 321). V. 30 janv. 1605, Evora, pr.: Jacobus Valente (Lus. 3, 125). M. 28 oct. 1633, Macao (JS 21 III, 347). Pf. 183., Manuel Teixeira, Macau e A sua Diocèse, t. II, Macau 1940, p. 98-107., AnG 500. Fils de Jean de Fonseca, il portait le nom de sa mère (Moidrey, p. 9).
   """
   pai$Jean de Fonseca/m/id=deh-diogo-correia-valente-pai
-    rel$parentesco/pai/Diogo Correia Valente/deh-diogo-correia-valente/0
 
 n$André Palmeiro/m/id=deh-andre-palmeiro
   ls$nacionalidade/Portugal/0
@@ -1065,8 +1060,9 @@ n$André Palmeiro/m/id=deh-andre-palmeiro
   ls$nome/André Palmeyro/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"/15690000/obs=extra_info: {"value": {"original": "Lisboa"}}
   ls$nascimento/Lisboa/15690000/obs=extra_info: {"value": {"comment": "@wikidata:Q597"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15840114/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/15840114/obs="""
-      extra_info: {"value": {"comment": "Segundo Dominguez & O Neil, V.III,p.2961. Franco Imagem...Coimbra,II,4,c.36,p.575", "original": "?"}}
+      extra_info: {"value": {"comment": "@wikidata:Q45412 Segundo Dominguez & O Neil, V.III,p.2961. Franco Imagem...Coimbra,II,4,c.36,p.575", "original": "?"}}
   """
   ls$idade/15/15840114
   ls$jesuita-votos/4V/16030727
@@ -1077,8 +1073,10 @@ n$André Palmeiro/m/id=deh-andre-palmeiro
   ls$wicky-viagem/56/16170421
   ls$jesuita-cargo/Visitador das províncias do Malabar/16180000
   ls$jesuita-cargo/Visitador das províncias do Malabar/16210000
-  ls$estadia/Costa da Pescaria/16200000/obs=extra_info: {"value": {"comment": "costa este do Sul da \u00cdndia, a norte do Cabo Comorim"}}
-  ls$estadia/Costa da Pescaria/16210300/obs=extra_info: {"value": {"comment": "costa este do Sul da \u00cdndia, a norte do Cabo Comorim"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41562"/16200000/obs=extra_info: {"value": {"original": "Costa da Pescaria"}}
+  ls$estadia/Costa da Pescaria/16200000/obs=extra_info: {"value": {"comment": "costa este do Sul da \u00cdndia, a norte do Cabo Comorimo @wikidata:Q41562 [Thoothukudi ]"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41562"/16210300/obs=extra_info: {"value": {"original": "Costa da Pescaria"}}
+  ls$estadia/Costa da Pescaria/16210300/obs=extra_info: {"value": {"comment": "costa este do Sul da \u00cdndia, a norte do Cabo Comorimo @wikidata:Q41562 [Thoothukudi ]"}}
   ls$jesuita-cargo/Visitador das províncias de Goa e do Malabar/16210000
   ls$jesuita-cargo/Visitador das províncias de Goa e do Malabar/16260000
   ls$jesuita-cargo/Visitador do Japão e da China/16260000/obs=extra_info: {"date": {"comment": "nomeado a 16241221"}}
@@ -1175,17 +1173,24 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q956"/16040200/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$partida/Pequim/16040200/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
   ls$estadia/Meiling/16040800/obs=extra_info: {"value": {"comment": "a caminho de Pequim"}}
-  ls$estadia/Nanquim/16040800/obs=extra_info: {"value": {"original": "Nankin, a caminho de Pequim"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/16040800/obs=extra_info: {"value": {"original": "Nanquim"}}
+  ls$estadia/Nanquim/16040800/obs=extra_info: {"value": {"comment": "@wikidata:Q16666", "original": "Nankin, a caminho de Pequim"}}
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q956"/16040800/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$chegada/Pequim/16040800/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  ls$estadia/Paoting fou/16070000
-  ls$estadia/Nanchang (Nan-tch'ang)/16070000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q10887632"/16070000/obs=extra_info: {"value": {"original": "Paoting fou"}}
+  ls$estadia/Paoting fou/16070000/obs=extra_info: {"value": {"comment": "@wikidata:Q10887632"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/16070000/obs=extra_info: {"value": {"original": "Nanchang (Nan-tch'ang)"}}
+  ls$estadia/Nanchang (Nan-tch'ang)/16070000/obs=extra_info: {"value": {"comment": "@wikidata:Q171943"}}
   ls$jesuita-cargo/Mestre dos Noviços/16070000
-  ls$estadia/Shiuchow (Chao-tcheou)/16120000
-  ls$estadia/Namyung (Nan-hiong)/16070427/obs=extra_info: {"date": {"comment": "data de transfer\u00eancia"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"/16120000/obs=extra_info: {"value": {"original": "Shiuchow (Chao-tcheou)"}}
+  ls$estadia/Shiuchow (Chao-tcheou)/16120000/obs=extra_info: {"value": {"comment": "@wikidata:Q1346617"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q934465"/16070427/obs=extra_info: {"value": {"original": "Namyung (Nan-hiong)"}}
+  ls$estadia/Namyung (Nan-hiong)/16070427/obs=extra_info: {"date": {"comment": "data de transfer\u00eancia"}, "value": {"comment": "@wikidata:Q934465"}}
   ls$estadia/Tchö-kiang/16171002
-  ls$estadia/Kienchang no Kiangsi/16300000/obs=extra_info: {"value": {"comment": "no Jiangxi?"}}
-  ls$estadia/Honan/0
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"/16300000/obs=extra_info: {"value": {"original": "Kienchang no Kiangsi"}}
+  ls$estadia/Kienchang no Kiangsi/16300000/obs=extra_info: {"value": {"comment": "@wikidata:Q11065388"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q43684"/0/obs=extra_info: {"value": {"original": "Honan"}}
+  ls$estadia/Honan/0/obs=extra_info: {"value": {"comment": "@wikidata:Q43684"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"/16480000/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$estadia/Cantão/16480000/obs=extra_info: {"value": {"comment": "@wikidata:Q16572"}}
   ls$jesuita-ordenacao-padre/?/16070000/obs=extra_info: {"date": {"comment": "cerca de"}}
@@ -1216,11 +1221,8 @@ n$Sebastião Fernandes/m/id=deh-sebastiao-fernandes
       Fernandes, Sebastião (Bastião) (port.) (I) P. 294 N. à Besteiros, d. de Viseu, 1573 -E. Coïmbre, 1591 (Lus. 44, 82). Emb. 5 avril 1597 sur le S. Martinho (pas encore prêtre W 300), pour «les Indes» et Lus. 44 I, 128 le dit alors fr. coadj. Destiné à la Chine en 1603 (D'Elia II, 271 n. 1). M. 30 oct. 1607. HS 43, 58 dit: in Japon. 31 déc. 1607. Fils de Simão Fernandes et de Maria Brás (BEM 1968, p. 673). Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67).
   """
   pai$Simão Fernandes/m/id=deh-sebastiao-fernandes-pai
-    rel$parentesco/pai/Sebastião Fernandes/deh-sebastiao-fernandes/0
-    rel$parentesco/marido/Maria Brás/deh-sebastiao-fernandes-mae/0
     ls$ec/c/0
   mae$Maria Brás/f/id=deh-sebastiao-fernandes-mae
-    rel$parentesco/mae/Sebastião Fernandes/deh-sebastiao-fernandes/0
     ls$ec/c/0
   referido$Sebastião Fernandes/m/id=deh-sebastiao-fernandes-ref1
     ls$jesuita-estatuto/Frade Coadjutor/0
@@ -1245,7 +1247,10 @@ n$Manuel Dias, o Novo/m/id=deh-manuel-dias-o-novo
   ls$nome-chines/Yang Ma-no Yen-si/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q373720"/15740000/obs=extra_info: {"value": {"original": "Castelo Branco"}}
   ls$nascimento/Castelo Branco/15740000/obs=extra_info: {"value": {"comment": "@wikidata:Q373720"}}
-  ls$jesuita-entrada/Coimbra/15930202/obs=extra_info: {"value": {"comment": "Segungo Dominguez, J. M., & O\u2019Neill, C. (2001) II, 1113", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15930202/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/15930202/obs="""
+      extra_info: {"value": {"comment": "@wikidata:Q45412 Segungo Dominguez, J. M., & O\u2019Neill, C. (2001) II, 1113", "original": "?"}}
+  """
   ls$embarque/Santiago/16010411
   ls$wicky/426/16010411
   ls$wicky-viagem/43/16010411
@@ -1253,7 +1258,8 @@ n$Manuel Dias, o Novo/m/id=deh-manuel-dias-o-novo
   ls$estadia/Goa/16010000/obs=extra_info: {"date": {"comment": "cerca de"}, "value": {"comment": "@wikidata:Q1171"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16070000/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16070000/obs=extra_info: {"date": {"comment": "?"}, "value": {"comment": "puis 6 ans, 6 anos depois ou passou 6 anos? @wikidata:Q14773"}}
-  ls$estadia/Shiuchow (Chao-tcheou)/16110000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"/16110000/obs=extra_info: {"value": {"original": "Shiuchow (Chao-tcheou)"}}
+  ls$estadia/Shiuchow (Chao-tcheou)/16110000/obs=extra_info: {"value": {"comment": "@wikidata:Q1346617"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16130000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/16130000/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
   ls$profissao/Astrónomo/16130000
@@ -1274,7 +1280,8 @@ n$Manuel Dias, o Novo/m/id=deh-manuel-dias-o-novo
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"/16270000/obs=extra_info: {"value": {"original": "Hangchow"}}
   ls$estadia/Hangchow/16270000/obs=extra_info: {"value": {"comment": "@wikidata:Q4970"}}
   ls$estadia/Nanchang fou, Kiangsi/16340000
-  ls$estadia/Foochow fou, Fukien/16380000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16380000/obs=extra_info: {"value": {"original": "Foochow fou, Fukien"}}
+  ls$estadia/Foochow fou, Fukien/16380000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
   ls$estadia/Ningpo/16390000
   ls$estadia/Yenping fou, Fukien/16480000
   ls$jesuita-cargo/Vice-provincial da China/16500000
@@ -1359,7 +1366,7 @@ n$António de Andrade/m/id=deh-antonio-de-andrade
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1012719"/15800000/obs=extra_info: {"value": {"original": "Oleiros, diocese de Portalegre"}}
   ls$nascimento/Oleiros, diocese de Portalegre/15800000/obs=extra_info: {"value": {"comment": "@wikidata:Q1012719", "original": "Vila de Oleiros, priorado do Crato de Castelo Branco"}}
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15961216/obs=extra_info: {"value": {"original": "Coimbra"}}
-  ls$jesuita-entrada/Coimbra/15961216/obs=extra_info: {"value": {"comment": "Franco, 1717, p. 375, Sweet, 20216, p.27@wikidata:Q45412"}}
+  ls$jesuita-entrada/Coimbra/15961216/obs=extra_info: {"value": {"comment": "Franco, 1717, p. 375, Sweet, 20216, p.27 @wikidata:Q45412"}}
   ls$embarque/S. Valentim/16000404/obs=extra_info: {"date": {"comment": "n\u00e3o padre"}}
   ls$wicky/408/16000404
   ls$wicky-viagem/42/16000404
@@ -1434,14 +1441,16 @@ n$Simão da Cunha/m/id=deh-simao-da-cunha
   ls$nascimento/Coimbra/15890000/obs=extra_info: {"value": {"comment": "@wikidata:Q45412"}}
   ls$idade/47/16360000
   ls$grau-academico/Mestre em Artes/0
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16060113/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/16060113/obs="""
-      extra_info: {"value": {"comment": "Dehergne n\u00e3o especifica local, Brockey estudos Filosofia e Teologia em Coimbra", "original": "?"}}
+      extra_info: {"value": {"comment": "@wikidata:Q45412 Dehergne n\u00e3o especifica local, Brockey estudos Filosofia e Teologia em Coimbra", "original": "?"}}
   """
   ls$embarque/S. Carlos/16180416/obs=extra_info: {"value": {"comment": "para a \u00cdndia, segundo Wicky"}}
   ls$wicky/647/16180416
   ls$wicky-viagem/57/16180400/obs=extra_info: {"date": {"comment": "meados do m\u00eas, 16180416 segundo Dehergne"}}
   ls$chegada/Hangchow/16240000/obs=extra_info: {"value": {"comment": "Hangzhou"}}
-  ls$estadia/Fukien/16290000/obs=extra_info: {"value": {"comment": "Fujian?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"/16290000/obs=extra_info: {"value": {"original": "Fukien"}}
+  ls$estadia/Fukien/16290000/obs=extra_info: {"value": {"comment": "@wikidata:Q41705"}}
   ls$jesuita-cargo/Superior das residências de Kienning fou etc/16480000
   ls$jesuita-cargo/Procurador da vice-província/0/obs=extra_info: {"value": {"comment": "por 10 anos, de 1648 a 1658?"}}
   ls$estadia/Yenping (Yen-p'ing), Fukien/16570000
@@ -1488,7 +1497,10 @@ n$António de Gouvea/m/id=deh-antonio-de-gouvea
   ls$nascimento/Casal, diocese de Viseu/15920000/obs="""
       extra_info: {"date": {"comment": "ou Gouveia, diocese de Coimbra em 15940000, segundo Lus. 44 II @wikidata:Q599317"}, "value": {"comment": "ILOC"}}
   """
-  ls$jesuita-entrada/Coimbra/16080502/obs=extra_info: {"date": {"comment": "ou 16090502"}, "value": {"comment": "(Franco, 1719, t.II, p. 612)", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16080502/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/16080502/obs="""
+      extra_info: {"date": {"comment": "ou 16090502"}, "value": {"comment": "@wikidata:Q45412 (Franco, 1719, t.II, p. 612)", "original": "?"}}
+  """
   ls$jesuita-tarefa/Sai da companhia/0
   ls$jesuita-entrada/?/16110000
   ls$embarque/[Para a Índia]/16230324
@@ -1501,22 +1513,29 @@ n$António de Gouvea/m/id=deh-antonio-de-gouvea
   ls$estadia/China/16360000/obs=extra_info: {"value": {"comment": "@wikidata:Q148"}}
   ls$estadia/Hangchow/0
   ls$estadia/Wuchang (Wou-tch'ang fou)/0
-  ls$estadia/Foochow (Fou-tcheou fou), Fukien/16480000/obs=extra_info: {"value": {"comment": "Fuzhou, Fujian?"}}
-  ls$estadia/Foochow, Fukien/16560000/obs=extra_info: {"value": {"comment": "Fuzhou?"}}
-  ls$estadia/Foochow, Fukien/16650000/obs=preso na perseguição e enviado para o Cantão extra_info: {"value": {"comment": "Fuzhou?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16480000/obs=extra_info: {"value": {"original": "Foochow (Fou-tcheou fou), Fukien"}}
+  ls$estadia/Foochow (Fou-tcheou fou), Fukien/16480000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16560000/obs=extra_info: {"value": {"original": "Foochow, Fukien"}}
+  ls$estadia/Foochow, Fukien/16560000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16650000/obs=extra_info: {"value": {"original": "Foochow, Fukien"}}
+  ls$estadia/Foochow, Fukien/16650000/obs=preso na perseguição e enviado para o Cantão extra_info: {"value": {"comment": "@wikidata:Q68481"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"/16650000/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$estadia/Cantão/16650000/obs="""
       extra_info: {"date": {"comment": "em 1666 \u00abappliqu\u00e9 \u00e0 province du Japon\u00bb"}, "value": {"comment": "@wikidata:Q16572"}}
   """
   ls$jesuita-cargo/Vice-provincial da China/16690000/obs=extra_info: {"date": {"comment": "em Foochow"}}
   ls$jesuita-cargo/Vice-provincial da China/16720000/obs=extra_info: {"date": {"comment": "em Foochow"}}
-  ls$estadia/Foochow, Fukien/16690000/obs=extra_info: {"value": {"comment": "Fuzhou?"}}
-  ls$estadia/Foochow, Fukien/16720000/obs=extra_info: {"value": {"comment": "Fuzhou?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16690000/obs=extra_info: {"value": {"original": "Foochow, Fukien"}}
+  ls$estadia/Foochow, Fukien/16690000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"/16720000/obs=extra_info: {"value": {"original": "Foochow, Fukien"}}
+  ls$estadia/Foochow, Fukien/16720000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
   ls$jesuita-cargo/Visitador/0/obs=extra_info: {"value": {"comment": "durante 8 meses"}}
   ls$profissao/Historiador/0
   ls$jesuita-votos/4V/16460714/obs=extra_info: {"date": {"comment": "completados a 16460727"}}
-  ls$jesuita-votos-local/Fukien/16460714/obs=extra_info: {"value": {"comment": "Fujian?"}}
-  ls$morte/Foochow, Fukien/16770214/obs=extra_info: {"value": {"comment": "Fuzhou?"}}
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q68481"/16460714/obs=extra_info: {"value": {"original": "Fukien"}}
+  ls$jesuita-votos-local/Fukien/16460714/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q68481"/16770214/obs=extra_info: {"value": {"original": "Foochow, Fukien"}}
+  ls$morte/Foochow, Fukien/16770214/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
   ls$dehergne/381/0/obs="""
       """
                      Gouvea, Antonio de (port.) P. 381
@@ -1544,15 +1563,15 @@ n$António de Gouvea/m/id=deh-antonio-de-gouvea
                      pr. (Lus. 6, 142-142v).
                      Il signe: Ant. a Gouvea.
                      M. 14 févr. 1677, Foochow. HS 49, 5v dit: «febr., apud Sinas».
-                  Son Innocentia Victrix, 1671.
-                  Boxer III, 202: «The Portuguese Padre Ant. de Gouvea, S. J., was one of Navarrete's bêtes noires».
-                     La Lettre que ce dernier lui adresse, 29 sept. 1669, est étudiée ibid 206-208.,
-                  cf. Boxer IV, photocopie et JA 49-V-16, 467-504.,
-                  BN: chin 9261., JS II, 74.
-                  Pf. 220. —
-                  Vak Hee, Le Bouddha et les premiers missionnaires Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,
-                  Pontes, M. de L. Belchior, A Asia Extrema do Padre A. de G., Revista da Faculdade de Letras 22 (Lisboa, 1956),
-                  271-286., AnG 710., Streit V n° 2396."""
+                     Son Innocentia Victrix, 1671.
+                     Boxer III, 202: «The Portuguese Padre Ant. de Gouvea, S. J., was one of Navarrete's bêtes noires».
+                        La Lettre que ce dernier lui adresse, 29 sept. 1669, est étudiée ibid 206-208.,
+                     cf. Boxer IV, photocopie et JA 49-V-16, 467-504.,
+                     BN: chin 9261., JS II, 74.
+                     Pf. 220. —
+                     Vak Hee, Le Bouddha et les premiers missionnaires Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,
+                     Pontes, M. de L. Belchior, A Asia Extrema do Padre A. de G., Revista da Faculdade de Letras 22 (Lisboa, 1956),
+                     271-286., AnG 710., Streit V n° 2396."""
   """
 
 n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
@@ -1562,8 +1581,9 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   ls$nascimento/Corvaceira, diocese de Viseu/15920000/obs="""
       extra_info: {"value": {"comment": "Aldeia da freguesia de Tavares, em Mangualde, @wikidata:Q74384", "original": "\u00ab Covaceira \u00bb, Curvaceira (Carvalheira?) d. Vizeu, Franco, Imagem...Coimbra, II.522"}}
   """
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16080601/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/16080601/obs="""
-      extra_info: {"date": {"comment": "MMHM:p.8"}, "value": {"comment": "[Adicionado a partir de Franco, Imagem...Coimbra, II, 522", "original": "?"}}
+      extra_info: {"date": {"comment": "MMHM:p.8"}, "value": {"comment": "[Adicionado a partir de Franco, Imagem...Coimbra, II, 522] @wikidata:Q45412", "original": "?"}}
   """
   ls$idade/14/16080601
   ls$jesuita-tarefa-x/Ensinar latim em Bragança/0
@@ -1578,7 +1598,10 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   ls$estadia-x/Macau/0/obs="""
       [Esteve com André Palmeiro em Macau, Franco, Imagem...Coimbra, II, p.522] extra_info: {"value": {"comment": "@wikidata:Q14773 para aprender japon\u00eas, segundo Franco, Imagem...Coimbra, II, p.522"}}
   """
-  ls$estadia/Tonquim/16230000/obs=[com os padres António Cardim e António de Fontes, Franco, Imagem...Coimbra, II, p.522]
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"/16230000/obs=extra_info: {"value": {"original": "Tonquim"}}
+  ls$estadia/Tonquim/16230000/obs="""
+      [com os padres António Cardim e António de Fontes, Franco, Imagem...Coimbra, II, p.522] extra_info: {"value": {"comment": "@wikidata:Q622778"}}
+  """
   ls$jesuita-tarefa/Faz mais de 40000 baptismos no Tonquim/0
   ls$jesuita-cargo/Superior da missão do Tonquim/16310000
   ls$jesuita-cargo/Vice-provincial do Japão/16420000
@@ -1618,11 +1641,8 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
                   ]"""
   """
   pai$Diogo Fernandes de Amaral/m/id=deh-gaspar-do-amaral-pai
-    rel$parentesco/pai/Gaspar do Amaral/deh-gaspar-do-amaral/0
-    rel$parentesco/marido/Domingas Francica/deh-gaspar-do-amaral-mae/0
     ls$ec/c/0
   mae$Domingas Francica/f/id=deh-gaspar-do-amaral-mae
-    rel$parentesco/mae/Gaspar do Amaral/deh-gaspar-do-amaral/0
     ls$ec/c/0
   referido$António do Amaral/m/id=deh-gaspar-do-amaral-ref1/obs=[Franco, Imagem...Coimbra, II, p.522]
     ls$jesuita-estatuto/Padre/0
@@ -1649,7 +1669,10 @@ n$Francisco Furtado/m/id=deh-francisco-furtado
   ls$nome-chines/Fou Fan-tsi T'i-Tchai/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q657187"/15890000/obs=extra_info: {"value": {"original": "Ilha do Faial, A\u00e7ores"}}
   ls$nascimento/Ilha do Faial, Açores/15890000/obs=extra_info: {"value": {"comment": "@wikidata:Q657187"}}
-  ls$jesuita-entrada/Coimbra/16100000/obs="extra_info: {"value": {"comment": "\"\"\"Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3\"\"\"", "original": "?"}}"
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16100000/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/16100000/obs="""
+      extra_info: {"value": {"comment": "@wikidata:Q45412 \"\"\"Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3\"\"\"", "original": "?"}}
+  """
   ls$embarque/S. Carlos/16180400/obs=extra_info: {"date": {"comment": "meio do m\u00eas"}}
   ls$wicky/646/16180400
   ls$wicky-viagem/57/16180400/obs=extra_info: {"date": {"comment": "meados do m\u00eas"}}
@@ -1719,7 +1742,8 @@ n$Sebastião da Maia/m/id=deh-sebastiao-da-maia
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"/15970000/obs=extra_info: {"value": {"original": "Lisboa"}}
   ls$nascimento/Lisboa/15970000/obs=extra_info: {"value": {"comment": "@wikidata:Q597"}}
   ls$grau-academico/Mestre em Artes/0
-  ls$jesuita-entrada/Coimbra/16110000/obs=extra_info: {"value": {"comment": "MMHM:p.205 (Sebastian da Maia, da Maya, d'Amaya)", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16110000/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/16110000/obs=extra_info: {"value": {"comment": "@wikidata:Q45412 MMHM:p.205 (Sebastian da Maia, da Maya, d'Amaya)", "original": "?"}}
   ls$embarque/?/16370406
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q228405"/16390000/obs=extra_info: {"value": {"original": "Madurai"}}
   ls$estadia/Madurai/16390000/obs=extra_info: {"value": {"comment": "@wikidata:Q228405"}}
@@ -1752,7 +1776,8 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
   ls$nascimento/Pedrógão Grande, perto de Coimbra/1610/obs="""
       familiar de Fernão de Magalhães extra_info: {"value": {"comment": "@wikidata:Q1013094", "original": "\u00abex oppido Pedrogam prioratus Crati\u00bb vila de Pedr\u00f3g\u00e3o, priorado do Crato, perto de Coimbra"}}
   """
-  ls$jesuita-entrada/Coimbra/16250000/obs=extra_info: {"value": {"comment": "Segundo Louis Buglio 1688", "original": "?"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16250000/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$jesuita-entrada/Coimbra/16250000/obs=extra_info: {"value": {"comment": "@wikidata:Q45412 Segundo Louis Buglio 1688", "original": "?"}}
   ls$embarque/?/16340321/obs=extra_info: {"date": {"comment": "n\u00e3o padre"}}
   ls$wicky/818/16340321
   ls$wicky-viagem/71/16340321
@@ -1766,9 +1791,13 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
   ls$jesuita-tarefa/Ensinar Filosofia/16360000/obs=extra_info: {"date": {"comment": "segundo Buglio, 1688"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"/16400000/obs=extra_info: {"value": {"original": "Hangchow"}}
   ls$estadia/Hangchow/16400000/obs=extra_info: {"value": {"comment": "@wikidata:Q4970"}}
-  ls$estadia/Chengdu, Sichuan/16420528/obs=extra_info: {"value": {"original": "Chengtu (Tch'eng-tou), Sseu-tch'ouan"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q30002"/16420528/obs=extra_info: {"value": {"original": "Chengdu, Sichuan"}}
+  ls$estadia/Chengdu, Sichuan/16420528/obs=extra_info: {"value": {"comment": "@wikidata:Q30002", "original": "Chengtu (Tch'eng-tou), Sseu-tch'ouan"}}
   ls$titulo/Mandarim/16440000/obs=extra_info: {"date": {"comment": "Dehergne, p. 313"}}
-  ls$estadia/Chengdu, Sichuan/16470000/obs=difficultés avec le tyran Tchang hien-tchong extra_info: {"value": {"original": "Chengtu (Tch'eng-tou), Sseu-tch'ouan"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q30002"/16470000/obs=extra_info: {"value": {"original": "Chengdu, Sichuan"}}
+  ls$estadia/Chengdu, Sichuan/16470000/obs="""
+      difficultés avec le tyran Tchang hien-tchong extra_info: {"value": {"comment": "@wikidata:Q30002", "original": "Chengtu (Tch'eng-tou), Sseu-tch'ouan"}}
+  """
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16480222/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/16480222/obs="""
       segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes extra_info: {"value": {"comment": "@wikidata:Q956"}}
@@ -1843,8 +1872,9 @@ n$Matias da Maia/m/id=deh-matias-da-maia
   ls$nascimento/Atalaia, diocese de Lisboa/16160000/obs="""
       extra_info: {"value": {"comment": "existem 3 poss\u00edveis localidades, Atalaia (Montijo) @wikidata:Q946933, Atalaia (Lourinh\u00e3) @wikidata:Q753265, Atalaia (Vila Nova da Barquinha) @wikidata:Q753271"}}
   """
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16290510/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/16290510/obs="""
-      extra_info: {"value": {"comment": "MMHM:p.203 (Matias d'Amaia), Schutte, Monumenta historica japoniae I.1234", "original": "?"}}
+      extra_info: {"value": {"comment": "@wikidata:Q45412 MMHM:p.203 (Matias d'Amaia), Schutte, Monumenta historica japoniae I.1234", "original": "?"}}
   """
   ls$embarque/Nossa Senhora da Atalaia/16400326/obs=extra_info: {"date": {"comment": "Prisioneiro dos holandeses"}}
   ls$wicky/877/16400326
@@ -1899,10 +1929,12 @@ n$Adriano Pestana/m/id=deh-adriano-pestana
   ls$jesuita-estatuto/Padre/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q209036"/16170000/obs=extra_info: {"value": {"original": "Ilha de S. Miguel, A\u00e7ores"}}
   ls$nascimento/Ilha de S. Miguel, Açores/16170000/obs=extra_info: {"value": {"comment": "@wikidata:Q209036"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16350000/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/16350000/obs="""
-      extra_info: {"value": {"comment": "Ver Brockey, p.230 cit. Carta de A.P. a Viteleschi, de Coimbra, 26 Agosto 1640", "original": "?"}}
+      extra_info: {"value": {"comment": "@wikidata:Q45412 Ver Brockey, p.230 cit. Carta de A.P. a Viteleschi, de Coimbra, 26 Agosto 1640", "original": "?"}}
   """
-  ls$estadia-x/Coimbra/1640-08-26/obs=extra_info: {"value": {"comment": "Escreve a Viteleschi, ARSI, FG, no.58"}}
+  ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q45412"/16400826/obs=extra_info: {"value": {"original": "Coimbra"}}
+  ls$estadia-x/Coimbra/1640-08-26/obs=extra_info: {"value": {"comment": "@wikidata:Q45412 Escreve a Viteleschi, ARSI, FG, no.58"}}
   ls$embarque/?/16430330
   ls$wicky/912/16430330
   ls$wicky-viagem/77/16430330
@@ -1947,10 +1979,12 @@ n$Manuel Jorge/m/id=deh-manuel-jorge
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/16580000/obs=extra_info: {"value": {"original": "Nanquim"}}
   ls$estadia/Nanquim/16580000/obs=extra_info: {"value": {"comment": "@wikidata:Q16666"}}
   ls$jesuita-tarefa/Constrói a igreja de Nanquim/16600000
-  ls$estadia/Hwaian (Houai-ngan)/16620000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q57818"/16620000/obs=extra_info: {"value": {"original": "Hwaian (Houai-ngan)"}}
+  ls$estadia/Hwaian (Houai-ngan)/16620000/obs=extra_info: {"value": {"comment": "@wikidata:Q57818"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"/16650000/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$estadia/Cantão/16650000/obs=extra_info: {"date": {"comment": "exilado"}, "value": {"comment": "@wikidata:Q16572"}}
-  ls$estadia/Hwaian/16710000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q57818"/16710000/obs=extra_info: {"value": {"original": "Hwaian"}}
+  ls$estadia/Hwaian/16710000/obs=extra_info: {"value": {"comment": "@wikidata:Q57818"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/0/obs=extra_info: {"value": {"original": "Nanquim"}}
   ls$estadia/Nanquim/0/obs=extra_info: {"value": {"comment": "@wikidata:Q16666"}}
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q668"/16510000/obs=extra_info: {"value": {"original": "\u00cdndia"}}
@@ -2021,8 +2055,9 @@ n$André Ferrão/m/id=deh-andre-ferrao
   ls$nome-chines/Fou Tö-Ye/0
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1026336"/16250000/obs=extra_info: {"value": {"original": "Ceia, diocese de Coimbra"}}
   ls$nascimento/Ceia, diocese de Coimbra/16250000/obs=extra_info: {"date": {"comment": "cerca de"}, "value": {"comment": "Ceira? @wikidata:Q1026336"}}
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/16400000/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/16400000/obs="""
-      [Brockey diz "educated at the College of Coimbra" cap.6 nota 95, citando a carta ânua de 1656, Ajuda, 49-V.14:62v] extra_info: {"value": {"comment": "Brockey, cap.6 n.95", "original": "?"}}
+      [Brockey diz "educated at the College of Coimbra" cap.6 nota 95, citando a carta ânua de 1656, Ajuda, 49-V.14:62v] extra_info: {"value": {"comment": "@wikidata:Q45412 Brockey, cap.6 n.95", "original": "?"}}
   """
   ls$embarque/Bom Jesus da Vidigueira/16570404/obs=extra_info: {"value": {"comment": "segundo Wicky"}}
   ls$wicky/1040/16570404
@@ -2030,11 +2065,13 @@ n$André Ferrão/m/id=deh-andre-ferrao
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16590129/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16590129/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$jesuita-tarefa/Assina a carta anual da vice-província da China de 1656/16560000
-  ls$estadia/Hwaian (Houaingan fou), Kiang-sou/16590000/obs=extra_info: {"value": {"comment": "Huai'an, Jaingsu?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q57818"/16590000/obs=extra_info: {"value": {"original": "Hwaian (Houaingan fou), Kiang-sou"}}
+  ls$estadia/Hwaian (Houaingan fou), Kiang-sou/16590000/obs=extra_info: {"value": {"comment": "@wikidata:Q57818"}}
   ls$jesuita-votos/4V/16590116
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q14773"/16590116/obs=extra_info: {"value": {"original": "Macau"}}
   ls$jesuita-votos-local/Macau/16590116/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$morte/Foochow (Fou-tcheou fou, Fukien)/16610000/obs=extra_info: {"value": {"comment": "Fuzhou, Fujian?"}}
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q68481"/16610000/obs=extra_info: {"value": {"original": "Foochow (Fou-tcheou fou, Fukien)"}}
+  ls$morte/Foochow (Fou-tcheou fou, Fukien)/16610000/obs=extra_info: {"value": {"comment": "@wikidata:Q68481"}}
   ls$dehergne/296/0/obs="""
       """
                   Ferrão (Ferran), André (port.) P. 296
@@ -2162,7 +2199,7 @@ n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
     ls$jesuita-estatuto/Padre/0
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16891018/obs=extra_info: {"value": {"original": "Pequim"}}
     ls$estadia/Pequim/16891018/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  rel$identification/same as/Antoine Thomas/deh-antoine-thomas/0
+  rel$identification/same as/None/0
   referido$Claudio Filippo Grimaldi/m/id=deh-tome-pereira-ref2/obs=Dehergne 391
     ls$jesuita-estatuto/Padre/0
     ls$cargo/Bispo eleito de Pequim/0/obs=não chegou a ser, vide entrada dele
@@ -2252,7 +2289,8 @@ n$António da Silva/m/id=deh-antonio-da-silva
   ls$embarque/[Para a China]/16940000
   ls$wicky/1333/16940000
   ls$wicky-viagem/117/16940000
-  ls$chegada/Kiang-nan/16960504
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q11133842"/16960504/obs=extra_info: {"value": {"original": "Kiang-nan"}}
+  ls$chegada/Kiang-nan/16960504/obs=extra_info: {"value": {"comment": "@wikidata:Q11133842"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/16990000/obs=extra_info: {"value": {"original": "Nanquim"}}
   ls$estadia/Nanquim/16990000/obs=extra_info: {"value": {"comment": "@wikidata:Q16666"}}
   ls$jesuita-cargo/Reitor de Nanquim/16990000/obs=extra_info: {"value": {"original": "recteur"}}
@@ -2327,10 +2365,14 @@ n$Manuel Mendes/m/id=deh-manuel-mendes
   ls$wicky-viagem/103/16800404
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"/16841002/obs=extra_info: {"value": {"original": "China"}}
   ls$chegada/China/16841002/obs=extra_info: {"value": {"comment": "@wikidata:Q148"}}
-  ls$estadia/Nanchang (Nan-tch'ang)/16850000
-  ls$estadia/Nanchang (Nan-tch'ang)/16910000
-  ls$estadia/Kiangnan, Shanghai/17000000
-  ls$estadia/Kiangnan, Shanghai/17130000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/16850000/obs=extra_info: {"value": {"original": "Nanchang (Nan-tch'ang)"}}
+  ls$estadia/Nanchang (Nan-tch'ang)/16850000/obs=extra_info: {"value": {"comment": "@wikidata:Q171943"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/16910000/obs=extra_info: {"value": {"original": "Nanchang (Nan-tch'ang)"}}
+  ls$estadia/Nanchang (Nan-tch'ang)/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q171943"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q8686"/17000000/obs=extra_info: {"value": {"original": "Kiangnan, Shanghai"}}
+  ls$estadia/Kiangnan, Shanghai/17000000/obs=extra_info: {"value": {"comment": "@wikidata:Q8686"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q8686"/17130000/obs=extra_info: {"value": {"original": "Kiangnan, Shanghai"}}
+  ls$estadia/Kiangnan, Shanghai/17130000/obs=extra_info: {"value": {"comment": "@wikidata:Q8686"}}
   ls$jesuita-cargo/Vice-provincial da China/17140000
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/17170000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/17170000/obs=extra_info: {"date": {"comment": "vide Dehergne p. 318"}, "value": {"comment": "@wikidata:Q956"}}
@@ -2455,15 +2497,22 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-i
   ls$embarque/?/16810326/obs=extra_info: {"date": {"comment": "n\u00e3o padre"}}
   ls$wicky/1204/16810326
   ls$wicky-viagem/104/16810326
-  ls$estadia/Chen-si/16910000
-  ls$estadia/Yenping, Foukien/16910000/obs=extra_info: {"value": {"comment": "Fujian?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q47974"/16910000/obs=extra_info: {"value": {"original": "Chen-si"}}
+  ls$estadia/Chen-si/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q47974"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1337959"/16910000/obs=extra_info: {"value": {"original": "Yenping, Foukien"}}
+  ls$estadia/Yenping, Foukien/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q1337959"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"/16920000/obs=extra_info: {"value": {"original": "Hangchow"}}
   ls$estadia/Hangchow/16920000/obs=extra_info: {"value": {"comment": "@wikidata:Q4970"}}
-  ls$estadia/Ho-pei/16930000
-  ls$estadia/Chan-tong/16930000
-  ls$estadia/Sungkiang/16990000
-  ls$estadia/Cheng-ting fou/17000000/obs=extra_info: {"value": {"comment": "com destino a Ho-nan"}}
-  ls$estadia/Ilha de Tsung-ming/17020000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q21208"/16930000/obs=extra_info: {"value": {"original": "Ho-pei"}}
+  ls$estadia/Ho-pei/16930000/obs=extra_info: {"value": {"comment": "@wikidata:Q21208"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q43407"/16930000/obs=extra_info: {"value": {"original": "Chan-tong"}}
+  ls$estadia/Chan-tong/16930000/obs=extra_info: {"value": {"comment": "@wikidata:Q43407"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11104671"/16990000/obs=extra_info: {"value": {"original": "Sungkiang"}}
+  ls$estadia/Sungkiang/16990000/obs=extra_info: {"value": {"comment": "@wikidata:Q11104671"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q197678"/17000000/obs=extra_info: {"value": {"original": "Cheng-ting fou"}}
+  ls$estadia/Cheng-ting fou/17000000/obs=extra_info: {"value": {"comment": "@wikidata:Q197678 com destino a Ho-nan"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q788812"/17020000/obs=extra_info: {"value": {"original": "Ilha de Tsung-ming"}}
+  ls$estadia/Ilha de Tsung-ming/17020000/obs=extra_info: {"value": {"comment": "@wikidata:Q788812"}}
   ls$jesuita-cargo/Provincial do Japão/17050000
   ls$jesuita-cargo/Provincial do Japão/17100000/obs=extra_info: {"date": {"comment": "repreendido pela Propaganda (blam\u00e9 para la Propagande)"}}
   ls$jesuita-cargo/Procurador do Japão/17170000
@@ -2485,8 +2534,8 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-i
                   N. Louzâ, dioc. de Coïmbre, 29 mai 1662 (Lus. 46, 15., JS 25, 278) (dioc. de Viseu, écrit JS 134, 398)
                   -E. 27 mai 1677, Coïmbre (JS 134, 398).
                   Emb. non prêtre, 26 mars 1681 (W 1204)., 1691,
-                  Chen-si, puis Yenping au Fou-kien (JS 134, 375)., 1692,
-                  Hangchow (JS 134, 375a., M 427, 1218)., 1693, Ho-pei et Chan-tong., 1699,
+                  Chen-si# @wikidata:Q47974, puis Yenping au Fou-kien (JS 134, 375)., 1692,
+                  Hangchow (JS 134, 375a., M 427, 1218)., 1693, Ho-pei et Chan-tong# @wikidata:Q43407., 1699,
                   Sungkiang., 1700, Chengting fou, destiné au Ho-nan (JS134, 388)., 1702,
                   île de Tsungming., provincial du Japon, 1705-1710,
                   blâmé par la Propagande (SOCP 1711, 159 et 173)., procureur du Japon 1717
@@ -2517,9 +2566,11 @@ n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   ls$estadia/Goa/0/obs=extra_info: {"value": {"comment": "@wikidata:Q1171"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16850000/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16850000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$estadia/Tsinan fou, Shantung/16910000/obs=extra_info: {"value": {"comment": "Talvez Jinan - antigo Tsinan - na regi\u00e3o de Shandong?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q170247"/16910000/obs=extra_info: {"value": {"original": "Tsinan fou, Shantung"}}
+  ls$estadia/Tsinan fou, Shantung/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q170247"}}
   ls$estadia/Chengting fou, Hopei/16920000
-  ls$estadia/Fukien/16930000/obs=extra_info: {"value": {"comment": "Fujian?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"/16930000/obs=extra_info: {"value": {"original": "Fukien"}}
+  ls$estadia/Fukien/16930000/obs=extra_info: {"value": {"comment": "@wikidata:Q41705"}}
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q46"/16940000/obs=extra_info: {"value": {"original": "Europa"}}
   ls$partida/Europa/16940000/obs=extra_info: {"value": {"comment": "@wikidata:Q46"}}
   ls$jesuita-cargo/Procurador da vice-província da China/16940000
@@ -2648,7 +2699,8 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
   ls$cargo/Vigário de vara/0/obs="""
       Dehergne diz «Vicaire de vara: au sens technique actuel: vicaire forain. En réalité, il s'agit ici d'un représentant envoyé par un évêque portugais sur le territoire d'un vicaire apostolique., en somme un délégué ayant reçu des pouvoirs étendus.»
   """
-  ls$estadia/Tonquim/16940000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"/16940000/obs=extra_info: {"value": {"original": "Tonquim"}}
+  ls$estadia/Tonquim/16940000/obs=extra_info: {"value": {"comment": "@wikidata:Q622778"}}
   ls$jesuita-cargo/Superior da missão do Tonquim/17170000
   ls$jesuita-cargo/Superior da missão do Tonquim/17180000
   ls$jesuita-cargo/Provincial do Japão/17170000
@@ -2660,7 +2712,8 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
   rel$institucional/Nomeia/João Pereira/deh-estanislau-machado-ref1/17180000
   ls$jesuita-votos/4V/17000202
   ls$jesuita-votos-local/«in pago Ke Sat»/17000202
-  ls$morte/Tonquim/17290720
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q622778"/17290720/obs=extra_info: {"value": {"original": "Tonquim"}}
+  ls$morte/Tonquim/17290720/obs=extra_info: {"value": {"comment": "@wikidata:Q622778"}}
   ls$dehergne/501/0/obs="""
       """
                         Machado, Estanislau (port.) P. 501
@@ -2873,10 +2926,12 @@ n$Manuel Ribeiro, sénior/m/id=deh-manuel-ribeiro-senior
   ls$estadia/Macau/16970000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"/17110000/obs=extra_info: {"value": {"original": "Hainan"}}
   ls$estadia/Hainan/17110000/obs=extra_info: {"value": {"comment": "@wikidata:Q42200"}}
-  ls$estadia/Lui-tcheou/17120000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"/17120000/obs=extra_info: {"value": {"original": "Lui-tcheou"}}
+  ls$estadia/Lui-tcheou/17120000/obs=extra_info: {"value": {"comment": "@wikidata:Q1209167"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"/17170000/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$estadia/Cantão/17170000/obs=extra_info: {"value": {"comment": "@wikidata:Q16572"}}
-  ls$estadia/Lui-tcheou/17200000/obs=extra_info: {"value": {"comment": "Leizhou?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"/17200000/obs=extra_info: {"value": {"original": "Lui-tcheou"}}
+  ls$estadia/Lui-tcheou/17200000/obs=extra_info: {"value": {"comment": "@wikidata:Q1209167"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"/17200000/obs=extra_info: {"value": {"original": "Hainan"}}
   ls$estadia/Hainan/17200000/obs=extra_info: {"value": {"comment": "@wikidata:Q42200"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"/17340000/obs=extra_info: {"value": {"original": "China"}}
@@ -2944,7 +2999,8 @@ n$António de Melo/m/id=deh-antonio-de-melo
   ls$embarque/S. Francisco Xavier/17150401
   ls$wicky/1589/17150401
   ls$wicky-viagem/138/17150401
-  ls$estadia/Tonquim/17230000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"/17230000/obs=extra_info: {"value": {"original": "Tonquim"}}
+  ls$estadia/Tonquim/17230000/obs=extra_info: {"value": {"comment": "@wikidata:Q622778"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"/17240000/obs=extra_info: {"value": {"original": "Hainan"}}
   ls$estadia/Hainan/17240000/obs=extra_info: {"value": {"comment": "@wikidata:Q42200"}}
   ls$jesuita-tarefa/Presta Juramento/17240000
@@ -2972,7 +3028,8 @@ n$Luís de Caldas/m/id=deh-luis-de-caldas
   ls$embarque/?/17140412
   ls$wicky/1581/17140412
   ls$wicky-viagem/137/17140412
-  ls$estadia/Ganzhou, província de Jiangxi/17200000/obs=extra_info: {"value": {"original": "Kanchow (du Kiangsi)"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q363166"/17200000/obs=extra_info: {"value": {"original": "Ganzhou, prov\u00edncia de Jiangxi"}}
+  ls$estadia/Ganzhou, província de Jiangxi/17200000/obs=extra_info: {"value": {"comment": "@wikidata:Q363166", "original": "Kanchow (du Kiangsi)"}}
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q16572"/17210524/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$chegada/Cantão/17210524/obs="""
       extra_info: {"date": {"comment": "chamado de volta pelo visitador por ter entrado sem o \"piao\""}, "value": {"comment": "@wikidata:Q16572"}}
@@ -3076,7 +3133,8 @@ n$António Gomes/m/id=deh-antonio-gomes
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/17440000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/17440000/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
   ls$profissao/Cirurgião/17440000
-  ls$estadia/Kiangnan/17460000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11133842"/17460000/obs=extra_info: {"value": {"original": "Kiangnan"}}
+  ls$estadia/Kiangnan/17460000/obs=extra_info: {"value": {"comment": "@wikidata:Q11133842"}}
   ls$jesuita-cargo/Vice-provincial da China/17480000
   ls$jesuita-cargo/Vice-provincial da China/17510000
   ls$jesuita-ordenacao-padre/?/17330000
@@ -3101,12 +3159,14 @@ n$Inácio Pires/m/id=deh-inacio-pires
   ls$wicky/1989/17500000
   ls$wicky-viagem/169/17500000
   ls$chegada/?/17530000
-  ls$estadia/Fukien/17550000/obs=extra_info: {"value": {"comment": "Fujian?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"/17550000/obs=extra_info: {"value": {"original": "Fukien"}}
+  ls$estadia/Fukien/17550000/obs=extra_info: {"value": {"comment": "@wikidata:Q41705"}}
   ls$estadia/Kiang-nan/0
-  ls$estadia/Song-kiang fou/17651023/obs=extra_info: {"date": {"comment": "preso"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11104671"/17651023/obs=extra_info: {"value": {"original": "Song-kiang fou"}}
+  ls$estadia/Song-kiang fou/17651023/obs=extra_info: {"date": {"comment": "preso"}, "value": {"comment": "@wikidata:Q11104671"}}
   ls$jesuita-ordenacao-padre/?/17430000/obs=extra_info: {"date": {"comment": "entre esta data e 17500000"}}
   ls$jesuita-votos/4V/17600302
-  ls$jesuita-votos-local/Nancham, Kiangsi («in pago Inxam civitates»)/17600302
+  ls$jesuita-votos-local/Nancham, Kiangsi/17600302/obs=extra_info: {"value": {"original": "(\u00abin pago Inxam civitates\u00bb)"}}
   ls$morte/?/17760000/obs=extra_info: {"date": {"comment": "depois de"}}
   ls$dehergne/651/0/obs="""
       Pires, Inácio (port.) P. 651 Pi Na-tsio (Pf.). N. 4 juill. 1724, Meanz, dioc. de Coïmbre (Lus. 49, 57v). E. 27 avril 1742, Coïmbre. Emb. pour la Chine, 1750 (W 1989)., arr. 1753 (JS 134, 446)., Foukien, 1755., Kiang-nan., arrêté à Song-kiang fou le 23 oct. 1765 (Krahl, 117). P. entre 1743 et 1750 (Lus. 49, 57v) -V. « in pago Inxam civitatis Nancham », Kiangsi, 2 mars 1760 (Lus. 17, 356). M. après 1776 (Krahl, 220). Pf. 870.
