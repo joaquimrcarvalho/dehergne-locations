@@ -1,11 +1,12 @@
-# Identifying place names
+# Technical Note: identifying place names
+> Project Linking the West and the East: Reconstructing Itineraries and Networks between Europe and China through Macao" supported by Macao Polytechnic University, project RP/CIPFIC－01/2023
 
 This note defines the rules for registering place names in the sources.
 
 
 ## Attributes that are place names
 
-A Certain number of attributes of 
+A certain number of attributes of
 people in the sources are place names.
 
 * baptizado (place of baptism)
@@ -40,7 +41,7 @@ The goal should be to make alphabetical lists of places keep variations of the s
 
 ## Identifying place names
 
-To provide an unambiguos reference to a place we use linked data identifiers. The identifiers are URIs that can be used to retrieve information about the place from the web. 
+To provide an unambiguos reference to a place we use linked data identifiers. The identifiers are URIs that can be used to retrieve information about the place from the web.
 
 The preferred source of identifiers is
 Wikidata. Information on place names in Wikidata includes geographic coordinates, alternate names in different languages, administrative context, and links to other sources of information about the place, such as library catalogs.
@@ -59,3 +60,6 @@ If the identifier is not available in Wikidata, or there
 ambiguity in the identification, add a comment with the word ILOC. For example:
 
     ls$estadia/Changchow, China#ILOC
+
+
+
