@@ -65,7 +65,9 @@ stay, and tasks ("jesuitas-tarefa").
 Currently:
 * Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023). Cartas ânuas da Cochinchina (1619-1635). Centro Cientifico e Cultural de Macau; Universidade de Macau.
 
+### Credits ###
 
+The identification of place names and reconstruction of networks of places and people was supported by Macao Polytechnic University, through project RP/CIPFIC－01/2023.
 
 
 ## License
