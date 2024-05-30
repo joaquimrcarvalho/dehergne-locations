@@ -1,5 +1,9 @@
 <?xml version='1.0'?>
+<<<<<<< HEAD
 <KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-i.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-30 9:54:47" OBS="" SPACE="">
+=======
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-i.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-29 23:40:57" OBS="" SPACE="">
+>>>>>>> origin/main
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -388,12 +392,19 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-atra1" NAME="ls"  ORDER="19" LEVEL="5" CLASS="attribute" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att13-30" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="23">
+    <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att13-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-ignace-kiang</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>19</core></ELEMENT>
+<<<<<<< HEAD
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
     <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[nascimento@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
     <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q57052]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Kiangsi]]></original></ELEMENT>
@@ -404,6 +415,24 @@
 <GROUP ID="deh-thomas-ignace-kiang-att13-30" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att13-30</core></ELEMENT>
+=======
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nascimento]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Kiangsi]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16691221]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-thomas-ignace-kiang-att13-30]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-thomas-ignace-kiang]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-thomas-ignace-kiang-att14-30" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="24">
+    <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att14-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-thomas-ignace-kiang</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -456,7 +485,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16900000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att15-30" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="25">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att15-30" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="25">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att15-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -478,7 +511,11 @@
          <core><![CDATA[deh-thomas-ignace-kiang]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att16-30" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="26">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att16-30" NAME="ls" CLASS="attribute" ORDER="23" LEVEL="4" LINE="26">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att16-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -511,7 +548,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17000000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att17-30" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="27">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att17-30" NAME="ls" CLASS="attribute" ORDER="25" LEVEL="4" LINE="27">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att17-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -545,7 +586,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17010000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att18-30" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="28">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att18-30" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="28">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att18-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -579,7 +624,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17010000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att19-30" NAME="ls" CLASS="attribute" ORDER="30" LEVEL="4" LINE="29">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att19-30" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="29">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>29</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att19-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -613,7 +662,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17120000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att20-30" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="30">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att20-30" NAME="ls" CLASS="attribute" ORDER="31" LEVEL="4" LINE="30">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att20-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -647,7 +700,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-atra7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17180306</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att21-30" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="31">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att21-30" NAME="ls" CLASS="attribute" ORDER="33" LEVEL="4" LINE="31">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att21-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -668,7 +725,11 @@
          <core><![CDATA[deh-thomas-ignace-kiang]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-thomas-ignace-kiang-att22-30" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="33">
+=======
+<GROUP ID="deh-thomas-ignace-kiang-att22-30" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="33">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-thomas-ignace-kiang-att22-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -719,13 +780,18 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-i-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att23-30" NAME="ls" CLASS="attribute" ORDER="38" LEVEL="4" LINE="35">
+    <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att23-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att23-30" NAME="ls" CLASS="attribute" ORDER="37" LEVEL="4" LINE="35">
     <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att23-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>38</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>37</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
@@ -739,9 +805,40 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att24-30" NAME="ls" CLASS="attribute" ORDER="38" LEVEL="4" LINE="36">
+    <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att24-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>38</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[França]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att23-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att24-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att24-30" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="36">
     <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att24-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att25-30" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="37">
+    <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att25-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -752,16 +849,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att24-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att25-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att25-30" NAME="ls" CLASS="attribute" ORDER="40" LEVEL="4" LINE="37">
     <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att25-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att26-30" NAME="ls" CLASS="attribute" ORDER="40" LEVEL="4" LINE="38">
+    <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att26-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -772,7 +879,11 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Pierre Noël Le Chéron Dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att25-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att26-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -812,7 +923,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17060821</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att27-30" NAME="ls" CLASS="attribute" ORDER="43" LEVEL="4" LINE="39">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att27-30" NAME="ls" CLASS="attribute" ORDER="42" LEVEL="4" LINE="39">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att27-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -846,7 +961,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17270907</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att28-30" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="4" LINE="40">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att28-30" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="4" LINE="40">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>40</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att28-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -880,7 +999,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17300000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att29-30" NAME="ls" CLASS="attribute" ORDER="47" LEVEL="4" LINE="41">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att29-30" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="4" LINE="41">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>41</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att29-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -914,7 +1037,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra11</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17390000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att30-30" NAME="ls" CLASS="attribute" ORDER="49" LEVEL="4" LINE="42">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att30-30" NAME="ls" CLASS="attribute" ORDER="48" LEVEL="4" LINE="42">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>42</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att30-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -949,7 +1076,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra12</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att31-30" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="43">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att31-30" NAME="ls" CLASS="attribute" ORDER="50" LEVEL="4" LINE="43">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att31-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -983,7 +1114,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra13</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17400119</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att32-30" NAME="ls" CLASS="attribute" ORDER="53" LEVEL="4" LINE="44">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att32-30" NAME="ls" CLASS="attribute" ORDER="52" LEVEL="4" LINE="44">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>44</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att32-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1005,7 +1140,11 @@
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att33-30" NAME="ls" CLASS="attribute" ORDER="54" LEVEL="4" LINE="45">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att33-30" NAME="ls" CLASS="attribute" ORDER="53" LEVEL="4" LINE="45">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att33-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1038,7 +1177,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra14</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17401010</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att34-30" NAME="ls" CLASS="attribute" ORDER="56" LEVEL="4" LINE="46">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att34-30" NAME="ls" CLASS="attribute" ORDER="55" LEVEL="4" LINE="46">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>46</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att34-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1072,7 +1215,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra15</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17410115</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att35-30" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="4" LINE="47">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att35-30" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="4" LINE="47">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>47</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att35-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1106,7 +1253,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra16</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att36-30" NAME="ls" CLASS="attribute" ORDER="60" LEVEL="4" LINE="48">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att36-30" NAME="ls" CLASS="attribute" ORDER="59" LEVEL="4" LINE="48">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>48</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att36-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1127,13 +1278,18 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att37-30" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="4" LINE="49">
+    <ELEMENT NAME="line" CLASS="line"><core>49</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att37-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att37-30" NAME="ls" CLASS="attribute" ORDER="60" LEVEL="4" LINE="49">
     <ELEMENT NAME="line" CLASS="line"><core>49</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att37-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>61</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>60</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[profissao]]></core>   </ELEMENT>
@@ -1147,9 +1303,40 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att38-30" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="4" LINE="50">
+    <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att38-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>61</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[profissao]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Botânico]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att37-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att38-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att38-30" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="4" LINE="50">
     <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att38-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att39-30" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="4" LINE="51">
+    <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att39-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1160,16 +1347,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Director dos Jardins Imperiais]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att38-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att39-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att39-30" NAME="ls" CLASS="attribute" ORDER="63" LEVEL="4" LINE="51">
     <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att39-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att40-30" NAME="ls" CLASS="attribute" ORDER="63" LEVEL="4" LINE="52">
+    <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att40-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1207,7 +1404,11 @@
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att41-30" NAME="ls" CLASS="attribute" ORDER="65" LEVEL="4" LINE="53">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att41-30" NAME="ls" CLASS="attribute" ORDER="64" LEVEL="4" LINE="53">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att41-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1227,7 +1428,11 @@
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att42-30" NAME="ls" CLASS="attribute" ORDER="66" LEVEL="4" LINE="54">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att42-30" NAME="ls" CLASS="attribute" ORDER="65" LEVEL="4" LINE="54">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>54</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att42-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1260,7 +1465,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra17</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17420202</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att43-30" NAME="ls" CLASS="attribute" ORDER="68" LEVEL="4" LINE="55">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att43-30" NAME="ls" CLASS="attribute" ORDER="67" LEVEL="4" LINE="55">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>55</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att43-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1294,7 +1503,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-atra18</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>17570512</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att44-30" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="56">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att44-30" NAME="ls" CLASS="attribute" ORDER="69" LEVEL="4" LINE="56">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>56</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att44-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1315,13 +1528,18 @@
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att45-30" NAME="ls" CLASS="attribute" ORDER="71" LEVEL="4" LINE="57">
+    <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att45-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att45-30" NAME="ls" CLASS="attribute" ORDER="70" LEVEL="4" LINE="57">
     <ELEMENT NAME="line" CLASS="line"><core>57</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att45-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>71</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>70</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[dehergne]]></core>   </ELEMENT>
@@ -1337,9 +1555,42 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att46-30" NAME="ls" CLASS="attribute" ORDER="71" LEVEL="4" LINE="58">
+    <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att46-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>71</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[dehergne]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[413]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Incarville, Pierre Noël Le Chéron d' (franç.) P. 413 Dincarville. T'ang Tche-Tchong Tslng-Yi (Pf.). N. 21 août 1706, Louviers, d. d'Evreux (et non 20 août 1706, Rouen, comme le disent JS 134, 444v et Pf.). E. 7 sept. 1727, Paris (Franc. 19, 342). Arr. au Canada, 1730., Québec., en repart, 1739., France., Emb. Lorient sur le Jason, 19 janv. 1740., arr. Chine, 10 oct. 1740., Canton, 15 janv. 1741., Pékin, botaniste et directeur des Jardins impériaux., introduit des plantes nouvelles en France., 22 août 1750, nommé, en même temps que Gaubil, correspondant de l'Académie des Sciences de Paris. P. 1739 (Franc. 20, 407). -V. Pékin, 2 févr. 1742, pr. (Gai. 22, 122). Il signe: « Petrus Natal[is]. d'iNCARViLLE ». M. 12 mai 1757, Pékin (JS 181, 277).]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att45-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att46-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att46-30" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="58">
     <ELEMENT NAME="line" CLASS="line"><core>58</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att46-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att47-30" NAME="ls" CLASS="attribute" ORDER="72" LEVEL="4" LINE="59">
+    <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att47-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1352,16 +1603,26 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Pf. 795. -E. 29 sept. 1690 selon JS 26, 46. Fils de « Jean Le Chéron, écuyer de La Salle du Boys, sieur de Freneusb, et de Marie-Anne Martin, issue de la bourgeoisie ». Le récit de son voyage de 1740, édité par Mme Simon, R., est publié dans AHSI 40 (1971), 423435. Date de sa mort rectifiée d'après la lettre de Desrobert datée de Pékin, 16 mai 1757 (ASJFN ms 906-VI p. 27., et non le 12 juin comme le disent HS 53a, 102., JS 181, 277., Franc. 1758 ex. p. 46., Pf. etc). Pf. 795. Izambert, Le P. d'I., étude botanique et biographique, Butt. de ta Soc. de Louviers, I, 1893., Cordier, H., Voyage à la Chine du P. d'I., Paris, 1919 [erreur! c'est du P. Jacques, Befeo 1971, p. 213-2201., Brucker, J., dans RQH, avril 1885., Fournier, P., Les voyageurs naturalistes, Paris, 1932, 74, 79-83.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att46-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att47-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-att47-30" NAME="ls" CLASS="attribute" ORDER="73" LEVEL="4" LINE="59">
     <ELEMENT NAME="line" CLASS="line"><core>59</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att47-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-att48-30" NAME="ls" CLASS="attribute" ORDER="73" LEVEL="4" LINE="61">
+    <ELEMENT NAME="line" CLASS="line"><core>61</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-att48-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1374,7 +1635,11 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Bernard-Maître, Henri, Le Père Le Ch. d'I., dans Archives internat. d'Hist. des Sciences, II, 1949., Streit VII, n° 3915. Deux albums de dessins sont à la B. municipale de Lyon (Mme Pansu les étudie). Le Catalogue alphabétique (Pf. 798) est à BN: ms Bréquigny t. 2, 150- 170 et mériterait d'être édité ailleurs que dans les Mém. de la Société des Naturalistes de Moscou, Zapiski obsèestva ispytatêlej prirody, 1812. Son Herbier, cf RQH 30 (1891), 393., un petit dictionnaire de plantes chinoises, 1745 (ou 1749?) est à l'Obs. Paris, 149, 9, 1. L'explication ... sur la récolte du riz, B. Inst. ms 5409 et fonds Brotier vol. 130, P 185-193. ~]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att47-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-att48-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1432,7 +1697,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-rela4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-ref1-att49-30" NAME="ls" CLASS="attribute" ORDER="77" LEVEL="5" LINE="64">
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-ref1-att49-30" NAME="ls" CLASS="attribute" ORDER="76" LEVEL="5" LINE="64">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>64</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-ref1-att49-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1481,9 +1750,37 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-rela5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-pierre-noel-le-cheron-dincarville-pai-att50-30" NAME="ls" CLASS="attribute" ORDER="80" LEVEL="5" LINE="66">
     <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-pai-att50-30</core></ELEMENT>
+=======
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-pai-att50-30" NAME="ls" CLASS="attribute" ORDER="79" LEVEL="5" LINE="66">
+    <ELEMENT NAME="line" CLASS="line"><core>66</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-pai-att50-30</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville-pai</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>79</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[titulo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Écuyer]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[segundo wikipédia, na época moderna esta parece ser a forma de a nobreza sem título se apresentar em documentação, não me parece que corresponda ao escudeiro em português, portanto não traduzi]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-pai-att50-30]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-pai]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-pierre-noel-le-cheron-dincarville-pai-att51-30" NAME="ls" CLASS="attribute" ORDER="80" LEVEL="5" LINE="68">
+    <ELEMENT NAME="line" CLASS="line"><core>68</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-pierre-noel-le-cheron-dincarville-pai-att51-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville-pai</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1496,7 +1793,11 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[segundo wikipédia, na época moderna esta parece ser a forma de a nobreza sem título se apresentar em documentação, não me parece que corresponda ao escudeiro em português, portanto não traduzi]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-pai-att50-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-pai-att51-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-pierre-noel-le-cheron-dincarville-pai]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1583,13 +1884,18 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-i-rela7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att52-30" NAME="ls" CLASS="attribute" ORDER="86" LEVEL="4" LINE="72">
+    <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att52-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att52-30" NAME="ls" CLASS="attribute" ORDER="85" LEVEL="4" LINE="72">
     <ELEMENT NAME="line" CLASS="line"><core>72</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att52-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>86</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>85</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
@@ -1603,9 +1909,40 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-prospero-intorcetta-att53-30" NAME="ls" CLASS="attribute" ORDER="86" LEVEL="4" LINE="73">
+    <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att53-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>86</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Itália]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-prospero-intorcetta-att52-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att53-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att53-30" NAME="ls" CLASS="attribute" ORDER="87" LEVEL="4" LINE="73">
     <ELEMENT NAME="line" CLASS="line"><core>73</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att53-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att54-30" NAME="ls" CLASS="attribute" ORDER="87" LEVEL="4" LINE="74">
+    <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att54-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1616,16 +1953,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att53-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att54-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att54-30" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="4" LINE="74">
     <ELEMENT NAME="line" CLASS="line"><core>74</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att54-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att55-30" NAME="ls" CLASS="attribute" ORDER="88" LEVEL="4" LINE="75">
+    <ELEMENT NAME="line" CLASS="line"><core>75</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att55-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1636,16 +1983,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yin To-Tchö Kio-Sseu]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att54-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att55-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att55-30" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="4" LINE="75">
     <ELEMENT NAME="line" CLASS="line"><core>75</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att55-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att56-30" NAME="ls" CLASS="attribute" ORDER="89" LEVEL="4" LINE="76">
+    <ELEMENT NAME="line" CLASS="line"><core>76</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att56-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1656,7 +2013,11 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yin To-Tse Kio-Seu]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att55-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att56-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1696,7 +2057,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra19</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16250828</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att57-30" NAME="ls" CLASS="attribute" ORDER="92" LEVEL="4" LINE="77">
+=======
+<GROUP ID="deh-prospero-intorcetta-att57-30" NAME="ls" CLASS="attribute" ORDER="91" LEVEL="4" LINE="77">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>77</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att57-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1717,7 +2082,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att58-30" NAME="ls" CLASS="attribute" ORDER="93" LEVEL="4" LINE="78">
+=======
+<GROUP ID="deh-prospero-intorcetta-att58-30" NAME="ls" CLASS="attribute" ORDER="92" LEVEL="4" LINE="78">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>78</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att58-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1737,7 +2106,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att59-30" NAME="ls" CLASS="attribute" ORDER="94" LEVEL="4" LINE="79">
+=======
+<GROUP ID="deh-prospero-intorcetta-att59-30" NAME="ls" CLASS="attribute" ORDER="93" LEVEL="4" LINE="79">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>79</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att59-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1757,7 +2130,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att60-30" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="80">
+=======
+<GROUP ID="deh-prospero-intorcetta-att60-30" NAME="ls" CLASS="attribute" ORDER="94" LEVEL="4" LINE="80">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>80</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att60-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1777,7 +2154,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att61-30" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="81">
+=======
+<GROUP ID="deh-prospero-intorcetta-att61-30" NAME="ls" CLASS="attribute" ORDER="95" LEVEL="4" LINE="81">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>81</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att61-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1797,7 +2178,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att62-30" NAME="ls" CLASS="attribute" ORDER="97" LEVEL="4" LINE="82">
+=======
+<GROUP ID="deh-prospero-intorcetta-att62-30" NAME="ls" CLASS="attribute" ORDER="96" LEVEL="4" LINE="82">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>82</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att62-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1817,7 +2202,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att63-30" NAME="ls" CLASS="attribute" ORDER="98" LEVEL="4" LINE="83">
+=======
+<GROUP ID="deh-prospero-intorcetta-att63-30" NAME="ls" CLASS="attribute" ORDER="97" LEVEL="4" LINE="83">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>83</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att63-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1851,7 +2240,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra20</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16550628</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att64-30" NAME="ls" CLASS="attribute" ORDER="100" LEVEL="4" LINE="84">
+=======
+<GROUP ID="deh-prospero-intorcetta-att64-30" NAME="ls" CLASS="attribute" ORDER="99" LEVEL="4" LINE="84">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>84</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att64-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1885,7 +2278,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra21</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16661000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att65-30" NAME="ls" CLASS="attribute" ORDER="102" LEVEL="4" LINE="85">
+=======
+<GROUP ID="deh-prospero-intorcetta-att65-30" NAME="ls" CLASS="attribute" ORDER="101" LEVEL="4" LINE="85">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>85</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att65-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1907,7 +2304,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att66-30" NAME="ls" CLASS="attribute" ORDER="103" LEVEL="4" LINE="86">
+=======
+<GROUP ID="deh-prospero-intorcetta-att66-30" NAME="ls" CLASS="attribute" ORDER="102" LEVEL="4" LINE="86">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>86</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att66-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1940,7 +2341,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra22</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16680903</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att67-30" NAME="ls" CLASS="attribute" ORDER="105" LEVEL="4" LINE="87">
+=======
+<GROUP ID="deh-prospero-intorcetta-att67-30" NAME="ls" CLASS="attribute" ORDER="104" LEVEL="4" LINE="87">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>87</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att67-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -1974,7 +2379,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra23</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16690121</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att68-30" NAME="ls" CLASS="attribute" ORDER="107" LEVEL="4" LINE="88">
+=======
+<GROUP ID="deh-prospero-intorcetta-att68-30" NAME="ls" CLASS="attribute" ORDER="106" LEVEL="4" LINE="88">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>88</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att68-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2008,7 +2417,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra24</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16710000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att69-30" NAME="ls" CLASS="attribute" ORDER="109" LEVEL="4" LINE="89">
+=======
+<GROUP ID="deh-prospero-intorcetta-att69-30" NAME="ls" CLASS="attribute" ORDER="108" LEVEL="4" LINE="89">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>89</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att69-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2029,7 +2442,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att70-30" NAME="ls" CLASS="attribute" ORDER="110" LEVEL="4" LINE="90">
+=======
+<GROUP ID="deh-prospero-intorcetta-att70-30" NAME="ls" CLASS="attribute" ORDER="109" LEVEL="4" LINE="90">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>90</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att70-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2050,7 +2467,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att71-30" NAME="ls" CLASS="attribute" ORDER="111" LEVEL="4" LINE="91">
+=======
+<GROUP ID="deh-prospero-intorcetta-att71-30" NAME="ls" CLASS="attribute" ORDER="110" LEVEL="4" LINE="91">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>91</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att71-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2071,7 +2492,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att72-30" NAME="ls" CLASS="attribute" ORDER="112" LEVEL="4" LINE="92">
+=======
+<GROUP ID="deh-prospero-intorcetta-att72-30" NAME="ls" CLASS="attribute" ORDER="111" LEVEL="4" LINE="92">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>92</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att72-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2104,7 +2529,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra25</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16740800</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att73-30" NAME="ls" CLASS="attribute" ORDER="114" LEVEL="4" LINE="93">
+=======
+<GROUP ID="deh-prospero-intorcetta-att73-30" NAME="ls" CLASS="attribute" ORDER="113" LEVEL="4" LINE="93">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>93</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att73-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2125,9 +2554,35 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att74-30" NAME="ls" CLASS="attribute" ORDER="115" LEVEL="4" LINE="94">
     <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att74-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att74-30" NAME="ls" CLASS="attribute" ORDER="114" LEVEL="4" LINE="94">
+    <ELEMENT NAME="line" CLASS="line"><core>94</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att74-30</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>114</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Visitador]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16760000]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-prospero-intorcetta-att74-30]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-prospero-intorcetta-att75-30" NAME="ls" CLASS="attribute" ORDER="115" LEVEL="4" LINE="95">
+    <ELEMENT NAME="line" CLASS="line"><core>95</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att75-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2140,7 +2595,11 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16760000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att74-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att75-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
@@ -2178,7 +2637,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra26</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16780000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att76-30" NAME="ls" CLASS="attribute" ORDER="118" LEVEL="4" LINE="96">
+=======
+<GROUP ID="deh-prospero-intorcetta-att76-30" NAME="ls" CLASS="attribute" ORDER="117" LEVEL="4" LINE="96">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>96</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att76-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2199,9 +2662,35 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att77-30" NAME="ls" CLASS="attribute" ORDER="119" LEVEL="4" LINE="97">
     <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att77-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att77-30" NAME="ls" CLASS="attribute" ORDER="118" LEVEL="4" LINE="97">
+    <ELEMENT NAME="line" CLASS="line"><core>97</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att77-30</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>118</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Vice-provincial da China]]></core>   </ELEMENT>
+   <ELEMENT NAME="data" CLASS="date">
+         <core><![CDATA[16860630]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-prospero-intorcetta-att77-30]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-prospero-intorcetta-att78-30" NAME="ls" CLASS="attribute" ORDER="119" LEVEL="4" LINE="98">
+    <ELEMENT NAME="line" CLASS="line"><core>98</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att78-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2214,7 +2703,11 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16860630]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att77-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att78-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
@@ -2252,7 +2745,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra27</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16910000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att79-30" NAME="ls" CLASS="attribute" ORDER="122" LEVEL="4" LINE="99">
+=======
+<GROUP ID="deh-prospero-intorcetta-att79-30" NAME="ls" CLASS="attribute" ORDER="121" LEVEL="4" LINE="99">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>99</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att79-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2274,7 +2771,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att80-30" NAME="ls" CLASS="attribute" ORDER="123" LEVEL="4" LINE="100">
+=======
+<GROUP ID="deh-prospero-intorcetta-att80-30" NAME="ls" CLASS="attribute" ORDER="122" LEVEL="4" LINE="100">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>100</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att80-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2296,7 +2797,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att81-30" NAME="ls" CLASS="attribute" ORDER="124" LEVEL="4" LINE="101">
+=======
+<GROUP ID="deh-prospero-intorcetta-att81-30" NAME="ls" CLASS="attribute" ORDER="123" LEVEL="4" LINE="101">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>101</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att81-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2329,7 +2834,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra28</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16540000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att82-30" NAME="ls" CLASS="attribute" ORDER="126" LEVEL="4" LINE="102">
+=======
+<GROUP ID="deh-prospero-intorcetta-att82-30" NAME="ls" CLASS="attribute" ORDER="125" LEVEL="4" LINE="102">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>102</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att82-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2350,7 +2859,11 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att83-30" NAME="ls" CLASS="attribute" ORDER="127" LEVEL="4" LINE="103">
+=======
+<GROUP ID="deh-prospero-intorcetta-att83-30" NAME="ls" CLASS="attribute" ORDER="126" LEVEL="4" LINE="103">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>103</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att83-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2383,7 +2896,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra29</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16590216</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att84-30" NAME="ls" CLASS="attribute" ORDER="129" LEVEL="4" LINE="104">
+=======
+<GROUP ID="deh-prospero-intorcetta-att84-30" NAME="ls" CLASS="attribute" ORDER="128" LEVEL="4" LINE="104">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>104</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att84-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2417,7 +2934,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-atra30</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16961003</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att85-30" NAME="ls" CLASS="attribute" ORDER="131" LEVEL="4" LINE="105">
+=======
+<GROUP ID="deh-prospero-intorcetta-att85-30" NAME="ls" CLASS="attribute" ORDER="130" LEVEL="4" LINE="105">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>105</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att85-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2438,13 +2959,18 @@
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att86-30" NAME="ls" CLASS="attribute" ORDER="132" LEVEL="4" LINE="106">
+    <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att86-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att86-30" NAME="ls" CLASS="attribute" ORDER="131" LEVEL="4" LINE="106">
     <ELEMENT NAME="line" CLASS="line"><core>106</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att86-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>132</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>131</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[dehergne]]></core>   </ELEMENT>
@@ -2460,9 +2986,42 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-prospero-intorcetta-att87-30" NAME="ls" CLASS="attribute" ORDER="132" LEVEL="4" LINE="107">
+    <ELEMENT NAME="line" CLASS="line"><core>107</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att87-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>132</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[dehergne]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[414]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA[Intorcetta, Prospero (ital.) P. 414 Yln To-Tchô Klo-Sseu (Pf.., Courant 7250: Yin To-Tse Kio-Seu) (Borg. Lat. 523, 59: Yn To-Ce). N. « Platiensis », Piazza Armerina en Sicile, 28 août 1625 (Sic. 65, 239) -E. 31 déc. 1642. Emb. sur le Bom Jésus da Vidigueira pour la Chine, 4 avril 1657 (W 1039)., arr. 1659., Kienchang (Kien-tchang) Kiangsi., persécution de 1665: conduit à Pékin avec Canevari, 28 juin 1665, et exil à Canton., en octobre 1666, élu procureur à Rome, reste bloqué plus d'un an à Canton (JS 26, 52)., arr. Macao, 3 sept. 1668 (JS 134, 353) et le quitte le 21 janv. 1669 (JS 162, 277v)., Rome, 1671., de retour en Chine, août 1674., visiteur, 1676-1684., 1678, Hangchow., vice-provincial de Chine 1686-1689., 1691, Hangchow, où persécution apaisée par l'édit de tolérance de K'ang Hi, 22 mars 1692 (JS 165, 297, 299, 301)., le 2 août 1692, incendie de l'église de Hangchow, la plus belle de Chine]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-prospero-intorcetta-att86-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att87-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-att87-30" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="4" LINE="107">
     <ELEMENT NAME="line" CLASS="line"><core>107</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att87-30</core></ELEMENT>
+=======
+<GROUP ID="deh-prospero-intorcetta-att88-30" NAME="ls" CLASS="attribute" ORDER="133" LEVEL="4" LINE="109">
+    <ELEMENT NAME="line" CLASS="line"><core>109</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-att88-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-prospero-intorcetta</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2475,7 +3034,11 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Intorcetta de nouveau nommé visiteur, 10 janv. 1698, par Rome: il était mort (JS 25, 293)., historien et missionnaire. Sapientia Sinica (Boxer III 199, 202). P. 1654, Messine (Sic. 159, 92v). V. « Macai », 16 févr. 1659, pr. (Lus. 7, 302). M. 3 oct. 1696, Hangchow (HS 49, 22 et 50, 48v l'appellent à tort P. Antonius Intorcetta). Vie ancienne, en chinois: BN: Courant 1096., notice autographe (Sic. 189, 327). Notons que son travail sur la traduction de la Bible est à BVE. FG. ms 1257 n. 14 et que sa Compendiosa Narrazione a été rééditée dans les Classici Italiani t. 7, par GuGLiELMiNEm, Marziano, Viaggiatori del Seicento, Turin 1967, p. 557-563. Pf. 321., NCE (B. Lahiff)., EC (Cel. Testore). Abel-Remusat, Nouv. Mét. Asiat. II, Paris 1829, 229-235., Minacapelli, C, -- P. P I. ... Atti e Memorie del Convegno di Geografi-orientalisti, Macerata 1911, 64-72.,]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-prospero-intorcetta-att87-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-prospero-intorcetta-att88-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-prospero-intorcetta]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2546,7 +3109,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-ref1-atra31</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16550628</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-ref1-att89-30" NAME="ls" CLASS="attribute" ORDER="138" LEVEL="5" LINE="112">
+=======
+<GROUP ID="deh-prospero-intorcetta-ref1-att89-30" NAME="ls" CLASS="attribute" ORDER="137" LEVEL="5" LINE="112">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>112</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-ref1-att89-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2596,7 +3163,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-rela9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-ref2-att90-30" NAME="ls" CLASS="attribute" ORDER="141" LEVEL="5" LINE="114">
+=======
+<GROUP ID="deh-prospero-intorcetta-ref2-att90-30" NAME="ls" CLASS="attribute" ORDER="140" LEVEL="5" LINE="114">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>114</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-ref2-att90-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2616,7 +3187,11 @@
          <core><![CDATA[deh-prospero-intorcetta-ref2]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-prospero-intorcetta-ref2-att91-30" NAME="ls" CLASS="attribute" ORDER="142" LEVEL="5" LINE="116">
+=======
+<GROUP ID="deh-prospero-intorcetta-ref2-att91-30" NAME="ls" CLASS="attribute" ORDER="141" LEVEL="5" LINE="116">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>116</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-prospero-intorcetta-ref2-att91-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2665,13 +3240,18 @@
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-i-rela10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att92-30" NAME="ls" CLASS="attribute" ORDER="145" LEVEL="4" LINE="118">
+    <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att92-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att92-30" NAME="ls" CLASS="attribute" ORDER="144" LEVEL="4" LINE="118">
     <ELEMENT NAME="line" CLASS="line"><core>118</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att92-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>145</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>144</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
@@ -2685,9 +3265,40 @@
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<GROUP ID="deh-juan-miguel-de-irigoyen-att93-30" NAME="ls" CLASS="attribute" ORDER="145" LEVEL="4" LINE="119">
+    <ELEMENT NAME="line" CLASS="line"><core>119</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att93-30</core></ELEMENT>
+>>>>>>> origin/main
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>145</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" CLASS="type">
+         <core><![CDATA[nacionalidade]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" CLASS="value">
+         <core><![CDATA[Espanha]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att92-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att93-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+</GROUP>
+
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att93-30" NAME="ls" CLASS="attribute" ORDER="146" LEVEL="4" LINE="119">
     <ELEMENT NAME="line" CLASS="line"><core>119</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att93-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att94-30" NAME="ls" CLASS="attribute" ORDER="146" LEVEL="4" LINE="120">
+    <ELEMENT NAME="line" CLASS="line"><core>120</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att94-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2698,16 +3309,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att93-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att94-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att94-30" NAME="ls" CLASS="attribute" ORDER="147" LEVEL="4" LINE="120">
     <ELEMENT NAME="line" CLASS="line"><core>120</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att94-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att95-30" NAME="ls" CLASS="attribute" ORDER="147" LEVEL="4" LINE="121">
+    <ELEMENT NAME="line" CLASS="line"><core>121</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att95-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2718,16 +3339,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Juan Miguel de Yrigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att94-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att95-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att95-30" NAME="ls" CLASS="attribute" ORDER="148" LEVEL="4" LINE="121">
     <ELEMENT NAME="line" CLASS="line"><core>121</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att95-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att96-30" NAME="ls" CLASS="attribute" ORDER="148" LEVEL="4" LINE="122">
+    <ELEMENT NAME="line" CLASS="line"><core>122</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att96-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2738,16 +3369,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Lou Je-Mong Yu-Tchai]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att95-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att96-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att96-30" NAME="ls" CLASS="attribute" ORDER="149" LEVEL="4" LINE="122">
     <ELEMENT NAME="line" CLASS="line"><core>122</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att96-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att97-30" NAME="ls" CLASS="attribute" ORDER="149" LEVEL="4" LINE="123">
+    <ELEMENT NAME="line" CLASS="line"><core>123</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att97-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2758,16 +3399,26 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Hó]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att96-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att97-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att97-30" NAME="ls" CLASS="attribute" ORDER="150" LEVEL="4" LINE="123">
     <ELEMENT NAME="line" CLASS="line"><core>123</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att97-30</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att98-30" NAME="ls" CLASS="attribute" ORDER="150" LEVEL="4" LINE="124">
+    <ELEMENT NAME="line" CLASS="line"><core>124</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att98-30</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -2778,7 +3429,11 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Yregoyen, Hó]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
+<<<<<<< HEAD
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att97-30]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[deh-juan-miguel-de-irigoyen-att98-30]]></core>   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -2818,7 +3473,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-atra32</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16460419</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att99-30" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="125">
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att99-30" NAME="ls" CLASS="attribute" ORDER="152" LEVEL="4" LINE="125">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>125</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att99-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2839,7 +3498,11 @@
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att100-30" NAME="ls" CLASS="attribute" ORDER="154" LEVEL="4" LINE="126">
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att100-30" NAME="ls" CLASS="attribute" ORDER="153" LEVEL="4" LINE="126">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>126</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att100-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2872,7 +3535,11 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-atra33</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16670000</core></ELEMENT>
 </GROUP>
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att101-30" NAME="ls" CLASS="attribute" ORDER="156" LEVEL="4" LINE="127">
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att101-30" NAME="ls" CLASS="attribute" ORDER="155" LEVEL="4" LINE="127">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>127</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att101-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2893,7 +3560,11 @@
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att102-30" NAME="ls" CLASS="attribute" ORDER="157" LEVEL="4" LINE="128">
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-att102-30" NAME="ls" CLASS="attribute" ORDER="156" LEVEL="4" LINE="128">
+>>>>>>> origin/main
     <ELEMENT NAME="line" CLASS="line"><core>128</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att102-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
@@ -2914,8 +3585,26 @@
          <core><![CDATA[deh-juan-miguel-de-irigoyen]]></core>   </ELEMENT>
 </GROUP>
 
+<<<<<<< HEAD
 <GROUP ID="deh-juan-miguel-de-irigoyen-att103-30" NAME="ls" CLASS="attribute" ORDER="158" LEVEL="4" LINE="129">
     <ELEMENT NAME="line" CLASS="line"><core>129</core></ELEMENT>
+=======
+<GROUP ID="deh-juan-miguel-de-irigoyen-atra33" NAME="ls"  ORDER="157" LEVEL="5" CLASS="attribute" LINE="129">
+    <ELEMENT NAME="line" CLASS="line"><core>129</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>157</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[estadia@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q11133842]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Kiangnan]]></original></ELEMENT>
+    <ELEMENT NAME="entity" CLASS="entity"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-atra33</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
+</GROUP>
+<GROUP ID="deh-juan-miguel-de-irigoyen-att103-30" NAME="ls" CLASS="attribute" ORDER="158" LEVEL="4" LINE="129">
+    <ELEMENT NAME="line" CLASS="line"><core>129</core></ELEMENT>
+>>>>>>> origin/main
     <ELEMENT NAME="id" CLASS="id"><core>deh-juan-miguel-de-irigoyen-att103-30</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-juan-miguel-de-irigoyen</core></ELEMENT>
@@ -2925,7 +3614,12 @@
    <ELEMENT NAME="tipo" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" CLASS="value">
+<<<<<<< HEAD
          <core><![CDATA[Kiangnan]]></core>   </ELEMENT>
+=======
+         <core><![CDATA[Kiangnan]]></core>         <comment><![CDATA[@wikidata:Q11133842]]></comment>
+   </ELEMENT>
+>>>>>>> origin/main
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-juan-miguel-de-irigoyen-att103-30]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
@@ -3264,7 +3958,7 @@
 <GROUP ID="dehergne-notices-i-rela12" NAME="relation"  ORDER="176" LEVEL="5" CLASS="relation" LINE="144">
     <ELEMENT NAME="line" CLASS="line"><core>144</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-i</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>176</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -3279,7 +3973,7 @@
 <GROUP ID="dehergne-notices-i-rela13" NAME="relation"  ORDER="177" LEVEL="5" CLASS="relation" LINE="144">
     <ELEMENT NAME="line" CLASS="line"><core>144</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-i</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville-mae</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>177</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
@@ -3294,7 +3988,7 @@
 <GROUP ID="dehergne-notices-i-rela14" NAME="relation"  ORDER="178" LEVEL="5" CLASS="relation" LINE="144">
     <ELEMENT NAME="line" CLASS="line"><core>144</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>dehergne-notices-i</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-pierre-noel-le-cheron-dincarville-pai</core></ELEMENT>
     <ELEMENT NAME="class" CLASS="class"><core>relation</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>178</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
