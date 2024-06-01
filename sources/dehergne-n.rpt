@@ -1,5 +1,5 @@
-KleioTranslator - server version 12.4 - build 567 2024-02-07 13:02:03
-31-5-2024 4-0
+KleioTranslator - server version 12.5 - build 570 2024-02-29 07:39:02
+1-6-2024 11-40
 
 Processing data file dehergne-n.cli
 -------------------------------------------
@@ -12,10 +12,15 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 65
+Translation count: 66
 Obs: 
 ** Processing source fonte$dehergne-n
 7: lista$dehergne-notices-n
+
+WARNING: dehergne-n.cli line 382 Element value exceeds database field length: data=15550715['meados de julho' segundo Franco, Imagem ...Coimbra,I,371]. Size:67 limit: 24
+Near lines: 382             ls$estadia/Shangchuan%Sancian#@wikidata:Q1397551/15550715['meados de julho' segundo Franco, Imagem ...Coimbra,I,371]
+Near lines: 383             ls$estadia/Lampacao# @wikidata:Q6482357/15551200%desde Dezembro atte Junho#segundo Franco, Imagem ...Coimbra,I,375
+
 *** End of File
 
 
@@ -29,5 +34,5 @@ Previous version: /kleio-home/sources/dehergne-n.old
 Temp file with ids: /kleio-home/sources/dehergne-n.ids
 ** - /kleio-home/sources/dehergne-n.cli-renamed to- /kleio-home/sources/dehergne-n.old
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
