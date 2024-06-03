@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=161
+kleio$gacto2.str/translations=163
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-123
    fonte$dehergne-f/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra F
 
@@ -642,8 +642,8 @@ kleio$gacto2.str/translations=161
             ls$nascimento/Macau# @wikidata:Q14773/16040000#pai português, mãe chinesa
             ls$jesuita-entrada/?/16270000
             ls$jesuita-cargo/Catequista
-            ls$estadia/Sian (Si-ngan fou)/16300000
-            ls$estadia/Sian (Si-ngan fou)/16340000
+            ls$estadia/Sian (Si-ngan fou)#@wikidata:Q5826/16300000
+            ls$estadia/Sian (Si-ngan fou)#@wikidata:Q5826/16340000
             ls$estadia/Kaifeng (K'ai-fong fou)/16420000
             ls$estadia/Shanghai# @wikidata:Q8686/16430000
             ls$estadia/Hangchow# @wikidata:Q4970/16480000
@@ -685,7 +685,7 @@ kleio$gacto2.str/translations=161
             ls$jesuita-cargo/Mestre dos Noviços/16070000
             ls$estadia/Shiuchow (Chao-tcheou)# @wikidata:Q1346617/16120000
             ls$estadia/Namyung (Nan-hiong)#@wikidata:Q934465/16070427#data de transferência
-            ls$estadia/Tchö-kiang/16171002
+            ls$estadia/Tchö-kiang#@wikidata:Q16967/16171002
             ls$estadia/Kienchang no Kiangsi#@wikidata:Q11065388/16300000
             ls$estadia/Honan#@wikidata:Q43684
             ls$estadia/Cantão# @wikidata:Q16572/16480000
@@ -693,7 +693,31 @@ kleio$gacto2.str/translations=161
             ls$jesuita-votos/4V/16121121
             ls$jesuita-votos-local/«Nanhiuni» (Namyung)#@wikidata:Q934465/16121121
             ls$morte/Cantão# @wikidata:Q16572/16491227
-            ls$dehergne/303/obs=Ferreira, Gaspar (Gaspard) (port.) P. 303 Ferrerius (JS 134, 300, et 303: Ferri» = Ferri). Fei K'i-Kouan Kouei-Yi (Borg. Lat. 523 f° 57: Fi Ki Quel, suivi par Pf.)., (Courant 6861: Fei Khi-Koel., Streit V: Fei Ki-Kouei). N. 1571, Castrofornos (JS 134, 303) dioc. de Viseu -E. mars 1589, Coïmbre (Lus. 44, 25 lettre o). Emb. non prêtre, 4 avril 1593, sur le S. Bartolomeu (W 339)., Macao., quitte Macao, févr. 1604., par Meiling et Nankin il gagne Pékin, août 1604., Paoting fou, 1607., maître des novices à Nanchang (Nan-tch'ang), 1607., 1612, Shiuchow (Chao-tcheou)., transféré le 27 avr. 1607 à Namyung (Nan-hiong)., écrit du Tcho-kiang, le 2 oct. 1617 (JS 17, 97)., Kienchang du Kiangsi, 1630., Honan., 1648, Canton (JS 134, 336., D'Elia II, 279). P. vers 1607 (JS 25, 65v). V. « Nanhiuni » (Namyung), 21 nov. 1612, pr. (Lus. 3, 265). M. 27 déc. 1649, Canton (HS 47, 30v et 32). Pf. 78., Brunner 5, 38-43., Streit V, n» 2065., XIII p. 379., XIVi p. 650., NZM 16 (i960) 281-295.
+            ls$dehergne/303/obs="""
+               Ferreira, Gaspar (Gaspard) (port.) P. 303
+               Ferrerius (JS 134, 300, et 303:
+               Ferri» = Ferri).
+               Fei K'i-Kouan Kouei-Yi (Borg. Lat. 523 f° 57: Fi Ki Quel, suivi par Pf.).,
+               (Courant 6861: Fei Khi-Koel., Streit V: Fei Ki-Kouei).
+               N. 1571, Castrofornos (JS 134, 303) dioc. de Viseu -
+               E. mars 1589, Coïmbre (Lus. 44, 25 lettre o).
+               Emb. non prêtre, 4 avril 1593, sur le S. Bartolomeu (W 339).,
+               Macao., quitte Macao, févr. 1604., par Meiling et Nankin il gagne Pékin,
+               août 1604., Paoting fou, 1607.,
+               maître des novices à Nanchang (Nan-tch'ang),
+                     1607., 1612, Shiuchow (Chao-tcheou).,
+               transféré le 27 avr. 1607 à Namyung (Nan-hiong).,
+               écrit du Tcho-kiang, le 2 oct. 1617 (JS 17, 97).,
+               Kienchang du Kiangsi, 1630.,
+               Honan., 1648,
+               Canton (JS 134, 336., D'Elia II, 279).
+               P. vers 1607 (JS 25, 65v).
+               V. « Nanhiuni » (Namyung), 21 nov. 1612,
+               pr. (Lus. 3, 265).
+               M. 27 déc. 1649, Canton (HS 47, 30v et 32). Pf. 78.,
+               Brunner 5, 38-43.,
+               Streit V, n» 2065., XIII p. 379., XIVi p. 650.,
+               NZM 16 (i960) 281-295."""
 
          n$João Ferreira/id=deh-joao-ferreira
             ls$nacionalidade/Portugal
@@ -1648,7 +1672,7 @@ kleio$gacto2.str/translations=161
             ls$estadia/Kiating, Kiangnan#@wikidata:Q662101
             ls$estadia/Hangchow# @wikidata:Q4970/16250000
             ls$estadia/Shensi#@wikidata:Q47974/16300000
-            ls$estadia/Sian (Si-ngan fou) (residência)/16310000
+            ls$estadia/Sian (Si-ngan fou, residência)#@wikidata:Q5826/16310000
             ls$jesuita-cargo/Vice-provincial da China do Norte/16350000#patente de 16321212
             ls$jesuita-cargo/Vice-provincial da China do Norte/16410000
             ls$estadia/Coreia# @wikidata:Q18097/16400000#abandona a Coreia para a província do Japão
