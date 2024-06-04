@@ -66,11 +66,15 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"/15430311/obs=extra_info: {"value": {"original": "Coimbra"}}
   ls$jesuita-entrada/Coimbra/15430311/obs=extra_info: {"value": {"comment": "@wikidata:Q45412"}}
   ls$grau-academico/Mestre em Artes/0
-  ls$embarque/Esfera/15510310
+  ls$embarque/Esfera/15510310/obs="""
+      extra_info: {"value": {"comment": "Franco diz \"Esperan\u00e7a\" Imagem...Coimbra,p.363, n\u00e3o h\u00e1 outra ocorr\u00eancia de \"Esfera\""}}
+  """
   ls$wicky/31/15510310
   ls$wicky-viagem/5/15510310
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"/15530000/obs=extra_info: {"value": {"original": "\u00cdndia"}}
-  ls$estadia/Índia/15530000/obs=[Onde é recebido por Francisco Xavier Franco, Imagem ...Coimbra,I,364 ] extra_info: {"value": {"comment": "@wikidata:Q668"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"/15510000/obs=extra_info: {"value": {"original": "\u00cdndia"}}
+  ls$estadia/Índia/15510000/obs="""
+      [Onde é recebido por Francisco Xavier Franco, Imagem ...Coimbra,I,364 ] extra_info: {"date": {"comment": "Franco diz que partiram de Mo\u00e7ambique no in\u00edcio de Setembro, chegando a Goa sem incidentes Imagem..Coimbra 364", "original": "1553"}, "value": {"comment": "@wikidata:Q668"}}
+  """
   ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q1949022"/0/obs=extra_info: {"value": {"original": "Ba\u00e7aim"}}
   ls$estadia-x/Baçaim/0/obs=extra_info: {"value": {"comment": "@wikidata:Q1949022"}}
   ls$jesuita-cargo/Vice-provincial das Índias Orientais/15530000/obs=[Francisco Rodrigues, 1935,"Vice-provincial de Gôa, p.24"] extra_info: {"value": {"comment": "inclui Jap\u00e3o"}}
@@ -231,8 +235,8 @@ n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
                         mais le premier titulaire effectif, Leonardo de Sá, n'arrive qu'en 1581.,
                      1582, Macao (où il y eut alors jusqu'à 25 jésuites, 18 Pères et 7 frères,
                            BEM 1964), il démissionne (D'Elia I, 140, 171-172).
-                     Il fonde l'hôpital de Macao en 1569.
-                     P. (avant 1551)., sacré à Goa par l'archevêque D. Gaspar, 15 déc. 1560.
+                     Il fonde l'hôpital de Macao en 1569.P. (avant 1551).,
+                        sacré à Goa par l'archevêque D. Gaspar, 15 déc. 1560.
                      V. 24 juin 1554, Rome,
                      pr. Il signe Carnero (Ital. 3, 19).
                      M. 19 août 1583, Macao
@@ -452,7 +456,8 @@ n$Tibúrcio de Quadros/m/id=deh-tiburcio-de-quadros
                   (Ital. 2, 248): Tiburtius de Quadros ».
                   M. 21 nov. 1572, Goa (DI. VIII, 645, 653., son éloge, DI. IX, 759).
                   Nous le citons à titre de supérieur chargé — aussi — de la Chine.
-                  Il est le « second fondateur de la Compagnie aux Indes » (DI. VIII, 645) [esta referência não tem relação com o assunto]. —
+                  Il est le « second fondateur de la Compagnie aux Indes » (DI. VIII, 645)
+                    [esta referência não tem relação com o assunto]. —
                   Sur l'admission des « mestiços » (ou métis : les eurasiatiques)
                   dans la Compagnie, cf DI. XI, 748.
                   Frois, Geschichte Japatts, 60., AnG, 693-696.,
@@ -1318,7 +1323,8 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$estadia/Shiuchow (Chao-tcheou)/16120000/obs=extra_info: {"value": {"comment": "@wikidata:Q1346617"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q934465"/16070427/obs=extra_info: {"value": {"original": "Namyung (Nan-hiong)"}}
   ls$estadia/Namyung (Nan-hiong)/16070427/obs=extra_info: {"date": {"comment": "data de transfer\u00eancia"}, "value": {"comment": "@wikidata:Q934465"}}
-  ls$estadia/Tchö-kiang/16171002
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16967"/16171002/obs=extra_info: {"value": {"original": "Tch\u00f6-kiang"}}
+  ls$estadia/Tchö-kiang/16171002/obs=extra_info: {"value": {"comment": "@wikidata:Q16967"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"/16300000/obs=extra_info: {"value": {"original": "Kienchang no Kiangsi"}}
   ls$estadia/Kienchang no Kiangsi/16300000/obs=extra_info: {"value": {"comment": "@wikidata:Q11065388"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q43684"/0/obs=extra_info: {"value": {"original": "Honan"}}
@@ -1332,7 +1338,31 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q16572"/16491227/obs=extra_info: {"value": {"original": "Cant\u00e3o"}}
   ls$morte/Cantão/16491227/obs=extra_info: {"value": {"comment": "@wikidata:Q16572"}}
   ls$dehergne/303/0/obs="""
-      Ferreira, Gaspar (Gaspard) (port.) P. 303 Ferrerius (JS 134, 300, et 303: Ferri» = Ferri). Fei K'i-Kouan Kouei-Yi (Borg. Lat. 523 f° 57: Fi Ki Quel, suivi par Pf.)., (Courant 6861: Fei Khi-Koel., Streit V: Fei Ki-Kouei). N. 1571, Castrofornos (JS 134, 303) dioc. de Viseu -E. mars 1589, Coïmbre (Lus. 44, 25 lettre o). Emb. non prêtre, 4 avril 1593, sur le S. Bartolomeu (W 339)., Macao., quitte Macao, févr. 1604., par Meiling et Nankin il gagne Pékin, août 1604., Paoting fou, 1607., maître des novices à Nanchang (Nan-tch'ang), 1607., 1612, Shiuchow (Chao-tcheou)., transféré le 27 avr. 1607 à Namyung (Nan-hiong)., écrit du Tcho-kiang, le 2 oct. 1617 (JS 17, 97)., Kienchang du Kiangsi, 1630., Honan., 1648, Canton (JS 134, 336., D'Elia II, 279). P. vers 1607 (JS 25, 65v). V. « Nanhiuni » (Namyung), 21 nov. 1612, pr. (Lus. 3, 265). M. 27 déc. 1649, Canton (HS 47, 30v et 32). Pf. 78., Brunner 5, 38-43., Streit V, n» 2065., XIII p. 379., XIVi p. 650., NZM 16 (i960) 281-295.
+      """
+                     Ferreira, Gaspar (Gaspard) (port.) P. 303
+                     Ferrerius (JS 134, 300, et 303:
+                     Ferri» = Ferri).
+                     Fei K'i-Kouan Kouei-Yi (Borg. Lat. 523 f° 57: Fi Ki Quel, suivi par Pf.).,
+                     (Courant 6861: Fei Khi-Koel., Streit V: Fei Ki-Kouei).
+                     N. 1571, Castrofornos (JS 134, 303) dioc. de Viseu -
+                     E. mars 1589, Coïmbre (Lus. 44, 25 lettre o).
+                     Emb. non prêtre, 4 avril 1593, sur le S. Bartolomeu (W 339).,
+                     Macao., quitte Macao, févr. 1604., par Meiling et Nankin il gagne Pékin,
+                     août 1604., Paoting fou, 1607.,
+                     maître des novices à Nanchang (Nan-tch'ang),
+                           1607., 1612, Shiuchow (Chao-tcheou).,
+                     transféré le 27 avr. 1607 à Namyung (Nan-hiong).,
+                     écrit du Tcho-kiang, le 2 oct. 1617 (JS 17, 97).,
+                     Kienchang du Kiangsi, 1630.,
+                     Honan., 1648,
+                     Canton (JS 134, 336., D'Elia II, 279).
+                     P. vers 1607 (JS 25, 65v).
+                     V. « Nanhiuni » (Namyung), 21 nov. 1612,
+                     pr. (Lus. 3, 265).
+                     M. 27 déc. 1649, Canton (HS 47, 30v et 32). Pf. 78.,
+                     Brunner 5, 38-43.,
+                     Streit V, n» 2065., XIII p. 379., XIVi p. 650.,
+                     NZM 16 (i960) 281-295."""
   """
 
 n$Sebastião Fernandes/m/id=deh-sebastiao-fernandes
@@ -1354,8 +1384,11 @@ n$Sebastião Fernandes/m/id=deh-sebastiao-fernandes
       Fernandes, Sebastião (Bastião) (port.) (I) P. 294 N. à Besteiros, d. de Viseu, 1573 -E. Coïmbre, 1591 (Lus. 44, 82). Emb. 5 avril 1597 sur le S. Martinho (pas encore prêtre W 300), pour «les Indes» et Lus. 44 I, 128 le dit alors fr. coadj. Destiné à la Chine en 1603 (D'Elia II, 271 n. 1). M. 30 oct. 1607. HS 43, 58 dit: in Japon. 31 déc. 1607. Fils de Simão Fernandes et de Maria Brás (BEM 1968, p. 673). Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67).
   """
   pai$Simão Fernandes/m/id=deh-sebastiao-fernandes-pai
+    rel$parentesco/pai/Sebastião Fernandes/deh-sebastiao-fernandes/0
+    rel$parentesco/marido/Maria Brás/deh-sebastiao-fernandes-mae/0
     ls$ec/c/0
   mae$Maria Brás/f/id=deh-sebastiao-fernandes-mae
+    rel$parentesco/mae/Sebastião Fernandes/deh-sebastiao-fernandes/0
     ls$ec/c/0
   referido$Sebastião Fernandes/m/id=deh-sebastiao-fernandes-ref1
     ls$jesuita-estatuto/Frade Coadjutor/0
@@ -1839,7 +1872,8 @@ n$Francisco Furtado/m/id=deh-francisco-furtado
   ls$estadia/Hangchow/16250000/obs=extra_info: {"value": {"comment": "@wikidata:Q4970"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q47974"/16300000/obs=extra_info: {"value": {"original": "Shensi"}}
   ls$estadia/Shensi/16300000/obs=extra_info: {"value": {"comment": "@wikidata:Q47974"}}
-  ls$estadia/Sian (Si-ngan fou) (residência)/16310000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5826"/16310000/obs=extra_info: {"value": {"original": "Sian (Si-ngan fou, resid\u00eancia)"}}
+  ls$estadia/Sian (Si-ngan fou, residência)/16310000/obs=extra_info: {"value": {"comment": "@wikidata:Q5826"}}
   ls$jesuita-cargo/Vice-provincial da China do Norte/16350000/obs=extra_info: {"date": {"comment": "patente de 16321212"}}
   ls$jesuita-cargo/Vice-provincial da China do Norte/16410000
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q18097"/16400000/obs=extra_info: {"value": {"original": "Coreia"}}
@@ -1970,7 +2004,8 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
   """
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16770000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/16770000/obs=fala-se de um édito imperal 1675, mas sobre o quê? extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  ls$estadia/Tong-t'ang, Pequim/16550000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16550000/obs=extra_info: {"value": {"original": "Pequim"}}
+  ls$estadia/Pequim/16550000/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
   ls$jesuita-tarefa/Funda a igreja de Tong-t'ang/16550000/obs=com Buglio (Dehergne 121)
   ls$profissao/Engenheiro, construtor de autómatos/0
   ls$jesuita-ordenacao-padre/?/16340000/obs=extra_info: {"date": {"comment": "cerca de"}}
@@ -2501,7 +2536,7 @@ n$António da Silva/m/id=deh-antonio-da-silva
   referido$Alessandro Cicero/m/id=deh-antonio-da-silva-ref1
     ls$titulo/Monsenhor/0
     ls$cargo/Bispo de Nanquim/17000000
-  rel$identification/same as/None/0
+  rel$identification/same as/Alessandro Cicero/deh-alessandro-cicero/0
   referido$Charles Thomas Maillard de Tournon/m/id=deh-antonio-da-silva-ref2
     rel$eclesiastica/Nomeia/António da Silva/deh-antonio-da-silva/17051101
     rel$institucional/suspende/António da Silva/deh-antonio-da-silva/17070528
@@ -2686,7 +2721,8 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-i
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q869"/17250000/obs=extra_info: {"value": {"original": "Si\u00e3o"}}
   ls$estadia/Sião/17250000/obs=extra_info: {"value": {"comment": "@wikidata:Q869"}}
   ls$jesuita-votos/4V/16950815
-  ls$jesuita-votos-local/«Cinanfu» (Tsinan), Shangtung/16950815
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q170247"/16950815/obs=extra_info: {"value": {"original": "\u00abCinanfu\u00bb (Tsinan), Shangtung"}}
+  ls$jesuita-votos-local/«Cinanfu» (Tsinan), Shangtung/16950815/obs=extra_info: {"value": {"comment": "@wikidata:Q170247"}}
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"/17310323/obs=extra_info: {"value": {"original": "Macau"}}
   ls$morte/Macau/17310323/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$dehergne/642/0/obs="""
