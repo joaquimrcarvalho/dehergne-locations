@@ -1,6 +1,8 @@
-kleio$gacto2.str/translations=169
+kleio$gacto2.str/translations=177
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-126
-   fonte$dehergne-p/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs= """Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra P
+   fonte$dehergne-p/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs= """
+
+      Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra P
 
       Dominguez, J. M., & O’Neill, C. (2001). Diccionario Histórico de la
             Compañía de Jesús: Biográfico-temático: Institutum Historicum, S.I;
@@ -1375,12 +1377,9 @@ kleio$gacto2.str/translations=169
             ls$jesuita-estatuto/Padre
             ls$nascimento/Galafura, diocese de Braga#antiga freguesia em Peso da Régua @wikidata:Q250615/17330915
             ls$jesuita-entrada/?/17490131
-            ls$embarque/[Para a China]/17550000#entre 1755 e 17558
-            ls$embarque/[Para a China]/17580000#entre 1755 e 17558
-            ls$wicky/2106/17550000#entre 1755 e 1758
-            ls$wicky/2106/17580000#entre 1755 e 1758
-            ls$wicky-viagem/?/17550000#entre 1755 e 1758
-            ls$wicky-viagem/?/17580000#entre 1755 e 1758
+            ls$embarque/[Para a China]/1755-1758#entre 1755 e 17558
+            ls$wicky/2106/1755-1758#entre 1755 e 1758
+            ls$wicky-viagem/?/17561231#entre 1755 e 1758 (dia intermedio)
             ls$jesuita-votos/4V/17670815
             ls$jesuita-votos-local/Castel Gandolfo# @wikidata:Q242105/17670815
             ls$morte/Castel Gandolfo# @wikidata:Q242105/17670831
@@ -1552,8 +1551,16 @@ kleio$gacto2.str/translations=169
             Foukien, 1755., Kiang-nan.,
             arrêté à Song-kiang fou le 23 oct. 1765 (Krahl, 117).
             P. entre 1743 et 1750 (Lus. 49, 57v)
-            -V. « in pago Inxam civitatis Nancham », Kiangsi, 2 mars 1760 (Lus. 17, 356).
-            M. après 1776 (Krahl, 220). Pf. 870."""
+            -V. « in pago Inxam civitatis Nancham »,
+            Kiangsi, 2 mars 1760 (Lus. 17, 356).
+            M. après 1776 (Krahl, 220). Pf. 870.
+            """
+            atr$bibliografia/wicki-1967-416/obs="""
+               No. 1989: Monçöes 123B-, Portuguese from the
+               diocese of Coimbra, born 1724, entered 1742,
+               was in his second year of theology in 1749,
+               destined for China (Lus. 49, 57v-58r, no. 815).
+               - Cited in Pfister no. 404."""
 
          n$Luís Pires/id=deh-luis-pires
             ls$nacionalidade/China
