@@ -1,5 +1,10 @@
-kleio$gacto2.str/translations=83
+kleio$gacto2.str/translations=85
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-61
+   link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
+
+   A versão online está desfasada 37 para a frente, ou seja para referir
+   a página 239, deve-se usar o link @dehergne-online:276
+  """/id=root-lin2-84
    fonte$dehergne-v/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra V
 
       lista$dehergne-notices-v/0/0/0
@@ -1085,7 +1090,7 @@ kleio$gacto2.str/translations=83
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/Castro Daire, diocese de Lamego# @wikidata:Q861199/15740000
-            ls$jesuita-entrada/?/15910203
+            ls$jesuita-entrada/Coimbra%?#([Schütte, 1975, p. 1321] Sebastião Vieira, nasc Castro de Aire, Lamego, E. Coimbra 3-2-1591/15910203
             ls$embarque/Nossa Senhora da Bigonha/16020325
             ls$wicky/469/16020325
             ls$wicky-viagem/44/16020325
@@ -1118,7 +1123,7 @@ kleio$gacto2.str/translations=83
             ls$jesuita-votos/4V/16111127
             ls$jesuita-votos-local/Nagasaki# @wikidata:Q38234/16111127
             ls$morte/Edo#actual Tóquio, martirizado @wikidata:Q1490/16340606
-            ls$dehergne/888/obs="""
+            ls$dehergne/888#@archive:329/obs="""
             Vieira, Sebastião (port.) P. 888
             N. Castro Dairo, d. de Lamego, 1574 -
             E. 3 févr. 1591 (Lus. 44, 68v).
@@ -1147,6 +1152,27 @@ kleio$gacto2.str/translations=83
             tant que procureur de la province à Rome.
 
             [MMHM:p.401]
+
+            [Vieira, P. Sebastianus, S. J., Lusitanus,
+            de Castro d'Airo (Lamego), 3. Febr.
+            1591 in Soc. ingr. Conimbricae, post
+            novitiatum litt. hum., phil. et theol.
+            operam dedit; ejusmodi studiis ex-
+            pletis (1601 sacerdos factus), anno
+            1602 in Indiam profectus; Goae per
+            8 menses Socius Mag. novit. fuit;
+            anno 1603 Macaum se contulit, ubi
+            Mag. novitiorum munus per breve
+            tempus gessit; 1604 in Japoniam
+            transit, atque in ea etiam 1606 re-
+            censetur; deinde Macaum regrediens, Procuratorem Provinciae egit;
+            ... and more ...
+            Schütte, J.F. (1975) Monumenta historica Japoniae.p. 1325
+
+
+            ]
+
+
             """
 
             referido$Urbano VIII/id=deh-sebastiao-vieira-ref1
