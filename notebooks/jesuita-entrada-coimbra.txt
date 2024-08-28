@@ -370,7 +370,7 @@ n$Francisco Pérez/m/id=deh-francisco-perez
                      Lach, 950.,
                      SchUttb, 797."""
   """
-  referido$Manuel Teixeira/m/id=deh-francisco-perez-ref1/obs=Dehergne 837
+  referido$Manuel Teixeira/m/id=deh-francisco-perez-ref1
     rel$sociabilidade/Companheiro/Francisco Pérez/deh-francisco-perez/0
     rel$sociabilidade/Companheiro/André Pinto/deh-francisco-perez-ref2/0
     ls$jesuita-estatuto/Padre/0
@@ -380,6 +380,7 @@ n$Francisco Pérez/m/id=deh-francisco-perez
     ls$estadia/Macau/15651200/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
     ls$jesuita-tarefa/Funda a residência jesuíta de Macau/15640000/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
     ls$jesuita-tarefa/Funda a residência jesuíta de Macau/15651200/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+  rel$identification/same as/None/0
   referido$André Pinto/m/id=deh-francisco-perez-ref2/obs=Dehergne 640
     rel$sociabilidade/Companheiro/Francisco Pérez/deh-francisco-perez/0
     rel$sociabilidade/Companheiro/Manuel Teixeira/deh-francisco-perez-ref1/0
@@ -1309,7 +1310,8 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$estadia/Macau/16040200/obs=extra_info: {"date": {"comment": "sai depois desta data"}, "value": {"comment": "@wikidata:Q14773"}}
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q956"/16040200/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$partida/Pequim/16040200/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  ls$estadia/Meiling/16040800/obs=extra_info: {"value": {"comment": "a caminho de Pequim"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q31854717"/16040800/obs=extra_info: {"value": {"original": "Meiling"}}
+  ls$estadia/Meiling/16040800/obs=extra_info: {"value": {"comment": "@wikidata:Q31854717 a caminho de Pequim"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"/16040800/obs=extra_info: {"value": {"original": "Nanquim"}}
   ls$estadia/Nanquim/16040800/obs=extra_info: {"value": {"comment": "@wikidata:Q16666", "original": "Nankin, a caminho de Pequim"}}
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q956"/16040800/obs=extra_info: {"value": {"original": "Pequim"}}
@@ -1799,7 +1801,8 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16450000/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16450000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$jesuita-votos/4v/16380106
-  ls$jesuita-votos-local/Tonquim («in sacello S. J.»)/16380106
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q622778"/16380106/obs=extra_info: {"value": {"original": "Tonquim (\u00abin sacello S. J.\u00bb)"}}
+  ls$jesuita-votos-local/Tonquim («in sacello S. J.»)/16380106/obs=extra_info: {"value": {"comment": "@wikidata:Q622778"}}
   ls$morte/[Perto de Hainan]/16460226/obs=extra_info: {"value": {"comment": "naufr\u00e1gio, a caminho de Tonquim"}}
   ls$dehergne/32/0/obs="""
       """
@@ -2086,7 +2089,8 @@ n$Matias da Maia/m/id=deh-matias-da-maia
   ls$jesuita-cargo/Provincial do Japão/16610000
   ls$jesuita-cargo/Vice-provincial da China/16630000
   ls$jesuita-cargo/Vice-provincial da China/16660000
-  ls$estadia/Kanchow (Kan-tcheou) do Kiangsi/16650000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q363166"/16650000/obs=extra_info: {"value": {"original": "Kanchow (Kan-tcheou) do Kiangsi"}}
+  ls$estadia/Kanchow (Kan-tcheou) do Kiangsi/16650000/obs=extra_info: {"value": {"comment": "@wikidata:Q363166"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16660101/obs=extra_info: {"value": {"original": "Macau"}}
   ls$estadia/Macau/16660101/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$jesuita-tarefa/Escreve a carta anual do Japão e da China/16660101
@@ -2395,7 +2399,7 @@ n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
     ls$jesuita-estatuto/Padre/0
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16891018/obs=extra_info: {"value": {"original": "Pequim"}}
     ls$estadia/Pequim/16891018/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  rel$identification/same as/Antoine Thomas/deh-antoine-thomas/0
+  rel$identification/same as/None/0
   referido$Claudio Filippo Grimaldi/m/id=deh-tome-pereira-ref2/obs=Dehergne 391
     ls$jesuita-estatuto/Padre/0
     ls$cargo/Bispo eleito de Pequim/0/obs=não chegou a ser, vide entrada dele
@@ -2584,7 +2588,8 @@ n$Manuel Mendes/m/id=deh-manuel-mendes
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/17370000/obs=extra_info: {"value": {"original": "Macau (Semin\u00e1rio)"}}
   ls$estadia/Macau (Seminário)/17370000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$jesuita-votos/4V/16900815
-  ls$jesuita-votos-local/Kanchow/16900815
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q363166"/16900815/obs=extra_info: {"value": {"original": "Kanchow"}}
+  ls$jesuita-votos-local/Kanchow/16900815/obs=extra_info: {"value": {"comment": "@wikidata:Q363166"}}
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"/17410101/obs=extra_info: {"value": {"original": "Macau"}}
   ls$morte/Macau/17410101/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$dehergne/545/0/obs="""
@@ -2766,7 +2771,8 @@ n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   ls$estadia/Macau/16850000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q170247"/16910000/obs=extra_info: {"value": {"original": "Tsinan fou, Shantung"}}
   ls$estadia/Tsinan fou, Shantung/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q170247"}}
-  ls$estadia/Chengting fou, Hopei/16920000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q197678"/16920000/obs=extra_info: {"value": {"original": "Chengting fou, Hopei"}}
+  ls$estadia/Chengting fou, Hopei/16920000/obs=extra_info: {"value": {"comment": "@wikidata:Q197678"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"/16930000/obs=extra_info: {"value": {"original": "Fukien"}}
   ls$estadia/Fukien/16930000/obs=extra_info: {"value": {"comment": "@wikidata:Q41705"}}
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q46"/16940000/obs=extra_info: {"value": {"original": "Europa"}}
@@ -2861,7 +2867,8 @@ n$Manuel Osório/m/id=deh-manuel-osorio-i
   ls$estadia/Macau/169100000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16920000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/16920000/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  ls$partida/Kanchow, Kiangsi/17000000/obs=extra_info: {"date": {"comment": "destinado"}}
+  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q363166"/17000000/obs=extra_info: {"value": {"original": "Kanchow, Kiangsi"}}
+  ls$partida/Kanchow, Kiangsi/17000000/obs=extra_info: {"date": {"comment": "destinado"}, "value": {"comment": "@wikidata:Q363166"}}
   ls$jesuita-cargo/Reitor do colégio de Macau/17040000
   ls$jesuita-cargo/Vice-provincial do Japão/17040000
   ls$jesuita-cargo/Vice-provincial do Japão/17050000
@@ -2909,7 +2916,8 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
   ls$estadia/Macau/17180000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   rel$institucional/Nomeia/João Pereira/deh-estanislau-machado-ref1/17180000
   ls$jesuita-votos/4V/17000202
-  ls$jesuita-votos-local/«in pago Ke Sat»/17000202
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q10783653"/17000202/obs=extra_info: {"value": {"original": "\u00abin pago Ke Sat\u00bb"}}
+  ls$jesuita-votos-local/«in pago Ke Sat»/17000202/obs=extra_info: {"value": {"comment": "@wikidata:Q10783653"}}
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q622778"/17290720/obs=extra_info: {"value": {"original": "Tonquim"}}
   ls$morte/Tonquim/17290720/obs=extra_info: {"value": {"comment": "@wikidata:Q622778"}}
   ls$dehergne/501/0/obs="""
@@ -2922,8 +2930,14 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
                         se dit vicaire de vara (SOCP, 1716, 279).,
                         en 1717-1718, nommé provincial du Japon tandis qu'il était
                            supérieur de la mission du Tonkin (où il travaille depuis 1694, JS 25, 256v),
-                           il y reste, et nomme le P. Joâo Pereira comme vice-provincial du Japon,
-                        à Macao. V. « In pago Ke Sat », 2 févr. 1700, pr. (Lus. 12, 123., et non 15 août 1697 de JS 25, 242). M. au Tonkin, 20 juill. 1729 (HS 50, 129v, qui le croit de la province de Chine, à tort). Nous ne le trouvons pas aux catal. Goa 1689 et 1694. Vicaire de vara: au sens technique actuel: vicaire forain. En réalité, il s'agit ici d'un représentant envoyé par un évêque portugais sur le territoire d'un vicaire apostolique., en somme un délégué ayant reçu des pouvoirs étendus."""
+                           il y reste, et nomme le P. Joâo Pereira comme vice-provincial du Japon, à Macao.
+                        V. « In pago Ke Sat », 2 févr. 1700, pr. (Lus. 12, 123., et non 15 août 1697 de JS 25, 242).
+                        M. au Tonkin, 20 juill. 1729 (HS 50, 129v, qui le croit de la province de Chine, à tort).
+                        Nous ne le trouvons pas aux catal. Goa 1689 et 1694.
+                        Vicaire de vara: au sens technique actuel: vicaire forain.
+                        En réalité, il s'agit ici d'un représentant envoyé par un évêque portugais
+                           sur le territoire d'un vicaire apostolique.,
+                           en somme un délégué ayant reçu des pouvoirs étendus."""
   """
   referido$João Pereira/m/id=deh-estanislau-machado-ref1/obs=dehergne 621
     ls$jesuita-estatuto/Padre/0
@@ -3209,7 +3223,8 @@ n$António de Melo/m/id=deh-antonio-de-melo
   ls$estadia/Hainan/17250000/obs=extra_info: {"date": {"comment": "data de expuls\u00e3o"}, "value": {"comment": "@wikidata:Q42200"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q869"/0/obs=extra_info: {"value": {"original": "Si\u00e3o"}}
   ls$estadia/Sião/0/obs=extra_info: {"value": {"comment": "@wikidata:Q869"}}
-  ls$estadia/Tonquim/0/obs=extra_info: {"value": {"comment": "reclam\u00e9 par la Propagande"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"/0/obs=extra_info: {"value": {"original": "Tonquim"}}
+  ls$estadia/Tonquim/0/obs=extra_info: {"value": {"comment": "@wikidata:Q622778 reclam\u00e9 par la Propagande"}}
   ls$jesuita-votos/4V/17191203
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q10783653"/17191203/obs=extra_info: {"value": {"original": "K\u1ebb S\u1eb7t, Tonquim"}}
   ls$jesuita-votos-local/Kẻ Sặt, Tonquim/17191203/obs=extra_info: {"value": {"comment": "@wikidata:Q10783653"}}
@@ -3381,7 +3396,17 @@ n$Inácio Pires/m/id=deh-inacio-pires
                   Foukien, 1755., Kiang-nan.,
                   arrêté à Song-kiang fou le 23 oct. 1765 (Krahl, 117).
                   P. entre 1743 et 1750 (Lus. 49, 57v)
-                  -V. « in pago Inxam civitatis Nancham », Kiangsi, 2 mars 1760 (Lus. 17, 356).
-                  M. après 1776 (Krahl, 220). Pf. 870."""
+                  -V. « in pago Inxam civitatis Nancham »,
+                  Kiangsi, 2 mars 1760 (Lus. 17, 356).
+                  M. après 1776 (Krahl, 220). Pf. 870.
+                  """
+  """
+  atr$bibliografia/wicki-1967-416/0/obs="""
+      """
+                     No. 1989: Monçöes 123B-, Portuguese from the
+                     diocese of Coimbra, born 1724, entered 1742,
+                     was in his second year of theology in 1749,
+                     destined for China (Lus. 49, 57v-58r, no. 815).
+                     - Cited in Pfister no. 404."""
   """
 
