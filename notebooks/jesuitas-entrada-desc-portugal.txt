@@ -298,7 +298,8 @@ n$António de Barros/m/id=deh-antonio-de-barros
   ls$estadia/Goa/16940000/obs=extra_info: {"value": {"comment": "@wikidata:Q1171"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/16971000/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/16971000/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
-  ls$estadia/Sian (Si-ngan fou)/17000000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5826"/17000000/obs=extra_info: {"value": {"original": "Sian (Si-ngan fou)"}}
+  ls$estadia/Sian (Si-ngan fou)/17000000/obs=extra_info: {"value": {"comment": "@wikidata:Q5826"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/17010700/obs=extra_info: {"value": {"original": "Pequim"}}
   ls$estadia/Pequim/17010700/obs=extra_info: {"value": {"comment": "@wikidata:Q956"}}
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q220"/17061017/obs=extra_info: {"value": {"original": "Roma"}}
@@ -621,7 +622,8 @@ n$António Simões/m/id=deh-antonio-simoes-i
   ls$wicky/1221/16820329
   ls$wicky-viagem/105/16820329
   ls$chegada/?/16820000/obs=extra_info: {"date": {"comment": "ou 16830000"}}
-  ls$estadia/Chengting (Tcheng-ting fou, Hopei)/16960000/obs=extra_info: {"date": {"comment": "antes de"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q197678"/16960000/obs=extra_info: {"value": {"original": "Chengting (Tcheng-ting fou, Hopei)"}}
+  ls$estadia/Chengting (Tcheng-ting fou, Hopei)/16960000/obs=extra_info: {"date": {"comment": "antes de"}, "value": {"comment": "@wikidata:Q197678"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"/17100000/obs=extra_info: {"value": {"original": "Nanchang"}}
   ls$estadia/Nanchang/17100000/obs=extra_info: {"value": {"comment": "@wikidata:Q171943", "original": "(Nan-tch'ang fou, Kiangsi)"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/17480000/obs=extra_info: {"value": {"original": "Pequim"}}
@@ -653,10 +655,8 @@ n$António Simões/m/id=deh-antonio-simoes-iii
   ls$jesuita-entrada/?/17460615
   ls$embarque/[Para a China]/17550000/obs=extra_info: {"date": {"comment": "entre 17550000 e 17580000, n\u00e3o padre"}, "value": {"comment": "segundo Wicky"}}
   ls$embarque/[Para a China]/17580000/obs=extra_info: {"date": {"comment": "entre 17550000 e 17580000, n\u00e3o padre"}, "value": {"comment": "segundo Wicky"}}
-  ls$wicky/2108/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky/2108/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
+  ls$wicky/2108/0
+  ls$wicky-viagem/?/17561231/obs=extra_info: {"date": {"comment": "entre 1755 e 1758 (dia intermedio)"}}
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"/0/obs=extra_info: {"value": {"original": "Macau"}}
   ls$chegada/Macau/0/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/17620705/obs=extra_info: {"value": {"original": "Macau (col\u00e9gio de S. Jos\u00e9)"}}
@@ -848,10 +848,13 @@ n$Bento de Góis/m/id=deh-bento-de-gois
   ls$estadia/Yarkand/16031100/obs=extra_info: {"date": {"comment": "fim do m\u00eas"}, "value": {"comment": "@wikidata:Q857618"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q161750"/0/obs=extra_info: {"value": {"original": "Pamir"}}
   ls$estadia/Pamir/0/obs=extra_info: {"value": {"comment": "@wikidata:Q161750"}}
-  ls$estadia/Tourphan/0
-  ls$estadia/Hami/17051017
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q868527"/0/obs=extra_info: {"value": {"original": "Tourphan"}}
+  ls$estadia/Tourphan/0/obs=extra_info: {"value": {"comment": "Turpan @wikidata:Q868527"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q989892"/17051017/obs=extra_info: {"value": {"original": "Hami"}}
+  ls$estadia/Hami/17051017/obs=extra_info: {"value": {"comment": "@wikidata:Q989892"}}
   ls$estadia/Kia-yu-louan/0
-  ls$estadia/Kiuchuan (na extremidade da Grande Muralha)/16051222/obs=extra_info: {"value": {"original": "Suchow do Kan-sou (Sou-tcheou)"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q131962"/16051222/obs=extra_info: {"value": {"original": "Suchou"}}
+  ls$estadia/Suchou/16051222/obs=extra_info: {"value": {"comment": "@wikidata:Q131962", "original": "Suchow du Kan-sou (Sou-tcheou, actuel Kiuch\u00fban)"}}
   rel$sociabilidade/Companheiro/Jean Fernandes Tchong/deh-bento-de-gois-ref3/16060000/obs=a data vem da entrada de Jean Fernandes Tchong
   ls$tarefa/Identifica o Grão Cataio com a China e Cambalik com Pequim/0
   ls$jesuita-votos/Coadjutor Temporal/15980613
@@ -859,7 +862,8 @@ n$Bento de Góis/m/id=deh-bento-de-gois
   ls$jesuita-votos-local/Lahore/15980613/obs="""
       extra_info: {"value": {"comment": "@wikidata:Q11739 (hoje no Paquist\u00e3o)", "original": "\u00ab Lahor \u00bb cit\u00e9 du Grand Mogol"}}
   """
-  ls$morte/Sou-tcheou do Kan-sou/16070411
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q131962"/16070411/obs=extra_info: {"value": {"original": "Sou-tcheou do Kan-sou"}}
+  ls$morte/Sou-tcheou do Kan-sou/16070411/obs=extra_info: {"value": {"comment": "@wikidata:Q131962"}}
   ls$dehergne/366/0/obs="""
       Góis (Goes), Bento (= Benoît) de (port.) fr. coadj. 366 Gôis est la forme moderne du nom (cf Verbo)., Goesio., de Goëz. Ngo Pen-tou (Pf.). N. 1563, Villa Franca do Campos, île S. Miguel, Açores. Soldat aux Indes., E. comme fr. coadj. en 1584 et sorti pour devenir prêtre, il entre de nouveau en 1588 et demande les missions du Grand Mogol. Arr. 1598, Lahore, à la cour du Grand Mogol Akbar., devient son ambassadeur à Goa, mai 1601., revient Agra., en repart le 29 oct. 1602 pour le « Cathay », déguisé en marchand arménien sous le nom d'ABDULLAH Isai et de Banda Abdullah (cf AHSI 22 (1953) p. 157 n° 320)., Lahore, 8 déc. 1602., Yarkand, fin nov. 1603., le Pamir., Tourphan., Hami, 17 oct. 1705., Kia-yu-louan., Suchow du Kan-sou (Sou-tcheou, actuel Kiuchûan), à l'extrémité de la Grande Muraille, 22 déc. 1605 (D'Elia II, 396 et III, 152). Ricci lui envoie le fr. Jean Fernandes. Gôis a identifié « le Cathay » avec la Chine, et « Cambalik (Kambalucq) » avec Pékin.
   """
@@ -1819,12 +1823,9 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-ii
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q250615"/17330915/obs=extra_info: {"value": {"original": "Galafura, diocese de Braga"}}
   ls$nascimento/Galafura, diocese de Braga/17330915/obs=extra_info: {"value": {"comment": "antiga freguesia em Peso da R\u00e9gua @wikidata:Q250615"}}
   ls$jesuita-entrada/?/17490131
-  ls$embarque/[Para a China]/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 17558"}}
-  ls$embarque/[Para a China]/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 17558"}}
-  ls$wicky/2106/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky/2106/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
+  ls$embarque/[Para a China]/0
+  ls$wicky/2106/0
+  ls$wicky-viagem/?/17561231/obs=extra_info: {"date": {"comment": "entre 1755 e 1758 (dia intermedio)"}}
   ls$jesuita-votos/4V/17670815
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q242105"/17670815/obs=extra_info: {"value": {"original": "Castel Gandolfo"}}
   ls$jesuita-votos-local/Castel Gandolfo/17670815/obs=extra_info: {"value": {"comment": "@wikidata:Q242105"}}
@@ -1868,7 +1869,8 @@ n$Francisco Simões/m/id=deh-francisco-simoes
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q8686"/16910000/obs=extra_info: {"value": {"original": "Shanghai, Kiang-nan"}}
   ls$estadia/Shanghai, Kiang-nan/16910000/obs=extra_info: {"value": {"comment": "@wikidata:Q8686"}}
   ls$estadia/Shantung/16920000
-  ls$estadia/Chengting (Tcheng-ting fou, Hopei)/16930000
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q197678"/16930000/obs=extra_info: {"value": {"original": "Chengting (Tcheng-ting fou, Hopei)"}}
+  ls$estadia/Chengting (Tcheng-ting fou, Hopei)/16930000/obs=extra_info: {"value": {"comment": "@wikidata:Q197678"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11133842"/16940000/obs=extra_info: {"value": {"original": "Kiang-nan"}}
   ls$estadia/Kiang-nan/16940000/obs=extra_info: {"value": {"comment": "@wikidata:Q11133842"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/0/obs=extra_info: {"value": {"original": "Pequim"}}
@@ -1975,76 +1977,6 @@ n$Gil de Abreu/m/id=deh-gil-de-abreu
   """
   ls$dehergne/3/0/obs="""
       N. 1593, Campo maior, vila do Alentejo -E. 13 juill. 1611 (Lus. 44 II, 320). Emb. 16 avril 1618 pour la Chine, puis destiné au Japon (W 660)., arrêté par un corsaire hollandais et mort à Jakarta après un an et demi de prison. M. Batavia (Jakarta), oct. 1624. Franco, Ant., Imagem da virtude, 1714, p. 275-277., Témoignage de l'évêque de Malacca, JS 37, 26-36., Wessels, C, dans Studiën 120 (1933), 391-400., Visconde de Lagoa, Grandes e Humildes na Epopeia Portuguesa, Lisbonne, I, 1942, 161-162.
-  """
-
-n$Gonçalo da Fonseca/m/id=deh-goncalo-da-fonseca
-  ls$nacionalidade/Portugal/0
-  ls$jesuita-estatuto/Padre/0
-  ls$nome/Gonzalve/0
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q503856"/16180000/obs=extra_info: {"value": {"original": "Vila Real, diocese de Braga"}}
-  ls$nascimento/Vila Real, diocese de Braga/16180000/obs=extra_info: {"value": {"comment": "@wikidata:Q503856"}}
-  ls$jesuita-entrada/?/16340000
-  ls$embarque/[Para a Índia]/16430330
-  ls$wicky/911/16430330
-  ls$wicky-viagem/77/16430330
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"/16450000/obs=extra_info: {"value": {"original": "\u00cdndia"}}
-  ls$estadia/Índia/16450000/obs=extra_info: {"date": {"comment": "cerca de"}, "value": {"comment": "@wikidata:Q668"}}
-  ls$jesuita-cargo/Procurador da Vice-província da China/16450000/obs=extra_info: {"date": {"comment": "cerca de"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16570000/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/16570000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$jesuita-cargo/Procurador da Vice-província da China/16570000
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16600000/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/16600000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$jesuita-cargo/Procurador da Vice-província da China/16600000
-  ls$jesuita-ordenacao-padre/?/16430000/obs=extra_info: {"date": {"comment": "antes de"}}
-  ls$jesuita-votos/Coadjutor Espiritual/16490815
-  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q14773"/16490815/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$jesuita-votos-local/Macau/16490815/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"/16621007/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$morte/Macau/16621007/obs=extra_info: {"date": {"comment": "ou 17"}, "value": {"comment": "@wikidata:Q14773"}}
-  ls$dehergne/321/0/obs="""
-      """
-                  Fonseca, Gonçalo (Gonzalve) da (port.) P. 321
-                  N. 1618 Villa Real, d. de Braga -
-                  E. 1634 (Lus. 44 II, 612).
-                  Emb. pour les Indes, 30 mars 1643 (W 911).,
-                  vers 1645 aux Indes où il devient procureur de la
-                  vice-province de Chine., mêmes fonctions à Macao,
-                  1657 et 1660 (JS 134, 344). P. avant 1643.
-                  V. Macao, 15 août 1649, c. spir. (Lus. 22, 57).
-                  Il signe: Gundisalvus a Fonseca. M. 7 oct. 1662,
-                  Macao (JS 26, 32v et 25, 179v., AHU ms 1659 f° 108).,
-                  17 oct. 1662 dit HS 48, 56. Pf. 306. -
-                  Goa 27, 63 l'appelle Gondicalus da Foncequa, (en 1648)
-                  « procurator assistens vice-prov. Sinensis ».
-
-                  [Schutte, Josef Franz, ed. Monumenta historica japoniae
-                  I: textus catalogorum Japoniae aliaeque de personis
-                  domibusque S.J. in Japonia informationes et relationes
-                  1549-1654. Monumenta Historica Societatis Iesu 111.
-                  Romae: Apud “Monumenta Historica Soc. Iesu,” 1975.
-                  p.1174:
-
-                  Fonseca, P. Gundisalvus (Gonlçalo) da,
-                  S. J. 1634/35 ingr. in Soc., Conimbricae
-                  philosophiae operam dedit, 1643
-                  in Indiam profectus, inde Macaum;
-                  sed ad Provinciam Goanam revertitur,
-                  procuratoris Missionis Sinicae,
-                  dein Japonicae officio fungens; tandem
-                  Macaum regredilur, ibi Procuratoris
-                  munere occupatus; erat Visitator
-                  Collegii Macaensis, cum 7. Oct. 1662
-                  ibi moreretur.- Data biogr. in
-                  hoc vol.: 1060 (Cat. l. Jap. 1648 );
-                  1076-1077 (Cal. l. Jap. 1650);
-                  1093 1093 n.25 (de ejus regressu e Coll. Macaensi
-                  in Indiam, inde iterum Macaum,
-                  tandem de ejus morte).
-      "
-
-                  ]
-                  """
   """
 
 n$Gonçalo de Oliveira/m/id=deh-goncalo-de-oliveira
@@ -3191,7 +3123,8 @@ n$José Estêvão de Almeida/m/id=deh-jose-estevao-de-almeida
   ls$embarque/Sacramento/16290403/obs=extra_info: {"date": {"comment": "era novi\u00e7o"}}
   ls$wicky/773/16290403
   ls$wicky-viagem/67/16290403
-  ls$estadia/Sian (Si-ngan fou), Shensi/16400000/obs=extra_info: {"date": {"comment": "ou 16410000"}, "value": {"comment": "X'ian no Shaanxi?"}}
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5826"/16400000/obs=extra_info: {"value": {"original": "Sian (Si-ngan fou), Shensi"}}
+  ls$estadia/Sian (Si-ngan fou), Shensi/16400000/obs=extra_info: {"date": {"comment": "ou 16410000"}, "value": {"comment": "@wikidata:Q5826 X'ian no Shaanxi"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14105968"/16450000/obs=extra_info: {"value": {"original": "Puchow, Shansi"}}
   ls$estadia/Puchow, Shansi/16450000/obs=extra_info: {"value": {"comment": "@wikidata:Q14105968"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"/0/obs=extra_info: {"value": {"original": "Pequim"}}
@@ -3288,12 +3221,9 @@ n$José Rosado/m/id=deh-jose-rosado
   ls$nascimento/Vimieiro, diocese de Évora/17140326/obs=extra_info: {"value": {"comment": "@wikidata:Q2259460"}}
   ls$jesuita-entrada/?/17291026
   rel$institucional/Socius/Leytao Marcel/deh-jose-rosado-ref1/17500000
-  ls$embarque/[Para a China]/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$embarque/[Para a China]/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky/2118/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}, "value": {"comment": "?"}}
-  ls$wicky/2118/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}, "value": {"comment": "?"}}
-  ls$wicky-viagem/?/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
+  ls$embarque/[Para a China]/0
+  ls$wicky/2118/0/obs=extra_info: {"value": {"comment": "?"}}
+  ls$wicky-viagem/?/17561231/obs=extra_info: {"date": {"comment": "entre 1755 e 1758 (dia intermedio)"}}
   ls$jesuita-cargo/Procurador da Vice-província da China/17560000
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q597"/17560000/obs=extra_info: {"value": {"original": "Lisboa"}}
   ls$estadia/Lisboa/17560000/obs=extra_info: {"value": {"comment": "@wikidata:Q597"}}
@@ -3344,7 +3274,8 @@ n$José Simões/m/id=deh-jose-simoes
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q668"/16990000/obs=extra_info: {"value": {"original": "\u00cdndia"}}
   ls$jesuita-ordenacao-padre/Índia/16990000/obs=extra_info: {"value": {"comment": "@wikidata:Q668"}}
   ls$jesuita-votos/4V/17090331
-  ls$jesuita-votos-local/Can cheu (Kanchow)/17090331/obs=extra_info: {"date": {"comment": "ou Macau, 17160308"}}
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q363166"/17090331/obs=extra_info: {"value": {"original": "Can cheu (Kanchow)"}}
+  ls$jesuita-votos-local/Can cheu (Kanchow)/17090331/obs=extra_info: {"date": {"comment": "ou Macau, 17160308"}, "value": {"comment": "@wikidata:Q363166"}}
   ls$dehergne/787/0/obs="""
       Simões (Simõens), José (port.) P. 787 Mou Jo-chô Tai-Lai (Rosso, p. 287)., Pf.: Mou Jo-ché., M 443, 676 l'appelle Stephanus Simonens, Mo. N. Lamego, 12 avril 1676 (JS 134, 435), ou Coïmbre (JS 134, 438)., N. « Lusitanus e monte Stellarum » (JS 134, 413v) = Serra da Estrela. E. 28 août 1694 (JS 134, 435). Arr. 12 oct. 1705., Lintsing, juin 1707 (SF VII, 1233)., 23 juin 1707, Pékin., 1713, Nanchang (Nan-tch'ang fou, Kiang-si) (JS 175, 79)., 1721, procureur de la vice-province (JS 25, 277v)., vice-provincial du Japon quand le provincial Pirès part en Cochinchine, 1724-1725 (SF VI 629)., en 1737, après 14 ans de mission en Chine «ab anno 1704 ad annum 1715» était au Séminaire de Macao (JS 134, 434), vers 1751, Pékin (Krahl p. 67)., en 1751, élu procureur du Japon et de Chine au Portugal (JS 134, 438). P. 1699, aux Indes (Goa 25, 373).
   """
@@ -3356,8 +3287,11 @@ n$José Simões/m/id=deh-jose-simoes
     ls$partida@wikidata/"https://www.wikidata.org/wiki/Q505503"/17240000/obs=extra_info: {"value": {"original": "Cochinchina"}}
     ls$partida/Cochinchina/17240000/obs=extra_info: {"value": {"comment": "@wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]"}}
   pai$Sebastião Simões de Carvalho/m/id=deh-jose-simoes-pai
+    rel$parentesco/pai/José Simões/deh-jose-simoes/0
+    rel$parentesco/marido/Esperança Rebela/deh-jose-simoes-mae/0
     ls$ec/c/0
   mae$Esperança Rebela/f/id=deh-jose-simoes-mae
+    rel$parentesco/mae/José Simões/deh-jose-simoes/0
     ls$ec/c/0
 
 n$José Soares/m/id=deh-jose-soares
@@ -4124,10 +4058,8 @@ n$Manuel Gomes Formão/m/id=deh-manuel-gomes-formao
   ls$jesuita-cargo/Socius do Procurador da Vice-província da China/17490000
   ls$embarque/[Para a China]/17550000
   ls$embarque/[Para a China]/17580000
-  ls$wicky/2120/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky/2120/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17550000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
-  ls$wicky-viagem/?/17580000/obs=extra_info: {"date": {"comment": "entre 1755 e 1758"}}
+  ls$wicky/2120/0
+  ls$wicky-viagem/?/17561231/obs=extra_info: {"date": {"comment": "entre 1755 e 1758 (dia intermedio)"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"/17630000/obs=extra_info: {"value": {"original": "China"}}
   ls$estadia/China/17630000/obs=extra_info: {"date": {"comment": "antes de"}, "value": {"comment": "@wikidata:Q148"}}
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q597"/17690511/obs=extra_info: {"value": {"original": "Lisboa (Forte de S. Juli\u00e3o)"}}
@@ -4757,103 +4689,6 @@ n$Rui Barreto/m/id=deh-rui-barreto
   referido$António de Abreu/m/id=deh-rui-barreto-ref1
     ls$morte/Fukien/16110000/obs=extra_info: {"value": {"comment": "a caminho do Jap\u00e3onaufr\u00e1gio, assassinado por piratas"}}
   rel$identification/same as/None/0
-
-n$Sebastião Vieira/m/id=deh-sebastiao-vieira
-  ls$nacionalidade/Portugal/0
-  ls$jesuita-estatuto/Padre/0
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q861199"/15740000/obs=extra_info: {"value": {"original": "Castro Daire, diocese de Lamego"}}
-  ls$nascimento/Castro Daire, diocese de Lamego/15740000/obs=extra_info: {"value": {"comment": "@wikidata:Q861199"}}
-  ls$jesuita-entrada/?/15910203
-  ls$embarque/Nossa Senhora da Bigonha/16020325
-  ls$wicky/469/16020325
-  ls$wicky-viagem/44/16020325
-  ls$jesuita-cargo/Mestre dos Noviços/16040000
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16040000/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/16040000/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1461"/0/obs=extra_info: {"value": {"original": "Manila"}}
-  ls$estadia/Manila/0/obs=extra_info: {"value": {"comment": "a caminho do Jap\u00e3o @wikidata:Q1461"}}
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"/16150800/obs=extra_info: {"value": {"original": "Jap\u00e3o"}}
-  ls$chegada/Japão/16150800/obs=extra_info: {"value": {"comment": "@wikidata:Q17"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16191100/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/16191100/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$jesuita-cargo/Secretário da Congregação Provincial do Japão/16191100
-  ls$jesuita-cargo/Procurador da província/16231200
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/16240200/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/16240200/obs=extra_info: {"value": {"comment": "@wikidata:Q14773"}}
-  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q29"/16240200/obs=extra_info: {"value": {"original": "Espanha"}}
-  ls$partida/Espanha/16240200/obs=extra_info: {"value": {"comment": "@wikidata:Q29"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q597"/0/obs=extra_info: {"value": {"original": "Lisboa"}}
-  ls$estadia/Lisboa/0/obs=extra_info: {"value": {"comment": "a caminho de Espanha @wikidata:Q597"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q2807"/16260325/obs=extra_info: {"value": {"original": "Madrid"}}
-  ls$estadia/Madrid/16260325/obs=extra_info: {"value": {"comment": "@wikidata:Q2807"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q220"/16260500/obs=extra_info: {"value": {"original": "Roma"}}
-  ls$estadia/Roma/16260500/obs=extra_info: {"value": {"comment": "@wikidata:Q220"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q6397"/16261225/obs=extra_info: {"value": {"original": "Avignon"}}
-  ls$estadia/Avignon/16261225/obs=extra_info: {"value": {"comment": "@wikidata:Q6397"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q2807"/16270200/obs=extra_info: {"value": {"original": "Madrid"}}
-  ls$estadia/Madrid/16270200/obs=extra_info: {"value": {"comment": "@wikidata:Q2807"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q597"/16270306/obs=extra_info: {"value": {"original": "Lisboa"}}
-  ls$estadia/Lisboa/16270306/obs=extra_info: {"value": {"comment": "@wikidata:Q597"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q2807"/16270900/obs=extra_info: {"value": {"original": "Madrid"}}
-  ls$estadia/Madrid/16270900/obs=extra_info: {"value": {"comment": "@wikidata:Q2807"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q2807"/16271129/obs=extra_info: {"value": {"original": "Madrid"}}
-  ls$estadia/Madrid/16271129/obs=extra_info: {"value": {"comment": "@wikidata:Q2807"}}
-  ls$embarque/[Para o Japão]/16290403
-  ls$wicky/738a/16290403
-  ls$wicky-viagem/67/16290403
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"/0/obs=extra_info: {"value": {"original": "Macau"}}
-  ls$estadia/Macau/0/obs=extra_info: {"value": {"comment": "a caminho do Jap\u00e3o @wikidata:Q14773"}}
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q928"/0/obs=extra_info: {"value": {"original": "Filipinas"}}
-  ls$estadia/Filipinas/0/obs=extra_info: {"value": {"comment": "a caminho do Jap\u00e3o @wikidata:Q928"}}
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"/16320000/obs=extra_info: {"value": {"original": "Jap\u00e3o"}}
-  ls$chegada/Japão/16320000/obs=extra_info: {"value": {"comment": "@wikidata:Q17"}}
-  ls$jesuita-cargo/Vice-provincial do Japão/16330803
-  ls$jesuita-cargo/Vice-provincial do Japão/16340500/obs=extra_info: {"date": {"comment": "\u00e9 preso"}}
-  ls$jesuita-ordenacao-padre/?/16010000
-  ls$jesuita-votos/4V/16111127
-  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q38234"/16111127/obs=extra_info: {"value": {"original": "Nagasaki"}}
-  ls$jesuita-votos-local/Nagasaki/16111127/obs=extra_info: {"value": {"comment": "@wikidata:Q38234"}}
-  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1490"/16340606/obs=extra_info: {"value": {"original": "Edo"}}
-  ls$morte/Edo/16340606/obs=extra_info: {"value": {"comment": "actual T\u00f3quio, martirizado @wikidata:Q1490"}}
-  ls$dehergne/888/0/obs="""
-      """
-                  Vieira, Sebastião (port.) P. 888
-                  N. Castro Dairo, d. de Lamego, 1574 -
-                  E. 3 févr. 1591 (Lus. 44, 68v).
-                  Emb. sur le Nossa Sra. da Bigonha, 25 mars 1602 (W 469).,
-                  en 1604, maî- tre des novices à Macao (JS 25, 79v).,
-                  août 1615, arr. au Japon par Manille.,
-                  nov. 1619, Macao, secrétaire de la Congrégation provinciale du Japon., est élu procureur,
-                  déc. 1623., quitte Macao,
-                  févr. 1624 pour l'Espagne par Lisbonne.,
-                  25 mars 1626, Madrid., mai 1626, Rome, il est reçu deux fois par Urbain VIII.,
-                  25 déc. 1626, Avignon.,
-                  févr. 1627, Madrid et
-                  6 mars Lisbonne., sept,
-                  au 29 nov. 1627, Madrid de nouveau.,
-                  emb. 3 avril 1629 (W 738a).,
-                  1632, retour au Japon par Macao et les Philippines.,
-                  vice-provincial du Japon, de l'emprisonnement de Christophe Ferreira, 3 août 1633, à mai 1634, quand il est arrêté, lui aussi.
-                  P. 1601.
-                  V. « Nangasaquii », 27 nov. 1611, pr. (Lus. 3, 244).
-                  M. martyr au Japon, à Yedo (actuel Tôkyô), 6 juin 1634 (JS 134, 454).
-                  Pf. 202.,
-                  AnG 315., [Franco, Antonio, Annus gloriosus Societatis Jesu in Lusitania, Vienne, 1720]
-                  Schütte, J. F.,  Documentes ... Collecciôn Cortes », Madrid 1961, 26-30.,
-                  Schütte, 1030.
-                  Nous le citons en tant que maître des novices à Macao, et plus encore en
-                  tant que procureur de la province à Rome.
-
-                  [MMHM:p.401]
-                  """
-  """
-  referido$Urbano VIII/m/id=deh-sebastiao-vieira-ref1
-    ls$cargo/Papa/0
-    ls$residencia@wikidata/"https://www.wikidata.org/wiki/Q220"/0/obs=extra_info: {"value": {"original": "Roma"}}
-    ls$residencia/Roma/0/obs=extra_info: {"value": {"comment": "@wikidata:Q220"}}
-    rel$eclesiastica/Recebe duas vezes/Sebastião Vieira/deh-sebastiao-vieira/16260500
-  referido$Cristophe Ferreira/m/id=deh-sebastiao-vieira-ref2
-    ls$jesuita-cargo/Vice-provincial do Japão/16330803/obs=extra_info: {"date": {"comment": "at\u00e9 esta data? foi preso nesta data e substitu\u00eddo por Sebasti\u00e3o Vieira?"}}
 
 n$Silvestre Furtado/m/id=deh-silvestre-furtado
   ls$nacionalidade/Portugal/0
