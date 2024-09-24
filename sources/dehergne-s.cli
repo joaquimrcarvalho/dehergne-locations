@@ -1,5 +1,10 @@
-kleio$gacto2.str/translations=165
+kleio$gacto2.str/translations=170
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-123
+   link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
+
+    A versão online está desfasada 37 para a frente, ou seja para referir
+    a página 239, deve-se usar o link 276: dehergne-online:276
+   """/id=root-lin1-166
    fonte$dehergne-s/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra S
 
       lista$dehergne-notices-s/0/0/0
@@ -300,8 +305,25 @@ kleio$gacto2.str/translations=165
             ls$jesuita-votos/4V/15840115
             ls$jesuita-votos-local/Goa# @wikidata:Q1171/15840115
             ls$morte/Macau# @wikidata:Q14773/15990700#fim de
-            ls$dehergne/741/obs=Sande, Duarte (Edoardo) de (port.) P. 741 Mong San-Tô Nlng-Houan (Pf.). N. 1547 (et non 1531) avant le 25 oct. « Vimarani », à Guimarães près de Braga (D'Elia I, 222) -E. juin 1562, Lisbonne à 15 ans et demi {Lus. 43, 181). Emb. comme supérieur des jésuites le 24 mars 1578 sur le S. Luis pour les Indes (W 196)., Baçaim, où recteur., quitte Goa le 1er mai 1585 et arr. Macao 31 juillet 1585., supérieur de la mission de Chine, 1585-1597., Tchao-k'ing fou, août 1585-nov. 1587 {Goa 24, 161, 180)., Chao-tcheou, juill.-sept. 1591., Macao, 1592 {JS 26, 1), et 4 nov. 1596 {JS 13 I, 24). P. 1577, Coïmbre. V. Goa, 15 janv. 1584, pr. {Lus. 2, 15a: Eduard. de Sande). M. fin de juill. 1599 à Macao {JS 14, 19., HS 43, 53v). Sa grand mère maternelle était « nouvelle chrétienne » <DI. XI, 21*, XII, 1033). Pf. 44.
-            ls$dehergne/741/obs=Notice dans D'Elia I, 222-224., l'art, de Schutte dans Anatecta Gregoriana vol. 70 (1954) montre que le De missione legatorum japonensium est, en réalité, de Valignano, de Sande n'ayant fait que retoucher le latin., Rivière, 2281., Schutte, 1002., Strett IV (dates discutables).
+            ls$dehergne/741#@archive:276/obs="""
+            Sande, Duarte (Edoardo) de (port.) P. 741
+            Mong San-Tô Nlng-Houan (Pf.).
+            N. 1547 (et non 1531) avant le 25 oct.« Vimarani », à Guimarães près de Braga (D'Elia I, 222)
+            -E. juin 1562, Lisbonne à 15 ans et demi {Lus. 43, 181).
+            Emb. comme supérieur des jésuites le 24 mars 1578 sur le S. Luis pour les Indes (W 196).,
+            Baçaim, où recteur., quitte Goa le 1er mai 1585 et arr.
+            Macao 31 juillet 1585., supérieur de la mission de Chine, 1585-1597.,
+            Tchao-k'ing fou, août 1585-nov. 1587 {Goa 24, 161, 180).,
+            Chao-tcheou, juill.-sept. 1591., Macao, 1592 {JS 26, 1), et 4 nov. 1596 {JS 13 I, 24).
+            P. 1577, Coïmbre.
+            V. Goa, 15 janv. 1584, pr. {Lus. 2, 15a: Eduard. de Sande).
+            M. fin de juill. 1599 à Macao {JS 14, 19., HS 43, 53v).
+            Sa grand mère maternelle était « nouvelle chrétienne » <DI. XI, 21*, XII, 1033). Pf. 44.
+            Notice dans D'Elia I, 222-224., l'art, de Schutte dans Anatecta Gregoriana vol. 70 (1954)
+            montre que le De missione legatorum japonensium est, en réalité, de Valignano,
+            de Sande n'ayant fait que retoucher le latin., Rivière, 2281., Schutte, 1002.,
+            Strett IV (dates discutables).
+"""
 
             mmae$Nome desconhecido/id=deh-duarte-sande-mmae
                ls$estatuto/Cristã-nova
@@ -1525,7 +1547,7 @@ kleio$gacto2.str/translations=165
             ls$estadia/Pequim# @wikidata:Q956/16710000
             ls$jesuita-ordenacao-padre/Coimbra# @wikidata:Q45412/16640000#morre antes dos seus grandes votos
             ls$morte/Pequim# @wikidata:Q956/16730526
-            ls$dehergne/790/obs="""
+            ls$dehergne/790#@archive:291/obs="""
             Siqueira Tcheng, Manuel de (macaïste) P. 790
             Emm. Sigueira (M 423, 179)., de Siqueyra, Ching (M 443, 679, 681).
             Tcheng Wei-Sin Ma-no (Pf.). N. « Sinensis natus Macai », 25 mai 1653.
