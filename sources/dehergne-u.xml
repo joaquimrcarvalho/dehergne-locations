@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-u.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-5-30 11:16:28" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-u.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-9-24 9:56:3" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -91,7 +91,7 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="16654" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="dehergne-notices-u-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="8">
+<GROUP ID="__-dehergne-notices-u-rela1" NAME="relation"  ORDER="4" LEVEL="4" CLASS="relation" LINE="8">
     <ELEMENT NAME="line" CLASS="line"><core>8</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
@@ -103,7 +103,7 @@
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-johann-ureman</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-u</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-u-rela1</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__-dehergne-notices-u-rela1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP><CLASS NAME="attribute" SUPER="entity" TABLE="attributes" GROUP="ls">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
@@ -114,9 +114,9 @@
      <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="16654" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="deh-johann-ureman-att1-18" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="9">
+<GROUP ID="__deh-johann-ureman-att1-19" NAME="ls" CLASS="attribute" ORDER="5" LEVEL="4" LINE="9">
     <ELEMENT NAME="line" CLASS="line"><core>9</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att1-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att1-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -128,16 +128,16 @@
          <core><![CDATA[Dalmácia]]></core>         <comment><![CDATA[actualmente é Croácia]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att1-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att1-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att2-18" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="10">
+<GROUP ID="__deh-johann-ureman-att2-19" NAME="ls" CLASS="attribute" ORDER="6" LEVEL="4" LINE="10">
     <ELEMENT NAME="line" CLASS="line"><core>10</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att2-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att2-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -148,16 +148,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att2-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att2-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att3-18" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="11">
+<GROUP ID="__deh-johann-ureman-att3-19" NAME="ls" CLASS="attribute" ORDER="7" LEVEL="4" LINE="11">
     <ELEMENT NAME="line" CLASS="line"><core>11</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att3-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att3-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -168,16 +168,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Vremans]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att3-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att3-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att4-18" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="12">
+<GROUP ID="__deh-johann-ureman-att4-19" NAME="ls" CLASS="attribute" ORDER="8" LEVEL="4" LINE="12">
     <ELEMENT NAME="line" CLASS="line"><core>12</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att4-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att4-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -188,16 +188,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Uremanus]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att4-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att4-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att5-18" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="13">
+<GROUP ID="__deh-johann-ureman-att5-19" NAME="ls" CLASS="attribute" ORDER="9" LEVEL="4" LINE="13">
     <ELEMENT NAME="line" CLASS="line"><core>13</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att5-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att5-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -208,16 +208,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Uriman]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att5-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att5-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att6-18" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="14">
+<GROUP ID="__deh-johann-ureman-att6-19" NAME="ls" CLASS="attribute" ORDER="10" LEVEL="4" LINE="14">
     <ELEMENT NAME="line" CLASS="line"><core>14</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att6-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att6-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -228,16 +228,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Vielmon]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att6-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att6-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att7-18" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="15">
+<GROUP ID="__deh-johann-ureman-att7-19" NAME="ls" CLASS="attribute" ORDER="11" LEVEL="4" LINE="15">
     <ELEMENT NAME="line" CLASS="line"><core>15</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att7-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att7-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -248,16 +248,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Vramannu]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att7-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att7-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att8-18" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="16">
+<GROUP ID="__deh-johann-ureman-att8-19" NAME="ls" CLASS="attribute" ORDER="12" LEVEL="4" LINE="16">
     <ELEMENT NAME="line" CLASS="line"><core>16</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att8-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att8-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -268,16 +268,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Vrimano]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att8-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att8-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att9-18" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="17">
+<GROUP ID="__deh-johann-ureman-att9-19" NAME="ls" CLASS="attribute" ORDER="13" LEVEL="4" LINE="17">
     <ELEMENT NAME="line" CLASS="line"><core>17</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att9-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att9-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -288,16 +288,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Vemano]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att9-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att9-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att10-18" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="18">
+<GROUP ID="__deh-johann-ureman-att10-19" NAME="ls" CLASS="attribute" ORDER="14" LEVEL="4" LINE="18">
     <ELEMENT NAME="line" CLASS="line"><core>18</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att10-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att10-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -308,16 +308,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Johann Fruma]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att10-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att10-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att11-18" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="19">
+<GROUP ID="__deh-johann-ureman-att11-19" NAME="ls" CLASS="attribute" ORDER="15" LEVEL="4" LINE="19">
     <ELEMENT NAME="line" CLASS="line"><core>19</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att11-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att11-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -328,7 +328,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Wou Jo-wang Tchan-Yu]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att11-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att11-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -348,9 +348,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-atra1</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>15830406</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-johann-ureman-att12-18" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
+<GROUP ID="__deh-johann-ureman-att12-19" NAME="ls" CLASS="attribute" ORDER="17" LEVEL="4" LINE="20">
     <ELEMENT NAME="line" CLASS="line"><core>20</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att12-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att12-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -364,7 +364,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[15830406]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att12-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att12-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
@@ -382,9 +382,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-atra2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16000101</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-johann-ureman-att13-18" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="21">
+<GROUP ID="__deh-johann-ureman-att13-19" NAME="ls" CLASS="attribute" ORDER="19" LEVEL="4" LINE="21">
     <ELEMENT NAME="line" CLASS="line"><core>21</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att13-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att13-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -398,14 +398,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16000101]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att13-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att13-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att14-18" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="22">
+<GROUP ID="__deh-johann-ureman-att14-19" NAME="ls" CLASS="attribute" ORDER="20" LEVEL="4" LINE="22">
     <ELEMENT NAME="line" CLASS="line"><core>22</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att14-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att14-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -418,14 +418,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16150405]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att14-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att14-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att15-18" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="23">
+<GROUP ID="__deh-johann-ureman-att15-19" NAME="ls" CLASS="attribute" ORDER="21" LEVEL="4" LINE="23">
     <ELEMENT NAME="line" CLASS="line"><core>23</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att15-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att15-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -438,14 +438,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16150405]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att15-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att15-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att16-18" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="24">
+<GROUP ID="__deh-johann-ureman-att16-19" NAME="ls" CLASS="attribute" ORDER="22" LEVEL="4" LINE="24">
     <ELEMENT NAME="line" CLASS="line"><core>24</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att16-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att16-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -458,7 +458,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16150405]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att16-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att16-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
@@ -476,9 +476,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-atra3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16160000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-johann-ureman-att17-18" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="25">
+<GROUP ID="__deh-johann-ureman-att17-19" NAME="ls" CLASS="attribute" ORDER="24" LEVEL="4" LINE="25">
     <ELEMENT NAME="line" CLASS="line"><core>25</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att17-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att17-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -492,7 +492,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16160000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att17-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att17-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
@@ -510,9 +510,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-atra4</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16201200</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-johann-ureman-att18-18" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="26">
+<GROUP ID="__deh-johann-ureman-att18-19" NAME="ls" CLASS="attribute" ORDER="26" LEVEL="4" LINE="26">
     <ELEMENT NAME="line" CLASS="line"><core>26</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att18-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att18-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -526,14 +526,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16201200]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att18-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att18-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att19-18" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="27">
+<GROUP ID="__deh-johann-ureman-att19-19" NAME="ls" CLASS="attribute" ORDER="27" LEVEL="4" LINE="27">
     <ELEMENT NAME="line" CLASS="line"><core>27</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att19-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att19-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -547,14 +547,14 @@
          <core><![CDATA[16060000]]></core>         <comment><![CDATA[depois de]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att19-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att19-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att20-18" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="28">
+<GROUP ID="__deh-johann-ureman-att20-19" NAME="ls" CLASS="attribute" ORDER="28" LEVEL="4" LINE="28">
     <ELEMENT NAME="line" CLASS="line"><core>28</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att20-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att20-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -569,14 +569,14 @@
          <core><![CDATA[16210400]]></core>         <comment><![CDATA[Streit diz 16200422 ou 16210422]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att20-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att20-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-johann-ureman-att21-18" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="30">
+<GROUP ID="__deh-johann-ureman-att21-19" NAME="ls" CLASS="attribute" ORDER="29" LEVEL="4" LINE="30">
     <ELEMENT NAME="line" CLASS="line"><core>30</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-johann-ureman-att21-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-johann-ureman-att21-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-johann-ureman</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -589,7 +589,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Ureman (Vremans), Johann (dalmate) P. 856 Uremanus., Urlman (Borg. Lat. 523, 58)., Vielmon (BN: ms. fr. 25057, 791)., Vramanu., Vrimano., Vemano., et même Fruma (W p. 366-367). Wou Jo-wang Tchan-Yu (Pf.). N. « Spalatensis Dalmata », Spalato, actuel Split, en Yougoslavie, 6 avril 1583 -E. 1 févr. 1600, Rome (Rom. 54, 145., 172, 36): Giovanni Vremans. Emb. 5 avril 1615 (W 618: Vremans)., arr. 1616, Macao., déc. 1620, part pour Nanchang (Nan-tch'ang fou). -P. après 1606. M. avril 1621, Nanchang, semble-t-il (HS 43, 57v: P. Joan. « Vermanus (!) in China ». Date et lieu de la mort: SntEir V, p. 417: 22 avril 1620, Nankin. Sommehvogel, qui dit de même, ajoute une autre leçon, retenue partiellement par Pf. 150, M. Nanchang « in hebdomada sancta » (du 4 au 11 avril 1621), et inhumé à Nankin. Borg. Lat. 523, f 58 le dit M. le 22 avril 1621 à Nankin. Pf. 149., SchOtte, 229, 398.]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-johann-ureman-att21-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-johann-ureman-att21-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-johann-ureman]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -610,7 +610,7 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="dehergne-notices-u-rela2" NAME="relation"  ORDER="31" LEVEL="4" CLASS="relation" LINE="31">
+<GROUP ID="__-dehergne-notices-u-rela2" NAME="relation"  ORDER="31" LEVEL="4" CLASS="relation" LINE="31">
     <ELEMENT NAME="line" CLASS="line"><core>31</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
@@ -622,12 +622,12 @@
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-hendrik-uwens</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-u</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-notices-u-rela2</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__-dehergne-notices-u-rela2</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att22-18" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="32">
+<GROUP ID="__deh-hendrik-uwens-att22-19" NAME="ls" CLASS="attribute" ORDER="32" LEVEL="4" LINE="32">
     <ELEMENT NAME="line" CLASS="line"><core>32</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att22-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att22-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -639,16 +639,16 @@
          <core><![CDATA[Flandres]]></core>         <comment><![CDATA[ou Holanda]]></comment>
    </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att22-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att22-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att23-18" NAME="ls" CLASS="attribute" ORDER="33" LEVEL="4" LINE="33">
+<GROUP ID="__deh-hendrik-uwens-att23-19" NAME="ls" CLASS="attribute" ORDER="33" LEVEL="4" LINE="33">
     <ELEMENT NAME="line" CLASS="line"><core>33</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att23-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att23-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -659,16 +659,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att23-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att23-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att24-18" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="34">
+<GROUP ID="__deh-hendrik-uwens-att24-19" NAME="ls" CLASS="attribute" ORDER="34" LEVEL="4" LINE="34">
     <ELEMENT NAME="line" CLASS="line"><core>34</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att24-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att24-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -679,16 +679,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Henri Uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att24-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att24-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att25-18" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="35">
+<GROUP ID="__deh-hendrik-uwens-att25-19" NAME="ls" CLASS="attribute" ORDER="35" LEVEL="4" LINE="35">
     <ELEMENT NAME="line" CLASS="line"><core>35</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att25-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att25-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -699,7 +699,7 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Henricus Buzeus]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att25-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att25-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -719,9 +719,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-atra5</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16180423</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att26-18" NAME="ls" CLASS="attribute" ORDER="37" LEVEL="4" LINE="36">
+<GROUP ID="__deh-hendrik-uwens-att26-19" NAME="ls" CLASS="attribute" ORDER="37" LEVEL="4" LINE="36">
     <ELEMENT NAME="line" CLASS="line"><core>36</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att26-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att26-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -736,7 +736,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16180423]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att26-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att26-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
@@ -754,9 +754,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-atra6</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16341015</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att27-18" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="37">
+<GROUP ID="__deh-hendrik-uwens-att27-19" NAME="ls" CLASS="attribute" ORDER="39" LEVEL="4" LINE="37">
     <ELEMENT NAME="line" CLASS="line"><core>37</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att27-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att27-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -771,7 +771,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16341015]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att27-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att27-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
@@ -789,9 +789,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-atra7</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16390000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att28-18" NAME="ls" CLASS="attribute" ORDER="41" LEVEL="4" LINE="38">
+<GROUP ID="__deh-hendrik-uwens-att28-19" NAME="ls" CLASS="attribute" ORDER="41" LEVEL="4" LINE="38">
     <ELEMENT NAME="line" CLASS="line"><core>38</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att28-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att28-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -805,14 +805,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16390000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att28-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att28-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att29-18" NAME="ls" CLASS="attribute" ORDER="42" LEVEL="4" LINE="39">
+<GROUP ID="__deh-hendrik-uwens-att29-19" NAME="ls" CLASS="attribute" ORDER="42" LEVEL="4" LINE="39">
     <ELEMENT NAME="line" CLASS="line"><core>39</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att29-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att29-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -825,14 +825,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16390000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att29-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att29-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att30-18" NAME="ls" CLASS="attribute" ORDER="43" LEVEL="4" LINE="40">
+<GROUP ID="__deh-hendrik-uwens-att30-19" NAME="ls" CLASS="attribute" ORDER="43" LEVEL="4" LINE="40">
     <ELEMENT NAME="line" CLASS="line"><core>40</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att30-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att30-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -845,14 +845,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16470417]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att30-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att30-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att31-18" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="4" LINE="41">
+<GROUP ID="__deh-hendrik-uwens-att31-19" NAME="ls" CLASS="attribute" ORDER="44" LEVEL="4" LINE="41">
     <ELEMENT NAME="line" CLASS="line"><core>41</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att31-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att31-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -865,14 +865,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16470417]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att31-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att31-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att32-18" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="4" LINE="42">
+<GROUP ID="__deh-hendrik-uwens-att32-19" NAME="ls" CLASS="attribute" ORDER="45" LEVEL="4" LINE="42">
     <ELEMENT NAME="line" CLASS="line"><core>42</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att32-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att32-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -885,14 +885,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16470417]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att32-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att32-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att33-18" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="4" LINE="43">
+<GROUP ID="__deh-hendrik-uwens-att33-19" NAME="ls" CLASS="attribute" ORDER="46" LEVEL="4" LINE="43">
     <ELEMENT NAME="line" CLASS="line"><core>43</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att33-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att33-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -905,7 +905,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16530223]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att33-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att33-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
@@ -923,9 +923,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-atra8</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16530223</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att34-18" NAME="ls" CLASS="attribute" ORDER="48" LEVEL="4" LINE="44">
+<GROUP ID="__deh-hendrik-uwens-att34-19" NAME="ls" CLASS="attribute" ORDER="48" LEVEL="4" LINE="44">
     <ELEMENT NAME="line" CLASS="line"><core>44</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att34-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att34-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -939,7 +939,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16530223]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att34-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att34-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
@@ -957,9 +957,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-atra9</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16670406</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-att35-18" NAME="ls" CLASS="attribute" ORDER="50" LEVEL="4" LINE="45">
+<GROUP ID="__deh-hendrik-uwens-att35-19" NAME="ls" CLASS="attribute" ORDER="50" LEVEL="4" LINE="45">
     <ELEMENT NAME="line" CLASS="line"><core>45</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att35-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att35-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -973,14 +973,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16670406]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att35-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att35-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-att36-18" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="47">
+<GROUP ID="__deh-hendrik-uwens-att36-19" NAME="ls" CLASS="attribute" ORDER="51" LEVEL="4" LINE="47">
     <ELEMENT NAME="line" CLASS="line"><core>47</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-att36-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-att36-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -993,7 +993,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Uwens, Hendrik (Henri) (flamand., holland.) P. 857 N. 23 avril 1618, « Neomagensis », Nimègue -E. 15 oct. 1634, Malines. En 1639, est en philosophie à Louvain (Fl. Belg. 15, 93v). Fl. Belg. 45, 82 le dit, en 1642, « missus in Sinam ». Emb., en fait, le 17 avril 1647 (W 938 : P. Henricus Busseo, Flamand). V. 23 févr. 1653, « Lahori », Lahore, pr. (Lus. 7, 97 sq, six feuilles, qui sont des copies, car aucune n'est signée). M. «Delii», P. Henricus Buzeus., 6 avril 1667, Delhi (HS 48, 61v). Il n'est pas aux catal. Japon 1648, Chine 1648. Nous pensons qu'il s'agit du P. Henri Buseus, belge, N. 1619, E. 1635, qui, dès 1649 au collège d'Agra (Goa 25, 109v) en est recteur en 1653 (Goa 25, 127). A l'époque, on portugalisait les noms difficiles — tel Uwens — c'est le cas de tous les jésuites chinois., mais parfois aussi ceux d'Européens, v. Dos Anjos., Franco., Pereira, André ...-Kieckens, 198 l'appelle Bussche. Cf Goa 28, 18v et Documentaçâo Ultramarina Portuguesa III, Lisbonne 1963 (mission des Indes).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-att36-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-att36-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
@@ -1016,7 +1016,7 @@
          <core><![CDATA[m]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-rela3" NAME="relation"  ORDER="53" LEVEL="5" CLASS="relation" LINE="48">
+<GROUP ID="__-deh-hendrik-uwens-rela3" NAME="relation"  ORDER="53" LEVEL="5" CLASS="relation" LINE="48">
     <ELEMENT NAME="line" CLASS="line"><core>48</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>relation</core></ELEMENT>
     <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
@@ -1028,12 +1028,12 @@
     <ELEMENT NAME="destname" CLASS="destname"><core>lista</core></ELEMENT>
     <ELEMENT NAME="origin" CLASS="origin"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
     <ELEMENT NAME="destination" CLASS="destination"><core>dehergne-notices-u</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-rela3</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__-deh-hendrik-uwens-rela3</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>0</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-ref1-att37-18" NAME="ls" CLASS="attribute" ORDER="54" LEVEL="5" LINE="49">
+<GROUP ID="__deh-hendrik-uwens-ref1-att37-19" NAME="ls" CLASS="attribute" ORDER="54" LEVEL="5" LINE="49">
     <ELEMENT NAME="line" CLASS="line"><core>49</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att37-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att37-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1044,16 +1044,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Bélgica]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att37-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att37-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att38-18" NAME="ls" CLASS="attribute" ORDER="55" LEVEL="5" LINE="50">
+<GROUP ID="__deh-hendrik-uwens-ref1-att38-19" NAME="ls" CLASS="attribute" ORDER="55" LEVEL="5" LINE="50">
     <ELEMENT NAME="line" CLASS="line"><core>50</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att38-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att38-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1064,16 +1064,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Padre]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att38-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att38-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att39-18" NAME="ls" CLASS="attribute" ORDER="56" LEVEL="5" LINE="51">
+<GROUP ID="__deh-hendrik-uwens-ref1-att39-19" NAME="ls" CLASS="attribute" ORDER="56" LEVEL="5" LINE="51">
     <ELEMENT NAME="line" CLASS="line"><core>51</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att39-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att39-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1084,16 +1084,16 @@
    <ELEMENT NAME="valor" CLASS="value">
          <core><![CDATA[Henri Bussche]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att39-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att39-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att40-18" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="52">
+<GROUP ID="__deh-hendrik-uwens-ref1-att40-19" NAME="ls" CLASS="attribute" ORDER="57" LEVEL="5" LINE="52">
     <ELEMENT NAME="line" CLASS="line"><core>52</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att40-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att40-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1106,14 +1106,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16190000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att40-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att40-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att41-18" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="5" LINE="53">
+<GROUP ID="__deh-hendrik-uwens-ref1-att41-19" NAME="ls" CLASS="attribute" ORDER="58" LEVEL="5" LINE="53">
     <ELEMENT NAME="line" CLASS="line"><core>53</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att41-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att41-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1126,7 +1126,7 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16350000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att41-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att41-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
 </GROUP>
@@ -1144,9 +1144,9 @@
     <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-atra10</core></ELEMENT>
     <ELEMENT NAME="date" CLASS="date"><core>16490000</core></ELEMENT>
 </GROUP>
-<GROUP ID="deh-hendrik-uwens-ref1-att42-18" NAME="ls" CLASS="attribute" ORDER="60" LEVEL="5" LINE="54">
+<GROUP ID="__deh-hendrik-uwens-ref1-att42-19" NAME="ls" CLASS="attribute" ORDER="60" LEVEL="5" LINE="54">
     <ELEMENT NAME="line" CLASS="line"><core>54</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att42-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att42-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1160,14 +1160,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16490000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att42-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att42-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att43-18" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="5" LINE="55">
+<GROUP ID="__deh-hendrik-uwens-ref1-att43-19" NAME="ls" CLASS="attribute" ORDER="61" LEVEL="5" LINE="55">
     <ELEMENT NAME="line" CLASS="line"><core>55</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att43-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att43-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1180,14 +1180,14 @@
    <ELEMENT NAME="data" CLASS="date">
          <core><![CDATA[16530000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att43-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att43-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-hendrik-uwens-ref1-att44-18" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="56">
+<GROUP ID="__deh-hendrik-uwens-ref1-att44-19" NAME="ls" CLASS="attribute" ORDER="62" LEVEL="5" LINE="56">
     <ELEMENT NAME="line" CLASS="line"><core>56</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-hendrik-uwens-ref1-att44-18</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>__deh-hendrik-uwens-ref1-att44-19</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-hendrik-uwens-ref1</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
@@ -1200,7 +1200,7 @@
    <ELEMENT NAME="obs" CLASS="obs">
          <core><![CDATA[Il n'est pas aux catal. Japon 1648, Chine 1648. Nous pensons qu'il s'agit du P. Henri Buseus, belge, N. 1619, E. 1635, qui, dès 1649 au collège d'Agra (Goa 25, 109v) en est recteur en 1653 (Goa 25, 127). A l'époque, on portugalisait les noms difficiles — tel Uwens — c'est le cas de tous les jésuites chinois., mais parfois aussi ceux d'Européens, v. Dos Anjos., Franco., Pereira, André ...-Kieckens, 198 l'appelle Bussche. Cf Goa 28, 18v et Documentaçâo Ultramarina Portuguesa III, Lisbonne 1963 (mission des Indes).]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-hendrik-uwens-ref1-att44-18]]></core>   </ELEMENT>
+         <core><![CDATA[__deh-hendrik-uwens-ref1-att44-19]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-hendrik-uwens-ref1]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
