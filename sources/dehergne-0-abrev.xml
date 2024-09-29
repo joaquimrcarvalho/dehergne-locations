@@ -1,0 +1,294 @@
+<?xml version='1.0'?>
+<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-9-24 9:54:48" OBS="" SPACE="">
+<CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
+     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="loc" COLUMN="loc" CLASS="loc" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="ref" COLUMN="ref" CLASS="ref" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="kleiofile" COLUMN="kleiofile" CLASS="kleiofile" TYPE="varchar" SIZE="512" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="32768" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+     <ATTRIBUTE NAME="replace" COLUMN="replaces" CLASS="replace" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
+</CLASS>
+
+<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="261">
+    <ELEMENT NAME="line" CLASS="line"><core>261</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>dehergne-0-abrev</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>source</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
+   <ELEMENT NAME="year" CLASS="undef">
+         <core><![CDATA[1973]]></core>   </ELEMENT>
+   <ELEMENT NAME="type" CLASS="type">
+         <core><![CDATA[Dicionário Biográfico]]></core>   </ELEMENT>
+   <ELEMENT NAME="loc" CLASS="loc">
+         <core><![CDATA[Online "http://archive.org/details/bhsi37"]]></core>   </ELEMENT>
+   <ELEMENT NAME="obs" CLASS="obs">
+         <core><![CDATA["""
+
+        III. ABRÉVIATIONS ET SIGLES» [p.XXXI-XXXV]
+
+        [n.1 Certaines références ci-dessous comportent un (*): cela indique que le premier chiffre (italiques) désigne le volume, et le second, la page ou le folio.]
+  .
+        AGI Arch. Gen. de Indias, Séville.
+        AHEB Analectes pour servir à l'histoire ecclésiastique de
+            la Belgique, Bruxelles-Louvain, 1864 sq.
+
+        AHN Archivo Historico Nacional Clero-SJ., Legs. 270,
+            Madrid.
+        AHP Archivum Historiae Pontificiae, Rome.
+        AHR The American Historicdl Review.
+        AHSI Archivum Historicum Societatis Jesu, Rome, 1932, sq.
+        AHU Arquivo Historico Ultramarino, ms 1659, Lisbonne (*).
+        AN: Archives Nationales, Paris. Par exemple AN: ColP5A, le
+            fonds Colonies, cote F5A, et la page.
+        AnG Franco, Antonio, Annus gloriosus Societatis Jesu in
+            Lusitania, Vienne, 1720.
+        An21 (Annuelles de 1621), Histoire de ce qui s'est passé
+            au royaume de la Chine ès années 1621 & 1622, Paris,
+            1627.
+        Angl. Jésuites de la province d'Angleterre, section des ARSI(*).
+        (Aq.) et (Aquit.) Jésuites de la province d'Aquitaine, section des ARSI (*)
+            [n.2 Pour les références aux documents des ARSI, nous
+            indiquons la référence longue, celle en italiques, par
+            exemple (Aquit.), et non (Aq.).]
+        Arag. Jésuites de la province d'Aragon, section des ARSI
+            (*).
+        Arch. Archives.
+        Arch. d. Jap. Schutte, Josef Franz, El «Archivo del Japôn»,
+            Real Academia de la Historia, t. XX, Madrid, 1964.
+        Arch. SJ. Lyon Archives des Jésuites de la Province de Lyon,
+            France. (voir ASJM).
+        Arr. arrivé (à, ou le).
+        ARSI Archivum Romanum Societatis Jesu, Archives de la
+            Compagnie de Jésus, maison généralice, Rome.
+        ARSI, FG. Ibid., Le « Fondo Gesuitico », section
+            restituée en 1924. (catalogue, v. ci-dessus au mot Lamalle).
+        ASJFN Archives des Jésuites de la Province de France-Nord
+            (anciennement Champagne).
+        ASJM Archives des Jésuites de la province de
+            France-Méditerranée (anciennement province de Lyon).
+        ASJP Archives des Jésuites de la province de Paris
+            (anciennement province de France, Franciae, non Galliae).
+        ASV v. A. Vatic.
+        Austr. Austria, Jésuites de la province d'Autriche,
+            section des ARSI (*).
+        A. Vatic. (ASV) Archivio Segreto Vaticano,
+            Archives Vaticanes. Par exemple Fondo Albani (= Clément XI);
+            Fondo Missioni, etc.
+
+        B. Bibliothèque (en général, le départment des manuscrits).
+            Par exemple: B. Arsenal, Paris; B. Casanatense, Rome;
+            B. Evora, Biblioteca Pûblica de Evora;
+            B. Inst., Bibliothèque de l'Institut de France, Paris;
+            B. Vat., Bibliothèque Vaticane. Etc. ...voir plus loin BN:
+        BCP Bulletin Catholique de Pékin, 1914 sq.
+        BEFEO Bulletin de l'Ecole Française d'Extrême-Orient, 1901 sq.
+        BEM Boletim Ecclesidstico da Diocèse de Macau, Macao, 1903 sq.
+        BN: Bibliothèque Nationale, Paris. Par exemple:
+            BN: ms. fr. n. a. = Manuscrits français, nouvelles acquisitions (*).
+            BN: ms. lat. = manuscrits latins (*).
+            BN: ms. chin. = manuscrits chinois (cf Courant).
+        BN Lisboa Biblioteca Nacional de Lisbonne.
+        BNB Biographie Nationale... de Belgique.
+        Boh. Jésuites de la province de Bohême, section des ARSI(*).
+        Borg. cin. B. Vaticane, ms du Fonds Borgia chinois (*).
+        Borg.lat. B. Vaticane, ms du fonds Borgia latin (*).
+        Br. Mus. British Muséum, Londres.
+        Bras. Maragn. Jésuites de la province du Brésil-Maragnon,
+            section des ARSI (*).
+            (contient un document sur les prisonniers de Pombal).
+        Bras. Jésuites de la province du Brésil, section des ARSI (*).
+        Brux. Arch. roy. Bruxelles, Archives du royaume de Belgique.
+        B.S., v. Cordier, Bibliotheca Sinica{*).
+        BSR Bibliotheca Sanctorum, p.p. l'Istituto Giovanni XXIII
+            délia Pontificia Université Lateranense, Rome.
+        BUA Bulletin de l'Université l'Aurore, Shanghai.
+        B. Vat. Biblioteca Apostolica Vaticana, Bibliothèque Vaticane.
+        BVE.FG Biblioteca Nazionale Centrale Vittorio Emanuele, Rome,
+            le Fondo Gesuitico (Mss. Gesuitici, faisant partie des
+            Fondi minores (*).
+
+        ct. ou c. temp. coadjuteur temporel.
+        Camp. Campaniae, Jésuites de la province de Champagne,
+            section des ARSI (*).
+        Cast. Jésuites de la province de Castille, section des ARSI (*).
+        Catal. Catalogue des Jésuites. Par exemple
+            Franc. 1696 ex. = catalogue de la province de France
+                année 1696 exeunte (= d'octobre 1696 à octobre 1697),
+                soit 1696-1697 (*).
+        Catal. Pé-t'ang Catalogue de la Bibliothèque du Pé-t'ang,
+                Pékin, Imprimerie des Lazaristes, 1949; réédition. Paris, Les Belles Lettres, 1969.
+        Catal. E. Catalogus Ecclesiarum, capellarum, aedium
+                pertinentium ad dominos missionarios Seminarii
+                Parisiensis Missionum ad Exteros, Canton (M 433,
+                805 avec texte chinois; 807-814).
+        CCS Collectanea Commissionis Synodalis, Dossiers de la
+                Commission synodale, Pékin, 1928-1947.
+        CE The Catholic Encyclopedia, New-York.
+        cf (confer) voir.
+        (Ch.) de la province jésuite de Champagne.
+        Chil. Jésuites de la province du Chili, section des ARSI
+                (*).
+        Civ. Cat. La Civiltà Cattolica, Rome, 1850 sq.
+        classif. classifique.
+        Col.FSA ..v, AN:
+        d. de diocèse de DBF Dictionnaire de Biographie Française,
+            Letouzey et Ané, Paris, 1933 sq.
+        DBI Dizionario biografico degli Italiani, Rome, 1960 sq.
+        dép. du Nord Département du Nord, France.
+        DHGE Dictionnaire d'Histoire et de Géographie ecclésiastique, Letouzey et Ané,
+            Paris, 1912 sq.
+        DI. Documenta Indica, actuellement 12 vols, publiés dans la collection
+                MHSI (Monumenta Historica S.I.), p.p. le P.Josef Wicki, Rome(*).
+
+        DLF Dictionnaire des Lettres Françaises, sous la direction du Cardinal Georges
+                Grente, le XVIII' siècle, Paris, 2 vols., 1960.
+        DTC Dictionnaire de Théologie catholique Vacant-Mangenot, Paris, 1930 sq.
+        EB The Encyclopaedia Britannica, l'éd. de 1971, plus complète.
+        EC Enciclopedia Cattolica, Vatican, 1948-1954.
+        éd. édité, édition.
+        El Enciclopedia Italiana, Rome, 1929 sq.
+        EJJ Encyclopaedia Judaica. Jérusalem. The Macmillan Company, 1972, 16 vols.
+        emb. embarqué.
+        Epp. NN. Epistolae Nostrorum, section des ARSI (*).
+        EU Encyclopaedia Universalis, France, 1968 sq.
+        ex. exeunte (après une date) v. ci-dessus au mot Catal.
+        Fl. Belg. Jésuites de la province Flandro-belge, section des ARSI(*).
+        (Fr.) Jésuite de la province de France.
+        FR Fonti Ricciane, v. D'Elia.
+        Franc. Jésuites de la province de France, section des ARSI (*).
+        Gal. Gallia, Jésuites de l'Assistance de France, section des ARSI (*).
+        Gai. Belg. Jésuites de la province Gallo-belge, section des ARSI(*).
+        GEPB Grande Enciclopédia Portuguesa e Brasileira, Lisbonne.
+        Germ. Jésuites de l'Assistance de Germanie, section des ARSI(*).
+        G. Sup. (Germ. Sup.), Jésuites de la province de Germanie supérieure, section
+            des ARSI (*).
+        Goa Jésuites de la province de Goa, section des ARSI (*).
+            (Goa 29), concerne la province de Malabar).
+        Hisp. Hispania, Jésuites de l'Assistance d'Espagne, section des ARSI(*).
+        Hist. 1626 (Annuelles 1625-1626), Histoire de ce qui s'est passé ès royaumes
+            d'Ethiopie en l'année 1626, Paris, 1629.
+        HPSR Historia de la Provincia del Santo Rosario de Filipinas, Japon y China de
+                la Sagrada Orden de Predicadores:
+                I = tome I, par Fray Diego Aduarte;
+                II = tome II, par Baltasar de Santa Cruz, Zaragoça, 1693.
+
+        HS (Historia Societatis), Hist. Soc, listes chronologiques des Défunts, section
+            des ARSI; autres séries de la même collection (*).
+        IFP Inscriptions funéraires en chinois, cimetières de Pékin, collection des
+            ASJP, et le n°.
+        Indip. Indipetae. Catalogues et listes des « Indipetae » ayant demandé les
+            missions, et nommément la Chine. Se trouvent à ARSI passim (Rh. Inf. 15;
+            etc. ...); ARSI FG.; Archivio di Stato, Rome.
+        Ital. Jésuites de l'Assistance d'Italie, section des ARSI(*).
+        JA- Jesuitas na Asia, B. de Ajuda, Lisbonne, avec la cote, par exemple 49-V-13
+            f° 483v (folio 483, verso).
+        J.A. Journal Asiatique, Paris, 1823 sq.
+        JAOS Journal of the American Oriental Society, Boston, puis New Haven, 1843 sq.
+            Journ. des Sav. Journal des Savants, Paris, 1665 sq.
+        JS Jap. Sin., Japonica-Sinica, section des ARSI (*).
+        Kath. Miss. Die Katholischen Missionen, 1879 sq.
+        LE Lettres Edifiantes et curieuses, éd. originale, 1702-1776, 34 vols. Nous
+            citons plus souvent l'éd. Mérigot dont la dernière série, t. XVIXXVI,
+            1781-1783, rassemble les lettres concernant la mission de Chine.
+        LEP Lettres édifiantes et curieuses, éd. Panthéon (d'Aimé Martin), t. III et IV
+            sur la Chine.
+        Lettr. Jersey Lettres de Jersey, 1881-1937.
+        Lith. Jésuites de la province de Lithuanie, section des ARSI(*).
+        Litt. annuae Litterae annuae, lettres annuelles de la vice-province de Chine, ou
+            d'une résidence de Chine.
+        LSF Lo-shu Fu, A documentary chronicle of Sino-western Relations (16441820), The
+            U. of Arizona Press, Tucson, 1966.
+        Lugd. Lugdunum, Jésuites de la province de Lyon, section des ARSI(*).
+        Lus. Lusitania, Jésuites de la province de Portugal, section des ARSI(*).
+        (Ly.) Jésuite de la province de Lyon.
+        M. (MEP., AMEP.) Archives des Missions Etrangères de Paris (*).
+        MA. Maître-ès-Arts, Magister in Philosophiam et Magister in Theologiam (ces
+                mentions sont soigneusement relevées dans les catalogues du Portugal ou
+                d'Europe orientale, beaucoup moins dans ceux d'autres provinces ou
+                Assistances).
+        MARS Mémoires de l'Académie royale des Sciences, Paris, le tome et la page.
+        MCC Mémoires concernant les Chinois, 17 vols., Paris, 1777-1814 (*).
+        MCM Mémoires de la Congrégation de la Mission, Paris, 1863-1866, 9 vols.
+        Med. Mediolanum, Jésuites de la Province de Milan, section des ARSI(*).
+        Mex. Jésuites de la province du Mexique, section des ARSI (*).
+        MHSI Monumenta Historica Societatis Iesu, Rome. Miss. Cath. Les Missions
+                Catholiques, Lyon-Paris, 1868 sq.
+        Miss. Hisp. Missionalia Hispanica, Madrid, 1944 sq.
+        MNipp. Monumenta Nipponica, Tôkyô, 1938 sq.
+        MPer. Monumenta Peruana, p.p. le P. Ant. de Egana, (MHSI), 1954 sq.
+        MS Monumenta Serica, Peking, puis Los Angeles, 1935-36 sq.
+        NBW Nationaal Biografisch Woordenboek, Brussel, 1964 sq.
+        NCE New Catholic Encyclopedia, New-York, 1967.
+        NDB Neue deutsche Biographie, Berlin, 1953 sq.
+        Neap. Neapolitan. Jésuites de la province de Naples, section des ARSI (*).
+        NLE Nouvelles Lettres Edifiantes, Paris, 8 vols., 1818-1823.
+        NZM Neue Zeitschrift fur Missionswissenschaft, Nouvelle Revue de Science
+                missionnaire, 1945 sq.
+        Obs. Archives de l'Oservatoire, Paris (correspondance des missionnaires), p.p.
+                publié par.
+        Peru Peruviana. Jésuites de la province du Pérou, section des ARSI (*).
+        Pf. Pfister, Louis, Notices biographiques et bibliographiques sur les Jésuites
+            de l'ancienne Mission de Chine 1552-1773, Shanghai, 19321934, 2 vols. L
+            e chiffre renvoie à la page, non au numéro de la notice (une traduction chinoise partielle a été éd. à la Commercial Press de Shanghai, 1940). Dans les références au nom chinois. Répertoire, I* Partie, Pf. est écrit sans indication de page.
+        Philipp. Jésuites de la province des Philippines, section des ARSI(*).
+        Pk Catalogue des Jésuites, ms 22658 de la B. Nationale de Pékin
+            (reproduit en tête du tome II, de Pf.).
+        PMN Petit Messager de Ningpo, éd. par les Lazaristes, 1911 sq.
+            (nombreuses copies de textes anciens).
+        Propag. Documents des Archives de la Congrégation de la Propagande dont nous ne
+                connaissons ni la date ni la référence actuelle. (Autrement nous citons
+                SOCP et SRC).
+        PRO SP Public Record Office, Londres, série State Papers 9/239/22.
+        RSB Renseignements du Bureau Sinologique, Zi-ka-wei, 1927-1950, numéro 1 à 462
+                (15 oct. 1950).
+        Rel. de Ch. Relations de Chine, revue, Paris, 1903-1940.
+        Rel. e Patr. Religiâo e Patria, Macao.
+        REO Revue de l'Extrême-Orient, tomes I-III, Paris, 1882-1887.
+        Rev. Revue. RHE Revue d'Histoire ecclésiastique, Louvain, 1900 sq.
+        RHEF Revue de l'Histoire de l'Eglise de France, Paris, 1910 sq.
+        Rh. Inf. Jésuites de la province du Rhin Inférieur, section des ARSI(*).
+        Rh. Sup. Jésuites de la province du Rhin Supérieur, section des ARSI (*).
+        RHM Revue d'Histoire des Missions, Paris, 1924-1939.
+        RODR. Rodrigues, Francisco, Jesuitas Portugueses Astrônomos,
+            v. ci-dessus II, au mot Rodrigues.
+        Rom. Jésuites de la province de Rome, section des ARSI(*).
+        RQH Revue des Questions Historiques, Paris, 1866-1939.
+        RQS Revue des Questions Scientifiques, 1877 sq.
+        RSRel. Recherches de Science Religieuse, Paris.
+        S.Q. Schurhammer, Georg, Die Zeitgenôssischen Quellen zur Geschichte Portug.
+                Asiens, la rééd. de Rome, 1962.
+        Sard. Jésuites de la province de Sardaigne, section des ARSI(*).
+        SF Sinica Franciscana, Quaracchi, puis Rome, 1929 sq.
+        Sic. Jésuites de la province de Sicile, section des ARSI(*).
+        SOCP Archives de la Congrégation de la Propagande, à Rome: Scritture originali
+        della Congregazione Particolare, India Orientale e Cina(*).
+        SRC lbid., Scritture Rijerite nei Congressi(*). Voir ci-dessus Kowalsky.
+        StM Studia Missionalia, Université Grégorienne, Rome, 1943 sq.
+        (To.) Jésuite de la province de Toulouse.
+        Tolet. Toletanum, Jésuites de la province de Tolède, section des^ARbl ( ).
+        Tolos. Jésuites de la province de Toulouse, section des ARSI(*).
+        TP T'oung Pao, Leiden, 1890 sq. ADC t/*\
+        Ven. Jésuites de la province de Venise, section des ARSI ( ).
+        Vit. Vitae, section des ARSI(*). .,>,-,
+        Var.Sin. (V.S.) Variétés Sinologiques, collection publiée à Zi-ka-wei.
+        W Wicki, Josef, Liste der Jesuiten-Indienfahrer 1541-1758, dans Erste Reihe,
+                Aufsàtze zur Portugiesischen Kulturgeschichte, 7. Band, 1967 (1969), p. 252450 (ici le chiffre indique non la page, mais le numéro de la liste.
+        WB Welt-Bott, Augsbourg et Vienne, 1728-1761, 723 numéros, lettres de
+                missionnaires jésuites, formant 40 fascicules en 5 volumes (pour Je détail des lettres voir Carayon, Bibliographie historique de la Compagnie de Jésus, Paris, 1864, pp. 546-570).
+        W.K. Wicki, Josef, Die « Miscellanea Epistolarum » des P. Athanasius Kircher,
+                dans Euntes Docete, XXI (Rome, 1968) 221-254. Voir ci-dessus W, puis Wicki.
+        ZMR Zeitschrift fur Missionswissenschaft und Religionswissenschaft, Munster i.W., 1929 sq.
+
+
+]]></core>   </ELEMENT>
+   <ELEMENT NAME="date" CLASS="date">
+         <core><![CDATA[0]]></core>   </ELEMENT>
+   <ELEMENT NAME="kleiofile" CLASS="kleiofile">
+         <core><![CDATA[/kleio-home/sources/dehergne-0-abrev.cli]]></core>   </ELEMENT>
+</GROUP>
+</KLEIO>
