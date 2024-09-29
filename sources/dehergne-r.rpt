@@ -1,5 +1,5 @@
 KleioTranslator - server version 12.6 - build 576 2024-09-09 17:57:03
-24-9-2024 9-55
+29-9-2024 11-36
 
 Processing data file dehergne-r.cli
 -------------------------------------------
@@ -12,10 +12,15 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 178
+Translation count: 179
 Obs: 
 ** Processing source fonte$dehergne-r
 31: lista$dehergne-notices-r
+
+WARNING: dehergne-r.cli line 833 Could not link data with @bdcconline:da-rocha-joão; is link$ definition for bdcconline missing?
+Near lines: 833          n$João da Rocha/id=deh-joao-da-rocha#@bdcconline:da-rocha-joão
+Near lines: 834             ls$nacionalidade/Portugal
+
 *** End of File
 
 Line 353 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-de-siqueira-tcheng) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
@@ -31,5 +36,5 @@ Previous version: /kleio-home/sources/dehergne-r.old
 Temp file with ids: /kleio-home/sources/dehergne-r.ids
 ** - /kleio-home/sources/dehergne-r.cli-renamed to- /kleio-home/sources/dehergne-r.old
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
