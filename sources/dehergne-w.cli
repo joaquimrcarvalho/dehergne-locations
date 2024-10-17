@@ -1,4 +1,5 @@
-kleio$gacto2.str/translations=31
+kleio$gacto2.str/translations=35
+   link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-33
    fonte$dehergne-w/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra W
 
       lista$dehergne-notices-w/0/0/0
@@ -6,7 +7,7 @@ kleio$gacto2.str/translations=31
          n$Jean-Baptiste Waag de Saint-André/id=deh-jean-baptiste-waag-de-saint-andre
             ls$nacionalidade/Alsácia#neste momento não sei se era francesa ou alemã
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Colmar#de família luterana originária da Boémia/17250908
+            ls$nascimento/Colmar#de família luterana originária da Boémia @wikidata:Q130994/17250908
             ls$jesuita-entrada/Paris# @wikidata:Q90/17430912
             ls$tarefa/Faz testamento/17430811
             ls$embarque/?/17431021#noviço
@@ -35,7 +36,7 @@ kleio$gacto2.str/translations=31
             referido$Klein/id=/id=deh-jean-baptiste-waag-de-saint-andre-ref3
                ls$profissao/Pastor luterano
                rel$eclesiastica/Baptiza/Jean-Baptiste Waag de Saint-André/deh-jean-baptiste-waag-de-saint-andre/data=17250908
-               ls$estadia/Colmar/17250908
+               ls$estadia/Colmar# @wikidata:Q130994/17250908
 
          n$Michael Walta/id=deh-michael-walta
             ls$nacionalidade/Alemanha
@@ -46,14 +47,14 @@ kleio$gacto2.str/translations=31
             ls$nome-chines/Wan Mi-k'o
             ls$nome-chines/Ts'ien-Sieou
             ls$nome-chines/Yi-Che
-            ls$nascimento/Munique/16061119
-            ls$jesuita-entrada/Landsberg/16230729
+            ls$nascimento/Munique# @wikidata:Q1726/16061119
+            ls$jesuita-entrada/Landsberg# @wikidata:Q494299/16230729
             ls$embarque/?/16350413
             ls$wicky/833/16350413
             ls$wicky-viagem/72/16350413
             ls$chegada/Hangchow# @wikidata:Q4970/16380000
             ls$chegada/Nanquim# @wikidata:Q16666/16380000
-            ls$estadia/Pequim
+            ls$estadia/Pequim# @wikidata:Q956
             ls$estadia/Kiangchow, Chan-si/16410000
             ls$estadia/Puchow/16420000
             ls$jesuita-ordenacao-padre/?/16350000#antes de, antes de entrar ouvia confissões
@@ -66,13 +67,13 @@ kleio$gacto2.str/translations=31
             ls$nome/Johann Valter
             ls$nome/Jean Xavier Walter
             ls$nome-chines/Lou Tchong-Hien, Chang-Tö
-            ls$nascimento/Žilina, Eslováquia/17080106
+            ls$nascimento/Žilina, Eslováquia# @wikidata:Q25797/17080106
             ls$grau-academico/Mestre em Artes#ou Filosofia?
-            ls$jesuita-entrada/Boémia/17291010#ou 17291009
+            ls$jesuita-entrada/Boémia# @wikidata:Q39193/17291010#ou 17291009
             ls$embarque/[Para o Malabar]/17380000
             ls$wicky/1876/17380000
             ls$wicky-viagem/157/17380000
-            ls$estadia/Malabar/17390000#inscrito na província
+            ls$estadia/Malabar# @wikidata:Q473181/17390000#inscrito na província
             ls$estadia/China# @wikidata:Q148/17400000#inscrito na vice-província
             ls$partida/Pequim# @wikidata:Q956/17420000
             ls$profissao/Músico/17420000
@@ -104,7 +105,7 @@ kleio$gacto2.str/translations=31
          n$Adam Weidenfied/id=deh-adam-weidenfied
             ls$nacionalidade/Alemanha
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Colónia/16450908
+            ls$nascimento/Colónia# @wikidata:Q365/16450908
             ls$jesuita-entrada/?/16630412
             ls$grau-academico/Mestre em Artes
             ls$embarque/Sto. António/16800404
@@ -119,7 +120,7 @@ kleio$gacto2.str/translations=31
                rel$sociabilidade/Propõe ir ao Japão com/Adam Weidenfied/deh-adam-weidenfied/data=16790800/obs=os superiores recusam
 
             referido$Andam Weidenfied/id=deh-adam-weidenfied-ref2
-               ls$nascimento/Colónia/16620000
+               ls$nascimento/Colónia# @wikidata:Q365/16620000
                ls$jesuita-entrada/?/16790000
                ls$grau-academico/Mestre em Artes
                ls$dehergne/900-ref2/obs=Un homonyme, aussi de Cologne, est N. 1662, E. 1679 étant M. A. (Rh. Inf. 24, 17).
@@ -127,12 +128,12 @@ kleio$gacto2.str/translations=31
          n$Benedikt Weckmaister/id=deh-benedikt-weckmaister
             ls$nacionalidade/Alemanha
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Augsburg/16760126
-            ls$jesuita-entrada/Landsberg/16911009
+            ls$nascimento/Augsburg# @wikidata:Q2749/16760126
+            ls$jesuita-entrada/Landsberg# @wikidata:Q494299/16911009
             ls$embarque/[Para a China]/17080000
             ls$wicky/1531/17080000
             ls$wicky-viagem/131/17080000
-            ls$estadia/Brasil/17080808
+            ls$estadia/Brasil# @wikidata:Q155/17080808
             ls$morte/Moçambique# @wikidata:Q1029/17090924#entre esta data e 17091015
             ls$dehergne/901/obs=Wer(c)kmaister, Benedikt (allem.) P. 901 N. « Suevus » (Souabe), Augsbourg, 26 janv. 1676 (Lus. 47, 177v). E. 9 oct. 1691, Landsberg (G. Sup. 30, 64). Emb. pour la Chine en 1708 (Lus. 47, 177v., W 1531): il écrit de Bahia, Brésil, 8 août 1708. M. entre le 24 sept, et le 15 oct. 1709, au Mozambique: P. Ben. Werkmaister (HS 50, 85v). Huonder, p. 196.
 
@@ -140,7 +141,7 @@ kleio$gacto2.str/translations=31
             ls$nacionalidade/Alemanha
             ls$jesuita-estatuto/Padre
             ls$nome/Bernhard de Witt
-            ls$nascimento/Emmerich/16580000
+            ls$nascimento/Emmerich# @wikidata:Q57006/16580000
             ls$jesuita-entrada/Trier%Trèves# @wikidata:Q31388/16770821
             ls$embarque/[Para a China]/16910000
             ls$wicky/1298/16910000
