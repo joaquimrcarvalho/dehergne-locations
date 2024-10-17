@@ -1,4 +1,5 @@
-kleio$gacto2.str/translations=16
+kleio$gacto2.str/translations=20
+   link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-18
    fonte$dehergne-y/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra Y
 
       lista$dehergne-notices-y/0/0/0
@@ -11,10 +12,10 @@ kleio$gacto2.str/translations=16
             ls$nome-chines/Se-tö-wang, Stephanus
             ls$nome-chines/Yang Té-wang
             ls$nascimento/Pequim# @wikidata:Q956/17330208
-            ls$partida/Paris (colégio de La Flèche)/17510707
+            ls$partida/Paris (colégio de La Flèche)# @wikidata:Q90/17510707
             ls$jesuita-entrada/Paris# @wikidata:Q90/17590310
             ls$estatuto/Diácono/17621218
-            ls$estadia/Lorient/17650201
+            ls$estadia/Lorient# @wikidata:Q7172/17650201
             ls$embarque/Duc de Choiseul/17650201#como padre secular, já que a companhia fora suprimida
             rel$sociabilidade/Companheiro/Aloys Kao/deh-etienne-yang-ref1/data=17650201
             ls$estadia/Macau# @wikidata:Q14773/17650702
@@ -28,7 +29,7 @@ kleio$gacto2.str/translations=16
             ls$estadia/Kiangsi/17850000
             ls$estadia/Pé-pou, Linkiang fou/17870500#preso
             ls$estadia/Pequim# @wikidata:Q956/17890000
-            ls$estadia/Tartária/17890000
+            ls$estadia/Tartária#ILOC/17890000
             ls$jesuita-ordenacao-padre/Paris# @wikidata:Q90/17630528
             ls$jesuita-tarefa/Oferece-se para ir à Coreia/17900000
             ls$morte/Kiangsi#?/17980000#?
@@ -43,7 +44,7 @@ kleio$gacto2.str/translations=16
             referido$Aloys Kao/id=deh-etienne-yang-ref1/obs=Dehergne 425
                ls$nome/Louis Kao
                ls$nascimento/Pequim# @wikidata:Q956/17320119
-               ls$estadia/Lorient/17650201
+               ls$estadia/Lorient# @wikidata:Q7172/17650201
                ls$embarque/Duc de Choiseul/17650201#como padre secular, já que a companhia fora suprimida
                ls$estadia/Macau# @wikidata:Q14773/17650702
                ls$estadia/Cantão# @wikidata:Q16572/17651117#até
@@ -57,7 +58,7 @@ kleio$gacto2.str/translations=16
             referido$Raux/id=deh-etienne-yang-ref3/obs=será Nicolas Raux (1754-1801), lazarista, superior da missão francesa em Pequim segundo artigo no Cairn
                ls$cargo/Procurador da missão francesa no Cantão/17840125
                ls$cargo/Superior#da missão francesa em Pequim/17840125
-               ls$estadia/Cantão#?/17840125#?
+               ls$estadia/Cantão#? @wikidata:Q16572/17840125#?
 
             referido$Christophe de Beaumont/id=deh-etienne-yang-ref4
                ls$titulo/Monsenhor
@@ -87,7 +88,7 @@ kleio$gacto2.str/translations=16
             ls$jesuita-entrada/Pequim# @wikidata:Q956/17630000
             ls$jesuita-tarefa/Presta Juramento/17670517
             ls$estadia/Honan
-            ls$estadia/Pequim
+            ls$estadia/Pequim# @wikidata:Q956
             ls$estadia/Kiangnan/17750000
             ls$estadia/Haimen, Kiang-sou/17900000
             ls$jesuita-tarefa/Funda a comunidade cristã de Haimen, Kiang-sou/17900000

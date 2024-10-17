@@ -1,4 +1,5 @@
-kleio$gacto2.str/translations=23
+kleio$gacto2.str/translations=29
+   link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-25
    fonte$dehergne-z/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra Z
 
       lista$dehergne-notices-z/0/0/0
@@ -6,8 +7,8 @@ kleio$gacto2.str/translations=23
          n$Josef Zallinger/id=deh-josef-zallinger
             ls$nacionalidade/Tirol
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Bolzano, diocese de Trento/17010216
-            ls$jesuita-entrada/Landsberg/17170928
+            ls$nascimento/Bolzano, diocese de Trento# @wikidata:Q6526/17010216
+            ls$jesuita-entrada/Landsberg# @wikidata:Q494299/17170928
             ls$grau-academico/Mestre em Artes
             ls$embarque/[Para a China]/17350413
             ls$wicky/1826/17350413
@@ -19,58 +20,58 @@ kleio$gacto2.str/translations=23
          n$Ignace-François Zapołski/id=deh-ignace-francois-zapolski
             ls$nacionalidade/Polónia
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Sieradz%en Grande Pologne « Major Polonus, in Palatinatu Sieradziensi»/16451028
-            ls$jesuita-entrada/Cracóvia/16630830
-            ls$estadia/Poznań/16720000
+            ls$nascimento/Sieradz%en Grande Pologne « Major Polonus, in Palatinatu Sieradziensi»# @wikidata:Q745074/16451028
+            ls$jesuita-entrada/Cracóvia# @wikidata:Q31487/16630830
+            ls$estadia/Poznań# @wikidata:Q268/16720000
             ls$tarefa/Estuda Teologia - 2º ano/16720000
-            ls$estadia/Varsóvia
-            ls$partida/China#pela Sibéria
+            ls$estadia/Varsóvia# @wikidata:Q270
+            ls$partida/China#pela Sibéria @wikidata:Q148
             rel$sociabilidade/Companheiro/Philippe Avril/deh-ignace-francois-zapolski-ref1/data=16890307
             rel$sociabilidade/Companheiro/Conrad Terpiłowski/deh-ignace-francois-zapolski-ref2/data=16890307
             rel$sociabilidade/Companheiro/Antoine de Beauvollier/deh-ignace-francois-zapolski-ref4/data=16890307
-            ls$estadia/Moscovo/16890307#a caminho da China
+            ls$estadia/Moscovo# @wikidata:Q649/16890307#a caminho da China
             rel$sociabilidade/Escreve a/Ferdinand Verbiest/deh-ignace-francois-zapolski-ref3/data=16890307
-            ls$estadia/Pérsia (corte)/16940000
+            ls$estadia/Pérsia (corte)# @wikidata:Q83311/16940000
             ls$cargo/Embaixador do rei da Polónia/16940000
-            ls$estadia/Pérsia (corte)/17000000
+            ls$estadia/Pérsia (corte)# @wikidata:Q83311/17000000
             ls$cargo/Embaixador do rei da Polónia/17000000
             ls$jesuita-votos/4V/16810202
-            ls$jesuita-votos-local/Kalisz, Polónia/16810202
-            ls$morte/Saveh%Sawa, no caminho de Kazbin (Kazvin)#no caminho para Qazvin, capital da Pérsia no século XVI
+            ls$jesuita-votos-local/Kalisz, Polónia# @wikidata:Q52842/16810202
+            ls$morte/Saveh%Sawa, no caminho de Kazbin (Kazvin)#no caminho para Qazvin, capital da Pérsia no século XVI @wikidata:Q765518
             ls$dehergne/915/obs=Ignace-François (polon.) P. 915 N. 28 oct. 1645, en Grande Pologne « Major Polonus, in Palatinatu Sicradziensi» -E. 30 août 1663, Cracovie (Pol. 14, 168., 15, 12v). Le P. Philippe Avril, de passage à Varsovie l'emmène avec le P. Terpilowski pour gagner la Chine par la Sibérie. Zapolski écrit de Moscou au P. Ferdinand Verbiest, le 7 mars 1689, qu'il va en Chine avec les PP. Avril, Beauvollier et Terpilowski (JA 49-IV-63 f° 416 et 49-IV-64 P 314). Il devra se contenter d'être deux fois ambassadeur du roi de Pologne à la Cour de Perse, 1694 et 1700. P. (en 1672, était en 2° année de théologie à Poznan). V. 2 févr. 1681, « Calissii », Kalisz (Pologne), pr. (Germ. 24, 156). M. 6 nov. 1703 à Sawa sur la route de Kazbin (Kazvin). En polonais, O avec L barré se prononce OU, de là l'écriture Zapouski.
             ls$dehergne/915/obs=La correspondance des PP. Zapolski et Terpilowski se trouve aux Arch. du Ministère des Aff. Etrangères à Moscou. — Kazvin, en Iran, capitale de la Perse au XVIe siècle. Pf. 421: Japolski. Etudes de théologie (revue), Paris, 1857, t. II, 508-510., Krzyszkowski, Jos., Entre Varsovie et Ispahan, le P. I. F Zapolski, AHSI 18 (1949), 85-117./obs=Zapoteki,
 
             referido$Philippe Avril/id=deh-ignace-francois-zapolski-ref1/obs=Dehergne 55
                rel$sociabilidade/Leva para a China/Ignace-François Zapołski/deh-ignace-francois-zapolski
                rel$sociabilidade/Leva para a China/Conrad Terpiłowski/deh-ignace-francois-zapolski-ref2
-               ls$estadia/Varsóvia
-               ls$partida/China#pela Sibéria
-               ls$estadia/Moscovo/16890307#a caminho da China
+               ls$estadia/Varsóvia# @wikidata:Q270
+               ls$partida/China#pela Sibéria @wikidata:Q148
+               ls$estadia/Moscovo# @wikidata:Q649/16890307#a caminho da China
 
             referido$Conrad Terpiłowski/id=deh-ignace-francois-zapolski-ref2/obs=Dehergne 839
-               ls$estadia/Varsóvia
-               ls$partida/China#pela Sibéria
-               ls$estadia/Moscovo/16890307#a caminho da China
+               ls$estadia/Varsóvia# @wikidata:Q270
+               ls$partida/China#pela Sibéria @wikidata:Q148
+               ls$estadia/Moscovo# @wikidata:Q649/16890307#a caminho da China
 
             referido$Ferdinand Verbiest/id=deh-ignace-francois-zapolski-ref3/obs=Dehergne 883
 
             referido$Antoine de Beauvollier/id=deh-ignace-francois-zapolski-ref4/obs=Dehergne 93
-               ls$estadia/Moscovo/16890307#a caminho da China
+               ls$estadia/Moscovo# @wikidata:Q649/16890307#a caminho da China
 
          n$Nicolás Zárate/id=deh-nicolas-zarate
             ls$nacionalidade/Espanha
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Manila/16660507
+            ls$nascimento/Manila# @wikidata:Q1461/16660507
             ls$jesuita-entrada/?/16920303
             ls$grau-academico/Mestre em Artes
             ls$estadia/Amoy, Fukien/16930000
             ls$estadia/Amoy, Fukien/16980000
             rel$sociabilidade/Encontra/Nicéron/deh-nicolas-zarate-ref1/data=16930000
             rel$sociabilidade/Encontra/Nicéron/deh-nicolas-zarate-ref1/data=16980000
-            ls$estadia/Filipinas/17010000
-            ls$estadia/Maxagongdong/17250000
+            ls$estadia/Filipinas# @wikidata:Q928/17010000
+            ls$estadia/Maxagongdong#ILOC/17250000
             ls$jesuita-votos/4V/17020815
-            ls$jesuita-votos-local/Manila (igreja de Sto. Inácio)/17020815
+            ls$jesuita-votos-local/Manila (igreja de Sto. Inácio)# @wikidata:Q1461/17020815
             ls$morte/?/17290921
             ls$dehergne/916/obs=Zàrate, Nicolàs [a] (espagn.) P. 916 N. Manille, 7 mai 1666 -E. 3 mars 1692, M. A. (Philipp. 2 II, 470v). Nicéron cite ce jésuite qu'il met à Emoi (Amoy), 1693-1698 (BN: ms. fr. 25057, p. 767). De fait, il n'est plus au cotai. Philipp. de 1696, mais l'est au suivant, 1701. V. Manille, égl. St Ignace, 15 août 1702, pr. (Hisp. 22, 93). M. le 21 sept. 1729, HS 52, 209 et Philipp. 3, 187 ignorent où. En 1725 il était à Maxagongdong (Philipp. 4, 126v).
 
@@ -87,15 +88,15 @@ kleio$gacto2.str/translations=23
          n$Philipp Zefferin/id=deh-philipp-zefferin
             ls$nacionalidade/Tirol
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Gorizia/16300430
-            ls$jesuita-entrada/Viena, Áustria/16481103
+            ls$nascimento/Gorizia#hoje é Itália @wikidata:Q6596/16300430
+            ls$jesuita-entrada/Viena, Áustria# @wikidata:Q1741/16481103
             ls$jesuita-tarefa/Pede para ir para a China/16540000
             ls$jesuita-tarefa/Pede para ir para a China/16550000
             ls$partida/China# @wikidata:Q148/16600000#depois de
             rel$sociabilidade/Companheiro/Johann Gruebber/deh-philipp-zefferin-ref1/data=16600000#depois de
             ls$jesuita-votos/4V/16651115
-            ls$jesuita-votos-local/Istambul (Gálata, igreja de S. Bento)/16651115
-            ls$morte/Istambul/16660502
+            ls$jesuita-votos-local/Istambul (Gálata, igreja de S. Bento)# @wikidata:Q406/16651115
+            ls$morte/Istambul# @wikidata:Q406/16660502
             ls$dehergne/917/obs=Zefferin, Philipp (tyrol.) P. 917 N. « Friulanus Goritiensis », « Comitatus Salcanensis », Gorizia du Frioul, 30 avril 1630 -E. 3 nov. 1648, Vienne (Austr. 28, 239v). Demande deux fois la Chine en 1654 (Indip.) et, en 1655., il part pour ce pays avec le P. Grueber après 1660 (JS 134, 344). V. « Galatae, in eccl(esia) S. Benedicti », 15 nov. 1665 : Philipp. Zefferin, pr. (Gai. 10, 196). Galata, quartier d'Istanbul. M. 2 mai 1666, à Constantinople (HS 48, 118).
 
             referido$Johann Gruebber/id=deh-philipp-zefferin-ref1/obs=Dehergne 339
@@ -106,7 +107,7 @@ kleio$gacto2.str/translations=23
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nome/Pedro Jusarte
-            ls$nascimento/Loures, diocese de Lisboa/16160000#ou 16180000
+            ls$nascimento/Loures, diocese de Lisboa# @wikidata:Q917535/16160000#ou 16180000
             ls$jesuita-entrada/?/16350000#ou 16320000
             ls$embarque/?/16450406
             ls$wicky/927/16450406
@@ -118,7 +119,7 @@ kleio$gacto2.str/translations=23
             ls$jesuita-cargo/Reitor do colégio de Macau/16660000
             ls$estadia/Cantão# @wikidata:Q16572/16720000
             ls$jesuita-cargo/Procurador da província do Japão/16720800
-            ls$estadia/Como, Itália/16720815/obs=o dia vem na entrada de Alessandro Cicero
+            ls$estadia/Como, Itália# @wikidata:Q1308/16720815/obs=o dia vem na entrada de Alessandro Cicero
             rel$institucional/Recebe votos/Alessandro Cicero/deh-pedro-zuzarte-ref1/data=16720815
             ls$jesuita-votos/4V/16520908
             ls$jesuita-votos-local/Goa# @wikidata:Q1171/16520908
@@ -127,13 +128,13 @@ kleio$gacto2.str/translations=23
 
             referido$Alessandro Cicero/id=deh-pedro-zuzarte-ref1/obs=Dehergne 177
                ls$jesuita-votos/4V/16720815/obs=vide entrada de Alessandro Cicero
-               ls$jesuita-votos-local/Como, Itália/16720815
+               ls$jesuita-votos-local/Como, Itália# @wikidata:Q1308/16720815
                ls$cargo/Bispo [de Nanquim]/obs=vide entrada de Cicero
 
          n$Sebastian Zwerger/id=deh-sebastian-zwerger
             ls$nacionalidade/Alemanha
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Munique/17100117
+            ls$nascimento/Munique# @wikidata:Q1726/17100117
             ls$jesuita-entrada/?/17280913
             ls$embarque/[Para o Japão]/17460000
             ls$wicky/1914/17460000
@@ -144,15 +145,15 @@ kleio$gacto2.str/translations=23
             ls$jesuita-cargo/Visitador do colégio do Sião/17510000
             ls$jesuita-cargo/Reitor do colégio do Sião/17510000
             ls$jesuita-cargo/Reitor do colégio do Sião/17530000
-            ls$estadia/Manila/17700123#até
+            ls$estadia/Manila# @wikidata:Q1461/17700123#até
             ls$jesuita-votos/4V/17470903
             ls$jesuita-votos-local/Macau# @wikidata:Q14773/17470903
-            ls$morte/Landsberg/17770411
+            ls$morte/Landsberg# @wikidata:Q494299/17770411
             ls$dehergne/919/obs=Zwerger, Sébastian (allem.) P. 919 N. « Bavarus », à Munich, 17 janv. 1710 et E. 13 sept. 1728, G. Sup. 35, 93 Emb. 1746 pour le Japon (W 1914)., arr. en Chine, 1746 (M 443, 679)., 1749, Macao (JS 98, 8)., en 1753, recteur du collège de Siam (JS 26, 47)., visiteur et recteur du collège de Siam (JS 25, 287) en 1751. V. « Macai », Macao, 3 sept. 1747, pr. (Lus. 16, 299). M. 11 avril 1777 à Landsberg. Il quitte Manille le 23 janv. 1770 (Cushner, 160). JS 26, 47 le dit à tort N. 22 janv. 1710, E. 17 déc. 1725., id. JS 25, 290).
 
          n$André Doria/id=deh-andre-doria/obs=é uma Adição
             ls$nacionalidade/China
             ls$jesuita-estatuto/Frade
-            ls$nascimento/Macau#? português nascido na China, da província do Japão/00000000
-            ls$estadia/Japão#província/15790000
+            ls$nascimento/Macau#? português nascido na China, da província do Japão @wikidata:Q14773/00000000
+            ls$estadia/Japão#província @wikidata:Q17/15790000
             ls$dehergne/920/obs=Doria, fr. André (macaïste) 920 « Portugues naçido a la Chyna », de la province du Japon en 1579 (Goa 24, 126v). Les catal. du Japon qui subsistent sont postérieurs: JS 25 (Japon, 1581 à 1753), JS 26 (Japon et Chine, 1592 à 1702).

@@ -56,7 +56,7 @@ Kleio transcriptions of historical sources are not distributed under the same li
 
 Each Kleio transcription file is copyright of the person or persons that produced the transcription.
 
-(c) Universidade de Coimbra, Joaquim Carvalho
+(c) Joaquim Carvalho, Macao Polytechnic University
 
 _Files in this repository are covered by the Creative Commons 
 Attribution-NonCommmercial-ShareAlike 4.0 International_
