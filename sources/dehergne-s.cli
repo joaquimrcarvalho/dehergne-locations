@@ -1,5 +1,10 @@
-kleio$gacto2.str/translations=126
+kleio$gacto2.str/translations=172
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-123
+   link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
+
+    A versão online está desfasada 37 para a frente, ou seja para referir
+    a página 239, deve-se usar o link 276: dehergne-online:276
+   """/id=root-lin1-166
    fonte$dehergne-s/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra S
 
       lista$dehergne-notices-s/0/0/0
@@ -31,8 +36,8 @@ kleio$gacto2.str/translations=126
             rel$sociabilidade/Companheiro/Francesco Maria Spinola/deh-joao-de-sa-ref1/data=16820000/obs=Dehergne diz que esta informação é duvidosa, visto que não está em Wicky
             ls$estadia/Macau# @wikidata:Q14773/16940718
             ls$tarefa/Estuda Filosofia/16940800#segundo o Catálogo de Goa dessa data
-            ls$estadia/Foochow, Fukien/16990400
-            ls$estadia/Foochow, Fukien/17030000
+            ls$estadia/Foochow, Fukien# wikidata:Q68481/16990400
+            ls$estadia/Foochow, Fukien# wikidata:Q68481/17030000
             ls$estadia/Soochow, Kiangnan/17050000
             ls$estadia/Soochow, Kiangnan/17250000
             ls$partida/Cantão# @wikidata:Q16572/17260311#exilado
@@ -74,7 +79,27 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/4V/16930815
             ls$jesuita-votos-local/Chorão# @wikidata:Q5104961/16930815
             ls$morte/Lisboa# @wikidata:Q597/17280422
-            ls$dehergne/734/obs=Sá (Saa), Manuel de (port.) P. 734 N. 22 avril 1658, Torre de Moncorvo, d. de Braga. E. 13 févr. 1675, Coïmbre (Lus. 46. llv., Goa 26, 1). Emb. sur le S. António, 4 avril 1680 (W 1186)., Indes., en 1694 «pro Rege missus» (Goa 27, 107) arr. Macao 18 juill. 1694, comme socius du P. Spinola., mais, empêché d'aller à Pékin, il retourne à Goa, puis en Europe. Nommé par le roi de Portugal, 4 avril 1709, Patriarche d'Ethiopie (ce qui n'est point confirmé par le Pape), il s'emb. le 8 avril 1709 pour Goa (W 153a), où il arr. en 5 mois, le 12 septembre (JS 173, 201). En avril ou mai 1710, il va à Macao (JS 173, 201). Rappelé en Portugal en 1724. P. avant 1680. V. Dans l'île « Choranensis », Chorâo, 15 août 1693, pr.: «Emmanuel de Sá» (Lus. 11, 249), s'il ne s'agit pas d'un homonyme? M. Lisbonne, 22 avril 1728 (HS 52, 64., SF V, 301). Eloge, dans Coltecçam dos Docum. da Acad. Portugueza, 1728, XIII, p. 1-32, Lisbonne. Pf. l'ignore. AHSI 5 (1936), 296.
+            ls$dehergne/734/obs="""
+               Sá (Saa), Manuel de (port.) P. 734
+               N. 22 avril 1658, Torre de Moncorvo, d. de Braga.
+               E. 13 févr. 1675, Coïmbre (Lus. 46. llv., Goa 26, 1).
+               Emb. sur le S. António, 4 avril 1680 (W 1186).,
+               Indes., en 1694 «pro Rege missus» (Goa 27, 107)
+               arr. Macao 18 juill. 1694, comme socius du P. Spinola.,
+                  mais, empêché d'aller à Pékin,
+               il retourne à Goa,
+               puis en Europe.
+               Nommé par le roi de Portugal, 4 avril 1709,
+                  Patriarche d'Ethiopie (ce qui n'est point confirmé par le Pape),
+               il s'emb. le 8 avril 1709 pour Goa (W 153a),
+               où il arr. en 5 mois, le 12 septembre (JS 173, 201).
+               En avril ou mai 1710, il va à Macao (JS 173, 201).
+               Rappelé en Portugal en 1724.
+               P. avant 1680. V. Dans l'île « Choranensis », Chorâo, 15 août 1693,
+               pr.: «Emmanuel de Sá» (Lus. 11, 249), s'il ne s'agit pas d'un homonyme?
+               M. Lisbonne, 22 avril 1728 (HS 52, 64., SF V, 301).
+               Eloge, dans Coltecçam dos Docum. da Acad. Portugueza, 1728, XIII, p. 1-32, Lisbonne.
+               Pf. l'ignore. AHSI 5 (1936), 296."""
 
             referido$Francesco Maria Spinola/xmesmo_que=deh-francesco-maria-spinola/id=deh-manuel-de-sa-ref1/obs=Dehergne 814
                ls$jesuita-estatuto/Padre
@@ -173,7 +198,7 @@ kleio$gacto2.str/translations=126
             ls$chegada/Macau# @wikidata:Q14773/16100000
             ls$estadia/Pequim# @wikidata:Q956/16130000
             ls$estadia/Pequim# @wikidata:Q956/16160000
-            ls$estadia/Kiating/16220000
+            ls$estadia/Kiating#@wikidata:Q662101/16220000
             ls$estadia/Shanghai# @wikidata:Q8686/16220000
             ls$tarefa/Projecta viagem à Coreia/16220000#cerca de
             ls$estadia/Kaifeng, Honan/16280000
@@ -233,7 +258,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/3V/15690000
             ls$jesuita-votos/4V/15890815
             ls$jesuita-votos-local/Roma# @wikidata:Q220/15890815
-            ls$morte/Alcalá de Henares# @wikidata:Q46940/15930527
+            ls$morte/Alcalá% de Henares# @wikidata:Q46940/15930527
             ls$dehergne/740/obs=Sànchez, Alonso (Ildephonsus, Alphonse) (espagn.) P. 740 Alfonso Sanci (FR I, 214)., Sanctlus (Mex. 4, 11). N. Mondéjar, Guadalajara, 1545. E. 2 juill. 1565 (?), Alcalâ 1563. Novice appelé Don Alonso (Tolet. 12 A I, 89). Arr. 1579, Mexique., sept. 1581, Manille., 14 mars 1582, part à Macao avec Gallardo., puis, du 2 au 29 mai séjourne à Canton., 6 juill 1582, part au Japon., naufrage à Formose., rentre à Macao, 3 nov 1582., en part, 13 févr. 1583 et arr. 27 mars, à Manille., Canton en juill. 1583., Macao, 2 mai au 2 oct. 1584., en 1586, arr. au Mexique et en 1587 à Madrid, pour proposer une ambassade espagnole à Pékin (ARSI FG. 1432, n. 3)., mars 1588, Rome., 10 sept. 1592, retourne en Espagne. P. 1569 à Tolède (Mex. 4, 11). -V. pr. des 3 V. « ratione ordinum » (pour pouvoir être ordonné P., selon la législation — provisoire — de Pie V), 1569 (Mex. 4, 11)., et 15 août 1589, Rome, pr. des 4 V. (Hisp. 2, 236).
             ls$dehergne/740/obs=M. Alcalâ de Henares, Espagne, 27 mai 1593 (FR I, 214., Philipp. 20, 421). Pf. 17., CE XIII (Finegan)., Zamhrano II, 220-264 (important, mais dates peu sûres).Bernard [Maître] H., Aux Portes, 162-194., du même Les Iles Phitivvines ... 34-51, 91-98., Calbrecht, J., dans Miscellanea Historica in honorent Alberti de Meyer Louvain, 1946, II, 969-989 (sur les îles Philippines)., Gayo Aragon, Jesûs, O.P., Ideas juridico-teotogicas de los religiosos de Filipinas en el siglo XVI..., Manila, 1950, 70-79, 96-114, 142-143., RAM 17 (1936) 61-89, et 313-321 mise au point (influence imaginaire de A. S. sur la lettre cTAquaviva sur l'oraison). Le récit du voyage (avec carte) de 1582 jusqu'à Macao, dans Repetti, History of the Society of Jésus in the Philippine Islands, Manila, 1938, 31-36, 51-56, 65-80, 123-151 cf Coleccion Cortes 562, f° 381-409 de la Real Acad. de la Historia, Madrid. Costa, 37-57 « Sànchez in China», cf. ARSI FG. 722 n° 1., Strett IV p. 326-331, 571, 591 avec esquisse bio-biographique., XII, p. 11-12.
             ls$dehergne/740/obs=Son récit des débuts de la mission de Chine est à Br. Mus. 9860, 269-272. Voir aussi Montalbàn, Fr. Jav., El Patronato espanol y la conquista de Filipinas, Burgos, et trad. allem., Fribourg, 1930., Villareal Pérez, Manuel, Alonso Sànchez: sus viajes y embajadas, Séville, 1907., Colin-Pastels, t. I, 266-268, 290-301, 307-308., Torres y Lanzas, Pedro-Pastels Pablo, t. II, Barcelone, 1926. Alonso Sanchez est contemporain du P. Aires Sanchez, N. 1527, Lisbonne (ou selon d'autres, 1530, Viana)., venu au Japon, où il est E. en 1562, P. 1580, a Omura, juin 1590. Astrain, Antonio, Historia de ta Compania de Jesûs en ta asistencia de Espana, III p. 147 remarque qu'il y avait beaucoup d'hommes capables dans le groupe de missionnaires envoyés au Mexique en 1579, mais qu'Alonso Sanchez « les dépasse tous de la tête et des épaules en raison de son talent et de sa puissante personnalité » ., cf ibid. IV, 448-468.
@@ -271,8 +296,8 @@ kleio$gacto2.str/translations=126
             ls$jesuita-cargo/Superior da missão da China/15970000
             ls$estadia/Tchao-k'ing fou/15850800
             ls$estadia/Tchao-k'ing fou/15871100
-            ls$estadia/Chao-tcheou/15910700
-            ls$estadia/Chao-tcheou/15910900
+            ls$estadia/Chao-tcheou#@wikidata:Q1346617/15910700
+            ls$estadia/Chao-tcheou#@wikidata:Q1346617/15910900
             ls$estadia/Macau# @wikidata:Q14773/15920000
             ls$estadia/Macau# @wikidata:Q14773/15961104
             ls$tarefa/Retoca o latim do «De missione legatorum japonensium» de Valignano
@@ -280,8 +305,25 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/4V/15840115
             ls$jesuita-votos-local/Goa# @wikidata:Q1171/15840115
             ls$morte/Macau# @wikidata:Q14773/15990700#fim de
-            ls$dehergne/741/obs=Sande, Duarte (Edoardo) de (port.) P. 741 Mong San-Tô Nlng-Houan (Pf.). N. 1547 (et non 1531) avant le 25 oct. « Vimarani », à Guimarães près de Braga (D'Elia I, 222) -E. juin 1562, Lisbonne à 15 ans et demi {Lus. 43, 181). Emb. comme supérieur des jésuites le 24 mars 1578 sur le S. Luis pour les Indes (W 196)., Baçaim, où recteur., quitte Goa le 1er mai 1585 et arr. Macao 31 juillet 1585., supérieur de la mission de Chine, 1585-1597., Tchao-k'ing fou, août 1585-nov. 1587 {Goa 24, 161, 180)., Chao-tcheou, juill.-sept. 1591., Macao, 1592 {JS 26, 1), et 4 nov. 1596 {JS 13 I, 24). P. 1577, Coïmbre. V. Goa, 15 janv. 1584, pr. {Lus. 2, 15a: Eduard. de Sande). M. fin de juill. 1599 à Macao {JS 14, 19., HS 43, 53v). Sa grand mère maternelle était « nouvelle chrétienne » <DI. XI, 21*, XII, 1033). Pf. 44.
-            ls$dehergne/741/obs=Notice dans D'Elia I, 222-224., l'art, de Schutte dans Anatecta Gregoriana vol. 70 (1954) montre que le De missione legatorum japonensium est, en réalité, de Valignano, de Sande n'ayant fait que retoucher le latin., Rivière, 2281., Schutte, 1002., Strett IV (dates discutables).
+            ls$dehergne/741#@archive:276/obs="""
+            Sande, Duarte (Edoardo) de (port.) P. 741
+            Mong San-Tô Nlng-Houan (Pf.).
+            N. 1547 (et non 1531) avant le 25 oct.« Vimarani », à Guimarães près de Braga (D'Elia I, 222)
+            -E. juin 1562, Lisbonne à 15 ans et demi {Lus. 43, 181).
+            Emb. comme supérieur des jésuites le 24 mars 1578 sur le S. Luis pour les Indes (W 196).,
+            Baçaim, où recteur., quitte Goa le 1er mai 1585 et arr.
+            Macao 31 juillet 1585., supérieur de la mission de Chine, 1585-1597.,
+            Tchao-k'ing fou, août 1585-nov. 1587 {Goa 24, 161, 180).,
+            Chao-tcheou, juill.-sept. 1591., Macao, 1592 {JS 26, 1), et 4 nov. 1596 {JS 13 I, 24).
+            P. 1577, Coïmbre.
+            V. Goa, 15 janv. 1584, pr. {Lus. 2, 15a: Eduard. de Sande).
+            M. fin de juill. 1599 à Macao {JS 14, 19., HS 43, 53v).
+            Sa grand mère maternelle était « nouvelle chrétienne » <DI. XI, 21*, XII, 1033). Pf. 44.
+            Notice dans D'Elia I, 222-224., l'art, de Schutte dans Anatecta Gregoriana vol. 70 (1954)
+            montre que le De missione legatorum japonensium est, en réalité, de Valignano,
+            de Sande n'ayant fait que retoucher le latin., Rivière, 2281., Schutte, 1002.,
+            Strett IV (dates discutables).
+"""
 
             mmae$Nome desconhecido/id=deh-duarte-sande-mmae
                ls$estatuto/Cristã-nova
@@ -384,16 +426,16 @@ kleio$gacto2.str/translations=126
             ls$nome-chines/Je-Eul-Man
             ls$nome-chines/Fang-Pei-Eul
             ls$nascimento/Colónia# @wikidata:Q365/15920501
-            ls$jesuita-entrada/Roma (Noviciado de Sant'Andrea al Quirinale)# @wikidata:Q220/16111021
+            ls$jesuita-entrada/Roma% (Noviciado de Sant'Andrea al Quirinale)# @wikidata:Q220/16111021
             ls$embarque/S. Carlos/16180400#meados do mês
             ls$wicky/657/16180400
             ls$wicky-viagem/57/16180400#meados do mês
             ls$chegada/Macau# @wikidata:Q14773/161910715
             ls$chegada/Pequim# @wikidata:Q956/16230125
             rel$sociabilidade/Companheiro/Niccolò Longobardo/deh-johann-adam-schall-von-bell-ref4
-            ls$estadia/Sian (Si-ngan fou), Chen-si/16270000
+            ls$estadia/Sian (Si-ngan fou), Chen-si# @wikidata:Q5826/16270000
             ls$jesuita-tarefa/Propõe a rota Alepo-Kansu em 255 dias para os missionários não portugueses/16270000
-            ls$estadia/Sian (Si-ngan fou), Chen-si/16300000
+            ls$estadia/Sian (Si-ngan fou), Chen-si# @wikidata:Q5826/16300000
             ls$estadia/Pequim#por morte de Schreck para corrigir o calendário @wikidata:Q956/16300000
             ls$tarefa/Reforma do calendário chinês#depois da morte de Schreck
             rel$profissional/Substitui/Johann Terrenz Schreck/deh-johann-adam-schall-von-bell-ref5/data=16300000
@@ -411,7 +453,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/4V/16280731
             ls$jesuita-votos-local/Sian/16280731
             ls$morte/Pequim# @wikidata:Q956/16660815
-            ls$dehergne/747/obs=Schall von Bell, Johann Adam (allem.) P. 747 Scaliger.-Johann = ici, Jean-Baptiste, (Vath p. 372). T'ang Jo-wang, Tao-Wei (Pf.)., Vath p. 372 ajoute ces noms moins usuels: Yo-han Ya-tang (Jo-hann Adam) Sha-Eul., Je-Eul-Man (germanus) Fang-Pai-Eul. N. Cologne, 1er mai 1592 (Vath p. 54) (et non 1591) -E. 21 oct. 1611, Noviciat St André, Rome (Rom. 172, 155). Emb. sur le S. Carlos, mi-avril 1618 (W 657)., arr. Macao, 15 juill. 1619 (Vath, p. 50)., 1627 à 1630, Sian (Si-ngan fou), Chen-si., en 1627, il propose la route Alep-Kansu en 255 jours pour les missionnaires non-portugais (TP 1935 p. 183)., en 1630, à la mort de Schreck, appelé à Pékin pour la correction du calendrier., fin 1644, nommé par Dorgon (le régent) et en 1645, confirmé par Chouen-Tche, l'empereur, président du tribunal des Mathématiques., mandarin de 5° classe (discussion à ce sujet, BVE. FG. ms 1305., JS 143, 161-180)., il fait admettre l'astronomie européenne.,
+            ls$dehergne/747/obs=Schall von Bell, Johann Adam (allem.) P. 747 Scaliger.-Johann = ici, Jean-Baptiste, (Vath p. 372). T'ang Jo-wang, Tao-Wei (Pf.)., Vath p. 372 ajoute ces noms moins usuels: Yo-han Ya-tang (Jo-hann Adam) Sha-Eul., Je-Eul-Man (germanus) Fang-Pai-Eul. N. Cologne, 1er mai 1592 (Vath p. 54) (et non 1591) -E. 21 oct. 1611, Noviciat St André, Rome (Rom. 172, 155). Emb. sur le S. Carlos, mi-avril 1618 (W 657)., arr. Macao, 15 juill. 1619 (Vath, p. 50)., 1627 à 1630, Sian (Si-ngan fou), Chen-si# @wikidata:Q47974., en 1627, il propose la route Alep-Kansu en 255 jours pour les missionnaires non-portugais (TP 1935 p. 183)., en 1630, à la mort de Schreck, appelé à Pékin pour la correction du calendrier., fin 1644, nommé par Dorgon (le régent) et en 1645, confirmé par Chouen-Tche, l'empereur, président du tribunal des Mathématiques., mandarin de 5° classe (discussion à ce sujet, BVE. FG. ms 1305., JS 143, 161-180)., il fait admettre l'astronomie européenne.,
             ls$dehergne/747/obs=1648, supérieur de la résidence de Pékin (JS 134, 336)., rapport avec le roi de Corée à Pékin., 1650-1652, fonde église du Nan-t'ang (alors Si-t'ang), à Pékin (SF V 418, 428)., mandarin de 1ère classe, 2 févr. 1658 (JS 134, 348)., Impérial Edicts, CCS 6 (Pékin 1933), 32-37., BN: Courant, 1374, 3 décrets de 1651, cf 1324- 1326., à la mort de Chouen-Tche (1661), dégradé, puis, 12 nov. 1664, emprisonné et condamné à mort., libéré peu après cette condamnation., réhabilité par K'ang Hi. Astronome., historien (JS 142, 143). Décrets en 1651: Courant 1324-1325., 1653. LSF, 12-13. P. 1618. -V. « Sy ngan in Sinis », Sian, 31 juill. 1628, pr. (Lus. 5, 29, plus lisible qu'à Lus. 5, 24): « Ego Jo. Adamus .ail (la première lettre, illisible) et il signe: Jo. Adams [pour Adamus]. M. 15 août 1666, Pékin (JS 134, 352., Lus. 58, 439., HS 48, 87: Joan. Adamus., Planchet p. 223-224).
             ls$dehergne/747/obs=Fils du 3* mariage de Henri Degenhard et de Maria Scheiffart de Merode, famille patricienne (Vath, p. 4). Arr. Pékin avec Longobardo 25 janv. 1623. Portraits: par P Clouwet (BN: Estampes AA 3., cf Estampes N 2, Schall)., par Langlois., par Nolin., par J. V. Solingen, dans Du Halde II., par Dekleermacker, dans Voyages des Missionnaires, Gaume éd.., par G. St. Wolffgang dans Schall, Historica relatio de ortu Ratisbonne, 1672., dans l'édition du même ouvrage. Vienne 1675, portrait par Maurit. Lang., plusieurs autres anonymes, par exemple dans la China illustrata, de Kircher., médaillon à la B. de Cologne. Voir aussi Bortone, F - Gesuiti alla Corte di Pechino, 1969, couverture en couleurs et pl. V, p. 48, et Vath p. 15 et passim (p. II, 47, 67, 107, 127, 235, 245, 353). Ecrits: signalons seulement Lettres et Mémoires du P. Adam Schall, S.J., édition critique par Henri Bernard[-Maître] .,
             ls$dehergne/747/obs=Relation historique (texte latin, avec trad. franç. du P. Bornet), 1942, Tientsin., cf JA 49-V-14 f° 376-469., JS 143 n° 3, f° 29-40v, Flores et spinae Tartariae., Streit V p. 718-720., VXth, 355-370. Biographie: Vath, Alfons, Johann Adam Schall von Bell..., Cologne, 1933, reste l'ouvrage essentiel (compte-rendu de Pelliot, TP, 1935)., adaptation fran- çaise par le P. Duhr, G., 1936., Attwater, Rachel, Adam Schall, London and Milwaukee, 1963., HWnermann, Wilhelm, Der Mandarin des Himmels, 1954., Platzweg, 220-248., Lus. 58 II, 439-442., Souvenirs sur lui (en 1701), BVE. FG. 1254 n° 27. Etudes: par exemple: H. Bernard!-Maître], Encyclopédie astronomique du P. Schall, MS 3 (Pékin 1938), 35-77, 441-527., Tschuen Yuan, J.A. Schall und der Bonze Mu Tschen-wen, trad. allemande du Prof. J.W. Yang, MS 5 (1940), 316- 328., D'Elu, P. M., Gatileo in Cina, Rome, 1947.,
@@ -448,8 +490,8 @@ kleio$gacto2.str/translations=126
             ls$nacionalidade/Alemanha
             ls$jesuita-estatuto/Padre
             ls$nascimento/Wangen# @wikidata:Q165015/16241111
-            ls$jesuita-entrada/Viena, Áustria# @wikidata:Q1741/16411126
-            ls$estadia/Viena, Áustria# @wikidata:Q1741/16541219
+            ls$jesuita-entrada/Viena# [Áustria] @wikidata:Q1741/16411126
+            ls$estadia/Viena# [Áustria] @wikidata:Q1741/16541219
             ls$jesuita-tarefa/Pede para ir para a China/16541219
             ls$estadia/Génova# @wikidata:Q1449/16560108#começa por embarcar aqui, é preso por um corsário francês e regressa a Génova
             ls$embarque/Bom Jesus da Vidigueira/16570404
@@ -485,7 +527,7 @@ kleio$gacto2.str/translations=126
             ls$wicky-viagem/57/16180400#meados do mês, 16180417 segundo Dehergne
             ls$chegada/Macau# @wikidata:Q14773/16190722
             ls$estadia/Hangchow# @wikidata:Q4970/16210626
-            ls$estadia/Kiating
+            ls$estadia/Kiating#@wikidata:Q662101
             ls$estadia/Pequim# @wikidata:Q956/16291227#depois de
             ls$profissao/Astrónomo
             ls$tarefa/Reforma do calendário chinês
@@ -596,8 +638,8 @@ kleio$gacto2.str/translations=126
             ls$wicky-viagem/160/17410000
             ls$chegada/Cochinchina# @wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]/17410000
             ls$estadia/China# @wikidata:Q148/17420000
-            ls$estadia/Kiangnan/17420000
-            ls$estadia/Kiangnan/17510000
+            ls$estadia/Kiangnan#@wikidata:Q11133842/17420000
+            ls$estadia/Kiangnan#@wikidata:Q11133842/17510000
             ls$estadia/Pequim# @wikidata:Q956/17530000
             rel$sociabilidade/Acompanha/Pacheco/deh-joao-de-seixas-ref1/data=17530000
             ls$jesuita-votos/4V/17451208
@@ -673,13 +715,13 @@ kleio$gacto2.str/translations=126
             ls$estadia/Macau# @wikidata:Q14773/16160000#exílio depois das perseguições de Chen K'io
             rel$sociabilidade/Companheiro/Alfonso Vagnone/deh-alvaro-semedo-ref1/data=16160000
             ls$estadia/Kiang-si/16210000
-            ls$estadia/Kiang-nan/16210000
-            ls$estadia/Tchö-kiang
-            ls$estadia/Sian (Si-ngan fou), Shensi/16250000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/16210000
+            ls$estadia/Tchö-kiang#@wikidata:Q16967
+            ls$estadia/Sian (Si-ngan fou), Shensi#@wikidata:Q5826/16250000
             ls$tarefa/Faz o relato da descoberta da estela nestoriana/16250000
-            ls$estadia/Nanchang fou, Kiang-si/16290000
+            ls$estadia/Nanchang fou, Kiang-si#@wikidata:Q171943/16290000
             ls$partida/Roma# @wikidata:Q220/16360000
-            ls$jesuita-cargo/Procurador da vice-província da China/16360000
+            ls$jesuita-cargo/Procurador da Vice-província da China/16360000
             ls$estadia/Macau# @wikidata:Q14773/16370000#embarca para a Europa
             ls$chegada/Lisboa# @wikidata:Q597/16400000
             ls$chegada/Madrid# @wikidata:Q2807/16400000
@@ -776,7 +818,7 @@ kleio$gacto2.str/translations=126
             ls$embarque/Santiago/16820329#não padre
             ls$wicky/1224/16820329
             ls$wicky-viagem/105/16820329
-            ls$estadia/Tonquim/16940000
+            ls$estadia/Tonquim#@wikidata:Q622778/16940000
             ls$jesuita-ordenacao-padre/Goa# @wikidata:Q1171/16820000#depois de
             ls$morte/Tonquim#? também dito da vice-província da China, também dito mártir/16960821
             ls$dehergne/760/obs=Sequeira (Sequeyra), Joâo de (port.) P. 760 N. 1663, Portalègre -E. 24 oct. 1680, Evora (Lus. 46, 68). Emb. non prêtre sur le Santiago, 29 mars 1682 (W 1225)., envoyé au Tonkin en 1694. P. à Goa après 1682. M. 21 août 1696 (BEM, nov. 1964, p. 903). M. 5 sept. 1696 au Tonkin., mais il est dit de la vice-province de Chine {HS 50, 48v: Jo: de Segueyra., HS 49, 158v: Jo: de Sequeyra). Pf. 458, 593., AnG, 481 le dit martyr., WB nº 45.
@@ -851,7 +893,7 @@ kleio$gacto2.str/translations=126
             ls$embarque/?/17140412
             ls$wicky/1572/17140412
             ls$wicky-viagem/137/17140412
-            ls$chegada/Tonquim
+            ls$chegada/Tonquim# @wikidata:Q622778
             ls$estadia/Cantão# @wikidata:Q16572/17220000#exílio
             ls$estadia/Sião# @wikidata:Q869
             ls$estadia/Malaca# @wikidata:Q61089/17250000
@@ -902,7 +944,7 @@ kleio$gacto2.str/translations=126
             ls$embarque/[Para a China]#segundo Wicky/17370000
             ls$wicky/1842/17370000
             ls$wicky-viagem/156/17370000
-            ls$estadia/Tonquim/17390000
+            ls$estadia/Tonquim#@wikidata:Q622778/17390000
             ls$estadia/Cochinchina# @wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]/17390000
             ls$cargo/Matemático do rei da Cochinchina/17390000
             ls$jesuita-votos/4V/17410528
@@ -936,7 +978,7 @@ kleio$gacto2.str/translations=126
             ls$embarque/[Para a China]/16940000
             ls$wicky/1333/16940000
             ls$wicky-viagem/117/16940000
-            ls$chegada/Kiang-nan/16960504
+            ls$chegada/Kiang-nan#@wikidata:Q11133842/16960504
             ls$estadia/Nanquim# @wikidata:Q16666/16990000
             ls$jesuita-cargo/Reitor de Nanquim%recteur/16990000
             ls$jesuita-cargo/Socius do bispo de Nanquim/17000000
@@ -951,8 +993,31 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/4V/16870815
             ls$jesuita-votos-local/Coimbra# @wikidata:Q45412/16870815
             ls$morte/Nanquim# @wikidata:Q16666/17260306
-            ls$dehergne/768/obs=Silva, Antonio da (ou: a) (port.) Mgr. 768 Lin Ngan (JS 175, 139., 199 I, 203). Ou trouve aussi: Lin Ngan-Llen., Lin Ngan-to (Pf.). Lin Ngan-Tche (JS 180, 87). Lin Ngan-Yen (Rosso, p. 493) N. 13 janv. 1654, Lisbonne (13 juin, écrit JS 134, 405v., et 13 juill. JS 134, 397v) -Créât. Mag. Art. (JS 134, 411)., E. 19 mars (19 mai selon JS 134, 380v) 1669 (Lus. 45, 398), Coïmbre. Emb. pour la Chine, 1694 (W 1333), arr. 4 mai 1696 (JS 134, 380v) Kiang-nan.,Nankin, où recteur en 1699., 1700, donné comme socius à l'évêque de Nankin, Mgr Cicero (JS 134, 388)., à la mort duquel il est nommé vie. apostolique de Nankin par Mgr de Tournon, 1er nov. 1705 (JS 168, 352)., jamais sacré., il signe l'Appel du 28 mai 1707., déclaré suspens par Mgr de Tournon (BVE.FG. 1383 n. 5., RBS 439), il rejette la patente de vie. apostolique et reprend la charge de vicaire de vara (SOCP 1711, 159 et 173., cf SF V, 744)., vice-provincial 1711-1714, Nankin (JS 175, 79).
-            ls$dehergne/768/obs=V. 15 août 1687 à Coïmbre, pr. (Lus. 11, 46: Ant. da Sylva). M. 6 mars 1726, Nankin (JS 180, 23., HS 52, 3). Pf. 480., Strbit VII n» 3946., XIII n» 1622., BN: ms fr. 25057, 639-640., RBS 439. Lus. 45, 410 ne connaît qu'un homonyme N. 1637, Comba, d. de Coïmbre, E. 1654, que Lus. 45, 461 dit N. 1640, Pinheyro d. de Coïmbre, E. 1654.
+            ls$dehergne/768/obs="""
+               Silva, Antonio da (ou: a) (port.) Mgr. 768
+               Lin Ngan (JS 175, 139., 199 I, 203).
+               Ou trouve aussi: Lin Ngan-Llen.,
+               Lin Ngan-to (Pf.).
+               Lin Ngan-Tche (JS 180, 87).
+               Lin Ngan-Yen (Rosso, p. 493)
+               N. 13 janv. 1654, Lisbonne (13 juin, écrit JS 134, 405v., et 13 juill. JS 134, 397v) -
+               Créât. Mag. Art. (JS 134, 411).,
+               E. 19 mars (19 mai selon JS 134, 380v) 1669 (Lus. 45, 398), Coïmbre.
+               Emb. pour la Chine, 1694 (W 1333),
+               arr. 4 mai 1696 (JS 134, 380v)
+               Kiang-nan.,Nankin, où recteur en 1699., 1700,
+               donné comme socius à l'évêque de Nankin, Mgr Cicero (JS 134, 388).,
+               à la mort duquel il est nommé vic. apostolique de Nankin par Mgr de Tournon,
+               1er nov. 1705 (JS 168, 352)., jamais sacré., il signe l'Appel du 28 mai 1707.,
+               déclaré suspens par Mgr de Tournon (BVE.FG. 1383 n. 5., RBS 439),
+                  il rejette la patente de vie. apostolique et reprend la charge
+                  de vicaire de vara (SOCP 1711, 159 et 173., cf SF V, 744).,
+               vice-provincial 1711-1714, Nankin (JS 175, 79).
+               V. 15 août 1687 à Coïmbre, pr. (Lus. 11, 46: Ant. da Sylva).
+               M. 6 mars 1726, Nankin (JS 180, 23., HS 52, 3). Pf. 480.,
+               Strbit VII n» 3946., XIII n» 1622.,
+               BN: ms fr. 25057, 639-640., RBS 439. Lus. 45, 410 ne connaît qu'un homonyme N. 1637,
+                  Comba, d. de Coïmbre, E. 1654, que Lus. 45, 461 dit N. 1640, Pinheyro d. de Coïmbre, E. 1654."""
 
             referido$Alessandro Cicero/xmesmo_que=deh-alessandro-cicero/id=deh-antonio-da-silva-ref1
                ls$titulo/Monsenhor
@@ -998,7 +1063,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Pequim# @wikidata:Q956/17440000
             ls$estadia/Hou-pei/17450000
             ls$estadia/Pequim# @wikidata:Q956/17660000#?
-            ls$estadia/Kiang-nan/17710000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/17710000
             ls$jesuita-ordenacao-padre/?/17440000
             ls$jesuita-votos/Coadjutor Espiritual/17510411
             ls$jesuita-votos-local/Wuchang/17510411
@@ -1062,7 +1127,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Nanquim# @wikidata:Q16666/16920000/obs=Dehergne pergunta e é confusão com Francisco Simões
             ls$estadia/Soochow/16920000/obs=Dehergne pergunta e é confusão com Francisco Simões
             ls$estadia/Shanghai# @wikidata:Q8686/16920000/obs=Dehergne pergunta e é confusão com Francisco Simões
-            ls$estadia/Sungkiang/16920000/obs=Dehergne pergunta e é confusão com Francisco Simões
+            ls$estadia/Sungkiang#@wikidata:Q11104671/16920000/obs=Dehergne pergunta e é confusão com Francisco Simões
             ls$estadia/Goa# @wikidata:Q1171/17000000#escolástico
             ls$estadia/Goa# @wikidata:Q1171/17010000#escolástico
             ls$estadia/Macau# @wikidata:Q14773/17020000
@@ -1112,7 +1177,19 @@ kleio$gacto2.str/translations=126
             ls$jesuita-votos/Coadjutor Espiritual/17591216#é da vice-província da China
             ls$jesuita-votos-local/Macau (colégio de S. José)# @wikidata:Q14773/17591216
             ls$morte/Europa# @wikidata:Q46/17720000#depois de
-            ls$dehergne/775/obs=Silva, Francisco da (port.) (III) P. 775 N. «Vilha da Rainha», d. de Coïmbre (sic), 15 nov. 1727 (Lus. 49, 58) -E. 3 nov. 1745. Emb. pour la Chine, 1754 (W 2070)., arr. 1755., Macao, 5 juill. 1762, emprisonné., prisons de Lisbonne, 1764 au 6 sept. 1767, alors déporté en Italie (Lus. 41, 100). P. v. 1754 (Lus. 49, 78) -V. « in collegio Macaensi D. Josephi », 16 déc. 1759, c. spir. (Lus. 24, 283), il est donc de la vice-province de Chine et il signe Franc, da Sylva. Lus. 41, 100 dit à tort V. 8 déc. 1759.M. en Europe après 1772. Pf. 871. Vilha da Rainha est l'actuel Caldas da Rainha, à mi<hemin de Lisbonne à Coïmbre, actuellement du d. de Lisbonne. [JRC: Não, deve ser Vinha da Rainha, dioc. Coimbra)
+            ls$dehergne/775/obs="""
+            Silva, Francisco da (port.) (III) P. 775
+            N. «Vilha da Rainha», d. de Coïmbre (sic), 15 nov. 1727 (Lus. 49, 58)
+            -E. 3 nov. 1745.
+            Emb. pour la Chine, 1754 (W 2070)., arr. 1755., Macao, 5 juill. 1762, emprisonné.,
+            prisons de Lisbonne, 1764 au 6 sept. 1767,
+            alors déporté en Italie (Lus. 41, 100).
+            P. v. 1754 (Lus. 49, 78) -V. « in collegio Macaensi D. Josephi », 16 déc. 1759,
+            c. spir. (Lus. 24, 283), il est donc de la vice-province de Chine et
+            il signe Franc, da Sylva. Lus. 41, 100 dit à tort V. 8 déc. 1759.
+            M. en Europe après 1772. Pf. 871. Vilha da Rainha est l'actuel Caldas da Rainha,
+            à mi<hemin de Lisbonne à Coïmbre, actuellement du d. de Lisbonne.
+            [JRC: Não, deve ser Vinha da Rainha, dioc. Coimbra)"""
 
          n$Jean Silva P'eng/id=deh-jean-silva-peng
             ls$nacionalidade/China
@@ -1123,8 +1200,8 @@ kleio$gacto2.str/translations=126
             ls$nome-chines/Lin
             ls$nascimento/Pequim# @wikidata:Q956/17200810#ou 17190815
             ls$jesuita-entrada/?/17380713
-            ls$estadia/Kiang-nan/17460000
-            ls$estadia/Kiang-nan/17480000#cerca de
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/17460000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/17480000#cerca de
             ls$jesuita-ordenacao-padre/?/17460000
             ls$jesuita-votos/Coadjutor Espiritual/17580914
             ls$jesuita-votos-local/Pequim# @wikidata:Q956/17580914
@@ -1144,7 +1221,15 @@ kleio$gacto2.str/translations=126
             ls$jesuita-entrada/Coimbra# @wikidata:Q45412/16680000
             ls$jesuita-votos/4V/16850202
             ls$jesuita-votos-local/Goa (casa professa)# @wikidata:Q1171/16850202
-            ls$dehergne/777/obs=Silva, João da (port.) (II) P. 777 Les catal. brefs de Goa de 1678 et de 1681 citent comme envoyé en Chine le P. maître Joâo da Sylva (Goa 27, 94 et lOOv). Nous connaissons un Joâo da Silva N. Sâo Joâo do Areas, 1647, E. Coïmbre, 1668 (Goa 25, 280), V. Goa, maison professe, 2 févr. 1685., pr.: Jo. da Silva (Lus. 10, 245). Il s'agit donc d'un prêt de la province de Goa à celle du Japon (Macao).
+            ls$dehergne/777/obs="""
+            Silva, João da (port.) (II) P. 777
+            Les catal. brefs de Goa de 1678 et de 1681 citent comme envoyé en Chine le P. maître Joâo da Sylva (Goa 27, 94 et lOOv).
+            Nous connaissons un Joâo da Silva
+            N. Sâo Joâo do Areas, 1647,
+            E. Coïmbre, 1668 (Goa 25, 280),
+            V. Goa, maison professe, 2 févr. 1685.,
+            pr.: Jo. da Silva (Lus. 10, 245).
+            Il s'agit donc d'un prêt de la province de Goa à celle du Japon (Macao)."""
 
          n$José da Silva/id=deh-jose-da-silva
             ls$nacionalidade/Portugal
@@ -1152,12 +1237,12 @@ kleio$gacto2.str/translations=126
             ls$nome-chines/Li
             ls$nome-chines/Lin Jo-chö
             ls$nascimento/Soure, diocese de Coimbra# @wikidata:Q543993/17250210
-            ls$jesuita-entrada/?/1740225
+            ls$jesuita-entrada/?/1740225/obs=MMHM:p.375
             ls$embarque/[Para a China]/17490000#não padre
             ls$wicky/1955/17490000
             ls$wicky-viagem/168/17490000
             ls$chegada/China# @wikidata:Q148/17530000
-            ls$estadia/Kiang-nan
+            ls$estadia/Kiang-nan#@wikidata:Q11133842
             ls$partida/Macau# @wikidata:Q14773/17540500#prisioneiro e exilado em Macau
             ls$estadia/Macau# @wikidata:Q14773/17620705#prisioneiro outra vez
             ls$partida/Lisboa (Forte de S. Julião)# @wikidata:Q597/17640000#deportado
@@ -1225,7 +1310,7 @@ kleio$gacto2.str/translations=126
             ls$nome-chines/Si Ping Han-Jou
             ls$nascimento/Estremoz, diocese de Évora# @wikidata:Q625157/16750425
             ls$jesuita-entrada/Lisboa# @wikidata:Q597/16911122
-            ls$chegada/Tonquim/17010000
+            ls$chegada/Tonquim#@wikidata:Q622778/17010000
             ls$estadia/Kweilin, Kouang-si/17040000
             ls$estadia/Kweilin, Kouang-si/17060000
             ls$estadia/Goa# @wikidata:Q1171/17120000
@@ -1257,8 +1342,8 @@ kleio$gacto2.str/translations=126
             ls$wicky/1221/16820329
             ls$wicky-viagem/105/16820329
             ls$chegada/?/16820000#ou 16830000
-            ls$estadia/Chengting (Tcheng-ting fou, Hopei)/16960000#antes de
-            ls$estadia/Nanchang (Nan-tch'ang fou, Kiangsi)/17100000
+            ls$estadia/Chengting (Tcheng-ting fou, Hopei)#@wikidata:Q197678/16960000#antes de
+            ls$estadia/Nanchang%(Nan-tch'ang fou, Kiangsi)#@wikidata:Q171943/17100000
             ls$estadia/Pequim# @wikidata:Q956/17480000
             ls$dehergne/782/obs=Simões, António (port.) [de] (I) P. 782 N. « Ex oppido Rio de Galinhas », d. de Coïmbre, 1661 -E. 1678 (Lus. 46, 73). Emb. non prêtre sur le Santiago, 29 mars 1682 (W 1221). Arr. 1682 ou 1683., Chengting (Tcheng-ting fou, Hopei) avant 1696., Nanchang (Nan-tch'ang fou, Kiangsi), 1710, Pékin, 1748 (Krahl, 85 n.., WB 83 p. 17). Cette notice, qui a exigé de longues recherches, pose plus d'un problème. La venue n'est accréditée que par LEP III, 7.,., Pf. 397., et Krahl, 85 n. Nous ne le trouvons ni dans JS 173 (Epistolae 1709-1710), ni aux catal. de Chine 1688, 1692, 1697, 1703... 1741, 1751., ni au Japon 1691, 1698...., ni à Goa 1709, 1713...
 
@@ -1281,10 +1366,8 @@ kleio$gacto2.str/translations=126
             ls$jesuita-entrada/?/17460615
             ls$embarque/[Para a China]#segundo Wicky/17550000#entre 17550000 e 17580000, não padre
             ls$embarque/[Para a China]#segundo Wicky/17580000#entre 17550000 e 17580000, não padre
-            ls$wicky/2108/17550000#entre 1755 e 1758
-            ls$wicky/2108/17580000#entre 1755 e 1758
-            ls$wicky-viagem/?/17550000#entre 1755 e 1758
-            ls$wicky-viagem/?/17580000#entre 1755 e 1758
+            ls$wicky/2108/1755-1758#entre 1755 e 1758
+            ls$wicky-viagem/?/17561231#entre 1755 e 1758 (dia intermedio)
             ls$chegada/Macau# @wikidata:Q14773
             ls$estadia/Macau (colégio de S. José)# @wikidata:Q14773/17620705#preso
             ls$tarefa/Estuda Teologia - 2º ano/17540000
@@ -1323,14 +1406,14 @@ kleio$gacto2.str/translations=126
             ls$estadia/Nanquim# @wikidata:Q16666/16910000
             ls$estadia/Shanghai, Kiang-nan# @wikidata:Q8686/16910000
             ls$estadia/Shantung/16920000
-            ls$estadia/Changting (Tcheng-ting fou, Hopei)/16930000
-            ls$estadia/Kiang-nan/16940000
+            ls$estadia/Chengting (Tcheng-ting fou, Hopei)#@wikidata:Q197678/16930000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/16940000
             ls$estadia/Pequim#enviado doente @wikidata:Q956
             ls$jesuita-ordenacao-padre/?/16810000#antes de
             ls$jesuita-votos/4V/16850202#ou 16810815, segundo Pf.
             ls$jesuita-votos-local/Goa (casa professa)# @wikidata:Q1171/16850202#ou 16810815, segundo Pf.
             ls$morte/Pequim# @wikidata:Q956/16940505#ou junho
-            ls$dehergne/785/obs=Simões (Simõis), Francisco (port.) P. 785 Kouo T'ien-Tsio, Leang-Kouei (Pf.). N. 8 sept. 1650 -E. 28 oct. 1666. Emb., novice, 22 avril 1668 (W 1107)., Indes., arr. 1690, Macao (SF V, 221)., Nankin et Shanghai, Kiang-nan, 1691 (JS 134, 375)., Shantung, 1692., Chengtirig (Tcheng-ting fou, Hopei) en 1693 (JA 49-V-22 f 145, 150)., 1694, au Kiang-nan (Goa 27, 107)., malade, envoyé à Pékin. P. avant 1681. M. « nonas maji 1694 », Pékin (JS 116a, 287v), le 5 mai 1694 (SF V, 248., VI, 131., Planchet, p. 168). HS 49, 85v et 50, 48 disent juin 1694, P. Franc. « Simoeri apud Sinas »! Pf. 461. V. 15 août 1681 dit Pf.., mais nous trouvons à Lus. 10, 254 les formules d'un P. Franc. Simois V. 2 févr. 1685, Goa, maison professe, pr.
+            ls$dehergne/785/obs=Simões (Simõis), Francisco (port.) P. 785 Kouo T'ien-Tsio, Leang-Kouei (Pf.). N. 8 sept. 1650 -E. 28 oct. 1666. Emb., novice, 22 avril 1668 (W 1107)., Indes., arr. 1690, Macao (SF V, 221)., Nankin et Shanghai, Kiang-nan, 1691 (JS 134, 375)., Shantung, 1692., Chengting (Tcheng-ting fou, Hopei) en 1693 (JA 49-V-22 f 145, 150)., 1694, au Kiang-nan (Goa 27, 107)., malade, envoyé à Pékin. P. avant 1681. M. « nonas maji 1694 », Pékin (JS 116a, 287v), le 5 mai 1694 (SF V, 248., VI, 131., Planchet, p. 168). HS 49, 85v et 50, 48 disent juin 1694, P. Franc. « Simoeri apud Sinas »! Pf. 461. V. 15 août 1681 dit Pf.., mais nous trouvons à Lus. 10, 254 les formules d'un P. Franc. Simois V. 2 févr. 1685, Goa, maison professe, pr.
 
          n$João Simões/id=deh-joao-simoes
             ls$nacionalidade/Portugal
@@ -1348,7 +1431,7 @@ kleio$gacto2.str/translations=126
             ls$chegada/Macau# @wikidata:Q14773/17470702#expulso para, tem ordem de regressar à Europa no próximo navio
             ls$estadia/Pequim# @wikidata:Q956/17480000
             ls$estadia/Macau# @wikidata:Q14773/17520000
-            ls$jesuita-cargo/Procurador da vice-província da China#responsável pela gestão das finanças da vice-província em Macau, vide Dehergne p. 315, lá diz em 1754 e 1755 e Folleri em 1752/17520000
+            ls$jesuita-cargo/Procurador da Vice-província da China#responsável pela gestão das finanças da vice-província em Macau, vide Dehergne p. 315, lá diz em 1754 e 1755 e Folleri em 1752/17520000
             ls$partida/Brasil# @wikidata:Q155/17580000
             ls$estadia/Itália# @wikidata:Q38/17660000#exilado
             ls$jesuita-votos/4V/17510815
@@ -1367,8 +1450,8 @@ kleio$gacto2.str/translations=126
             ls$chegada/?/17051012
             ls$estadia/Lintsing/17070600
             ls$estadia/Pequim# @wikidata:Q956/17070623
-            ls$estadia/Nanchang (Nan-tch'ang fou, Kiang-si)/17130000
-            ls$jesuita-cargo/Procurador da vice-província da China/17210000
+            ls$estadia/Nanchang%(Nan-tch'ang fou, Kiang-si)#@wikidata:Q171943/17130000
+            ls$jesuita-cargo/Procurador da Vice-província da China/17210000
             ls$jesuita-cargo/Vice-provincial do Japão/17240000#quando o provincial Pirés parte para a Cochinchina
             ls$jesuita-cargo/Vice-provincial do Japão/17250000
             ls$estadia/Macau (seminário)# @wikidata:Q14773/17370000# après 14 ans de mission en Chine « abanno 1704 ad annum 1715 »
@@ -1376,7 +1459,7 @@ kleio$gacto2.str/translations=126
             ls$jesuita-cargo/Procurador do Japão e da China em Portugal/17510000
             ls$jesuita-ordenacao-padre/Índia# @wikidata:Q668/16990000
             ls$jesuita-votos/4V/17090331
-            ls$jesuita-votos-local/Can cheu (Kanchow)/17090331#ou Macau, 17160308
+            ls$jesuita-votos-local/Can cheu (Kanchow)#@wikidata:Q363166/17090331#ou Macau, 17160308
             ls$dehergne/787/obs=Simões (Simõens), José (port.) P. 787 Mou Jo-chô Tai-Lai (Rosso, p. 287)., Pf.: Mou Jo-ché., M 443, 676 l'appelle Stephanus Simonens, Mo. N. Lamego, 12 avril 1676 (JS 134, 435), ou Coïmbre (JS 134, 438)., N. « Lusitanus e monte Stellarum » (JS 134, 413v) = Serra da Estrela. E. 28 août 1694 (JS 134, 435). Arr. 12 oct. 1705., Lintsing, juin 1707 (SF VII, 1233)., 23 juin 1707, Pékin., 1713, Nanchang (Nan-tch'ang fou, Kiang-si) (JS 175, 79)., 1721, procureur de la vice-province (JS 25, 277v)., vice-provincial du Japon quand le provincial Pirès part en Cochinchine, 1724-1725 (SF VI 629)., en 1737, après 14 ans de mission en Chine «ab anno 1704 ad annum 1715» était au Séminaire de Macao (JS 134, 434), vers 1751, Pékin (Krahl p. 67)., en 1751, élu procureur du Japon et de Chine au Portugal (JS 134, 438). P. 1699, aux Indes (Goa 25, 373).
             ls$dehergne/787/obs=V. on trouve les formules de Jos. Simoes, Can cheu (Kanchow), 31 mars 1709, pr. (Lus. 13, 130), et de Jos. Simoens, Macao, 8 mars 1716, pr. (Lus. 13, 425) (le 2 févr. 1716 dit JS 134, 435 suivi par Pf., à tort). Fils de Sebastiao Simôes de Carvalho et de Esperança Rebela. Pf. 611.
 
@@ -1403,9 +1486,9 @@ kleio$gacto2.str/translations=126
             ls$chegada/Macau# @wikidata:Q14773/17191030
             ls$estadia/Pequim# @wikidata:Q956
             ls$profissao/Astrónomo
-            ls$partida/Tsinan fou, Shantung/17221126
+            ls$partida/Tsinan fou, Shantung#@wikidata:Q170247/17221126
             ls$estadia/Cantão# @wikidata:Q16572/17250000#exílio
-            ls$estadia/Kiang-nan/17310000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/17310000
             ls$jesuita-cargo/Visitador do Japão e da China/17321003
             ls$jesuita-cargo/Visitador do Japão e da China/17340000
             ls$estadia/Kiang-si/17350000
@@ -1414,10 +1497,10 @@ kleio$gacto2.str/translations=126
             ls$estadia/Macau# @wikidata:Q14773/17410000
             ls$jesuita-cargo/Visitador do Japão e da China/17450000
             ls$jesuita-tarefa/Consulta sobre a situação na China/17480000
-            ls$estadia/Kanchow, Kiang-si/17490000
+            ls$estadia/Kanchow, Kiang-si#@wikidata:Q363166/17490000
             ls$jesuita-cargo/Visitador do Japão e da China/17510000#a lista da p. 323 diz 17480000
             ls$estadia/Macau# @wikidata:Q14773/17510306
-            ls$partida/Tonquim/17510306
+            ls$partida/Tonquim#@wikidata:Q622778/17510306
             ls$estadia/Macau# @wikidata:Q14773/17530000
             ls$jesuita-ordenacao-padre/?/17040000#antes de
             ls$jesuita-votos/4V/17140202
@@ -1464,7 +1547,19 @@ kleio$gacto2.str/translations=126
             ls$estadia/Pequim# @wikidata:Q956/16710000
             ls$jesuita-ordenacao-padre/Coimbra# @wikidata:Q45412/16640000#morre antes dos seus grandes votos
             ls$morte/Pequim# @wikidata:Q956/16730526
-            ls$dehergne/790/obs=Siqueira Tcheng, Manuel de (macaïste) P. 790 Emm. Sigueira (M 423, 179)., de Siqueyra, Ching (M 443, 679, 681). Tcheng Wei-Sin Ma-no (Pf.). N. « Sinensis natus Macai », 25 mai 1653. Il vient avec le P. de Rhodes à Rome et il E. Rome, 17 oct. 1651 (Rom. 173, 92) il signe Emmanuel de Siqueira. Emb. Lisbonne, 15 avril 1666 (W 1084., quitte Goa, 14 mai 1668., arr. Macao, 19 août 1668., Canton, 1669 (JS 26, 36v)., 1671, Pékin. P. 1664, à Coïmbre (AHSI 28 [1959], 20). Il meurt avant ses grands V. M. 26 mai 1673, Pékin (Planchet, p. 146., Rouleau, dans AHSI 28 (1959), 49. Pf. 381 l'appelle Sequeira. Rouleau, Francis A., The first Chinese Priest of the Society of Jésus, AHSI 28 (1959), 3-50.
+            ls$dehergne/790#@archive:291/obs="""
+            Siqueira Tcheng, Manuel de (macaïste) P. 790
+            Emm. Sigueira (M 423, 179)., de Siqueyra, Ching (M 443, 679, 681).
+            Tcheng Wei-Sin Ma-no (Pf.). N. « Sinensis natus Macai », 25 mai 1653.
+            Il vient avec le P. de Rhodes à Rome et il E. Rome, 17 oct. 1651 (Rom. 173, 92)
+            il signe Emmanuel de Siqueira. Emb. Lisbonne, 15 avril 1666 (W 1084.,
+            quitte Goa, 14 mai 1668., arr. Macao, 19 août 1668., Canton, 1669 (JS 26, 36v)., 1671,
+            Pékin.
+            P. 1664, à Coïmbre (AHSI 28 [1959], 20).
+            Il meurt avant ses grands V. M. 26 mai 1673, Pékin (Planchet, p. 146.,
+            Rouleau, dans AHSI 28 (1959), 49.
+            Pf. 381 l'appelle Sequeira. Rouleau, Francis A., The first Chinese Priest
+            of the Society of Jésus, AHSI 28 (1959), 3-50."""
 
             referido$Alexandre de Rhodes/id=deh-manuel-de-siqueira-tcheng-ref1/obs=Dehergne 677, baptizou Manuel Siqueira, de acordo com a sua entrada
                rel$sociabilidade/Companheiro/Manuel de Siqueira Tcheng/deh-manuel-de-siqueira-tcheng
@@ -1505,7 +1600,7 @@ kleio$gacto2.str/translations=126
             ls$nome/Slwaiczek
             ls$nome/Slawiezeck
             ls$nascimento/Jimramov, República Checa%Ingerwitz# @wikidata:Q158422/16781224
-            ls$jesuita-entrada/Brno, República Checa# @wikidata:Q14960/16941009
+            ls$jesuita-entrada/Brno# [República Checa] @wikidata:Q14960/16941009
             ls$jesuita-tarefa/Pede para ir para a China/17150710#e consegue
             ls$embarque/Sta. Ana/17160314
             ls$wicky/1608/17160314
@@ -1514,8 +1609,8 @@ kleio$gacto2.str/translations=126
             ls$estadia/Cantão# @wikidata:Q16572/17161109#parte nessa data
             ls$chegada/Pequim# @wikidata:Q956/17170102
             ls$estadia/Cantão# @wikidata:Q16572/17210000
-            ls$estadia/Kiangsi/17220000
-            ls$estadia/Kiangsi/17230000
+            ls$estadia/Kiangsi#@wikidata:Q57052/17220000
+            ls$estadia/Kiangsi#@wikidata:Q57052/17230000
             ls$estadia/Pequim# @wikidata:Q956/17240000
             ls$profissao/Músico/17240000
             ls$profissao/Relojoeiro
@@ -1541,7 +1636,7 @@ kleio$gacto2.str/translations=126
             ls$wicky/921/16440412
             ls$wicky-viagem/78/16440412
             ls$chegada/Macau# @wikidata:Q14773/16450000
-            ls$estadia/Kiang-nan/16460000
+            ls$estadia/Kiang-nan#@wikidata:Q11133842/16460000
             ls$estadia/Hangchow# @wikidata:Q4970/16470000
             ls$tarefa/Aprende chinês/16480000
             ls$estadia/Hangchow# @wikidata:Q4970/16480000
@@ -1550,7 +1645,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Nanquim# @wikidata:Q16666
             ls$estadia/Pequim# @wikidata:Q956/16530000
             ls$partida/Yunnan#tenta ir
-            ls$estadia/Kwangtung/16550000
+            ls$estadia/Kwangtung#@wikidata:Q15175/16550000
             ls$estadia/Hainan# @wikidata:Q42200/16560622
             ls$morte/Tchao-k'ing fou/16560917#ou julho ou 16570907
             ls$dehergne/794/obs=Smogulecki, Johannes Nikolaus (polon.) P. 794 Mou Ni-ko Jou-Tô (Pf.., Borg. Lat. 523, 58: Mo Ni-co, Smogoleski). Smongoleski (De Marini). N. 1610, « Major Polonus », Cracovie -E. 14 déc. 1636, Cracovie (Pot. 43, 290v) après avoir été en 1632 député à la Diète., en 1636, délé- gué au tribunal de la Couronne et nommé staroste de Naklo. Emb. pour Macao, 12 avril 1644 (W 921), arr. 1645., en 1646, au Kiang-nan., 1647, Hangchow, il y apprend la langue, 1648 (JS 134, 337)., Kienning et Kienyang, Fou-kien., Nankin., 1653, Pékin., tente d'aller au Yunnan., 1655, Kwangtung., 22 juin 1656, Hainan. M. 17 sept. 1656, Tchao-k'ing fou., (HS 48, 72v: Smoguleski mort « Chaokimi ») 17 juill. 1656, et HS 48, 75 le fait mourir de nouveau, 7 sept. 1657, à « Xequini ».
@@ -1568,13 +1663,10 @@ kleio$gacto2.str/translations=126
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/Guarda# @wikidata:Q750594/17280118
-            ls$jesuita-entrada/Lisboa (Arroios)# @wikidata:Q597/17480710
-            ls$embarque/[Para a China]/17550000#entre 1755 e 1758, não padre
-            ls$embarque/[Para a China]/17580000#entre 1755 e 1758, não padre
-            ls$wicky/2107/17550000#entre 1755 e 1758
-            ls$wicky/2107/17580000#entre 1755 e 1758
-            ls$wicky-viagem/?/17550000#entre 1755 e 1758
-            ls$wicky-viagem/?/17580000#entre 1755 e 1758
+            ls$jesuita-entrada/Lisboa%Lisboa, Arroios# @wikidata:Q597/17480710
+            ls$embarque/[Para a China]/1755-17588#entre 1755 e 1758, não padre
+            ls$wicky/2107/1755-1758#entre 1755 e 1758
+            ls$wicky-viagem/?/17561231#entre 1755 e 1758 (dia intermedio)
             ls$estadia/Itália# @wikidata:Q38/17670000#exilado
             ls$jesuita-votos/4V/17670810
             ls$jesuita-votos-local/Roma# @wikidata:Q220/17670810
@@ -1687,8 +1779,8 @@ kleio$gacto2.str/translations=126
             ls$wicky/287/15860411
             ls$wicky-viagem/31/15860411
             ls$chegada/Macau# @wikidata:Q14773/15910700#ou 15910800
-            ls$estadia/Nanchang (Nan-tch'ang fou)/15951224
-            ls$estadia/Nanchang (Nan-tch'ang fou)/16040000
+            ls$estadia/Nanchang (Nan-tch'ang fou)#@wikidata:Q171943/15951224
+            ls$estadia/Nanchang (Nan-tch'ang fou)#@wikidata:Q171943/16040000
             ls$estadia/Macau# @wikidata:Q14773/16070500
             ls$jesuita-ordenacao-padre/Macau# @wikidata:Q14773/15950000#cerca de
             ls$jesuita-votos/4V/16040000
@@ -1714,7 +1806,7 @@ kleio$gacto2.str/translations=126
             ls$chegada/Pequim# @wikidata:Q956/17540000#trabalha lá por 41 anos
             ls$jesuita-ordenacao-padre/?#Pequim?/17540000
             ls$morte/Pequim# @wikidata:Q956/17951204
-            ls$dehergne/802/obs=Soeiro (Soueiro) Ts'ouei, Paul (chin.) P. 802 Sueyro (JS 134, 439v). Ts'ouei Pac-lou (Pf.)., Paul Zuel (Brotier 134, 74, prononciation du Kiang-sou). N. 1724, au Chen-si (JS 134, 439v) ou au Chan-si (JS 134, 443, et inscription funéraire). E. Macao, 1er févr. (ou 29 juin) 1749 (JS 134, 441v, 447). A. Pékin, 1754 (JS 134, 448), où il travaille pendant 41 ans. P. 1754. -M. 4 déc. 1795, Pékin (Planchet, p. 203). Pf. 836.
+            ls$dehergne/802/obs=Soeiro (Soueiro) Ts'ouei, Paul (chin.) P. 802 Sueyro (JS 134, 439v). Ts'ouei Pac-lou (Pf.)., Paul Zuel (Brotier 134, 74, prononciation du Kiang-sou). N. 1724, au Chen-si# @wikidata:Q47974 (JS 134, 439v) ou au Chan-si (JS 134, 443, et inscription funéraire). E. Macao, 1er févr. (ou 29 juin) 1749 (JS 134, 441v, 447). A. Pékin, 1754 (JS 134, 448), où il travaille pendant 41 ans. P. 1754. -M. 4 déc. 1795, Pékin (Planchet, p. 203). Pf. 836.
 
          n$Matthieu Song/id=deh-matthieu-song
             ls$nacionalidade/China
@@ -1739,7 +1831,7 @@ kleio$gacto2.str/translations=126
             ls$estadia/Macau# @wikidata:Q14773/16640000
             ls$estadia/Cantão# @wikidata:Q16572/16650000
             ls$estadia/Macau# @wikidata:Q14773
-            ls$jesuita-cargo/Procurador da vice-província da China
+            ls$jesuita-cargo/Procurador da Vice-província da China
             ls$estadia/Cantão# @wikidata:Q16572
             ls$estadia/Goa# @wikidata:Q1171/16730000
             ls$jesuita-cargo/Procurador da província do Japão/16730000
@@ -1830,7 +1922,7 @@ kleio$gacto2.str/translations=126
             ls$wicky-viagem/124/17010000
             ls$chegada/Macau# @wikidata:Q14773/17031110
             ls$estadia/Chinkiang (Tchen-kiang)/17060000
-            ls$estadia/Hwaian fou, Kiang-nan/17060000
+            ls$estadia/Hwaian fou, Kiang-nan#@wikidata:Q57818/17060000
             ls$estadia/Cantão# @wikidata:Q16572/17070402#exilado
             ls$estadia/Cantão#exilado novamente, depois de reentrar @wikidata:Q16572
             ls$estadia/Macau# @wikidata:Q14773/17170912
@@ -1916,7 +2008,7 @@ kleio$gacto2.str/translations=126
             ls$embarque/[Para o México]/16160000
             ls$estadia/México#durante 14 anos @wikidata:Q96
             ls$chegada/Macau# @wikidata:Q14773/16290000
-            ls$chegada/Nanchang (Nan-tch'ang fou), Kiangsi/16290000
+            ls$chegada/Nanchang (Nan-tch'ang fou), Kiangsi#@wikidata:Q171943/16290000
             ls$jesuita-votos/4V/16250316
             ls$jesuita-votos-local/México (casa professa)# @wikidata:Q96/16250316
             ls$morte/Nan-tch'ang/16291129#ou 30

@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-KleioTranslator - server version 11.1 - build 534 (MHK: 2175/master) (2023-03-28 14:49:22, MHK: 19/05/2023 18:48 )
-16-6-2023 10-28
-=======
-KleioTranslator - server version 12.4 - build 567 2024-02-07 13:02:03
-27-2-2024 13-40
->>>>>>> 5dc3fbd10545fa1699b236ac6bf8249072b4471b
+KleioTranslator - server version 12.6 - build 576 2024-09-09 17:57:03
+29-9-2024 11-36
 
 Processing data file dehergne-r.cli
 -------------------------------------------
@@ -17,32 +12,20 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-<<<<<<< HEAD
-Translation count: 118
+Translation count: 179
 Obs: 
 ** Processing source fonte$dehergne-r
-6: lista$dehergne-notices-r
-=======
-Translation count: 123
-Obs: 
-** Processing source fonte$dehergne-r
-7: lista$dehergne-notices-r
->>>>>>> 5dc3fbd10545fa1699b236ac6bf8249072b4471b
+31: lista$dehergne-notices-r
+
+WARNING: dehergne-r.cli line 833 Could not link data with @bdcconline:da-rocha-joão; is link$ definition for bdcconline missing?
+Near lines: 833          n$João da Rocha/id=deh-joao-da-rocha#@bdcconline:da-rocha-joão
+Near lines: 834             ls$nacionalidade/Portugal
+
 *** End of File
 
-Line 1599 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-boussel) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 353 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-de-siqueira-tcheng) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1785 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-boussel) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-<<<<<<< HEAD
-Structure file: /kleio-home/system/conf/kleio/stru/gacto2.str
-Structure processing report: /kleio-home/system/conf/kleio/stru/gacto2.srpt
-Structure in JSON: /kleio-home/system/conf/kleio/stru/gacto2.str.json
-
-Kleio file: /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.cli
-Original file: /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.org
-Previous version: /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.old
-Temp file with ids: /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.ids
-** - /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.cli-renamed to- /kleio-home/sources/china-coimbra/sources/dehergne-repertoire/sources/dehergne-r.old
-=======
 Structure file: /kleio-home/structures/sources.str
 Structure processing report: /kleio-home/structures/sources.srpt
 Structure in JSON: /kleio-home/structures/sources.str.json
@@ -52,7 +35,6 @@ Original file: /kleio-home/sources/dehergne-r.org
 Previous version: /kleio-home/sources/dehergne-r.old
 Temp file with ids: /kleio-home/sources/dehergne-r.ids
 ** - /kleio-home/sources/dehergne-r.cli-renamed to- /kleio-home/sources/dehergne-r.old
->>>>>>> 5dc3fbd10545fa1699b236ac6bf8249072b4471b
 0  errors. 
-0  warnings.
+1  warnings.
 Translation finished.
