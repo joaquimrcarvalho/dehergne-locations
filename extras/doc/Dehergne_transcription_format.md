@@ -4,7 +4,7 @@
 
 ### Ficheiros ###
 
-Produz-se um ficheiro por cada letra, para evitar ficheiros demasiados grandes. 
+Produz-se um ficheiro por cada letra, para evitar ficheiros demasiados grandes.
 
 
 Os ficheiros têm os nomes dehergne-a.cli, dehergne-b.cli, dehergne-c.cli, etc...
@@ -20,7 +20,7 @@ O cabeçalho de cada ficheiro é assim:
         fonte$dehergne-a/1973/Dicionário Biográfico
             /Online archive.org:details:bhsi37
             /obs=Dehergne, Joseph, Répertoire des
-             Jésuites de Chine, 
+             Jésuites de Chine,
              de 1542 à 1800, 1973
 
           lista$dehergne-notices-a/0/0/0
@@ -38,16 +38,16 @@ Exemplo de entrada:
     Abreu, Antonio de (port.) P.                    1
     E. Goa, déc. 1579 (DI XII, 612 n. 54).
     Emb. non prêtre, le 25 mars 1602, sur le S. Valentim ( W 486).
-    V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82). 
+    V. « Negapatami » (Négapatam), 6 janv. 1604, pr. (Lus. 3, 82).
     Il signe Antonius Dabreu.
     M. dans la rivière de « Chincheo », = Changchow (Tchang-tcheou),
-    ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611, 
+    ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, en 1611,
     en route vers le Japon (Schûtte 343; HS 43, 57 dit 1612).
-    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 
-    1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576 
-    (Lus. 43 II, 509v). 
-    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam, 
-    sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce 
+    Pf. 125. (Distinct du Provincial de Portugal de ce nom,
+    1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576
+    (Lus. 43 II, 509v).
+    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, mais à Coulam,
+    sur la côte malabare (Goa 24 II). HS 43a, 2v parle, semble-t-il, de ce
     dernier qu'il reporte à l'an 1612.
 
 Transcrição da informação biográfica
@@ -62,18 +62,18 @@ Transcrição da informação biográfica
         ls$morte/Changchow#no rio, a caminho do Japão/16110000
         ls$dehergne/1
 
-O desdobramento das abreviaturas vem detalhado na p. XIII da obra 
-é recapitulado de forma breve na página imediatamente anterior 
-ao início da entradas (p.1). 
+O desdobramento das abreviaturas vem detalhado na p. XIII da obra
+é recapitulado de forma breve na página imediatamente anterior
+ao início da entradas (p.1).
 
-As secções seguintes detalham a transcrição dos principais 
-atributos das entradas da obra, nem todos presentes no exemplo acima. 
+As secções seguintes detalham a transcrição dos principais
+atributos das entradas da obra, nem todos presentes no exemplo acima.
 
 #### Nome, nacionalidade, posição na hierarquia jesuíta, número de ordem e identificador na base de dados ####
 
-    Abreu, Antonio de (port.) P.                    1   
+    Abreu, Antonio de (port.) P.                    1
 
-Cada entrada é introduzida pelo grupo `n$` seguido do nome por ordem natural (primeiro nome, partículas, apelidos) e um `id` que irá identificar univocamente esta referência na base de dados. 
+Cada entrada é introduzida pelo grupo `n$` seguido do nome por ordem natural (primeiro nome, partículas, apelidos) e um `id` que irá identificar univocamente esta referência na base de dados.
 
 O `id` usa o prefixo "deh-" seguido do nome em minúsculas com hífenes no lugar dos espaços (os identificadores de pessoas não podem ter espaços). O `id` tem de ser único para cada pessoa, de modo que em caso de homonomia tem se produzir ids diferentes, adicionando dígitos (por exemplo, se fosse necessário: `deh-antonio-de-abreu-2`.
 
@@ -90,12 +90,12 @@ Seguem-se a nacionalidade, grau dentro da hierarquia jesuíta e número de ordem
 
 Por vezes a obra indica nomes alternativos pelos quais a pessoa é conhecida e em alguns casos o nome chinês (este em forma romanizada).
 
-Nesse caso criam-se atributos adicionais com o grupo `ls$` 
+Nesse caso criam-se atributos adicionais com o grupo `ls$`
 
     n$Gil de Abreu/id=deh-gil-de-abreu
         ls$nome/Gil d'Abreu
         ls$nome/Gil Dabreu
-            
+
 
     n$Lodovico António Adorno id=deh-ludovico-antonio-adorno
         ls$nome/Adurnus
@@ -108,7 +108,7 @@ Nesse caso criam-se atributos adicionais com o grupo `ls$`
 #### N.,  M. ####
 Nascimento e Morte. Incluem normalmente a data e o lugar. Nem todas as entradas têm.
 
-São registadas sob a forma 
+São registadas sob a forma
 
     ls$nascimento/LOCAL/Data
     ls$morte/LOCAL/DATA
@@ -117,7 +117,7 @@ Em que LOCAL deve ser registado na medida do possível na língua do país. Como
 
 A data atualmente tem de ser registada na forma AAAAMMDD com zeros quando não existe informação de mês ou dia.
 
-    Adorno, Lodovico Antonio Luca (ital.) P.     5 
+    Adorno, Lodovico Antonio Luca (ital.) P.     5
     ...
     N. 28 août 1655, Gênes -E. 2 déc. 1680, Gênes (JS 26, 45v).
     ...
@@ -169,8 +169,8 @@ Notar que este P. aparece no corpo de algumas entradas quando o autor tem inform
 
     Abreu, Joâo de (port.) P. <-----             4
     N. 1635, « Elvensis », Elvas -E. 1648 (Lus. 45, 61v).
-    Emb. 30 mars 1656 sur le Bom Jésus do Carmo (W 1014); 
-    en 1660 était à Goa, mais sujet de la vice-province de Chine (JS 134, 344). 
+    Emb. 30 mars 1656 sur le Bom Jésus do Carmo (W 1014);
+    en 1660 était à Goa, mais sujet de la vice-province de Chine (JS 134, 344).
     P. avant le 30 mars 1656.  <-----
     M. 24 juin 1663, Macao (JS 134, 346 et 352; AHU ms 1659, 108).
     ....
@@ -181,7 +181,7 @@ Notar que este P. aparece no corpo de algumas entradas quando o autor tem inform
         ...
         ls$jesuita-ordenacao-padre/?/16900408/obs=antes de
 
-O P. no corpo da entrada é registado como `ls$jesuita-ordenacao-padre/LOCAL/DATA` 
+O P. no corpo da entrada é registado como `ls$jesuita-ordenacao-padre/LOCAL/DATA`
 
 * Como dito acima o P. associado ao nome no cabeçalho da entrada fica registado como `ls$jesuita-estatuto/padre`. É sempre registado. Tal como na obra, uma entrada com dois P. fica com dois `ls$`, um para o estatuto,outro para a informação de ordenação.
 
@@ -203,14 +203,14 @@ Usamos a forma `ls$jesuita-votos/VOTO/DATA` para registar em que VOTO com os seg
     ls$jesuita-votos/coadjutor espiritual
     ls$jesuita-votos/coadjutor temporal
 
-Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jesuita-votos-local/LOCAL/DATA` 
+Quando a entrada contém também o local dos votos acrescenta-se o grupo `ls$jesuita-votos-local/LOCAL/DATA`
 
 ### Emb. A. arr. Viagens, partidas, chegadas e estadias ###
 
 #### Emb. ####
 
 Embarque para a China, nome do navio e data de embarque. O autor recolhe esta informação da obra de Josef Wicky, _Liste der Jesuiten-Indienfahrer 1541-1758,_ que lista todas as armadas que partiram para a Índia com missionários Jesuítas.
-Wicky atribui um número sequencial a cada armada e outro número, sequencial, a cada missionário. 
+Wicky atribui um número sequencial a cada armada e outro número, sequencial, a cada missionário.
 
 ![Extract de Wicky](./wicky-exemplo.png)
 
@@ -222,7 +222,7 @@ da Costa (37)__.
 
 Para não perder essa informação a informação
 fornecida por Dehergne foi completada com a consulta
-da obra de Wicky, para acrescentar o número da 
+da obra de Wicky, para acrescentar o número da
 armada.
 
 Assim, a informação original de Dehergne é registada
@@ -257,45 +257,45 @@ __Nota__:
 Resposta:
 >É importante ser muito claro no que toca à origem de informação, porque fazemos isto dentro da ideologia da "Ciência Aberta”.
 
->Quem mais tarde veja os dados tem de confiar que está a ver uma transcrição do Dehergne. 
+>Quem mais tarde veja os dados tem de confiar que está a ver uma transcrição do Dehergne.
 
->Nos casos em que completámos ou corrigimos, isso tem que ficar claro num comentário ou no campos de observações. 
+>Nos casos em que completámos ou corrigimos, isso tem que ficar claro num comentário ou no campos de observações.
 
 >De outro modo quem mais tarde comparasse a transcrição com o original impresso não entenderia de onde veio certa informação, o que tiraria confiança no nosso trabalho.
 
->Assim pode fazer por exemplo 
+>Assim pode fazer por exemplo
 
 	ls$embarque/Santa Marta% Dehergne tem "Santa Maria”, corrigido a partir de Wicky
 
 
 #### A. ou arr. ####
 
-Segundo o autor estas abreviaturas indicariam a chegada à China. 
-Mas na verdade a utilização é inconstante e muitas vezes 
+Segundo o autor estas abreviaturas indicariam a chegada à China.
+Mas na verdade a utilização é inconstante e muitas vezes
 o que fica registado é uma sequência de locais onde o missionário
 esteve depois da chegada ao Oriente.  Outras vezes ainda são registadas datas de "partida" de viagens terrestres
 
 Usamos a forma `ls$estadia/LOCAL/DATA`, para registar as referências a permanências em locais.
 
-Adicionalmente, quando existirem informações de "chegadas" ou "partidas" (diferentes do "embarque" em Lisboa para a Índia) usar `ls$partida/DESTINO/ADATA`  e `ls$chegada/LOCAL/DATA`. 
+Adicionalmente, quando existirem informações de "chegadas" ou "partidas" (diferentes do "embarque" em Lisboa para a Índia) usar `ls$partida/DESTINO/ADATA`  e `ls$chegada/LOCAL/DATA`.
 
-É possível que a redação da entrada pelo autor resulte do tipo de informação a que teve acesso. Por vezes tem apenas notícia que alguém estava em determinado local numa determinada data. Nesses casos usamos `ls$estadia`. 
+É possível que a redação da entrada pelo autor resulte do tipo de informação a que teve acesso. Por vezes tem apenas notícia que alguém estava em determinado local numa determinada data. Nesses casos usamos `ls$estadia`.
 
 Outras vezes a informação original deve explicitar que "chegou" a determinado local, ou "partiu" para determinado local. Neses casos usam `ls$chegada`  e `ls$partida` .
 
-Exemplos: 
+Exemplos:
 
-    Adorno, Lodovico Antonio Luca (ital.) P.               5 
+    Adorno, Lodovico Antonio Luca (ital.) P.               5
         .....
         -------
-        Emb. 8 avril 1690 (W 1283) pour la Chine (JS 134, 372); 
-        Kanchow, Kan-tcheou (celui du Kiangsi); au bout de quelques 
-        mois, rentre malade à Macao, puis à Goa. Borg. Lat. 523, 59 
-        le dit arr. 1694 et retourné à Goa en 1695; 
+        Emb. 8 avril 1690 (W 1283) pour la Chine (JS 134, 372);
+        Kanchow, Kan-tcheou (celui du Kiangsi); au bout de quelques
+        mois, rentre malade à Macao, puis à Goa. Borg. Lat. 523, 59
+        le dit arr. 1694 et retourné à Goa en 1695;
         il fit pourtant ses voeux à Kanchow,
         en 1697, v. ci-après.
         -------
-    
+
     n$Lodovico António Adorno/id=deh-ludovico-antonio-adorno
         ...
         ls$embarque/... para a China/16900408
@@ -314,9 +314,9 @@ Resposta: "Repetem-se os registos. Nesses casos deve haver uma entrada do tipo "
 
 ### Cargos e tarefas ligados à ordem ###
 
-Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$jesuita-cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador). 
+Os diferentes cargos exercidos dentro da Companhia de Jesus são registados na forma `ls$jesuita-cargo/CARGO/DATA`. Os cargos são funções institucionais nos quais diferentes pessoas se sucedem ao longo do tempo (provicial, superior, mestre dos noviços, visitador).
 
-Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA` 
+Adicionalmente aos cargos pode acontecer que seja referida a execução de uma "tarefa" ou missão específica, que não corresponde a um cargo institucional permanente. Exemplos: construir uma igreja, organizar uma comunidade, escrever um catecismo. Estes casos registam-se como `ls$jesuita-tarefa/DESCRICAO/DATA`
 
 ### Cargos não ligados à ordem ###
 
@@ -326,7 +326,7 @@ Por vezes os missionários exercem cargos exteriores à ordem, quer na hierarqui
 
 Os principais atributos genéricos, utilizados nas mais variadas fontes, são:
 
-	ls$profissao/PROFISSAO	
+	ls$profissao/PROFISSAO
 	ls$cargo/CARGO
 	ls$titulo/TITULO
 	ls$residencia/LOCAL
@@ -335,7 +335,7 @@ Os principais atributos genéricos, utilizados nas mais variadas fontes, são:
 
 
 A profissão é a área de atividade da pessoa, no sentido atual. Pode exercer ou não, não há normalmente limite para o número de pessoas que exercem a mesma profissão.
-	 
+
 Um cargo é um lugar dentro de uma determinada estrutura funcional, que normalmente é exercido em sucessão por diferentes pessoas (ver acima).
 
 Um título é uma expressão que denota um certo estatuto socio-profissional, mas que não determina necessariamente a profissão, podendo depender de formação académica ou estatuto social (nobreza, por exemplo).
@@ -350,11 +350,11 @@ Assim, a informação "O Doutor João da Silva, médico cardiologista e director
 
 Quanto à residência é normalmente usada no sentido de "residência habitual", o que no caso destes missionários raramente se aplica, porque estão sempre a mudar de local, com breves estadias.
 
-Em todos estes atributos devem-se indicar as datas, se disponíveis, na forma genérica, com zero na data quando é desconhecida. 
+Em todos estes atributos devem-se indicar as datas, se disponíveis, na forma genérica, com zero na data quando é desconhecida.
 
 	ls$ATRIBUTO/VALOR/DATA
 
-Como estamos a tratar com uma fonte secundária, datada de 1973, quando um atributo não tem uma data explicitamente registada na forma acima, assume a data da "fonte", ou seja 1973, o que não é desejável na maior parte dos casos. 
+Como estamos a tratar com uma fonte secundária, datada de 1973, quando um atributo não tem uma data explicitamente registada na forma acima, assume a data da "fonte", ou seja 1973, o que não é desejável na maior parte dos casos.
 
 #### Grau académico ###
 
@@ -364,7 +364,7 @@ Assim usamos `grau-academico` como atributo
 
     ls$grau-academico/Mestre em Artes
 
-Noutras fontes o grau é usado de forma genérica (sem especificar curso, ou áres) como forma de distinção social, um pouco como hoje, em Portugal, se usa "dr." ou "drª". Por exemplo: "O licenciado João da Silva". Nesse caso usamos `ls$titulo/licenciado`. 
+Noutras fontes o grau é usado de forma genérica (sem especificar curso, ou áres) como forma de distinção social, um pouco como hoje, em Portugal, se usa "dr." ou "drª". Por exemplo: "O licenciado João da Silva". Nesse caso usamos `ls$titulo/licenciado`.
 
 ### Forma de registo de locais ###
 
@@ -383,6 +383,13 @@ Noutros casos a fonte pode incluir uma informação mais específica de localiza
 
 Nem sempre será óbvia a forma mais adequada. O objetivo deve ser conseguir que listas alfabéticas de lugares mantenham próximas variações do mesmo lugar e não separem entradas de forma a ser difícil visualizar todas as variantes de um mesmo lugar.
 
+#### Identificação de locais com linked data ####
+
+Para permitir a identificação não âmbígua de locais utilizam-se referências
+de "linked data", que permitem a relação com bases de dados externas com
+informações adicionais.
+
+Esse processo é descrito em documento separado. Ver [Identifying place names](locations_how_to.md)
 
 ### Pessoas referidas ###
 
@@ -393,10 +400,10 @@ A forma de registar essas pessoas é igual ao da pessoa principal, simplesmente 
     Abreu, Antonio de (port.) P.            1
     E. Goa, déc. 1579 (DI XII, 612 n. 54).
     ...
-    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629 
-    N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v). 
-    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611, 
-    mais à Coulam, sur la côte malabare (Goa 24 II). 
+    Pf. 125. (Distinct du Provincial de Portugal de ce nom, 1627-1629
+    N. Lisbonne 1561, E. à Coïmbre 1576 (Lus. 43 II, 509v).
+    Un P. de ce nom meurt dans un naufrage le 31 oct. 1611,
+    mais à Coulam, sur la côte malabare (Goa 24 II).
     HS 43a, 2v parle, semble-t-il, de ce dernier qu'il reporte à l'an 1612.
 
 As últimas linhas incluem referência a duas pessoas adicionais. que foram registadas da seguinte maneira:
@@ -440,7 +447,7 @@ O vocabulário de registo permite o registo de pessoas com uma função que prod
 
 ### Registo do texto integral da referência em obs ###
 
-A entradas incluem para cada item de informação uma série de anotações sobre a fonte utilizada. Normalmente essas informações seriam adicionadas como observações em cada atributo, mas isso iria tornar o registo demasiado moroso. Como a fonte está disponível em texto integral, é mais prático simplesmente copiar o texto integral da entrada como observação ao atributo `ls$dehergne` 
+A entradas incluem para cada item de informação uma série de anotações sobre a fonte utilizada. Normalmente essas informações seriam adicionadas como observações em cada atributo, mas isso iria tornar o registo demasiado moroso. Como a fonte está disponível em texto integral, é mais prático simplesmente copiar o texto integral da entrada como observação ao atributo `ls$dehergne`
 
 Assim na primeira entrada, de António de Abreu ficaria:
 
@@ -453,26 +460,26 @@ Assim na primeira entrada, de António de Abreu ficaria:
             ls$wicky/486/16020325
             ls$jesuita-votos/Negaptattinam%Negapatami (Négapatam)/16040106
             ls$morte/Changchow#no rio, a caminho do Japão/16110000/obs=Talvez 漳州 (Zhangzhou) Fujian
-            ls$dehergne/1/obs="""E. Goa, déc. 1579 (DI XII, 612 n. 54). 
-            Emb. non prêtre, le 25 mars 1602, sur le S. Valentim 
-            (W 486) | V. « Negapatami » (Négapatam), 6 janv. 1604, 
-            pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la 
+            ls$dehergne/1/obs="""E. Goa, déc. 1579 (DI XII, 612 n. 54).
+            Emb. non prêtre, le 25 mars 1602, sur le S. Valentim
+            (W 486) | V. « Negapatami » (Négapatam), 6 janv. 1604,
+            pr. (Lus. 3, 82). Il signe Antonius Dabreu. M. dans la
             rivière de « Chincheo »,m.q. Changchow (Tchang-tcheou),
-            ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien, 
-            en 1611, en route vers le Japon (Schûtte 343; HS 43, 57 
-            dit 1612). Pf. 125. (Distinct du Provincial de Portugal 
+            ou peut-être Chuanchow (Ts'iuen-tcheou), au Fou-kien,
+            en 1611, en route vers le Japon (Schûtte 343; HS 43, 57
+            dit 1612). Pf. 125. (Distinct du Provincial de Portugal
             de ce nom, 1627-1629 N. Lisbonne 1561, E. à Coïmbre 1576
-            (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage 
-            le 31 oct. 1611, mais à Coulam, sur la côte malabare 
-            (Goa 24 II). HS 43a, 2v parle, semble-t-il, 
+            (Lus. 43 II, 509v). Un P. de ce nom meurt dans un naufrage
+            le 31 oct. 1611, mais à Coulam, sur la côte malabare
+            (Goa 24 II). HS 43a, 2v parle, semble-t-il,
             de ce dernier qu'il reporte à l'an 1612."""
 
 
 
 Importante: Para não interferir com a notação kleio é necessário verificar que a entrada copiada
- para o elemento `obs` esteja delimitada por aspas triplas -"""- sempre que contenha os 
- carateres especiais seguintes: $/=#%; . 
- 
+ para o elemento `obs` esteja delimitada por aspas triplas -"""- sempre que contenha os
+ carateres especiais seguintes: $/=#%; .
+
  (originalmente a notação de triplas aspas não estava disponível pelo que a maior parte
  das entrada evita o uso dos caracteres especiais referidos).
 
@@ -480,9 +487,9 @@ Importante: Para não interferir com a notação kleio é necessário verificar 
 
 Acontece que informações referentes à mesma pessoa aparecem em pontos diferentes das fontes. Nesses casos são feitos diferentes registos, no mesmo ficheiro, ou em ficheiros separados, de informação sobre a mesma pessoa histórica.  Na terminologia do Timelink dizemos que a mesma _pessoa real_  têm várias _ocorrências_ na(s) fonte(s).
 
-Embora seja possível registar no interface da base de dados que duas ou mais _ocorrências_ dizem respeito à mesma pessoa, agregando as informações na biografia da _pessoa real_, também é possível fazer essa identificação no momento do registo da fonte, usando o atributo `mesmo_que` ou `xmesmo_que` no registo da pessoa. Em ambas variantes o valor do atributo é o `id` da pessoa que se pretende identificar como sendo a mesma. 
+Embora seja possível registar no interface da base de dados que duas ou mais _ocorrências_ dizem respeito à mesma pessoa, agregando as informações na biografia da _pessoa real_, também é possível fazer essa identificação no momento do registo da fonte, usando o atributo `mesmo_que` ou `xmesmo_que` no registo da pessoa. Em ambas variantes o valor do atributo é o `id` da pessoa que se pretende identificar como sendo a mesma.
 
-A primeira forma é usada para assinalar que uma ocorrência corresponde à mesma pessoa que outra _no mesmo ficheiro_, enquanto a segunda forma serve para assinalar uma identificação entre duas ocorrências em ficheiros diferentes. 
+A primeira forma é usada para assinalar que uma ocorrência corresponde à mesma pessoa que outra _no mesmo ficheiro_, enquanto a segunda forma serve para assinalar uma identificação entre duas ocorrências em ficheiros diferentes.
 
 Exemplo de duas ocorrências referentes à mesma pessao em ficheiros diferentes:
 
@@ -512,7 +519,7 @@ Podemos assinalar que ambas as referências dizem respeito à mesma pessoa do se
         /obs=imperador Kangxi ofereceu epitáfio a Magalhães
         ls$titulo/Imperador da China
 
-Assim o significado de `xmesmo_que=deh-kangxi` é: "esta pessoa é a mesma que noutro ficheiro aparece com o id `deh-kangxi`" 
+Assim o significado de `xmesmo_que=deh-kangxi` é: "esta pessoa é a mesma que noutro ficheiro aparece com o id `deh-kangxi`"
 
 Como dito acima sem em vez de `xmesmo_que` tivessemos escrito `mesmo_que` o tradutor tentaria verificar se no mesmo ficheiro existia de facto uma pessoa com id `deh-kangxi` e assinalaria erro se não a encontrasse.
 
@@ -526,7 +533,7 @@ Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
 
 * Por estas razões normalmente só se usa `xmesmo_que` para anotar re-ocorrências de pessoas relevantes, cujo id seja fácil de memorizar e que apareçam várias vezes (é o caso do Imperador Kangxi, potencialmente). O id fica registado num ficheiro que tem um estatuto preferencial, por exemplo um ficheiro de VIPs. E os outros ficheiros remetem para o id nesse com `xmesmo_que`.
 
-* A variante `mesmo_que` normalmente é usada quando a mesma pessoa aparece mais que uma vez numa fonte, normalmente em pontos próximos. Uma utilização típica é em batismos de gémeos, em que se registam dois batismos cujos pais são os mesmos. Não são normalmente pessoas importantes, mas é util registar nesse momento que são as mesmas pessoas porque mais tarde pode não ser claro. 
+* A variante `mesmo_que` normalmente é usada quando a mesma pessoa aparece mais que uma vez numa fonte, normalmente em pontos próximos. Uma utilização típica é em batismos de gémeos, em que se registam dois batismos cujos pais são os mesmos. Não são normalmente pessoas importantes, mas é util registar nesse momento que são as mesmas pessoas porque mais tarde pode não ser claro.
 
 ### Configurações e atalhos úteis no Visual Studio Code ###
 
@@ -538,7 +545,7 @@ Notas importantes sobre a utilização de `mesmo_que`e `xmesmo_que`
 
 ## Nota sobre os nomes chineses
 
-Na tradução chinesa de 1995 o tradução explica na introdução como lidou com os nomes chineses.
+Na edição chinesa de 1995, o tradutor explica na introdução como lidou com os nomes chineses.
 
     The Jesuits who enter China generally have Chinese names, but except for those who have been in the Chinese Palace and those who have lived in the court and have written books and commentators (especially those who write in Chinese), the Chinese names of the fellows are not easy to find. Therefore, we fully respect the original author’s point of view, and we will use the same names for those foreign Jesuits whose Chinese names are unknown to the author.Transliteration is adopted instead of imitating Chinese names (but sometimes Mr. Feng Chengjun [Pfister?] is also used in the practice of imitation in *The Biography of the Jesuits in China*), put the original name in brackets. Within the number. The transliterated name is for reference only, and the original name should be used accurately [Google translation, editada].
     入 华的耶稣会士们 一般均有汉名，但除那些曾在中国宫廷生活过和曾著书立说者（尤其是以汉文写书者）之外，其他 会士的汉名 则 不大容易査到，所以，我们完全尊重原 作者的 观点，对于作者不知其汉名的那些外国耶稣会士的名字一律 采取音译的办法，不再仿造汉名（但有时也沿用了冯承钧先生 在*入华耶稣会士列传*中仿造的作法），将名字的原文放在括号内。音译名字仅供参考，使用时应以原名为准. p.5
