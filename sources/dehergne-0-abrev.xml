@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-10-18 6:51:52" OBS="" SPACE="">
+<KLEIO STRUCTURE="/kleio-home/sources/dehergne-repertoire/structures/sources.str" SOURCE="/kleio-home/sources/dehergne-repertoire/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2024-10-25 7:28:57" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -12,8 +12,8 @@
      <ATTRIBUTE NAME="replace" COLUMN="replaces" CLASS="replace" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
 </CLASS>
 
-<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="263">
-    <ELEMENT NAME="line" CLASS="line"><core>263</core></ELEMENT>
+<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="264">
+    <ELEMENT NAME="line" CLASS="line"><core>264</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>dehergne-0-abrev</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
@@ -287,10 +287,11 @@
 
 
 
+
 ]]></core>   </ELEMENT>
    <ELEMENT NAME="date" CLASS="date">
          <core><![CDATA[0]]></core>   </ELEMENT>
    <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/dehergne-0-abrev.cli]]></core>   </ELEMENT>
+         <core><![CDATA[/kleio-home/sources/dehergne-repertoire/sources/dehergne-0-abrev.cli]]></core>   </ELEMENT>
 </GROUP>
 </KLEIO>
