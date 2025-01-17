@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=17
+kleio$gacto2.str/translations=18
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin3-7
    fonte$dehergne-locations-1701/1701/geoinformation/obs="""p. 357
 
@@ -426,7 +426,9 @@ kleio$gacto2.str/translations=17
                geo3$Lapa%Lapa (Wan-tchai),Wanzai, @wikidata:Q14342082/tchou-hien/deh-r1701-lapa
                   atr$activa/sim/1701
 
-         geo1$Kweichow%KWEICHOW (actuel GUIZHOU): néant PEKING (actuel HEBEI), Guizhou, @wikidata:Q47097/província/deh-r1701-kweichow
+         geo1$Kweichow%KWEICHOW (actuel GUIZHOU): néant Guizhou, @wikidata:Q47097/província/deh-r1701-kweichow
+
+         geo1$Beijing%Peking, @wikidata:Q956/província/deh-r1701-beijing
 
             geo2$Pequim%Pékin collège St Joseph (1605) ou Si-t'ang (sera appelé Nan-t'ang en 1723, à cause du Si-t'ang fondé pour la Propagande, R), Beijing, @wikidata:Q956/capital provincal/deh-r1701-pequim
                atr$activa/sim/1605/obs=colégio de S. José em Nan-t'ang?
@@ -468,7 +470,7 @@ kleio$gacto2.str/translations=17
                geo3$Kiehsiu%Kiehsiu du Fenchow/tchou-hien/deh-r1701-kiehsiu/obs=la Liste 1701 suppose des R ou R' à Pingyao et Kiehsiu du Fenchow., cf AHSI 1955, 29
                   atr$activa/sim/1701
 
-            geo2$Pingyang#Pingyang Fu, @wikidata:Q15905472, Q73156/fou/deh-r1701-pingyang
+            geo2$Pingyang#Pingyang Fu, @wikidata:Q15905472, Q73156/fou/deh-r1701-pingyang/obs=De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant [Kiehsiu was not added bellow because it is already in the list of Fenchow]]
 
                geo3$Kiangchow#Jiangzhou, @wikidata:Q1197219/tchou-hien/deh-r1701-kiangchow
                   atr$activa/sim/1701
@@ -477,8 +479,6 @@ kleio$gacto2.str/translations=17
                   atr$activa/não/1701
 
                geo3$Hungtung/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-hungtung/obs=cristandade, não residência
-
-               geo3$Kiehsiu/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-kiehsiu-tchou/obs=cristandade, não residência
 
                geo3$Siangling/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-siangling/obs=cristandade, não residência
 
@@ -531,7 +531,7 @@ kleio$gacto2.str/translations=17
                   atr$activa/sim/1701
                   atr$residencia-missao/Franciscanos/1701
 
-         geo1$Shensi%(actuel SHANXI)Shanxi, @wikidata:Q46913/província/deh-r1701-shensi
+         geo1$Shensi%(actuel SHANXI)Shanxi# Hoje Shaanxi para distinguir de deh-r1701-shansi @wikidata:Q46913/província/deh-r1701-shensi
 
             geo2$Sian#Xi'an, @wikidata:Q5826/capital provincial/deh-r1701-sian
                atr$activa/sim/1701
