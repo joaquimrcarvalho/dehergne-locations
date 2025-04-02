@@ -1,5 +1,5 @@
-KleioTranslator - server version 12.6 - build 577 2024-10-24 16:53:53
-25-10-2024 7-30
+KleioTranslator - server version 12.8 - build 591 2025-03-14 12:56:23
+15-3-2025 4-28
 
 Processing data file dehergne-r.cli
 -------------------------------------------
@@ -12,19 +12,14 @@ kleio translation started
 Structure: gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 181
+Translation count: 185
 Obs: 
 ** Processing source fonte$dehergne-r
-31: lista$dehergne-notices-r
-
-WARNING: dehergne-r.cli line 833 Could not link data with @bdcconline:da-rocha-joão; is link$ definition for bdcconline missing?
-Near lines: 833          n$João da Rocha/id=deh-joao-da-rocha#@bdcconline:da-rocha-joão
-Near lines: 834             ls$nacionalidade/Portugal
-
+32: lista$dehergne-notices-r
 *** End of File
 
-Line 353 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-de-siqueira-tcheng) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1785 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-boussel) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 354 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-de-siqueira-tcheng) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1786 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-boussel) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
 Structure file: /kleio-home/sources/dehergne-repertoire/structures/sources.str
 Structure processing report: /kleio-home/sources/dehergne-repertoire/structures/sources.srpt
@@ -36,5 +31,6 @@ Previous version: /kleio-home/sources/dehergne-repertoire/sources/dehergne-r.old
 Temp file with ids: /kleio-home/sources/dehergne-repertoire/sources/dehergne-r.ids
 ** - /kleio-home/sources/dehergne-repertoire/sources/dehergne-r.cli-renamed to- /kleio-home/sources/dehergne-repertoire/sources/dehergne-r.old
 0  errors. 
-1  warnings.
+0  warnings.
+Groups in this file:[referida,rel,mae,mpai,ppai,pai,referido,ls,n,lista,fonte,link,kleio]
 Translation finished.
