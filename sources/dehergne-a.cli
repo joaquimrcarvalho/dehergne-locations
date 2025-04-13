@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=240
+kleio$gacto2.str/translations=242
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-175
    fonte$dehergne-a/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""
       Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra A - Entradas relacionadas com Coimbra.
@@ -10,7 +10,10 @@ kleio$gacto2.str/translations=240
       Franco, A. (1717). Imagem da virtude em o noviciado da Companhia de Jesus na corte de Lisboa ...
                no Real Collegio das Artes da Companhia de Jesus. https://catalog.hathitrust.org/Record/009282180
 
-
+      Golvers, Noël, “Aigenler, Adam”, Conimbricenses.org
+               Encyclopedia, Mário Santiago de Carvalho,
+               Simone Guidi (eds.), doi = “10.5281/zenodo.3355406”,
+               URL = http://www.conimbricenses.org/encyclopedia/aigenler-adam, latest revision: July, 30th, 2019
       """
 
       lista$dehergne-notices-a/0/0/0
@@ -160,11 +163,10 @@ kleio$gacto2.str/translations=240
             ls$nome/Adam Aingenis
             ls$nome/Adam Aingiler
             ls$nascimento/Tramin, diocese de Trento, Tirol, Itália#Tramin an der Weinstraße? @wikidata:Q499114/16331014
-            ls$jesuita-entrada/Landsberg%?#Golvers, 2019 @wikidata:Q39793/16531014/obs=[JRC Entrou em Landsberg, Alemanha segundo "http://www.conimbricenses.org/encyclopedia/aigenler-adam/"]
-            ls$estadia/Brasil# @wikidata:Q155
-            ls$estadia-x/Coimbra# @wikidata:Q45412/16720400
-            ls$estadia-x/Coimbra# @wikidata:Q45412/16730100
-            ls$embarque/[Para a China]/16730315/obs="""[JRC com estadia em Coimbra desde abril 1672 tendo ensinado no Colégio das Artes, aos Jesuítas (não aos alunos regulares, até inícios de 1673) Golvers, Noël, “Aigenler, Adam”, Conimbricenses.org Encyclopedia, Mário Santiago de Carvalho, Simone Guidi (eds.), doi = “10.5281/zenodo.3355406”, URL = “http://www.conimbricenses.org/encyclopedia/aigenler-adam”, latest revision: July, 30th, 2019.]"""
+            ls$jesuita-entrada/Landsberg%?#Golvers, 2019 @wikidata:Q39793/16531014/obs=JRC Entrou em Landsberg, Alemanha segundo Golvers, 2019
+            ls$estadia/Brasil# @wikidata:Q155 [JRC duvidoso ver Golvers, 2019]
+            ls$estadia-x/Coimbra# @wikidata:Q45412/16720400:16739100/obs=Golvers, 2019
+            ls$embarque/[Para a China]/16730315/obs=JRC com estadia em Coimbra desde abril 1672 tendo ensinado no Colégio das Artes, aos Jesuítas (não aos alunos regulares, até inícios de 1673) Golvers, 2019.
             ls$wicky/1146/16730315
             ls$wicky-viagem/99/16730315
             ls$profissao/Professor de Matemática
@@ -172,9 +174,31 @@ kleio$gacto2.str/translations=240
             ls$jesuita-votos/4V/16710202
             ls$jesuita-votos-local/Ingolstadt, Alemanha# @wikidata:Q3004/16710202
             ls$morte/[No mar, a caminho da China]/16730826#de peste contraída ao serviço dos doentes
-            ls$dehergne/9/obs=Algenler, Adam (tyrolien) P. 9 Agenler., Aingenler., Algelen., Aingenls., Aingiler {Lus. 45, 443). N. 14 oct. 1633, Tramin, d. de Trente, au Tyrol -E. 14 oct. 1653. Missionnaire au Brésil, puis Emb. avec le P. Intorcetta pour la Chine, 15 mars 1673 (W 1146)., professeur de mathématique et d'hébreu. V. 2 févr. 1671, Ingolstadt, pr. (Germ. 20, 131). Il signe: Aigenler. M. 26 août 1673, au cours du voyage, de la peste contractée au service des malades (HS 49, 3: Adamus Aingenls., Lus. 45, 443) Pf. 323: Agenler. E. à Landsberg (G. Sup. 23, 298v). Ives, Ronald L., Adam Aigenler's Field Manual, Journal of Geography 52 (Chicago 1953), 291-299., W. K. 225. Munich ms 595, 607.
-            ls$nota/bibliografia/20190730/obs="""
-            Golvers, Noël, “Aigenler, Adam”, Conimbricenses.org Encyclopedia, Mário Santiago de Carvalho, Simone Guidi (eds.), doi = “10.5281/zenodo.3355406”, URL = “http://www.conimbricenses.org/encyclopedia/aigenler-adam”, latest revision: July, 30th, 2019."""
+            ls$dehergne/9/obs="""
+            Algenler, Adam (tyrolien) P. 9 Agenler.,
+            Aingenler., Algelen., Aingenls., Aingiler {[[Lus. 45]], 443).
+            N. 14 oct. 1633, Tramin, d. de Trente, au Tyrol -
+            E. 14 oct. 1653.
+            Missionnaire au Brésil,
+            puis Emb. avec le P. Intorcetta pour la Chine,
+               15 mars 1673 (W 1146).,
+            professeur de mathématique et d'hébreu.
+            V. 2 févr. 1671, Ingolstadt, pr. (Germ. 20, 131).
+            Il signe: Aigenler. M. 26 août 1673,
+               au cours du voyage, de la peste contractée au
+               service des malades (HS 49, 3: Adamus Aingenls.,
+               [[Lus. 45]], 443)
+            Pf. 323: Agenler. [JRC refere que morre depois do Cabo]
+            E. à Landsberg (G. Sup. 23, 298v).
+            Ives, Ronald L., Adam Aigenler's Field Manual,
+               Journal of Geography 52 (Chicago 1953), 291-299.,
+               W. K. 225. Munich ms 595, 607."""
+            atr$nota/bibliografia/20190730/obs="""
+            Golvers, Noël, “Aigenler, Adam”, Conimbricenses.
+            org Encyclopedia, Mário Santiago de Carvalho,
+            Simone Guidi (eds.), doi = “10.5281/zenodo.3355406”,
+            URL = “http://www.conimbricenses.org/encyclopedia/aigenler-adam”,
+            latest revision: July, 30th, 2019."""
 
             referido$Prospero Intorcetta/id=deh-adam-algenler-ref1/obs=Dehergne 414
                rel$sociabilidade/Companheiro/Adam Algenler/deh-adam-algenler/data=16730315
@@ -239,7 +263,7 @@ kleio$gacto2.str/translations=240
             ls$estadia/China%missions en Chine# @wikidata:Q148/17220000
             ls$estadia/China%missions en Chine# @wikidata:Q148/17320000
             ls$estadia/Limchow, Kwangtung%Limchow (Lien-tcheou, actuel Hopu) au Kwangtung# @wikidata:Q1268277/17240000
-            ls$estadia/Kweilin, Kwangsi%Kweilin, (Kouei-lin) Kwangsi # @wikidata:Q189633/17280000
+            ls$estadia/Kweilin, Kwangsi%Kweilin, (Kouei-lin) Kwangsi# @wikidata:Q189633/17280000
             ls$estadia/China# @wikidata:Q148/17340000
             ls$jesuita-cargo/Secretário da província do Japão/17460000
             ls$jesuita-cargo/Procurador/17510000
@@ -441,7 +465,6 @@ kleio$gacto2.str/translations=240
             ls$nome-chines/Mei Ngan-tong Li-Sieou
             ls$nascimento/Trancoso, diocese de Viseu# @wikidata:Q686868/15570000
             ls$jesuita-entrada/Coimbra%?# "Catálogo delos Padres y Hermanos dela Provincia de Portugal a 12 de Enero de 1579" Lus. 39, 3v, estudante de filosofia, 1ºcurso/15760104
-
             ls$embarque/Relíquias/15840410#não padre
             ls$wicky/254/15840410
             ls$wicky-viagem/29/15840410
