@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=82
+kleio$gacto2.str/translations=87
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-58
    fonte$dehergne-k/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra K
 
@@ -68,8 +68,8 @@ kleio$gacto2.str/translations=82
             ls$nascimento/Pequim# @wikidata:Q956/17320119
             ls$estadia/Pequim# @wikidata:Q956/17510107#até
             ls$partida/Paris# @wikidata:Q90/17510107#para fazer os seus estudos no colégio de La Flèche e do Louis-le-Grand
-            ls$estadia/Paris (colégio de La Flèche)# @wikidata:Q90
-            ls$estadia/Paris (colégio Louis-le-Grand)# @wikidata:Q90
+            ls$estadia/Paris (colégio de La Flèche)# @wikidata:Q90/>17510107
+            ls$estadia/Paris (colégio Louis-le-Grand)# @wikidata:Q90/>17510107
             ls$jesuita-entrada/Paris# @wikidata:Q90/17590310
             ls$estadia/Paris# @wikidata:Q90/17650100#até
             ls$estadia/Lorient# @wikidata:Q71724/17650201#até
@@ -81,10 +81,58 @@ kleio$gacto2.str/translations=82
             ls$jesuita-ordenacao-padre/Paris# @wikidata:Q90/17630528
             ls$jesuita-votos/Coadjutor Espiritual/000000
             ls$morte/Pequim#? @wikidata:Q956/17950000#depois de
-            ls$dehergne/425/obs=Kao (il signe d'ordinaire Ko), Aloys (Louis) (chin.) P. 425 Kao Jen (JS 134, 445v: Cao., Co., Cogin., Kao Gin). Pf.: Kao Lei-sseu. N. 19 janv. 1732 à Pékin (BCP 1940, p. 311). Parti le 7 juill. 1751 de Pékin pour faire ses études aux collèges de La Flèche et de Louis-le-Grand à Paris -E. 10 mars 1759, Paris (Fr.) quitte Paris, janv. 1765., emb. avec le P. Et. Yang à Lorient sur le Duc de Choiseul 1 févr. 1765 (AN: Col. F5B 49)., arr. Pékin, où serment 9 mai 1766 (SOCP t. 55, 1765 sq, f 369)., Hukwang 1785 (M 447, 1385). P. 28 mai 1763 à Paris, par Mgr Christophe de Beaumont (Arch. Archev. de Paris, registre des ordinat. 1761-1770 p. 46). V. coadj. spir. M. après 1795, à Pékin? (Streit XII, p. 8., TP 1939, XXXIV, p. 133 n. 1). Fils de Joseph Kao et de Cécile Tchao (Cordier, Mélanges II, 32). Son portrait, fait à Paris, a été montré en 1769 par le ministre Bertin à un Chinois de passage à Paris «qui vous a reconnu» (B. Inst. ms 1521 f° 121).
-            ls$dehergne/425/obs=Le registre d'entrée au noviciat (BN: ms. lat. 10988 p. 33) fait naître Aloysius Co le 8 févr. 1733, et c'est aussi ce que dit le P. Bourgeois (AN: Col. F5A 23 f 96v)., tandis que ce même registre d'entrée fait naître Et. Yang le 19 janv. 1732 pour lequel AN: Col. F5A 23 f° 96 retient la date de 1732. Une confusion entre les deux dates reste possible. Nous avons à Chantilly un gros dossier sur les PP. Ko et Yang, qui corrige ce que l'on savait, entre autres, d'AMiOT, de Cibot et de Collas. Pour n'en citer qu'un exemple, l'Essai sur l'antiquité des Chinois (MCC I, 9-172., X, 222, que Pf. 893, 894, 924 attribue à Cibot est bien de lui, comme le prouve l'autographe de BN: Bréquigny ms 106 (126 pages + 100 pages de notes):
-            ls$dehergne/425/obs=Mémoire sur l'Antiquité des Chinois. Le Catalogue imprimé des manuscrits de Bréquigny, p. 136, attribue, d'après le faux titre, l'Essai sur l'antiquité des Chinois, à un Koff qui n'a jamais existé. Bréquigny 22 f 116 à 165 contient le travail de Ko dont le titre exact est Essay sur l'antiquité de la nation chinoise, avec cette particularité qu'au f° 165v le texte autographe de Ko se continue sans crier gare par l'écriture fort reconnaissable de Cibot jusqu'au folio final 215v. Le f 216 est la lettre originale de Ko publiée dans MCC I, 1-2, avec sa signature terminée par un gribouillis où ils ont cru voir deux F (d'où l'attribution à « Koff »). Cf. Bréquigny 4, 79-184 et Brotier 129, 105-129.
-            ls$dehergne/425/obs=Pf. 923., Dehergne, J., Voyageurs chinois venus à Paris au temps de ta marine à voiles ... MS 23 (1964) 372-397. Du même. Les deux Chinois de Bertin: l'Enquête industrielle de 1764 et les débuts de la collaboration technique francochinoise (thèse), Paris, 1965. La Correspondance littéraire de la Chine (avec Bertin) est en cours de préparation sous la direction du P. Henri BernardMaître. De ce dernier, voir BUA 1949, 151-197, et XII' Congrès international d'Histoire des Sciences, Paris, 1968, Actes XI (1971),
+            ls$dehergne/425/obs="""Kao (il signe d'ordinaire Ko), Aloys (Louis) (chin.) P. 425
+            Kao Jen (JS 134, 445v:
+            Cao., Co., Cogin., Kao Gin).
+            Pf.: Kao Lei-sseu.
+            N. 19 janv. 1732 à Pékin (BCP 1940, p. 311).
+            Parti le 7 juill. 1751 de Pékin pour faire ses études aux collèges de La Flèche et de Louis-le-Grand à Paris
+            -E. 10 mars 1759, Paris (Fr.) quitte Paris, janv. 1765.,
+            emb. avec le P. Et. Yang à Lorient sur le Duc de Choiseul 1 févr. 1765 (AN: Col. F5B 49).,
+            arr. Pékin, où serment 9 mai 1766 (SOCP t. 55, 1765 sq, f 369).,
+            Hukwang 1785 (M 447, 1385).
+            P. 28 mai 1763 à Paris, par Mgr Christophe de Beaumont (Arch. Archev. de Paris, registre des ordinat. 1761-1770 p. 46).
+            V. coadj. spir. M. après 1795, à Pékin? (Streit XII, p. 8., TP 1939, XXXIV, p. 133 n. 1).
+            Fils de Joseph Kao et de Cécile Tchao (Cordier, Mélanges II, 32).
+            Son portrait, fait à Paris, a été montré en 1769 par le ministre Bertin à un Chinois de passage à Paris «qui vous a reconnu» (B. Inst. ms 1521 f° 121).
+
+            Le registre d'entrée au noviciat (BN: ms. lat. 10988 p. 33)
+            fait naître Aloysius Co le 8 févr. 1733, et c'est aussi ce
+            que dit le P. Bourgeois (AN: Col. F5A 23 f 96v)., tandis
+            que ce même registre d'entrée fait naître Et. Yang le 19
+            janv. 1732 pour lequel AN: Col. F5A 23 f° 96 retient la
+            date de 1732. Une confusion entre les deux dates reste
+            possible. Nous avons à Chantilly un gros dossier sur les
+            PP. Ko et Yang, qui corrige ce que l'on savait, entre
+            autres, d'AMiOT, de Cibot et de Collas. Pour n'en citer
+            qu'un exemple, l'Essai sur l'antiquité des Chinois (MCC I,
+            9-172., X, 222, que Pf. 893, 894, 924 attribue à Cibot est
+            bien de lui, comme le prouve l'autographe de BN: Bréquigny
+            ms 106 (126 pages + 100 pages de notes):
+
+            Mémoire sur l'Antiquité des Chinois. Le Catalogue imprimé
+            des manuscrits de Bréquigny, p. 136, attribue, d'après le
+            faux titre, l'Essai sur l'antiquité des Chinois, à un Koff
+            qui n'a jamais existé. Bréquigny 22 f 116 à 165 contient
+            le travail de Ko dont le titre exact est Essay sur
+            l'antiquité de la nation chinoise, avec cette
+            particularité qu'au f° 165v le texte autographe de Ko se
+            continue sans crier gare par l'écriture fort
+            reconnaissable de Cibot jusqu'au folio final 215v. Le f
+            216 est la lettre originale de Ko publiée dans MCC I, 1-2,
+            avec sa signature terminée par un gribouillis où ils ont
+            cru voir deux F (d'où l'attribution à « Koff »). Cf.
+            Bréquigny 4, 79-184 et Brotier 129, 105-129.
+            Pf. 923., Dehergne, J., Voyageurs chinois venus à Paris au
+            temps de ta marine à voiles ... MS 23 (1964) 372-397. Du
+            même. Les deux Chinois de Bertin: l'Enquête industrielle
+            de 1764 et les débuts de la collaboration technique
+            francochinoise (thèse), Paris, 1965. La Correspondance
+            littéraire de la Chine (avec Bertin) est en cours de
+            préparation sous la direction du P. Henri BernardMaître.
+            De ce dernier, voir BUA 1949, 151-197, et XII' Congrès
+            international d'Histoire des Sciences, Paris, 1968, Actes
+            XI (1971),"""
 
             referido$Etienne Yang/id=deh-aloys-kao-ref1/obs=Dehergne 911
                ls$estadia/Lorient# @wikidata:Q71724/17650201#até
