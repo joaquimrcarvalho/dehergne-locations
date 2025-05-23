@@ -1,6 +1,5 @@
 n$Pedro de Alcáçova/m/id=deh-pedro-de-alcacova
   <rel$sociabilidade/Companheiro/Francisco Xavier/deh-pedro-de-alcacova-ref1/
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 288
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Frade/
   ls$nome/Pedro de Alcáceva/
@@ -8,8 +7,8 @@ n$Pedro de Alcáçova/m/id=deh-pedro-de-alcacova
   ls$nome-chines/Chang-Tch'ouan/
   ls$nome-chines/San Chuang/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/
-  ls$estadia/Malaca#@wikidata:Q61089/obs=acompanha S. Francisco Xavier de Goa
-  ls$dehergne/15/obs="""
+  ls$estadia/Malaca#@wikidata:Q61089//obs=acompanha S. Francisco Xavier de Goa
+  ls$dehergne/15//obs="""
                N. vers 1523 -
                E. Coïmbre, 1542., sorti, puis
                E. 2 mai 1548, Goa.
@@ -28,7 +27,7 @@ n$Pedro de Alcáçova/m/id=deh-pedro-de-alcacova
                Streit IV, 1399."""
   ls$nascimento/?/1523#cerca de
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1542
-  ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1542obs=saiu a primeira vez
+  ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1542/obs=saiu a primeira vez
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1548-05-02
   ls$jesuita-entrada/Goa#@wikidata:Q1171/1548-05-02
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1552
@@ -40,14 +39,13 @@ n$Pedro de Alcáçova/m/id=deh-pedro-de-alcacova
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1555
   ls$estadia/Goa#@wikidata:Q1171/1555
   ls$morte/?/1579
-  atr$nota/jrc/2024-05-19obs="""
+  atr$nota/jrc/2024-05-19/obs="""
                Não se entende bem porque é incluído na lista de Dehergne,
                uma vez que só esteve brevemente em Sanchuan.
                Não é referido pelo A. Franco.
                As duas referências de Pfister estão relacionadas com Francisco
                Xavier e a passagem por Sanchuan"""
   referido$Francisco Xavier/m/id=deh-pedro-de-alcacova-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 328
     rel$sociabilidade/Companheiro/Pedro de Alcáçova/deh-pedro-de-alcacova-ref1/
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/
     ls$estadia/Goa#@wikidata:Q1171/
@@ -59,16 +57,13 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   <rel$parentesco/mae/Isabel Ferraz/deh-belchior-nunes-barreto-mae/
   <rel$parentesco/irmao/João Nunes Barreto/deh-belchior-nunes-barreto-irmao/
   <rel$identification/same as/Belchior Nunes Barreto/deh-antonio-diaz-ref2/
-  rel$function-in-act/n/lista/dehergne-notices-n//obs=line: 373
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Melchior Nunes Barreto/
   ls$nome/Belchior Nunhes Barreto/
   ls$nome/Belchior Nugnez Barreto/
   ls$grau-academico/Mestre em Artes/
-  ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q1949022"%Baçaim/
-  ls$estadia-x/Baçaim#@wikidata:Q1949022/
-  ls$dehergne/589/obs="""
+  ls$dehergne/589//obs="""
             Nunes Barreto, Belchior (Melchior) (port.) P. 589
             Nunhes., Nugnez (DI.VIII, 87).
             N. Porto 1519 ou 1520 -
@@ -112,33 +107,35 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1543-03-11
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1543-03-11
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1551
-  ls$estadia/Índia#@wikidata:Q668/1551#Franco diz que partiram de Moçambique no início de Setembro, chegando a Goa sem incidentes Imagem..Coimbra 364%1553obs=[Onde é recebido por Francisco Xavier Franco, Imagem ...Coimbra,I,364 ]
+  ls$estadia/Índia#@wikidata:Q668/1551#Franco diz que partiram de Moçambique no início de Setembro, chegando a Goa sem incidentes Imagem..Coimbra 364%1553/obs=[Onde é recebido por Francisco Xavier Franco, Imagem ...Coimbra,I,364 ]
   ls$jesuita-ordenacao-padre/?/1551#antes de
-  ls$embarque/Esfera#Franco diz "Esperança" Imagem...Coimbra,p.363, não há outra ocorrência de "Esfera"/1551-03-10
+  ls$embarque/Esfera#"""Franco diz "Esperança" Imagem...Coimbra,p.363, não há outra ocorrência de "Esfera""""/1551-03-10
   ls$wicky/31/1551-03-10
   ls$wicky-viagem/5/1551-03-10
-  ls$jesuita-cargo/Vice-provincial das Índias Orientais#inclui Japão/1553obs=[Francisco Rodrigues, 1935,"Vice-provincial de Gôa, p.24"]
+  ls$estadia-x/Baçaim#@wikidata:Q1949022/1553
+  ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q1949022"%Baçaim/1553
+  ls$jesuita-cargo/Vice-provincial das Índias Orientais#inclui Japão/1553/obs="""[Francisco Rodrigues, 1935,"Vice-provincial de Gôa, p.24"]"""
   ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q15175"%Cochim/1554-04-16
-  ls$estadia-x/Cochim#@wikidata:Q15175/1554-04-16obs=[segundo Franco, Imagem ...Coimbra,I,366]
+  ls$estadia-x/Cochim#@wikidata:Q15175/1554-04-16/obs=[segundo Franco, Imagem ...Coimbra,I,366]
   ls$partida-x@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1554-04-16
-  ls$partida-x/Malaca#@wikidata:Q61089/1554-04-16obs=[segundo Franco, Imagem ...Coimbra,I,366]
+  ls$partida-x/Malaca#@wikidata:Q61089/1554-04-16/obs=[segundo Franco, Imagem ...Coimbra,I,366]
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1555
-  ls$estadia/Cantão#@wikidata:Q16572/1555obs=três vezes entre 1555 e 1556 para resgate de cativos portugueses
+  ls$estadia/Cantão#@wikidata:Q16572/1555/obs=três vezes entre 1555 e 1556 para resgate de cativos portugueses
   ls$jesuita-tarefa/Resgata cativos portugueses/1555
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1397551"%Shangchuan/1555-07-15
   ls$estadia/Shangchuan#@wikidata:Q1397551%Sancian/1555-07-15%['meados de julho' segundo Franco, Imagem ...Coimbra,I,371]
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q15175"%Kwangtung/1555-11-23
-  ls$estadia/Kwangtung#@wikidata:Q15175/1555-11-23%deste porto da Chinaobs=[segundo Franco, Imagem ...Coimbra,I,374]
+  ls$estadia/Kwangtung#@wikidata:Q15175/1555-11-23%deste porto da China/obs=[segundo Franco, Imagem ...Coimbra,I,374]
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q6482357"%Lampacao/1555-12
   ls$estadia/Lampacao#@wikidata:Q6482357/1555-12#segundo Franco, Imagem ...Coimbra,I,375%desde Dezembro atte Junho
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1556
   ls$chegada/Japão#@wikidata:Q17/1556#Dehergne mal, tem 1554, ver notas entrada Dehergne
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1556
-  ls$estadia/Cantão#@wikidata:Q16572/1556obs=três vezes entre 1555 e 1556 para resgate de cativos portugueses
+  ls$estadia/Cantão#@wikidata:Q16572/1556/obs=três vezes entre 1555 e 1556 para resgate de cativos portugueses
   ls$jesuita-tarefa/Resgata cativos portugueses/1556
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q6482357"%Lampacao/1556-06
   ls$estadia/Lampacao#@wikidata:Q6482357/1556-06#segundo Franco, Imagem ...Coimbra,I,375%desde Dezembro atte Junho
-  ls$jesuita-tarefa/Funda a missão de Kwangtung/1556-06obs="""
+  ls$jesuita-tarefa/Funda a missão de Kwangtung/1556-06/obs="""
                'deixou em Cantam hum irmao da Companhia, pera aprender a lingoa dos Chins
                o qual se aplicou tanto a ela, que por vencer as dificuldade, com a lida
                enfraqueceu de sorte, que quando o Padre depois voltou de Japan, o achou
@@ -156,28 +153,24 @@ n$Belchior Nunes Barreto/m/id=deh-belchior-nunes-barreto
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1571-08-10
   ls$morte/Goa#@wikidata:Q1171/1571-08-10
   irmao$João Nunes Barreto/m/id=deh-belchior-nunes-barreto-irmao/obs=wicky 55, viagem 9, acompanha João Rodrigues Sainan
-    rel$function-in-act/irmao/lista/dehergne-notices-n//obs=line: 454
     rel$parentesco/irmao/Belchior Nunes Barreto/deh-belchior-nunes-barreto-irmao/
     ls$titulo/Dom/
     ls$cargo/Patriarca da Etiópia/
   pai$Fernão Nunes Barreto/m/id=deh-belchior-nunes-barreto-pai
-    rel$function-in-act/pai/lista/dehergne-notices-n//obs=line: 459
     rel$parentesco/pai/Belchior Nunes Barreto/deh-belchior-nunes-barreto-pai/
     rel$parentesco/marido/Isabel Ferraz/deh-belchior-nunes-barreto-pai/
     ls$ec/c/1704-05-13
   mae$Isabel Ferraz/f/id=deh-belchior-nunes-barreto-mae
     <rel$parentesco/marido/Fernão Nunes Barreto/deh-belchior-nunes-barreto-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-n//obs=line: 460
     rel$parentesco/mae/Belchior Nunes Barreto/deh-belchior-nunes-barreto-mae/
     ls$titulo/Dona/
     ls$ec/c/1704-05-13
 
 n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
-  <rel$identification/same as/Belchior Carneiro/deh-pedro-martins-ref4/
   <rel$identification/same as/Belchior Miguel Carneiro Leitão/deh-luis-de-almeida-ref2/
   <rel$parentesco/pai/Pedro Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-pai/
   <rel$parentesco/mae/Maria Nunes/deh-belchior-miguel-carneiro-leitao-mae/
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 480
+  <rel$identification/same as/Belchior Carneiro/deh-pedro-martins-ref4/
   rel$eclesiastica/Sucede/João Nunes Barreto/deh-belchior-miguel-carneiro-leitao/
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
@@ -185,7 +178,7 @@ n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
   ls$nome/Melchior Carnero/
   ls$nome/Melchior Carneyro/
   ls$cargo/Patriarca da Etiópia/
-  ls$dehergne/143/obs="""
+  ls$dehergne/143//obs="""
                Rever!
                Carneiro Leitão, Belchior Miguel (port.) Mgr. 143
                Melchior Carnero., Carneyro.
@@ -226,8 +219,8 @@ n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
                      1969, passim).,
                DI. III, 829., IV, 882.,-
                Streit IV, 832."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1519
   ls$nascimento/Coimbra#@wikidata:Q45412/1519#cerca de
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1519
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1543-04-25
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1543-04-25
   ls$jesuita-ordenacao-padre/?/1551#antes de
@@ -237,52 +230,46 @@ n$Belchior Miguel Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao
   ls$embarque/S. Filipe/1555-04-01
   ls$wicky/47/1555-04-01
   ls$wicky-viagem/8/1555-04-01
-  ls$cargo/Bispo de Niceia/1555-04-01obs=sagrado pelo arcebispo de Goa em 15601215
+  ls$cargo/Bispo de Niceia/1555-04-01/obs=sagrado pelo arcebispo de Goa em 15601215
   ls$cargo/Coadjutor do Patriarca da Etiópia/1555-04-01
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1555-09-06
   ls$chegada/Goa#@wikidata:Q1171/1555-09-06#ou 15550906
   <rel$eclesiastica/Sagra/Gaspar Jorge de Leão Pereira/deh-belchior-miguel-carneiro-leitao-ref4/1560-12-15
   <rel$eclesiastica/Nomeia/Pio V/deh-belchior-miguel-carneiro-leitao-ref2/1566
-  ls$cargo/Bispo do Japão e da China/1566obs=no final diz «il démissione», será que é deste cargo?
+  ls$cargo/Bispo do Japão e da China/1566/obs=no final diz «il démissione», será que é deste cargo?
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1568-06
   ls$chegada/Macau#@wikidata:Q14773/1568-06
   ls$jesuita-tarefa/Funda o hospital de Macau/1569
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1569
   ls$estadia/Cantão#@wikidata:Q16572/1569#?
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1569
   ls$estadia/Cantão#@wikidata:Q16572/1575
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1582
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
   ls$estadia/Macau#@wikidata:Q14773/1582
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1582
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1583-08-19
   ls$morte/Macau#@wikidata:Q14773/1583-08-19
   referido$João Nunes Barreto/m/id=deh-belchior-miguel-carneiro-leitao-ref1
     <rel$eclesiastica/Sucede/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao/
-    rel$function-in-act/referido/lista/dehergne-notices-c//obs=line: 548
     ls$titulo/Dom/
     ls$cargo/Patriarca da Etiópia/1555-01-23
   referido$Pio V/m/id=deh-belchior-miguel-carneiro-leitao-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-c//obs=line: 552
     rel$eclesiastica/Nomeia/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-ref2/1566
     ls$cargo/Papa/1566
   referido$Leonardo de Sá/m/id=deh-belchior-miguel-carneiro-leitao-ref3
-    rel$function-in-act/referido/lista/dehergne-notices-c//obs=line: 556
     ls$titulo/Dom/
     ls$cargo/Bispo de Macau/1581
-    ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1581
     ls$chegada/Macau#@wikidata:Q14773/1581
+    ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1581
   referido$Gaspar Jorge de Leão Pereira%l'archevêque D. Gaspar/m/id=deh-belchior-miguel-carneiro-leitao-ref4
-    rel$function-in-act/referido/lista/dehergne-notices-c//obs=line: 561
     ls$titulo/Dom/
     rel$eclesiastica/Sagra/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-ref4/1560-12-15
     ls$cargo/Arcebispo de Goa/1560-12-15
   pai$Pedro Carneiro Leitão/m/id=deh-belchior-miguel-carneiro-leitao-pai
-    rel$function-in-act/pai/lista/dehergne-notices-c//obs=line: 567
     rel$parentesco/pai/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-pai/
     rel$parentesco/marido/Maria Nunes/deh-belchior-miguel-carneiro-leitao-pai/
     ls$ec/c/1695-08-15
   mae$Maria Nunes/f/id=deh-belchior-miguel-carneiro-leitao-mae
     <rel$parentesco/marido/Pedro Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-c//obs=line: 569
     rel$parentesco/mae/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao-mae/
     ls$ec/c/1695-08-15
 
@@ -290,14 +277,13 @@ n$Francisco Pérez/m/id=deh-francisco-perez
   <rel$sociabilidade/Companheiro/Manuel Teixeira/deh-francisco-perez-ref1/
   <rel$sociabilidade/Companheiro/André Pinto/deh-francisco-perez-ref2/
   <rel$identification/same as/Francisco Pérez/deh-andre-pinto-ref1/
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 861
   ls$nacionalidade/Espanha/
   ls$jesuita-estatuto/Padre/
   ls$nome/Francisco Peres/
   ls$nome/Francisco Pirez/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/
   ls$estadia/Goa#@wikidata:Q1171/
-  ls$dehergne/628/obs="""
+  ls$dehergne/628//obs="""
                Pérez, Francisco (espagn.) P. 628
                Pères., Pirez (Schutte, 301).
                N. Villanueva de Barcarrota, dioc. de Badajoz (Estramadoure),
@@ -353,58 +339,55 @@ n$Francisco Pérez/m/id=deh-francisco-perez
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1562-04
   ls$partida/Cantão#@wikidata:Q16572/1562-04
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1563-08-29
-  ls$estadia/Macau#@wikidata:Q14773/1563-08-29obs=com a embaixada do vice-rei de Goa vide entradas de Manuel Teixeira e André Pinto
+  ls$estadia/Macau#@wikidata:Q14773/1563-08-29/obs=com a embaixada do vice-rei de Goa vide entradas de Manuel Teixeira e André Pinto
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1564
   ls$estadia/Macau#@wikidata:Q14773/1564
-  ls$jesuita-tarefa/Funda a residência jesuíta de Macau#com o padre Manuel Teixeira e o escolástico André Pinto/1564obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+  ls$jesuita-tarefa/Funda a residência jesuíta de Macau#com o padre Manuel Teixeira e o escolástico André Pinto/1564/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1565-11-21
   ls$estadia/Cantão#@wikidata:Q16572/1565-11-21
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1565-12
   ls$estadia/Macau#@wikidata:Q14773/1565-12
-  ls$jesuita-tarefa/Funda a residência jesuíta de Macau#com o padre Manuel Teixeira e o escolástico André Pinto/1565-12obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+  ls$jesuita-tarefa/Funda a residência jesuíta de Macau#com o padre Manuel Teixeira e o escolástico André Pinto/1565-12/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
   ls$jesuita-cargo/Superior de Macau/1565-12
+  <rel$institucional/Envia a Goa/Gonçalo Álvares/deh-francisco-perez-ref3/1568
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1568
-  ls$estadia/Goa#@wikidata:Q1171/1568obs=mandado pelo visitador Álvares
+  ls$estadia/Goa#@wikidata:Q1171/1568/obs=mandado pelo visitador Álvares
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q695585"%Negapatam/1583-02-22
   ls$morte/Negapatam#@wikidata:Q695585/1583-02-22#15830112 no estilo antigo
   referido$Manuel Teixeira/m/id=deh-francisco-perez-ref1
     <rel$sociabilidade/Companheiro/André Pinto/deh-francisco-perez-ref2/
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 926
     rel$sociabilidade/Companheiro/Francisco Pérez/deh-francisco-perez-ref1/
     rel$identification/same as/Manuel Teixeira/deh-manuel-teixeira/
     rel$sociabilidade/Companheiro/André Pinto/deh-francisco-perez-ref1/
     ls$jesuita-estatuto/Padre/
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1564
     ls$estadia/Macau#@wikidata:Q14773/1564
-    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1564obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1564/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1565-12
     ls$estadia/Macau#@wikidata:Q14773/1565-12
-    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1565-12obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
-  rel$identification/same as/Manuel Teixeira/deh-manuel-teixeira/
+    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1565-12/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+  <rel$identification/same as/Manuel Teixeira/deh-francisco-perez-ref1/
   referido$André Pinto/m/id=deh-francisco-perez-ref2/obs=Dehergne 640
     <rel$sociabilidade/Companheiro/Manuel Teixeira/deh-francisco-perez-ref1/
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 935
     rel$sociabilidade/Companheiro/Francisco Pérez/deh-francisco-perez-ref2/
     rel$sociabilidade/Companheiro/Manuel Teixeira/deh-francisco-perez-ref2/
     ls$jesuita-estatuto/Escolástico/
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1564
     ls$estadia/Macau#@wikidata:Q14773/1564
-    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1564obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1564/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1565-12
     ls$estadia/Macau#@wikidata:Q14773/1565-12
-    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1565-12obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
+    ls$jesuita-tarefa/Funda a residência jesuíta de Macau/1565-12/obs=segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus
   referido$Gonçalo Álvares/m/id=deh-francisco-perez-ref3/obs=Dehergne 30
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 944
     rel$identification/same as/Gonçalo Álvares/deh-goncalo-alvares/
     ls$jesuita-estatuto/Padre/
-    rel$institucional/Envia a Goa/*missing*/deh-francisco-perez-ref3/1568
+    rel$institucional/Envia a Goa/Francisco Pérez/deh-francisco-perez-ref3/1568
     ls$jesuita-cargo/Visitador das Índias/1568
-  rel$identification/same as/Gonçalo Álvares/deh-goncalo-alvares/
+  <rel$identification/same as/Gonçalo Álvares/deh-francisco-perez-ref3/
   referido$Francesco Peres/m/id=deh-francisco-perez-ref4/obs=Mugavero du royaume de Naples?
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 949
     ls$nacionalidade/Itália/
     ls$jesuita-estatuto/Padre/
-    ls$dehergne/628-ref/obs="Ne pas le confondre avec le P. Francesco Pères (ital.) = Mugavero du royaume de Naples, N. 1554, E. 1579, de la province du Japon où il arr. en 1586 et meurt, mai 1602."
+    ls$dehergne/628-ref//obs="Ne pas le confondre avec le P. Francesco Pères (ital.) = Mugavero du royaume de Naples, N. 1554, E. 1579, de la province du Japon où il arr. en 1586 et meurt, mai 1602."
     ls$nascimento/?/1554
     ls$jesuita-entrada/?/1579
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1586
@@ -413,12 +396,11 @@ n$Francisco Pérez/m/id=deh-francisco-perez
     ls$morte/Japão#@wikidata:Q17/1602-05
 
 n$Tibúrcio de Quadros/m/id=deh-tiburcio-de-quadros
-  rel$function-in-act/n/lista/dehergne-notices-q//obs=line: 8
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/António de Quadros/
   ls$nome/Tibúrcio Coadros/
-  ls$dehergne/666/obs="""
+  ls$dehergne/666//obs="""
             Quadros, Tibûrcio, puis Antonio de (port.) P. 666 Coadros (DI. XI, 1723).
             N. Santarém, v. 1528 -
             E. 18 avril 1544, Coïmbre (Lus. 43, 2): Tiburcius de Quadros.
@@ -447,7 +429,7 @@ n$Tibúrcio de Quadros/m/id=deh-tiburcio-de-quadros
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1544-04-18
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1544-04-18
   ls$jesuita-ordenacao-padre/?/1553#antes de
-  ls$jesuita-votos/4V/1553-10-01obs=na presença de D. João III
+  ls$jesuita-votos/4V/1553-10-01/obs=na presença de D. João III
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1553-10-01
   ls$jesuita-votos-local/Lisboa#@wikidata:Q597/1553-10-01
   ls$embarque/Sta. Marta%Dehergne chama-lhe Santa Maria, corrigido a partir de Wicky/1555-04-01
@@ -457,19 +439,18 @@ n$Tibúrcio de Quadros/m/id=deh-tiburcio-de-quadros
   ls$jesuita-cargo/Vice-provincial das Índias Orientais/1556-01-01
   ls$jesuita-cargo/Vice-provincial das Índias Orientais/1556-09-06
   ls$jesuita-cargo/Provincial das Índias Orientais/1559-09-02
-  ls$jesuita-cargo/Superior da China/1559-09-02obs="""
+  ls$jesuita-cargo/Superior da China/1559-09-02/obs="""
                   Nous le citons à titre de supérieur chargé — aussi — de la Chine.
                   Il est le « second fondateur de la Compagnie aux Indes »"""
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1565-09-17
-  ls$estadia/Malaca#@wikidata:Q61089/1565-09-17obs=a caminho da China ou do Japão, mas é forçado a voltar para trás
+  ls$estadia/Malaca#@wikidata:Q61089/1565-09-17/obs=a caminho da China ou do Japão, mas é forçado a voltar para trás
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1800"%Cochim/1566
   ls$estadia/Cochim#@wikidata:Q1800/1566
   ls$jesuita-cargo/Provincial das Índias Orientais/1572-11-21
-  ls$jesuita-cargo/Superior da China/1572-11-21obs=[Por inerência do cargo de Provincial das Índias Orientais]
+  ls$jesuita-cargo/Superior da China/1572-11-21/obs=[Por inerência do cargo de Provincial das Índias Orientais]
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1572-11-21
   ls$morte/Goa#@wikidata:Q1171/1572-11-21
   referido$João III/m/id=deh-tiburcio-de-quadros-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-q//obs=line: 58
     ls$nacionalidade/Portugal/
     ls$titulo/Dom/
     ls$titulo/Rei de Portugal/1553-10-01
@@ -478,14 +459,13 @@ n$Tibúrcio de Quadros/m/id=deh-tiburcio-de-quadros
 
 n$Gonçalo Álvares/m/id=deh-goncalo-alvares
   <rel$identification/same as/Gonçalo Álvares/deh-francisco-perez-ref3/
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 682
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Gonçalo Álvres/
   ls$nome/Gundisalvus/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1800"%Cochim/
-  ls$estadia/Cochim#@wikidata:Q1800/obs=feito prisioneiro na região de Cochim
-  ls$dehergne/30/obs=Alvares (Álvres), Gonçalo (Gundisalvus) (port) P. 30 N. v. 1527, Vila Viçosa -E. 1 janv. 1549, Coïmbre. Nommé visiteur des Indes (et du Japon) le 29 oct. 1567. Emb. le 7 avr. 1568 sur le Chagas (W 117)., déc. 1568, Goa (DI. VII, 572)., fait prisonnier dans la région de Cochin (DI. XII, 940). Arr. Macao, 1572 et y ordonne l'ouverture d'une école élémentaire (DI. IX, 284). Quitte Macao après le 17 juin 1573 pour le Japon. V. Coïmbre (9 et 11) juin 1560, pr. (Lus. 1, 32). M. juill. 1573 noyé avec quatre compagnons venant de Chine (Macao) en vue du Japon. Shutte, 875. Revisto JRC 13-6-2020 Dehergne Franco I, 661.
+  ls$estadia/Cochim#@wikidata:Q1800//obs=feito prisioneiro na região de Cochim
+  ls$dehergne/30//obs=Alvares (Álvres), Gonçalo (Gundisalvus) (port) P. 30 N. v. 1527, Vila Viçosa -E. 1 janv. 1549, Coïmbre. Nommé visiteur des Indes (et du Japon) le 29 oct. 1567. Emb. le 7 avr. 1568 sur le Chagas (W 117)., déc. 1568, Goa (DI. VII, 572)., fait prisonnier dans la région de Cochin (DI. XII, 940). Arr. Macao, 1572 et y ordonne l'ouverture d'une école élémentaire (DI. IX, 284). Quitte Macao après le 17 juin 1573 pour le Japon. V. Coïmbre (9 et 11) juin 1560, pr. (Lus. 1, 32). M. juill. 1573 noyé avec quatre compagnons venant de Chine (Macao) en vue du Japon. Shutte, 875. Revisto JRC 13-6-2020 Dehergne Franco I, 661.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1013623"%Vila Viçosa, diocese de Évora/1527
   ls$nascimento/Vila Viçosa, diocese de Évora#@wikidata:Q1013623/1527#cerca de
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1549-01-01
@@ -504,13 +484,12 @@ n$Gonçalo Álvares/m/id=deh-goncalo-alvares
   ls$jesuita-tarefa/Manda abrir uma escola elementar/1572
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1573-06-17
   ls$partida/Japão#@wikidata:Q17/1573-06-17
-  ls$morte/[A caminho do Japão]#vindo da China/1573-07obs=morre afogado com quatro companheiros no caminho da China para o Japão
+  ls$morte/[A caminho do Japão]#vindo da China/1573-07/obs=morre afogado com quatro companheiros no caminho da China para o Japão
 
 n$Cristóvão da Costa/m/id=deh-cristovao-da-costa
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 2182
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
-  ls$dehergne/209/obs="""
+  ls$dehergne/209//obs="""
             Costa, Cristôvâo da (port.) P. 209
             N. 1529 (ou 1525) -
             E. 3 janv. 1550 (Coïmbre).
@@ -525,38 +504,37 @@ n$Cristóvão da Costa/m/id=deh-cristovao-da-costa
             DI. IV, 887., Bernard, 142-161."""
   ls$jesuita-ordenacao-padre/Goa#@wikidata:Q1171/
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/
-  ls$nascimento/?/1529#ou 15250000
+  ls$nascimento/?/1529#ou 1525
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1550-01-03
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1550-01-03
   ls$embarque/?/1551-03-10
   ls$wicky/37/1551-03-10
   ls$wicky-viagem/5/1551-03-10
   ls$jesuita-votos/3V/1558#antes de
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1561
   ls$estadia/Malaca#@wikidata:Q61089/1561
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1572
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1561
   ls$estadia/Malaca#@wikidata:Q61089/1572
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1575
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q61089"%Malaca/1572
   ls$estadia/Macau#@wikidata:Q14773/1575
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
   ls$estadia/Cantão#@wikidata:Q16572/1575#dois meses
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
   ls$estadia/Cantão#@wikidata:Q16572/1575#um mês
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1576
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1575
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1575
   ls$estadia/Macau#@wikidata:Q14773/1576
   ls$jesuita-cargo/Superior de Macau/1576
-  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1582
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1576
   ls$morte/Macau#@wikidata:Q14773/1582
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1582
 
 n$João Rodrigues de Sainan/m/id=deh-joao-rodrigues-de-sainan/obs="""      REVER é possível que todos estes dados não se refiram ao mesmo, mas Dehergne
   é pouco claro
   """
-  rel$function-in-act/n/lista/dehergne-notices-r//obs=line: 1169
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Bastião Rodrigues/
   ls$nome/Sebastião/
-  ls$dehergne/704a/obs="""
+  ls$dehergne/704a//obs="""
             Rodrigues de Sainan, João (I) P. 704a
             Il était à Macao en 1616, selon JS 26, 19v,
                qui le distingue du suivant, mais ne dit pas s'il a travaillé hors de Macao
@@ -575,34 +553,34 @@ n$João Rodrigues de Sainan/m/id=deh-joao-rodrigues-de-sainan/obs="""      REVER
 
             """
   ls$nascimento/?/1531
-  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1555
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1555
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1555
   ls$embarque/Flor de la Mar/1556-03-30#era noviço
   ls$wicky/58/1556-03-30
   ls$wicky-viagem/9/1556-03-30
   ls$jesuita-votos/Primeiros votos/1557
-  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1557
   ls$jesuita-votos-local/Goa#@wikidata:Q1171/1557
-  ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1564
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1557
   ls$jesuita-ordenacao-padre/Goa#@wikidata:Q1171/1564
+  ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1564
   ls$cargo/Cura/1613
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q7279550"%Rachol/1613
   ls$estadia/Rachol#@wikidata:Q7279550/1613
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q7279550"%Rachol/1613
   ls$estadia/Macau#@wikidata:Q14773/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1616
 
 n$Pedro Martins/m/id=deh-pedro-martins
   <rel$parentesco/pai/Pedro Afonso Martins/deh-pedro-martins-pai/
   <rel$parentesco/mae/Bárbara Fernandes/deh-pedro-martins-mae/
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 790
   rel$sociabilidade/Acompanha a África/Sebastião/deh-pedro-martins/
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$titulo/Monsenhor/
   ls$nome/Pedro Martines/
   ls$cargo/Pregador do rei D. Sebastião/
-  ls$estadia/[Perto de Moçambique]/obs=naufrágio
-  ls$dehergne/524/obs="""
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1029"%[Perto de Moçambique]/
+  ls$estadia/[Perto de Moçambique]#@wikidata:Q1029//obs=naufrágio
+  ls$dehergne/524//obs="""
             Martins (Martines), Pedro (port.) Mgr. 524
             N. Coïmbre, 1542 -E. à l'âge de 14 ans, 25 mai 1556 (Lus. 43, 18v: Pero Miz), Coïmbre.
             Docteur le 26 juill. 1573 à Evora.
@@ -654,13 +632,13 @@ n$Pedro Martins/m/id=deh-pedro-martins
   ls$tarefa/Faz os seus estudos/1573-07-26
   ls$cargo/Missionário/1578
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q52603"%Alcácer-Quibir/1578-08-04
-  ls$estadia/Alcácer-Quibir#@wikidata:Q52603/1578-08-04obs=foi feito prisioneiro
+  ls$estadia/Alcácer-Quibir#@wikidata:Q52603/1578-08-04/obs=foi feito prisioneiro
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q80985"%Fez/1578-08-04
-  ls$estadia/Fez#@wikidata:Q80985/1578-08-04#depois deobs=esteve prisioneiro em Fez por cerca de um ano
+  ls$estadia/Fez#@wikidata:Q80985/1578-08-04#depois de/obs=esteve prisioneiro em Fez por cerca de um ano
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q80985"%Fez/1584
   ls$estadia/Fez#@wikidata:Q80985/1584
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q220"%Roma/1584
-  ls$estadia/Roma#@wikidata:Q220/1584obs=depois de libertado
+  ls$estadia/Roma#@wikidata:Q220/1584/obs=depois de libertado
   ls$embarque/Santiago/1585-04-13
   ls$wicky/255/1585-04-13
   ls$wicky-viagem/30/1585-04-13
@@ -675,7 +653,7 @@ n$Pedro Martins/m/id=deh-pedro-martins
   ls$estadia/Goa#@wikidata:Q1171/1592-02-17
   <rel$eclesiastica/Nomeia/Mateus de Medina/deh-pedro-martins-ref7/1592-04
   <rel$eclesiastica/Nomeia/Nome desconhecido/deh-pedro-martins-ref8/1592-04
-  ls$cargo/Administrador de Macau/1592-04obs=nomeado pelo arcebispo de Goa durante o cativeiro de Mgr de Sá, como [Belchior?] Carneiro e Diogo Valente
+  ls$cargo/Administrador de Macau/1592-04/obs=nomeado pelo arcebispo de Goa durante o cativeiro de Mgr de Sá, como [Belchior?] Carneiro e Diogo Valente
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1593-08
   ls$estadia/Macau#@wikidata:Q14773/1593-08
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1596-07
@@ -687,72 +665,61 @@ n$Pedro Martins/m/id=deh-pedro-martins
   ls$morte/[No mar, a caminho de Malaca]#40 léguas antes de desembarcar/1598-02-13#"=morre de febre «calenturas» foi enterrado em Malaca em 15980218"
   referido$Sebastião/m/id=deh-pedro-martins-ref1
     <rel$sociabilidade/Acompanha a África/Pedro Martins/deh-pedro-martins/
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 865
     ls$titulo/Dom/
     ls$titulo/Rei de Portugal/1578-08-04
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q52603"%Alcácer-Quibir/1578-08-04
     ls$estadia/Alcácer-Quibir#@wikidata:Q52603/1578-08-04
   referido$Alessandro Valignano/m/id=deh-pedro-martins-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 870
     ls$estadia/Goa#@wikidata:Q1171/1586-09
     rel$institucional/Nomeia/Pedro Martins/deh-pedro-martins-ref2/1586-09
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1586-09
   referido$Pedro Argudo/m/id=deh-pedro-martins-ref3
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 874
     ls$nacionalidade/Espanha/
     ls$jesuita-estatuto/Padre/
     ls$nome/Pedro Martins%aux Indes on l'appelait Pedro Martins/
-    ls$dehergne/524-ref3/obs=Distinct du P. Pedro Argudo, N. Valence v. 1533, E. Goa, 1565 et M. en 1568, qu'aux Indes on appelait Pedro Martins (DI. VI, 17*).
+    ls$dehergne/524-ref3//obs=Distinct du P. Pedro Argudo, N. Valence v. 1533, E. Goa, 1565 et M. en 1568, qu'aux Indes on appelait Pedro Martins (DI. VI, 17*).
     ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q8818"%Valença/1533
     ls$nascimento/Valença#@wikidata:Q8818/1533#cerca de
     ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1565
     ls$jesuita-entrada/Goa#@wikidata:Q1171/1565
     ls$morte/?/1568
   referido$Belchior Carneiro/m/id=deh-pedro-martins-ref4/obs=Dehergne 143
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 883
     rel$identification/same as/Belchior Miguel Carneiro Leitão/deh-belchior-miguel-carneiro-leitao/
     ls$jesuita-estatuto/Padre/
     ls$cargo/Bispo do Japão/
     ls$cargo/Administrador de Macau/
   <rel$identification/same as/Belchior Carneiro/deh-pedro-martins-ref4/
   referido$Diogo Valente/m/id=deh-pedro-martins-ref5/obs=Dehergne 194
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 888
     ls$jesuita-estatuto/Padre/
     ls$cargo/Bispo do Japão/
     ls$cargo/Administrador de Macau/
   referido$Leonardo Fernandes de Sá/m/id=deh-pedro-martins-ref6
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 893
     ls$titulo/Monsenhor/
-    ls$cargo/Bispo de Macau/1592-04obs=feito prisioneiro e substituído durante o seu cativeiro por Pedro Martins
+    ls$cargo/Bispo de Macau/1592-04/obs=feito prisioneiro e substituído durante o seu cativeiro por Pedro Martins
   referido$Mateus de Medina/m/id=deh-pedro-martins-ref7/obs=o nome não consta da entrada, mas de acordo com a Catholic Hierarchy seria ele
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 897
     rel$eclesiastica/Nomeia/Pedro Martins/deh-pedro-martins-ref7/1592-04
     ls$cargo/Arcebispo de Goa/1592-04
   referido$Nome desconhecido/m/id=deh-pedro-martins-ref8
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 901
     ls$cargo/Arcebispo de Goa/
     rel$eclesiastica/Nomeia/Pedro Martins/deh-pedro-martins-ref8/1592-04
   pai$Pedro Afonso Martins/m/id=deh-pedro-martins-pai
-    rel$function-in-act/pai/lista/dehergne-notices-m//obs=line: 906
     rel$parentesco/pai/Pedro Martins/deh-pedro-martins-pai/
     rel$parentesco/marido/Bárbara Fernandes/deh-pedro-martins-pai/
     ls$ec/c/
   mae$Bárbara Fernandes/f/id=deh-pedro-martins-mae
     <rel$parentesco/marido/Pedro Afonso Martins/deh-pedro-martins-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-m//obs=line: 908
     rel$parentesco/mae/Pedro Martins/deh-pedro-martins-mae/
     ls$ec/c/
 
 n$Lourenço Mexia/m/id=deh-lourenco-mexia
   <rel$sociabilidade/Companheiro/Alessandro Valignano/deh-lourenco-mexia-ref1/
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 1507
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Lourenço Mexias/
   ls$nome/Lourenço Messia/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q488052"%Olivença, diocese de Elvas/
   ls$estadia/Olivença, diocese de Elvas#durante a sua juventude @wikidata:Q488052/
-  ls$dehergne/552/obs="""
+  ls$dehergne/552//obs="""
             Mexia, Lourenço (port.) P. 552 Mexias., Messia (DI. X, 529).
             N. Evora, août 1539., mais vécut en sa jeunesse « Olivensis », à
             Olivença, dioc. «Elviorum», d'Elvas (qui se trouve, depuis 1801, en
@@ -785,7 +752,7 @@ n$Lourenço Mexia/m/id=deh-lourenco-mexia
   ls$wicky/178/1576-03-07
   ls$wicky-viagem/23/1576-03-07
   rel$institucional/Admoestador/Alessandro Valignano/deh-lourenco-mexia/1579
-  ls$jesuita-cargo/Monitor de Alessandro Valignano/1579obs="""
+  ls$jesuita-cargo/Monitor de Alessandro Valignano/1579/obs="""
                   Reis Correia, P. “Francisco Cabral and Lourenço Mexia in Macao (1582-1584):
                   Two Different Perspectives of Evangelisation in Japan.”
                   Bulletin of Portuguese - Japanese Studies 15 (2007, pp.47-77
@@ -819,20 +786,18 @@ n$Lourenço Mexia/m/id=deh-lourenco-mexia
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1599
   ls$morte/Macau#@wikidata:Q14773/1599
   referido$Alessandro Valignano/m/id=deh-lourenco-mexia-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 1571
     rel$sociabilidade/Companheiro/Lourenço Mexia/deh-lourenco-mexia-ref1/
     ls$jesuita-estatuto/Padre/
     <rel$institucional/Admoestador/Lourenço Mexia/deh-lourenco-mexia/1579
 
 n$Nicolau Pimenta/m/id=deh-nicolau-pimenta
   <rel$parentesco/pai/Nome desconhecido/deh-nicolau-pimenta-pai/
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 1088
   rel$institucional/Envia à China/Bento de Góis/deh-nicolau-pimenta/
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Nicolau Pimienta/
   ls$grau-academico/Mestre em Artes/
-  ls$dehergne/635/obs="""
+  ls$dehergne/635//obs="""
                Pimenta (Pimienta), Nicolau (port.) P. 635
                N. Santarém 6 déc. 1546 -
                E. étant M. A., 2 mai 1562, Coïmbre.
@@ -859,7 +824,7 @@ n$Nicolau Pimenta/m/id=deh-nicolau-pimenta
   ls$jesuita-votos/4V/1586-05-28
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q179948"%Évora/1586-05-28
   ls$jesuita-votos-local/Évora#@wikidata:Q179948/1586-05-28
-  ls$jesuita-cargo/Visitador das Índias Orientais/
+  ls$jesuita-cargo/Visitador das Índias Orientais/1595-11-30#Data inconsistente, alterada para 30-11-1595%31 nov. 1595 (Lus.73.101)
   ls$jesuita-cargo/Visitador das Índias Orientais/1595-12-18
   ls$jesuita-cargo/Visitador das Índias Orientais/1596
   ls$embarque/Conceição/1596-04-10
@@ -867,7 +832,7 @@ n$Nicolau Pimenta/m/id=deh-nicolau-pimenta
   ls$wicky-viagem/39/1596-04-10
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1596-09
   ls$estadia/Goa#@wikidata:Q1171/1596-09
-  ls$jesuita-tarefa/Promotor da missão em África/1601#[com base em Franco, Imagem Coimbra I, 495]obs="""
+  ls$jesuita-tarefa/Promotor da missão em África/1601#[com base em Franco, Imagem Coimbra I, 495]/obs="""
                Segundo Franco (Imagem da Virtude, I, 495 'Estando
                o Padre em Damão [circa Janeiro 1601] sentiu grandes
                impulsos de socorrer os Católicos de Ethiopia. Logo mandou Padres a Dio,
@@ -879,19 +844,81 @@ n$Nicolau Pimenta/m/id=deh-nicolau-pimenta
   ls$morte/Goa (Colégio Novo)#@wikidata:Q1171/1613-03-06
   referido$Bento de Góis/m/id=deh-nicolau-pimenta-ref1/obs=enviado ao Grão Cataio por Nicolau Pimenta
     <rel$institucional/Envia à China/Nicolau Pimenta/deh-nicolau-pimenta/
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 1135
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/
     ls$estadia/China#enviado à descoberta do Grão-Cataio @wikidata:Q148/
   pai$Nome desconhecido/m/id=deh-nicolau-pimenta-pai
-    rel$function-in-act/pai/lista/dehergne-notices-p//obs=line: 1138
     rel$parentesco/pai/Nicolau Pimenta/deh-nicolau-pimenta-pai/
     ls$cargo/Vereador da Câmara de Lisboa/
 
-n$Manuel Gaspar/m/id=deh-manuel-gaspar
-  rel$function-in-act/n/lista/dehergne-notices-g//obs=line: 210
+n$Francisco Vieira/m/id=deh-francisco-vieira
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
-  ls$dehergne/353/obs="""
+  ls$nome/Francisco Vieyra/
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/
+  ls$estadia/Goa#@wikidata:Q1171/
+  ls$jesuita-cargo/Procurador/
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q220"%Roma/
+  ls$estadia/Roma#@wikidata:Q220/
+  ls$dehergne/886//obs=Vieira (Vieyra), Francisco (port.) P. 886 N. Vieira de Braga, ou Vieira do Minho, 1555 -E. févr. 1574 (Lus. 42, 15v., DI. XII, 10). Emb., non prêtre, sur le S. Salvador, 8 avr. 1581 (W 225)., Goa., procureur envoyé à Rome., il en revient sur le S. Roque le 25 mars 1602 (W 450a)., provincial de Goa, 1609-1615., visiteur de Chine et du Japon, 28 janv. 1615 (JS 25, 293), reçoit la patente de visiteur en oct. 1615, part en mai 1616 pour Macao, il y reste juin-juillet 1616., au Japon, août 1618 au 26 oct. 1619., Macao, 5 nov. 1619 à sa mort. P. 1582 -V. Goa, 9 juill. 1595, pr. (Lus. 2, 104). M. 21 déc. 1619 au collège de Macao (HS 42, 29v., JS 17, 154, 158 etc., JS 38, 240). Pf. 105., SchCtte, 1030.
+  ls$dehergne/886//obs=Nous connaissons deux autres Pères de ce nom, l'un N. à Arruda, 1519, E. 1544, arr. 1554 aux Indes., travaille aux Moluques et M. à Ternate, 1561 (DI. III, 26., AnG 775., Stbeit IV, 842). L'autre, emb. en 1560, P. à Goa en 1561, travaille mission d'Amboine et est appelé Francisco Aodriguez (AHSI I, 1932, p. 241 n. 19., DI IV, 923., V, 814 (les deux homonymes)., VIII, 832., X, 551).
+  ls$nascimento/Vieira do Minho#@wikidata:Q551109/1555
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q551109"%Vieira do Minho/15550
+  ls$jesuita-entrada/Coimbra#"""Está no "Catálogo delos Padres y Hermanos dela Provincia de Portugal a 12 de Enero de 1579",Lus. 39 p.3v, nos estudantes de Filosofia do segundo curso"""%?/1574-02
+  ls$embarque/S. Salvador/1581-04-08#não padre
+  ls$wicky/225/1581-04-08
+  ls$wicky-viagem/27/1581-04-08
+  ls$jesuita-ordenacao-padre/?/1582
+  ls$jesuita-votos/4V/1595-07-09
+  ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1595-07-09
+  ls$jesuita-votos-local/Goa#@wikidata:Q1171/1595-07-09
+  ls$embarque/S. Roque/1602-03-25
+  ls$wicky/450a/1602-03-25
+  ls$wicky-viagem/44/1602-03-25
+  ls$jesuita-cargo/Provincial de Goa/1609
+  ls$jesuita-cargo/Provincial de Goa/1615
+  ls$jesuita-cargo/Visitador do Japão e da China/1615-01-28
+  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1616-05
+  ls$partida/Macau#@wikidata:Q14773/1616-05
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1616-06
+  ls$estadia/Macau#@wikidata:Q14773/1616-06
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1616-07
+  ls$estadia/Macau#@wikidata:Q14773/1616-07
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1618-08
+  ls$estadia/Japão#@wikidata:Q17/1618-08
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1619-10-26
+  ls$estadia/Japão#@wikidata:Q17/1619-10-26
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1619-11-05
+  ls$estadia/Macau#@wikidata:Q14773/1619-11-05
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau (colégio)/1619-12-21
+  ls$morte/Macau (colégio)#@wikidata:Q14773/1619-12-21
+  referido$Francisco Vieira/m/id=deh-francisco-vieira-ref1
+    ls$nacionalidade/Portugal/
+    ls$jesuita-estatuto/Padre/
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q3827"%Molucas/
+    ls$estadia/Molucas#@wikidata:Q3827/
+    ls$dehergne/886-ref1//obs=Nous connaissons deux autres Pères de ce nom, l'un N. à Arruda, 1519, E. 1544, arr. 1554 aux Indes., travaille aux Moluques et M. à Ternate, 1561 (DI. III, 26., AnG 775., Stbeit IV, 842).
+    ls$nascimento/Arruda#Arruda dos Vinhos? @wikidata:Q703854/1519
+    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q703854"%Arruda/1519
+    ls$jesuita-entrada/?/1544
+    ls$chegada/Índia#@wikidata:Q668/1554
+    ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1554
+    ls$morte/Ternate, Indonésia#@wikidata:Q333483/1561
+    ls$morte@wikidata/"https://www.wikidata.org/wiki/Q333483"%Ternate, Indonésia/1561
+  referido$Francisco Vieira/m/id=deh-francisco-vieira-ref2
+    ls$nacionalidade/Portugal/
+    ls$jesuita-estatuto/Padre/
+    ls$nome/Francisco Rodriguez/
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q219608"%Ambon, Indonésia/
+    ls$estadia/Ambon, Indonésia#@wikidata:Q219608/
+    ls$dehergne/886-ref2//obs=L'autre, emb. en 1560, P. à Goa en 1561, travaille mission d'Amboine et est appelé Francisco Aodriguez (AHSI I, 1932, p. 241 n. 19., DI IV, 923., V, 814 (les deux homonymes)., VIII, 832., X, 551).
+    ls$embarque/?/1560
+    ls$jesuita-ordenacao-padre/Goa#@wikidata:Q1171/1561
+    ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1561
+
+n$Manuel Gaspar/m/id=deh-manuel-gaspar
+  ls$nacionalidade/Portugal/
+  ls$jesuita-estatuto/Padre/
+  ls$dehergne/353//obs="""
             Gaspar, Manuel (port.) P. 353
             N. 1554, S. Juan de Lobrigos, d. de Porto -
             E. 26 sept. 1575 (Lus. 42, 31 et 44 I, 11).
@@ -927,8 +954,8 @@ n$Manuel Gaspar/m/id=deh-manuel-gaspar
             etiam 370 424 635 6352 681s.3 683”
             ]
             """
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q774911"%São João Batista de Lobrigos, diocese do Porto/1554
   ls$nascimento/São João Batista de Lobrigos, diocese do Porto#@wikidata:Q774911/1554
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q774911"%São João Batista de Lobrigos, diocese do Porto/1554
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1575-09-26
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Schutte, Monumenta historica japoniae I.,p.1180%?/1575-09-26
   ls$embarque/S. Bernardo/1589-04-04
@@ -945,10 +972,46 @@ n$Manuel Gaspar/m/id=deh-manuel-gaspar
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1611-02-10
   ls$estadia/Macau#@wikidata:Q14773/1611-02-10
 
+n$António de Almeida/m/id=deh-antonio-de-almeida
+  ls$nacionalidade/Portugal/
+  ls$jesuita-estatuto/Padre/
+  ls$nome/António de Almeyda/
+  ls$nome-chines/Mei Ngan-tong Li-Sieou/
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/
+  ls$estadia/Macau#@wikidata:Q14773/
+  ls$dehergne/19//obs=Almeida (Almeyda), Antonio de (port.) P. 19 Mei Ngan-tong Li-Sieou (Pf.). N. 1557, Trancoso, près de Vizeu -E. 4 janv. 1576 (Lus. 43 II, 509v). Emb. 10 avril 1584, non prêtre, sur le Reliquias (W 254). A. Macao 31 juill. 1585., en part pour Canton, 8 oct. 1585., du 23 janv. 1586 à juillet, à « Ciquione » (Shaoshing, Chao-hing), Tchô-kiang., retour à Macao., août 1588 à août 1589, « Sciaochino » (Shiuhing, Tchao-k'ing), Kwangtung., 1589, résidence de « Sciaoceo » (Shiuchow, Chao-tcheou), même province., malade, rentre à Macao, fin de 1590 à sept. 1591, où il revient à Shiuchow. P. 25 mars 1585, Goa (D'Elia I, 224., RBS n° 310). M. 17 oct. 1591, Shiuchow (Pf.) (en déc. 1591, écrit JS 11 II, 271. Pf. 42., DHGE (E. M. Rivière)., AnG 602., Schutte, 874., Streit IV, 1979.
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q686868"%Trancoso, diocese de Viseu/1557
+  ls$nascimento/Trancoso, diocese de Viseu#@wikidata:Q686868/1557
+  ls$jesuita-entrada/Coimbra#"Catálogo delos Padres y Hermanos dela Provincia de Portugal a 12 de Enero de 1579" Lus. 39, 3v, estudante de filosofia, 1ºcurso%?/1576-01-04
+  ls$embarque/Relíquias/1584-04-10#não padre
+  ls$wicky/254/1584-04-10
+  ls$wicky-viagem/29/1584-04-10
+  ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1585-03-25
+  ls$jesuita-ordenacao-padre/Goa#@wikidata:Q1171/1585-03-25
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1585-07-31
+  ls$estadia/Macau#@wikidata:Q14773/1585-07-31
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1585-10-08
+  ls$estadia/Cantão#@wikidata:Q16572/1585-10-08
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q706161"%«Ciquione» (Shaoshing, Chao-hing), Tchö-kiang/1586-01-23
+  ls$estadia/«Ciquione» (Shaoshing, Chao-hing), Tchö-kiang#@wikidata:Q706161/1586-01-23
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q59164"%«Sciaochino» (Shiuhing, Tchao-k'ing), Kwangtung/1588-08
+  ls$estadia/«Sciaochino» (Shiuhing, Tchao-k'ing), Kwangtung#@wikidata:Q59164/1588-08
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"%Kwangtung, (Residência de Shiuchow, Chao-tcheou)/1589
+  ls$estadia/Kwangtung, (Residência de Shiuchow, Chao-tcheou)#@wikidata:Q1346617/1589
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q59164"%«Sciaochino» (Shiuhing, Tchao-k'ing), Kwangtung/1589-08
+  ls$estadia/«Sciaochino» (Shiuhing, Tchao-k'ing), Kwangtung#@wikidata:Q59164/1589-08
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1590
+  ls$estadia/Macau#@wikidata:Q14773/1590#fim de, doente
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1591-09
+  ls$estadia/Macau#@wikidata:Q14773/1591-09#até
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"%Shiuchow/1591-09
+  ls$estadia/Shiuchow#@wikidata:Q1346617/1591-09#depois de
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1346617"%Shiuchow/1591-10-17
+  ls$morte/Shiuchow#@wikidata:Q1346617/1591-10-17#ou 15911200
+
 n$João Rodrigues Girão/m/id=deh-joao-rodrigues-girao
   <rel$parentesco/pai/Francisco Girão/deh-joao-rodrigues-girao-pai/
   <rel$parentesco/mae/Beatriz Lourenço/deh-joao-rodrigues-girao-mae/
-  rel$function-in-act/n/lista/dehergne-notices-r//obs=line: 1204
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/João Rodrigues Giram/
@@ -956,17 +1019,17 @@ n$João Rodrigues Girão/m/id=deh-joao-rodrigues-girao
   ls$nome/João Rodrigues Hirão/
   ls$nome/João Roiz Girão/
   ls$nome/Juan Ruis Rodriguez/
-  ls$dehergne/705/obs=Rodrigues Girão, João (port.) (II) P. 705 Giram., Giron., Hirão., Roiz., Juan Ruis Rodrlguez (Streit V, p. 749). N. Alcochete, dioc. de Lisbonne. E. 16 déc. 1576, Coïmbre (JS 25, 114 et Streit V, 1026., Lus. 43 II, 509v). Emb. non prêtre sur le Santiago, 8 avril 1583 (W 236)., son voyage (DI. XII, 866-873)., arr. 1586 au Japon. A Macao de 1614 à 1627. P. vers 1585. -V. en 1599, c. spir. (JS 25, 114). Formules en déficit. M. 15 oct. 1629 (AHU ms 1659). Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615, et de nombreuses annuelles du Japon (et de la Chine), v. g. 1627 (BN Lisboa caixa 30). Il était fils de Francisco Girâo et de Beatriz Lourenço (BEM 1968). Pf. Addenda 23., Boxer, C. R., Boletim Instituto portuguès de Hong-Kong 1950., Streit V, n° 1026., DI.XII, 13., Schutte, 997-998.
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q605319"%Alcochete, diocese de Lisboa/1558
+  ls$dehergne/705//obs=Rodrigues Girão, João (port.) (II) P. 705 Giram., Giron., Hirão., Roiz., Juan Ruis Rodrlguez (Streit V, p. 749). N. Alcochete, dioc. de Lisbonne. E. 16 déc. 1576, Coïmbre (JS 25, 114 et Streit V, 1026., Lus. 43 II, 509v). Emb. non prêtre sur le Santiago, 8 avril 1583 (W 236)., son voyage (DI. XII, 866-873)., arr. 1586 au Japon. A Macao de 1614 à 1627. P. vers 1585. -V. en 1599, c. spir. (JS 25, 114). Formules en déficit. M. 15 oct. 1629 (AHU ms 1659). Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615, et de nombreuses annuelles du Japon (et de la Chine), v. g. 1627 (BN Lisboa caixa 30). Il était fils de Francisco Girâo et de Beatriz Lourenço (BEM 1968). Pf. Addenda 23., Boxer, C. R., Boletim Instituto portuguès de Hong-Kong 1950., Streit V, n° 1026., DI.XII, 13., Schutte, 997-998.
   ls$nascimento/Alcochete, diocese de Lisboa#@wikidata:Q605319/1558#segundo Lourenço & Pinto, 2023, p.30 a partir da idade declarada na entrada no noviciado
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q605319"%Alcochete, diocese de Lisboa/1558
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1576-12-16
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1576-12-16
   ls$embarque/Santiago/1583-04-08#não padre
   ls$wicky/236/1583-04-08
   ls$wicky-viagem/28/1583-04-08
   ls$jesuita-ordenacao-padre/?/1585#cerca de
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1586
   ls$chegada/Japão#@wikidata:Q17/1586
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1586
   ls$jesuita-votos/Coadjutor Espiritual/1599
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1604#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1605#segundo Lourenço & Pinto, p. 30
@@ -974,43 +1037,35 @@ n$João Rodrigues Girão/m/id=deh-joao-rodrigues-girao
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1609#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1610#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1611#segundo Lourenço & Pinto, p. 30
+  ls$estadia/Macau#@wikidata:Q14773/1614/obs=Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615,
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1614
-  ls$estadia/Macau#@wikidata:Q14773/1614obs=Il mérite d'être cité ici, car il a signé la lettre annuelle de Chine du 20 févr. 1615,
   ls$jesuita-tarefa/Carta anual da China/1615-02-20
   ls$jesuita-tarefa/Carta anual da Cochichina de 1619/1620-12-20#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual da Cochichina de 1622/1623-10-22#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1624#segundo Lourenço & Pinto, p. 30
   ls$jesuita-tarefa/Carta anual do Japão%Cartas anuais do Japão, 1604-1606,1609-1611,1624,1626/1626#segundo Lourenço & Pinto, p. 30
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1627
   ls$estadia/Macau#@wikidata:Q14773/1627
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1627
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1477"%Macau/1629-10-15
   ls$morte/Macau#@wikidata:Q1477 segundo Loureço & Pinto, p. 30/1629-10-15
   pai$Francisco Girão/m/id=deh-joao-rodrigues-girao-pai
-    rel$function-in-act/pai/lista/dehergne-notices-r//obs=line: 1237
     rel$parentesco/pai/João Rodrigues Girão/deh-joao-rodrigues-girao-pai/
     rel$parentesco/marido/Beatriz Lourenço/deh-joao-rodrigues-girao-pai/
     ls$ec/c/1588
   mae$Beatriz Lourenço/f/id=deh-joao-rodrigues-girao-mae
     <rel$parentesco/marido/Francisco Girão/deh-joao-rodrigues-girao-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-r//obs=line: 1239
     rel$parentesco/mae/João Rodrigues Girão/deh-joao-rodrigues-girao-mae/
     ls$ec/c/1588
 
 n$João da Rocha/m/id=deh-joao-da-rocha
-  rel$function-in-act/n/lista/dehergne-notices-r//obs=line: 834
+  atr$person:id@bdcconline/"https://www.bdcconline.net/en/stories"#@bdcconline:da-rocha-joão%da-rocha-jo/
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Jean de la Roque/
   ls$nome-chines/Lo Jou-wang/
   ls$nome-chines/Houai-Tchong/
   ls$tarefa/Traduz o catecismo português para chinês/
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68695"%Changchow, Fukien/
-  ls$estadia/Changchow, Fukien#@wikidata:Q68695/
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q662101"%Kiating/
-  ls$estadia/Kiating#@wikidata:Q662101/
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/
-  ls$estadia/Hangchow#@wikidata:Q4970/
-  ls$dehergne/694/obs="""
+  ls$dehergne/694//obs="""
             Rocha, Joâo da (port.) (II) P. 694 « Jean de la Roque » (Semedo, trad. Coulon, 324). Lo Jou-wang, Houal-Tchong (Pf.).
             N. Santiago de Priscos, dioc. de Braga, 1565 (D'Elia I, 383). E. 1583 [Em Coimbra segundo a Carta Anua de 1623].
             Emb. 11 avril 1586 pour les Indes (W 290)., arr. Macao, août 1591.
@@ -1022,10 +1077,10 @@ n$João da Rocha/m/id=deh-joao-da-rocha
             M. Hang-tcheou, 23 mars 1623 (HS 43, 63 dit seulement China, 1623): Gio da Rocca.
             Pf. 67., D'Elia, P. M., Missionari artisti in China, Civ. Catt., 1939, I, 130-139.,
             Gassart, D. de. Congrégations de la Sainte Vierge ... CCS 8 (1935), 3441."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1474626"%Santiago de Priscos, diocese de Braga/1565
   ls$nascimento/Santiago de Priscos, diocese de Braga#Priscos @wikidata:Q1474626/1565
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1474626"%Santiago de Priscos, diocese de Braga/1565
+  ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Em Coimbra no ano de 1582 segundo a Carta Annua de 1623 BA%?/1583/obs=Corrigido: local de entrada
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1583
-  ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Em Coimbra no ano de 1582 segundo a Carta Annua de 1623 BA%?/1583obs=Corrigido: local de entrada
   ls$embarque/[Para a Índia]#partiram nesta data os navios S. Filipe, Caranja e Jesus, Wicky não especifica quem foi em qual/1586-04-11
   ls$wicky/290/1586-04-11
   ls$wicky-viagem/31/1586-04-11
@@ -1036,43 +1091,46 @@ n$João da Rocha/m/id=deh-joao-da-rocha
   ls$estadia/Chao-tcheou#@wikidata:Q1346617/1597-07
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nan-tch'ang fou/1598-06-23
   ls$estadia/Nan-tch'ang fou#@wikidata:Q171943/1598-06-23
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1600
   ls$estadia/Nanquim#@wikidata:Q16666/1600#fim de
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1600
   rel$eclesiastica/Baptiza/K'iu T'ai-Sou/deh-joao-da-rocha/1603
   rel$eclesiastica/Baptiza/Siu Kouang-K'i/deh-joao-da-rocha/1603
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
   ls$estadia/Nanquim#@wikidata:Q16666/1603
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
   ls$jesuita-votos/4V/1604-04-26#ou 27
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1604-04-26
   ls$jesuita-votos-local/Nanquim#@wikidata:Q16666/1604-04-26#ou 27
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nan-tch'ang fou/1609
   ls$estadia/Nan-tch'ang fou#@wikidata:Q171943/1609
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nan-tch'ang fou/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nan-tch'ang fou/1609
   ls$estadia/Nan-tch'ang fou#@wikidata:Q171943/1616
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"%Kien-tch'ang, Kiangsi/1616
   ls$estadia/Kien-tch'ang, Kiangsi#@wikidata:Q11065388/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nan-tch'ang fou/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"%Kien-tch'ang, Kiangsi/1616
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68814"%Changchow, Fukien/16160000.3
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q662101"%Kiating/16160000.3
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/16160000.3
   ls$jesuita-cargo/Superior da missão da China/1622-06
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hang-tcheou/1623-03-23
   ls$morte/Hang-tcheou#@wikidata:Q4970/1623-03-23#referida na Carta ânnua de 1623 Biblioteca da Ajuda, 49-V-6, p.105 [microfilem C0072-]
+  ls$estadia/Changchow, Fukien#@wikidata:Q68814/>1616
+  ls$estadia/Kiating#@wikidata:Q662101/>1616
+  ls$estadia/Hangchow#@wikidata:Q4970/>1616
   referido$K'iu T'ai-Sou/m/id=deh-joao-da-rocha-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-r//obs=line: 877
     <rel$eclesiastica/Baptiza/João da Rocha/deh-joao-da-rocha/1603
-    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
     ls$estadia/Nanquim#@wikidata:Q16666/1603
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
   referido$Siu Kouang-K'i/m/id=deh-joao-da-rocha-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-r//obs=line: 880
     <rel$eclesiastica/Baptiza/João da Rocha/deh-joao-da-rocha/1603
-    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
     ls$estadia/Nanquim#@wikidata:Q16666/1603
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1603
 
 n$Mateus de Couros/m/id=deh-mateus-de-couros
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 2480
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Mateus de Coros/
   ls$nome-japones/Ichiun/
   ls$nome-japones/Josui/
-  ls$dehergne/222/obs="""
+  ls$dehergne/222//obs="""
             Couros (Coros) Mateus de (port.) P. 222
             Au Japon pendant la persécution Ichiun, puis Josui.
             N. Lisbonne, 1569 -
@@ -1084,15 +1142,15 @@ n$Mateus de Couros/m/id=deh-mateus-de-couros
             V. Nangasaki 8 déc. 1602, pr. (Lus. 3, 44).
             M. 12 juill. 1632 au Japon.
             Schutte 907., JS 35, 1-141."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1569
   ls$nascimento/Lisboa#@wikidata:Q597/1569
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1569
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1583-12-22
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412 MMHM:p.94 (ARSI Japsin 35 13)%?/1583-12-22
   ls$embarque/?#partiram nesta data os navios S. Filipe, Caranja e Jesus, Wicky não especifica quem foi em qual/1586-04-11#não padre
   ls$wicky/286/1586-04-11
   ls$wicky-viagem/31/1586-04-11
+  ls$jesuita-ordenacao-padre/Macau#@wikidata:Q14773/1595#ou 1596
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1595
-  ls$jesuita-ordenacao-padre/Macau#@wikidata:Q14773/1595#ou 15960000
   ls$jesuita-votos/4V/1602-12-08
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q38234"%Nagasaki/1602-12-08
   ls$jesuita-votos-local/Nagasaki#@wikidata:Q38234/1602-12-08
@@ -1104,7 +1162,6 @@ n$Mateus de Couros/m/id=deh-mateus-de-couros
   ls$morte/Japão#@wikidata:Q17/1632-07-12
 
 n$João Soeiro/m/id=deh-joao-soeiro
-  rel$function-in-act/n/lista/dehergne-notices-s//obs=line: 1768
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/João Soueiro/
@@ -1113,45 +1170,43 @@ n$João Soeiro/m/id=deh-joao-soeiro
   ls$nome/João Suerio/
   ls$nome/João Sueyro/
   ls$nome-chines/Sou Jou-han (Jou-wang) Tchan Ts'ing/
-  ls$dehergne/801/obs=Soeiro (Soueiro), João (port.) P. 801 Soerio., Sueiro (JS 134, 443)., Suerio (JS 187, 3)., Sueyro. Sou Jou-han (Jou-wang) Tchan-Ts'tag (Pf.). N. Montemor-o-Velho, d. de Coïmbre, 1566 -E. 1584, Coïmbre. Emb. non prêtre, 11 avril 1586 (W 287)., arr. Macao, juill. août 1591., Nanchang (Nan-tch'ang fou), 24 déc. 1595 et 1604 (JS 25, 82)., Macao, mai 1607. P. Macao, v. 1595 (D'Elia I, 373) -V. 1604, pr. (JS 25, 82). M. à Macao, août 1607 (D'Elia III, 264., RBS 269). M. à Kweilin fou, selon JA 49-V-l f 312., à Nanchang, selon Pf.., le 16 août 1605 à Macao (BEM 1968, 672). Son Traité pour l'instruction des catéchumènes est à BN: Courant 6834-6844 et 9201(6).,BN: chin. 9254 est le Traité du Décalogue, dont Pf. ignore le titre chinois. Distinct du P. Juan Soeiro N. « Alcacer Seguer en Africa », 1539, E. 1561, V. 1573, pr. des 3 V. (Lus. 44, 3v). Pf. 56., Simon Walter, Romanisation of Joâo Soeiro, Studia Serica Bernhard Karlgren dedicata, Copenhague 1959, 265-270., Streit V p. 975., XIV, p. 677.
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45815"%Montemor-o-Velho, diocese de Coimbra/1566
+  ls$dehergne/801//obs=Soeiro (Soueiro), João (port.) P. 801 Soerio., Sueiro (JS 134, 443)., Suerio (JS 187, 3)., Sueyro. Sou Jou-han (Jou-wang) Tchan-Ts'tag (Pf.). N. Montemor-o-Velho, d. de Coïmbre, 1566 -E. 1584, Coïmbre. Emb. non prêtre, 11 avril 1586 (W 287)., arr. Macao, juill. août 1591., Nanchang (Nan-tch'ang fou), 24 déc. 1595 et 1604 (JS 25, 82)., Macao, mai 1607. P. Macao, v. 1595 (D'Elia I, 373) -V. 1604, pr. (JS 25, 82). M. à Macao, août 1607 (D'Elia III, 264., RBS 269). M. à Kweilin fou, selon JA 49-V-l f 312., à Nanchang, selon Pf.., le 16 août 1605 à Macao (BEM 1968, 672). Son Traité pour l'instruction des catéchumènes est à BN: Courant 6834-6844 et 9201(6).,BN: chin. 9254 est le Traité du Décalogue, dont Pf. ignore le titre chinois. Distinct du P. Juan Soeiro N. « Alcacer Seguer en Africa », 1539, E. 1561, V. 1573, pr. des 3 V. (Lus. 44, 3v). Pf. 56., Simon Walter, Romanisation of Joâo Soeiro, Studia Serica Bernhard Karlgren dedicata, Copenhague 1959, 265-270., Streit V p. 975., XIV, p. 677.
   ls$nascimento/Montemor-o-Velho, diocese de Coimbra#@wikidata:Q45815/1566
-  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1584
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45815"%Montemor-o-Velho, diocese de Coimbra/1566
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1584
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1584
   ls$embarque/?#partiram nesta data os navios S. Filipe, Caranja e Jesus, Wicky não especifica quem foi em qual/1586-04-11#não padre
   ls$wicky/287/1586-04-11
   ls$wicky-viagem/31/1586-04-11
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1591-07
   ls$chegada/Macau#@wikidata:Q14773/1591-07#ou 15910800
-  ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1595
   ls$jesuita-ordenacao-padre/Macau#@wikidata:Q14773/1595#cerca de
+  ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1595
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nanchang (Nan-tch'ang fou)/1595-12-24
   ls$estadia/Nanchang (Nan-tch'ang fou)#@wikidata:Q171943/1595-12-24
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nanchang (Nan-tch'ang fou)/1604
   ls$estadia/Nanchang (Nan-tch'ang fou)#@wikidata:Q171943/1604
   ls$jesuita-votos/4V/1604
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nanchang (Nan-tch'ang fou)/1604
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1607-05
   ls$estadia/Macau#@wikidata:Q14773/1607-05
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1607-08
   ls$morte/Macau#@wikidata:Q14773/1607-08#ou em Kweilin fou, ou Nanchang, ou 16050816 em Macau
   referido$Juan Soeiro/m/id=deh-joao-soeiro-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 1791
     ls$jesuita-estatuto/Padre/
-    ls$dehergne/801-ref/obs=Distinct du P. Juan Soeiro N. « Alcacer Seguer en Africa », 1539, E. 1561, V. 1573, pr. des 3 V. (Lus. 44, 3v).
-    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q2383366"%Alcácer-Ceguer/1539
+    ls$dehergne/801-ref//obs=Distinct du P. Juan Soeiro N. « Alcacer Seguer en Africa », 1539, E. 1561, V. 1573, pr. des 3 V. (Lus. 44, 3v).
     ls$nascimento/Alcácer-Ceguer#@wikidata:Q2383366/1539
+    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q2383366"%Alcácer-Ceguer/1539
     ls$jesuita-entrada/?/1561
     ls$jesuita-votos/3V/1573
 
 n$Diogo Correia Valente/m/id=deh-diogo-correia-valente/obs=usa o nome da mãe
   <rel$parentesco/pai/Jean de Fonseca/deh-diogo-correia-valente-pai/
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 1914
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$titulo/Monsenhor/
   ls$nome/Diodo Valente/
   ls$nome/Didacus Coreira Valens/
-  ls$dehergne/194/obs="""
+  ls$dehergne/194//obs="""
             Correia Valente, Diogo (port.), Mgr. 194
             Diodo Valente (Lus. 44 I, 293)., Didacus Coreira Valens.
             N. v. 1568, Lisbonne -E. 10 janv. 1584, Coïmbre (Lus. 44, 71v).
@@ -1164,8 +1219,8 @@ n$Diogo Correia Valente/m/id=deh-diogo-correia-valente/obs=usa o nome da mãe
             Macao (JS 21 III, 347). Pf. 183.,
                Manuel Teixeira, Macau e A sua Diocèse, t. II, Macau 1940, p. 98-107.,
                AnG 500. Fils de Jean de Fonseca, il portait le nom de sa mère (Moidrey, p. 9)."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1568
   ls$nascimento/Lisboa#@wikidata:Q597/1568#cerca de
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1568
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1584-01-10
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1584-01-10
   ls$jesuita-ordenacao-padre/?/1600
@@ -1185,16 +1240,14 @@ n$Diogo Correia Valente/m/id=deh-diogo-correia-valente/obs=usa o nome da mãe
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1633-10-28
   ls$morte/Macau#@wikidata:Q14773/1633-10-28
   pai$Jean de Fonseca/m/id=deh-diogo-correia-valente-pai
-    rel$function-in-act/pai/lista/dehergne-notices-c//obs=line: 1949
     rel$parentesco/pai/Diogo Correia Valente/deh-diogo-correia-valente-pai/
 
 n$André Palmeiro/m/id=deh-andre-palmeiro
   <rel$identification/same as/André Palmeiro/deh-gaspar-do-amaral-ref2/
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 180
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/André Palmeyro/
-  ls$dehergne/606/obs="""
+  ls$dehergne/606//obs="""
             Palmeiro (Palmeyro), André (port.) P. 606
 
             N. Lisbonne, 1569 -E. 14 janv. 1584, « âgé de 15 ans » (Lus. 44, 12).
@@ -1245,12 +1298,11 @@ n$André Palmeiro/m/id=deh-andre-palmeiro
   ls$morte/Macau#@wikidata:Q14773/1635-04-04
 
 n$Francisco Pacheco%Bx Francisco Pacheco/m/id=deh-francisco-pacheco
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 60
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4790673"%Arima, Japão/
-  ls$estadia/Arima, Japão#@wikidata:Q4790673/obs=prisioneiro «in odium fidei» e torturado
-  ls$dehergne/602/obs="""
+  ls$estadia/Arima, Japão#@wikidata:Q4790673//obs=prisioneiro «in odium fidei» e torturado
+  ls$dehergne/602//obs="""
             Pacheco, Bx Francisco (port.) P. 602
             N. Ponte de Lima, d. de Braga, 1568 -
             E. 1586, Coïmbre (Lus. 44, 14).
@@ -1291,18 +1343,16 @@ n$Francisco Pacheco%Bx Francisco Pacheco/m/id=deh-francisco-pacheco
   ls$jesuita-cargo/Superior da missão da China/1623#antes desta data, em que foi criada a vice-província da China
   ls$jesuita-cargo/Provincial do Japão/1625-12-02
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1625-12-17
-  ls$estadia/Japão#@wikidata:Q17/1625-12-17obs=capturado na noite de 17 a 18
+  ls$estadia/Japão#@wikidata:Q17/1625-12-17/obs=capturado na noite de 17 a 18
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q38234"%Nagasaki/1626-06-20
-  ls$morte/Nagasaki#@wikidata:Q38234/1626-06-20obs=queimado vivo, foi beatificado em 1864
+  ls$morte/Nagasaki#@wikidata:Q38234/1626-06-20/obs=queimado vivo, foi beatificado em 1864
   <rel$eclesiastica/Beatifica/Pio IX/deh-francisco-pacheco-ref1/1864-07-07
   ls$titulo/Beato/1864-07-07
   referido$Pio IX/m/id=deh-francisco-pacheco-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 100
     rel$eclesiastica/Beatifica/Francisco Pacheco/deh-francisco-pacheco-ref1/1864-07-07
     ls$cargo/Papa/1864-07-07
 
 n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
-  rel$function-in-act/n/lista/dehergne-notices-f//obs=line: 688
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Gaspard Ferreira/
@@ -1313,7 +1363,7 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$nome-chines/Fei Ki-Kouel/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q43684"%Honan/
   ls$estadia/Honan#@wikidata:Q43684/
-  ls$dehergne/303/obs="""
+  ls$dehergne/303//obs="""
                Ferreira, Gaspar (Gaspard) (port.) P. 303
                Ferrerius (JS 134, 300, et 303:
                Ferri» = Ferri).
@@ -1354,39 +1404,38 @@ n$Gaspar Ferreira/m/id=deh-gaspar-ferreira
   ls$estadia/Nanquim#@wikidata:Q16666%Nankin, a caminho de Pequim/1604-08
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1604-08
   ls$chegada/Pequim#@wikidata:Q956/1604-08
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q10887632"%Paoting fou/1607
   ls$estadia/Paoting fou#@wikidata:Q10887632/1607
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nanchang (Nan-tch'ang)/1607
   ls$estadia/Nanchang (Nan-tch'ang)#@wikidata:Q171943/1607
   ls$jesuita-cargo/Mestre dos Noviços/1607
   ls$jesuita-ordenacao-padre/?/1607#cerca de
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q10887632"%Paoting fou/1607
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q171943"%Nanchang (Nan-tch'ang)/1607
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q934465"%Namyung (Nan-hiong)/1607-04-27
   ls$estadia/Namyung (Nan-hiong)#@wikidata:Q934465/1607-04-27#data de transferência
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"%Shiuchow (Chao-tcheou)/1612
   ls$estadia/Shiuchow (Chao-tcheou)#@wikidata:Q1346617/1612
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1346617"%Shiuchow (Chao-tcheou)/1612
   ls$jesuita-votos/4V/1612-11-21
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q934465"%«Nanhiuni» (Namyung)/1612-11-21
   ls$jesuita-votos-local/«Nanhiuni» (Namyung)#@wikidata:Q934465/1612-11-21
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16967"%Tchö-kiang/1617-10-02
   ls$estadia/Tchö-kiang#@wikidata:Q16967/1617-10-02
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"%Kienchang no Kiangsi/1630
   ls$estadia/Kienchang no Kiangsi#@wikidata:Q11065388/1630
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1648
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11065388"%Kienchang no Kiangsi/1630
   ls$estadia/Cantão#@wikidata:Q16572/1648
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1648
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1649-12-27
   ls$morte/Cantão#@wikidata:Q16572/1649-12-27
 
 n$Sebastião Fernandes/m/id=deh-sebastiao-fernandes
   <rel$parentesco/pai/Simão Fernandes/deh-sebastiao-fernandes-pai/
   <rel$parentesco/mae/Maria Brás/deh-sebastiao-fernandes-mae/
-  rel$function-in-act/n/lista/dehergne-notices-f//obs=line: 393
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Bastião Fernandes/
-  ls$dehergne/294/obs=Fernandes, Sebastião (Bastião) (port.) (I) P. 294 N. à Besteiros, d. de Viseu, 1573 -E. Coïmbre, 1591 (Lus. 44, 82). Emb. 5 avril 1597 sur le S. Martinho (pas encore prêtre W 300), pour «les Indes» et Lus. 44 I, 128 le dit alors fr. coadj. Destiné à la Chine en 1603 (D'Elia II, 271 n. 1). M. 30 oct. 1607. HS 43, 58 dit: in Japon. 31 déc. 1607. Fils de Simão Fernandes et de Maria Brás (BEM 1968, p. 673). Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67).
+  ls$dehergne/294//obs=Fernandes, Sebastião (Bastião) (port.) (I) P. 294 N. à Besteiros, d. de Viseu, 1573 -E. Coïmbre, 1591 (Lus. 44, 82). Emb. 5 avril 1597 sur le S. Martinho (pas encore prêtre W 300), pour «les Indes» et Lus. 44 I, 128 le dit alors fr. coadj. Destiné à la Chine en 1603 (D'Elia II, 271 n. 1). M. 30 oct. 1607. HS 43, 58 dit: in Japon. 31 déc. 1607. Fils de Simão Fernandes et de Maria Brás (BEM 1968, p. 673). Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67).
   ls$nascimento/Besteiros, diocese de Viseu/1573
-  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1591
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1591
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1591
   ls$embarque/S. Martinho/1597-04-05#para as Índias, ainda não é padre, frade coadjutor
   ls$wicky/380%Dehergne coloca 300, mas está errado, o 300 é Gaspar de Castro, corrigido a partir de Wicky/1597-04-05
   ls$wicky-viagem/40/1597-04-05
@@ -1394,32 +1443,27 @@ n$Sebastião Fernandes/m/id=deh-sebastiao-fernandes
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1607-10-30
   ls$morte/Japão#? @wikidata:Q17/1607-10-30#ou 16071231
   pai$Simão Fernandes/m/id=deh-sebastiao-fernandes-pai
-    rel$function-in-act/pai/lista/dehergne-notices-f//obs=line: 407
     rel$parentesco/pai/Sebastião Fernandes/deh-sebastiao-fernandes-pai/
     rel$parentesco/marido/Maria Brás/deh-sebastiao-fernandes-pai/
     ls$ec/c/
   mae$Maria Brás/f/id=deh-sebastiao-fernandes-mae
     <rel$parentesco/marido/Simão Fernandes/deh-sebastiao-fernandes-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-f//obs=line: 409
     rel$parentesco/mae/Sebastião Fernandes/deh-sebastiao-fernandes-mae/
     ls$ec/c/
   referido$Sebastião Fernandes/m/id=deh-sebastiao-fernandes-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-f//obs=line: 410
     ls$jesuita-estatuto/Frade Coadjutor/
-    ls$dehergne/294-ref1/obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
-    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q605706"%S. Cosme, diocese do Porto/1546
+    ls$dehergne/294-ref1//obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
     ls$nascimento/S. Cosme, diocese do Porto#@wikidata:Q605706/1546
+    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q605706"%S. Cosme, diocese do Porto/1546
     ls$jesuita-entrada/?/1566
   referido$Sebastião Fernandes/m/id=deh-sebastiao-fernandes-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-f//obs=line: 416
     ls$jesuita-estatuto/Frade Coadjutor/
-    ls$dehergne/294-ref2/obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
-    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1055349"%Cernache, diocese de Coimbra/1537
+    ls$dehergne/294-ref2//obs=Distinct des fr. coadj. de ce nom: N. à S. Cosme, d. de Porto, 1546 et E. 1566 (Lus. 44 I, 179v) et N. à Cernache, 1537, E. 1556 (ibid., 67)
     ls$nascimento/Cernache, diocese de Coimbra#@wikidata:Q1055349/1537
+    ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1055349"%Cernache, diocese de Coimbra/1537
     ls$jesuita-entrada/?/1556
 
 n$Sebastião Vieira/m/id=deh-sebastiao-vieira
-  rel$function-in-act/n/lista/dehergne-notices-v//obs=line: 1249
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1461"%Manila/
@@ -1431,7 +1475,7 @@ n$Sebastião Vieira/m/id=deh-sebastiao-vieira
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q928"%Filipinas/
   ls$estadia/Filipinas#a caminho do Japão @wikidata:Q928/
   ls$dehergne@archive/"https://archive.org/details/bhsi37/page/329/mode/1up"%888/
-  ls$dehergne/888#@archive:329/obs="""
+  ls$dehergne/888#@archive:329//obs="""
             Vieira, Sebastião (port.) P. 888
             N. Castro Dairo, d. de Lamego, 1574 -
             E. 3 févr. 1591 (Lus. 44, 68v).
@@ -1482,16 +1526,16 @@ n$Sebastião Vieira/m/id=deh-sebastiao-vieira
 
 
             """
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q861199"%Castro Daire, diocese de Lamego/1574
   ls$nascimento/Castro Daire, diocese de Lamego#@wikidata:Q861199/1574
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q861199"%Castro Daire, diocese de Lamego/1574
   ls$jesuita-entrada/Coimbra#([Schütte, 1975, p. 1321] Sebastião Vieira, nasc Castro de Aire, Lamego, E. Coimbra 3-2-1591%?/1591-02-03
   ls$jesuita-ordenacao-padre/?/1601
   ls$embarque/Nossa Senhora da Bigonha/1602-03-25
   ls$wicky/469/1602-03-25
   ls$wicky-viagem/44/1602-03-25
   ls$jesuita-cargo/Mestre dos Noviços/1604
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1604
   ls$estadia/Macau#@wikidata:Q14773/1604
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1604
   ls$jesuita-votos/4V/1611-11-27
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q38234"%Nagasaki/1611-11-27
   ls$jesuita-votos-local/Nagasaki#@wikidata:Q38234/1611-11-27
@@ -1523,29 +1567,26 @@ n$Sebastião Vieira/m/id=deh-sebastiao-vieira
   ls$embarque/[Para o Japão]/1629-04-03
   ls$wicky/738a/1629-04-03
   ls$wicky-viagem/67/1629-04-03
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1632
   ls$chegada/Japão#@wikidata:Q17/1632
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q17"%Japão/1632
   ls$jesuita-cargo/Vice-provincial do Japão/1633-08-03
   ls$jesuita-cargo/Vice-provincial do Japão/1634-05#é preso
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1490"%Edo/1634-06-06
   ls$morte/Edo#actual Tóquio, martirizado @wikidata:Q1490/1634-06-06
   referido$Urbano VIII/m/id=deh-sebastiao-vieira-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-v//obs=line: 1338
     ls$cargo/Papa/
     ls$residencia@wikidata/"https://www.wikidata.org/wiki/Q220"%Roma/
     ls$residencia/Roma#@wikidata:Q220/
     rel$eclesiastica/Recebe duas vezes/Sebastião Vieira/deh-sebastiao-vieira-ref1/1626-05
   referido$Cristophe Ferreira/m/id=deh-sebastiao-vieira-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-v//obs=line: 1343
     ls$jesuita-cargo/Vice-provincial do Japão/1633-08-03#até esta data? foi preso nesta data e substituído por Sebastião Vieira?
 
 n$Manuel Dias, o Novo/m/id=deh-manuel-dias-o-novo
-  rel$function-in-act/n/lista/dehergne-notices-d//obs=line: 503
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Yang Ma-no Yen-si/
   ls$tarefa/Traduz para o chinês dos letrados os Evangelhos dos domingos e das festas/
-  ls$dehergne/254/obs="""
+  ls$dehergne/254//obs="""
                Dias, Manuel, o Novo (= junior, le jeune) (port.) (I)
                P. 254 Yang Ma-no Yen-si (Pf.).
                N. 1574 à Castelo-Branco d. de Guarda -
@@ -1624,46 +1665,44 @@ n$Manuel Dias, o Novo/m/id=deh-manuel-dias-o-novo
   ls$morte/Hangchow#@wikidata:Q4970/1659-03-04#a carta anual de 1660 diz 16590301
 
 n$Feliciano da Silva/m/id=deh-feliciano-da-silva
-  rel$function-in-act/n/lista/dehergne-notices-s//obs=line: 1102
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Lin Fei-li Jou Ts'iuan/
-  ls$dehergne/772/obs=Silva, Feliciano da (port.) P. 772 Lin Fei-li Jou Ts'iuan (Pf.). N. 1579, Olivira de Frailes, d. de Viseu -E. 15 déc. 1593, Coïmbre (Lus. 44, 140v). Emb. non prêtre sur le galion Santiago pour les Indes, 11 avril 1601 (W 427)., arr. 1604, Macao., févr. 1605, Nankin., 1608, Macao., 1610, revient en mission: Pékin, 3 mai 1611., Shanghai, sept. 1612., Hangchow, 1612-1614., on l'amène, malade, à Nankin (FR II, 278). M. 9 mai 1614, Nankin (HS 43, 57). Pf. 83., AnG 263. — Feliciano da Silva, Lin Ma-no Neng-Ting, auquel Pf. 305 attribue le n 110 est une erreur, comme il le remarque lui-même en note.
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q861584"%Oliveira de Frades, diocese de Viseu/1579
+  ls$dehergne/772//obs=Silva, Feliciano da (port.) P. 772 Lin Fei-li Jou Ts'iuan (Pf.). N. 1579, Olivira de Frailes, d. de Viseu -E. 15 déc. 1593, Coïmbre (Lus. 44, 140v). Emb. non prêtre sur le galion Santiago pour les Indes, 11 avril 1601 (W 427)., arr. 1604, Macao., févr. 1605, Nankin., 1608, Macao., 1610, revient en mission: Pékin, 3 mai 1611., Shanghai, sept. 1612., Hangchow, 1612-1614., on l'amène, malade, à Nankin (FR II, 278). M. 9 mai 1614, Nankin (HS 43, 57). Pf. 83., AnG 263. — Feliciano da Silva, Lin Ma-no Neng-Ting, auquel Pf. 305 attribue le n 110 est une erreur, comme il le remarque lui-même en note.
   ls$nascimento/Oliveira de Frades, diocese de Viseu#@wikidata:Q861584/1579
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q861584"%Oliveira de Frades, diocese de Viseu/1579
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1593-12-15
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1593-12-15
   ls$embarque/Santiago/1601-04-11#não padre
   ls$wicky/427/1601-04-11
   ls$wicky-viagem/43/1601-04-11
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1604
   ls$chegada/Macau#@wikidata:Q14773/1604
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1604
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1605-02
   ls$estadia/Nanquim#@wikidata:Q16666/1605-02
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1608
   ls$estadia/Macau#@wikidata:Q14773/1608
-  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1610
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1608
   ls$partida/China#@wikidata:Q148/1610#1610 revient en mission
+  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1610
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1611-05-03
   ls$estadia/Pequim#@wikidata:Q956/1611-05-03
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1612
   ls$estadia/Hangchow#@wikidata:Q4970/1612
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1612
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q8686"%Shanghai/1612-09
   ls$estadia/Shanghai#@wikidata:Q8686/1612-09
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1614
   ls$estadia/Hangchow#@wikidata:Q4970/1614
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1614
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1614-05-09
   ls$morte/Nanquim#@wikidata:Q16666/1614-05-09#on l'amène malade à Nankin
 
 n$António de Andrade/m/id=deh-antonio-de-andrade
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 1009
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5451"%Himalaias/
   ls$estadia/Himalaias#o primeiro Europeu a visitar os Himalaias @wikidata:Q5451/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q2658740"%Tsaparang, Tibete/
   ls$estadia/Tsaparang, Tibete#@wikidata:Q2658740/
-  ls$dehergne/39/obs="""
+  ls$dehergne/39//obs="""
                Andrade, António de (port.) P. 39
                N. 1580, Vila-de-Oleiros, prieuré de Crato du Castel-Branco.
                E. 16 déc. 1596, Coïmbre (Lus. 44, 143v).
@@ -1692,7 +1731,7 @@ n$António de Andrade/m/id=deh-antonio-de-andrade
                Esteves Pereira, O Descobrimento do Tibet ... (1624), Estudo Histôrico, Coïmbre, 1921.
                Le Nuevo descubrimiento del Gran Catayo a été réédité à Madrid, 1947.
                Streit V, n° 263."""
-  atr$nota/jrc/obs="""
+  atr$nota/jrc//obs="""
                   Sweet, M. J. (2016). Murder in the Refectory: The Death of António de Andrade,
                         S.J. The Catholic Historical Review, 102(1), 26–45.
                         https://doi.org/10.1353/cat.2016.0069
@@ -1724,14 +1763,13 @@ n$António de Andrade/m/id=deh-antonio-de-andrade
   ls$morte/Goa#@wikidata:Q1171/1634-03-19#envenenado
 
 n$Simão da Cunha/m/id=deh-simao-da-cunha
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 2691
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Simão a Cugna/
   ls$nome/Simão de Acuna/
   ls$nome-chines/K'iu Si-man Fou-Yi/
   ls$grau-academico/Mestre em Artes/
-  ls$dehergne/232/obs="""
+  ls$dehergne/232//obs="""
             Cunha, Simão da (port.) P. 232 a Cugna., De Acuna (JS 161, 364v).
             K'iu Si-man Fou-Yi (Pf.., Borg. Lat. 523 f° 57: K'iu Si-man).
             N. Coïmbre 1589 (47 ans en 1636, JS 134, 311v etc).
@@ -1749,24 +1787,24 @@ n$Simão da Cunha/m/id=deh-simao-da-cunha
             M. 4 sept. 1660, Macao (JS 25, 179v, et 48, 28)
             (HS 48, 128: le 4 oct. 1660., AHU ms 1659, f° 108 dit bien 4 sept. 1660,
             mais il l'appelle par distraction Simâo da Silva, visiteur). Pf. 198."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1589
   ls$nascimento/Coimbra#@wikidata:Q45412/1589
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1589
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1606-01-13
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Dehergne não especifica local, Brockey estudos Filosofia e Teologia em Coimbra%?/1606-01-13
   ls$wicky-viagem/57/1618-04#meados do mês, 16180416 segundo Dehergne
   ls$embarque/S. Carlos#para a Índia, segundo Wicky/1618-04-16
   ls$wicky/647/1618-04-16
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1624
   ls$chegada/Hangchow#@wikidata:Q4970/1624
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1624
   ls$jesuita-votos/4V/1626-12-02
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"%Fukien/1629
   ls$estadia/Fukien#@wikidata:Q41705/1629
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q41705"%Fukien/1629
   ls$idade/47/1636
   ls$jesuita-cargo/Superior das residências de Kienning fou etc/1648
   ls$jesuita-cargo/Procurador da Vice-província da China#por 10 anos, de 1648 a 1658?/1648
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1337959"%Yenping (Yen-p'ing), Fukien/1657
   ls$estadia/Yenping (Yen-p'ing), Fukien#@wikidata:Q1337959/1657
   ls$jesuita-cargo/Vice-provincial da China/1657
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1337959"%Yenping (Yen-p'ing), Fukien/1657
   ls$jesuita-cargo/Procurador da Vice-província da China#por 10 anos, de 1648 a 1658?/1658
   ls$jesuita-cargo/Vice-provincial da China/1659
   ls$jesuita-cargo/Visitador do Japão e da China/1659-01-16#ou 16581028
@@ -1780,19 +1818,14 @@ n$Simão da Cunha/m/id=deh-simao-da-cunha
   ls$morte/Macau#@wikidata:Q14773/1660-09-04#ou 16601004
 
 n$António de Gouveia%António de Gouvea/m/id=deh-antonio-de-gouvea
-  rel$function-in-act/n/lista/dehergne-notices-g//obs=line: 1014
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/António de Gouveia/
   ls$nome/Antonio Govea/
   ls$nome-chines/Ho Ta-HouaTö-Tch'ouan/
   ls$nome-chines/Lo Ta-Hoa/
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/
-  ls$estadia/Hangchow#@wikidata:Q4970/
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1014420"%Wuchang (Wou-tch'ang fou)/
-  ls$estadia/Wuchang (Wou-tch'ang fou)#@wikidata:Q1014420/
   ls$profissao/Historiador/
-  ls$dehergne/381/obs="""
+  ls$dehergne/381//obs="""
                Gouvea, Antonio de (port.) P. 381
                Gouveia., Govea.
                Ho Ta-Houa
@@ -1827,12 +1860,12 @@ n$António de Gouveia%António de Gouvea/m/id=deh-antonio-de-gouvea
                Vak Hee, Le Bouddha et les premiers missionnaires Jésuites, Asia Major 10 (Leipzig, 1935), 365-367.,
                Pontes, M. de L. Belchior, A Asia Extrema do Padre A. de G., Revista da Faculdade de Letras 22 (Lisboa, 1956),
                271-286., AnG 710., Streit V n° 2396."""
-  atr$nota/bibliografia/obs="""
+  atr$nota/bibliografia//obs="""
             Gomes, Cristina Costa. “Writing on Chinese History:
                António de Gouveia and The Monarchiada China (1654).” Orientis Aura 3 (2018): 17–32.
                 [com muito detalhe e investigação de fontes]
  """
-  ls$nascimento/Casal, diocese de Viseu#ILOC/1592#@wikidata:Q599317 ou Gouveia, diocese de Coimbra em 15940000, segundo Lus. 44 II ver Gomes, “Writing on Chinese History: António de Gouveia and The Monarchiada China (1654).”obs=""" segundo Gouvea, A. de, & Araújo, H. P. de. (1998). Cartas ânuas da China: (1636, 1643 a 1649). Instituto Português do Oriente; Biblioteca Nacional; JRC.
+  ls$nascimento/Casal, diocese de Viseu#ILOC/1592#@wikidata:Q599317 ou Gouveia, diocese de Coimbra em 1594, segundo Lus. 44 II ver Gomes, “Writing on Chinese History: António de Gouveia and The Monarchiada China (1654).”/obs=""" segundo Gouvea, A. de, & Araújo, H. P. de. (1998). Cartas ânuas da China: (1636, 1643 a 1649). Instituto Português do Oriente; Biblioteca Nacional; JRC.
             p. 19, Travancinha apud Conimbriam, [sendo que
             Travancinha perto de Gouveia] """
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1608-05-02
@@ -1841,35 +1874,38 @@ n$António de Gouveia%António de Gouvea/m/id=deh-antonio-de-gouvea
   ls$embarque/[Para a Índia]/1623-03-24
   ls$wicky/686/1623-03-24
   ls$wicky-viagem/61/1623-03-24
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1624
   ls$estadia/Goa#@wikidata:Q1171/1624
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1636
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1624
   ls$estadia/China#@wikidata:Q148/1636
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1636
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/16360000.3
   ls$jesuita-votos/4V/1646-07-14#completados a 16460727
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q68481"%Fukien/1646-07-14
   ls$jesuita-votos-local/Fukien#@wikidata:Q68481/1646-07-14
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow (Fou-tcheou fou), Fukien/1648
-  ls$estadia/Foochow (Fou-tcheou fou), Fukien#@wikidata:Q68481/1648
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1656
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1014420"%Wuchang (Wou-tch'ang fou)/16479999.7
+  ls$estadia/Foochow (Fou-tcheou fou)#@wikidata:Q68481 Fukien/1648
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow (Fou-tcheou fou)/1648
   ls$estadia/Foochow, Fukien#@wikidata:Q68481/1656
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1665
-  ls$estadia/Foochow, Fukien#@wikidata:Q68481/1665obs=preso na perseguição e enviado para o Cantão
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1665
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1656
+  ls$estadia/Foochow, Fukien#@wikidata:Q68481/1665/obs=preso na perseguição e enviado para o Cantão
   ls$estadia/Cantão#@wikidata:Q16572/1665#em 1666 «appliqué à province du Japon»
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1665
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1665
   ls$jesuita-cargo/Visitador#durante 8 meses [não aparece na lista de Francisco Rodrigues, A Companhia de Jesus...p.45.]/1666#segundo JS 134, 348 [data inferida a partir da data de morte]
   ls$jesuita-cargo/Vice-provincial da China/1669#em Foochow
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1669
   ls$estadia/Foochow, Fukien#@wikidata:Q68481/1669
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1669
   ls$jesuita-cargo/Vice-provincial da China/1672#em Foochow
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1672
   ls$estadia/Foochow, Fukien#@wikidata:Q68481/1672
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1672
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow, Fukien/1677-02-14
   ls$morte/Foochow, Fukien#@wikidata:Q68481/1677-02-14
+  ls$estadia/Wuchang (Wou-tch'ang fou)#@wikidata:Q1014420/<1648
+  ls$estadia/Hangchow#@wikidata:Q4970/>1636
 
 n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   <rel$parentesco/pai/Diogo Fernandes de Amaral/deh-gaspar-do-amaral-pai/
   <rel$parentesco/mae/Domingas Francica/deh-gaspar-do-amaral-mae/
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 720
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$jesuita-tarefa-x/Ensinar latim em Bragança/
@@ -1878,8 +1914,8 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   ls$jesuita-tarefa-x/Ensinar latim em Évora/
   ls$grau-academico-x/Estudante de Teologia#[Adicionado a partir de Franco, Imagem...Coimbra, II, 522]/
   ls$estadia-x@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/
-  ls$estadia-x/Macau#@wikidata:Q14773 para aprender japonês, segundo Franco, Imagem...Coimbra, II, p.522/obs=[Esteve com André Palmeiro em Macau, Franco, Imagem...Coimbra, II, p.522]
-  ls$dehergne/32/obs="""
+  ls$estadia-x/Macau#@wikidata:Q14773 para aprender japonês, segundo Franco, Imagem...Coimbra, II, p.522//obs=[Esteve com André Palmeiro em Macau, Franco, Imagem...Coimbra, II, p.522]
+  ls$dehergne/32//obs="""
             Amaral, Gaspar do (port.) P. 32
             N. 1592 « Covaceira », Curvaceira (Carvalheira?) d. Vizeu
             -E. 1 juin 1608 à l'âge de 14 ans.
@@ -1911,7 +1947,7 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   <rel$sociabilidade/esteve com/António Cardim/deh-gaspar-do-amaral-ref3/1623
   <rel$sociabilidade/esteve com/António de Fontes/deh-gaspar-do-amaral-ref4/1623
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"%Tonquim/1623
-  ls$estadia/Tonquim#@wikidata:Q622778/1623obs=[com os padres António Cardim e António de Fontes, Franco, Imagem...Coimbra, II, p.522]
+  ls$estadia/Tonquim#@wikidata:Q622778/1623/obs=[com os padres António Cardim e António de Fontes, Franco, Imagem...Coimbra, II, p.522]
   ls$jesuita-tarefa/Faz mais de 40000 baptismos no Tonquim/1623#[data inferida]
   ls$embarque/?/1623-03-24
   ls$wicky/684/1623-03-24
@@ -1929,30 +1965,26 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
   ls$jesuita-cargo/Vice-provincial do Japão/1645
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1645
   ls$estadia/Macau#@wikidata:Q14773/1645
-  ls$morte/[Perto de Hainan]#naufrágio, a caminho de Tonquim/1646-02-26
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q42200"%[Perto de Hainan]/1646-02-26
+  ls$morte/[Perto de Hainan]#naufrágio, a caminho de Tonquim @wikidata:Q42200/1646-02-26
   pai$Diogo Fernandes de Amaral/m/id=deh-gaspar-do-amaral-pai
-    rel$function-in-act/pai/lista/dehergne-notices-a//obs=line: 771
     rel$parentesco/pai/Gaspar do Amaral/deh-gaspar-do-amaral-pai/
     rel$parentesco/marido/Domingas Francica/deh-gaspar-do-amaral-pai/
     ls$ec/c/
   mae$Domingas Francica/f/id=deh-gaspar-do-amaral-mae
     <rel$parentesco/marido/Diogo Fernandes de Amaral/deh-gaspar-do-amaral-pai/
-    rel$function-in-act/mae/lista/dehergne-notices-a//obs=line: 773
     rel$parentesco/mae/Gaspar do Amaral/deh-gaspar-do-amaral-mae/
     ls$ec/c/
   referido$António do Amaral/m/id=deh-gaspar-do-amaral-ref1/obs=[Franco, Imagem...Coimbra, II, p.522]
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 774
     ls$jesuita-estatuto/Padre/
     rel$parentesco/irmao/Gaspar do Amaral/deh-gaspar-do-amaral-ref1/1592
   referido$André Palmeiro/m/id=deh-gaspar-do-amaral-ref2/obs=[Franco, Imagem...Coimbra, II, p.522]
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 778
     rel$identification/same as/André Palmeiro/deh-andre-palmeiro/
     ls$jesuita-estatuto/Padre/
     ls$jesuita-cargo/Primeiro Superior da Companhia/
     rel$sociabilidade/esteve com/Gaspar do Amaral/deh-gaspar-do-amaral-ref2/1623
   <rel$identification/same as/André Palmeiro/deh-gaspar-do-amaral-ref2/
   referido$António Cardim/m/id=deh-gaspar-do-amaral-ref3/obs=[Franco, Imagem...Coimbra, II, p.522]
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 783
     rel$identification/same as/António Francisco Cardim/deh-antonio-francisco-cardim/
     ls$jesuita-estatuto/Padre/
     rel$sociabilidade/esteve com/Gaspar do Amaral/deh-gaspar-do-amaral-ref3/1623
@@ -1971,12 +2003,10 @@ n$Gaspar do Amaral/m/id=deh-gaspar-do-amaral
                  (Cat. l. Jap. 1648); 1005 (legitime absens a Co ngr. Prov. Japon. 9.-22. Sept. 1638,
                   Macai habita)» ([Schütte, 1975, p. 1175])
                """
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 800
     ls$jesuita-estatuto/Padre/
     rel$sociabilidade/esteve com/Gaspar do Amaral/deh-gaspar-do-amaral-ref4/1623
 
 n$Francisco Furtado/m/id=deh-francisco-furtado
-  rel$function-in-act/n/lista/dehergne-notices-f//obs=line: 1704
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Francisco Furtatus/
@@ -1984,7 +2014,7 @@ n$Francisco Furtado/m/id=deh-francisco-furtado
   ls$nome-chines/Fou Fan-tsi T'i-Tchai/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q662101"%Kiating, Kiangnan/
   ls$estadia/Kiating, Kiangnan#@wikidata:Q662101/
-  ls$dehergne/342/obs="""
+  ls$dehergne/342//obs="""
             Furtado, Francisco (port.) P. 342
             Furtatus (JS 134, 300).,
             Hurtado (Borg. lot. 523, 58).
@@ -2009,46 +2039,45 @@ n$Francisco Furtado/m/id=deh-francisco-furtado
             M. 21 nov. 1653, Macao (HS 48, 41: Furtadus).
             Pf. 151.,
             Streit V, n» 2148, XIVi p. 650."""
-  ls$jesuita-cargo/Visitador do Japão e da China/#nomeado a 16460908?
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q657187"%Ilha do Faial, Açores/1589
   ls$nascimento/Ilha do Faial, Açores#@wikidata:Q657187/1589
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q657187"%Ilha do Faial, Açores/1589
+  ls$jesuita-entrada/Coimbra#"""@wikidata:Q45412 """Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3""""""%?/1610
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1610
-  ls$jesuita-entrada/Coimbra#"@wikidata:Q45412 """Franco, Imagem...Coimbra, v.2 p.616; Barbosa Machado, v.3""""%?/1610
   ls$jesuita-ordenacao-padre/?/1616#cerca de
   ls$embarque/S. Carlos/1618-04#meio do mês
   ls$wicky/646/1618-04
   ls$wicky-viagem/57/1618-04#meados do mês
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1619-07-15
   ls$chegada/Macau#@wikidata:Q14773/1619-07-15
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1625
   ls$estadia/Hangchow#@wikidata:Q4970/1625
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1625
   ls$jesuita-votos/4V/1626-05-03
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q4970"%Hangchow/1626-05-03
   ls$jesuita-votos-local/Hangchow#@wikidata:Q4970/1626-05-03
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q47974"%Shensi/1630
   ls$estadia/Shensi#@wikidata:Q47974/1630
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5826"%Sian (Si-ngan fou, residência)/1631
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q47974"%Shensi/1630
   ls$estadia/Sian (Si-ngan fou, residência)#@wikidata:Q5826/1631
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q5826"%Sian (Si-ngan fou, residência)/1631
   ls$jesuita-cargo/Vice-provincial da China do Norte/1635#patente de 16321212
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q18097"%Coreia/1640
   ls$estadia/Coreia#@wikidata:Q18097/1640#abandona a Coreia para a província do Japão
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q18097"%Coreia/1640
   ls$jesuita-cargo/Vice-provincial da China do Norte/1641
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1641
   ls$estadia/Pequim#@wikidata:Q956/1641
   ls$jesuita-cargo/Superior das seis residências do Norte/1641
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14105968"%Puchow, Shansi/1646
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1641
   ls$estadia/Puchow, Shansi#@wikidata:Q14105968/1646
-  ls$jesuita-cargo/Vice-provincial da China do Sul/1646-09-08obs=Dehergne escreve esta data, mas acrescenta «en fait de 1650 à sa mort»?
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14105968"%Puchow, Shansi/1647
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14105968"%Puchow, Shansi/1646
+  ls$jesuita-cargo/Vice-provincial da China do Sul/1646-09-08/obs=Dehergne escreve esta data, mas acrescenta «en fait de 1650 à sa mort»?
+  ls$jesuita-cargo/Visitador do Japão e da China/1646-09-08#nomeado a 16460908?
   ls$estadia/Puchow, Shansi#@wikidata:Q14105968/1647
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1650
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14105968"%Puchow, Shansi/1647
   ls$estadia/Pequim#@wikidata:Q956/1650
   ls$jesuita-cargo/Superior das seis residências do Norte/1650
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1650
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1653-11-21
   ls$morte/Macau#@wikidata:Q14773/1653-11-21
 
 n$Sebastião da Maia/m/id=deh-sebastiao-da-maia
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 403
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Sebastião de Amaya/
@@ -2057,7 +2086,7 @@ n$Sebastião da Maia/m/id=deh-sebastiao-da-maia
   ls$grau-academico/Mestre em Artes/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/
   ls$estadia/Macau#@wikidata:Q14773/
-  ls$dehergne/510/obs=Maia (Amaya), Sebastião da (port.) P. 510 Da Maia., de Amaya., de Amaga (dit Martini, Pf. 283)., d'Amaia. N. 1597, Lisbonne -E. étant M. A., en 1611 (Lus. 44 II, 487v). Emb. 6 avril 1637., 1639, Maduré et Ceylan « inter Brachmanes » (JS 25, 145)., provincial du Japon, du 6 juill. 1646 au 26 juill. 1649., Macao., puis Visiteur de Chine et du Japon, 5 mars 1649, en fait 10 juill. 1650 à 1658. V. 8 déc. 1632, « Eborae in sacello Collegii », à Evora, pr. (Lus. 5, 108): Sebast. d'AMAYA. M. Macao, 16 juin 1664 (JS 26, 33., 25, 179v., HS 48, 129). AHU ms 1659, f 108 dit à tort 16 juill. 1664. Pf. 283. — Signalons son Codex de rébus moratibus in utraque India, Lisbonne, 1645, BVE. FG. ms 1549 (3678) et sa Dissertatio historica et theologica de cultu Confucii et Progenitorum (JS 187, 56-66) inconnue de Pf.
+  ls$dehergne/510//obs=Maia (Amaya), Sebastião da (port.) P. 510 Da Maia., de Amaya., de Amaga (dit Martini, Pf. 283)., d'Amaia. N. 1597, Lisbonne -E. étant M. A., en 1611 (Lus. 44 II, 487v). Emb. 6 avril 1637., 1639, Maduré et Ceylan « inter Brachmanes » (JS 25, 145)., provincial du Japon, du 6 juill. 1646 au 26 juill. 1649., Macao., puis Visiteur de Chine et du Japon, 5 mars 1649, en fait 10 juill. 1650 à 1658. V. 8 déc. 1632, « Eborae in sacello Collegii », à Evora, pr. (Lus. 5, 108): Sebast. d'AMAYA. M. Macao, 16 juin 1664 (JS 26, 33., 25, 179v., HS 48, 129). AHU ms 1659, f 108 dit à tort 16 juill. 1664. Pf. 283. — Signalons son Codex de rébus moratibus in utraque India, Lisbonne, 1645, BVE. FG. ms 1549 (3678) et sa Dissertatio historica et theologica de cultu Confucii et Progenitorum (JS 187, 56-66) inconnue de Pf.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1597
   ls$nascimento/Lisboa#@wikidata:Q597/1597
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1611
@@ -2078,10 +2107,9 @@ n$Sebastião da Maia/m/id=deh-sebastiao-da-maia
   ls$morte/Macau#@wikidata:Q14773/1664-06-16
 
 n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
+  <rel$identification/same as/Gabriel de Magalhães/deh-goncalo-de-oliveira-ref1/
   <rel$parentesco/Familiar/Fernão de Magalhães/deh-gabriel-de-magalhaes-ref1/
   <rel$sociabilidade/Companheiro/Lodovico Buglio/deh-gabriel-de-magalhaes-ref3/
-  <rel$identification/same as/Gabriel de Magalhães/deh-goncalo-de-oliveira-ref1/
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 216
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Gabriel Magallans/
@@ -2092,7 +2120,7 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
   ls$grau-academico/Mestre em Artes/
   ls$tarefa/Estuda Teologia/
   ls$profissao/Engenheiro, construtor de autómatos/
-  ls$dehergne/506/obs="""
+  ls$dehergne/506//obs="""
                Magalhães, Gabriel de (port.) P. 506
                Magallans., Magallanes (M 443, 671).,
                Magalhanes. Ngan Wen-Sseu, Klng-Mlng (Pf.., Gan Ven su, JS 119 I, 32).
@@ -2119,7 +2147,7 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
                vie en chinois par les PP. Buglio et Verbiest (Courant 1024).,
                J.F.R. Gervaix, Gabriel de M., BEM, t. XIV, Macau 1916-1917, p. 239-245.,
                JA 49-VI-6, 181-227., Needham IV. 2. p. 437"""
-  ls$nascimento/Pedrógão Grande, perto de Coimbra#@wikidata:Q1013094%«ex oppido Pedrogam prioratus Crati» vila de Pedrógão, priorado do Crato, perto de Coimbra/1610obs=familiar de Fernão de Magalhães
+  ls$nascimento/Pedrógão Grande, perto de Coimbra#@wikidata:Q1013094%«ex oppido Pedrogam prioratus Crati» vila de Pedrógão, priorado do Crato, perto de Coimbra/1610/obs=familiar de Fernão de Magalhães
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1013094"%Pedrógão Grande, perto de Coimbra/1610
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1625
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Segundo Louis Buglio 1688%?/1625
@@ -2148,40 +2176,36 @@ n$Gabriel de Magalhães/m/id=deh-gabriel-de-magalhaes
   ls$estadia/Chengdu, Sichuan#@wikidata:Q30002%Chengtu (Tch'eng-tou), Sseu-tch'ouan/1642-05-28
   ls$titulo/Mandarim/1644#Dehergne, p. 313
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q30002"%Chengdu, Sichuan/1647
-  ls$estadia/Chengdu, Sichuan#@wikidata:Q30002%Chengtu (Tch'eng-tou), Sseu-tch'ouan/1647obs=difficultés avec le tyran Tchang hien-tchong
+  ls$estadia/Chengdu, Sichuan#@wikidata:Q30002%Chengtu (Tch'eng-tou), Sseu-tch'ouan/1647/obs=difficultés avec le tyran Tchang hien-tchong
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1648-02-22
-  ls$estadia/Pequim#@wikidata:Q956/1648-02-22obs=segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes
+  ls$estadia/Pequim#@wikidata:Q956/1648-02-22/obs=segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1651
-  ls$estadia/Pequim#@wikidata:Q956/1651obs=libertado com Buglio segundo a entrada deste último Dehergne 121
+  ls$estadia/Pequim#@wikidata:Q956/1651/obs=libertado com Buglio segundo a entrada deste último Dehergne 121
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1655
   ls$estadia/Pequim#@wikidata:Q956/1655
-  ls$jesuita-tarefa/Funda a igreja de Tong-t'ang/1655obs=com Buglio (Dehergne 121)
+  ls$jesuita-tarefa/Funda a igreja de Tong-t'ang/1655/obs=com Buglio (Dehergne 121)
   ls$jesuita-votos/4V/1660-02-05
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1664
-  ls$estadia/Pequim#@wikidata:Q956/1664obs=segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes
+  ls$estadia/Pequim#@wikidata:Q956/1664/obs=segundo a entrada de Lodovico Buglio foi feito prisioneiro em Pequim em 16480222 e novamente em 1664, o seu epitáfio diz que foi preso e condenado à morte duas vezes
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1677
-  ls$estadia/Pequim#@wikidata:Q956/1677obs=fala-se de um édito imperal 1675, mas sobre o quê?
+  ls$estadia/Pequim#@wikidata:Q956/1677/obs=fala-se de um édito imperal 1675, mas sobre o quê?
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1677-05-06
-  ls$morte/Pequim#@wikidata:Q956/1677-05-06obs=epitáfio oferecido por K'ang Hi a 6 de maio
+  ls$morte/Pequim#@wikidata:Q956/1677-05-06/obs=epitáfio oferecido por K'ang Hi a 6 de maio
   referido$Fernão de Magalhães/m/id=deh-gabriel-de-magalhaes-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 286
     rel$parentesco/Familiar/Gabriel de Magalhães/deh-gabriel-de-magalhaes-ref1/
     ls$profissao/Navegador/
-    ls$nascimento/?/1470obs=na verdade é 1480, mas este é o ano dado por Dehergne
+    ls$nascimento/?/1470/obs=na verdade é 1480, mas este é o ano dado por Dehergne
     ls$morte/?/1521
   referido$Tchang Hien-Tchong/m/id=deh-gabriel-de-magalhaes-ref2/obs=difficultés avec le tyran Tchang hien-tchong
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 293
   referido$Lodovico Buglio/m/id=deh-gabriel-de-magalhaes-ref3/obs=é o padre Lodovico Buglio, italiano, Dehergne 121
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 294
     rel$sociabilidade/Companheiro/Gabriel de Magalhães/deh-gabriel-de-magalhaes-ref3/
-    ls$estadia/Tong-t'ang, Pequim/1655
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1064185"%Tong-t'ang, Pequim/1655
+    ls$estadia/Tong-t'ang, Pequim#@wikidata: Q1064185/1655
     ls$jesuita-tarefa/Funda a igreja de Tong-t'ang/1655
   referido$K'ang Hi/m/id=deh-gabriel-de-magalhaes-ref4/obs=imperador Kangxi ofereceu epitáfio a Magalhães
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 299
     ls$titulo/Imperador da China/
 
 n$Matias da Maia/m/id=deh-matias-da-maia
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 352
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Matias da Maya/
@@ -2190,7 +2214,7 @@ n$Matias da Maia/m/id=deh-matias-da-maia
   ls$nome/Matias Damoga/
   ls$nome-chines/Li Ma-ti/
   ls$nome-chines/Cheng-Sien/
-  ls$dehergne/509/obs="""
+  ls$dehergne/509//obs="""
             Maia (Maya), Matias da (port.) P. 509
             Da Mala., D'Amaya., de Maye., Damoga (RHM X, 1933, 29).
             Ll Ma-ti, Cheng-Slen (Pf.). N. Atalaia, d. de Lisbonne 1616 -E. 10 mai 1629 (Lus. 44 II, 494).
@@ -2242,11 +2266,10 @@ n$Matias da Maia/m/id=deh-matias-da-maia
   ls$morte/Costa da Cochinchina#naufrágio @wikidata:Q505503[centrada na atual Da Nang @Wikidata:Q25282]/1667-01-15
 
 n$Gonçalo da Fonseca/m/id=deh-goncalo-da-fonseca
-  rel$function-in-act/n/lista/dehergne-notices-f//obs=line: 1132
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Gonzalve/
-  ls$dehergne/321/obs="""
+  ls$dehergne/321//obs="""
             Fonseca, Gonçalo (Gonzalve) da (port.) P. 321
             N. 1618 Villa Real, d. de Braga -
             E. 1634 (Lus. 44 II, 612).
@@ -2288,33 +2311,32 @@ n$Gonçalo da Fonseca/m/id=deh-goncalo-da-fonseca
 
             ]
             """
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q503856"%Vila Real, diocese de Braga/1618
   ls$nascimento/Vila Real, diocese de Braga#@wikidata:Q503856/1618
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q503856"%Vila Real, diocese de Braga/1618
   ls$jesuita-entrada/Coimbra%? Segundo Schütte, p.1174/1634
   ls$jesuita-ordenacao-padre/?/1643#antes de
   ls$embarque/[Para a Índia]/1643-03-30
   ls$wicky/911/1643-03-30
   ls$wicky-viagem/77/1643-03-30
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1645
   ls$estadia/Índia#@wikidata:Q668/1645#cerca de
   ls$jesuita-cargo/Procurador da Vice-província da China/1645#cerca de
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1645
   ls$jesuita-votos/Coadjutor Espiritual/1649-08-15
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1649-08-15
   ls$jesuita-votos-local/Macau#@wikidata:Q14773/1649-08-15
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1657
   ls$estadia/Macau#@wikidata:Q14773/1657
   ls$jesuita-cargo/Procurador da Vice-província da China/1657
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1660
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1657
   ls$estadia/Macau#@wikidata:Q14773/1660
   ls$jesuita-cargo/Procurador da Vice-província da China/1660
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1660
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1662-10-07
   ls$morte/Macau#@wikidata:Q14773/1662-10-07#ou 17
 
 n$Adriano Pestana/m/id=deh-adriano-pestana
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 1028
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
-  ls$dehergne/631/obs="""
+  ls$dehergne/631//obs="""
             Pestana, Adriano (port.) P. 631
             N. Ile S. Miguel, 1617 -E. 1635 (Lus. 44 II, 580).
             Emb. 30 mars 1643 (W 912).,
@@ -2337,7 +2359,6 @@ n$Adriano Pestana/m/id=deh-adriano-pestana
 
 n$Manuel Jorge/m/id=deh-manuel-jorge
   <rel$institucional/Recebe votos/Jacques le Faure/deh-manuel-jorge-ref2/
-  rel$function-in-act/n/lista/dehergne-notices-j//obs=line: 99
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Manuel Georges/
@@ -2353,8 +2374,8 @@ n$Manuel Jorge/m/id=deh-manuel-jorge
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/
   ls$estadia/Nanquim#@wikidata:Q16666/
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/
-  ls$jesuita-votos-local/Pequim#@wikidata:Q956/obs=repete, uma vez que da primeira vez teve «vice de forma (ou maladie grave)»
-  ls$dehergne/420/obs="""
+  ls$jesuita-votos-local/Pequim#@wikidata:Q956//obs=repete, uma vez que da primeira vez teve «vice de forma (ou maladie grave)»
+  ls$dehergne/420//obs="""
                Jorge (George), Manuel (port.) P. 420
                Georges (Borg. Lat. 523, 66).,
                Jorguls (JS 25, 204v)., Jorze.
@@ -2413,31 +2434,27 @@ n$Manuel Jorge/m/id=deh-manuel-jorge
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1677-09-28
   ls$morte/Nanquim#@wikidata:Q16666/1677-09-28
   referido$Simon a Cunha/m/id=deh-manuel-jorge-ref1/obs=deve ser Dehergne 232
-    rel$function-in-act/referido/lista/dehergne-notices-j//obs=line: 160
     ls$jesuita-estatuto/Padre/
     rel$institucional/Recebe votos/Manuel Jorge/deh-manuel-jorge-ref1/1658-11-12
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1658-11-12
     ls$estadia/Nanquim#@wikidata:Q16666/1658-11-12
   referido$Jacques le Faure/m/id=deh-manuel-jorge-ref2/obs=Dehergne 458
-    rel$function-in-act/referido/lista/dehergne-notices-j//obs=line: 165
     rel$institucional/Recebe votos/Manuel Jorge/deh-manuel-jorge-ref2/
     ls$jesuita-estatuto/Padre/
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/
-    ls$estadia/Pequim#@wikidata:Q956/obs=segundo a entrada de Jacques le Faure, se for o mesmo, esteve em Pequim em 1663
+    ls$estadia/Pequim#@wikidata:Q956//obs=segundo a entrada de Jacques le Faure, se for o mesmo, esteve em Pequim em 1663
   referido$Emmanuel de Lisebon/m/id=deh-manuel-jorge-ref3/obs=é possível que seja ele
-    rel$function-in-act/referido/lista/dehergne-notices-j//obs=line: 170
     ls$jesuita-estatuto/Padre/
-    ls$dehergne/420-ref/obs=Pf. 276. — Ce serait le P. « Emmanuel de Lisebon » (Lisbonne) dont Nieuhoff, 139 écrit: « Jamais je ne vis Jésuite plus débonnaire & plus ouvert que celuy-cy. Il estoit tout vie, tout feu, tout pieds, tout aisles pour nous obliger ».
+    ls$dehergne/420-ref//obs=Pf. 276. — Ce serait le P. « Emmanuel de Lisebon » (Lisbonne) dont Nieuhoff, 139 écrit: « Jamais je ne vis Jésuite plus débonnaire & plus ouvert que celuy-cy. Il estoit tout vie, tout feu, tout pieds, tout aisles pour nous obliger ».
 
 n$André Ferrão/m/id=deh-andre-ferrao
   <rel$identification/same as/Antonio Ferronus/deh-antonio-ferronus/
-  rel$function-in-act/n/lista/dehergne-notices-f//obs=line: 482
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/André Ferran/
   ls$nome-chines/Lang Tsiun-Cheng Ngan-tö/
   ls$nome-chines/Fou Tö-Ye/
-  ls$dehergne/296/obs="""
+  ls$dehergne/296//obs="""
             Ferrão (Ferran), André (port.) P. 296
             Lang Tslun-Cheng Ngan-tô (JS J87, 3v, suivi par Pf.: Lang Tsuen-Cheng).
             Fou Tô-Ye (Pk, suivi par Borg. Lot. 523, 58: Fou Té-Yé).
@@ -2451,30 +2468,29 @@ n$André Ferrão/m/id=deh-andre-ferrao
             Il signe Ferram.
             M. Foochow (Fou-tcheou fou, Fukien), 1661 (Borg. Lot. 523, 58).
             Pf. 315."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1026336"%Ceia, diocese de Coimbra/1625
   ls$nascimento/Ceia, diocese de Coimbra#Ceira? @wikidata:Q1026336/1625#cerca de
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q1026336"%Ceia, diocese de Coimbra/1625
+  ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Brockey, cap.6 n.95%?/1640/obs="""[Brockey diz "educated at the College of Coimbra" cap.6 nota 95, citando a carta ânua de 1656, Ajuda, 49-V.14:62v]"""
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1640
-  ls$jesuita-entrada/Coimbra#@wikidata:Q45412 Brockey, cap.6 n.95%?/1640obs=[Brockey diz "educated at the College of Coimbra" cap.6 nota 95, citando a carta ânua de 1656, Ajuda, 49-V.14:62v]
   ls$jesuita-tarefa/Assina a carta anual da vice-província da China de 1656/1656
   ls$embarque/Bom Jesus da Vidigueira#segundo Wicky/1657-04-04
   ls$wicky/1040/1657-04-04
   ls$wicky-viagem/89/1657-04-04
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q57818"%Hwaian (Houaingan fou), Kiang-sou/1659
   ls$estadia/Hwaian (Houaingan fou), Kiang-sou#@wikidata:Q57818/1659
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q57818"%Hwaian (Houaingan fou), Kiang-sou/1659
   ls$jesuita-votos/4V/1659-01-16
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1659-01-16
   ls$jesuita-votos-local/Macau#@wikidata:Q14773/1659-01-16
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1659-01-29
   ls$estadia/Macau#@wikidata:Q14773/1659-01-29
-  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow (Fou-tcheou fou, Fukien)/1661
   ls$morte/Foochow (Fou-tcheou fou, Fukien)#@wikidata:Q68481/1661
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q68481"%Foochow (Fou-tcheou fou, Fukien)/1661
 
 n$Afonso Aires/m/id=deh-afonso-aires
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 184
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Afonso Ayres/
-  ls$dehergne/10/obs="""
+  ls$dehergne/10//obs="""
             Emb. pour la Chine sur le Bom Jésus da Vidigueira, 4 avril 1657 (W 1043).
             M. 1657, après avoir doublé le Cap de Bonne Espérance.
             Pf. 329. — Le catal. du Portugal de 1655 ne mentionne qu'un frère Ayres de Almeida,
@@ -2484,16 +2500,16 @@ n$Afonso Aires/m/id=deh-afonso-aires
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1649
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1649
   ls$tarefa/Estuda Teologia/1649
-  ls$morte/[No mar, depois do Cabo da Boa Esperança]/1657
+  ls$morte@wikidata/"https://www.wikidata.org/wiki/Q4092"%[No mar, depois do Cabo da Boa Esperança]/1657
+  ls$morte/[No mar, depois do Cabo da Boa Esperança]#@wikidata:Q4092/1657
   ls$embarque/Bom Jesus da Vidigueira/1657-04-04
   ls$wicky/1043/1657-04-04
   ls$wicky-viagem/89/1657-04-04
   referido$Aires de Almeida/m/id=deh-afonso-aires-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 201
     ls$nome/Ayres de Almeida/
     ls$nacionalidade/Portugal/
     ls$jesuita-estatuto/Frade/
-    ls$dehergne/10-ref/obs=Le catal. du Portugal de 1655 ne mentionne qu'un frère Ayres de Almeida, N. Scalabis 1630, E. 1649 (Lus. 45, 179v), qui commençait alors sa théologie à Coïmbre.
+    ls$dehergne/10-ref//obs=Le catal. du Portugal de 1655 ne mentionne qu'un frère Ayres de Almeida, N. Scalabis 1630, E. 1649 (Lus. 45, 179v), qui commençait alors sa théologie à Coïmbre.
     ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q273877"%Santarém/1630
     ls$nascimento/Santarém#@wikidata:Q273877/1630
     ls$jesuita-entrada/?/1649
@@ -2502,11 +2518,10 @@ n$Afonso Aires/m/id=deh-afonso-aires
     ls$tarefa/Estuda Teologia - 1º ano/1649#estava a começar
 
 n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 786
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Sancho Pereira/
-  ls$nome/Sancho/
+  ls$nome/Sancho Tomé Pereyra/
   ls$nome/Da Costa-Pereira/
   ls$nome-chines/Siu Je-Chen Yin-Kong/
   ls$nome-chines/Siu Je Xim/
@@ -2515,7 +2530,7 @@ n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
   ls$nome-chines/Chiu/
   ls$grau-academico/Mestre em Artes/
   ls$profissao/Músico/
-  ls$dehergne/627/obs="""
+  ls$dehergne/627//obs="""
             Pereira (Pereyra) Sancho, puis Tomé (port.) P. 627
             Da Costa-Perelra: il signe Pereyra (JS 199 I, 34 etc).
             Siu Je-Chen Yln-Kong (Pf.., Vit. F. G. 1256 n° 46: Siu Je Xlm).,
@@ -2557,22 +2572,21 @@ n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
   ls$cargo/Presidente Interino do Tribunal da Matemática de Pequim/1688
   ls$titulo/Mandarim/1688#Dehergne, p. 313, para o tratado de Nertchinsk
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q146043"%Nerchinsk/1689
-  ls$estadia/Nerchinsk#@wikidata:Q146043%Nipchou (Nertchinsk)/1689obs=para a assinatura do tratado de Nerchinsk com os moscovitas
+  ls$estadia/Nerchinsk#@wikidata:Q146043%Nipchou (Nertchinsk)/1689/obs=para a assinatura do tratado de Nerchinsk com os moscovitas
   <rel$sociabilidade/Companheiro/Antoine Thomas/deh-tome-pereira-ref1/1689-10-18
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1689-10-18
-  ls$estadia/Pequim#@wikidata:Q956/1689-10-18obs=regressa com Antoine Thomas
+  ls$estadia/Pequim#@wikidata:Q956/1689-10-18/obs=regressa com Antoine Thomas
   ls$jesuita-cargo/Vice-visitador do Japão e da China/1691
   ls$jesuita-cargo/Vice-provincial da China/1692-07-01
   ls$cargo/Presidente Interino do Tribunal da Matemática de Pequim/1694
   ls$jesuita-cargo/Vice-visitador do Japão e da China/1695
   ls$jesuita-cargo/Vice-provincial da China/1695
-  ls$cargo/Coadjutor do bispo de Pequim/1696obs=quando Claudio Filippo Grimaldi foi nomeado bispo de Pequim, mas não chegou a ser vide entrada deste
+  ls$cargo/Coadjutor do bispo de Pequim/1696/obs=quando Claudio Filippo Grimaldi foi nomeado bispo de Pequim, mas não chegou a ser vide entrada deste
   ls$titulo/Mandarim/1708#?
   ls$jesuita-tarefa/Reconstrói o Nan-t'ang%il rebâtit le Nan-t'ang/1708%?
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1708-12-24
   ls$morte/Pequim#@wikidata:Q956/1708-12-24
   referido$Antoine Thomas/m/id=deh-tome-pereira-ref1/obs=Dehergne 843
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 847
     rel$identification/same as/Antoine Thomas/deh-antoine-thomas/
     ls$jesuita-estatuto/Padre/
     rel$sociabilidade/Companheiro/Tomé (Sancho) Pereira/deh-tome-pereira-ref1/1689-10-18
@@ -2580,23 +2594,20 @@ n$Tomé (Sancho) Pereira/m/id=deh-tome-pereira/obs=Sancho, depois Tomé
     ls$estadia/Pequim#@wikidata:Q956/1689-10-18
   <rel$identification/same as/Antoine Thomas/deh-tome-pereira-ref1/
   referido$Claudio Filippo Grimaldi/m/id=deh-tome-pereira-ref2/obs=Dehergne 391
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 852
     ls$jesuita-estatuto/Padre/
-    ls$cargo/Bispo eleito de Pequim/obs=não chegou a ser, vide entrada dele
+    ls$cargo/Bispo eleito de Pequim//obs=não chegou a ser, vide entrada dele
   referido$Ferdinand Verbiest/m/id=deh-tome-pereira-ref3/obs=Dehergne 883
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 856
     ls$jesuita-estatuto/Padre/
     rel$institucional/Recebe votos/Tomé (Sancho) Pereira/deh-tome-pereira-ref3/1680-08-15
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1680-08-15
     ls$estadia/Pequim#@wikidata:Q956/1680-08-15
 
 n$André Carneiro/m/id=deh-andre-carneiro
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 448
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/André Carneyro/
   ls$nome-chines/Yang Ngan-tö/
-  ls$dehergne/142/obs="""
+  ls$dehergne/142//obs="""
             Carneiro (Carneyro), André (port.) P. 142
             Yang Ngan-tö (Pf.).
              N. 1650, «Portuensis», Porto -
@@ -2610,8 +2621,8 @@ n$André Carneiro/m/id=deh-andre-carneiro
              8 déc. 1682, pr.
              Il signe Carneyro (Lus. 10, 112).
              M. Goa, 12 juin 1709 (HS 51, 17). Pf. 481."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q36433"%Porto/1650
   ls$nascimento/Porto#@wikidata:Q36433/1650#ou 16480923
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q36433"%Porto/1650
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1664-03-25
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1664-03-25#ou 16630325
   ls$idade/14/1664-03-25
@@ -2621,20 +2632,19 @@ n$André Carneiro/m/id=deh-andre-carneiro
   ls$embarque/[Para a China]/1694
   ls$wicky/1326/1694
   ls$wicky-viagem/117/1694
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1696
   ls$chegada/Macau#? @wikidata:Q14773/1696
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1105849"%Chinchinim, Goa/1705
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1696
   ls$estadia/Chinchinim, Goa#@wikidata:Q1105849%«in Parasia chinchinensis»/1705
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1105849"%Chinchinim, Goa/1705
   ls$cargo/Vigário de Salcete%vicarius Salsetanus/1706
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1709-06-12
   ls$morte/Goa#@wikidata:Q1171/1709-06-12
 
 n$João da Silva/m/id=deh-joao-da-silva
-  rel$function-in-act/n/lista/dehergne-notices-s//obs=line: 1217
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$titulo/Mestre/
-  ls$dehergne/777/obs="""
+  ls$dehergne/777//obs="""
             Silva, João da (port.) (II) P. 777
             Les catal. brefs de Goa de 1678 et de 1681 citent comme envoyé en Chine le P. maître Joâo da Sylva (Goa 27, 94 et lOOv).
             Nous connaissons un Joâo da Silva
@@ -2643,16 +2653,15 @@ n$João da Silva/m/id=deh-joao-da-silva
             V. Goa, maison professe, 2 févr. 1685.,
             pr.: Jo. da Silva (Lus. 10, 245).
             Il s'agit donc d'un prêt de la province de Goa à celle du Japon (Macao)."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q93497"%São João de Areias/1647
   ls$nascimento/São João de Areias#@wikidata:Q93497/1647
-  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1668
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q93497"%São João de Areias/1647
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1668
+  ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1668
   ls$jesuita-votos/4V/1685-02-02
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa (casa professa)/1685-02-02
   ls$jesuita-votos-local/Goa (casa professa)#@wikidata:Q1171/1685-02-02
 
 n$António da Silva/m/id=deh-antonio-da-silva
-  rel$function-in-act/n/lista/dehergne-notices-s//obs=line: 967
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$titulo/Monsenhor/
@@ -2662,8 +2671,8 @@ n$António da Silva/m/id=deh-antonio-da-silva
   ls$nome-chines/Lin Ngan-Tche/
   ls$nome-chines/Lin Ngan-Yen/
   ls$grau-academico/Mestre em Artes/
-  ls$cargo/Vigário de vara/obs=il rejette la patente de vic. apostolique et reprend la charge de vicaire de vara
-  ls$dehergne/768/obs="""
+  ls$cargo/Vigário de vara//obs=il rejette la patente de vic. apostolique et reprend la charge de vicaire de vara
+  ls$dehergne/768//obs="""
                Silva, Antonio da (ou: a) (port.) Mgr. 768
                Lin Ngan (JS 175, 139., 199 I, 203).
                Ou trouve aussi: Lin Ngan-Llen.,
@@ -2700,49 +2709,45 @@ n$António da Silva/m/id=deh-antonio-da-silva
   ls$wicky-viagem/117/1694
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q11133842"%Kiang-nan/1696-05-04
   ls$chegada/Kiang-nan#@wikidata:Q11133842/1696-05-04
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1699
   ls$estadia/Nanquim#@wikidata:Q16666/1699
   ls$jesuita-cargo/Reitor de Nanquim%recteur/1699
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1699
   rel$institucional/Socius de/Alessandro Cicero/deh-antonio-da-silva/1700
   ls$jesuita-cargo/Socius do bispo de Nanquim/1700
   <rel$eclesiastica/Nomeia/Charles Thomas Maillard de Tournon/deh-antonio-da-silva-ref2/1705-11-01
-  ls$cargo/Vigário apostólico de Nanquim/1705-11-01obs=não chega a ser sagrado
+  ls$cargo/Vigário apostólico de Nanquim/1705-11-01/obs=não chega a ser sagrado
   <rel$institucional/suspende/Charles Thomas Maillard de Tournon/deh-antonio-da-silva-ref2/1707-05-28
-  ls$cargo/Vigário apostólico de Nanquim/1707-05-28#depois deobs=déclaré suspens par Mgr de Tournon
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1711
+  ls$cargo/Vigário apostólico de Nanquim/1707-05-28#depois de/obs=déclaré suspens par Mgr de Tournon
   ls$estadia/Nanquim#@wikidata:Q16666/1711
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1711
   ls$jesuita-cargo/Vice-provincial da China/1711-06-12
   ls$jesuita-cargo/Vice-provincial da China/1714
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1714
   ls$estadia/Nanquim#@wikidata:Q16666/1714
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1714
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q16666"%Nanquim/1726-03-06
   ls$morte/Nanquim#@wikidata:Q16666/1726-03-06
   referido$Alessandro Cicero/m/id=deh-antonio-da-silva-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 1023
     rel$identification/same as/Alessandro Cicero/deh-alessandro-cicero/
     ls$titulo/Monsenhor/
     <rel$institucional/Socius de/António da Silva/deh-antonio-da-silva/1700
     ls$cargo/Bispo de Nanquim/1700
   <rel$identification/same as/Alessandro Cicero/deh-antonio-da-silva-ref1/
   referido$Charles Thomas Maillard de Tournon/m/id=deh-antonio-da-silva-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 1027
     ls$titulo/Monsenhor/
     rel$eclesiastica/Nomeia/António da Silva/deh-antonio-da-silva-ref2/1705-11-01
     rel$institucional/suspende/António da Silva/deh-antonio-da-silva-ref2/1707-05-28
   referido$António da Silva/m/id=deh-antonio-da-silva-ref3
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 1032
-    ls$dehergne/768-ref3/obs=N. 1637, Comba, d. de Coïmbre, E. 1654, que Lus. 45, 461 dit N. 1640, Pinheyro d. de Coïmbre, E. 1654.
-    ls$nascimento/Comba, diocese de Coimbra#ou Pinheiro, diocese de Coimbra/1637#ou16400000
+    ls$dehergne/768-ref3//obs=N. 1637, Comba, d. de Coïmbre, E. 1654, que Lus. 45, 461 dit N. 1640, Pinheyro d. de Coïmbre, E. 1654.
+    ls$nascimento/Comba, diocese de Coimbra#ou Pinheiro, diocese de Coimbra/1637#ou1640
     ls$jesuita-entrada/?/1654
 
 n$Manuel Mendes/m/id=deh-manuel-mendes
   <rel$identification/same as/Manuel Lopes/deh-manuel-lopes-ref4/
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 1325
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Manuel Mendez/
   ls$nome-chines/Mong Yeou-Yi Kiu-jen/
-  ls$dehergne/545/obs=""""
+  ls$dehergne/545//obs="""
             Mendes (Mendez), Manuel (port.) P. 545
             M.el M.des (JS 1(41 32).
             Mong Yeou-Yi Kiû-Jen (Pf.., M. 436, 223: Mong Yeou-Ny).
@@ -2757,7 +2762,9 @@ n$Manuel Mendes/m/id=deh-manuel-mendes
             V. « Emmanuel Mendes, Can cheu » (Kanchow), 15 août 1690, pr. (Lus. 11, 163).
             M.Macao 1 janv. 1741 (AHU ms 1659, 113v), et non déc. 1743,
             Pf.., Miralta annonce sa mort en 1741, De Vincentiis, p. 534.
-            Pf. 398. Lus. 45, 449 lui donne 18 ans en 1675 = N. 1657"""."
+            Pf. 398. Lus. 45, 449 lui donne 18 ans en 1675 = N. 1657""".
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q543993"%Soure, diocese de Coimbra/1656-01-01
+  ls$nascimento/Soure, diocese de Coimbra#@wikidata:Q543993/1656-01-01#ou 1657
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q543993"%Soure, diocese de Coimbra/1656-01-01
   ls$nascimento/Soure, diocese de Coimbra#@wikidata:Q543993/1656-01-01#ou 1657
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1673-03-15
@@ -2797,7 +2804,6 @@ n$Manuel Mendes/m/id=deh-manuel-mendes
   ls$morte/Macau#@wikidata:Q14773/1741-01-01
 
 n$Manuel de Sá/m/id=deh-manuel-de-sa
-  rel$function-in-act/n/lista/dehergne-notices-s//obs=line: 57
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/
@@ -2806,7 +2812,7 @@ n$Manuel de Sá/m/id=deh-manuel-de-sa
   ls$estadia/Goa#empêché d'aller à Pékin, il retourne à Goa, puis en Europe @wikidata:Q1171/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q46"%Europa/
   ls$estadia/Europa#@wikidata:Q46/
-  ls$dehergne/734/obs="""
+  ls$dehergne/734//obs="""
                Sá (Saa), Manuel de (port.) P. 734
                N. 22 avril 1658, Torre de Moncorvo, d. de Braga.
                E. 13 févr. 1675, Coïmbre (Lus. 46. llv., Goa 26, 1).
@@ -2839,12 +2845,12 @@ n$Manuel de Sá/m/id=deh-manuel-de-sa
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q5104961"%Chorão/1693-08-15
   ls$jesuita-votos-local/Chorão#@wikidata:Q5104961/1693-08-15
   ls$jesuita-tarefa/Enviado ao rei#? ou imperador? «pro Rege missus»/1694
-  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1694
   ls$partida/Pequim#? @wikidata:Q956/1694
+  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1694
   rel$institucional/Socius/Francesco Maria Spinola/deh-manuel-de-sa/1694-07-18/obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1694-07-18
   ls$chegada/Macau#@wikidata:Q14773/1694-07-18
-  ls$jesuita-cargo/Socius de Francesco Maria Spinola/1694-07-18obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
+  ls$jesuita-cargo/Socius de Francesco Maria Spinola/1694-07-18/obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
   <rel$eclesiastica/Nomeia patriarca da Etiópia/João V/deh-manuel-de-sa-ref2/1709-04-04/obs=o papa não confirma
   ls$embarque/[Para Goa]/1709-04-08
   ls$wicky/1534a%corrigido segundo Wicky, Dehergne coloca erradamente o número 153a/1709-04-08
@@ -2853,30 +2859,27 @@ n$Manuel de Sá/m/id=deh-manuel-de-sa
   ls$chegada/Goa#@wikidata:Q1171/1709-09-12
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1710-04
   ls$estadia/Macau#@wikidata:Q14773/1710-04#ou 17100500
-  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q45"%Portugal/1724
   ls$partida/Portugal#@wikidata:Q45/1724
+  ls$partida@wikidata/"https://www.wikidata.org/wiki/Q45"%Portugal/1724
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1728-04-22
   ls$morte/Lisboa#@wikidata:Q597/1728-04-22
   referido$Francesco Maria Spinola/m/id=deh-manuel-de-sa-ref1/obs=Dehergne 814
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 105
     rel$identification/same as/Francesco Maria Spinola/deh-francesco-maria-spinola/
     ls$jesuita-estatuto/Padre/
     <rel$institucional/Socius/Manuel de Sá/deh-manuel-de-sa/1694-07-18/obs=a entrada de Spinola diz o seguinte «M. en route, après avoir délégué tous ses pouvoirs à son compagnon de voyage, Emm. de SA (...) en 1694»
   <rel$identification/same as/Francesco Maria Spinola/deh-manuel-de-sa-ref1/
   referido$João V/m/id=deh-manuel-de-sa-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-s//obs=line: 108
     ls$nacionalidade/Portugal/
     ls$titulo/Rei de Portugal/
     ls$titulo/Dom/
     rel$eclesiastica/Nomeia patriarca da Etiópia/Manuel de Sá/deh-manuel-de-sa-ref2/1709-04-04/obs=o papa não confirma
 
 n$Francisco Pinto/m/id=deh-francisco-pinto-i
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 1339
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Ho Ta-King Fang-tsi/
   ls$nome-chines/Ho Su-Kio/
-  ls$dehergne/642/obs="""
+  ls$dehergne/642//obs="""
             Pinto, Francisco (port.) (I) P. 642 Ho Ta-Klng Fang-tsi (Pf.).,
             Ho Su-Klo (Borg. Lat. 523, f° 59).
             N. Louzâ, dioc. de Coïmbre, 29 mai 1662 (Lus. 46, 15., JS 25, 278) (dioc. de Viseu, écrit JS 134, 398)
@@ -2931,7 +2934,6 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-i
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1731-03-23
   ls$morte/Macau#@wikidata:Q14773/1731-03-23
   referido$José Monteiro/m/id=deh-francisco-pinto-ref1/obs=Dehergne 563
-    rel$function-in-act/referido/lista/dehergne-notices-p//obs=line: 1386
     ls$jesuita-estatuto/Padre/
     ls$jesuita-cargo/Vice-provincial do Japão/1721#antes de
     <rel$institucional/Sucede/Francisco Pinto/deh-francisco-pinto-i/1721-01-09
@@ -2939,7 +2941,6 @@ n$Francisco Pinto/m/id=deh-francisco-pinto-i
 n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   <rel$identification/same as/Miguel do Amaral/deh-manuel-osorio-i-ref1/
   <rel$eclesiastica/Propõe como bispo de Foochow/João V/deh-miguel-do-amaral-ref1//obs=o papa recusa
-  rel$function-in-act/n/lista/dehergne-notices-a//obs=line: 804
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Ya Ma-La Eul#fonetização/
@@ -2950,7 +2951,7 @@ n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   ls$estadia/Goa#@wikidata:Q1171/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q45"%Portugal/
   ls$estadia/Portugal#@wikidata:Q45/
-  ls$dehergne/33/obs="""
+  ls$dehergne/33//obs="""
                Amaral, Miguel do (port) P. 33
                Ya Ma-La Eul (phonétisation du nom) (JS 175, 256 et 350).,
                Kia Miko (BEM févr. 1969, p. 183, M 443, 673., Pf.).,
@@ -3015,8 +3016,8 @@ n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   ls$estadia/Goa#@wikidata:Q1171/1714
   ls$jesuita-cargo/Provincial do Japão/1718
   rel$institucional/Substitui/João Pereira/deh-miguel-do-amaral/1719/obs=durante a doença deste
-  ls$jesuita-cargo/Vice-provincial do Japão/1719obs=durante a doença do P. João Pereira
-  ls$jesuita-cargo/Vice-provincial do Japão/1720obs=durante a doença do P. João Pereira
+  ls$jesuita-cargo/Vice-provincial do Japão/1719/obs=durante a doença do P. João Pereira
+  ls$jesuita-cargo/Vice-provincial do Japão/1720/obs=durante a doença do P. João Pereira
   ls$jesuita-cargo/Procurador da Vice-província da China/1722
   ls$partida@wikidata/"https://www.wikidata.org/wiki/Q46"%Europa/1722
   ls$partida/Europa#@wikidata:Q46/1722#chamado em 1722, depois desta data
@@ -3025,30 +3026,26 @@ n$Miguel do Amaral/m/id=deh-miguel-do-amaral
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1730-12-14
   ls$morte/Coimbra#@wikidata:Q45412/1730-12-14
   referido$João V/m/id=deh-miguel-do-amaral-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 876
     rel$eclesiastica/Propõe como bispo de Foochow/Miguel do Amaral/deh-miguel-do-amaral-ref1//obs=o papa recusa
     ls$titulo/Dom/
     ls$titulo/Rei de Portugal/
   referido$José Monteiro/m/id=deh-miguel-do-amaral-ref2/obs=Dehergne 563
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 881
     ls$jesuita-estatuto/Padre/
     rel$institucional/Substitui/Miguel do Amaral/deh-miguel-do-amaral-ref2/1714/obs=durante seis meses segundo a entrada de Monteiro
-    ls$jesuita-cargo/Vice-provincial do Japão/1714obs=a partir de, durante seis meses segundo a entrada de Monteiro
+    ls$jesuita-cargo/Vice-provincial do Japão/1714/obs=a partir de, durante seis meses segundo a entrada de Monteiro
   referido$João Pereira/m/id=deh-miguel-do-amaral-ref3/obs=Dehergne 621
-    rel$function-in-act/referido/lista/dehergne-notices-a//obs=line: 886
     ls$jesuita-estatuto/Padre/
     <rel$institucional/Substitui/Miguel do Amaral/deh-miguel-do-amaral/1209/obs=durante a doença deste
     <rel$institucional/Substitui/Miguel do Amaral/deh-miguel-do-amaral/1719/obs=durante a doença deste
-    ls$jesuita-cargo/Vice-provincial do Japão/1719obs=antes desta data, ficou doente e foi substituído por Miguel do Amaral
+    ls$jesuita-cargo/Vice-provincial do Japão/1719/obs=antes desta data, ficou doente e foi substituído por Miguel do Amaral
 
 n$Manuel Osório/m/id=deh-manuel-osorio-i
-  rel$function-in-act/n/lista/dehergne-notices-o//obs=line: 123
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Manuel Ozorio/
   ls$nome-chines/Li Kouo-Tcheng Ma-no/
   ls$nome-chines/Ly Kue Ching/
-  ls$dehergne/600/obs=Osorio (Ozorio), Manuel (port.) (I) P. 600 Li Kouo-Tcheng Ma-no (JS 172, 2., M 413, 438: Ly Kue Ching). N. 5 mars 1663, non à Carapito, d. de Viseu (JS 134, 398), mais «Lamecensis», à Lamego, d. de ce nom (Lus. 46, 60). E. 15 févr. 1678, Coïmbre., Emb. non prêtre en 1685 (W 1240)., arr. Macao, 1691., 1692, Pékin., 1700, destiné à «Cancheu du Kiangsi» (Kanchow)., 1704, recteur du collège de Macao., vice-provincial du Japon, 1704-1705 (le provincial, Miguel do Amaral étant nommé Visiteur de la province de Goa)., 1705, procureur de la province du Japon à Macao (JS 25, 256v). P. avant 1690 -V. « Emmanuel Osorius, Pekim, in E[cclesia] B.M.V. a Nativitate », 15 août 1695, pr. (Lus. 11, 318). M. 14 août 1710, Macao (AHU ms 1659, lllv). HS 50, 90v fait mourir à Goa le 19 août 1710 le P. Emm. Ozorio et JS 173, 359 lui donne le nom attribué à Capacchi: Tcheng. Pf. 464., notes Lamalle.
+  ls$dehergne/600//obs=Osorio (Ozorio), Manuel (port.) (I) P. 600 Li Kouo-Tcheng Ma-no (JS 172, 2., M 413, 438: Ly Kue Ching). N. 5 mars 1663, non à Carapito, d. de Viseu (JS 134, 398), mais «Lamecensis», à Lamego, d. de ce nom (Lus. 46, 60). E. 15 févr. 1678, Coïmbre., Emb. non prêtre en 1685 (W 1240)., arr. Macao, 1691., 1692, Pékin., 1700, destiné à «Cancheu du Kiangsi» (Kanchow)., 1704, recteur du collège de Macao., vice-provincial du Japon, 1704-1705 (le provincial, Miguel do Amaral étant nommé Visiteur de la province de Goa)., 1705, procureur de la province du Japon à Macao (JS 25, 256v). P. avant 1690 -V. « Emmanuel Osorius, Pekim, in E[cclesia] B.M.V. a Nativitate », 15 août 1695, pr. (Lus. 11, 318). M. 14 août 1710, Macao (AHU ms 1659, lllv). HS 50, 90v fait mourir à Goa le 19 août 1710 le P. Emm. Ozorio et JS 173, 359 lui donne le nom attribué à Capacchi: Tcheng. Pf. 464., notes Lamalle.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q117591"%Lamego/1663-03-05
   ls$nascimento/Lamego#@wikidata:Q117591/1663-03-05
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1678-02-15
@@ -3057,8 +3054,8 @@ n$Manuel Osório/m/id=deh-manuel-osorio-i
   ls$wicky/1240/1685
   ls$wicky-viagem/108/1685
   ls$jesuita-ordenacao-padre/?/1690#antes de
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1691
-  ls$estadia/Macau#@wikidata:Q14773/1691
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/16910
+  ls$estadia/Macau#@wikidata:Q14773/16910
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1692
   ls$estadia/Pequim#@wikidata:Q956/1692
   ls$jesuita-votos/4V/1695-08-15
@@ -3075,18 +3072,16 @@ n$Manuel Osório/m/id=deh-manuel-osorio-i
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1710-08-14
   ls$morte/Macau#@wikidata:Q14773/1710-08-14#ou Goa 17100819
   referido$Miguel do Amaral/m/id=deh-manuel-osorio-i-ref1/obs=Dehergne 33
-    rel$function-in-act/referido/lista/dehergne-notices-o//obs=line: 148
     rel$identification/same as/Miguel do Amaral/deh-miguel-do-amaral/
     ls$jesuita-cargo/Provincial/1704#até (vide entrada Amaral)
     ls$jesuita-cargo/Visitador da Província de Goa/1704#a partir de (vide entrada de Amaral)
   rel$identification/same as/Miguel do Amaral/deh-miguel-do-amaral/
 
 n$Estanislau Machado/m/id=deh-estanislau-machado
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 20
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
-  ls$cargo/Vigário de vara/obs=Dehergne diz «Vicaire de vara: au sens technique actuel: vicaire forain. En réalité, il s'agit ici d'un représentant envoyé par un évêque portugais sur le territoire d'un vicaire apostolique., en somme un délégué ayant reçu des pouvoirs étendus.»
-  ls$dehergne/501/obs="""
+  ls$cargo/Vigário de vara//obs=Dehergne diz «Vicaire de vara: au sens technique actuel: vicaire forain. En réalité, il s'agit ici d'un représentant envoyé par un évêque portugais sur le territoire d'un vicaire apostolique., en somme un délégué ayant reçu des pouvoirs étendus.»
+  ls$dehergne/501//obs="""
                   Machado, Estanislau (port.) P. 501
                   N. Anobra, d. de Coïmbre, 1667 (1663, dit JS 25, 256v).
                   E. 15 mai 1681, Coïmbre (Lus. 46, 127).
@@ -3129,7 +3124,6 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q622778"%Tonquim/1729-07-20
   ls$morte/Tonquim#@wikidata:Q622778/1729-07-20
   referido$João Pereira/m/id=deh-estanislau-machado-ref1/obs=dehergne 621
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 59
     ls$jesuita-estatuto/Padre/
     <rel$institucional/Nomeia/Estanislau Machado/deh-estanislau-machado/1718
     ls$jesuita-cargo/Vice-Provincial do Japão/1718#ou 17170000
@@ -3137,11 +3131,10 @@ n$Estanislau Machado/m/id=deh-estanislau-machado
     ls$estadia/Macau#@wikidata:Q14773/1718#ou 17170000
 
 n$António Lopes, júnior/m/id=deh-antonio-lopes-junior
-  rel$function-in-act/n/lista/dehergne-notices-l//obs=line: 1337
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/António Lopez/
-  ls$dehergne/485/obs=Lopes (Lopez), Antonio, junior (port.) (II) P. N. mai 1669, Coïmbre -E. Coïmbre, 25 déc. 1684 (Lus. 46, 129v). Emb. 1695, pour la Chine (W 1346)., arr. 1696 (JS 134, 378v). P. 1696. M. 10 avril 1699, Macao (HS 49, 24v et 50, 58., AHU ms 1659 f° IlOv). Pf. 482. — Lus. 46, 129v le dit baptisé le 12 mai 1669.
+  ls$dehergne/485//obs=Lopes (Lopez), Antonio, junior (port.) (II) P. N. mai 1669, Coïmbre -E. Coïmbre, 25 déc. 1684 (Lus. 46, 129v). Emb. 1695, pour la Chine (W 1346)., arr. 1696 (JS 134, 378v). P. 1696. M. 10 avril 1699, Macao (HS 49, 24v et 50, 58., AHU ms 1659 f° IlOv). Pf. 482. — Lus. 46, 129v le dit baptisé le 12 mai 1669.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1669-05
   ls$nascimento/Coimbra#@wikidata:Q45412/1669-05
   ls$baptizado@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1669-05-12
@@ -3151,19 +3144,18 @@ n$António Lopes, júnior/m/id=deh-antonio-lopes-junior
   ls$embarque/[Para a China]/1695
   ls$wicky/1346/1695
   ls$wicky-viagem/118/1695
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1696
   ls$chegada/China#@wikidata:Q148/1696
   ls$jesuita-ordenacao-padre/?/1696
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1696
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1699-04-10
   ls$morte/Macau#@wikidata:Q14773/1699-04-10
 
 n$Leonardo Teixeira/m/id=deh-leonardo-teixeira
-  rel$function-in-act/n/lista/dehergne-notices-t//obs=line: 383
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/K'iu Leang-Tao/
   ls$nome-chines/Kin/
-  ls$dehergne/836/obs=Teixeira (Teixeyra), Leonardo (port.) P. 836 K'iu Leang-Tao (Pf.., JS 187, 4v le nomme Kin). N. Chaves, 1670, «Lusitanus Transmontanus» (JS 25, 236v). E. 3 mars 1686, Coïmbre. Emb. non prêtre le 8 avril 1690 (W 1281)., le catal. Japon le dit parti dans la mission de Chine en 1696 (JS 25, 233v)., en 1697, au Siam, où devient supérieur en 1699 (M 851, 299., AHSI 22 (1953), 202). Il sort de la Compagnie (JS 19, 190, lettre de 1704). Pf. 484., BEM 1969, 271.
+  ls$dehergne/836//obs=Teixeira (Teixeyra), Leonardo (port.) P. 836 K'iu Leang-Tao (Pf.., JS 187, 4v le nomme Kin). N. Chaves, 1670, «Lusitanus Transmontanus» (JS 25, 236v). E. 3 mars 1686, Coïmbre. Emb. non prêtre le 8 avril 1690 (W 1281)., le catal. Japon le dit parti dans la mission de Chine en 1696 (JS 25, 233v)., en 1697, au Siam, où devient supérieur en 1699 (M 851, 299., AHSI 22 (1953), 202). Il sort de la Compagnie (JS 19, 190, lettre de 1704). Pf. 484., BEM 1969, 271.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q504580"%Chaves/1670
   ls$nascimento/Chaves#@wikidata:Q504580/1670
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1686-03-03
@@ -3179,7 +3171,6 @@ n$Leonardo Teixeira/m/id=deh-leonardo-teixeira
   ls$jesuita-tarefa/Sai da Companhia/1704#cerca de
 
 n$Estêvão Collasco/m/id=deh-estevao-collasco
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 1770
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/Estêvão Colaço/
@@ -3187,7 +3178,7 @@ n$Estêvão Collasco/m/id=deh-estevao-collasco
   ls$nome/Estêvão Colasso/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa (Colégio)/
   ls$estadia/Goa (Colégio)#@wikidata:Q1171/
-  ls$dehergne/190/obs=Collasco, Estêvâo (port.) P. 190 Colaço., Colaça., Colasso. N. 21 avril 1676, Semide, d. de Coïmbre. E. 27 janv. 1692, Coïmbre (Lus. 46, 260: Steph. Colasso). Emb. non prêtre, pour la Chine, en 1695 (W 1349 et JS 134, 378v). Termine sa philosophie en 1697 (JS 134, 382v)., collège de Goa. Les catal. de Chine ne le nomment pas. -P. en 1699 (Goa 25, 373). Pf. 485.
+  ls$dehergne/190//obs=Collasco, Estêvâo (port.) P. 190 Colaço., Colaça., Colasso. N. 21 avril 1676, Semide, d. de Coïmbre. E. 27 janv. 1692, Coïmbre (Lus. 46, 260: Steph. Colasso). Emb. non prêtre, pour la Chine, en 1695 (W 1349 et JS 134, 378v). Termine sa philosophie en 1697 (JS 134, 382v)., collège de Goa. Les catal. de Chine ne le nomment pas. -P. en 1699 (Goa 25, 373). Pf. 485.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q770548"%Semide, diocese de Coimbra/1676-04-21
   ls$nascimento/Semide, diocese de Coimbra#@wikidata:Q770548/1676-04-21
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1692-01-27
@@ -3199,11 +3190,10 @@ n$Estêvão Collasco/m/id=deh-estevao-collasco
   ls$jesuita-ordenacao-padre/?/1699
 
 n$António de Magalhães/m/id=deh-antonio-de-magalhaes
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 143
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Tchang Ngan-to King-Sieou/
-  ls$dehergne/504/obs="""
+  ls$dehergne/504//obs="""
                Magalhães, António de (port.) P. 504
                Tchang Ngan-to Klng-Sieou (Pf.., M 443, 676 écrit Chung = Tchong).
                N. «Cortisio», Cortiços, d. de Viseu, 1677 -
@@ -3250,26 +3240,23 @@ n$António de Magalhães/m/id=deh-antonio-de-magalhaes
   ls$wicky/1686a/1725
   ls$wicky-viagem/146/1725
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1726-11-19
-  ls$estadia/Pequim#@wikidata:Q956/1726-11-19obs=com o embaixador português Metello e audiência com o imperador Yong-Tcheng a 24 de novembro
+  ls$estadia/Pequim#@wikidata:Q956/1726-11-19/obs=com o embaixador português Metello e audiência com o imperador Yong-Tcheng a 24 de novembro
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1735-03-24
   ls$morte/Pequim#@wikidata:Q956/1735-03-24
   referido$Alexandre Metelo de Sousa e Meneses/m/id=deh-antonio-de-magalhaes-ref1/obs="""      é Alexandre Metelo de Sousa e Meneses, segundo a cronologia (p. 339), partiu
   em 1725 e foi recebido em 1727
   """
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 188
     ls$nacionalidade/Portugal/
     ls$cargo/Embaixador/
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1726-11-19
     ls$estadia/Pequim#@wikidata:Q956/1726-11-19
   referido$Yong-Tcheng/m/id=deh-antonio-de-magalhaes-ref2
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 193
     ls$nacionalidade/China/
     ls$titulo/Imperador da China/1726-11-24
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1726-11-24
     ls$estadia/Pequim#@wikidata:Q956/1726-11-24
 
 n$Antão Dantas/m/id=deh-antao-dantas
-  rel$function-in-act/n/lista/dehergne-notices-d//obs=line: 22
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/António Dantas/
@@ -3279,7 +3266,7 @@ n$Antão Dantas/m/id=deh-antao-dantas
   ls$nome-chines/Ngen Ngan-tang/
   ls$nome-chines/Nguen/
   ls$nome-chines/Sen#(?)/
-  ls$dehergne/235/obs="""Dantas, Antão (= Antonio) (port.) P. 235 Antas (JS 134, 378v)., Dantes (JS 134, 407v., Pf.). Ngen Tchong (Vit.)., Ngen Ngan-tang (Pf.., M 443, 675: Gen)., Nguen (JS 187, 5). - Sen (?) (BN: ms. fr. 25057, p. 804). N. 2 nov. 1674, Porto -E. 10 ou 16 mars 1693 (JS 134, 407v., JS 26, 58), ou 21 oct. 1693 (JS 134, 413)., le 26 mars, Coïmbre {Lus. 58 II, 559). Emb., novice, en 1694 (W 1338)., Arr. oct. 1699, mission de Chine {JS 25, 257), Kwangtung., 1705., Macao., 1707, Manille., 1712, Macao., 1715, « Goam rediit ubi incorporandus », passe à la province de Goa {JS 177, 472). V. Macao, 15 août 1711, pr. {Lus. 13, 151). M. 22 mai 1721, Goa {JS 50, 112v., HS 50, 112v). Pf. 537."""
+  ls$dehergne/235//obs="""Dantas, Antão (= Antonio) (port.) P. 235 Antas (JS 134, 378v)., Dantes (JS 134, 407v., Pf.). Ngen Tchong (Vit.)., Ngen Ngan-tang (Pf.., M 443, 675: Gen)., Nguen (JS 187, 5). - Sen (?) (BN: ms. fr. 25057, p. 804). N. 2 nov. 1674, Porto -E. 10 ou 16 mars 1693 (JS 134, 407v., JS 26, 58), ou 21 oct. 1693 (JS 134, 413)., le 26 mars, Coïmbre {Lus. 58 II, 559). Emb., novice, en 1694 (W 1338)., Arr. oct. 1699, mission de Chine {JS 25, 257), Kwangtung., 1705., Macao., 1707, Manille., 1712, Macao., 1715, « Goam rediit ubi incorporandus », passe à la province de Goa {JS 177, 472). V. Macao, 15 août 1711, pr. {Lus. 13, 151). M. 22 mai 1721, Goa {JS 50, 112v., HS 50, 112v). Pf. 537."""
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q36433"%Porto/1674-11-02
   ls$nascimento/Porto#@wikidata:Q36433/1674-11-02
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1693-03-10
@@ -3304,12 +3291,11 @@ n$Antão Dantas/m/id=deh-antao-dantas
   ls$morte/Goa#@wikidata:Q1171/1721-05-22
 
 n$Manuel Ribeiro, sénior/m/id=deh-manuel-ribeiro-senior
-  rel$function-in-act/n/lista/dehergne-notices-r//obs=line: 408
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Lou Ma-no/
   ls$nome-chines/Yeou-Sin/
-  ls$dehergne/679/obs="""
+  ls$dehergne/679//obs="""
                Ribeiro, Manuel senior (port.) (I) P. 679
                Lou Ma-no, Yeou-Sln (Pf.., M 443, 676: Lo).
                N. Evora, 1676 -
@@ -3326,65 +3312,64 @@ n$Manuel Ribeiro, sénior/m/id=deh-manuel-ribeiro-senior
                Serait-ce le missionnaire de « Lui-cheu » qui,
                   en 1724, signe ou est appelé Miguel Ribeyro (AN: K 1375 n 177)?
                   et y réside en 1712 (JS 25, 267v). Cf. le suivant."""
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q179948"%Évora/1676
   ls$nascimento/Évora#@wikidata:Q179948/1676
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q179948"%Évora/1676
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1693-10-30
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1693-10-30
-  ls$embarque/[Para a China]/1695#ou 16960000, não padre
+  ls$embarque/[Para a China]/1695#ou 1696, não padre
   ls$wicky/1353#ou 1362/1695
   ls$wicky-viagem/118#ou 119/1695
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1695
   ls$estadia/Goa#@wikidata:Q1171/1695#Noviço
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1695
   ls$wicky/1362#ou 1353/1696
   ls$wicky-viagem/119#ou 118/1696
   ls$jesuita-ordenacao-padre@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1696-12-28
   ls$jesuita-ordenacao-padre/Goa#@wikidata:Q1171/1696-12-28
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1697
   ls$estadia/Macau#@wikidata:Q14773/1697
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"%Hainan/1711
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q14773"%Macau/1697
   ls$estadia/Hainan#@wikidata:Q42200/1711
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-tcheou/1712
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"%Hainan/1711
   ls$estadia/Lui-tcheou#@wikidata:Q1209167/1712
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1717
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-tcheou/1712
   ls$estadia/Cantão#@wikidata:Q16572/1717
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-tcheou/1720
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1717
   ls$estadia/Lui-tcheou#@wikidata:Q1209167/1720
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"%Hainan/1720
   ls$estadia/Hainan#@wikidata:Q42200/1720
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1734
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-tcheou/1720
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q42200"%Hainan/1720
   ls$estadia/China#@wikidata:Q148/1734
   ls$morte/?/1734#depois de
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1734
   referido$Miguel Ribeyro/m/id=deh-manuel-ribeiro-senior-ref1/obs="""      Dehergne pergunta se será ele ou se será Manuel Ribeiro Júnior, que esteve
   na mesma província
   """
-    rel$function-in-act/referido/lista/dehergne-notices-r//obs=line: 448
-    ls$dehergne/679-ref1/obs=Serait-ce le missionnaire de « Lui-cheu » qui, en 1724, signe ou est appelé Miguel Ribeyro (AN: K 1375 n» 177)? et y réside en 1712 (JS 25, 267v). Cf. le suivant.
-    ls$estadia/Lui-cheu#Leizhou?/1712
-    ls$estadia/Lui-cheu/1724
+    ls$dehergne/679-ref1//obs=Serait-ce le missionnaire de « Lui-cheu » qui, en 1724, signe ou est appelé Miguel Ribeyro (AN: K 1375 n» 177)? et y réside en 1712 (JS 25, 267v). Cf. le suivant.
+    ls$estadia/Lui-cheu#Leizhou? @wikidata:Q1209167/1712
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-cheu/1712
+    ls$estadia/Lui-cheu#@wikidata:Q1209167/1724
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-cheu/1724
   referido$Manuel Ribeiro, júnior/m/id=deh-manuel-ribeiro-senior-ref2/obs=Dehergne 680, na entrada 679 pergunta se Miguel Ribeyro poderá ser ele
-    rel$function-in-act/referido/lista/dehergne-notices-r//obs=line: 453
-    ls$estadia/Lui-cheu/1724obs=segundo a entrada de Manuel Ribeiro Junior
+    ls$estadia/Lui-cheu#@wikidata:Q1209167/1724/obs=segundo a entrada de Manuel Ribeiro Junior
+    ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1209167"%Lui-cheu/1724
 
 n$Matias Rodrigues/m/id=deh-matias-rodrigues
-  rel$function-in-act/n/lista/dehergne-notices-r//obs=line: 1458
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Escolástico/
-  ls$dehergne/713/obs=Rodrigues, Matias (port.) scol. 713 N. Coïmbre, 1675 -E. 30 janv. 1694, Coïmbre {JS 134, 383). Emb. (non prêtre) pour la Chine, 1695 (W 1354), arr. en Chine, novice, 1695 (JS 134, 378v). Pf. 485. Il n'est plus au catal. de 1702. Goa 25, 364 le dit N. à Espinhel, 1677, E. 1694, Coïmbre., en 1699, il étudie la théologie morale.
+  ls$dehergne/713//obs=Rodrigues, Matias (port.) scol. 713 N. Coïmbre, 1675 -E. 30 janv. 1694, Coïmbre {JS 134, 383). Emb. (non prêtre) pour la Chine, 1695 (W 1354), arr. en Chine, novice, 1695 (JS 134, 378v). Pf. 485. Il n'est plus au catal. de 1702. Goa 25, 364 le dit N. à Espinhel, 1677, E. 1694, Coïmbre., en 1699, il étudie la théologie morale.
+  ls$nascimento/Coimbra#@wikidata:Q45412/1675#ou Espinhel, 1677
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1675
-  ls$nascimento/Coimbra#@wikidata:Q45412/1675#ou Espinhel, 16770000
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1694-01-30
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1694-01-30
   ls$embarque/[Para a China]/1695#não padre
   ls$wicky/1354/1695
   ls$wicky-viagem/118/1695
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1695
   ls$chegada/China#@wikidata:Q148/1695#noviço
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1695
   ls$tarefa/Estuda Moral/1699
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1702
   ls$estadia/China#@wikidata:Q148/1702#até? il n'est plus au catal. de 1702
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1702
 
 n$António de Melo/m/id=deh-antonio-de-melo
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 1207
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/António de Mello/
@@ -3394,7 +3379,7 @@ n$António de Melo/m/id=deh-antonio-de-melo
   ls$estadia/Sião#@wikidata:Q869/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q622778"%Tonquim/
   ls$estadia/Tonquim#@wikidata:Q622778 reclamé par la Propagande/
-  ls$dehergne/539/obs=Melo (Mello), Antonio de (port.) P. 539 Anton. Mello (AHU ms 1659 f° 23)., de Millo (JS 180, 7). Tô (M 443, 677: Té). N. Montenor Velho, d. de Coïmbre, 3 août 1681 (JS 25, 281 -E. 24 avril 1699, Coïmbre, pour les missions (Lus. 47, 16). Emb. 1 avril 1715 sur le S. Francisco Xavier (W 1589). En 1723, au Tonkin, lors de la persécution (JS 179, 249)., 1724, Hainan, où il prête serment (AN: K 1375 n° 77), d'où il écrit le 23 nov. (JS 179, 396), mais d'où il est expulsé en 1725., Siam et Tonkin., réclamé par la Propagande (SOCP 1745, 108). V. 3 déc. 1719 Ké-Sât, pr. (Lus. 14, 93). M. après 1752 (JS 26, 47). Pf. 657.
+  ls$dehergne/539//obs=Melo (Mello), Antonio de (port.) P. 539 Anton. Mello (AHU ms 1659 f° 23)., de Millo (JS 180, 7). Tô (M 443, 677: Té). N. Montenor Velho, d. de Coïmbre, 3 août 1681 (JS 25, 281 -E. 24 avril 1699, Coïmbre, pour les missions (Lus. 47, 16). Emb. 1 avril 1715 sur le S. Francisco Xavier (W 1589). En 1723, au Tonkin, lors de la persécution (JS 179, 249)., 1724, Hainan, où il prête serment (AN: K 1375 n° 77), d'où il écrit le 23 nov. (JS 179, 396), mais d'où il est expulsé en 1725., Siam et Tonkin., réclamé par la Propagande (SOCP 1745, 108). V. 3 déc. 1719 Ké-Sât, pr. (Lus. 14, 93). M. après 1752 (JS 26, 47). Pf. 657.
   ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q45815"%Montemor-o-Velho, diocese de Coimbra/1681-08-03
   ls$nascimento/Montemor-o-Velho, diocese de Coimbra#@wikidata:Q45815/1681-08-03
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1699-04-24
@@ -3417,25 +3402,23 @@ n$António de Melo/m/id=deh-antonio-de-melo
   ls$morte/?/1752#depois de
 
 n$Luís de Caldas/m/id=deh-luis-de-caldas
-  rel$function-in-act/n/lista/dehergne-notices-c//obs=line: 118
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Kia/
-  ls$dehergne/128/obs=Caldas, Luis de (port.) P. 128 Kia (M 443, 677 et AHU ms 1659 f 22v., Pf. l'ignore). N. 20 nov. 1689, Valadares, d. de Braga -E. 24 déc. 1704 (Lus. 47, 133)., 24 déc. 1705 Coïmbre (Goa 26, 135v). Emb. 12 avril 1714 (W 1581)., en 1720 à Kanchow (du Kiangsi) mais 24 mai 1721 arr. à Canton, rappelé par le visiteur puisqu'il est entré sans le «piao» (JS 199 II, 513v)., en 1722, aux Indes. N'est pas au catal. de Goa de 1725. Distinct du Aloysius Gonzaga Caldas N. à Lisbonne, 21 janv. 1736., E. 31 oct. 1750, exilé en Italie et sorti le 12 nov. 1766. Pf. 664.
+  ls$dehergne/128//obs=Caldas, Luis de (port.) P. 128 Kia (M 443, 677 et AHU ms 1659 f 22v., Pf. l'ignore). N. 20 nov. 1689, Valadares, d. de Braga -E. 24 déc. 1704 (Lus. 47, 133)., 24 déc. 1705 Coïmbre (Goa 26, 135v). Emb. 12 avril 1714 (W 1581)., en 1720 à Kanchow (du Kiangsi) mais 24 mai 1721 arr. à Canton, rappelé par le visiteur puisqu'il est entré sans le «piao» (JS 199 II, 513v)., en 1722, aux Indes. N'est pas au catal. de Goa de 1725. Distinct du Aloysius Gonzaga Caldas N. à Lisbonne, 21 janv. 1736., E. 31 oct. 1750, exilé en Italie et sorti le 12 nov. 1766. Pf. 664.
   ls$nascimento/Valadares, diocese de Braga#ILOC/1689-11-20
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1704-12-24
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1704-12-24#ou 17051224
   ls$embarque/?/1714-04-12
   ls$wicky/1581/1714-04-12
   ls$wicky-viagem/137/1714-04-12
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q363166"%Ganzhou, província de Jiangxi/1720
   ls$estadia/Ganzhou, província de Jiangxi#@wikidata:Q363166%Kanchow (du Kiangsi)/1720
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q363166"%Ganzhou, província de Jiangxi/1720
   ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q16572"%Cantão/1721-05-24
-  ls$chegada/Cantão#@wikidata:Q16572/1721-05-24#chamado de volta pelo visitador por ter entrado sem o "piao"
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1722
+  ls$chegada/Cantão#@wikidata:Q16572/1721-05-24#"""chamado de volta pelo visitador por ter entrado sem o "piao""""
   ls$estadia/Índia#@wikidata:Q668/1722
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q668"%Índia/1722
   referido$Aloysius Gonzaga Caldas/m/id=deh-luis-de-caldas-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-c//obs=line: 132
     ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q38"%Itália/
     ls$estadia/Itália#exilado @wikidata:Q38/
     ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q597"%Lisboa/1736-01-21
@@ -3444,13 +3427,12 @@ n$Luís de Caldas/m/id=deh-luis-de-caldas
     ls$jesuita-tarefa/Sai da Companhia/1766-11-12
 
 n$José Montanha/m/id=deh-jose-montanha-ii
-  rel$function-in-act/n/lista/dehergne-notices-m//obs=line: 1707
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome/José Montagna/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q38"%Itália/
   ls$estadia/Itália#deportado @wikidata:Q38/
-  ls$dehergne/559/obs="""
+  ls$dehergne/559//obs="""
                Montanha, José (port.) (II) P. 559
                Montagna.
                N. 3 janv. 1708, Coïmbre -
@@ -3500,7 +3482,6 @@ n$José Montanha/m/id=deh-jose-montanha-ii
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q242105"%Castel Gandolfo/1764-10-10
   ls$morte/Castel Gandolfo#@wikidata:Q242105/1764-10-10
   referido$Hilário de Santa Rosa/m/id=deh-jose-montanha-ii-ref1
-    rel$function-in-act/referido/lista/dehergne-notices-m//obs=line: 1753
     ls$titulo/Monsenhor/
     rel$sociabilidade/Companheiro/José Montanha/deh-jose-montanha-ii-ref1/1742
     ls$embarque/S. Pedro e S. Paulo/1742
@@ -3509,7 +3490,6 @@ n$José Montanha/m/id=deh-jose-montanha-ii
     ls$estadia/Macau#@wikidata:Q14773/1742-11-05
 
 n$António Gomes/m/id=deh-antonio-gomes
-  rel$function-in-act/n/lista/dehergne-notices-g//obs=line: 730
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Ma Tö-Tchao K'in-Ming/
@@ -3517,40 +3497,39 @@ n$António Gomes/m/id=deh-antonio-gomes
   ls$estadia/Diu#@wikidata:Q631849/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q256847"%Salcete, Índia/
   ls$estadia/Salcete, Índia#@wikidata:Q256847/
-  ls$dehergne/370/obs=Gomes, Antonio (port.) P. 370 Ma Tô-Tchao K'in-Ming (Pf.). N. Quintela da Lapa, 1706 -E. 28 mai 1725, Coïmbre (Goa 26, 209v). Emb. Goa 1727, étant novice (W 1709)., missionnaire à Diu et à Salsette., arr. Chine, 1742 (M 443, 678)., 1744, Pékin, comme chirurgien., 1746, missionnaire au Kiangnan (M 444, 238)., 1748-1751, vice-provincial de Chine. P. v. 1733 -V. Goa, 8 sept. 1742, pr. (Lus. 16, 47). M. 20 avril 1751., Pékin (HS 53a, 72., Planchet, p. 196). Pf. 812.
-  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q111798"%Quintela da Lapa/1706
+  ls$dehergne/370//obs=Gomes, Antonio (port.) P. 370 Ma Tô-Tchao K'in-Ming (Pf.). N. Quintela da Lapa, 1706 -E. 28 mai 1725, Coïmbre (Goa 26, 209v). Emb. Goa 1727, étant novice (W 1709)., missionnaire à Diu et à Salsette., arr. Chine, 1742 (M 443, 678)., 1744, Pékin, comme chirurgien., 1746, missionnaire au Kiangnan (M 444, 238)., 1748-1751, vice-provincial de Chine. P. v. 1733 -V. Goa, 8 sept. 1742, pr. (Lus. 16, 47). M. 20 avril 1751., Pékin (HS 53a, 72., Planchet, p. 196). Pf. 812.
   ls$nascimento/Quintela da Lapa#@wikidata:Q111798/1706
+  ls$nascimento@wikidata/"https://www.wikidata.org/wiki/Q111798"%Quintela da Lapa/1706
   ls$jesuita-entrada@wikidata/"https://www.wikidata.org/wiki/Q45412"%Coimbra/1725-05-28
   ls$jesuita-entrada/Coimbra#@wikidata:Q45412/1725-05-28
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1727
   ls$estadia/Goa#@wikidata:Q1171/1727
   ls$embarque/?/1727#era noviço
   ls$wicky/1709/1727
   ls$wicky-viagem/148/1727
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1727
   ls$jesuita-ordenacao-padre/?/1733
-  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1742
   ls$chegada/China#@wikidata:Q148/1742
+  ls$chegada@wikidata/"https://www.wikidata.org/wiki/Q148"%China/1742
   ls$jesuita-votos/4V/1742-09-08
   ls$jesuita-votos-local@wikidata/"https://www.wikidata.org/wiki/Q1171"%Goa/1742-09-08
   ls$jesuita-votos-local/Goa#@wikidata:Q1171/1742-09-08
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1744
   ls$estadia/Pequim#@wikidata:Q956/1744
   ls$profissao/Cirurgião/1744
-  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11133842"%Kiangnan/1746
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1744
   ls$estadia/Kiangnan#@wikidata:Q11133842/1746
+  ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11133842"%Kiangnan/1746
   ls$jesuita-cargo/Vice-provincial da China/1748
   ls$jesuita-cargo/Vice-provincial da China/1751
   ls$morte@wikidata/"https://www.wikidata.org/wiki/Q956"%Pequim/1751-04-20
   ls$morte/Pequim#? @wikidata:Q956/1751-04-20
 
 n$Inácio Pires/m/id=deh-inacio-pires
-  rel$function-in-act/n/lista/dehergne-notices-p//obs=line: 1542
   ls$nacionalidade/Portugal/
   ls$jesuita-estatuto/Padre/
   ls$nome-chines/Pi Na-tsio/
   ls$estadia@wikidata/"https://www.wikidata.org/wiki/Q11133842"%Kiang-nan/
   ls$estadia/Kiang-nan#@wikidata:Q11133842/
-  ls$dehergne/651/obs="""
+  ls$dehergne/651//obs="""
             Pires, Inácio (port.) P. 651
             Pi Na-tsio (Pf.).
             N. 4 juill. 1724, Meanz, dioc. de Coïmbre (Lus. 49, 57v).
@@ -3564,7 +3543,7 @@ n$Inácio Pires/m/id=deh-inacio-pires
             Kiangsi, 2 mars 1760 (Lus. 17, 356).
             M. après 1776 (Krahl, 220). Pf. 870.
             """
-  atr$bibliografia/wicki-1967-416/obs="""
+  atr$bibliografia/wicki-1967-416//obs="""
                No. 1989: Monçöes 123B-, Portuguese from the
                diocese of Coimbra, born 1724, entered 1742,
                was in his second year of theology in 1749,
