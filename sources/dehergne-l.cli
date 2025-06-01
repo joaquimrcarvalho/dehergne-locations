@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=179
+kleio$gacto2.str/translations=187
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-130
    fonte$dehergne-l/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra L
 
@@ -264,7 +264,7 @@ kleio$gacto2.str/translations=179
             ls$estadia/Hainan# @wikidata:Q42200/1645
             ls$estadia/Namyung (Nan-hiong), Kwangtung#@wikidata:Q934465/1645#depois de
             ls$jesuita-votos/Coadjutor Temporal/16260412
-            ls$jesuita-votos-local/Kiatim (Kiating) do Kiangnan/16260412
+            ls$jesuita-votos-local/Kiatim (Kiating) do Kiangnan#@wikidata:Q662101/16260412
             ls$morte/Macau# @wikidata:Q14773/16470202/obs=JS 134, 300 le marque sorti de la Compagnie.,
             ls$dehergne/444/obs=Lagea, Francisco de (macaïste) fr. coadj. 444 da Lagé (JS 161, 235)., de Lagem (AHU ms 1659). Che Hong-Kl Heou-Ts'i (Pk). N. 1585, « Sinensis natus Macai », de parents chinois (JS 134, 320v). E. 1610, catéchiste et peintre, Shanghai., 1612-1613, Hangchow., 1614, Nankin., 1630, Kiangchow, Shansi., 1634, Kienchang (Kien-tch'ang), Kiangsi., 1645, Hainan., puis Namyung (Nan-hiong), Kwangtung (JS 134, 330v). V. Kiatim (Kiating) du Kiangnan, 12 avril 1626, c. temp. (Lus. 27, 66). M. 2 févr. 1647, Macao. HS 47, 24v l'ignore., JS 134, 300 le marque sorti de la Compagnie., AHU ms 1659 f° 106 ne le sait pas. Pf. 123.
 
@@ -342,17 +342,43 @@ kleio$gacto2.str/translations=179
             ls$embarque/Duc de Chartres/17541122
             ls$chegada/Macau# @wikidata:Q14773/17550823
             ls$estadia/Hou-pei# @wikidata:Q46862/17551100
-            ls$estadia/Congregação do Santíssimo Sacramento
+            ls$jesuita-tarefa#Não muito claro o significado/Congregação do Santíssimo Sacramento
             ls$estadia/Hukwang#@wikidata:Q2235155/1778
             ls$jesuita-cargo/Superior/1778
             ls$estadia/Hukwang#@wikidata:Q2235155/17840800
             ls$estadia/Hukwang#@wikidata:Q2235155/17851100
             ls$jesuita-ordenacao-padre/?/1752
             ls$jesuita-votos/4V/17590401#não o podendo ter feito em 17580815
-            ls$jesuita-votos-local/Chayüankow, Hukwang/17590401
+            ls$jesuita-votos-local/Chayüankow, Hukwang#"https://github.com/joaquimrcarvalho/dehergne-locations/issues/34"/17590401
             ls$morte/Chang-tsin do Yüansi, Hou-pei/17861203
-            ls$dehergne/447/obs=Lamathe, Mathurin [de] (franc.) P. 447 Écrit parfois Matthieu Lamathe (catal. Franc. 1758 etc.). Ho Mi-Tô Tou-lin (Pf.., Tou-lin = Ma-tou-lin, Mathurin). Wan sur le tombeau, et dans Bx Clet, Lettres, p. 85 (RBS 436: Ouan). N. 11 nov. 1723, en Aquitaine. E. 24 juill. (14 sept, dit Catal. Franc. 1758, p. 61) 1741, Bordeaux, (Aquit. 14, 385 et 8 II, 454). Emb. sur le Duc de Chartres, Lorient, 22 nov. 1754 (AN: Col. F5» 49). Arr. Macao 23 août 1755., en nov. 1755, Hou-pei (SOCP t. 51, 1757, f° 536)., Congrégation du Saint-Sacrement (NZM 1962, 266-274)., 1778, supérieur au Hukwang., arrêté entre août 1784 et nov. 1785 au Hukwang. P. 1752 (Franc. 21, 548v).
-            ls$dehergne/447/obs=V. « Tcha yuen keou, Houquam » (Chayiiankow, Hukwang), 1 avril 1759 [n'ayant pu le faire le 15 août 1758, écrit le P. Dugad], pr. (Gai. 24, 388). Il signe Matthaeus Lamathe. M. 3 déc. 1786 dans le Chang-tsin du Yûansi, Hou-pei (M 448, 94., RBS 436). Gubbels, 137 dit: à Shan-king-kia. N. « Adurensis », dit le catal. miss. Sinens. PP Gatlorum 1759. Serait-ce Aire-sur-l'Adour (Landes)? Les registres du lieu n'y donnent pas sa naissance à la date indiquée, (lettre de M le Maire). — Selon Miss. Hisp. 1971, 200, en 1785 « O La Mie Te » (Lamathe) est recherché au Hukwang avec un autre Père Ma. Il ne sera pas arrêté. Pf. 882.
+            ls$dehergne/447/obs="""
+            Lamathe, Mathurin [de] (franc.) P. 447
+            Écrit parfois Matthieu Lamathe (catal. Franc. 1758 etc.).
+            Ho Mi-Tô Tou-lin (Pf.., Tou-lin = Ma-tou-lin, Mathurin).
+            Wan sur le tombeau, et dans Bx Clet, Lettres, p. 85 (RBS 436: Ouan).
+            N. 11 nov. 1723, en Aquitaine.
+            E. 24 juill. (14 sept, dit Catal. Franc. 1758, p. 61) 1741,
+               Bordeaux, (Aquit. 14, 385 et 8 II, 454).
+            Emb. sur le Duc de Chartres, Lorient, 22 nov. 1754 (AN: Col. F5» 49).
+            Arr. Macao 23 août 1755.,
+            en nov. 1755, Hou-pei (SOCP t. 51, 1757, f° 536).,
+            Congrégation du Saint-Sacrement (NZM 1962, 266-274)., 1778,
+            supérieur au Hukwang.,
+             arrêté entre août 1784 et nov. 1785 au Hukwang.
+             P. 1752 (Franc. 21, 548v).
+            V. « Tcha yuen keou, Houquam » (Chayiiankow, Hukwang), 1 avril 1759
+               [n'ayant pu le faire le 15 août 1758, écrit le P. Dugad],
+               pr. (Gai. 24, 388).
+            Il signe Matthaeus Lamathe.
+            M. 3 déc. 1786 dans le Chang-tsin du Yûansi, Hou-pei
+               (M 448, 94., RBS 436). Gubbels, 137 dit: à Shan-king-kia.
+            N. « Adurensis », dit le catal. miss. Sinens. PP Gatlorum 1759.
+            Serait-ce Aire-sur-l'Adour (Landes)?
+            Les registres du lieu n'y donnent pas sa naissance à la date indiquée,
+            (lettre de M le Maire). —
+            Selon Miss. Hisp. 1971, 200, en 1785 « O La Mie Te » (Lamathe)
+            est recherché au Hukwang avec un autre Père Ma.
+            Il ne sera pas arrêté. Pf. 882."""
 
          n$Gabriel-Léon Lamy/id=deh-gabriel-leon-lamy
             ls$nacionalidade/França
@@ -394,7 +420,7 @@ kleio$gacto2.str/translations=179
             ls$estadia/Pequim# @wikidata:Q956/1775
             ls$jesuita-ordenacao-padre/Noyon# @wikidata:Q49831/17530528#cerca de
             ls$jesuita-votos/Coadjutor Espiritual/17600430
-            ls$jesuita-votos-local/Hou quang/17600430
+            ls$jesuita-votos-local/Hou quang#@wikidata:Q2235155/17600430
             ls$morte/Pequim# @wikidata:Q956/17960730
             ls$dehergne/448/obs=Lan, François-Xavier Ignace (chin.) P. 448 Lan Fang-tsi (Pf.). N. 23 août 1727 au Hopei {Franc. 21, 338) « Pekinensis ». Venu faire ses études en France avec le P. Foureau, il E. au noviciat de Paris, 29 oct. 1748 (BN: ms. lat. 10988). Retourne en Chine avec le P. Roy., arr. 15 ou 16 août 1754 (JS 134, 445)., 1756, Nanyang, Honan (SOCP 52, 1760, f° 580v)., arrêté au Hukwang, 1759., v. 1762, Pékin {A. Vat. Missioni 109 n° 9: Ignatius Franciscus)., on le trouve encore à Pékin en 1775 (SOCP 1777-79, f° 150). P. en France vers le 28 mai 1753 par l'évêque de Noyon, à Noyon, Oise (Franc. 21, 548v). V. Hou quang, 3 avril 1760, coadj. spir. (Gai. 28, 181). M. 30 juill. 1796, Pékin. Franc. 21, 476 le nomme P. Fr. Xavier Lan., le registre des novices de Paris (BN: ms. Iat. 10988): François Xavier Ignace., et lui-même signe son serment, 9 oct. 1754, Fr. Xav. Ignace Lan (JS 181, 259). Carrez, Le R. P. Louis Joseph des Robert, p. 74, le dit ordonné par Mgr de Fontange, évêque de Laon. — Pf. 877.
 
@@ -490,7 +516,7 @@ kleio$gacto2.str/translations=179
             ls$jesuita-entrada/?/15960502
             ls$chegada/Filipinas# @wikidata:Q928/16050622
             ls$estadia/Visayas, Filipinas# @wikidata:Q211436/1608#já padre
-            ls$estadia/Chanceo, costa de Kwangtung#naufraga e erra pela província durante onze meses/1627
+            ls$estadia/Chanceo, costa de Kwangtung%naufraga e erra pela província durante onze meses# Maybe Shangchuan @wikidata:Q1397551/1627
             ls$jesuita-votos/4V/16130516
             ls$jesuita-votos-local/Palapag, Filipinas%Palapaga# @wikidata:Q175100/16130516
             ls$morte/Manila# @wikidata:Q1461/16290506
@@ -1131,9 +1157,9 @@ kleio$gacto2.str/translations=179
 
             referido$José de Lima/id=deh-jose-de-lima-ref3/obs=pode ser qualquer um dos anteriores»
                ls$estadia/China# @wikidata:Q148
-               ls$estadia/Itália/1767#? como antigo missionário da China @wikidata:Q38
+               ls$estadia/Itália#@wikidata:Q38/1767#? como antigo missionário da China @wikidata:Q38
                ls$profissao/Astrónomo
-               ls$jesuita-tarefa/Pede para Regressar À Companhia/1767#?
+               ls$jesuita-tarefa/Pede para Regressar à Companhia/1767#?
                ls$dehergne/473-ref3/obs=L'un de ces deux était (en 1767?) en Italie, ancien missionnaire de Chine (Lus. 49, 106v). Il redemande la Chine en tant qu'astronome (Krahl, 132).
 
          n$Lin/id=deh-lin
@@ -1679,38 +1705,38 @@ kleio$gacto2.str/translations=179
             ls$jesuita-votos-local/Macau# @wikidata:Q14773/16490815
             ls$morte/Macau# @wikidata:Q14773/16851102
             ls$dehergne/497/obs="""
-            Lubelli, Andréa-Giovanni (ital.) 497 
-            Lobelli., 
-            Lobello., 
-            Lubely Giovanni-Andrea. 
-            Lou Ngan-tô T'al-Jan (Pf.). 
-            N, « Lupiensis » al. « Aletio » = Lecce, royaume de Naples, 1611. 
-            E. 30 mars 1628, Naples (Neap. 28, 24v). 
-            Emb. 26 mars 1640 sur le Na. Sra. d'Atàlaia (W 891: Giovanni Andréa Lubelli), 
-            3 ans à Salsette, Indes., 
-            Macao., 
-            se tire seul du naufrage du 26 févr. 1646 (Schutte, 406)., 1647, Hainan. 
-            Le cotai. 1650 le dit: a été en mission 6 ans et capturé par 
-            les hérétiques, emprisonné 8 mois., 
-            il a soin des néophytes chinois (à Macao?) (JS 25, 151v)., 
-            Tonkin., 1659-1665, 
-            Canton où prend soin des enfants exposés, fonde église et résidence en mars 1659 (JA 49-IV- 66 f° 83)., 
-            supérieur de la résidence en 1664 (JS 25, 180)., 
-            persé- cution de 1665, arrêté et conduit à Pékin., 
-            1674-1676, vice-provincial de Chine., 
-            1676-1680, provincial du Japon., 
-            1680-1684, visiteur., 
-            Shansi-Shensi., Hukwang. 
+            Lubelli, Andréa-Giovanni (ital.) 497
+            Lobelli.,
+            Lobello.,
+            Lubely Giovanni-Andrea.
+            Lou Ngan-tô T'al-Jan (Pf.).
+            N, « Lupiensis » al. « Aletio » = Lecce, royaume de Naples, 1611.
+            E. 30 mars 1628, Naples (Neap. 28, 24v).
+            Emb. 26 mars 1640 sur le Na. Sra. d'Atàlaia (W 891: Giovanni Andréa Lubelli),
+            3 ans à Salsette, Indes.,
+            Macao.,
+            se tire seul du naufrage du 26 févr. 1646 (Schutte, 406)., 1647, Hainan.
+            Le cotai. 1650 le dit: a été en mission 6 ans et capturé par
+            les hérétiques, emprisonné 8 mois.,
+            il a soin des néophytes chinois (à Macao?) (JS 25, 151v).,
+            Tonkin., 1659-1665,
+            Canton où prend soin des enfants exposés, fonde église et résidence en mars 1659 (JA 49-IV- 66 f° 83).,
+            supérieur de la résidence en 1664 (JS 25, 180).,
+            persé- cution de 1665, arrêté et conduit à Pékin.,
+            1674-1676, vice-provincial de Chine.,
+            1676-1680, provincial du Japon.,
+            1680-1684, visiteur.,
+            Shansi-Shensi., Hukwang.
             P. vers 1639 -
-            V. « Amacai », Macao 15 août 1649, pr. (Lus. 6, 265). 
+            V. « Amacai », Macao 15 août 1649, pr. (Lus. 6, 265).
             Signe: Andréas Lubellus.
-            M. 2 nov. 1685, Macao (HS 49, 13v) (et non 1683, Pf.). Pf 328. 
-            — Van Hée, L., Le Bouddha et tes premiers missionnaires en 
-            Chine, Asia Major 10 (Leipzig 1935), 365-367., 
-            Streit V, n° 2516., XIII n» 1605. Il a été 3 ans à Salsette., 
-            au Tonkin., et 24 ans dans la mission de Chine (JS 26, 39). 
-            En 1659, la ville de Canton fut attribuée à la province du 
-            Japon, qui avait déjà 111e de Hainan (De Marini). BN: ms. fr. 
+            M. 2 nov. 1685, Macao (HS 49, 13v) (et non 1683, Pf.). Pf 328.
+            — Van Hée, L., Le Bouddha et tes premiers missionnaires en
+            Chine, Asia Major 10 (Leipzig 1935), 365-367.,
+            Streit V, n° 2516., XIII n» 1605. Il a été 3 ans à Salsette.,
+            au Tonkin., et 24 ans dans la mission de Chine (JS 26, 39).
+            En 1659, la ville de Canton fut attribuée à la province du
+            Japon, qui avait déjà 111e de Hainan (De Marini). BN: ms. fr.
             25057, p. 551-553."""
 
          n$Isidoro Lucci/id=deh-isidoro-lucci
@@ -1758,7 +1784,7 @@ kleio$gacto2.str/translations=179
             ls$jesuita-estatuto/Padre
             ls$nome/Gaspar Luiz
             ls$nascimento/Portel, diocese de Évora# @wikidata:Q591694/1586
-            ls$jesuita-entrada/Évora#segundo Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).p.31/1602
+            ls$jesuita-entrada%?Évora#segundo Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).p.31 @wikidata:Q179948/1602
             ls$estadia-x/Coimbra#@wikidata:Q45412 Colégio de Jesus, segundo Lourenço & Pinto, p.31/1616
             ls$estadia-x/Coimbra#@wikidata:Q45412 Colégio de Jesus, segundo Lourenço & Pinto, p.31/1618
             ls$embarque/Sto. Amaro/16180400#meados do mês
