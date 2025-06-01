@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=102
+kleio$gacto2.str/translations=107
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-61
    link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
 
@@ -35,7 +35,7 @@ kleio$gacto2.str/translations=102
             ls$estadia/Macau# @wikidata:Q14773/1618
             ls$estadia/China# @wikidata:Q148/16240300
             ls$estadia/Kiangchow, Chan-si# @wikidata:Q1197219/16241200
-            ls$estadia/Foutcheou do Chen-si#鄜州 @wikidata:Q10562177 (Historical Place, centered on modern Fu County 富县, Q1201532)/1633
+            ls$estadia/Foutcheou do Chen-si#鄜州 @wikidata:Q1201532 (Historical Place, centered on modern Fu County 富县, Q1201532)/1633
             ls$jesuita-ordenacao-padre/?/1597#antes de
             ls$jesuita-votos/4V/16060813#ou 14
             ls$jesuita-votos-local/Nanquim# @wikidata:Q16666/16060813#ou 14
@@ -802,7 +802,7 @@ kleio$gacto2.str/translations=102
             ls$jesuita-cargo/Provincial do Japão/1699
             ls$jesuita-ordenacao-padre/?/1655#antes de
             ls$jesuita-votos/4V/16750202
-            ls$jesuita-votos-local/Kiungchow/16750202
+            ls$jesuita-votos-local/Kiungchow#@wikidata:Q1081204/16750202
             ls$morte/Macau# @wikidata:Q14773/17030201#ou 10
             ls$dehergne/875/obs=Veiga (Veyga), Francisco da (port.) P. 875 Vega., de Veyga (M 443, 672)., da Virga (JS 26, 36). Fan Fang-tsi Eul-Ko (Pf.). N. « ex Azulan. » (ex Insulis, Açores ou Madère?) 1631 -E. Lisbonne, 26 févr. 1650 (Lus. 45, 315v). Missionnaire au Maranhâo, Brésil, pendant 7 ans (emb. Lisbonne, 16 avr. 1655, arr. Maranhâo, 16 mai, Leite Hist., IV, 337., VII, 280)., Lisbonne, emb. 15 avr. 1666 (W 1083)., Macao, 1669 (JS 26, 36., M 443, 672)., en Chine, 1671 (SF III, 411)., Hainan, 1673 (JS 25, 204)., le catal. Japon 1697 le met 24 ans missionnaire à « Aynan », Hainan, et actuellement provincial du Japon (JS 25, 232), il le fut, en effet, de 1696 à 1699. P. avant 1655 (Leite, Hist. IV, 337). V. « in urbe Kiun cheu metropoli insulae Hainân postridie Kal. februarii anni jubilei 1675, pr. », Kiungchow, 2 févr. 1675 (Lus. 9, 112): Franc, da Veiga. M. 1 févr. 1703, Macao (AHU ms 1659 f IlOv., JS 19, 186v)., HS 50, 64 dit: 10 févr. 1703, Macao. Il signe: Fran«>. da Veiga (JS 19, 107v). Pf. 380.
 
@@ -1222,7 +1222,7 @@ kleio$gacto2.str/translations=102
             ls$jesuita-cargo/Procurador da Vice-província da China/1751
             ls$estadia/Goa# @wikidata:Q1171/1751
             ls$chegada/Kiangnan#@wikidata:Q11133842/1752
-            ls$estadia/Superior da missão#do Kiangnan?
+            ls$jesuita-cargo/Superior da missão#do Kiangnan?
             ls$chegada/Macau# @wikidata:Q14773/17560401#preso em Maio de 1754 e exilado
             ls$estadia/Macau# @wikidata:Q14773/1761
             ls$estadia/Filipinas# @wikidata:Q928/1768
@@ -1252,7 +1252,7 @@ kleio$gacto2.str/translations=102
             ls$jesuita-estatuto/Padre
             ls$nome/Francisco Vieyra
             ls$nascimento/Vieira do Minho# @wikidata:Q551109/15550
-            ls$jesuita-entrada/Coimbra%?# Está no "Catálogo delos Padres y Hermanos dela Provincia de Portugal a 12 de Enero de 1579",Lus. 39 p.3v, nos estudantes de Filosofia do segundo curso/15740200
+            ls$jesuita-entrada/Coimbra%?#@wikidata:Q45412 Está no "Catálogo delos Padres y Hermanos dela Provincia de Portugal a 12 de Enero de 1579",Lus. 39 p.3v, nos estudantes de Filosofia do segundo curso/15740200
             ls$embarque/S. Salvador/15810408#não padre
             ls$wicky/225/15810408
             ls$wicky-viagem/27/15810408
@@ -1313,9 +1313,9 @@ kleio$gacto2.str/translations=102
             ls$wicky-viagem/129/1706
             ls$partida/Pequim# @wikidata:Q956/1707
             ls$profissao/Boticário#na Corte, durante 6 anos
-            ls$cargo/Boticário da Corte/1707
-            ls$estadia/Goa# @wikidata:Q1171
-            ls$cargo/Boticário do hospital real de Goa
+            ls$cargo/Boticário da Corte/1707:1713%Pendant six ans
+            ls$estadia/Goa# @wikidata:Q1171/>1713
+            ls$cargo/Boticário do hospital real de Goa/>1713
             ls$jesuita-cargo/Procurador da Vice-província da China#Na Índia/1725
             ls$estadia/Aquilon#ILOC
             ls$estadia/Bombaim# @wikidata:Q1156/1740
@@ -1325,14 +1325,35 @@ kleio$gacto2.str/translations=102
             ls$estadia/Índia (Residência de Verem)#perto de Panjin ou Nova Goa @wikidata:Q668/17601000#é preso
             ls$jesuita-votos/Coadjutor Temporal/17170116#ou 2 de Fevereiro
             ls$morte/[No mar, a caminho de Lisboa]#a três dias, no exílio/17610517
-            ls$dehergne/887/obs=Vieira (Vieyra), Miguel (port.) fr. coadj. 887 Wei Mi-kia, M 443, 683: Goei., JA 49-VI-6 f° 233: Guei., SOCP Informat. 166 vol. II f> 302: Vel. Souei (Pf.: Soei). N. Pedroso (Goa 26, 201), d. de Porto, 29 sept. 1681. E. Lisbonne, 12 sept. 1702 (JS 134, 436), le 13 sept. 1702, dit Lus. 47, 82. Emb. pour la Chine en 1706 (W 1492., Lus. 47, 178)., mandé à Pékin, 1707, (M 424, 125., SF V, 536), pendant six ans pharmacien à la Cour., mais les infirmités le contraignent à revenir à Goa, comme pharmacien de l'hôpital royal., en 1725, procureur de la viceprovince de Chine aux Indes « région de l'Aquilon »., 1740, à Bombay., 1741, procureur de la vice-province de Chine à Goa (JS 134, 436, 439), de même en 1752., 1759, à la résidence « Veremiensi » (Verem, près de Panjin ou Nova Goa)., il y est arrêté en oct. 1760. V. c. temp. 16 janv. 1717 (2 févr. selon Goa 26, 201). M. en exil, sur mer, à 3 jours de Lisbonne, 17 mai 1761 (HS 53a, 113).
-            ls$dehergne/887/obs=Pf. 622: Vihw. JS 134, 443v et 447 donne des dates d'E. différentes: 11 mars 1700 et 17 sept. 1705.
+            ls$dehergne/887/obs="""
+            Vieira (Vieyra), Miguel (port.) fr. coadj. 887
+            Wei Mi-kia, M 443, 683:
+            Goei., JA 49-VI-6 f° 233:
+            Guei., SOCP Informat. 166 vol. II f> 302:
+            Vel. Souei (Pf.: Soei).
+            N. Pedroso (Goa 26, 201), d. de Porto, 29 sept. 1681.
+            E. Lisbonne, 12 sept. 1702 (JS 134, 436),
+               le 13 sept. 1702, dit Lus. 47, 82.
+            Emb. pour la Chine en 1706 (W 1492., Lus. 47, 178).,
+            mandé à Pékin, 1707, (M 424, 125., SF V, 536),
+            pendant six ans pharmacien à la Cour.,
+               mais les infirmités le contraignent à revenir à Goa,
+               comme pharmacien de l'hôpital royal.,
+            en 1725, procureur de la viceprovince de Chine aux Indes « région de l'Aquilon ».,
+            1740, à Bombay.,
+            1741, procureur de la vice-province de Chine à Goa (JS 134, 436, 439),
+            de même en 1752., 1759, à la résidence « Veremiensi » (Verem, près de Panjin ou Nova Goa).,
+            il y est arrêté en oct. 1760.
+            V. c. temp. 16 janv. 1717 (2 févr. selon Goa 26, 201).
+            M. en exil, sur mer, à 3 jours de Lisbonne, 17 mai 1761 (HS 53a, 113).
+            Pf. 622: Vihw. JS 134, 443v et 447 donne des dates d'E. différentes:
+               11 mars 1700 et 17 sept. 1705."""
 
          n$Sebastião Vieira/id=deh-sebastiao-vieira
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nascimento/Castro Daire, diocese de Lamego# @wikidata:Q861199/1574
-            ls$jesuita-entrada/Coimbra%?#([Schütte, 1975, p. 1321] Sebastião Vieira, nasc Castro de Aire, Lamego, E. Coimbra 3-2-1591/15910203
+            ls$jesuita-entrada/Coimbra%?#@wikidata:Q45412([Schütte, 1975, p. 1321] Sebastião Vieira, nasc Castro de Aire, Lamego, E. Coimbra 3-2-1591/15910203
             ls$embarque/Nossa Senhora da Bigonha/16020325
             ls$wicky/469/16020325
             ls$wicky-viagem/44/16020325

@@ -1,11 +1,15 @@
-kleio$gacto2.str/translations=186
+kleio$gacto2.str/translations=192
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin2-123
    link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
 
     A versão online está desfasada 37 para a frente, ou seja para referir
-    a página 239, deve-se usar o link 276: dehergne-online:276
+    a página 239, deve-se usar o link: dehergne-online:276
    """/id=root-lin1-166
-   fonte$dehergne-s/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra S
+   fonte$dehergne-s/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra S
+
+   Espadinha, M. A., Baptista, A. R., & Seabra, L. de. (2005). Missionação e missionários na história de Macau. Universidade de Macau. [MMHM]
+
+      """
 
       lista$dehergne-notices-s/0/0/0
 
@@ -36,8 +40,8 @@ kleio$gacto2.str/translations=186
             rel$sociabilidade/Companheiro/Francesco Maria Spinola/deh-joao-de-sa-ref1/data=1682/obs=Dehergne diz que esta informação é duvidosa, visto que não está em Wicky
             ls$estadia/Macau# @wikidata:Q14773/16940718
             ls$tarefa/Estuda Filosofia/16940800#segundo o Catálogo de Goa dessa data
-            ls$estadia/Foochow, Fukien# wikidata:Q68481/16990400
-            ls$estadia/Foochow, Fukien# wikidata:Q68481/1703
+            ls$estadia/Foochow, Fukien# @wikidata:Q68481/16990400
+            ls$estadia/Foochow, Fukien# @wikidata:Q68481/1703
             ls$estadia/Soochow, Kiangnan# @wikidata:Q42622/1705
             ls$estadia/Soochow, Kiangnan# @wikidata:Q42622/1725
             ls$partida/Cantão# @wikidata:Q16572/17260311#exilado
@@ -662,8 +666,22 @@ kleio$gacto2.str/translations=186
             ls$estadia/Mysore# @wikidata:Q10086/1752
             ls$estadia/Mysore# @wikidata:Q10086/1754#está lá há dois anos
             ls$jesuita-votos/?/17570202
-            ls$jesuita-votos-local/Kahkaveri, diocese de Salem, Mysore%« Cacaveri », [Kahkaveri, d. de Salem] « in Mayssur »# @wikidata:Kahkaveri/17570202
-            ls$dehergne/751/obs=Seco (Secco), Gregôrio (port.) P. (?) 751 N. 1723, Miranda do Corvo, d. Coïmbre -E. 1740 (Lus. 48, 276). Emb. pour Goa, puis pour la province du Japon, 1749 (W 1943) non prê- tre., en 1743 il avait demandé la Chine (W p. 414)., en 1752 étant à Damâo est appelé pour la mission de Chine., en fait, il reste aux Indes où « venit in hanc provinciam Goanam in qua fuit procurator » ., en 1754, on le marque à la mission de Maïssour, où il est depuis deux ans (Goa 26, 258). V. 2 févr. 1757, « Cacaveri », [Kahkaveri, d. de Salem] « in Mayssur » (Lus. 24, 276). Le Livro das Monçôes, 122B, 315 l'appelle Gregôrio Sello. (W p. 414).
+            ls$jesuita-votos-local/Kahkaveri, diocese de Salem, Mysore%« Cacaveri », [Kahkaveri, d. de Salem] « in Mayssur »# @wikidata:Q31213639/17570202
+            ls$dehergne/751/obs="""
+            Seco (Secco), Gregôrio (port.) P. (?) 751
+            N. 1723, Miranda do Corvo, d. Coïmbre -
+            E. 1740 (Lus. 48, 276).
+            Emb. pour Goa, puis pour la province du Japon, 1749 (W 1943) non prê- tre.,
+            en 1743 il avait demandé la Chine (W p. 414).,
+            en 1752 étant à Damâo est appelé pour la mission de Chine.,
+            en fait, il reste aux Indes où
+               « venit in hanc provinciam Goanam in qua fuit procurator » .,
+            en 1754, on le marque à la mission de Maïssour,
+               où il est depuis deux ans (Goa 26, 258).
+            V. 2 févr. 1757, « Cacaveri », [Kahkaveri, d. de Salem]
+               « in Mayssur » (Lus. 24, 276).
+            Le Livro das Monçôes, 122B, 315 l'appelle Gregôrio Sello. (W p. 414).
+            """
 
          n$Antonio Sedeño/id=deh-antonio-sedeno
             ls$nacionalidade/Espanha
@@ -1736,16 +1754,39 @@ kleio$gacto2.str/translations=186
             ls$estadia/Hangchow# @wikidata:Q4970/1647
             ls$tarefa/Aprende chinês/1648
             ls$estadia/Hangchow# @wikidata:Q4970/1648
-            ls$estadia/Kienning
-            ls$estadia/Kienyang, Fukien
+            ls$estadia/Kienning#@wikidata:Q639862/>1648
+            ls$estadia/Kienyang, Fukien#@wikidata:Q639862/>1648
             ls$estadia/Nanquim# @wikidata:Q16666
             ls$estadia/Pequim# @wikidata:Q956/1653
             ls$partida/Yunnan#tenta ir @wikidata:Q43194
             ls$estadia/Kwangtung#@wikidata:Q15175/1655
             ls$estadia/Hainan# @wikidata:Q42200/16560622
             ls$morte/Tchao-k'ing fou# @wikidata:Q59164/16560917#ou julho ou 16570907
-            ls$dehergne/794/obs=Smogulecki, Johannes Nikolaus (polon.) P. 794 Mou Ni-ko Jou-Tô (Pf.., Borg. Lat. 523, 58: Mo Ni-co, Smogoleski). Smongoleski (De Marini). N. 1610, « Major Polonus », Cracovie -E. 14 déc. 1636, Cracovie (Pot. 43, 290v) après avoir été en 1632 député à la Diète., en 1636, délé- gué au tribunal de la Couronne et nommé staroste de Naklo. Emb. pour Macao, 12 avril 1644 (W 921), arr. 1645., en 1646, au Kiang-nan., 1647, Hangchow, il y apprend la langue, 1648 (JS 134, 337)., Kienning et Kienyang, Fou-kien., Nankin., 1653, Pékin., tente d'aller au Yunnan., 1655, Kwangtung., 22 juin 1656, Hainan. M. 17 sept. 1656, Tchao-k'ing fou., (HS 48, 72v: Smoguleski mort « Chaokimi ») 17 juill. 1656, et HS 48, 75 le fait mourir de nouveau, 7 sept. 1657, à « Xequini ».
-            ls$dehergne/794/obs=Fils de Mathias Smogulecki staroste de Bydgoszcz et de Thérèse Zebrydowska, fille du palatin de Cracovie. Pf. 262 — Notice par E. Kosibowiez dans RHM (1929), 335-360., Szczesniak, B., Note on Kepler's « Tabulae Rudolfinae » in the library of Pei-t'ang in Peking, Isis 40 (1949), 344-347., du même, art. dans Journal of the R. Asiatic Society, Londres, 1945, 30-38., Streit V, p. 974.
+            ls$dehergne/794/obs="""
+            Smogulecki, Johannes Nikolaus (polon.) P. 794
+            Mou Ni-ko Jou-Tô (Pf.., Borg. Lat. 523, 58:
+            Mo Ni-co, Smogoleski).
+            Smongoleski (De Marini).
+            N. 1610, « Major Polonus », Cracovie
+            -E. 14 déc. 1636, Cracovie (Pot. 43, 290v) après avoir été en 1632 député à la Diète.,
+            en 1636, délégué au tribunal de la Couronne et nommé staroste de Naklo.
+            Emb. pour Macao, 12 avril 1644 (W 921),
+            arr. 1645., en 1646, au Kiang-nan.,
+            1647, Hangchow, il y apprend la langue,
+            1648 (JS 134, 337)., Kienning et Kienyang, Fou-kien., Nankin.,
+            1653, Pékin., tente d'aller au Yunnan.,
+            1655, Kwangtung., 22 juin 1656, Hainan.
+            M. 17 sept. 1656, Tchao-k'ing fou.,
+               (HS 48, 72v: Smoguleski mort « Chaokimi »)
+               17 juill. 1656, et HS 48, 75 le fait mourir de nouveau, 7 sept. 1657, à « Xequini ».
+            Fils de Mathias Smogulecki staroste de Bydgoszcz et de Thérèse Zebrydowska,
+               fille du palatin de Cracovie.
+            Pf. 262 —
+            Notice par E. Kosibowiez dans RHM (1929), 335-360., Szczesniak, B.,
+            Note on Kepler's « Tabulae Rudolfinae » in the library of Pei-t'ang in Peking,
+               Isis 40 (1949), 344-347.,
+            du même, art. dans Journal of the R. Asiatic Society, Londres, 1945, 30-38.,
+            Streit V, p. 974."""
 
             pai$Mathias Smogulecki/id=deh-johannes-nikolaus-smogulecki-pai
                ls$cargo/Staroste de Bydgoszcz
