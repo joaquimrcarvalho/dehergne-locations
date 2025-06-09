@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=160
+kleio$gacto2.str/translations=169
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin3-69
    link$geonames/"https://www.geonames.org/$1"/id=root-lin4-69
    link$dehergne/"https://archive.org/details/bhsi37/page/n$1/mode/1up"/id=root-lin5-69
@@ -82,11 +82,11 @@ kleio$gacto2.str/translations=160
 
       Nos locais onde há presença de missionários:
 
-         "atr$residencia-missao/Jesuíta/16110000 (onde aparece R)"
-         "atr$residencia-missao/Dominicanos%OP/16560000"
+         "atr$residencia-missao/Jesuíta/1611 (onde aparece R)"
+         "atr$residencia-missao/Dominicanos%OP/1656"
                         (quando passa a residência de outra ordem
                          ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
-         "atr$activa/sim/16110000"         (onde só aparece uma data)
+         "atr$activa/sim/1611"         (onde só aparece uma data)
 
       edited by Skye
       and Joaquim Carvalho
@@ -228,7 +228,7 @@ kleio$gacto2.str/translations=160
                geo3$Hiapoey%Hiapoey (Apuy)#Apuy, today Xiapi, 下邳, in the Chinese translation, it is recognized as "霞浦", but actually it is not. In Dehergne(1957), it is noted as "下邳", coordinates: 26.832013826263175N,119.77591087254943E geonames:8579733 (China, FujianNingde Shi, xiapicun), Ningde Shi -> @wikidata:Q28794829/burgo%principaux bourgs/deh-r1644-hiapoey
                   atr$activa/sim/1634
 
-               geo3$Lokia%principaux bourgs#"""Lukiahsiang,Lokahoeng, today Luojiaxiang, 罗家巷, in the Chinese translation, it is recognized as 闾峡, but in Dehergne(1957), it is noted as 罗家巷. 罗家巷 now is in 罗江. coordinates: 26.971131830911116N, 119.67270683499889E geonames:8579942 Luojiangcun circa @wikidata:Q1152183 """/burgo/deh-r1644-lokia
+               geo3$Lokia%principaux bourgs#"""(?) Lukiahsiang,Lokahoeng, today Luojiaxiang, 罗家巷, in the Chinese translation, it is recognized as 闾峡, but in Dehergne(1957), it is noted as 罗家巷. 罗家巷 now is in 罗江. But this is  """/burgo/deh-r1644-lokia
                   atr$activa/sim/1634
                   atr$residencia-missao/Franciscanos/1634
 
@@ -324,7 +324,7 @@ kleio$gacto2.str/translations=160
             geo2$Kweiteh#Koei-té,Kueite, today Guide, 归德, @wikidata:Q404817/fou/deh-r1644-kweiteh/obs=Today it is named 商丘 Shanqiu. Wikidata code is that of Shangqiu
                atr$activa/sim/<1637#antes de
 
-         geo1$Hukwang#Huguang?, Hou-Quang, today Huguang,湖广, wikidata:Q2235155 for coordinates we use Wuchang District @wikidata:Q1014420, where the head quarters of vice-roy of Huguang (wikidata:Q11563236) was located./região/deh-r1644-hukwang/obs=Former province of China, corresponding to modern-day Hubei and Hunan provinces
+         geo1$Hukwang#Huguang?, Hou-Quang, today Huguang,湖广, @wikidata:Q2235155, for coordinates we use Wuchang District wikidata:Q1014420 (coordinates:30°33'23"N, 114°18'38"E), where the head quarters of vice-roy of Huguang (wikidata:Q11563236) were located./região/deh-r1644-hukwang/obs=Former province of China, corresponding to modern-day Hubei and Hunan provinces
             rel$geografica/pertence região/Hukwang#@wikidata:Q2235155/deh-r1644-hukwang
             atr$alternative-name/Houpeh#Hou-pe, today Hubei,湖北， @wikidata:Q46862
 
@@ -553,7 +553,7 @@ kleio$gacto2.str/translations=160
                atr$activa/sim/1592
                atr$residencia-missao/Jesuíta/1612
 
-            geo2$Schiuchow%Shiuchow (Chao-tcheou)#Chao-tcheou, today Shaozhou, 韶州, @wikidata:Q1346617, historical administrative division. The Wikidata code is of its administrative center Qujiang 曲江, which is in the present-day City of Shaoguan 韶关./fou/deh-r1644-shiuchow
+            geo2$Schiuchow%Shiuchow (Chao-tcheou)#Chao-tcheou, today Shaozhou, 韶州, @wikidata:Q11643048, historical administrative division. The administrative center was Qujiang 曲江, wikidata:Q1346617, coordinates:24°40'58"N, 113°36'1"E, which is in the present-day City of Shaoguan 韶关./fou/deh-r1644-shiuchow
 
                geo3$Makia#Machia, today Majia, 马家, Dehergne(1957) said Makia"马家" is "à 15 kilomètres au sud de la ville" (de Shiuchow), which should be to the south of Shiuchow, but I only found one "马家" in that area, but it is to the west of the city (coordinates: 24.75569541392557, 113.15960996554436), which might not be the right place./burgo%bourg/deh-r1644-makia
 
@@ -629,7 +629,7 @@ kleio$gacto2.str/translations=160
                geo3$Pingting%Pingting tcheou#P'ing-ting, today Pingding, 平定州, @wikidata:Q1196978, Now it is Pingding County 平定县/tcheou-hien/deh-r1644-pingting
                   atr$activa/sim/1631#cerca de
 
-            geo2$Pingyang%Pingyang (Linfen)#P'ing-yang, today Pingyang Fu, 平阳府, wikidata:Q15905472, historical administrative division. Now it is in Linfen 临汾 @wikidata:Q73156/fou/deh-r1644-pingyang
+            geo2$Pingyang%Pingyang (Linfen)#P'ing-yang, today Pingyang Fu, 平阳府, @wikidata:Q15905472, historical administrative division. Now it is in Linfen 临汾 wikidata:Q73156, coordinates:36°4'52"N, 111°30'31"E/fou/deh-r1644-pingyang
                atr$activa/sim/1639
 
                geo3$Kiangchow#Chiangchou, today Jiangzhou, 绛州, @wikidata:Q1197219, historical administrative division. Now it is Xinjiang 新绛. Wikidata code is that of 新绛/tcheou-hien/deh-r1644-kiangchow
@@ -650,16 +650,16 @@ kleio$gacto2.str/translations=160
                geo3$Siahsien#Hia hien, today Xiaxian, 夏县, @wikidata:Q612136, Dehergne(1957) noted it as “夏县”. In the Chinese translation, it is recognized as "隰县",which is wrong./tcheou-hien/deh-r1644-siahsien
                   atr$activa/sim/1625#cerca de
 
-               geo3$Taiping%Taiping (Fencheng)#today Taiping, 太平, @wikidata:Q18111423 (no coord.), historical administrative division. Now its administrative center is Fencheng 汾城, wikidata:Q11137504 (coordinates: 35°49'10"N, 111°16'20"E)/deh-r1644-taiping/deh-r1644-taiping
+               geo3$Taiping%Taiping (Fencheng)#today Taiping, 太平, @wikidata:Q18111423 (no coord.), historical administrative division. Now its administrative center is Fencheng 汾城, wikidata:Q11137509 (coordinates: 35°49'8"N, 111°16'25"E/deh-r1644-taiping/deh-r1644-taiping
                   atr$activa/sim/1642
 
-            geo2$Tsechow#today Fencheng, 汾城, @wikidata:Q197104/tcheou independente%tcheou independente/deh-r1644-tsechow
-               atr$activa/sim/1624
+               geo3$Tsechow#today Zezhou, 泽州, @wikidata:Q197104/tcheou independente%tcheou independente/deh-r1644-tsechow
+                  atr$activa/sim/1624
 
-               geo3$Tsishan#today Zezhou, 泽州, @wikidata:Q197104/tcheou-hien/deh-r1644-tsishan
+               geo3$Tsishan#Tsi-chan,Chishan, today Jishan, 稷山, @wikidata:Q473451/tcheou-hien/deh-r1644-tsishan
                   atr$activa/sim/1639
 
-               geo3$Yungtsi#Tsi-chan,Chishan, today Jishan, 稷山, @wikidata:Q473451/tcheou-hien/deh-r1644-yungtsi
+               geo3$Yungtsi#@wikidata:Q950944/tcheou-hien/deh-r1644-yungtsi
                   atr$activa/sim/1630#cerca de
 
          geo1$Shangtung#Chan-tong, Shandong, 山东, @wikidata:Q43407/província/deh-r1644-shangtung

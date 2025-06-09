@@ -1,5 +1,6 @@
-kleio$gacto2.str/translations=29
+kleio$gacto2.str/translations=51
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin3-7
+   link$dehergne/"https://archive.org/details/bhsi37/page/n$1/mode/1up"
    fonte$dehergne-locations-1701/1701/geoinformation/obs="""p. 357
 
         Depuis le 17 août 1658 est créé le vicariat apostolique de Nankin;
@@ -85,6 +86,13 @@ kleio$gacto2.str/translations=29
                                                    ver abreviaturas na legenda do mapa, exº p.354 em Kinhua)
            "atr$activa/sim/16110000"         (onde só aparece uma data)
 
+         Fontes adicionais:
+
+
+
+         Dehergne, J. (1957). Les Chrétientés de Chine de la Période Ming (1581–1650). Monumenta Serica, 16(1–2), 1–136. https://doi.org/10.1080/02549948.1957.11730960
+
+         Gaimushō J. (1943). Gazetteer of Chinese Geographic Names. Military Intelligence Division. https://books.google.com/books?id=G0cuAAAAIAAJ
 
         """
 
@@ -151,13 +159,13 @@ kleio$gacto2.str/translations=29
                   atr$activa/sim/1701
                   atr$residencia-missao/Dominicanos/1701
 
-            geo2$Hinghwa#Xinghua 兴化, @wikidata:Q17498990, 兴化县，the wikidata code of it dose not contain coordinate information, which can be substituted by Q68579，the present-day Putian 莆田/fou/deh-r1701-hinghwa
+            geo2$Hinghwa#Xinghua 兴化, @wikidata:Q17498990, 兴化县，(no coord.), use the location the present-day Putian 莆田 Q68579, coordinates:25°26'21.98"N, 119°0'37.01"E/fou/deh-r1701-hinghwa
                atr$activa/não/1701
                atr$residencia-missao/Jesuíta/1701
                atr$activa/sim/1701
                atr$residencia-missao/Missões estrangeiras/1701
 
-            geo2$Kienning%Kienning fou, Jianning 建寧, the correspondoing wikidata entity Q11065314 does not contain coordinate information, which can be substituted by Kien-yang today Jianyang @wikidata:Q639862 see 1644/fou/deh-r1701-kienning
+            geo2$Kienning%Kienning fou, Jianning 建寧, @wikidata:Q11065314 (no coord.), using today's Jianyang wikidata:Q639862 coordinates:27°20'6"N, 118°6'58"E see 1644/fou/deh-r1701-kienning
 
                geo3$Pucheng#浦城 @wikidata:Q1338032/tchou-hien/deh-r1701-pucheng
                   atr$activa/não/1701
@@ -191,7 +199,7 @@ kleio$gacto2.str/translations=29
             geo2$Kweiteh#Guide, @wikidata:Q404817, hoje Shangqiu 商丘/fou/deh-r1701-kweiteh
                atr$activa/não/1701
 
-         geo1$Hukwang%(actuel HUNAN + HUBEI)Huguang#湖广, @wikidata:Q2235155/região/deh-r1701-hukwang
+         geo1$Hukwang%(actuel HUNAN + HUBEI)Huguang#湖广 @wikidata:Q2235155, for coordinates we use Wuchang District wikidata:Q1014420, where the head quarters of vice-roy of Huguang (wikidata:Q11563236) were located, coordinates: 30°33'23"N, 114°18'38"E/região/deh-r1701-hukwang
 
             geo2$Wuchang#Wuchang 武昌, @wikidata:Q1014420/capital provincial/deh-r1701-wuchang
                atr$activa/sim/1701
@@ -215,13 +223,13 @@ kleio$gacto2.str/translations=29
             geo2$Kingchow#Jingzhou 荆州, @wikidata:Q71247/fou/deh-r1701-kingchow
                atr$activa/não/1701
 
-            geo2$Teian# No Wikidata/fou/deh-r1701-teian
+            geo2$Teian#(?) No Wikidata/fou/deh-r1701-teian
                atr$activa/não/1701
 
             geo2$Yungchow#Yongzhou 永州, @wikidata:Q266014/fou/deh-r1701-yungchow
                atr$activa/não/1701
 
-         geo1$Kiangnan%KIANGNAN ou NANKIN (actuel ANHUI + JIANGSU),Jiangnan 江南, @wikidata:Q11133842/região/deh-r1701-kiangnan
+         geo1$Kiangnan%KIANGNAN ou NANKIN (actuel ANHUI + JIANGSU), Jiangnan 江南, @wikidata:Q11133842, coordinates:32°3'39"N, 118°46'44"E (Nankjing)/região/deh-r1701-kiangnan
 
             geo2$Nanking#Nanjing 南京, @wikidata:Q16666/capital provincial/deh-r1701-nanking
                atr$activa/sim%collège/1701
@@ -341,7 +349,7 @@ kleio$gacto2.str/translations=29
                atr$activa/sim/1701
                atr$residencia-missão/Franciscanos/1701
 
-               geo3$Tankiang#No wikidata/tchou-hien/deh-r1701-tankiang
+               geo3$Tankiang#(?)No wikidata/tchou-hien/deh-r1701-tankiang
                   atr$activa/não/1701
 
          geo1$Kwangsi#Guangxi 广西, @wikidata:Q15176/província/deh-r1701-kwangsi
@@ -393,7 +401,7 @@ kleio$gacto2.str/translations=29
                   atr$activa/sim/1701
                   atr$residencia-missao/Franciscanos/1701
 
-            geo2$Schiuchow%Shiuhow (Xao cheu)#No wikidata/fou/deh-r1701-schiuchow
+            geo2$Schiuchow%Shiuhow (Xao cheu)#(confirm same as 1641 deh-r1644-shiuchow) @dehergne:n402 (p.359) Chao-tcheou, today Shaozhou, 韶州, @wikidata:Q11643048, historical administrative division. The administrative center was Qujiang 曲江, wikidata:Q1346617, coordinates:24°40'58"N, 113°36'1"E, which is in the present-day City of Shaoguan 韶关./fou/deh-r1701-schiuchow
                atr$activa/sim/1701
                atr$residencia-missao/Missões estrangeiras/1701
 
@@ -401,7 +409,7 @@ kleio$gacto2.str/translations=29
                   atr$activa/não/1701
                   atr$residencia-missao/Missões estrangeiras/1701
 
-               geo3$Yanfa%Yanfa -- Gin hoa#No wikidata/tchou-hien/deh-r1701-yanfa/obs=duvidoso
+               geo3$Yanfa%Yanfa -- Gin hoa#(confirmar) Gaimushuo 1943 "Yanfa-hsien 仁化祭, 廣東省北部 (曲江味)の 東北(Jenhua)", wikipedia entry for Renhua County (@wikidata:Q1111625) gives Yanfa as postal code 仁化县 (仁化縣) coordinates: 25°5'22"N, 113°44'41"E/tchou-hien/deh-r1701-yanfa/obs=duvidoso
                   atr$activa/não/1701
                   atr$residencia-missao/Missões estrangeiras/1701
 
@@ -413,7 +421,7 @@ kleio$gacto2.str/translations=29
                atr$activa/sim/1701
                atr$residencia-missao/Franciscanos/1701
 
-            geo2$Macau/Macau#Macao 澳门, @wikidata:Q14773/deh-r1701-macau/obs=On pourrait y ajouter Macao, qui forme alors un monde à part avec les couvents OFM., OP., OSA et un ermitage OSA., et, pour les jésuites le collège St Paul et des maisons à l'Ilha Verde et à Lapa (Wan-tchai)
+            geo2$Macau#Macao 澳门, @wikidata:Q14773/deh-r1701-macau/Macau/obs=On pourrait y ajouter Macao, qui forme alors un monde à part avec les couvents OFM., OP., OSA et un ermitage OSA., et, pour les jésuites le collège St Paul et des maisons à l'Ilha Verde et à Lapa (Wan-tchai)
                atr$activa/sim/1701
                atr$residencia-missao/Franciscanos/1701/obs=vários conventos
                atr$residencia-missao/Dominicanos/1701/obs=vários conventos
@@ -461,7 +469,7 @@ kleio$gacto2.str/translations=29
             geo2$Taiyuan#Taiyuan 太原, @wikidata:Q72778/capital provincial/deh-r1701-taiyuan
                atr$activa/não/1701
 
-            geo2$Fenchow#Fenzhou 汾州, @wikidata:Q15939727/fou/deh-r1701-fenchow
+            geo2$Fenchow#(Confirmar) Fenzhou 汾州, historical administrative division in Shanxi @wikidata:Q15939727 (no coord.), replace by Fenzhou Fu (Q11137512) the perfecture was at Feyang Country Q929190 coordinates:37°15'55"N, 111°46'46"E/fou/deh-r1701-fenchow
                atr$activa/sim/1699
 
                geo3$Pingyao%Pingyao du Fenchow 平遥, @wikidata:Q500061/tchou-hien/deh-r1701-pingyao/obs=la Liste 1701 suppose des R ou R' à Pingyao et Kiehsiu du Fenchow., cf AHSI 1955, 29
@@ -470,7 +478,7 @@ kleio$gacto2.str/translations=29
                geo3$Kiehsiu%Kiehsiu du Fenchow#Jiexiu 介休, @wikidata:Q1362530/tchou-hien/deh-r1701-kiehsiu/obs=la Liste 1701 suppose des R ou R' à Pingyao et Kiehsiu du Fenchow., cf AHSI 1955, 29
                   atr$activa/sim/1701
 
-            geo2$Pingyang#Pingyang Fu, @wikidata:Q15905472, Q73156/fou/deh-r1701-pingyang/obs=De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant [Kiehsiu was not added bellow because it is already in the list of Fenchow]]
+            geo2$Pingyang#Pingyang Fu, @wikidata:Q15905472. Now it is in Linfen 临汾 wikidata:Q73156, coordinates:36°4'52"N, 111°30'31"E/fou/deh-r1701-pingyang/obs=De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant [Kiehsiu was not added bellow because it is already in the list of Fenchow]]
 
                geo3$Kiangchow#Jiangzhou, @wikidata:Q1197219/tchou-hien/deh-r1701-kiangchow
                   atr$activa/sim/1701
@@ -478,13 +486,13 @@ kleio$gacto2.str/translations=29
                geo3$Puchow#Puzhou 绛州, @wikidata:Q14105968/tchou-hien/deh-r1701-puchow
                   atr$activa/não/1701
 
-               geo3$Hungtung/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-hungtung/obs=cristandade, não residência
+               geo3$Hungtungt%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendan#@wikidata:Q1197616/tchou-hien/deh-r1701-hungtung/obs=cristandade, não residência
 
-               geo3$Siangling#Xiangling 襄陵县，the wikidata code of it does not contain coordination information, which can be substituted by Q1197358，present day Xiangfen County 襄汾县, @wikidata:Q22099543/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-siangling/obs=cristandade, não residência
+               geo3$Siangling%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant#Xiangling 襄陵县，@wikidata:Q22099543, (no coord.), can be substituted by Q1197358, present day Xiangfen County 襄汾县, coordinates: 35°52'38"N, 111°25'54"E/tchou-hien/deh-r1701-siangling/obs=cristandade, não residência
 
-               geo3$Taiping#Taiping 太平县，the wikidata code of it does not contain coordinate information, which can be substituted by Q11137509，the present-day 汾城镇 , @wikidata:Q18111423, Q1113750/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-taiping/obs=cristandade, não residência
+               geo3$Taiping%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant#Taiping 太平县，@wikidata:Q18111423 (no coord.), can be substituted by Q11137509，the present-day 汾城镇 (coordinates:35°49'8"N, 111°16'25"E)/tchou-hien/deh-r1701-taiping/obs=cristandade, não residência
 
-               geo3$Wanchuan#Wanquan 万泉县，the wikidata code of it does not contain coordinate information, which can be substituted by Q1196908，the present-day万荣县, @wikidata:Q8475332/tchou-hien%De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant/deh-r1701-pingyang-geo1-4/obs=cristandade, não residência
+               geo3$Wanchuan#Wanquan 万泉县，the wikidata code of it does not contain coordinate information, which can be substituted by Q1196908, the present-day万荣县 (35°25'1"N, 110°49'52"E), @wikidata:Q8475332/tchou-hien/deh-r1701-pingyang-geo1-4/obs=cristandade, não residência De Pingyang dépendaient les «templa et forté parvae domus» dont parle la Liste 1701 à Hungtung, Kiehsiu, Siangling, Tàiping et Wanchuian, qui, à nos yeux, sont des chrétientés, non des R, de même que Tsinglo du Sinchow indépendant
 
             geo2$Sinchow#Xinzhou 忻州, @wikidata:Q73119/tcheou independente%Sinchow indépendant/deh-r1701-sinchow
 
@@ -545,7 +553,7 @@ kleio$gacto2.str/translations=29
 
             geo2$Chengku#Chenggu 城固, @wikidata:Q1069968/fou#?/deh-r1701-chengku
 
-               geo3$Siao-tchai%Siao-tchai du Chengku#No wikidata/tchou-hien/deh-r1701-siao-tchai
+               geo3$Siao-tchai%Siao-tchai du Chengku#(?)No wikidata, Dehergne 1957 «Il y a aussi une chrétienté à "Siao tchai tse" , 小塞子, "Siao tsai pe" près de Chengku. Vers 1635, le yays est délivré par deux fois des sauterelles, grâce aux prières du P. Le Fèvre, qui a une florissante chrétienté à Siao tchai tse; de même, en 1641, il délivre le mont "Ts'inling" 秦嶺 entre Sian et Yanghsien, des tigres qui l'infestent (Pf. 203,2205)»/tchou-hien/deh-r1701-siao-tchai
                   atr$activa/não/1701
 
          geo1$Szechwan%actuel SICHUAN)Sichuan 四川, @wikidata:Q19770/província/deh-r1701-szechwan/obs=nada
