@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=187
+kleio$gacto2.str/translations=189
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-130
    fonte$dehergne-l/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra L
 
@@ -1142,7 +1142,19 @@ kleio$gacto2.str/translations=187
             ls$embarque/[Para a China]/>1755:<1758#entre 1755 e 1758
             ls$wicky/2103/>1755:<1758#entre 1755 e 1758
             ls$wicky-viagem/?/17561231#entre 1755 e 1758 (dia intermedio)
-            ls$dehergne/473/obs=Lima, José de (port.) P. 473 Emb. pour la Chine v. 1755-1758 (W 2103), attaché à la vice-province de Chine. Nous connaissons deux Pères de ce nom, l'un né le 29 mars 1732 à Lisbonne, E. 1 ou 10 avril 1741 (Lus. 41, 98) et l'autre N. 15 nov. 1739 à Aguiar, E. 24 nov. 1754, P. vers 1756. L'un de ces deux était (en 1767?) en Italie, ancien missionnaire de Chine (Lus. 49, 106v). Il redemande la Chine en tant qu'astronome (Krahl, 132).
+            ls$dehergne/473/obs="""
+            Lima, José de (port.) P. 473
+            Emb. pour la Chine v. 1755-1758 (W 2103),
+               attaché à la vice-province de Chine.
+            Nous connaissons deux Pères de ce nom,
+            l'un né le 29 mars 1732 à Lisbonne,
+               E. 1 ou 10 avril 1741 (Lus. 41, 98)
+            et l'autre N. 15 nov. 1739 à Aguiar,
+               E. 24 nov. 1754, P. vers 1756.
+            L'un de ces deux était (en 1767?) en Italie,
+               ancien missionnaire de Chine (Lus. 49, 106v).
+            Il redemande la Chine en tant qu'astronome (Krahl, 132).
+            """
 
             referido$José de Lima/id=deh-jose-de-lima-ref1
                ls$nascimento/Lisboa# @wikidata:Q597/17320329
@@ -1153,7 +1165,11 @@ kleio$gacto2.str/translations=187
                ls$nascimento/Aguiar#Existem vários, Aguiar da Beira (Guarda), em Barcelos e em Viana do Alentejo/17391115
                ls$jesuita-entrada/?/17541124
                ls$jesuita-ordenacao-padre/?/1756#cerca de
-               ls$dehergne/473-ref2/obs=N. 15 nov. 1739 à Aguiar, E. 24 nov. 1754, P. vers 1756.
+               ls$dehergne/473-ref2/obs="""
+
+               N. 15 nov. 1739 à Aguiar,
+               E. 24 nov. 1754,
+               P. vers 1756."""
 
             referido$José de Lima/id=deh-jose-de-lima-ref3/obs=pode ser qualquer um dos anteriores»
                ls$estadia/China# @wikidata:Q148
@@ -1239,14 +1255,20 @@ kleio$gacto2.str/translations=187
          n$Joaquim Lobo/id=deh-joaquim-lobo
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
-            ls$nascimento/Cadaval, diocese de Coimbra#ILOC/17320224#ou 17360326
+            ls$nascimento/Cadaval, diocese de Coimbra#ILOC confirm nono documento original diocese "Conimbric.", o lugar e a diocese estão em colunas separadas e na linha seguinte a diocese é "Conimbric."/17320224#ou 17360326
             ls$jesuita-entrada/Lisboa# @wikidata:Q597/17510401
             ls$embarque/[Para a China]/>1755:<1758#entre 1755 e 1778
             ls$wicky/2104/>1755:<1758#entre 1755 e 1758
             ls$wicky-viagem/?/17561231#entre 1755 e 1758 (dia intermedio)
             ls$jesuita-ordenacao-padre/?/1756#cerca de
             ls$morte/Castel Gandolfo# @wikidata:Q242105/17681001
-            ls$dehergne/480/obs=Lobo, Joaquim (port.) P. 480 N. 24 févr. 1732 (ou 26 mars 1736), Cadaval, dioc. de Coïmbre. E. 1 avril 1751 pour la mission de Chine, Lisbonne (Lus. 49, 141v). Emb. pour la Chine v. 1755-1758 (Lus. 41, 98., W 2104). P. v. 1756. M. 1 oct. 1768, à Castelgandolfo, près de Rome (HS 53a, 141., W, p. 428).
+            ls$dehergne/480/obs="""
+            Lobo, Joaquim (port.) P. 480
+            N. 24 févr. 1732 (ou 26 mars 1736), Cadaval, dioc. de Coïmbre.
+            E. 1 avril 1751 pour la mission de Chine, Lisbonne (Lus. 49, 141v).
+            Emb. pour la Chine v. 1755-1758 (Lus. 41, 98., W 2104).
+            P. v. 1756.
+            M. 1 oct. 1768, à Castelgandolfo, près de Rome (HS 53a, 141., W, p. 428)."""
 
          n$Ferdinando Loduvicres/id=deh-ferdinando-loduvicres
             ls$nacionalidade/China
@@ -1561,7 +1583,7 @@ kleio$gacto2.str/translations=187
             ls$estadia/Honan#@wikidata:Q43684
             ls$jesuita-ordenacao-padre/Paris#? @wikidata:Q90/1737
             ls$jesuita-votos/4V/17410310
-            ls$jesuita-votos-local/Hukwang (monte Mou-pouan chan, no oratório de André Yuen)#« in Hou quang in monte Mou-Pouan chan in op[pido]. Kou-tchim in orat[orio]. dom[estico]. Andreae Yuen, 10 mars 1741 », @wikidata:Q2235155/obs=assinam André Yuan e T'ang Stanislas, na falta de um padre jesuíta
+            ls$jesuita-votos-local/Hukwang (monte Mou-pouan chan, no oratório de André Yuen)%« in Hou quang in monte Mou-Pouan chan in op[pido]. Kou-tchim in orat[orio]. dom[estico]. Andreae Yuen, 10 mars 1741 »# @wikidata:Q2235155/obs=assinam André Yuan e T'ang Stanislas, na falta de um padre jesuíta
             ls$morte/Hupei# @wikidata:Q46862/17420821#ou 17430822
             ls$dehergne/492/obs=Loppin, Claude-François (franç.) P. 492 L'Oppin., Lopin (M 443, 678). Kiun Tseou-Ni. N. 13 sept. 1707, « Bellogardiensis », l'un des nombreux Bellegarde. E. 1 sept. 1724 (Camp. 15, f 135v), Nancy (Camp. 20, 247). Ait. Macao 23 juin 1739., 7 déc. 1739, Hankow (Han-k'eou)., son voyage de Macao au Hupei (LEP III, 778)., aux monts du Hukwang, 15 mars 1740., Honan. P. 1737 (Franc. 20, 265, et non 1738, à Paris, Camp. 16, 37). V. « in Hou quang in monte Mou-Pouan chan in op[pido]. Kou-tchim in orat[orio]. dom[estico]. Andreae Yuen, 10 mars 1741 », pr. (Gai. 22, 21). Signe: Franc. Claudius Loppin et ajoute sa signature en chinois Kiun Tseou ni lao-che (pour lao-yé?) avec le contre-seing du propriétaire Yuan Ngan-tô-lô (André) et d'un autre chinois, T'ang Stanislas, à défaut de P. jésuite. M. 21 août 1742 (Camp. 16, 106) ou 22 août 1743 plutôt (Franc. 1743 ex., f° 254v), Hupei (HS 53 l'ignore). Pf. 794: Rivière 4845.
 
@@ -1784,7 +1806,7 @@ kleio$gacto2.str/translations=187
             ls$jesuita-estatuto/Padre
             ls$nome/Gaspar Luiz
             ls$nascimento/Portel, diocese de Évora# @wikidata:Q591694/1586
-            ls$jesuita-entrada%?Évora#segundo Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).p.31 @wikidata:Q179948/1602
+            ls$jesuita-entrada/Évora%?#@wikidata:Q179948 segundo Miguel Rodrigues Lourenço & António Guimarães Pinto. (2023).p.31/1602
             ls$estadia-x/Coimbra#@wikidata:Q45412 Colégio de Jesus, segundo Lourenço & Pinto, p.31/1616
             ls$estadia-x/Coimbra#@wikidata:Q45412 Colégio de Jesus, segundo Lourenço & Pinto, p.31/1618
             ls$embarque/Sto. Amaro/16180400#meados do mês
