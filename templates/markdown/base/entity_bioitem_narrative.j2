@@ -1,7 +1,7 @@
 {% if a_bioitem.pom_class == "attribute" -%}
-{% include "markdown/base/bio_item_attribute.j2" -%}
+{{"    "}}- {% include "markdown/base/bio_item_attribute.j2" %}
 {% elif a_bioitem.pom_class == "relation" -%}
-{% include "markdown/base/bio_item_relation.j2" -%}
+{{"    "}}- {% include "markdown/base/bio_item_relation.j2" -%}
 {% else -%}
 {{ a_bioitem.pom_class }}
 {% endif -%}
