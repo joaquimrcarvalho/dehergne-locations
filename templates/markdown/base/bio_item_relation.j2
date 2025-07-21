@@ -1,0 +1,7 @@
+{% if a_bioitem.the_type == "function-in-act" -%}
+{{ a_bioitem.the_value }}:{{ a_bioitem.dest_name }} [[{{ a_bioitem.destination }}]]
+{% elif a_bioitem.origin==model.id -%}
+> {{ a_bioitem.the_type }}: [[{{ a_bioitem.the_value }}]] [[{{ a_bioitem.dest_name }}]] [[{{ a_bioitem.destination }}]]
+{% else -%}
+ < [[{{ a_bioitem.the_type }}]]: [[{{ a_bioitem.the_value }}]] [[{{ a_bioitem.org_name }}]] [[{{ a_bioitem.origin }}]]
+{% endif -%}

@@ -1,0 +1,28 @@
+## [[{{model.get_description()}}]]
+- id: {{model.id}}
+- inside: [[{{model.inside}}]]
+{% if model.obs -%}
+> {{model.obs}}
+{% endif -%}
+{% include "markdown/base/entity_links_narrative.j2" -%}
+{% include "markdown/base/entity_timeline_narrative.j2" -%}
+{% include "markdown/base/entity_contains_narrative.j2" -%}
+### Entity details
+| Element | Value |
+|----|---|
+| **ID:**    | {{model.id}} |
+| **Description:** | {{model.get_description()}} |
+| **Group Name:** | {{ model.groupname }} |
+| **Class:** | {{ model.pom_class }} |
+| **Source:** | [[{{ model.the_source }}]] |
+| **Inside:**| [[{{ model.inside }}]] |
+| **Order:** | {{ model.the_order }} |
+| **Level:** | {{ model.the_level }} |
+| **Line:**  | {{ model.the_line }} |
+| **Updated:** | {{ model.updated.strftime('%Y-%m-%d %H:%M') if model.updated else 'N/A' }} |
+| **Indexed:** | {{ model.indexed if model.indexed is not none else 'N/A' }} |
+{% for element in model.get_element_names() if element not in ["class", "id", "obs"] -%}
+| **{{ element }}** | {{ model.for_kleio(element) or "_" }}|
+{% endfor %}
+
+---

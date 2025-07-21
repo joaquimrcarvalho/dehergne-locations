@@ -1,0 +1,5 @@
+
+{% for item in model.contains if item.pom_class not in ['attribute','relation'] -%}
+{% if loop.first %}### Contains{% endif %}
+  - {{ item.groupname }} {{ item.get_description(9) }} ({{ item.pom_class }}) id: [[{{ item.id }}]]
+{% endfor -%}

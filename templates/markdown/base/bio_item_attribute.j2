@@ -1,0 +1,4 @@
+[[{{ a_bioitem.the_type }}]]: [{{ a_bioitem.the_value }}]({{ a_bioitem.the_type | urlencode }}__{{ a_bioitem.the_value | urlencode }})
+{%- if a_bioitem.obs -%}
+   {{ ". " + a_bioitem.obs  -}}
+{% endif -%}

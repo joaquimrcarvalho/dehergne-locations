@@ -4,7 +4,7 @@
 |------------|-------------------------|
 {% for date, bioitems in model.dated_bio()|dictsort -%}
     {% for a_bioitem in bioitems -%}
-| {% if loop.first -%}{{ "No date" if date == "0" else util.format_timelink_date(date) }}{% else -%}  _ {% endif -%}
-| {{a_bioitem}}{# include "entity_timeline_biotem.j2" with bioitem=a_bioitem #}|
+| {% if loop.first -%}{{ "No date" if date == "0" else util.format_timelink_date(date) }}{% else -%}  {% endif -%}
+| {% include "markdown/base/entity_timeline_bioitem.j2" %}|
 {% endfor -%}
 {% endfor -%}

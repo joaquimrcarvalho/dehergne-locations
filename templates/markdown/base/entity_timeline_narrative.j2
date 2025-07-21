@@ -1,0 +1,11 @@
+### Timeline
+
+{% for date, bioitems in model.dated_bio()|dictsort -%}
+{% for a_bioitem in bioitems -%}
+{% if loop.first -%}
+- {{ "No date" if date == "0" else util.format_timelink_date(date) }}
+{% else -%}
+{% endif -%}
+{% include "markdown/base/entity_bioitem_narrative.j2" -%}
+{% endfor -%}
+{% endfor -%}
