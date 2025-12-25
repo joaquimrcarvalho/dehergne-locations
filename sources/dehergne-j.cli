@@ -1,5 +1,11 @@
-kleio$gacto2.str/translations=73
+kleio$gacto2.str/translations=74
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-49
+   link$issue/"https://github.com/joaquimrcarvalho/dehergne-repertoire/issues/$1"
+   link$archive/"https://archive.org/details/bhsi37/page/$1/mode/1up"/obs="""
+
+    The online version is offset by 37 pages forward, i.e. to refer to
+    page 239, use the link: dehergne-online:276
+   """
    fonte$dehergne-j/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs=Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra J
 
       lista$dehergne-notices-j/0/0/0
@@ -194,7 +200,7 @@ kleio$gacto2.str/translations=73
             ls$estadia/Kiangnan#@wikidata:Q11133842/17480000
             ls$estadia/Macau# @wikidata:Q14773
             ls$jesuita-tarefa/Sai da Companhia
-            ls$dehergne/422/obs="""
+            ls$dehergne/422#@archive:169/obs="""
             José (Jozé), Manuel (port.) P. 422
             N. 26 août 1712, Guemara, d. de Braga et
             E. 20 août 1729 (Lus. 48, 45v),
@@ -228,4 +234,9 @@ kleio$gacto2.str/translations=73
                ls$estadia/Mysore%Maïssour# @wikidata:Q10086/17330000
                ls$jesuita-votos/4V/17350202
                ls$morte/Ascitano#? ILOC (Asciano, Siena?)/17650000#cerca de
-               ls$dehergne/422-ref2/obs=Un autre P. Emmanuel Josephus N. Marinha, 1702, est E. Lisbonne 1718, dans la mission de Maïssour en 1733 (Goa 26, 208) et M. à « Ascitano » vers 1765 (HS 53a, 134), V. le 2 févr. 1735, pr. (Lus. 15, 205).
+               ls$dehergne/422-ref2/obs="""
+                    Un autre P. Emmanuel Josephus N. Marinha, 1702,
+                    est E. Lisbonne 1718,
+                    dans la mission de Maïssour en 1733 (Goa 26, 208)
+                    et M. à « Ascitano » vers 1765 (HS 53a, 134),
+                    V. le 2 févr. 1735, pr. (Lus. 15, 205)."""
