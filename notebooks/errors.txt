@@ -1,0 +1,55 @@
+/var/folders/x7/qzytnd752559g0w475rfwkx00000gn/T/ipykernel_48898/1567367778.py:44: FutureWarning: SeriesGroupBy.fillna is deprecated and will be removed in a future version. Use obj.ffill() or obj.bfill() for forward or backward filling instead. If you want to fill with a single value, use Series.fillna instead
+  places_of_stay['place.date_inferred'] = places_of_stay.groupby(['id_col'])['place.date_inferred'].fillna(method='ffill')
+/var/folders/x7/qzytnd752559g0w475rfwkx00000gn/T/ipykernel_48898/1567367778.py:44: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  places_of_stay['place.date_inferred'] = places_of_stay.groupby(['id_col'])['place.date_inferred'].fillna(method='ffill')
+/var/folders/x7/qzytnd752559g0w475rfwkx00000gn/T/ipykernel_48898/1567367778.py:52: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  places_of_stay['place.date_inferred'].fillna('', inplace=True)
+<class 'pandas.core.frame.DataFrame'>
+Index: 6297 entries, deh-abraham-le-royer to simao-rodrigues-ref1
+Data columns (total 37 columns):
+ #   Column                         Non-Null Count  Dtype 
+---  ------                         --------------  ----- 
+ 0   id                             6297 non-null   object
+ 1   name                           6297 non-null   object
+ 2   groupname                      6297 non-null   object
+ 3   the_line                       6297 non-null   int64 
+ 4   the_order                      6297 non-null   int64 
+ 5   extra_info                     6297 non-null   object
+ 6   place.attr_id                  6297 non-null   object
+ 7   place.type                     6297 non-null   object
+ 8   place                          6297 non-null   object
+ 9   place.date                     6297 non-null   object
+ 10  place.line                     6297 non-null   int64 
+ 11  place.level                    6297 non-null   int64 
+ 12  place.obs                      6297 non-null   object
+ 13  place.extra_info               6297 non-null   object
+ 14  place.comment                  6192 non-null   object
+ 15  place.original                 225 non-null    object
+ 16  place.date.comment             1011 non-null   object
+ 17  place.date.original            12 non-null     object
+ 18  place.obs.original             1 non-null      object
+ 19  jesuita-entrada                5600 non-null   object
+ 20  jesuita-entrada.date           5600 non-null   object
+ 21  jesuita-entrada.obs            5600 non-null   object
+ 22  jesuita-entrada.extra_info     5600 non-null   object
+ 23  jesuita-entrada.date.comment   666 non-null    object
+ 24  jesuita-entrada.comment        3724 non-null   object
+ 25  jesuita-entrada.original       520 non-null    object
+ 26  jesuita-entrada.date.original  2 non-null      object
+ 27  nascimento                     5643 non-null   object
+ 28  nascimento.date                5643 non-null   object
+ 29  nascimento.obs                 5643 non-null   object
+ 30  nascimento.extra_info          5643 non-null   object
+ 31  nascimento.date.comment        1065 non-null   object
+ 32  nascimento.comment             5398 non-null   object
+ 33  nascimento.original            307 non-null    object
+ 34  id_col                         6297 non-null   object
+ 35  place.date_inferred            6297 non-null   object
+ 36  place.date_is_inferred         6297 non-null   bool  
+dtypes: bool(1), int64(4), object(32)
+memory usage: 1.8+ MB
