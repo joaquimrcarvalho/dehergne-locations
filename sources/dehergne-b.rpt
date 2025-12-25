@@ -1,5 +1,5 @@
 KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-25-12-2025 15-55
+25-12-2025 17-11
 
 Processing data file dehergne-b.cli
 -------------------------------------------
@@ -16,11 +16,6 @@ Translation count: 233
 Obs: 
 ** Processing source fonte$dehergne-b
 7: lista$dehergne-notices-b
-
-ERROR: dehergne-b.cli line 357 ** referido unknown element: xsame_as.
-Near lines: 357 
-Near lines: 358             referido$Matteo Ricci/id=deh-joao-barradas-ref1/xsame_as=deh-matteo-ricci
-
 *** End of File
 
 Line 359 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
@@ -35,7 +30,9 @@ Structure in JSON: /kleio-home/structures/sources.str.json
 Kleio file: /kleio-home/sources/dehergne-b.cli
 Original file: /kleio-home/sources/dehergne-b.org
 Previous version: /kleio-home/sources/dehergne-b.old
-1  errors. 
+Temp file with ids: /kleio-home/sources/dehergne-b.ids
+** - /kleio-home/sources/dehergne-b.cli-renamed to- /kleio-home/sources/dehergne-b.old
+0  errors. 
 0  warnings.
 Groups in this file:[pmae,mae,atr,rel,referido,irmao,pai,ls,n,lista,fonte,link,kleio]
 Translation finished.
