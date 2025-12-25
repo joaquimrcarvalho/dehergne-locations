@@ -1,0 +1,15 @@
+{% if model.links -%}
+### Links for [[{{model.id}}]]
+{% set ns = namespace(prev_rid="") -%}
+{% for link in model.links -%}
+{% if loop.first-%}
+
+| Link ID | Entity | User | Status | Rule |
+| ------- | ------- | ------- | ------- | ------- |
+{% endif -%}
+| {% if not loop.first and link.rid == ns.prev_rid -%} {% else -%}[[{{ link.rid }}]]{% endif -%} | [[{{link.entity}}]] | {{ link.user }} | {{link.status}} | {{link.rule}} |
+{% set ns.prev_rid = link.rid -%}
+{% endfor -%}
+{% else -%}
+- No identification
+{% endif -%}
