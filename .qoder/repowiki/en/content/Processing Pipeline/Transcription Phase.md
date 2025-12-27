@@ -13,7 +13,19 @@
 - [check_version_of_timelink.ipynb](file://notebooks/check_version_of_timelink.ipynb)
 - [Concepts.md](file://etc/doc/Concepts.md)
 - [sources_overview.md](file://extras/doc/sources_overview.md)
+- [0-kleio-files.ipynb](file://notebooks/0-kleio-files.ipynb)
+- [dehergne_analysis.ipynb](file://notebooks/dehergne_analysis.ipynb)
+- [01-background-importer.ipynb](file://notebooks/01-background-importer.ipynb)
+- [location-analysis.ipynb](file://notebooks/location-analysis.ipynb)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Updated server configuration details including new container name 'eager_curie', port 8089, and updated file paths
+- Removed references to 'repertoire' subdirectory
+- Added information about increased entity and relation processing capacity
+- Updated architecture overview and dependency analysis sections with current configuration
+- Verified and updated all file references and paths
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -64,8 +76,8 @@ B --> ERR
 
 ## Core Components
 - Kleio header and structure declaration: The file starts with the Kleio directive and references the structure file that defines the source/act/person model and allowed groups/elements.
-- Historical source declaration: The source group identifies the source (e.g., Dehergne’s biographical dictionary) and its metadata.
-- Act and list: The act group (here a “list”) contains the biographical entries.
+- Historical source declaration: The source group identifies the source (e.g., Dehergne's biographical dictionary) and its metadata.
+- Act and list: The act group (here a "list") contains the biographical entries.
 - Person entries: Each person entry begins with a person group (n$) and includes attributes (ls$) and relations (rel$).
 - Referenced persons: Additional persons related to the main entry are captured with referido$.
 - Metadata and original copy: The .org file duplicates the header and first entries for quick reference and provenance.
@@ -120,7 +132,7 @@ VS->>FS : Rename .cli to .old
 ### Kleio File Structure and Dehergne Format
 - Header and structure: The file begins with the Kleio directive and references the structure file that defines the source/act/person model.
 - Source metadata: The source group includes an identifier, year, type, and reference to the source material.
-- Act and list: The act group (here a “list”) aggregates biographical notices without a date.
+- Act and list: The act group (here a "list") aggregates biographical notices without a date.
 - Person entries: Each person entry uses n$ with a unique id and lists attributes (ls$) and relations (rel$).
 - Referenced persons: Additional persons are captured with referido$ and may include their own attributes and relations.
 - Original copy: The .org file duplicates the header and first entries for provenance and quick reference.
@@ -315,7 +327,7 @@ Common issues and solutions derived from Timelink validation feedback:
 - [check_version_of_timelink.ipynb](file://notebooks/check_version_of_timelink.ipynb#L1-L67)
 
 ## Conclusion
-The transcription phase for the Dehergne project centers on a standardized Kleio format that captures biographical details consistently. By adhering to the Dehergne transcription format, using the structure file for validation, and leveraging Timelink’s translation and reporting tools, transcribers can produce reliable, machine-readable data. Proper VS Code setup ensures efficient editing and validation, while careful attention to same-as semantics and attribute syntax prevents common pitfalls highlighted by .rpt and .err reports.
+The transcription phase for the Dehergne project centers on a standardized Kleio format that captures biographical details consistently. By adhering to the Dehergne transcription format, using the structure file for validation, and leveraging Timelink's translation and reporting tools, transcribers can produce reliable, machine-readable data. Proper VS Code setup ensures efficient editing and validation, while careful attention to same-as semantics and attribute syntax prevents common pitfalls highlighted by .rpt and .err reports.
 
 [No sources needed since this section summarizes without analyzing specific files]
 

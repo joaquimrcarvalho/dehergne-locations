@@ -12,6 +12,14 @@
 - [notebooks/dehergne_util.py](file://notebooks/dehergne_util.py)
 </cite>
 
+## Update Summary
+**Changes Made**   
+- Updated all file path references to reflect the removal of the 'repertoire' subdirectory in the processing pipeline
+- Corrected file path examples and references throughout the document to use the current directory structure
+- Verified and updated all file links to point to the correct locations in the sources directory
+- Updated the validation process overview to reflect current file processing locations
+- Ensured all diagram sources accurately reflect the current file structure
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Validation Process Overview](#validation-process-overview)
