@@ -35,7 +35,7 @@ Dehergne includes information from:
 
 * Wicki, J., & Boxer, C. R. (1967). Liste der Jesuiten-Indienfahrer, 1541-1758. Aschendorffsche.
 
-This information relates to the voyage from Lisbon to Goa, India. In Wicky's work there is a sequential number for each fleet of ships that made the voyage in a given
+This information relates to the voyage from Lisbon to Goa, India. In Wicki's work there is a sequential number for each fleet of ships that made the voyage in a given
 year, and another sequentitial number each missionary abroad.
 
 Dehergne keeps only the missionary numbers, not the fleet numbers. This prevents knowing
