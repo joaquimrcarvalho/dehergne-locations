@@ -28,12 +28,33 @@ def calc_age_at(date_birth, today):
     return int(difference_in_years)
 
 
+# Functions to deal with linked entities in comments, e.g. @wikidata: Q1234567
+
+# Constants for regex patterns
+WIKIDATA_PATTERN = r"@?wikidata:\s*(Q\d+)"  # Matches @wikidata:Q1234 or wikidata:Q1234
+GENERIC_LINKED_PATTERN = r"@{}:\s*([A-Za-z0-9_]+)"  # Template for any provider
+
+
+def _extract_id_from_string(text: str, pattern: str, flags: int = 0) -> str | None:
+    """Core extraction function - single source of truth."""
+    if not text:
+        return None
+    match = re.search(pattern, text, flags)
+    return match.group(1) if match else None
+
+
+def extract_wikidata_from_string(text: str, if_missing=None) -> str:
+    """Extract wikidata ID from any string."""
+    result = _extract_id_from_string(text, WIKIDATA_PATTERN, re.IGNORECASE)
+    return result if result is not None else if_missing
+
+
 def get_linked_entity_id(
     comment_string: str, linked_data_provider: str, if_missing=None
 ) -> str:
-    """Return the id of a linked entity from a comment string
+    """Generic linked data provider extractor.
 
-    Comments often contain links to other entities, such as wikidata,
+    Comments can contain links to other entities, such as wikidata,
     e.g. `@wikidata: Q1234567`.
 
     The general form is `@<provider>: <id>`, where `<provider>` is the name of
@@ -41,6 +62,7 @@ def get_linked_entity_id(
     the identifier of the linked entity.
 
     If the comment does not contain a link to the specified provider,
+    return value of argument if_missing
 
     Args:
         comment_string (str): The comment string to search for links.
@@ -51,34 +73,70 @@ def get_linked_entity_id(
         str: The id of the linked entity, or `if_missing` if no link is found.
 
     """
-    if comment_string is None:
-        return if_missing
-    pattern = r"@" + re.escape(linked_data_provider) + r"\:\s*([A-Za-z0-9_]+)"
-    match = re.search(pattern, comment_string)
-    if match:
-        return match.group(1)
-    return if_missing
+    pattern = GENERIC_LINKED_PATTERN.format(re.escape(linked_data_provider))
+    result = _extract_id_from_string(comment_string, pattern)
+    return result if result is not None else if_missing
 
 
-def get_wikidata_id(geo_entity, if_missing=""):
-    """Check the obs field for wikidata links
+def geo_entity_wikidata_id(geo_entity, if_missing=""):
+    """Check the extra_info field for wikidata links
 
     Returns a tuple of the cleaned comment and the wikidata id"""
-    extra_info = geo_entity.extra_info
+
+    extra_info = getattr(geo_entity, "extra_info", {})
+
+    # Build cleaned comment by removing wikidata references
     name_comment = extra_info.get("name", {}).get("comment", "")
     name_original = extra_info.get("name", {}).get("original", "")
 
-    pattern = r"@wikidata\:\s*(Q[0-9]*)"
-    wikidata_in_comment = re.findall(pattern, name_comment)
-    comment_without_wikidata = re.sub(pattern, "", name_comment)
-    # Sometimes the wikidata id is in the original name
-    wikidata_in_original = re.findall(pattern, name_original)
-    original_without_wikidata = re.sub(pattern, "", name_original)
-    return comment_without_wikidata + original_without_wikidata, (
-        wikidata_in_comment[0]
-        if wikidata_in_comment
-        else wikidata_in_original[0] if wikidata_in_original else if_missing
-    )
+    cleaned = re.sub(WIKIDATA_PATTERN, "", name_comment, flags=re.IGNORECASE).strip()
+    if not cleaned:
+        cleaned = re.sub(
+            WIKIDATA_PATTERN, "", name_original, flags=re.IGNORECASE
+        ).strip()
+
+    wikidata_id = extract_wikidata_id(extra_info, if_missing=if_missing)
+    return cleaned, wikidata_id
+
+
+# extract wikidata id from extra_info dictionary
+def extract_wikidata_id(extra_info: dict, if_missing=None) -> str:
+    """Return a wikidata ID (e.g., Q1234) parsed from extra_info dict, or if_missing.
+
+    Usage:
+
+        places = entities_with_attribute(
+                            entity_type='person',
+                            show_elements=['name', 'groupname'],
+                            the_type='birthplace',
+                            column_name='place',
+                            db=db
+                            )
+        places['wikidata_id'] = places['place.extra_info'].apply(extract_wikidata_id)
+
+    """
+    # Try multiple common key paths
+    paths = [
+        ("the_value", "comment"),
+        ("the_value", "original"),
+        ("name", "comment"),
+        ("name", "original"),
+        ("id", "comment"),
+        ("id", "original"),
+    ]
+
+    for key1, key2 in paths:
+        text = (
+            extra_info.get(key1, {}).get(key2, "")
+            if isinstance(extra_info, dict)
+            else ""
+        )
+        if text:
+            result = _extract_id_from_string(text, WIKIDATA_PATTERN, re.IGNORECASE)
+            if result:
+                return result
+
+    return if_missing
 
 
 # extract from the "comment" column
@@ -116,8 +174,7 @@ def extract_coordinates(comment):
 
     # 2. labeled decimal degrees
     m = re.search(
-        r"latitude:\s*([-\d.]+),\s*longitude:\s*([-\d.]+)",
-        comment, flags=re.IGNORECASE
+        r"latitude:\s*([-\d.]+),\s*longitude:\s*([-\d.]+)", comment, flags=re.IGNORECASE
     )
     if m:
         lat, lon = m.groups()
@@ -125,8 +182,7 @@ def extract_coordinates(comment):
 
     # 3. signed decimal degrees with +/− signs
     m = re.search(
-        r"([-+]?\d+(?:\.\d+)?),\s*([-+]?\d+(?:\.\d+)?)",
-        comment, flags=re.IGNORECASE
+        r"([-+]?\d+(?:\.\d+)?),\s*([-+]?\d+(?:\.\d+)?)", comment, flags=re.IGNORECASE
     )
     if m:
         lat, lon = m.groups()
@@ -135,7 +191,7 @@ def extract_coordinates(comment):
     # 4. DMS format
     dms = re.search(
         r'(\d+)°(\d+)\'(\d+\.?\d*)"([NS])[\s,]+(\d+)°(\d+)\'(\d+\.?\d*)"([EW])',  # noqa: E501
-        comment
+        comment,
     )
     if dms:
         d, m1, s, ns, D, m2, s2, ew = dms.groups()
