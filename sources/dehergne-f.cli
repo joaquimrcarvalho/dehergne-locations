@@ -1,19 +1,27 @@
-kleio$gacto2.str/translations=202
+kleio$gacto2.str/translations=207
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-123
-   fonte$dehergne-f/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""
+   link$witek/"https://archive.org/details/bhsi43/page/$1/mode/1up" 
+   fonte$dehergne-f/1973/loc=Online archive.org:details:bhsi37/obs="""
       Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra F
-
+    
       Referências adicionais:
 
       Espadinha, M. A., Baptista, A. R., & Seabra, L. de. (2005). Missionação e missionários na história de Macau. Universidade de Macau. [MMHM]
 
-      Franco, Antonio. Imagem Da Virtude Em o Noviciado Da Companhia de Jesus
+      Franco, A. (1714). Imagem Da Virtude Em o Noviciado Da Companhia de Jesus
                   Do Real Collegio Do Espirito Santo de Evora Do Reyno de Portugal ...
-                  Lisboa: na Officina Real Deslandesiana, 1714.
-                  https://catalog.hathitrust.org/Record/009302029.
-                  p. 878
+                  Officina Real Deslandesiana.
+                  https://catalog.hathitrust.org/Record/009302029
 
-      """
+      Wu, H. (2013). Les traductions de François-Xavier Dentrecolles (1664-1741), 
+                     missionnaire en Chine: Localisation et circulation des savoirs. 
+                     Extrême-Orient Extrême-Occident, (36), 173-196. https://doi.org/10.4000/extremeorient.306
+
+      Witek, J. W. (1982). Controversial Ideas in China and in Europe: 
+                     A Biography of Jean-François Foucquet, S.J. (1665–1741)
+                     (Vol. 43, Bibliotheca Instituti Historici S.I.). Institutum Historicum S.I. 
+                     https://archive.org/details/bhsi43
+   """
 
       lista$dehergne-notices-f/0/0/0
 
@@ -461,7 +469,7 @@ kleio$gacto2.str/translations=202
             ls$nome/Bastian Hernandes
             ls$nome-chines/Tchong Ming-Jen Nien-Kiang Pa-siang
             ls$nascimento/Sunwui (Sin-houei)/1562#cerca de
-            ls$jesuita-entrada/Shiuchow% Chao-tcheou fou#@wikidata: Q1346617/15891100#fim do mês
+            ls$jesuita-entrada/Shiuchow% Chao-tcheou fou#@wikidata:Q1346617/15891100#fim do mês
             rel$sociabilidade/Companheiro/Francisco Martins Houang/deh-sebastien-fernandes-tchong-ref1/data=15891100/obs=os dois primeiros chineses candidatos à Companhia
             ls$jesuita-cargo/Mestre dos Noviços/15910101
             rel$sociabilidade/Companheiro/Matteo Ricci/deh-sebastien-fernandes-tchong-ref2/data=15910101
@@ -611,8 +619,36 @@ kleio$gacto2.str/translations=202
             ls$jesuita-votos/4V/17100815
             ls$jesuita-votos-local/Cantão (igreja Ti-lo-pu)# @wikidata:Q16572/17100815
             ls$morte/Goa# @wikidata:Q1171/17430127
-            ls$dehergne/298/obs=Ferreira, Antonio (port.) P. 298 Ngan Houai-Sln (il signe ainsi JS 171, 236)., Ngan Tao-Yi (Pf.). N. 9 oct. 1671, Lisbonne -E. 20 mars 1693, Lisbonne (Goa 26, 135v). Emb. non encore prêtre, pour la Chine, 1695 (W 1351)., air. 17 nov. 1704., 1707, Chinkiang (Tchen-kiang fou), d'où exilé le 2 avril 1707 à Canton, puis Macao (SF V 529, 582)., 1712, Canton., puis 1722, Goa, où il étail, en 1724, procureur de la vice-province de Chine (Goa 27, 152)., il y était toujours en 1741 (JS 134, 435). V. 15 août 1710, pr., Canton, église « Ti-lo-pu dicta » signe Ant. Ferreyra (Lus. 13, 138). — P. 1699 (Goa 25, 373). M. 27 janv. 1743, Goa (HS 53a, 46).
-            ls$dehergne/298/obs=Distinct d'un P. Antonio F. emb. 15 mars - 4 mai 1632 (W 806)., au collège de Macao en 1665 (JS 26, 32), parti en déc. 1667 de Macao pour Goa où il arr. fin mars 1668 pour Bandora (JS 26, 36v)., et distinct du P. Antonio Ferreira (port.), N. à Porto, provincial de Goa en 1748., emb. pour le Portugal 20 déc. 1760 et M. en prison, 24 juin 1761. Pf. 606.
+            ls$dehergne/298/obs="""
+            Ferreira, Antonio (port.) P. 298
+            Ngan Houai-Sln (il signe ainsi JS 171, 236).
+            Ngan Tao-Yi (Pf.).
+            N. 9 oct. 1671, Lisbonne.
+            E. 20 mars 1693, Lisbonne (Goa 26, 135v).
+            Emb. non encore prêtre, pour la Chine, 1695 (W 1351).
+            Arr. 17 nov. 1704.
+            1707, Chinkiang (Tchen-kiang fou).
+            Exilé le 2 avril 1707 à Canton.
+            Puis Macao (SF V 529, 582).
+            1712, Canton.
+            1722, Goa.
+            En 1724, procureur de la vice-province de Chine à Goa (Goa 27, 152).
+            Toujours à Goa en 1741 (JS 134, 435).
+            V. 15 août 1710, pr., Canton, église « Ti-lo-pu dicta ».
+            Signe Ant. Ferreyra (Lus. 13, 138).
+            P. 1699 (Goa 25, 373).
+            M. 27 janv. 1743, Goa (HS 53a, 46).
+
+            Distinct d'un P. Antonio F. emb. 15 mars - 4 mai 1632 (W 806).
+            au collège de Macao en 1665 (JS 26, 32),
+            parti en déc. 1667 de Macao pour Goa où il arr. fin mars 1668 pour Bandora
+            (JS 26, 36v).
+            et distinct du P. Antonio Ferreira (port.), N. à Porto, provincial de Goa en
+            1748.,
+            emb. pour le Portugal 20 déc. 1760
+            et M. en prison, 24 juin 1761.
+            Pf. 606.
+            """
 
             referido$António Ferreira/id=deh-antonio-ferreira-ref1
                ls$jesuita-estatuto/Padre
@@ -631,8 +667,13 @@ kleio$gacto2.str/translations=202
                ls$nascimento/Porto# @wikidata:Q36433/00
                ls$jesuita-cargo/Provincial de Goa/1748
                ls$partida/Portugal# @wikidata:Q45/17601220
-               ls$morte/Prisão#suponho que será forte de S. Julião? [perguntar P. Trigueiros]/17610624
-               ls$dehergne/298-ref2/obs=et distinct du P. Antonio Ferreira (port.), N. à Porto, provincial de Goa en 1748., emb. pour le Portugal 20 déc. 1760 et M. en prison, 24 juin 1761.
+               ls$morte/Prisão#Suponho que será forte de S. Julião? [perguntar P. Trigueiros], we use Lisbon @wikidata:Q597/17610624
+               ls$dehergne/298-ref2/obs="""
+                  et distinct du P. Antonio Ferreira (port.),
+                  N. à Porto,
+                  provincial de Goa en 1748.,
+                  emb. pour le Portugal 20 déc. 1760
+                  et M. en prison, 24 juin 1761."""
 
          n$Bento Ferreira/id=deh-bento-ferreira
             ls$nacionalidade/Portugal
@@ -1431,10 +1472,21 @@ kleio$gacto2.str/translations=202
             ls$chegada/Amoy, Fukien# @wikidata:Q68744, hoje Xiamen 厦门/16990724
             ls$estadia/Kiangsi#@wikidata:Q57052
             rel$sociabilidade/Ajuda nas pesquisas sobre o Yi-king/Joachim Bouvet/deh-jean-francois-foucquet-ref1
-            ls$estadia/Liankiang fou, Kiangsi/1703
+            ls$estadia/Liankiang fou, Kiangsi#@wikidata:Q197394/1703
             ls$estadia/Nanchang#@wikidata:Q171943/1709
             ls$estadia/Fuchow fou# @wikidata:Q363391/1709
-            ls$estadia/Linkiang fou/1709
+            ls$estadia/Linkiang fou#Today 臨江府 Línjiāng fǔ) left bank upstream from Nanchang, in today's Zhangshu City district in Jiangxi @wikidata:Q197394 . F. made a map with "LinkiangF" see Wu, 2013, p. 49 note 1 and map p.50/1709/obs="""In the late Ming-early Qing administrative system, 
+                           臨江府 (Línjiāng fǔ) was a prefecture of Jiangxi, 
+                           downstream from Nanchang along the Gan/Jiangxi missionary routes, 
+                           and appears in Catholic missionary geography under various Latinized 
+                           or French forms (Lin-kiang-fou, Lin-kiam-fu, etc.).
+                           It appears in a map made by Foucquet  in
+                           ARSJ, Jap. Sin. 168, 26v-27r, reproduced in 
+                           Witek, 1983 @witek:n1 also in 
+                           1655 Martino Martini and Joan Blaeu map of Jiangxi (Kiangsi) 
+                           Province in China. The
+                           The geoname exists today and shows in maps in the
+                           left side of the Gan river, """
             ls$estadia/Pequim# @wikidata:Q956/1710
             ls$estadia/Pequim# @wikidata:Q956/1717
             ls$estadia/Pequim# @wikidata:Q956/17201000
@@ -1449,10 +1501,69 @@ kleio$gacto2.str/translations=202
             ls$jesuita-votos/4V/16990908
             ls$jesuita-votos-local/Foochow, Fukien (residência)# @wikidata:Q68481/16990908
             ls$morte/Roma# @wikidata:Q220/17410314
-            ls$dehergne/330/obs=Foucquet (Fouquet), Jean-François (franç.) Mgr. 330 Fou Cheng-Tchô Fang-tsi (Pf.., JS 175, 139 et 256v: Fo Xim Ce). N. 12 mars 1665, Vezelay « in Burgundia » (Franc. 18, 407), dioc. d'Autun, le 12 mai, plutôt (Borg. Lat. 508, f° 42). E. 17 sept. 1681, Paris (Franc. 15, 393v). Emb. « navibus regiis », Port-Louis près Lorient, 21 févr. 1698., arr. 24 juill. 1699 à « Emouy » (Amoy), Fukien., envoyé au Kiangsi pour seconder Bouvet dans ses recherches sur le Yi-king (Borg. cin. 439 B)., 1703, Linkiang fou, Kiangsi., Nanchang, Fuchow fou et Linkiang fou, 1709., Pékin 1710 à 1717, et oct. 1720 (JS 177, 48., 182, 311)., rappelé en Europe en 1720, il y aborde le 9 janv. 1722 (JS 134, 417)., 21 mars 1723, Paris., 8 avril 1723, sorti de la Compagnie? (Cordier)., le 8 juin, se rend à Rome, où il loge, par ordre du Pape (Innocent XIII), à la Congrégation de la Propagande.
-            ls$dehergne/330/obs=P. 7 mars 1693., le 21 mars 1725, nommé évêque à'Eleutheropolis, il est sacré à Rome, le 25 mars 1725, par le Pape Benoit XIII lui-même. V. « Foutcheou prov. Fokien », Foochow, Fukien, à la résidence, 8 sept. 1699, pr. (Gai. 14, 260). M. 14 mars 1741, Rome (Vat. lat. 7900, P 119).« Profectus in litteris sinicis : non exiguus, sed novitatem amans », grande connaissance des lettres chinoises, mais ami de la nouveauté {JS 134, 392). — M. A. Le Marellec, sous-archiviste de l'Yonne, a eu l'amabilité de faire des recherches et il nous confirme que les registres de Vezelay comportant de nombreuses lacunes, il est impossible de trouver mention du baptême de Mgr Foucquet. Pf. 549., DHGE (H. Bernard-Maître)., Verbo (B. Videira Pires). Correspondance: B. Ste Geneviève, Paris, ms. 1961 (copies 1699-1726)., B. Palatine, Parme, ms. 1638., Reo I (Paris 1882), 16-51 etc.
-            ls$dehergne/330/obs=—Dissertation sur le Tao (Borg. lat. 565, 523-544)., sur le Tien, id. 515, 9-19., sur Confucius, 544, 566. Notices contemporaines: JS 183, 78-80v, et 82-85v (de Goville)., BVE.FG. ms. 1253 (3382) n» 45 (de Mailla), et 47., JS 179, 172-175v (de Premare)., JS 180, 177- 180 (Tamburini)., BN ms. fr. 25056, p. 283-321. JS 178, 426430 (par lui-même). Parmi les nombreux travaux qui lui sont consacrés, citons: Abel-Remusat, Nouv. Mél. Asiat. II, Paris, 1829, 258-261., Combaluzier, F., Fragments du copielettres de Mgr F., RHM 15 (1938), 130-134., diverses études (Cordier) dans Reo I et II, 1882, 1883., Rowbotham, A. H., China in the «Esprit des Lois», Comparative Literature 2 (Eugène, Ore. 1950) 354-359., du même, Jesuit Figurists ... Journal of the Hist. of Ideas, 17 {New York, 1956), 471485
-            ls$dehergne/330/obs=Beckmann, Johann (mémoire de F. sur le clergé indigène, 1726) NZM I (1945), 184-193 et Bontinck, p. 533., Margiotti, Fortunato, dans Euntes Docete 21 (Rome, 1968), 424435., et surtout la thèse du P. John Witek, S.J.., Streit VII, 2260., XII, 1160 (Cordier), 1180. Pinot 235-238, 476 Borg. Lat. 508 à 523, 542 ... 588., — Rites: ARSI. FG. 723, 7., Borg. Lat. 542., B. Casanatense ms 1653, f° 14-23. Je remercie ici le spécialiste des études sur Foucquet, le R. P. John Witek, qui m'a conseillé pour cette notice. Il conteste la sortie de la Cie .
+            ls$dehergne/330/obs="""
+                  Foucquet (Fouquet), Jean-François (franç.) Mgr. 330 Fou Cheng-Tchô Fang-tsi
+                     (Pf.., JS 175, 139 et 256v: Fo Xim Ce).
+                  N. 12 mars 1665, Vezelay « in Burgundia » (Franc. 18, 407), dioc. d'Autun, le
+                     12 mai, plutôt (Borg. Lat. 508, f° 42).
+                  E. 17 sept. 1681, Paris (Franc. 15, 393v).
+                  Emb. « navibus regiis », Port-Louis près Lorient, 21 févr. 1698.,
+                  arr. 24 juill. 1699 à « Emouy » (Amoy), Fukien.
+                  envoyé au Kiangsi pour seconder Bouvet dans ses recherches sur le Yi-king
+                     (Borg. cin. 439 B).
+                  1703, Linkiang fou, Kiangsi.
+                  Nanchang, Fuchow fou et Linkiang fou, 1709.
+                  Pékin 1710 à 1717, et oct. 1720 (JS 177, 48., 182, 311).
+                  rappelé en Europe en 1720, il y aborde le 9 janv. 1722 (JS 134, 417).
+                  21 mars 1723, Paris.
+                  8 avril 1723, sorti de la Compagnie? (Cordier).
+                  le 8 juin, se rend à Rome, où il loge, par ordre du Pape (Innocent XIII), à la
+                     Congrégation de la Propagande.
+                  P. 7 mars 1693.
+                  le 21 mars 1725, nommé évêque à'Eleutheropolis, il est sacré à Rome, le 25 mars
+                     1725, par le Pape Benoit XIII lui-même.
+                  V. « Foutcheou prov. Fokien », Foochow, Fukien, à la résidence, 8 sept. 1699,
+                     pr. (Gai. 14, 260).
+                  M. 14 mars 1741, Rome (Vat. lat. 7900, P 119).
+                  « Profectus in litteris sinicis : non exiguus, sed novitatem amans », grande
+                     connaissance des lettres chinoises, mais ami de la nouveauté {JS 134, 392). --
+                  M. A. Le Marellec, sous-archiviste de l'Yonne, a eu l'amabilité de faire des
+                     recherches et il nous confirme que les registres de Vezelay comportant de
+                     nombreuses lacunes, il est impossible de trouver mention du baptême de Mgr
+                     Foucquet.
+                  Pf. 549., DHGE (H. Bernard-Maître)., Verbo (B. Videira Pires).
+                  Correspondance: B. Ste Geneviève, Paris, ms. 1961 (copies 1699-1726).,
+                     B. Palatine, Parme, ms. 1638.,
+                     Reo I (Paris 1882), 16-51 etc. --
+                  Dissertation sur le Tao (Borg. lat. 565, 523-544).
+                  sur le Tien, id. 515, 9-19.
+                  sur Confucius, 544, 566.
+                  Notices contemporaines: JS 183, 78-80v, et 82-85v (de Goville).
+                  BVE.FG. ms. 1253 (3382) n» 45 (de Mailla), et 47.
+                  JS 179, 172-175v (de Premare).
+                  JS 180, 177- 180 (Tamburini).
+                  BN ms. fr. 25056, p. 283-321.
+                  JS 178, 426430 (par lui-même).
+                  Parmi les nombreux travaux qui lui sont consacrés, citons: Abel-Remusat, Nouv.
+                     Mél. Asiat. II, Paris, 1829, 258-261.
+                  Combaluzier, F., Fragments du copielettres de Mgr F., RHM 15 (1938), 130-134.
+                  diverses études (Cordier) dans Reo I et II, 1882, 1883.
+                  Rowbotham, A. H., China in the «Esprit des Lois», Comparative Literature 2
+                     (Eugène, Ore. 1950) 354-359.
+                  du même, Jesuit Figurists ... Journal of the Hist. of Ideas, 17 {New York, 1956),
+                     471485 Beckmann, Johann (mémoire de F. sur le clergé indigène, 1726) NZM I
+                     (1945), 184-193 et Bontinck, p. 533.
+                  Margiotti, Fortunato, dans Euntes Docete 21 (Rome, 1968), 424435.
+                  et surtout la thèse du P. John Witek, S.J..
+                  Streit VII, 2260., XII, 1160 (Cordier), 1180. Pinot 235-238, 476 Borg. Lat. 508
+                     à 523, 542 ... 588.
+                  — Rites: ARSI. FG. 723, 7.
+                  Borg. Lat. 542.
+                  B. Casanatense ms 1653, f° 14-23.
+                  Je remercie ici le spécialiste des études sur Foucquet, le R. P. John Witek, qui
+                     m'a conseillé pour cette notice.
+                  Il conteste la sortie de la Cie .
+                  """
 
             referido$Joachim Bouvet/xmesmo_que=deh-joachim-bouvet/id=deh-jean-francois-foucquet-ref1
                ls$estadia/Kiangsi#@wikidata:Q57052
