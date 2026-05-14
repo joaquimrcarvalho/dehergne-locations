@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-20-7-2025 11-39
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-25 04:50:43
+
 
 Processing data file dehergne-c.cli
 -------------------------------------------
@@ -9,27 +10,33 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 278
+Translation count: 283
 Obs: 
 ** Processing source fonte$dehergne-c
-11: lista$dehergne-notices-c
+12: lista$dehergne-notices-c
 *** End of File
 
-Line 1714 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francisco-cabral) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1767 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francisco-cabral) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-c.cli
 Original file: /kleio-home/sources/dehergne-c.org
 Previous version: /kleio-home/sources/dehergne-c.old
+Local structure file: /kleio-home/sources/dehergne-c-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-c.ids
 ** - /kleio-home/sources/dehergne-c.cli-renamed to- /kleio-home/sources/dehergne-c.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,atr,lista,parentef,actorm,parentem,referido,kin-mother,n,kin-father,mae,pai]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
-Groups in this file:[atr,mae,pai,referido,rel,ls,n,lista,fonte,link,kleio]
 Translation finished.
