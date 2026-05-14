@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-25-12-2025 17-11
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-20 02:47:30
+
 
 Processing data file dehergne-b.cli
 -------------------------------------------
@@ -9,10 +10,11 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 233
+Translation count: 235
 Obs: 
 ** Processing source fonte$dehergne-b
 7: lista$dehergne-notices-b
@@ -23,16 +25,20 @@ Line 389 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antonio-de-abreu) CHECK I
 Line 880 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-alessandro-cicero) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 Line 1500 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-louis-porquet) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-b.cli
 Original file: /kleio-home/sources/dehergne-b.org
 Previous version: /kleio-home/sources/dehergne-b.old
+Local structure file: /kleio-home/sources/dehergne-b-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-b.ids
 ** - /kleio-home/sources/dehergne-b.cli-renamed to- /kleio-home/sources/dehergne-b.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,atr,lista,parentef,actorm,parentem,referido,kin-mother,n,irmao,kin-father,mae,pai,pmae]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
 0  errors. 
 0  warnings.
-Groups in this file:[pmae,mae,atr,rel,referido,irmao,pai,ls,n,lista,fonte,link,kleio]
 Translation finished.
