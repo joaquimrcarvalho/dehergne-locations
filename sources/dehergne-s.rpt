@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-4-12-2025 8-48
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-25 04:51:22
+
 
 Processing data file dehergne-s.cli
 -------------------------------------------
@@ -9,28 +10,34 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 192
+Translation count: 197
 Obs: 
 ** Processing source fonte$dehergne-s
-16: lista$dehergne-notices-s
+25: lista$dehergne-notices-s
 *** End of File
 
-Line 109 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francesco-maria-spinola) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1121 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-alessandro-cicero) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 138 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francesco-maria-spinola) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1150 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-alessandro-cicero) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-s.cli
 Original file: /kleio-home/sources/dehergne-s.org
 Previous version: /kleio-home/sources/dehergne-s.old
+Local structure file: /kleio-home/sources/dehergne-s-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-s.ids
 ** - /kleio-home/sources/dehergne-s.cli-renamed to- /kleio-home/sources/dehergne-s.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,lista,parentef,actorm,parentem,referido,kin-mother,n,kin-father,mae,mmae,pai,pmae]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
-Groups in this file:[pmae,mmae,referido,rel,mae,pai,ls,n,lista,fonte,link,kleio]
 Translation finished.

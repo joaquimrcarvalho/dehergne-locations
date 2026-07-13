@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-26-12-2025 8-41
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-20 02:47:56
+
 
 Processing data file dehergne-g.cli
 -------------------------------------------
@@ -9,10 +10,11 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /kleio-home/sources/dehergne-g-structure.yaml
 Prefix: 
 Autorel: 
-Translation count: 182
+Translation count: 184
 Obs: 
 ** Processing source fonte$dehergne-g
 19: lista$dehergne-notices-g
@@ -20,16 +22,21 @@ Obs:
 
 Line 693 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /kleio-home/sources/dehergne-g-structure.yaml
+Structure processing report: /kleio-home/sources/dehergne-g-structure.srpt
+Structure in JSON: /kleio-home/sources/dehergne-g-structure.str.json
 
 Kleio file: /kleio-home/sources/dehergne-g.cli
 Original file: /kleio-home/sources/dehergne-g.org
 Previous version: /kleio-home/sources/dehergne-g.old
+Local structure file: /kleio-home/sources/dehergne-g-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-g.ids
 ** - /kleio-home/sources/dehergne-g.cli-renamed to- /kleio-home/sources/dehergne-g.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,atr,lista,parentef,referida,actorm,parentem,referido,kin-mother,n,kin-father,mae,pai,ppai]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
-Groups in this file:[referida,atr,ppai,mae,pai,referido,rel,ls,n,lista,fonte,link,kleio]
 Translation finished.

@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-8-9-2025 4-3
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-05-18 02:36:08
+
 
 Processing data file dehergne-p.cli
 -------------------------------------------
@@ -9,34 +10,40 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 200
+Translation count: 205
 Obs: 
 ** Processing source fonte$dehergne-p
 21: lista$dehergne-notices-p
 *** End of File
 
-Line 748 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 853 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antoine-thomas) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 862 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-ferdinand-verbiest) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 932 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-teixeira) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 950 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-goncalo-alvares) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1305 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francisco-perez) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1311 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-teixeira) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1710 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-louis-brouet) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 818 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-matteo-ricci) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 923 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-antoine-thomas) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 932 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-ferdinand-verbiest) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1002 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-teixeira) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1020 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-goncalo-alvares) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1375 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-francisco-perez) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1381 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-teixeira) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1780 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-louis-brouet) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/sources/dehergne-repertoire/structures/sources.str
-Structure processing report: /kleio-home/sources/dehergne-repertoire/structures/sources.srpt
-Structure in JSON: /kleio-home/sources/dehergne-repertoire/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
-Kleio file: /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.cli
-Original file: /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.org
-Previous version: /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.old
-Temp file with ids: /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.ids
-** - /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.cli-renamed to- /kleio-home/sources/dehergne-repertoire/sources/dehergne-p.old
+Kleio file: /kleio-home/sources/dehergne-p.cli
+Original file: /kleio-home/sources/dehergne-p.org
+Previous version: /kleio-home/sources/dehergne-p.old
+Local structure file: /kleio-home/sources/dehergne-p-auto-structure.yaml
+Temp file with ids: /kleio-home/sources/dehergne-p.ids
+** - /kleio-home/sources/dehergne-p.cli-renamed to- /kleio-home/sources/dehergne-p.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,atr,lista,parentef,actorm,parentem,referido,kin-mother,n,kin-father,mae,pai,pmae,ppai]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
-Groups in this file:[atr,pmae,mae,ppai,pai,rel,referido,ls,n,lista,fonte,link,kleio]
 Translation finished.

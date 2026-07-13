@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.9 - build 588 2025-06-06 16:04:22
-25-12-2025 17-11
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-05-18 02:35:51
+
 
 Processing data file dehergne-l.cli
 -------------------------------------------
@@ -9,29 +10,35 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 189
+Translation count: 194
 Obs: 
 ** Processing source fonte$dehergne-l
-13: lista$dehergne-notices-l
+14: lista$dehergne-notices-l
 *** End of File
 
-Line 400 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-leonard-de-brossard) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1066 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-pierre-martial-cibot) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
-Line 1578 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-mendes) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 401 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-gabriel-leonard-de-brossard) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1088 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-pierre-martial-cibot) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
+Line 1600 "SAME AS" TO EXTERNAL REFERENCE EXPORTED (deh-manuel-mendes) CHECK IF IT EXISTS BEFORE IMPORTING THIS FILE.
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-l.cli
 Original file: /kleio-home/sources/dehergne-l.org
 Previous version: /kleio-home/sources/dehergne-l.old
+Local structure file: /kleio-home/sources/dehergne-l-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-l.ids
 ** - /kleio-home/sources/dehergne-l.cli-renamed to- /kleio-home/sources/dehergne-l.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,relation,ls,pt-acto,fonte,female,male,rel,lista,parentef,referida,actorm,parentem,referido,kin-mother,n,irmao,kin-father,mae,pai]
+Elements in this file: [ano,autorels,data,date,day,destination,destname,dia,id,iddest,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,nomedest,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
-Groups in this file:[irmao,referida,rel,referido,mae,pai,ls,n,lista,fonte,link,kleio]
 Translation finished.

@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.7 - build 579 2025-01-29 17:45:15
-14-4-2025 5-11
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-20 02:49:07
+
 
 Processing data file dehergne-u.cli
 -------------------------------------------
@@ -9,25 +10,31 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 28
+Translation count: 29
 Obs: 
 ** Processing source fonte$dehergne-u
 7: lista$dehergne-notices-u
 *** End of File
 
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-u.cli
 Original file: /kleio-home/sources/dehergne-u.org
 Previous version: /kleio-home/sources/dehergne-u.old
+Local structure file: /kleio-home/sources/dehergne-u-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-u.ids
 ** - /kleio-home/sources/dehergne-u.cli-renamed to- /kleio-home/sources/dehergne-u.old
+
+Groups in this file: [attribute,historical-act,historical-source,kleio,link,person,ls,pt-acto,fonte,male,lista,actorm,referido,n]
+Elements in this file: [ano,autorels,data,date,day,dia,id,kleiofile,loc,localizacao,mes,mesmo_que,month,name,nome,obs,prefix,ref,replace,same_as,sex,sexo,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xmesmo_que,xsame_as,year]
+
 0  errors. 
 0  warnings.
 Translation finished.

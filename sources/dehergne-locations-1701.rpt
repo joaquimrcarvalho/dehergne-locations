@@ -1,5 +1,6 @@
-KleioTranslator - server version 12.8 - build 593 2025-03-16 21:55:53
-5-6-2025 3-13
+KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
+2026-03-20 02:48:26
+
 
 Processing data file dehergne-locations-1701.cli
 -------------------------------------------
@@ -9,26 +10,31 @@ Generic Act translation module with geoentities (XML).
 =========================
 kleio translation started
 =========================
-Structure: gacto2.str
+Declared structure: gacto2.str
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 50
+Translation count: 52
 Obs: 
 ** Processing source fonte$dehergne-locations-1701
 101: geodesc$deh-chre-1701
 *** End of File
 
 
-Structure file: /kleio-home/structures/sources.str
-Structure processing report: /kleio-home/structures/sources.srpt
-Structure in JSON: /kleio-home/structures/sources.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-locations-1701.cli
 Original file: /kleio-home/sources/dehergne-locations-1701.org
 Previous version: /kleio-home/sources/dehergne-locations-1701.old
+Local structure file: /kleio-home/sources/dehergne-locations-1701-auto-structure.yaml
 Temp file with ids: /kleio-home/sources/dehergne-locations-1701.ids
 ** - /kleio-home/sources/dehergne-locations-1701.cli-renamed to- /kleio-home/sources/dehergne-locations-1701.old
+
+Groups in this file: [attribute,geoentity,historical-act,historical-source,kleio,link,ls,geo1,geo2,geo3,pt-acto,fonte,atr,geodesc]
+Elements in this file: [ano,autorels,data,date,day,dia,fol,id,kleiofile,loc,localizacao,mes,month,name,obs,prefix,ref,replace,same_as,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,valor,value,xsame_as,year]
+
 0  errors. 
 0  warnings.
-Groups in this file:[geo3,atr,geo2,geo1,geodesc,fonte,link,kleio]
 Translation finished.
