@@ -1,5 +1,9 @@
 {
     "timelink.kleio.kleioServerHome": "/Users/jrc/mhk-home/sources/china-coimbra/sources/dehergne-repertoire",
     "timelink.kleio.kleioServerToken": "***REMOVED-KLEIO-TOKEN***",
-    "timelink.kleio.kleioServerUrl": "http://127.0.0.1:8089"
+    "timelink.kleio.kleioServerUrl": "http://127.0.0.1:8089",
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    "jupyter.debugJustMyCode": false
 }
