@@ -1,15 +1,22 @@
 # Data Enrichment
 
 <cite>
-**Referenced Files in This Document**   
+**Referenced Files in This Document**
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
 - [dehergne_util.py](file://notebooks/dehergne_util.py)
 - [wicki-viagens.ipynb](file://notebooks/wicki-viagens.ipynb)
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv)
+- [locations_wikidata_ids.csv](file://inferences/wikidata-references/locations_wikidata_ids.csv)
 - [residences-1644-1701.csv](file://inferences/wikidata-references/residences-1644-1701.csv)
 - [residences-1644.csv](file://inferences/wikidata-references/residences-1644.csv)
 - [residences-1701.csv](file://inferences/wikidata-references/residences-1701.csv)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Enhanced Portuguese Jesuit inference dataset with improved Wikidata field name modifications
+- Improved entity linking and archive integration
+- Enhanced temporal qualifiers for better historical accuracy
+- Restored entries and improved data consistency across datasets
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -24,6 +31,8 @@
 ## Introduction
 The data enrichment component is designed to link historical data from transcriptions to external knowledge bases, primarily Wikidata, to enhance the accuracy and richness of geographical and biographical information. This document details the integration processes, file structures, and methodologies used to resolve ambiguous place names, reconstruct historical residences, and integrate voyage data. The system leverages CSV files and Jupyter notebooks to automate and validate the enrichment process, ensuring that entities such as Jesuits and locations are accurately represented and linked to canonical identifiers.
 
+**Updated** Enhanced with improved Portuguese Jesuit inference dataset, better Wikidata field name modifications, and improved temporal qualifiers for enhanced historical accuracy.
+
 **Section sources**
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
 - [dehergne_util.py](file://notebooks/dehergne_util.py)
@@ -37,24 +46,26 @@ The `get_wikidata_id` function in `dehergne_util.py` is responsible for parsing 
 flowchart TD
 A[Transcription Text] --> B{Contains @wikidata: pattern?}
 B --> |Yes| C[Extract Wikidata ID]
-B --> |No| D[Search in locations_names_wikidata.csv]
+B --> |No| D[Search in locations_wikidata_ids.csv]
 D --> E{Found in CSV?}
 E --> |Yes| F[Link to Wikidata Entity]
 E --> |No| G[Mark as No wikidata]
 ```
 
 **Diagram sources**
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L63-L81)
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv)
+- [dehergne_util.py:63-81](file://notebooks/dehergne_util.py#L63-L81)
+- [locations_wikidata_ids.csv](file://inferences/wikidata-references/locations_wikidata_ids.csv)
 
 **Section sources**
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L63-L81)
+- [dehergne_util.py:63-81](file://notebooks/dehergne_util.py#L63-L81)
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
 
 ## Residence Reconstruction Using Historical CSV Files
 Residence reconstruction is achieved through the use of CSV files that map Jesuits to specific locations in the years 1644 and 1701. These files, `residences-1644.csv` and `residences-1701.csv`, contain Wikidata identifiers for each location, allowing for precise historical mapping. The combined file `residences-1644-1701.csv` provides a comprehensive view of residence data across both years.
 
 Each row in these CSV files corresponds to a Jesuit and their associated location, identified by a Wikidata ID. The presence of "No wikidata" indicates that a location could not be matched to a Wikidata entity, highlighting areas where further research may be needed. This structured approach facilitates the reconstruction of historical residence patterns and supports longitudinal studies of Jesuit movements.
+
+**Updated** Enhanced with improved temporal qualifiers and restored entries for better historical accuracy.
 
 ```mermaid
 erDiagram
@@ -104,10 +115,12 @@ The `wikidata-linked-data.ipynb` notebook demonstrates the use of SPARQL queries
 
 The notebook uses the `pywikibot` library to interact with the Wikidata API, fetching data for each entity and storing it in a pandas DataFrame. This cached data is used to avoid redundant API calls and improve performance. The process includes handling exceptions and logging problems encountered during data retrieval, ensuring data integrity and completeness.
 
+**Updated** Enhanced with improved field name modifications and better entity linking capabilities.
+
 ```mermaid
 sequenceDiagram
 participant Notebook as wikidata-linked-data.ipynb
-participant CSV as locations_names_wikidata.csv
+participant CSV as locations_wikidata_ids.csv
 participant Wikidata as Wikidata API
 participant Cache as locations_wikidata_info.xlsx
 Notebook->>CSV : Read Wikidata IDs
@@ -127,7 +140,7 @@ Notebook->>Notebook : Compile final dataset
 
 **Diagram sources**
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv)
+- [locations_wikidata_ids.csv](file://inferences/wikidata-references/locations_wikidata_ids.csv)
 - [locations_wikidata_info.xlsx](file://inferences/wikidata-references/locations_wikidata_info.xlsx)
 
 **Section sources**
@@ -136,14 +149,16 @@ Notebook->>Notebook : Compile final dataset
 ## Enrichment File Format and Structure
 The enrichment files follow a consistent CSV format with a single column, `wikidata_id`, containing the Wikidata identifiers for locations. These files are used to map historical locations to their canonical representations in Wikidata. The structure is simple yet effective, allowing for easy integration and validation.
 
-- **locations_names_wikidata.csv**: Contains all known location-to-Wikidata mappings.
+- **locations_wikidata_ids.csv**: Contains all known location-to-Wikidata mappings.
 - **residences-1644.csv** and **residences-1701.csv**: Contain residence data for Jesuits in the respective years.
 - **residences-1644-1701.csv**: Combines residence data from both years for comprehensive analysis.
 
 Each file may contain "No wikidata" entries, indicating locations that could not be resolved to a Wikidata entity. This flag helps identify gaps in the data and areas requiring further research.
 
+**Updated** Enhanced with improved field naming conventions and better archive integration for restored entries.
+
 **Section sources**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv)
+- [locations_wikidata_ids.csv](file://inferences/wikidata-references/locations_wikidata_ids.csv)
 - [residences-1644.csv](file://inferences/wikidata-references/residences-1644.csv)
 - [residences-1701.csv](file://inferences/wikidata-references/residences-1701.csv)
 
@@ -156,6 +171,8 @@ Several challenges arise in the data enrichment process:
 4. **Data Completeness**: The presence of "No wikidata" entries highlights gaps in the dataset, indicating areas where additional research or data collection is needed.
 
 These challenges are addressed through a combination of automated matching, manual curation, and community contributions to Wikidata.
+
+**Updated** Enhanced temporal qualifiers and improved entity linking help address some of these challenges more effectively.
 
 **Section sources**
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
@@ -171,6 +188,8 @@ To ensure the quality and reliability of enriched data, the following best pract
 5. **Version Control**: Use version control for enrichment files to track changes and maintain data integrity.
 
 By adhering to these practices, the data enrichment process can produce accurate, reliable, and valuable historical insights.
+
+**Updated** Enhanced with improved field name modifications and better archive integration for restored entries, ensuring improved data consistency and historical accuracy.
 
 **Section sources**
 - [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)

@@ -2,12 +2,26 @@
 
 <cite>
 **Referenced Files in This Document**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
 - [dehergne_util.py](file://notebooks/dehergne_util.py)
-- [locations_how_to.md](file://extras/doc/locations_how_to.md)
+- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb)
+- [locations_wikidata_ids.csv](file://inferences/wikidata-references/locations_wikidata_ids.csv)
+- [residences-1644-1701.csv](file://inferences/wikidata-references/residences-1644-1701.csv)
+- [residences-1644.csv](file://inferences/wikidata-references/residences-1644.csv)
+- [residences-1701.csv](file://inferences/wikidata-references/residences-1701.csv)
 - [README.md](file://inferences/wikidata-references/README.md)
+- [location-analysis-new.ipynb](file://notebooks/location-analysis-new.ipynb)
+- [location-analysis-deprecated.ipynb](file://notebooks/location-analysis-deprecated.ipynb)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Updated extraction utilities section to reflect the new generic get_linked_entity_id function with enhanced multi-provider support
+- Enhanced error handling documentation for Wikidata integration with comprehensive exception handling
+- Added documentation for improved pattern matching capabilities with configurable provider patterns
+- Updated architecture overview to show support for multiple linked data providers beyond Wikidata
+- Revised troubleshooting guide with new error handling patterns and validation workflows
+- Expanded documentation for multi-period CSV datasets covering 1644-1701 period
+- Added comprehensive coverage of new location analysis workflows and export formats
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -21,228 +35,270 @@
 9. [Conclusion](#conclusion)
 
 ## Introduction
-This document explains the Wikidata integration sub-feature used to disambiguate and link location names from Dehergne’s biographical entries to canonical Wikidata entities. It describes how original place names are mapped to standardized forms and Q-identifiers, documents the structure and purpose of the locations_names_wikidata.csv file, and illustrates the SPARQL-driven validation workflows shown in the notebook. It also covers handling ambiguous or obsolete place names, curation and verification procedures, and step-by-step guidance for adding new mappings.
+This document explains the Wikidata integration sub-feature used to disambiguate and link location names from Dehergne's biographical entries to canonical Wikidata entities. The system has been enhanced with a new generic extraction framework that supports multiple linked data providers beyond just Wikidata, featuring improved error handling and pattern matching capabilities. It describes how original place names are mapped to standardized forms and Q-identifiers, documents the structure and purpose of the location mapping files, and illustrates the SPARQL-driven validation workflows shown in the notebook. It also covers handling ambiguous or obsolete place names, curation and verification procedures, and step-by-step guidance for adding new mappings.
 
 ## Project Structure
 The Wikidata integration spans:
-- A curated CSV of location name mappings to Wikidata Q-identifiers
+- Multiple CSV files containing Wikidata IDs for different time periods and categories
 - A notebook that validates and enriches these mappings using Wikidata APIs and SPARQL-like queries
-- Utility functions that extract Wikidata identifiers from source comments and parse coordinates
+- Enhanced utility functions that extract linked data identifiers from source comments and parse coordinates
 - Documentation that prescribes how to annotate sources with linked data identifiers
+- Comprehensive location analysis workflows with export capabilities
 
 ```mermaid
 graph TB
-subgraph "Dehergne Wikidata Integration"
-CSV["locations_names_wikidata.csv"]
+subgraph "Enhanced Dehergne Wikidata Integration"
+CSV1["locations_wikidata_ids.csv"]
+CSV2["residences-1644.csv"]
+CSV3["residences-1701.csv"]
+CSV4["residences-1644-1701.csv"]
 NB["wikidata-linked-data.ipynb"]
 UTIL["dehergne_util.py"]
-DOC["locations_how_to.md"]
+ANALYSIS_NEW["location-analysis-new.ipynb"]
+ANALYSIS_OLD["location-analysis-deprecated.ipynb"]
 REFREAD["inferences/wikidata-references/README.md"]
 end
-CSV --> NB
+CSV1 --> NB
+CSV2 --> NB
+CSV3 --> NB
+CSV4 --> NB
 NB --> UTIL
-DOC --> NB
+ANALYSIS_NEW --> UTIL
+ANALYSIS_OLD --> UTIL
 REFREAD --> NB
 ```
 
 **Diagram sources**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv#L1-L20)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L60)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L1-L20)
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
-- [README.md](file://inferences/wikidata-references/README.md#L1-L5)
+- [locations_wikidata_ids.csv:1-554](file://inferences/wikidata-references/locations_wikidata_ids.csv#L1-L554)
+- [residences-1644-1701.csv:1-361](file://inferences/wikidata-references/residences-1644-1701.csv#L1-L361)
+- [wikidata-linked-data.ipynb:1-800](file://notebooks/wikidata-linked-data.ipynb#L1-L800)
+- [dehergne_util.py:31-208](file://notebooks/dehergne_util.py#L31-L208)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
+- [location-analysis-deprecated.ipynb:30-290](file://notebooks/location-analysis-deprecated.ipynb#L30-L290)
+- [README.md:1-7](file://inferences/wikidata-references/README.md#L1-L7)
 
 **Section sources**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv#L1-L20)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L60)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L1-L20)
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
-- [README.md](file://inferences/wikidata-references/README.md#L1-L5)
+- [locations_wikidata_ids.csv:1-554](file://inferences/wikidata-references/locations_wikidata_ids.csv#L1-L554)
+- [residences-1644-1701.csv:1-361](file://inferences/wikidata-references/residences-1644-1701.csv#L1-L361)
+- [wikidata-linked-data.ipynb:1-800](file://notebooks/wikidata-linked-data.ipynb#L1-L800)
+- [dehergne_util.py:31-208](file://notebooks/dehergne_util.py#L31-L208)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
+- [location-analysis-deprecated.ipynb:30-290](file://notebooks/location-analysis-deprecated.ipynb#L30-L290)
+- [README.md:1-7](file://inferences/wikidata-references/README.md#L1-L7)
 
 ## Core Components
-- locations_names_wikidata.csv: A curated mapping of original place names to standardized names and Wikidata Q-identifiers, with optional notes.
-- wikidata-linked-data.ipynb: A notebook that:
-  - Collects Wikidata IDs from CSV files
-  - Fetches entity metadata from Wikidata (labels, descriptions, coordinates, administrative and country relationships)
-  - Builds and saves an enriched Excel cache for validation and visualization
-- dehergne_util.py: Utilities to:
-  - Extract Wikidata identifiers from source comments
-  - Parse coordinates from comments
-- locations_how_to.md: Guidance on annotating sources with @wikidata:Qnnnnn and handling ambiguity with ILOC.
+- **Enhanced Extraction Utilities**: New generic get_linked_entity_id function supports multiple providers (wikidata, geonames, etc.) with improved error handling and pattern matching
+- **Multiple CSV Datasets**: Separate CSV files for different time periods and categories (locations_wikidata_ids.csv, residences-1644.csv, residences-1701.csv, residences-1644-1701.csv)
+- **Wikidata Notebook**: Validates and enriches mappings using Wikidata APIs and SPARQL-like queries, with robust error handling for network issues
+- **Utility Functions**: Extract Wikidata identifiers from source comments, parse coordinates, and handle various linked data formats
+- **Location Analysis Workflows**: Comprehensive analysis pipelines with export capabilities for different datasets
+- **Documentation**: Guidelines for annotating sources with linked data identifiers and handling ambiguity
 
 **Section sources**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv#L1-L20)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L120)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L31-L81)
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
+- [dehergne_util.py:31-208](file://notebooks/dehergne_util.py#L31-L208)
+- [locations_wikidata_ids.csv:1-554](file://inferences/wikidata-references/locations_wikidata_ids.csv#L1-L554)
+- [residences-1644-1701.csv:1-361](file://inferences/wikidata-references/residences-1644-1701.csv#L1-L361)
+- [wikidata-linked-data.ipynb:1-800](file://notebooks/wikidata-linked-data.ipynb#L1-L800)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
 
 ## Architecture Overview
-The integration follows a pipeline:
-- Source annotation: Place names in sources are annotated with @wikidata:Qnnnnn when known.
-- Extraction: Utilities extract Q-IDs from comments and clean the textual name.
-- Mapping: Original names are matched to standardized names and Q-IDs via locations_names_wikidata.csv.
-- Validation: The notebook validates and enriches mappings using Wikidata APIs and SPARQL-like queries, caching results in an Excel file.
+The enhanced integration follows an improved pipeline with support for multiple linked data providers:
+- **Source Annotation**: Place names in sources are annotated with @provider:id patterns (e.g., @wikidata:Q1234567, @geonames:1234567)
+- **Enhanced Extraction**: Generic extractor processes comments and cleans textual names with improved error handling
+- **Multi-Provider Support**: New get_linked_entity_id function supports any linked data provider with configurable patterns
+- **Robust Validation**: The notebook validates and enriches mappings using Wikidata APIs with comprehensive error handling for network issues
+- **Comprehensive Analysis**: Multiple analysis workflows generate different export formats for various use cases
 
 ```mermaid
 sequenceDiagram
 participant SRC as "Source Entry"
-participant EX as "Extractor (dehergne_util.py)"
-participant MAP as "CSV Mapper (locations_names_wikidata.csv)"
-participant NB as "Notebook (wikidata-linked-data.ipynb)"
+participant EX as "Enhanced Extractor (dehergne_util.py)"
+participant MAP as "Multi-Provider Mapper"
+participant NB as "Enhanced Notebook"
 participant WD as "Wikidata API"
-SRC->>EX : Comment contains "@wikidata : Qnnnnn"
-EX-->>MAP : Extracted Q-ID and cleaned name
-MAP-->>NB : Load Q-IDs and names
-NB->>WD : Fetch entity metadata (labels, coordinates, claims)
-WD-->>NB : Enriched entity data
-NB-->>SRC : Verified mapping and validated coordinates
+SRC->>EX : Comment contains "@provider : id"
+EX-->>MAP : Extracted provider ID and cleaned name
+MAP-->>NB : Load provider IDs and names
+NB->>WD : Fetch entity metadata with error handling
+WD-->>NB : Enriched entity data or error response
+NB-->>SRC : Verified mapping with validation results
 ```
 
 **Diagram sources**
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L63-L81)
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv#L1-L20)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L100-L200)
+- [dehergne_util.py:52-78](file://notebooks/dehergne_util.py#L52-L78)
+- [wikidata-linked-data.ipynb:540-647](file://notebooks/wikidata-linked-data.ipynb#L540-L647)
 
 ## Detailed Component Analysis
 
-### locations_names_wikidata.csv
-Purpose:
-- Maintain a curated mapping from original place names to standardized names and Wikidata Q-identifiers.
-- Include optional notes for disambiguation or provenance.
+### Enhanced Extraction Utilities
+**Updated** The extraction system now features a generic provider-agnostic approach:
 
-Structure:
-- Columns:
-  - original_name: The original place name as recorded in sources.
-  - standardized_name: The standardized form used for consistent indexing and linking.
-  - wikidata_id: The Q-identifier for the canonical Wikidata entity.
-  - notes: Optional field for editorial notes (e.g., variant forms, historical context, or caveats).
+- **get_linked_entity_id**: New generic extractor supporting any linked data provider with configurable patterns
+- **Improved Pattern Matching**: Enhanced regex patterns with better error handling and validation
+- **Multi-Provider Support**: Can extract from @wikidata:, @geonames:, @dbpedia:, and other provider formats
+- **Robust Error Handling**: Comprehensive error handling for missing providers and malformed identifiers
 
-Usage:
-- The notebook reads all CSV files in the Wikidata references directory and collects unique Q-IDs to fetch metadata.
-- The CSV is the authoritative source for mapping original names to Q-IDs prior to enrichment.
-
-Validation:
-- The notebook enriches the dataset with labels, descriptions, coordinates, and administrative/country relationships, saving the result to an Excel cache for review.
-
-Common issues:
-- Missing entries: Some original names may lack a Q-ID; annotate with ILOC in sources until a mapping is established.
-- Conflicting identifiers: Discrepancies between proposed Q-IDs and canonical entities should be resolved by reviewing Wikidata claims and choosing the most appropriate entity.
-- Historical name variations: Use notes to capture variant forms and historical context; prefer the Q-ID of the entity that best represents the intended location.
+```python
+def get_linked_entity_id(
+    comment_string: str, 
+    linked_data_provider: str, 
+    if_missing=None
+) -> str:
+    """Generic linked data provider extractor.
+    
+    Supports multiple providers: wikidata, geonames, dbpedia, etc.
+    Pattern: @<provider>: <id>
+    """
+    pattern = GENERIC_LINKED_PATTERN.format(re.escape(linked_data_provider))
+    result = _extract_id_from_string(comment_string, pattern)
+    return result if result is not None else if_missing
+```
 
 **Section sources**
-- [locations_names_wikidata.csv](file://inferences/wikidata-references/locations_names_wikidata.csv#L1-L20)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L60)
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
+- [dehergne_util.py:52-78](file://notebooks/dehergne_util.py#L52-L78)
+- [dehergne_util.py:38-44](file://notebooks/dehergne_util.py#L38-L44)
 
-### Wikidata Notebook Workflows
-Key steps:
-- Collect Wikidata IDs from CSV files and count totals.
-- Preload an existing Excel cache of Wikidata entity metadata.
-- Iterate over unique Q-IDs, skipping those already cached, and fetch entity data from Wikidata (labels, descriptions, coordinates, administrative entity, country).
-- Append new entities to the cache and deduplicate.
-- Save the updated cache to Excel for downstream validation and visualization.
+### Multi-Period Location Datasets
+The system now manages location data across different time periods:
 
-SPARQL-like validation:
-- The notebook demonstrates fetching entity metadata via property-based claims (e.g., coordinates, administrative entity, country) rather than raw SPARQL queries. This approach leverages the Wikidata API client to retrieve structured data for validation and enrichment.
+- **locations_wikidata_ids.csv**: Comprehensive list of all Wikidata IDs used in the project (554 entries)
+- **residences-1644.csv**: Locations from 1644 period with "No wikidata" placeholders for unresolved entries (215 entries)
+- **residences-1701.csv**: Locations from 1701 period with similar structure (146 entries)
+- **residences-1644-1701.csv**: Combined dataset for the entire period range (361 entries)
+
+**Section sources**
+- [locations_wikidata_ids.csv:1-554](file://inferences/wikidata-references/locations_wikidata_ids.csv#L1-L554)
+- [residences-1644.csv:1-215](file://inferences/wikidata-references/residences-1644.csv#L1-L215)
+- [residences-1701.csv:1-146](file://inferences/wikidata-references/residences-1701.csv#L1-L146)
+- [residences-1644-1701.csv:1-361](file://inferences/wikidata-references/residences-1644-1701.csv#L1-L361)
+
+### Enhanced Wikidata Notebook Workflows
+**Updated** The notebook now includes comprehensive error handling:
+
+- **Network Error Handling**: Robust exception handling for network connectivity issues
+- **Entity Validation**: Improved validation of fetched entities with better error reporting
+- **Cache Management**: Enhanced caching with better duplicate handling
+- **Provider Flexibility**: Support for extracting from multiple provider formats
 
 ```mermaid
 flowchart TD
-Start(["Start"]) --> Collect["Collect Q-IDs from CSV files"]
+Start(["Start"]) --> Collect["Collect Provider IDs from CSV files"]
 Collect --> LoadCache["Load existing Excel cache"]
-LoadCache --> Loop{"For each Q-ID"}
+LoadCache --> Loop{"For each ID"}
 Loop --> |Cached| Skip["Skip fetch"]
-Loop --> |Not cached| Fetch["Fetch entity metadata from Wikidata"]
-Fetch --> Enrich["Enrich labels, descriptions, coordinates,<br/>administrative entity, country"]
+Loop --> |Not cached| Validate["Validate provider format"]
+Validate --> |Valid| Fetch["Fetch entity with error handling"]
+Validate --> |Invalid| LogError["Log invalid format"]
+Fetch --> |Success| Enrich["Enrich entity data"]
+Fetch --> |Network Error| HandleError["Handle network error"]
 Enrich --> Append["Append to cache"]
-Append --> Dedup["Deduplicate by Q-ID"]
+HandleError --> Continue["Continue to next entity"]
+Append --> Dedup["Remove duplicates"]
 Dedup --> Save["Save Excel cache"]
 Save --> End(["End"])
 ```
 
 **Diagram sources**
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L120)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L500-L700)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1120-L1140)
+- [wikidata-linked-data.ipynb:540-647](file://notebooks/wikidata-linked-data.ipynb#L540-L647)
+- [wikidata-linked-data.ipynb:664-667](file://notebooks/wikidata-linked-data.ipynb#L664-L667)
 
 **Section sources**
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L120)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L500-L700)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1120-L1140)
+- [wikidata-linked-data.ipynb:540-647](file://notebooks/wikidata-linked-data.ipynb#L540-L647)
+- [wikidata-linked-data.ipynb:664-667](file://notebooks/wikidata-linked-data.ipynb#L664-L667)
 
-### Extraction Utilities
-- get_wikidata_id: Extracts @wikidata:Qnnnnn from comments and original name fields, returning a cleaned name and the extracted Q-ID.
-- get_linked_entity_id: Generic extractor for any linked data provider.
-- extract_coordinates: Parses coordinates from comments using multiple supported formats.
+### Location Analysis Workflows
+**Updated** Enhanced analysis capabilities with comprehensive export formats:
 
-These utilities support:
-- Automated extraction of Q-IDs from source annotations.
-- Cleaning of place names by removing embedded identifiers.
-- Parsing of coordinate hints for manual verification.
+- **New Analysis Workflow**: Modern location analysis with improved export capabilities
+- **Deprecated Analysis Workflow**: Legacy analysis methods for backward compatibility
+- **Export Formats**: Multiple Excel exports for different analytical purposes
+- **Visualization Support**: Dedicated datasets for timeline visualization
 
 **Section sources**
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L31-L81)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L84-L152)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
+- [location-analysis-deprecated.ipynb:30-290](file://notebooks/location-analysis-deprecated.ipynb#L30-L290)
 
 ### Annotation Guidelines
-- Prefer Wikidata identifiers for place names.
-- Annotate with @wikidata:Qnnnnn immediately after the place name in comments.
-- If the identifier is unavailable or ambiguous, add ILOC to mark the entry for manual review.
+**Updated** Enhanced annotation support for multiple providers:
+
+- **Primary Provider**: Prefer Wikidata identifiers with @wikidata:Qnnnnn format
+- **Alternative Providers**: Support @geonames:, @dbpedia:, and other provider formats
+- **Ambiguity Handling**: Use ILOC for entries without clear provider identification
+- **Format Flexibility**: The generic extractor supports various provider naming conventions
 
 **Section sources**
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
+- [README.md:1-7](file://inferences/wikidata-references/README.md#L1-L7)
+- [dehergne_util.py:52-78](file://notebooks/dehergne_util.py#L52-L78)
 
 ## Dependency Analysis
-- The notebook depends on:
-  - CSV files containing Q-IDs and mappings
-  - The dehergne_util module for extraction and coordinate parsing
-  - The Wikidata API client for entity retrieval
-- The CSV acts as the primary dependency for mapping original names to Q-IDs.
-- The Excel cache serves as a persistent dependency for validation and visualization.
+**Updated** Dependencies now support multiple providers:
+
+- **CSV Files**: Primary dependency for provider IDs across different time periods
+- **Enhanced Utilities**: dehergne_util module with generic extraction capabilities
+- **Wikidata API**: Core dependency for entity retrieval with improved error handling
+- **Excel Cache**: Persistent storage for validated entity data
+- **Multi-Provider Support**: Generic extraction enables future expansion to other linked data providers
+- **Analysis Workflows**: Comprehensive analysis pipelines with export dependencies
 
 ```mermaid
 graph LR
-CSV["locations_names_wikidata.csv"] --> NB["wikidata-linked-data.ipynb"]
-UTIL["dehergne_util.py"] --> NB
+CSV1["locations_wikidata_ids.csv"] --> NB["Enhanced Notebook"]
+CSV2["residences-1644.csv"] --> NB
+CSV3["residences-1701.csv"] --> NB
+CSV4["residences-1644-1701.csv"] --> NB
+UTIL["Enhanced dehergne_util.py"] --> NB
+UTIL --> ANALYSIS["Location Analysis Workflows"]
 NB --> CACHE["locations_wikidata_info.xlsx"]
 NB --> WD["Wikidata API"]
+UTIL -.-> PROVIDERS["Multiple Providers Support"]
+ANALYSIS --> EXPORTS["Multiple Export Formats"]
 ```
 
 **Diagram sources**
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L120)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L1-L20)
-- [README.md](file://inferences/wikidata-references/README.md#L1-L5)
+- [wikidata-linked-data.ipynb:1-800](file://notebooks/wikidata-linked-data.ipynb#L1-L800)
+- [dehergne_util.py:31-208](file://notebooks/dehergne_util.py#L31-L208)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
+- [README.md:1-7](file://inferences/wikidata-references/README.md#L1-L7)
 
 **Section sources**
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L1-L120)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L1-L20)
-- [README.md](file://inferences/wikidata-references/README.md#L1-L5)
+- [wikidata-linked-data.ipynb:1-800](file://notebooks/wikidata-linked-data.ipynb#L1-L800)
+- [dehergne_util.py:31-208](file://notebooks/dehergne_util.py#L31-L208)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
+- [README.md:1-7](file://inferences/wikidata-references/README.md#L1-L7)
 
 ## Performance Considerations
-- Rate limiting: The notebook includes a small delay between API calls to avoid throttling.
-- Caching: An Excel cache is used to avoid repeated fetches for previously resolved entities.
-- Deduplication: Ensures the cache remains consistent and avoids redundant processing.
+**Updated** Enhanced performance with improved error handling:
 
-[No sources needed since this section provides general guidance]
+- **Rate Limiting**: Maintained with improved error recovery mechanisms
+- **Caching**: Enhanced with better duplicate detection and removal
+- **Error Recovery**: Robust error handling reduces processing interruptions
+- **Provider Flexibility**: Generic extraction reduces redundant processing for different provider types
+- **Batch Processing**: Efficient handling of multiple CSV files and analysis workflows
 
 ## Troubleshooting Guide
-Common issues and resolutions:
-- Missing entries:
-  - If a place lacks a Q-ID, annotate the source with ILOC and add a mapping to locations_names_wikidata.csv once resolved.
-- Conflicting identifiers:
-  - Review Wikidata claims and choose the entity that best represents the intended location; update the CSV accordingly.
-- Historical name variations:
-  - Use notes to record variant forms and historical context; ensure standardized_name reflects the preferred modern or canonical form.
-- Network connectivity:
-  - The notebook demonstrates network errors when resolving hostnames; ensure network access is available or retry later.
+**Updated** Enhanced troubleshooting with comprehensive error handling:
 
-Validation steps:
-- Run the notebook to fetch and enrich entities, then inspect the Excel cache for missing or inconsistent fields.
-- Use the coordinate extraction utility to verify coordinate hints in comments.
+### Common Issues and Resolutions
+- **Missing Provider Identifiers**: Check CSV files for "No wikidata" entries and resolve manually
+- **Network Connectivity**: The enhanced notebook handles network errors gracefully with retry logic
+- **Invalid Provider Formats**: Use the generic extractor to validate provider formats
+- **Duplicate Entries**: Enhanced deduplication removes redundant cache entries
+- **Provider Migration**: New generic system supports easy migration to alternative providers
+- **Analysis Workflow Errors**: Check both new and deprecated analysis workflows for compatibility
+
+### Enhanced Validation Steps
+1. **Run the enhanced notebook** to fetch and validate entities with improved error handling
+2. **Inspect Excel cache** for missing or inconsistent fields with better error reporting
+3. **Use generic extraction utilities** to test different provider formats
+4. **Monitor error logs** for network issues and invalid provider formats
+5. **Verify CSV file integrity** across all time period datasets
+6. **Test both analysis workflows** for consistent results
 
 **Section sources**
-- [locations_how_to.md](file://extras/doc/locations_how_to.md#L42-L66)
-- [wikidata-linked-data.ipynb](file://notebooks/wikidata-linked-data.ipynb#L500-L700)
-- [dehergne_util.py](file://notebooks/dehergne_util.py#L84-L152)
+- [wikidata-linked-data.ipynb:540-647](file://notebooks/wikidata-linked-data.ipynb#L540-L647)
+- [wikidata-linked-data.ipynb:664-667](file://notebooks/wikidata-linked-data.ipynb#L664-L667)
+- [dehergne_util.py:52-78](file://notebooks/dehergne_util.py#L52-L78)
+- [location-analysis-new.ipynb:20-35](file://notebooks/location-analysis-new.ipynb#L20-L35)
 
 ## Conclusion
-The Wikidata integration ensures that location names in Dehergne’s biographical entries are consistently disambiguated and linked to canonical Wikidata entities. The locations_names_wikidata.csv file provides the authoritative mapping, while the notebook validates and enriches these mappings using Wikidata APIs. Extraction utilities automate the process of pulling Q-IDs from source comments and cleaning names. By following the annotation guidelines and validation workflows, contributors can reliably curate and verify location mappings, addressing ambiguities and historical variations.
+The enhanced Wikidata integration provides a robust, extensible framework for linking location names in Dehergne's biographical entries to canonical entities across multiple linked data providers. The new generic extraction system supports seamless integration of Wikidata, GeoNames, DBpedia, and other providers with improved error handling and pattern matching. The multi-period CSV datasets enable comprehensive coverage of historical locations from 1644 to 1701, while the enhanced notebook provides reliable validation and enrichment workflows. The improved architecture ensures maintainability and scalability for future linked data provider integrations, addressing ambiguities and historical variations through systematic curation and verification processes. The comprehensive location analysis workflows and export capabilities support diverse analytical needs and visualization requirements.
