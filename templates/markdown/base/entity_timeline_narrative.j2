@@ -1,51 +1,11 @@
-{# Chronological biography + notes + relations.
-
-   `bio` is computed once in entity_default_narrative.j2 and shared with
-   the links template (for occurrence numbering).
-   NOTE_TYPES attributes -> "Notes" section; IDENTIFICATION_REL_TYPES
-   relations -> separated out.
-
-   For REntity (real entity) records, the timeline carries an extra "Occ"
-   column linking each attribute row to the numbered occurrence it came
-   from (the source entity). The occurrence numbers are also shown in the
-   "Links for" table. #}
-{# `bio` is already set by entity_default_narrative.j2 #}
-{# Occurrence numbers are shown in the "Links for" table. #}
 ### Timeline
 
-{% if bio.is_real_entity -%}
-| Date | Type | Value | Note | Occ |
-|------|------|-------|------|-----|
-{% for grp in bio.timeline -%}
-{% set date_str = "—" if (not grp.date or grp.date in ('0','00')) else util.format_timelink_date(grp.date) -%}
-{% for it in grp.entries -%}
-| {{ date_str }} | {{ type_link(it.type) }} | {{ value_link(it.type, it.value) }}{% if it.wd_qid %} → [[{{ it.wd_qid }}]]{% endif %} | {{ it.obs | replace('|', '\\|') | replace('\n', ' ') | trim }} | {% if it.occ_num %}[{{ it.occ_num }}]({{ it.source_entity }}){% else %}—{% endif %} |
-{% endfor -%}
-{% endfor %}
+{% for date, bioitems in model.dated_bio()|dictsort -%}
+{% for a_bioitem in bioitems -%}
+{% if loop.first -%}
+- {{ "No date" if date == "0" else util.format_timelink_date(date) }}
 {% else -%}
-| Date | Type | Value | Note |
-|------|------|-------|------|
-{% for grp in bio.timeline -%}
-{% set date_str = "—" if (not grp.date or grp.date in ('0','00')) else util.format_timelink_date(grp.date) -%}
-{% for it in grp.entries -%}
-| {{ date_str }} | {{ type_link(it.type) }} | {{ value_link(it.type, it.value) }}{% if it.wd_qid %} → [[{{ it.wd_qid }}]]{% endif %} | {{ it.obs | replace('|', '\\|') | replace('\n', ' ') | trim }} |
+{% endif -%}
+{% include "markdown/base/entity_bioitem_narrative.j2" -%}
 {% endfor -%}
-{% endfor %}
-{% endif %}
-
-{% if bio.notes -%}
-### Notes
-{% for n in bio.notes -%}
-**{{ n.type }} {{ n.value }}**. {{ n.obs }}
 {% endfor -%}
-{% endif %}
-
-{% if bio.relations -%}
-### Relations
-
-| Date | Relation | Person | Note |
-|------|----------|--------|------|
-{% for rel in bio.relations -%}
-| {{ rel.date_str or "—" }} | {{ relation_label(rel) }} | [{{ rel.other_name }}]({{ rel.other_id }}) | {{ rel.obs | replace('|', '\\|') | replace('\n', ' ') | trim }} |
-{% endfor %}
-{% endif %}
