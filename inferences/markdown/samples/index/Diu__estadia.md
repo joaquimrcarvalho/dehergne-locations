@@ -1,0 +1,9 @@
+# Diu
+
+Attribute type: [`estadia`](estadia)
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| — | António Gomes | [deh-antonio-gomes](deh-antonio-gomes) | — |

@@ -1,0 +1,107 @@
+---
+id: "deh-antonio-francisco-cardim"
+description: "António Francisco Cardim"
+group_name: "n"
+class: "person"
+source: "[[dehergne-c]]"
+inside: "[[dehergne-notices-c]]"
+order: 418
+level: 3
+line: 354
+updated: "2026-07-19T08:21:45"
+nome: "António Francisco Cardim"
+sex: "m"
+real_person_ids:
+  - "rp536947"
+---
+## [[António Francisco Cardim]]
+- id: deh-antonio-francisco-cardim
+- inside: [[dehergne-notices-c]]
+
+
+### Biographical note
+
+## Português
+
+**António Francisco Cardim**, jesuíta de Portugal, Padre.
+
+Nasceu em 1596 em [Viana do Alentejo, diocese de Évora](Q1022265) (Viana do Alentejo). Entrou na Companhia de Jesus em [Évora](Q179948) em 1611-02-24. Embarcou para o Oriente no navio *Sto. Amaro* (1618-04). (segundo Wicky) Foi ordenado padre em [Goa](Q1171) em 1621-02-01. Residiu em [Kwangtung](Q15175) (Guangdong) (1623), [Macau](Q14773) (1623-05-29), [Kwangtung](Q15175) (Guangdong) (1625), [Sião](Q869) (Thailand) (1626), [Sião](Q869) (Thailand) (1629), [Manila](Q1461) (1629-12-13), [Cochinchina](Q505503) (1630). Fez a profissão de votos em [Macau](Q14773) em 1630-08-15. Residiu em [Tonquim (corte de Quecho)](Q622778) (Tonkin) (1631-03-15). Reitor do Colégio de Macau (1632-08-31). Residiu em [Macau](Q14773) (1632-08-31). Reitor do Colégio de Macau (1636-05-23). Residiu em [Macau](Q14773) (1636-05-23). Procurador (1638-09-11). Residiu em [Roma](Q220) (Rome) (1647). Propõe uma embaixada a Japão (1647). Residiu em [Lisboa](Q597) (Lisbon) (1649-04-15). Embarcou para o Oriente no navio *?* (1649-04-15). (vide entrada de João Cardoso) Chegou a [Goa](Q1171) (1650-05). Residiu em [[Perto de Malaca]](Q61089) (Malacca) (1652-06-15), [Macau](Q14773) (1654-02-06). Faleceu em 1659-04-30 em [Macau](Q14773). Residiu em Goa (>1618-04:<1623-05-29). Procurador no processo dos mártires do Japão (>1636-05-23:<1638-09-11). Residiu em Moçambique (>1649-04-15:<1650-05).
+
+Filho de [Jorge Cardim Frois](deh-antonio-francisco-cardim-pai) e de [Catarina de Andrade](deh-antonio-francisco-cardim-mae).
+
+## English
+
+**António Francisco Cardim**, Jesuit from Portugal, priest (Father).
+
+Born 1596 in [Viana do Alentejo, diocese de Évora](Q1022265) (Viana do Alentejo). Entered the Society of Jesus in [Évora](Q179948) on 1611-02-24. Embarked for the East on the ship *Sto. Amaro* (1618-04). (segundo Wicky) Ordained priest in [Goa](Q1171) on 1621-02-01. Resided in [Kwangtung](Q15175) (Guangdong) (1623), [Macau](Q14773) (1623-05-29), [Kwangtung](Q15175) (Guangdong) (1625), [Sião](Q869) (Thailand) (1626), [Sião](Q869) (Thailand) (1629), [Manila](Q1461) (1629-12-13), [Cochinchina](Q505503) (1630). Professed vows vows in [Macau](Q14773) on 1630-08-15. Resided in [Tonquim (corte de Quecho)](Q622778) (Tonkin) (1631-03-15). Reitor do Colégio de Macau (1632-08-31). Resided in [Macau](Q14773) (1632-08-31). Reitor do Colégio de Macau (1636-05-23). Resided in [Macau](Q14773) (1636-05-23). Procurador (1638-09-11). Resided in [Roma](Q220) (Rome) (1647). Propõe uma embaixada a Japão (1647). Resided in [Lisboa](Q597) (Lisbon) (1649-04-15). Embarked for the East on the ship *?* (1649-04-15). (vide entrada de João Cardoso) Arrived in [Goa](Q1171) (1650-05). Resided in [[Perto de Malaca]](Q61089) (Malacca) (1652-06-15), [Macau](Q14773) (1654-02-06). Died 1659-04-30 in [Macau](Q14773). Resided in Goa (>1618-04:<1623-05-29). Procurador no processo dos mártires do Japão (>1636-05-23:<1638-09-11). Resided in Moçambique (>1649-04-15:<1650-05).
+
+Son of [Jorge Cardim Frois](deh-antonio-francisco-cardim-pai) and [Catarina de Andrade](deh-antonio-francisco-cardim-mae).
+
+### Links for [[deh-antonio-francisco-cardim]]
+| Link ID | Entity | User | Status | Rule |
+| ------- | ------- | ------- | ------- | ------- |
+| [[rp536947]] | [[deh-antonio-francisco-cardim]] | user | SOURCE | same_as('dehergne-c.cli') |
+
+
+
+
+### Timeline
+
+| Date | Type | Value | Note |
+|------|------|-------|------|
+| — | nacionalidade | Portugal |  |
+| — | jesuita-estatuto | [Padre](<Padre__jesuita-estatuto>) |  |
+| 1596 | [nascimento](nascimento) | [Viana do Alentejo, diocese de Évora](<Viana do Alentejo, diocese de Évora__nascimento>) → [[Q1022265]] |  |
+| 1611-02-24 | [jesuita-entrada](jesuita-entrada) | [Évora](<Évora__jesuita-entrada>) → [[Q179948]] |  |
+| 1618-04 | embarque | [Sto. Amaro](<Sto. Amaro__embarque>) | segundo Wicky |
+| 1618-04 | wicky | 640 |  |
+| 1618-04 | wicky-viagem | [57](<57__wicky-viagem>) |  |
+| 1621-02-01 | jesuita-ordenacao-padre | [Goa](<Goa__jesuita-ordenacao-padre>) → [[Q1171]] |  |
+| 1623 | [estadia](estadia) | [Kwangtung](<Kwangtung__estadia>) → [[Q15175]] |  |
+| 1623-05-29 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1625 | [estadia](estadia) | [Kwangtung](<Kwangtung__estadia>) → [[Q15175]] |  |
+| 1626 | [estadia](estadia) | [Sião](<Sião__estadia>) → [[Q869]] |  |
+| 1629 | [estadia](estadia) | [Sião](<Sião__estadia>) → [[Q869]] |  |
+| 1629-12-13 | [estadia](estadia) | [Manila](<Manila__estadia>) → [[Q1461]] |  |
+| 1630 | [estadia](estadia) | [Cochinchina](<Cochinchina__estadia>) → [[Q505503]] | [centrada na atual Da Nang @Wikidata:Q25282] |
+| 1630-08-15 | jesuita-votos | [4V](<4V__jesuita-votos>) |  |
+| 1630-08-15 | jesuita-votos-local | [Macau](<Macau__jesuita-votos-local>) → [[Q14773]] |  |
+| 1631-03-15 | [estadia](estadia) | [Tonquim (corte de Quecho)](<Tonquim (corte de Quecho)__estadia>) → [[Q622778]] |  |
+| 1632-08-31 | jesuita-cargo | [Reitor do Colégio de Macau](<Reitor do Colégio de Macau__jesuita-cargo>) |  |
+| 1632-08-31 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1636-05-23 | jesuita-cargo | [Reitor do Colégio de Macau](<Reitor do Colégio de Macau__jesuita-cargo>) |  |
+| 1636-05-23 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1638-09-11 | jesuita-cargo | [Procurador](<Procurador__jesuita-cargo>) |  |
+| 1647 | [estadia](estadia) | [Roma](<Roma__estadia>) → [[Q220]] |  |
+| 1647 | tarefa | [Propõe uma embaixada a Japão](<Propõe uma embaixada a Japão__tarefa>) |  |
+| 1649-04-15 | [estadia](estadia) | [Lisboa](<Lisboa__estadia>) → [[Q597]] |  |
+| 1649-04-15 | embarque | ? | vide entrada de João Cardoso |
+| 1649-04-15 | wicky | 955a |  |
+| 1649-04-15 | wicky-viagem | [82](<82__wicky-viagem>) |  |
+| 1650-05 | [chegada](chegada) | [Goa](<Goa__chegada>) → [[Q1171]] |  |
+| 1652-06-15 | [estadia](estadia) | [[Perto de Malaca]](<[Perto de Malaca]__estadia>) → [[Q61089]] |  |
+| 1654-02-06 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1659-04-30 | [morte](morte) | [Macau](<Macau__morte>) → [[Q14773]] |  |
+| >1618-04:<1623-05-29 | [estadia](estadia) | [Goa](<Goa__estadia>) |  |
+| >1636-05-23:<1638-09-11 | jesuita-cargo | [Procurador no processo dos mártires do Japão](<Procurador no processo dos mártires do Japão__jesuita-cargo>) |  |
+| >1649-04-15:<1650-05 | [estadia](estadia) | [Moçambique](<Moçambique__estadia>) |  |
+
+
+
+### Notes
+**dehergne 138**. Cardim, Antonio Francisco (port.) P. 138 N. v. 1596, Viana-do-Alentejo, d. d'Evora -E. 24 févr. 1611, Evora. Emb. mi-avril 1618 (W 640) non encore prêtre., Goa., 29 mai 1623, Macao, en route pour le Japon, mais il vient travailler au Kwangtung de 1623 à 1625., au Siam, 1626-1629., 13 déc. 1629 va à Manille., 1630, Cochinchine., 15 mars 1631, à la cour de Quêcho, Tonkin, cherchant la route du Laos., recteur de Macao, 31 août 1632- 23 mai 1636, où il est procureur dans le procès des martyrs du Japon., 11 sept. 1638 est élu procureur à Rome, où il propose une ambassade au Japon, 1647., revient par Lisbonne, 15 avril 1649 (W 955a)., naufrage au Mozambique., air. Goa, mai 1650., 15 juin 1652, arrêté près de Malacca par les Hollandais., il écrit de Macao, 6 févr. 1654 (JS 38, 179). P. 1 février 1621, Goa., le 2 février, sa première messe. V. Macao, 15 août 1630, pr. (Lus. 5, 76). M. 30 avr. 1659, Macao (HS 48, 9v).
+**dehergne 138**. Fils de Jorge Cardim Frois, « desembargador da casa da suplicaçao », (juge à la Cour de cassation), et de Catarina de Andrade, qui eurent 10 enfants, dont 9 entrèrent en religion (BEM, nov. 1964, p. 876). Pf. 183., DHGE (A. De Bil)., EC (E. Lamalle)., Verbo (A. Cortesâo). AnG 242., Franco, Imagem da virtude de Evora, Lisbonne, 1714, p. 484-495., Papinot, Ed., Notes sur ta carte du P. Cardim, RHM 9 <1932), 38-45., Cortesâo, A. et Teixeira da Mota, A., Portugaliae Monumenta Cartographica, vol. V, p. 118- 119., Cortesâo, Armando, Cartôgrafia e Cartôgrajos Portugueses, I, 164-166., NZM 1970, 196-200. (H. Cieslik)., SchUtte, 888.
+
+
+### Relations
+
+| Date | Relation | Person | Note |
+|------|----------|--------|------|
+| — | Father | [Jorge Cardim Frois](deh-antonio-francisco-cardim-pai) |  |
+| — | Mother | [Catarina de Andrade](deh-antonio-francisco-cardim-mae) |  |
+
+
+### Contains
+  - pai Jorge Cardim Frois (person) id: [[deh-antonio-francisco-cardim-pai]]
+
+  - mae Catarina de Andrade (person) id: [[deh-antonio-francisco-cardim-mae]]

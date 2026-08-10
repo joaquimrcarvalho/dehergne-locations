@@ -1,0 +1,9 @@
+# Funda a missão de Kwangtung
+
+Attribute type: `jesuita-tarefa`
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| 1556-06 | Belchior Nunes Barreto | [deh-belchior-nunes-barreto](deh-belchior-nunes-barreto) | [rp606650](rp606650) |

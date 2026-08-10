@@ -1,0 +1,207 @@
+---
+id: "deh-antoine-thomas"
+description: "Antoine Thomas"
+group_name: "n"
+class: "person"
+source: "[[dehergne-t]]"
+inside: "[[dehergne-notices-t]]"
+order: 736
+level: 3
+line: 647
+updated: "2026-07-19T08:22:10"
+nome: "Antoine Thomas"
+sex: "m"
+real_person_ids:
+  - "rp486350"
+---
+## [[Antoine Thomas]]
+- id: deh-antoine-thomas
+- inside: [[dehergne-notices-t]]
+
+
+### Biographical note
+
+## Português
+
+**Antoine Thomas** (nome chinês: Ngan To P'ing-Che), jesuíta de Bélgica, Padre.
+
+Recebido pelo vice-rei (). Enviado à corte imperial (). Vice-presidente do Tribunal da Matemática de Pequim (). Ajuda os jesuítas franceses (). Nasceu em 1644-01-25 em [Namur](Q134121). Residiu em [Namur](Q134121) (1660-09-08). Entrou na Companhia de Jesus em [Tournai](Q173219) em 1660-09-24. Residiu em [Lisboa](Q597) (Lisbon) (1678), [Coimbra](Q45412) (1678). Foi ordenado padre em (desconhecido) em 1678. Fez a profissão de votos em [towns, Espanha](Q9580) (Burgos) em 1678-02-02. Embarcou para o Oriente no navio *Sto. António* (1680-04-04). Chegou a [Goa](Q1171) (1680-09-26). Partiu para [Japão](Q17) (Japan) (1680-12). Chegou a [Juthia, Sião](Q20337) (Grünow) (1681-08-30). Chegou a [Macau](Q14773) (1682-07-04). Residiu em [Macau](Q14773) (1685-07-10), [Cantão](Q16572) (Guangzhou) (1685-08-22), [Nanquim](Q16666) (Nanjing) (1685-10-03), [Nanquim](Q16666) (Nanjing) (1686-10), [Pequim](Q956) (Beijing) (1686-11-07). Presidente Interino do Tribunal da Matemática de Pequim (1688). Presidente Interino do Tribunal da Matemática de Pequim (1694). Pede uma liturgia chinesa e padres chineses (1695-10-31). Residiu em [Yu-lin, Chen-si](Q515712) (Yulin) (1697-04), [Nanquim](Q16666) (Nanjing) (1699). Luta contra as inundações do Rio Amarelo (1699). Vice-provincial da China (1701). Mede o comprimento de um grau terrestre (1702). Vice-provincial da China (1704). Faz um plano da região de Pequim (1705). Vice-provincial da China (1706). Vice-provincial da China (1707). Faleceu em 1709-07-28 em [Pequim](Q956) (Beijing).
+
+Filho de [Philippe Thomas](deh-antoine-thomas-pai) e de [Marie Derhet](deh-antoine-thomas-mae). Esteve ligado a [Duquesa de Aveiro](deh-deh-antoine-thomas-ref8) (Corresponde-se com (in)), [Constance Phaulkon](deh-antoine-thomas-ref1) (Recebe abjuração (out), 1682-05-02), [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) (Substitui (out), 1688), [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) (Substitui (out), 1694), [K'ang Hi](deh-antoine-thomas-ref3) (Envia a Nanquim (in), 1699).
+
+## English
+
+**Antoine Thomas** (Chinese name: Ngan To P'ing-Che), Jesuit from Bélgica, priest (Father).
+
+Recebido pelo vice-rei (). Enviado à corte imperial (). Vice-presidente do Tribunal da Matemática de Pequim (). Ajuda os jesuítas franceses (). Born 1644-01-25 in [Namur](Q134121). Resided in [Namur](Q134121) (1660-09-08). Entered the Society of Jesus in [Tournai](Q173219) on 1660-09-24. Resided in [Lisboa](Q597) (Lisbon) (1678), [Coimbra](Q45412) (1678). Ordained priest in (unknown) on 1678. Professed vows vows in [towns, Espanha](Q9580) (Burgos) on 1678-02-02. Embarked for the East on the ship *Sto. António* (1680-04-04). Arrived in [Goa](Q1171) (1680-09-26). Departed for [Japão](Q17) (Japan) (1680-12). Arrived in [Juthia, Sião](Q20337) (Grünow) (1681-08-30). Arrived in [Macau](Q14773) (1682-07-04). Resided in [Macau](Q14773) (1685-07-10), [Cantão](Q16572) (Guangzhou) (1685-08-22), [Nanquim](Q16666) (Nanjing) (1685-10-03), [Nanquim](Q16666) (Nanjing) (1686-10), [Pequim](Q956) (Beijing) (1686-11-07). Presidente Interino do Tribunal da Matemática de Pequim (1688). Presidente Interino do Tribunal da Matemática de Pequim (1694). Pede uma liturgia chinesa e padres chineses (1695-10-31). Resided in [Yu-lin, Chen-si](Q515712) (Yulin) (1697-04), [Nanquim](Q16666) (Nanjing) (1699). Luta contra as inundações do Rio Amarelo (1699). Vice-provincial da China (1701). Mede o comprimento de um grau terrestre (1702). Vice-provincial da China (1704). Faz um plano da região de Pequim (1705). Vice-provincial da China (1706). Vice-provincial da China (1707). Died 1709-07-28 in [Pequim](Q956) (Beijing).
+
+Son of [Philippe Thomas](deh-antoine-thomas-pai) and [Marie Derhet](deh-antoine-thomas-mae). Connected to [Duquesa de Aveiro](deh-deh-antoine-thomas-ref8) (Corresponde-se com (in)), [Constance Phaulkon](deh-antoine-thomas-ref1) (Recebe abjuração (out), 1682-05-02), [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) (Substitui (out), 1688), [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) (Substitui (out), 1694), [K'ang Hi](deh-antoine-thomas-ref3) (Envia a Nanquim (in), 1699).
+
+### Links for [[deh-antoine-thomas]]
+| Link ID | Entity | User | Status | Rule |
+| ------- | ------- | ------- | ------- | ------- |
+| [[rp486350]] | [[deh-antoine-thomas]] | user | SOURCE | same_as('dehergne-t.cli', 'reimported') |
+
+
+
+
+### Timeline
+
+| Date | Type | Value | Note |
+|------|------|-------|------|
+| — | nacionalidade | Bélgica |  |
+| — | jesuita-estatuto | [Padre](<Padre__jesuita-estatuto>) |  |
+| — | nome-chines | Ngan To P'ing-Che |  |
+| — | pseudonimo | [Dominus Paulus Brabant](<Dominus Paulus Brabant__pseudonimo>) | pseudónimo, do nome dos seus meios-irmãos, usa-o para escrever pela via holandesa da batávia e assina assim duas cartas à duquesa de Aveiro |
+| — | tarefa | [Recebido pelo vice-rei](<Recebido pelo vice-rei__tarefa>) |  |
+| — | tarefa | [Enviado à corte imperial](<Enviado à corte imperial__tarefa>) |  |
+| — | cargo | [Vice-presidente do Tribunal da Matemática de Pequim](<Vice-presidente do Tribunal da Matemática de Pequim__cargo>) |  |
+| — | profissao | [Astrónomo](<Astrónomo__profissao>) |  |
+| — | profissao | [Cartógrafo](<Cartógrafo__profissao>) |  |
+| — | jesuita-tarefa | [Ajuda os jesuítas franceses](<Ajuda os jesuítas franceses__jesuita-tarefa>) |  |
+| — | titulo | [Mandarim](<Mandarim__titulo>) |  |
+| 1644-01-25 | [nascimento](nascimento) | [Namur](<Namur__nascimento>) → [[Q134121]] |  |
+| 1660-09-08 | [estadia](estadia) | [Namur](<Namur__estadia>) → [[Q134121]] |  |
+| 1660-09-24 | [jesuita-entrada](jesuita-entrada) | [Tournai](<Tournai__jesuita-entrada>) → [[Q173219]] |  |
+| 1678 | estadia-x | [Lisboa](<Lisboa__estadia-x>) → [[Q597]] | Segundo Dominguez e O'Neill, 2001, vol.IV:3719 |
+| 1678 | estadia-x | [Coimbra](<Coimbra__estadia-x>) → [[Q45412]] | Fiolhais and Franco, 2016, Os jesuítas em Portugal e a ciência (séculos XVI-XVIII). p.19: 'o jesuíta belga Antoine Thomas (1644-1709) ensinou Matemática no Colégio das Artes antes de partir para o Oriente, onde, tal como Tomás Pereira, chegou à direcção do Observatório Astronómico. Em 1678 Thomas observou um eclipse da Lua em Coimbra, tendo os resultados sido enviados ao seu confrade jesuíta Jean de Fontenay, do Colégio de Clermont, França, e publicados no Journal des Savants'  Dominguez, J. M., & O’Neill, C. (2001), vol.IV:3719    indica a sua presença em Coimbra em 1678, mas não    menciona a observação do eclipse da Lua. Contém bibliografia |
+| 1678 | jesuita-ordenacao-padre | ? |  |
+| 1678-02-02 | jesuita-votos | [4V](<4V__jesuita-votos>) |  |
+| 1678-02-02 | jesuita-votos-local | [towns, Espanha](<towns, Espanha__jesuita-votos-local>) → [[Q9580]] |  |
+| 1680-04-04 | embarque | [Sto. António](<Sto. António__embarque>) |  |
+| 1680-04-04 | wicky | 1190 |  |
+| 1680-04-04 | wicky-viagem | [103](<103__wicky-viagem>) |  |
+| 1680-09-26 | [chegada](chegada) | [Goa](<Goa__chegada>) → [[Q1171]] |  |
+| 1680-12 | [partida](partida) | [Japão](<Japão__partida>) → [[Q17]] |  |
+| 1681-08-30 | [chegada](chegada) | [Juthia, Sião](<Juthia, Sião__chegada>) → [[Q20337]] |  |
+| 1682-07-04 | [chegada](chegada) | [Macau](<Macau__chegada>) → [[Q14773]] |  |
+| 1685-07-10 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1685-08-22 | [estadia](estadia) | [Cantão](<Cantão__estadia>) → [[Q16572]] |  |
+| 1685-10-03 | [estadia](estadia) | [Nanquim](<Nanquim__estadia>) → [[Q16666]] |  |
+| 1686-10 | [estadia](estadia) | [Nanquim](<Nanquim__estadia>) → [[Q16666]] |  |
+| 1686-11-07 | [estadia](estadia) | [Pequim](<Pequim__estadia>) → [[Q956]] |  |
+| 1688 | cargo | [Presidente Interino do Tribunal da Matemática de Pequim](<Presidente Interino do Tribunal da Matemática de Pequim__cargo>) |  |
+| 1694 | cargo | [Presidente Interino do Tribunal da Matemática de Pequim](<Presidente Interino do Tribunal da Matemática de Pequim__cargo>) |  |
+| 1695-10-31 | jesuita-tarefa | [Pede uma liturgia chinesa e padres chineses](<Pede uma liturgia chinesa e padres chineses__jesuita-tarefa>) |  |
+| 1697-04 | [estadia](estadia) | [Yu-lin, Chen-si](<Yu-lin, Chen-si__estadia>) → [[Q515712]] |  |
+| 1699 | [estadia](estadia) | [Nanquim](<Nanquim__estadia>) → [[Q16666]] |  |
+| 1699 | tarefa | [Luta contra as inundações do Rio Amarelo](<Luta contra as inundações do Rio Amarelo__tarefa>) |  |
+| 1701 | jesuita-cargo | [Vice-provincial da China](<Vice-provincial da China__jesuita-cargo>) |  |
+| 1702 | tarefa | [Mede o comprimento de um grau terrestre](<Mede o comprimento de um grau terrestre__tarefa>) |  |
+| 1704 | jesuita-cargo | [Vice-provincial da China](<Vice-provincial da China__jesuita-cargo>) |  |
+| 1705 | tarefa | [Faz um plano da região de Pequim](<Faz um plano da região de Pequim__tarefa>) |  |
+| 1706 | jesuita-cargo | [Vice-provincial da China](<Vice-provincial da China__jesuita-cargo>) |  |
+| 1707 | jesuita-cargo | [Vice-provincial da China](<Vice-provincial da China__jesuita-cargo>) |  |
+| 1709-07-28 | [morte](morte) | [Pequim](<Pequim__morte>) → [[Q956]] |  |
+
+
+
+### Notes
+**dehergne 843**. Thomas, Antoine (belge) P. 843
+Ngan To P'ing-Che (Ngan To = António).
+N. 25 janv. (et non mars) 1644., baptisé à Namur 25 janv. 1644.
+E. inscrit le 8 sept, à Namur et
+E. le 24 sept. 1660, Tournai (G. Belg. II, 81).
+Emb. sur le S. Antônio, le 4 avril 1680 (W 1190).,
+arr. Goa, 26 sept., et dès déc, il essaie de gagner le Japon., en vain.,
+arr. 30 août 1681, Juthia, Siam,
+   il y reçoit l'abjuration de Constance Phaulkon 2 mai 1682
+   et espère toujours pénétrer au Japon.,
+arr. Macao, 4 juill. 1682,
+il y reste jusqu'au 10 juill. 1685 (JS 150, 99).,
+Canton, 22 août 1685., est reçu par le vice-roi.,
+mandé à la Cour, reste bloqué à Nankin du 3 oct. 1685 à oct. 1686.,
+Pékin, 7 nov. 1686., vice-président du Tribunal des Mathématiques,
+   et Président durant l'absence du P. Grimaldi, 1688-1694.,
+avril 1697, Yu-lin, Chen-si# @wikidata:Q47974 (B. roy. Bruxelles, ms. 4096, f° 38).,
+1699, au Nankin, par ordre de K'ang Hi, pour lutter contre
+   les inondations du Fleuve Jaune (ibid., f° 46).,
+vice-provincial de Chine, 1701-1704, lors de la venue du Patriarche de Tournon
+   (Brevis relatio, BN: chin. 9181., cf LEP III, 167-181).,
+   en 1702, il mesure la longueur d'un degré terrestre.,
+en 1705, fait le plein de la région de Pékin aidé des PP. Bouvet, Régis et Parrenin.,
+mandarin (Impérial Edicts, CCS 6 (1933), 32-37).,
+aide les Jésuites français.,
+astronome et cartographe (LEP II, 157).,
+il demande (31 oct. 1695) une liturgie chinoise (Pf 406)
+   et des prêtres chinois.
+P. avant 1678.
+-V. 2 févr. 1678, pr. « Burgis », à Burgos en Espagne (Hisp. 128, 103-108).
+M. Pékin, 28 juill. 1709 (JS 173, 152.,
+   Planchet, p. 175) et non le 22 mars (HS 50, 85v)
+   ou le 24 juill. 1709 (Streit V, 2614).
+
+Fils de Philippe Thomas, procureur près le Conseil de Namur,
+   et notaire, et de Marie Derhet. Pf. 403., BNB
+   (B. Lefebvre) t. XXV, col. 42-8 Notices: BN: ms. fr. 25057
+    f° 680696 et 835., ms. fr. 25670, p. 1-85.,
+    recueil XVIII de « Parchemin », 1971,
+    Les Thomaz de Bossierre, Histoire et généalogie par
+    Mme Yves de Thomaz de Bossierre, p. 42-55.
+Etudes :
+   Bosmans, L'oeuvre scientifique d'A. T. de Namur,
+      Louvain 1926 (Ann. de la Sté Scientif. de Bruxelles,
+      XLIV (1924-1925) et XLVI)., Bosmans II, 719-743.,
+   Florovsky, Anth., Maps of the Siberian Route... (1690),
+      Imago Mundi 8 (1951), 103-108, 2 fig. (JS 105, 227.,
+      149, 518).,
+   Needham., Bontinck, 268-281, 505-509, 514.,
+   Streit V, p. 905-910.
+Nom de plume: Dominus Paulus Brabant
+   (du nom de ses demi-frères) pour écrire par la voie
+   hollandaise de Batavia, plus rapide que la portugaise,
+   il signe ainsi 2 lettres à la Duchesse d'Aveiro.
+Bosmans l'appelle à tort Ngam-to Ma-po, et le fait naître
+   le 25 mars.
+Oeuvres: notons seulement que son mémoire
+      sur la liturgie et les prêtres chinois fut
+      présenté au Pape le 12 janv. 1698 et en 1701
+      (JS 128, 103-108).
+      Son De conversione primi ministri Régis Siamensis est
+         à A. Vatic. Missioni vol. 113 (vol. non paginé),
+         et son Apologie à ARSI FG. 839 n° 6.,
+         BN: ms Iat. 9770., ms. fr. 9771 f° 57-68.,
+      Brotier, 93, 23-36. «Una de' più ostinati defensori
+         de' riti» (Tournon, Mem. Storiche, IV, 63).
+      La Brevis Relatio (1701), TP 23 (1924), art. de
+         Pelliot 355-372.,
+      Boxer III. 203-205 en cite 18 ou 19 exemplaires.,
+         ajoutons-y ceux de ASJP, Brotier 109., et des
+         A. d'Hankow A 24 n. 10., cf A. Vat. Albani 242,
+         248-371, trad. non expurgée., et Carpegna 70,
+         381-399. Rites: BVE.FG. 1251.
+
+
+### Relations
+
+| Date | Relation | Person | Note |
+|------|----------|--------|------|
+| — | Corresponde-se com (in) | [Duquesa de Aveiro](deh-deh-antoine-thomas-ref8) |  |
+| — | Father | [Philippe Thomas](deh-antoine-thomas-pai) |  |
+| — | Mother | [Marie Derhet](deh-antoine-thomas-mae) |  |
+| 1682-05-02 | Recebe abjuração (out) | [Constance Phaulkon](deh-antoine-thomas-ref1) |  |
+| 1688 | Substitui (out) | [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) |  |
+| 1694 | Substitui (out) | [Claudio Filippo Grimaldi](deh-antoine-thomas-ref2) |  |
+| 1699 | Envia a Nanquim (in) | [K'ang Hi](deh-antoine-thomas-ref3) |  |
+
+
+### Contains
+  - pai Philippe Thomas (person) id: [[deh-antoine-thomas-pai]]
+
+  - mae Marie Derhet (person) id: [[deh-antoine-thomas-mae]]
+
+  - referido Constance Phaulkon (person) id: [[deh-antoine-thomas-ref1]]
+
+  - referido Claudio Filippo Grimaldi (person) id: [[deh-antoine-thomas-ref2]]
+
+  - referido K'ang Hi (person) id: [[deh-antoine-thomas-ref3]]
+
+  - referido Charles Thomas Maillard de Tournon (person) id: [[deh-antoine-thomas-ref4]]
+
+  - referido Joachim Bouvet (person) id: [[deh-antoine-thomas-ref5]]
+
+  - referido Jean-Baptiste Régis (person) id: [[deh-deh-antoine-thomas-ref6]]
+
+  - referido Dominique Parrenin (person) id: [[deh-deh-antoine-thomas-ref7]]
+
+  - referido Duquesa de Aveiro (person) id: [[deh-deh-antoine-thomas-ref8]]

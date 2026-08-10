@@ -1,0 +1,9 @@
+# Quintas, diocese de Braga
+
+Attribute type: [`nascimento`](nascimento)
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| 1726-05-03 | Aleixo Rodrigues | [deh-aleixo-rodrigues](deh-aleixo-rodrigues) | — |

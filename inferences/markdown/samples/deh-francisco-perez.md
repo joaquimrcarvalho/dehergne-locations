@@ -1,0 +1,136 @@
+---
+id: "deh-francisco-perez"
+description: "Francisco Pérez"
+group_name: "n"
+class: "person"
+source: "[[dehergne-p]]"
+inside: "[[dehergne-notices-p]]"
+order: 990
+level: 3
+line: 937
+updated: "2026-07-16T04:01:38"
+sex: "m"
+nome: "Francisco Pérez"
+real_person_ids:
+  - "rp892854"
+---
+## [[Francisco Pérez]]
+- id: deh-francisco-perez
+- inside: [[dehergne-notices-p]]
+
+
+### Biographical note
+
+## Português
+
+**Francisco Pérez**, jesuíta de Espanha, Padre.
+
+Residiu em [Goa](Q1171). Nasceu em 1514 em [Villanueva de Barcarrota, diocese de Badajoz](Q534483) (Barcarrota). Entrou na Companhia de Jesus em [Coimbra](Q45412) em 1544-01-25. Embarcou para o Oriente no navio *Flor de la Mar* (1546-04-08). Residiu em [Malaca](Q61089) (Malacca) (1548). Funda uma residência (1548). Residiu em [Índia](Q668) (India) (1552). Superior das Índias (1552). Fez a profissão de votos em [Cochim](Q1800) (Kochi) em 1560-01-06. (original: «Civ[itate]. S. Crucis» (= Cochin)) Partiu para [Cantão](Q16572) (Guangzhou) (1562-04). Residiu em [Macau](Q14773) (1563-08-29), [Macau](Q14773) (1564). Funda a residência jesuíta de Macau (1564). (segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto) Residiu em [Cantão](Q16572) (Guangzhou) (1565-11-21), [Macau](Q14773) (1565-12). Funda a residência jesuíta de Macau (1565-12). (segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto) Superior de Macau (1565-12). Residiu em [Goa](Q1171) (1568). Faleceu em 1583-02-22 em [Negapatam](Q695585) (Nagapattinam).
+
+Esteve ligado a [Manuel Teixeira](deh-francisco-perez-ref1) (Companion), [André Pinto](deh-francisco-perez-ref2) (Companion), [Gonçalo Álvares](deh-francisco-perez-ref3) (Envia a Goa (in), 1568).
+
+## English
+
+**Francisco Pérez**, Jesuit from Espanha, priest (Father).
+
+Resided in [Goa](Q1171). Born 1514 in [Villanueva de Barcarrota, diocese de Badajoz](Q534483) (Barcarrota). Entered the Society of Jesus in [Coimbra](Q45412) on 1544-01-25. Embarked for the East on the ship *Flor de la Mar* (1546-04-08). Resided in [Malaca](Q61089) (Malacca) (1548). Funda uma residência (1548). Resided in [Índia](Q668) (India) (1552). Superior das Índias (1552). Professed vows vows in [Cochim](Q1800) (Kochi) on 1560-01-06. (original: «Civ[itate]. S. Crucis» (= Cochin)) Departed for [Cantão](Q16572) (Guangzhou) (1562-04). Resided in [Macau](Q14773) (1563-08-29), [Macau](Q14773) (1564). Funda a residência jesuíta de Macau (1564). (segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto) Resided in [Cantão](Q16572) (Guangzhou) (1565-11-21), [Macau](Q14773) (1565-12). Funda a residência jesuíta de Macau (1565-12). (segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto) Superior de Macau (1565-12). Resided in [Goa](Q1171) (1568). Died 1583-02-22 in [Negapatam](Q695585) (Nagapattinam).
+
+Connected to [Manuel Teixeira](deh-francisco-perez-ref1) (Companion), [André Pinto](deh-francisco-perez-ref2) (Companion), [Gonçalo Álvares](deh-francisco-perez-ref3) (Envia a Goa (in), 1568).
+
+### Links for [[deh-francisco-perez]]
+| Link ID | Entity | User | Status | Rule |
+| ------- | ------- | ------- | ------- | ------- |
+| [[rp892854]] | [[deh-francisco-perez]] | user | SOURCE | same_as('dehergne-p.cli') |
+
+
+
+
+### Timeline
+
+| Date | Type | Value | Note |
+|------|------|-------|------|
+| — | nacionalidade | Espanha |  |
+| — | jesuita-estatuto | [Padre](<Padre__jesuita-estatuto>) |  |
+| — | nome | Francisco Peres |  |
+| — | nome | Francisco Pirez |  |
+| — | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1514 | [nascimento](nascimento) | [Villanueva de Barcarrota, diocese de Badajoz](<Villanueva de Barcarrota, diocese de Badajoz__nascimento>) → [[Q534483]] |  |
+| 1544-01-25 | [jesuita-entrada](jesuita-entrada) | [Coimbra](<Coimbra__jesuita-entrada>) → [[Q45412]] |  |
+| 1546-04-08 | embarque | [Flor de la Mar](<Flor de la Mar__embarque>) |  |
+| 1546-04-08 | wicky | 9 |  |
+| 1546-04-08 | wicky-viagem | [3](<3__wicky-viagem>) |  |
+| 1548 | [estadia](estadia) | [Malaca](<Malaca__estadia>) → [[Q61089]] |  |
+| 1548 | jesuita-tarefa | [Funda uma residência](<Funda uma residência__jesuita-tarefa>) |  |
+| 1552 | [estadia](estadia) | [Índia](<Índia__estadia>) → [[Q668]] |  |
+| 1552 | jesuita-cargo | [Superior das Índias](<Superior das Índias__jesuita-cargo>) |  |
+| 1560-01-06 | jesuita-votos | [3V](<3V__jesuita-votos>) |  |
+| 1560-01-06 | jesuita-votos-local | [Cochim](<Cochim__jesuita-votos-local>) → [[Q1800]] | original: «Civ[itate]. S. Crucis» (= Cochin) |
+| 1562-04 | [partida](partida) | [Cantão](<Cantão__partida>) → [[Q16572]] |  |
+| 1563-08-29 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] | com a embaixada do vice-rei de Goa vide entradas de Manuel Teixeira e André Pinto |
+| 1564 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1564 | jesuita-tarefa | [Funda a residência jesuíta de Macau](<Funda a residência jesuíta de Macau__jesuita-tarefa>) | segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto |
+| 1565-11-21 | [estadia](estadia) | [Cantão](<Cantão__estadia>) → [[Q16572]] |  |
+| 1565-12 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1565-12 | jesuita-tarefa | [Funda a residência jesuíta de Macau](<Funda a residência jesuíta de Macau__jesuita-tarefa>) | segundo a entrada de Manuel Teixeira, funda também a igreja da Madre de Deus; com o padre Manuel Teixeira e o escolástico André Pinto |
+| 1565-12 | jesuita-cargo | [Superior de Macau](<Superior de Macau__jesuita-cargo>) |  |
+| 1568 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] | mandado pelo visitador Álvares |
+| 1583-02-22 | [morte](morte) | [Negapatam](<Negapatam__morte>) → [[Q695585]] |  |
+
+
+
+### Notes
+**dehergne 628**. Pérez, Francisco (espagn.) P. 628
+Pères., Pirez (Schutte, 301).
+N. Villanueva de Barcarrota, dioc. de Badajoz (Estramadoure),
+v. 1514.
+E. déjà prêtre, 25 janv. 1544, Coïmbre.
+Emb. sur le Flor de la Mar, 8 avril 1546 (W 9).,
+Goa.,
+Malacca, où il fonde une résidence, 1548.,
+1552, les Indes, où il est supérieur.,
+départ pour Canton, avr. 1562.,
+29 août 1563 «in Sinis » (= Macao) avec l'ambassade du vice-roi de Goa.,
+21 nov. 1565, Canton., fonde la résidence jésuite de Macao
+   avec le P. Manuel Teixeira et le scolastique André Pinto,
+1564 à déc. 1565 (D'Elia I, 153., Wicki, Historia... 43), il en est le premier supérieur.
+En 1568, mandé par le visiteur Alvares à Goa (DI. VII, 572).
+V. «Civ[itate]. S. Crucis» (= Cochin), 6 janv. 1560,
+pr. des 3 V. (Lus. 1, 68).
+M. 12 févr. 1583 (ancien style) = 22 février (nouveau style de la réforme introduite à Rome en oct. 1582),
+   Négapatam (DI. XII, 728).
+Signature, cf S. Q. planche VI.
+
+Ne pas le confondre avec le P. Francesco Pères (ital.) = Mugavero du royaume de Naples,
+N. 1554,
+E. 1579, de la province du Japon où il arr. en 1586 et meurt, mai 1602.
+
+Pf. 9., RBS n 249.,
+Franco, Imagem da virtude de Coimbra, II, Evora, 1719.,
+Mateos, Francisco, Companeros espanotes de San Francisco lavier,
+Missionalia Hispanica 9 (Madrid, 1952), 347-353.,
+cf O IV Centenario dos Jesuitas em Macau, BEM 1964, 687-728 (fondation de Macao).,
+Wicki, Dos neuentdeckte Xaveriusleben des P. Francisco Pérez,
+AHSI 34 (1965), 36-78, la première des Vies de St François Xavier.,
+DI. IV, 911., VI, 841., VII, 745.,
+Xavier Epistolae II, 635.,
+Lach, 950.,
+SchUttb, 797.
+
+
+### Relations
+
+| Date | Relation | Person | Note |
+|------|----------|--------|------|
+| — | Companion | [Manuel Teixeira](deh-francisco-perez-ref1) |  |
+| — | Companion | [André Pinto](deh-francisco-perez-ref2) |  |
+| 1568 | Envia a Goa (in) | [Gonçalo Álvares](deh-francisco-perez-ref3) |  |
+
+
+### Contains
+  - referido Manuel Teixeira (person) id: [[deh-francisco-perez-ref1]]
+
+  - referido André Pinto (person) id: [[deh-francisco-perez-ref2]]
+
+  - referido Gonçalo Álvares (person) id: [[deh-francisco-perez-ref3]]
+
+  - referido Francesco Peres (person) id: [[deh-francisco-perez-ref4]]

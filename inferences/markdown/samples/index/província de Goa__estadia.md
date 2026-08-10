@@ -1,0 +1,9 @@
+# província de Goa
+
+Attribute type: [`estadia`](estadia)
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| 1695 | Gabriele Minaci | [deh-gabriele-minaci](deh-gabriele-minaci) | — |

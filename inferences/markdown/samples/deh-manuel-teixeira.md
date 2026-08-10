@@ -1,0 +1,153 @@
+---
+id: "deh-manuel-teixeira"
+description: "Manuel Teixeira"
+group_name: "n"
+class: "person"
+source: "[[dehergne-t]]"
+inside: "[[dehergne-notices-t]]"
+order: 473
+level: 3
+line: 419
+updated: "2026-07-19T08:22:09"
+nome: "Manuel Teixeira"
+sex: "m"
+real_person_ids:
+  - "rp212210"
+---
+## [[Manuel Teixeira]]
+- id: deh-manuel-teixeira
+- inside: [[dehergne-notices-t]]
+
+
+### Biographical note
+
+## Português
+
+**Manuel Teixeira**, jesuíta de Portugal, Padre.
+
+Nasceu em 1536 em [Miranda do Douro, diocese de Bragança](Q373475). Entrou na Companhia de Jesus em [Lisboa](Q597) (Lisbon) em 1551-02-01. Embarcou para o Oriente no navio *Esfera* (1551-03-10). Residiu em [Goa](Q1171) (1551-09), [Goa](Q1171) (1552-02), [Goa](Q1171) (1552-04), [Goa](Q1171) (1553), [Goa](Q1171) (1560). Foi ordenado padre em [Goa](Q1171) em 1560. Residiu em [Goa](Q1171) (1563-04-27). Partiu para [Malaca](Q61089) (Malacca) (1563-06-13). (acompanhado pelo escolástico André Pinto, o P. Francisco Pérez e pelo embaixador português na China, o embaixador será o Diego Pereira mencionado na entrada de André Pinto?) Partiu para [Macau](Q14773) (1563-07-08). (com o embaixador (e os outros provavelmente, pois estão todos em Macau em Agosto, segundo as entradas de Pérez e Pinto)) Chegou a [Macau](Q14773) (1563-07-29). Residiu em [Lantao](Q502379) (1564-01), [Cantão (feira)](Q16572) (Guangzhou) (1564-11-18), [Cantão (feira)](Q16572) (Guangzhou) (1564-12-01), [Macau](Q14773) (1565). Funda a residência dos jesuítas e a igreja da Madre de Deus (1565). (com o P. Francisco Pérez, segundo a entrada de Pérez também funda com André Pinto) Residiu em [Cantão (feira)](Q16572) (Guangzhou) (1565-11-21), [Cantão (feira)](Q16572) (Guangzhou) (1565-12), [Goa](Q1171) (1568). Fez a profissão de votos em [Goa](Q1171) em 1568-11-30. Reitor de Cochim (1569). Reitor de Cochim (1572). Vice-Provincial das Índias (1573). Vice-Provincial das Índias (1574). Residiu em [Goa](Q1171) (1579), [Goa](Q1171) (1590-03-19). Faleceu em 1590-03-19 em [Goa](Q1171).
+
+Esteve ligado a [Francisco Pérez](deh-manuel-teixeira-ref2) (Companion), [André Pinto](deh-manuel-teixeira-ref3) (Companion), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (in), 1552-02), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (out), 1552-02), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (in), 1552-04), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (out), 1552-04).
+
+## English
+
+**Manuel Teixeira**, Jesuit from Portugal, priest (Father).
+
+Born 1536 in [Miranda do Douro, diocese de Bragança](Q373475). Entered the Society of Jesus in [Lisboa](Q597) (Lisbon) on 1551-02-01. Embarked for the East on the ship *Esfera* (1551-03-10). Resided in [Goa](Q1171) (1551-09), [Goa](Q1171) (1552-02), [Goa](Q1171) (1552-04), [Goa](Q1171) (1553), [Goa](Q1171) (1560). Ordained priest in [Goa](Q1171) on 1560. Resided in [Goa](Q1171) (1563-04-27). Departed for [Malaca](Q61089) (Malacca) (1563-06-13). (acompanhado pelo escolástico André Pinto, o P. Francisco Pérez e pelo embaixador português na China, o embaixador será o Diego Pereira mencionado na entrada de André Pinto?) Departed for [Macau](Q14773) (1563-07-08). (com o embaixador (e os outros provavelmente, pois estão todos em Macau em Agosto, segundo as entradas de Pérez e Pinto)) Arrived in [Macau](Q14773) (1563-07-29). Resided in [Lantao](Q502379) (1564-01), [Cantão (feira)](Q16572) (Guangzhou) (1564-11-18), [Cantão (feira)](Q16572) (Guangzhou) (1564-12-01), [Macau](Q14773) (1565). Funda a residência dos jesuítas e a igreja da Madre de Deus (1565). (com o P. Francisco Pérez, segundo a entrada de Pérez também funda com André Pinto) Resided in [Cantão (feira)](Q16572) (Guangzhou) (1565-11-21), [Cantão (feira)](Q16572) (Guangzhou) (1565-12), [Goa](Q1171) (1568). Professed vows vows in [Goa](Q1171) on 1568-11-30. Reitor de Cochim (1569). Reitor de Cochim (1572). Vice-Provincial das Índias (1573). Vice-Provincial das Índias (1574). Resided in [Goa](Q1171) (1579), [Goa](Q1171) (1590-03-19). Died 1590-03-19 in [Goa](Q1171).
+
+Connected to [Francisco Pérez](deh-manuel-teixeira-ref2) (Companion), [André Pinto](deh-manuel-teixeira-ref3) (Companion), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (in), 1552-02), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (out), 1552-02), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (in), 1552-04), [Francisco Xavier](deh-manuel-teixeira-ref1) (Encontra (out), 1552-04).
+
+### Links for [[deh-manuel-teixeira]]
+| Link ID | Entity | User | Status | Rule |
+| ------- | ------- | ------- | ------- | ------- |
+| [[rp212210]] | [[deh-manuel-teixeira]] | user | SOURCE | same_as('dehergne-t.cli', 'reimported') |
+
+
+
+
+### Timeline
+
+| Date | Type | Value | Note |
+|------|------|-------|------|
+| — | nacionalidade | Portugal |  |
+| — | jesuita-estatuto | [Padre](<Padre__jesuita-estatuto>) |  |
+| — | nome | Manuel Teixeyra |  |
+| — | nome | Manuel Tesceira |  |
+| — | nome | Manuel Texeyra |  |
+| 1536 | [nascimento](nascimento) | [Miranda do Douro, diocese de Bragança](<Miranda do Douro, diocese de Bragança__nascimento>) → [[Q373475]] |  |
+| 1551-02-01 | [jesuita-entrada](jesuita-entrada) | [Lisboa](<Lisboa__jesuita-entrada>) → [[Q597]] |  |
+| 1551-03-10 | embarque | [Esfera](<Esfera__embarque>) |  |
+| 1551-03-10 | wicky | 34 |  |
+| 1551-03-10 | wicky-viagem | [5](<5__wicky-viagem>) |  |
+| 1551-09 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1552-02 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1552-04 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1553 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] | primeiros votos |
+| 1560 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1560 | jesuita-ordenacao-padre | [Goa](<Goa__jesuita-ordenacao-padre>) → [[Q1171]] |  |
+| 1563-04-27 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1563-06-13 | [partida](partida) | [Malaca](<Malaca__partida>) → [[Q61089]] | acompanhado pelo escolástico André Pinto, o P. Francisco Pérez e pelo embaixador português na China, o embaixador será o Diego Pereira mencionado na entrada de André Pinto? |
+| 1563-07-08 | [partida](partida) | [Macau](<Macau__partida>) → [[Q14773]] | com o embaixador (e os outros provavelmente, pois estão todos em Macau em Agosto, segundo as entradas de Pérez e Pinto) |
+| 1563-07-29 | [chegada](chegada) | [Macau](<Macau__chegada>) → [[Q14773]] |  |
+| 1564-01 | [estadia](estadia) | [Lantao](<Lantao__estadia>) → [[Q502379]] | original: Ilha do Pinhal, à 10 ou 12 miles au nord de Macao (Lantao, Tai vu shan, anc. Hu cham) |
+| 1564-11-18 | [estadia](estadia) | [Cantão (feira)](<Cantão (feira)__estadia>) → [[Q16572]] |  |
+| 1564-12-01 | [estadia](estadia) | [Cantão (feira)](<Cantão (feira)__estadia>) → [[Q16572]] |  |
+| 1565 | [estadia](estadia) | [Macau](<Macau__estadia>) → [[Q14773]] |  |
+| 1565 | jesuita-tarefa | [Funda a residência dos jesuítas e a igreja da Madre de Deus](<Funda a residência dos jesuítas e a igreja da Madre de Deus__jesuita-tarefa>) | com o P. Francisco Pérez, segundo a entrada de Pérez também funda com André Pinto |
+| 1565-11-21 | [estadia](estadia) | [Cantão (feira)](<Cantão (feira)__estadia>) → [[Q16572]] |  |
+| 1565-12 | [estadia](estadia) | [Cantão (feira)](<Cantão (feira)__estadia>) → [[Q16572]] |  |
+| 1568 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1568-11-30 | jesuita-votos | [4V](<4V__jesuita-votos>) |  |
+| 1568-11-30 | jesuita-votos-local | [Goa](<Goa__jesuita-votos-local>) → [[Q1171]] |  |
+| 1569 | jesuita-cargo | [Reitor de Cochim](<Reitor de Cochim__jesuita-cargo>) → [[Q1800]] |  |
+| 1572 | jesuita-cargo | [Reitor de Cochim](<Reitor de Cochim__jesuita-cargo>) → [[Q1800]] |  |
+| 1573 | jesuita-cargo | [Vice-Provincial das Índias](<Vice-Provincial das Índias__jesuita-cargo>) |  |
+| 1574 | jesuita-cargo | [Vice-Provincial das Índias](<Vice-Provincial das Índias__jesuita-cargo>) |  |
+| 1579 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1590-03-19 | [estadia](estadia) | [Goa](<Goa__estadia>) → [[Q1171]] |  |
+| 1590-03-19 | [morte](morte) | [Goa](<Goa__morte>) → [[Q1171]] |  |
+
+
+
+### Notes
+**dehergne 837**. Teixeira (Teixeyra), Manuel (port.) P. 837 Tesceira., Texeyra.
+N. Miranda do Doiro, d. de Bragance, 1536.
+E. 1er févr. 1551, Lisbonne.
+premiers voeux à Goa, 1553 (Goa 24, 85).
+Emb. non prêtre, le 10 mars 1551 sur Esfera (W 34).
+en sept. 1551, Goa, où il rencontre Franc. Xavier en février-mars-avril 1552.
+il écrit de Goa, 1560 (Streit VI, 197),
+mais en part le 27 avril 1563 avec le P. Francisco Pérez et l'ambassadeur
+portugais en Chine par Malacca.
+de Malacca ils partent le 13 juin avec le scolastique André Pinto,
+et de nouveau le 8 juillet pour Macao avec l'ambassadeur
+(DI. V, 811., VI, 9. 850., BEM 1964, 687-728).
+ils y arr. le 29 juill. 1563 (D'Elia I, 140, 153).
+fin janv. 1564, les PP. Emm. Teixeira et Balthasar da Costa vont à l'Ilha do
+Pinhal, à 10 ou 12 miles au nord de Macao (= Lantao = Tai vu shan, anc. Hu
+cham) (BEM 1964, 694).
+Teixeira va à la foire de Canton, 18 nov. au 1er déc. 1564 et du 21 nov. au
+début déc. 1565.
+A Macao, ils fondent en 1565, avec le P. Francisco Pérez, la résidence des
+jésuites (qui deviendra le collège St Paul de Macao en 1594), et l'église de la
+Mère de Dieu (TP 31 (1934), 58-94., BEM 1964, p. 687-813).
+en 1568, retourne à Goa.
+1569-1572, recteur de Cochin.
+viceprovincial des Indes 1573-1574.
+De 1579 à sa mort, il réside à Goa.
+P. 1560, Goa (DI. IV, 704., X, 32., Goa 24, 85)
+-V. 30 nov. 1568, Goa, pr. (Lus. 1, 30).
+Il signe: «Manoel Teixra».
+En 1573, il était l'unique pr. des 4 V. de l'immense province des Indes
+(DI. IX, 294).
+M. Goa, 19 mars 1590 (Goa 47, 338).
+Pf. 9., Braga, J. M., The Western Pioneers and their discovery of Macao,
+Macao, 1949.
+Le catal. de Goa de 1565 ex. {Goa 24, 40v) met « en Chine » (Macao) les PP.
+Francisco Perez, Manoel Teixeira, André Fernandez et le fr. André Pinto.
+Wicki, José, As « Anotaçôes » do P. Manuel T. a sua Vida do B. P. Francisco
+Xavier (1581), Bol. do Instituto Vasco de Ganta, n° 69 (1952), 39-63.,
+DI. IV, 920., VI, 850., VII, 209, 613., VIII, 829., X, 1116., XII, 1036.,
+Schutte, 1015., Xavier I, 79., Streit IV, n° 878.
+
+
+### Relations
+
+| Date | Relation | Person | Note |
+|------|----------|--------|------|
+| — | Companion | [Francisco Pérez](deh-manuel-teixeira-ref2) |  |
+| — | Companion | [André Pinto](deh-manuel-teixeira-ref3) |  |
+| 1552-02 | Encontra (in) | [Francisco Xavier](deh-manuel-teixeira-ref1) |  |
+| 1552-02 | Encontra (out) | [Francisco Xavier](deh-manuel-teixeira-ref1) |  |
+| 1552-04 | Encontra (in) | [Francisco Xavier](deh-manuel-teixeira-ref1) |  |
+| 1552-04 | Encontra (out) | [Francisco Xavier](deh-manuel-teixeira-ref1) |  |
+
+
+### Contains
+  - referido Francisco Xavier (person) id: [[deh-manuel-teixeira-ref1]]
+
+  - referido Francisco Pérez (person) id: [[deh-manuel-teixeira-ref2]]
+
+  - referido André Pinto (person) id: [[deh-manuel-teixeira-ref3]]
+
+  - referido Baltazar da Costa (person) id: [[deh-manuel-teixeira-ref4]]

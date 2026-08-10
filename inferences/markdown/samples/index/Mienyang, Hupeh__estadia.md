@@ -1,0 +1,9 @@
+# Mienyang, Hupeh
+
+Attribute type: [`estadia`](estadia)
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| — | Louis-Marie Dugad | [deh-louis-marie-dugad](deh-louis-marie-dugad) | — |

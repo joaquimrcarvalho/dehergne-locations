@@ -1,0 +1,9 @@
+# Vieira do Minho
+
+Attribute type: [`nascimento`](nascimento)
+
+1 occurrence(s) in 1 person(s).
+
+| Date | Person | Entity id | Real entity |
+|------|--------|-----------|-------------|
+| 1555 | Francisco Vieira | [deh-francisco-vieira](deh-francisco-vieira) | — |
