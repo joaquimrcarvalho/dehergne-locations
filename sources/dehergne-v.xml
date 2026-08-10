@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/usr/local/timelink/clio/src/stru/gacto2.str" SOURCE="/kleio-home/sources/dehergne-v.cli" TRANSLATOR="gactoxml2.str" WHEN="2026-7-16 12:57:44" OBS="" SPACE="">
+<KLEIO STRUCTURE="/usr/local/timelink/clio/src/stru/gacto2.str" SOURCE="/kleio-home/sources/dehergne-v.cli" TRANSLATOR="gactoxml2.str" WHEN="2026-7-19 8:21:10" OBS="" SPACE="">
 <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
      <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
      <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
@@ -4408,11 +4408,11 @@
     <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
     <ELEMENT NAME="order" CLASS="order"><core>198</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-    <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[estadia@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q14773]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Macau]]></original></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[chegada@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q1171]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Goa]]></original></ELEMENT>
     <ELEMENT NAME="entity" CLASS="entity"><core>deh-alessandro-valignano</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-atra53</core></ELEMENT>
-    <ELEMENT NAME="date" CLASS="date"><core>15831231</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>15831110</core></ELEMENT>
 </GROUP>
 <GROUP ID="deh-alessandro-valignano-att130-116" NAME="ls" CLASS="attribute" ORDER="199" LEVEL="4" LINE="234">
     <ELEMENT NAME="line" CLASS="line"><core>234</core></ELEMENT>
@@ -4423,6 +4423,47 @@
     <ELEMENT NAME="order" CLASS="order"><core>199</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" SUPER_CLASS="type" BASE_CLASS="type" CLASS="type">
+         <core><![CDATA[chegada]]></core>   </ELEMENT>
+   <ELEMENT NAME="valor" SUPER_CLASS="value" BASE_CLASS="value" CLASS="value">
+         <core><![CDATA[Goa]]></core>         <comment><![CDATA[ @wikidata:Q1171]]></comment>
+   </ELEMENT>
+   <ELEMENT NAME="data" SUPER_CLASS="date" BASE_CLASS="date" CLASS="date">
+         <core><![CDATA[15831110]]></core>   </ELEMENT>
+   <ELEMENT NAME="id" CLASS="id">
+         <core><![CDATA[deh-alessandro-valignano-att130-116]]></core>   </ELEMENT>
+   <ELEMENT NAME="entity" CLASS="entity">
+         <core><![CDATA[deh-alessandro-valignano]]></core>   </ELEMENT>
+   <ELEMENT NAME="date_extra_info" CLASS="undef">
+         <core><![CDATA[{
+  "date": {"subtype":"ymd","value":15831110},
+  "original":"15831110",
+  "type":"single",
+  "value":"15831110"
+}]]></core>   </ELEMENT>
+</GROUP>
+
+<GROUP ID="deh-alessandro-valignano-atra54" NAME="ls"  ORDER="200" LEVEL="5" CLASS="attribute" LINE="235">
+    <ELEMENT NAME="line" CLASS="line"><core>235</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+    <ELEMENT NAME="inside" CLASS="inside"><core>deh-alessandro-valignano</core></ELEMENT>
+    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>200</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
+    <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[estadia@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
+    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q14773]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Macau]]></original></ELEMENT>
+    <ELEMENT NAME="entity" CLASS="entity"><core>deh-alessandro-valignano</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-atra54</core></ELEMENT>
+    <ELEMENT NAME="date" CLASS="date"><core>15831231</core></ELEMENT>
+</GROUP>
+<GROUP ID="deh-alessandro-valignano-att131-116" NAME="ls" CLASS="attribute" ORDER="201" LEVEL="4" LINE="235">
+    <ELEMENT NAME="line" CLASS="line"><core>235</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-att131-116</core></ELEMENT>
+    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
+   <ELEMENT NAME="inside" CLASS="inside"><core>deh-alessandro-valignano</core></ELEMENT>
+   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>201</core></ELEMENT>
+    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
+   <ELEMENT NAME="tipo" SUPER_CLASS="type" BASE_CLASS="type" CLASS="type">
          <core><![CDATA[estadia]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" SUPER_CLASS="value" BASE_CLASS="value" CLASS="value">
          <core><![CDATA[Macau]]></core>         <comment><![CDATA[ @wikidata:Q14773]]></comment>
@@ -4430,7 +4471,7 @@
    <ELEMENT NAME="data" SUPER_CLASS="date" BASE_CLASS="date" CLASS="date">
          <core><![CDATA[15831231]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-alessandro-valignano-att130-116]]></core>   </ELEMENT>
+         <core><![CDATA[deh-alessandro-valignano-att131-116]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-alessandro-valignano]]></core>   </ELEMENT>
    <ELEMENT NAME="date_extra_info" CLASS="undef">
@@ -4442,13 +4483,13 @@
 }]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-alessandro-valignano-att131-116" NAME="ls" CLASS="attribute" ORDER="200" LEVEL="4" LINE="235">
-    <ELEMENT NAME="line" CLASS="line"><core>235</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-att131-116</core></ELEMENT>
+<GROUP ID="deh-alessandro-valignano-att132-116" NAME="ls" CLASS="attribute" ORDER="202" LEVEL="4" LINE="236">
+    <ELEMENT NAME="line" CLASS="line"><core>236</core></ELEMENT>
+    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-att132-116</core></ELEMENT>
     <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
    <ELEMENT NAME="inside" CLASS="inside"><core>deh-alessandro-valignano</core></ELEMENT>
    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>200</core></ELEMENT>
+    <ELEMENT NAME="order" CLASS="order"><core>202</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" SUPER_CLASS="type" BASE_CLASS="type" CLASS="type">
          <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
@@ -4457,7 +4498,7 @@
    <ELEMENT NAME="data" SUPER_CLASS="date" BASE_CLASS="date" CLASS="date">
          <core><![CDATA[15831000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-alessandro-valignano-att131-116]]></core>   </ELEMENT>
+         <core><![CDATA[deh-alessandro-valignano-att132-116]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-alessandro-valignano]]></core>   </ELEMENT>
    <ELEMENT NAME="date_extra_info" CLASS="undef">
@@ -4469,46 +4510,6 @@
 }]]></core>   </ELEMENT>
 </GROUP>
 
-<GROUP ID="deh-alessandro-valignano-att132-116" NAME="ls" CLASS="attribute" ORDER="201" LEVEL="4" LINE="236">
-    <ELEMENT NAME="line" CLASS="line"><core>236</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-att132-116</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>deh-alessandro-valignano</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>201</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
-   <ELEMENT NAME="tipo" SUPER_CLASS="type" BASE_CLASS="type" CLASS="type">
-         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
-   <ELEMENT NAME="valor" SUPER_CLASS="value" BASE_CLASS="value" CLASS="value">
-         <core><![CDATA[Provincial da Índia Oriental]]></core>   </ELEMENT>
-   <ELEMENT NAME="data" SUPER_CLASS="date" BASE_CLASS="date" CLASS="date">
-         <core><![CDATA[15871000]]></core>   </ELEMENT>
-   <ELEMENT NAME="id" CLASS="id">
-         <core><![CDATA[deh-alessandro-valignano-att132-116]]></core>   </ELEMENT>
-   <ELEMENT NAME="entity" CLASS="entity">
-         <core><![CDATA[deh-alessandro-valignano]]></core>   </ELEMENT>
-   <ELEMENT NAME="date_extra_info" CLASS="undef">
-         <core><![CDATA[{
-  "date": {"subtype":"ym","value":15871000},
-  "original":"15871000",
-  "type":"single",
-  "value":"15871000"
-}]]></core>   </ELEMENT>
-</GROUP>
-
-<GROUP ID="deh-alessandro-valignano-atra54" NAME="ls"  ORDER="202" LEVEL="5" CLASS="attribute" LINE="237">
-    <ELEMENT NAME="line" CLASS="line"><core>237</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>ls</core></ELEMENT>
-    <ELEMENT NAME="inside" CLASS="inside"><core>deh-alessandro-valignano</core></ELEMENT>
-    <ELEMENT NAME="class" CLASS="class"><core>attribute</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>202</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>5</core></ELEMENT>
-    <ELEMENT NAME="type" CLASS="type">      <core><![CDATA[chegada@wikidata]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[]]></original></ELEMENT>
-    <ELEMENT NAME="value" CLASS="value">      <core><![CDATA[https://www.wikidata.org/wiki/Q1171]]></core>      <comment><![CDATA[]]></comment>      <original><![CDATA[Goa]]></original></ELEMENT>
-    <ELEMENT NAME="entity" CLASS="entity"><core>deh-alessandro-valignano</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-atra54</core></ELEMENT>
-    <ELEMENT NAME="date" CLASS="date"><core>15831110</core></ELEMENT>
-</GROUP>
 <GROUP ID="deh-alessandro-valignano-att133-116" NAME="ls" CLASS="attribute" ORDER="203" LEVEL="4" LINE="237">
     <ELEMENT NAME="line" CLASS="line"><core>237</core></ELEMENT>
     <ELEMENT NAME="id" CLASS="id"><core>deh-alessandro-valignano-att133-116</core></ELEMENT>
@@ -4518,22 +4519,21 @@
     <ELEMENT NAME="order" CLASS="order"><core>203</core></ELEMENT>
     <ELEMENT NAME="level" CLASS="level"><core>4</core></ELEMENT>
    <ELEMENT NAME="tipo" SUPER_CLASS="type" BASE_CLASS="type" CLASS="type">
-         <core><![CDATA[chegada]]></core>   </ELEMENT>
+         <core><![CDATA[jesuita-cargo]]></core>   </ELEMENT>
    <ELEMENT NAME="valor" SUPER_CLASS="value" BASE_CLASS="value" CLASS="value">
-         <core><![CDATA[Goa]]></core>         <comment><![CDATA[ @wikidata:Q1171]]></comment>
-   </ELEMENT>
+         <core><![CDATA[Provincial da Índia Oriental]]></core>   </ELEMENT>
    <ELEMENT NAME="data" SUPER_CLASS="date" BASE_CLASS="date" CLASS="date">
-         <core><![CDATA[15831110]]></core>   </ELEMENT>
+         <core><![CDATA[15871000]]></core>   </ELEMENT>
    <ELEMENT NAME="id" CLASS="id">
          <core><![CDATA[deh-alessandro-valignano-att133-116]]></core>   </ELEMENT>
    <ELEMENT NAME="entity" CLASS="entity">
          <core><![CDATA[deh-alessandro-valignano]]></core>   </ELEMENT>
    <ELEMENT NAME="date_extra_info" CLASS="undef">
          <core><![CDATA[{
-  "date": {"subtype":"ymd","value":15831110},
-  "original":"15831110",
+  "date": {"subtype":"ym","value":15871000},
+  "original":"15871000",
   "type":"single",
-  "value":"15831110"
+  "value":"15871000"
 }]]></core>   </ELEMENT>
 </GROUP>
 
