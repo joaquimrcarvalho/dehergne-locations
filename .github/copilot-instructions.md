@@ -1,4 +1,4 @@
-# Copilot Instructions for Dehergne-Locations
+# Copilot Instructions for the Dehergne Répertoire Project
 
 ## Project Overview
 This workspace is a **Timelink** project containing the transcription of Joseph Dehergne's "Répertoire des Jésuites de Chine". It uses the **Kleio** notation for data entry and **Python/Jupyter** for analysis.
@@ -19,8 +19,9 @@ This workspace is a **Timelink** project containing the transcription of Joseph 
     -   Notebooks connect to the database via `timelink.notebooks.TimelinkNotebook`.
 
 3.  **Analysis** (`notebooks/`):
-    -   Jupyter notebooks for cleaning, querying, and visualizing.
-    -   `dehergne_util.py` contains shared helper functions (e.g., date conversion, wikidata link extraction).
+    -   Jupyter notebooks for cleaning, querying, and visualizing; see `notebooks/README.md` for the full index.
+    -   Key notebooks: `location-analysis-new.ipynb` (place extraction/enrichment), `chgis-tgaz.ipynb` (CHGIS Temporal Gazetteer matching), `dehergne_analysis.ipynb`, `jesuit-networks.ipynb`.
+    -   Shared modules: `dehergne_util.py` (date conversion, Wikidata link extraction, TGAZ client), `temporal_semantics.py` + `copresence.py` (interval/co-presence analysis), `biographical_note.py` (bilingual biography generation).
     -   `timelink.pandas` is used to fetch data into DataFrames.
 
 ## Key Developer Workflows

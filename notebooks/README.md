@@ -12,6 +12,8 @@ To use these notebooks you need to install VSCode, the Python interpreter and su
    * Open a terminal in the menu `Terminal` -> `New terminal`
    * Type `pip install -r notebooks/requirements.txt` or if you are on a Windows terminal
      `pip install -r notebooks\requirements.txt`
+   * Run `nbstripout --install --attributes .gitattributes` once, so that notebook cell outputs
+     are stripped automatically when committing (keeps the repository small)
 4. Install Docker. See https://docs.docker.com/get-docker/
 
 ## Key Notebooks
@@ -30,8 +32,7 @@ To use these notebooks you need to install VSCode, the Python interpreter and su
 
 ### Analysis & Visualization
 * **[dehergne_analysis.ipynb](dehergne_analysis.ipynb)** - Comprehensive data analysis
-* **[location-analysis.ipynb](location-analysis.ipynb)** - Location-based analysis of Jesuit movements
-* **[location-analysis-cleaned.ipynb](location-analysis-cleaned.ipynb)** - Cleaned version of location analysis
+* **[location-analysis-new.ipynb](location-analysis-new.ipynb)** - Location data extraction and enrichment for geographic analysis of Jesuit movements
 * **[nacionality_analysis.ipynb](nacionality_analysis.ipynb)** - Nationality distribution analysis
 * **[who-was-where.ipynb](who-was-where.ipynb)** - Temporal and spatial analysis of Jesuit presence
 * **[people-search-display.ipynb](people-search-display.ipynb)** - Search and display utilities for individuals
@@ -42,11 +43,19 @@ To use these notebooks you need to install VSCode, the Python interpreter and su
 * **[wicki-viagens.ipynb](wicki-viagens.ipynb)** - Voyage analysis based on Wicki's data
 * **[residences.ipynb](residences.ipynb)** - Analysis of Jesuit residences and movements
 * **[wikidata-linked-data.ipynb](wikidata-linked-data.ipynb)** - Wikidata integration and linked data analysis
+* **[chgis-tgaz.ipynb](chgis-tgaz.ipynb)** - Match Chinese historical place names against the CHGIS Temporal Gazetteer
 
 ### Utilities
 * **[kleio-to-doc.ipynb](kleio-to-doc.ipynb)** - Convert Kleio data to documentation
 * **[dehergne-locations-nodate.ipynb](dehergne-locations-nodate.ipynb)** - Location analysis without date constraints
 * **[sandbox.ipynb](sandbox.ipynb)** - Experimental code and testing ground
+
+### Shared Modules
+Reusable Python modules in this folder, imported by the notebooks:
+* **[dehergne_util.py](dehergne_util.py)** - Core helpers: date handling, age calculation, Wikidata link/coordinate extraction, CHGIS TGAZ client
+* **[temporal_semantics.py](temporal_semantics.py)** - Classify attribute types by temporal role and build stay intervals for overlap analysis
+* **[copresence.py](copresence.py)** - Co-presence analysis ("who was at the same place at the same time") with Mermaid and networkx export
+* **[biographical_note.py](biographical_note.py)** - Generate bilingual (PT/EN) biographical narratives from structured timeline data
 
 ## Project Context
 

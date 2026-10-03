@@ -50,7 +50,7 @@ pandas            # Data manipulation (implied)
 ├── notebooks/            # Jupyter notebooks for analysis
 │   ├── 9-tutorial.ipynb              # Essential tutorial for Timelink
 │   ├── 0-kleio-files.ipynb           # Kleio file management
-│   ├── location-analysis.ipynb       # Geographic analysis
+│   ├── location-analysis-new.ipynb   # Geographic analysis
 │   ├── jesuit-networks.ipynb         # Network analysis
 │   └── dehergne_util.py              # Shared utility functions
 ├── identifications/      # Entity resolution/record linking exports
@@ -169,6 +169,7 @@ Use `notebooks/0-kleio-files.ipynb` or `notebooks/01-background-importer.ipynb` 
 - Use `timelink.kleio.utilities.convert_timelink_date` for date manipulation
 - Notebooks run from `notebooks/` - use relative paths like `../inferences/` for output
 - Use `calc_age_at()` from `dehergne_util.py` for age calculations
+- Notebook cell outputs are stripped automatically on commit by the `nbstripout` git filter (see `.gitattributes`); never commit outputs. After a fresh clone, enable it once with `nbstripout --install --attributes .gitattributes`
 
 ### Kleio Transcription
 - Keep person IDs unique with prefix `deh-` (e.g., `deh-antonio-de-abreu`)
@@ -194,7 +195,7 @@ Use `notebooks/0-kleio-files.ipynb` or `notebooks/01-background-importer.ipynb` 
 ### Analysis Entry Points
 - `notebooks/9-tutorial.ipynb` - Start here for Timelink tutorial
 - `notebooks/00-index.ipynb` - Index of available notebooks
-- `notebooks/location-analysis.ipynb` - Geographic data analysis
+- `notebooks/location-analysis-new.ipynb` - Geographic data analysis
 - `notebooks/jesuit-networks.ipynb` - Network analysis of Jesuit connections
 
 ### Configuration
