@@ -8,6 +8,7 @@ sources/referidos_pai.txt
 *.html
 *.dot
 .venv/
+.zcode/
 sources/.kleio/logs/kleio_service.log
 database/sqlite/*
 .kleio/logs/kleio_service.log
@@ -17,3 +18,4 @@ versions.txt
 # Accidental home-directory leak (unexpanded ~)
 ~/
 
+inferences/markdown/samples/.obsidian/

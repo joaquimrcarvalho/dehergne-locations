@@ -2,6 +2,44 @@
 
 Transcription of the biographies of Joseph Dehergne, Répertoire des Jésuites de Chine de 1552 à 1800, Bibliotheca Instituti Historici S.I 37 (Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973)
 
+## First-time setup
+
+The recommended environment for working with this repository is VS Code with the Python and Jupyter extensions. The notebooks use Timelink to translate the Kleio source files and to provide access to the database.
+
+### Prerequisites
+
+1. Install [VS Code](https://code.visualstudio.com/download).
+2. Install the [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) VS Code extensions.
+3. Install Python 3.12 or a compatible recent Python version.
+4. Install and start [Docker Desktop](https://docs.docker.com/get-docker/). Timelink uses Docker for the Kleio server and database services.
+
+### Create the Python environment
+
+Open the repository folder in VS Code, open **Terminal > New Terminal**, and run:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r notebooks/requirements.txt
+```
+
+On Windows, activate the environment with `.venv\\Scripts\\activate` instead of `source .venv/bin/activate`.
+
+In VS Code, select the `.venv` interpreter when prompted, or use **Python: Select Interpreter** from the Command Palette. Select the same interpreter as the kernel when opening a notebook.
+
+### Configure Timelink
+
+1. Install the [Timelink VS Code extension](https://marketplace.visualstudio.com/items?itemName=time-link.timelink-vscode-web).
+2. Open [notebooks/0-vscode_setup.ipynb](./notebooks/0-vscode_setup.ipynb) and run its cells in order. This discovers the local Kleio server settings and writes them to the workspace configuration.
+3. If the notebook or a later notebook cannot connect after restarting VS Code, run the configuration cells in `0-vscode_setup.ipynb` again.
+
+Do not copy Timelink paths or tokens from another checkout: they are specific to each computer and workspace.
+
+### First notebook run
+
+After setup, open [notebooks/9-tutorial.ipynb](./notebooks/9-tutorial.ipynb) for the basic workflow. To load or refresh the transcription database from the Kleio files, use [notebooks/0-kleio-files.ipynb](./notebooks/0-kleio-files.ipynb). The [notebooks/00-index.ipynb](./notebooks/00-index.ipynb) notebook provides an index of the remaining analyses.
+
 ## Sources included in this repository
 ### Dehergne, Joseph. Répertoire des Jésuites de Chine de 1552 à 1800. Bibliotheca Instituti Historici S.I 37. Roma : Paris: Institutum historicum ; Letouzey & Ané, 1973. ###
 

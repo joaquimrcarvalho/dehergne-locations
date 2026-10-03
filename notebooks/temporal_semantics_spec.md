@@ -17,6 +17,7 @@ But the same interval-overlap logic applies to many questions:
 - **Ship co-travel:** "Who was on the same voyage?" (e.g., `embarque` + `wicky-viagem`)
 
 Each of these requires knowing, for a given attribute type:
+
 - Does it **start** a period? (arrival, entering office)
 - Does it **end** a period? (departure, death, term end)
 - Is it a **point in time**? (vows ceremony, ordination)
@@ -27,21 +28,19 @@ Each of these requires knowing, for a given attribute type:
 
 Each attribute type is assigned a **temporal role** from this enum:
 
-| Role | Meaning | Interval behavior | Examples |
-|---|---|---|---|
-| `INTERVAL_START` | Begins a period of presence/tenure at a value | Creates/extends a segment | `chegada` (arrival), `jesuita-entrada` (entering), `nascimento` (birth) |
-| `INTERVAL_END` | Terminates the current period | Closes any open segment | `partida` (departure), `embarque` (boarding), `morte` (death) |
-| `INTERVAL` | Implies presence for a duration (start = date, end = next evidence of leaving) | Creates/extends a segment | `estadia` (stay), `estadia-x` (variant stay), `residencia` (residence) |
-| `POINT` | Present on this date only; does not start or end a period | Absorbed if within a segment; same-day interval if standalone | `jesuita-votos-local` (vows location), `jesuita-ordenacao-padre` (ordination), `baptizado` (baptism) |
-| `STATUS` | Ongoing condition, not a temporal event | Not used for interval computation | `nacionalidade`, `jesuita-estatuto`, `nome`, `sexo` |
-| `REFERENCE` | An identifier, not an event | Not used for interval computation | `wicky`, `wicky-viagem` |
+| Role               | Meaning                                                                        | Interval behavior                                             | Examples                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `INTERVAL_START` | Begins a period of presence/tenure at a value                                  | Creates/extends a segment                                     | `chegada` (arrival), `jesuita-entrada` (entering), `nascimento` (birth)                              |
+| `INTERVAL_END`   | Terminates the current period                                                  | Closes any open segment                                       | `partida` (departure), `embarque` (boarding), `morte` (death)                                        |
+| `INTERVAL`       | Implies presence for a duration (start = date, end = next evidence of leaving) | Creates/extends a segment                                     | `estadia` (stay), `estadia-x` (variant stay), `residencia` (residence)                               |
+| `POINT`          | Present on this date only; does not start or end a period                      | Absorbed if within a segment; same-day interval if standalone | `jesuita-votos-local` (vows location), `jesuita-ordenacao-padre` (ordination), `baptizado` (baptism) |
+| `STATUS`         | Ongoing condition, not a temporal event                                        | Not used for interval computation                             | `nacionalidade`, `jesuita-estatuto`, `nome`, `sexo`                                                |
+| `REFERENCE`      | An identifier, not an event                                                    | Not used for interval computation                             | `wicky`, `wicky-viagem`                                                                                |
 
 ### Notes on the roles
 
 - `INTERVAL` vs `INTERVAL_START`: An `INTERVAL` type (like `estadia`) implies the person was there for *some* time — we just don't know how long, so we estimate from the next event. An `INTERVAL_START` type (like `chegada`) explicitly marks the *beginning* of presence. In practice both create segments; the distinction matters for rendering ("arrived in X" vs "stayed in X").
-
 - `INTERVAL_END` types close whatever segment is open, regardless of the end event's own value/QID. This is how `embarque` and `partida` work: they mean "the person left," not "the person is now at the ship/departure point."
-
 - `POINT` types are crucial for ceremonies and milestones. They confirm presence without claiming the person lived there. A vows ceremony at Coimbra means "present on that day," not "residing in Coimbra."
 
 ## 3. Configuration: the temporal vocabulary
@@ -112,6 +111,7 @@ This would produce a timeline/Gantt for the office, showing each holder's tenure
 ### Value normalization for roles
 
 Role values need light normalization to group equivalent offices:
+
 - `Superior da missão da China` ≈ `Superior da missão da China` (exact match)
 - `Bispo de Nanquim` ≈ `Bishop of Nanjing` (may need cross-language mapping)
 - `Visitador` = `Visitador de todas as missões jesuítas das Índias` (subset/superset?)
