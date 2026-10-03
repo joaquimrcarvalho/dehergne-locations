@@ -1,33 +1,60 @@
 <?xml version='1.0'?>
-<KLEIO STRUCTURE="/kleio-home/sources/dehergne-0-abrev-structure.yaml" SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str" WHEN="2026-3-20 2:47:27" OBS="" SPACE="">
-<CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
-     <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="loc" COLUMN="loc" CLASS="loc" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="ref" COLUMN="ref" CLASS="ref" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="kleiofile" COLUMN="kleiofile" CLASS="kleiofile" TYPE="varchar" SIZE="512" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="32768" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-     <ATTRIBUTE NAME="replace" COLUMN="replaces" CLASS="replace" TYPE="varchar" SIZE="254" PRECISION="0" PKEY="0" ></ATTRIBUTE>
-</CLASS>
+<KLEIO STRUCTURE="/usr/local/timelink/clio/src/stru/gacto2.str"
+    SOURCE="/kleio-home/sources/dehergne-0-abrev.cli" TRANSLATOR="gactoxml2.str"
+    WHEN="2026-8-26 3:14:30" OBS="" SPACE="">
+    <CLASS NAME="source" SUPER="entity" TABLE="sources" GROUP="fonte">
+        <ATTRIBUTE NAME="id" COLUMN="id" CLASS="id" TYPE="varchar" SIZE="64" PRECISION="0" PKEY="1"></ATTRIBUTE>
+        <ATTRIBUTE NAME="date" COLUMN="the_date" CLASS="date" TYPE="varchar" SIZE="24" PRECISION="0"
+            PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="type" COLUMN="the_type" CLASS="type" TYPE="varchar" SIZE="32" PRECISION="0"
+            PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="value" COLUMN="the_value" CLASS="value" TYPE="varchar" SIZE="254"
+            PRECISION="0" PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="loc" COLUMN="loc" CLASS="loc" TYPE="varchar" SIZE="64" PRECISION="0"
+            PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="ref" COLUMN="ref" CLASS="ref" TYPE="varchar" SIZE="64" PRECISION="0"
+            PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="kleiofile" COLUMN="kleiofile" CLASS="kleiofile" TYPE="varchar" SIZE="512"
+            PRECISION="0" PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="obs" COLUMN="obs" CLASS="obs" TYPE="varchar" SIZE="32768" PRECISION="0"
+            PKEY="0"></ATTRIBUTE>
+        <ATTRIBUTE NAME="replace" COLUMN="replaces" CLASS="replace" TYPE="varchar" SIZE="254"
+            PRECISION="0" PKEY="0"></ATTRIBUTE>
+    </CLASS>
 
-<GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="272">
-    <ELEMENT NAME="line" CLASS="line"><core>272</core></ELEMENT>
-    <ELEMENT NAME="id" CLASS="id"><core>dehergne-0-abrev</core></ELEMENT>
-    <ELEMENT NAME="groupname" CLASS="groupname"><core>fonte</core></ELEMENT>
-   <ELEMENT NAME="inside" CLASS="inside"><core>root</core></ELEMENT>
-   <ELEMENT NAME="class" CLASS="class"><core>source</core></ELEMENT>
-    <ELEMENT NAME="order" CLASS="order"><core>1</core></ELEMENT>
-    <ELEMENT NAME="level" CLASS="level"><core>1</core></ELEMENT>
-   <ELEMENT NAME="year" SUPER_CLASS="core" BASE_CLASS="year" CLASS="undef">
-         <core><![CDATA[1973]]></core>   </ELEMENT>
-   <ELEMENT NAME="type" SUPER_CLASS="core" BASE_CLASS="type" CLASS="type">
-         <core><![CDATA[Dicionário Biográfico]]></core>   </ELEMENT>
-   <ELEMENT NAME="loc" SUPER_CLASS="core" BASE_CLASS="loc" CLASS="loc">
-         <core><![CDATA[Online "http://archive.org/details/bhsi37"]]></core>   </ELEMENT>
-   <ELEMENT NAME="obs" SUPER_CLASS="core" BASE_CLASS="obs" CLASS="obs">
-         <core><![CDATA["""
+    <GROUP ID="dehergne-0-abrev" NAME="fonte" CLASS="source" ORDER="1" LEVEL="1" LINE="259">
+        <ELEMENT NAME="line" CLASS="line">
+            <core>259</core>
+        </ELEMENT>
+        <ELEMENT NAME="id" CLASS="id">
+            <core>dehergne-0-abrev</core>
+        </ELEMENT>
+        <ELEMENT NAME="groupname" CLASS="groupname">
+            <core>fonte</core>
+        </ELEMENT>
+        <ELEMENT NAME="inside" CLASS="inside">
+            <core>root</core>
+        </ELEMENT>
+        <ELEMENT NAME="class" CLASS="class">
+            <core>source</core>
+        </ELEMENT>
+        <ELEMENT NAME="order" CLASS="order">
+            <core>1</core>
+        </ELEMENT>
+        <ELEMENT NAME="level" CLASS="level">
+            <core>1</core>
+        </ELEMENT>
+        <ELEMENT NAME="year" SUPER_CLASS="core" BASE_CLASS="year" CLASS="undef">
+            <core><![CDATA[1973]]></core>
+        </ELEMENT>
+        <ELEMENT NAME="type" SUPER_CLASS="core" BASE_CLASS="type" CLASS="type">
+            <core><![CDATA[Dicionário Biográfico]]></core>
+        </ELEMENT>
+        <ELEMENT NAME="loc" SUPER_CLASS="core" BASE_CLASS="loc" CLASS="loc">
+            <core><![CDATA[Online "http://archive.org/details/bhsi37"]]></core>
+        </ELEMENT>
+        <ELEMENT NAME="obs" SUPER_CLASS="core" BASE_CLASS="obs" CLASS="obs">
+            <core><![CDATA["""
 
         III. ABRÉVIATIONS ET SIGLES» [p.XXXI-XXXV]
 
@@ -283,23 +310,13 @@
         W.K. Wicki, Josef, Die « Miscellanea Epistolarum » des P. Athanasius Kircher,
                 dans Euntes Docete, XXI (Rome, 1968) 221-254. Voir ci-dessus W, puis Wicki.
         ZMR Zeitschrift fur Missionswissenschaft und Religionswissenschaft, Munster i.W., 1929 sq.
-
-
-
-
-
-
-
-
-
-
-
-
-
-]]></core>   </ELEMENT>
-   <ELEMENT NAME="date" CLASS="date">
-         <core><![CDATA[0]]></core>   </ELEMENT>
-   <ELEMENT NAME="kleiofile" CLASS="kleiofile">
-         <core><![CDATA[/kleio-home/sources/dehergne-0-abrev.cli]]></core>   </ELEMENT>
-</GROUP>
+    """]]></core>
+        </ELEMENT>
+        <ELEMENT NAME="date" CLASS="date">
+            <core><![CDATA[0]]></core>
+        </ELEMENT>
+        <ELEMENT NAME="kleiofile" CLASS="kleiofile">
+            <core><![CDATA[/kleio-home/sources/dehergne-0-abrev.cli]]></core>
+        </ELEMENT>
+    </GROUP>
 </KLEIO>

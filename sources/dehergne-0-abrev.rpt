@@ -1,5 +1,5 @@
 KleioTranslator - server version 12.9 - build 592 2026-03-19 23:14:02
-2026-03-20 02:47:27
+2026-08-26 03:14:30
 
 
 Processing data file dehergne-0-abrev.cli
@@ -11,18 +11,18 @@ Generic Act translation module with geoentities (XML).
 kleio translation started
 =========================
 Declared structure: 
-Used structure: /kleio-home/sources/dehergne-0-abrev-structure.yaml
+Used structure: /usr/local/timelink/clio/src/stru/gacto2.str
 Prefix: 
 Autorel: 
-Translation count: 14
+Translation count: 15
 Obs: 
 ** Processing source fonte$dehergne-0-abrev
 *** End of File
 
 
-Structure file: /kleio-home/sources/dehergne-0-abrev-structure.yaml
-Structure processing report: /kleio-home/sources/dehergne-0-abrev-structure.srpt
-Structure in JSON: /kleio-home/sources/dehergne-0-abrev-structure.str.json
+Structure file: /usr/local/timelink/clio/src/stru/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/stru/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/stru/gacto2.str.json
 
 Kleio file: /kleio-home/sources/dehergne-0-abrev.cli
 Original file: /kleio-home/sources/dehergne-0-abrev.org
@@ -34,6 +34,7 @@ Temp file with ids: /kleio-home/sources/dehergne-0-abrev.ids
 Groups in this file: [historical-source,kleio,link,fonte]
 Elements in this file: [ano,autorels,data,date,id,kleiofile,loc,localizacao,obs,prefix,ref,replace,shortname,structure,substitui,tipo,translations,translator,type,urlpattern,year]
 
+Structure YAML file already exists, not generating new one.
 0  errors. 
 0  warnings.
 Translation finished.

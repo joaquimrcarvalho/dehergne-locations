@@ -1,4 +1,4 @@
-kleio$gacto2.str/translations=288
+kleio$gacto2.str/translations=289
    link$wikidata/"https://www.wikidata.org/wiki/$1"/id=root-lin1-194
    fonte$dehergne-c/1973/Dicionário Biográfico/loc=Online archive.org:details:bhsi37/obs="""Dehergne, Joseph, Répertoire des Jésuites de Chine, de 1542 à 1800, 1973. Letra C
 
@@ -405,7 +405,7 @@ kleio$gacto2.str/translations=288
             ls$morte/?/1751#antes de
             ls$dehergne/139/obs=Cardoso (Cardozo), Jacques (chin.) P. 139 N. 12 mars 1711, Hweichow, Houei-tcheou fou, Anhwei, Kiang-nan (JS 134, 436). E. 13 févr. 1735, Pékin. P. 1741. M. avant 1751 (n'est plus au catalogue de 1751). Pf. 740.
 
-         n$João Cardoso/id=joao-cardoso
+         n$João Cardoso/id=deh-joao-cardoso#previouly just joao-cardoso by error corrected 2026-08-27
             ls$nacionalidade/Portugal
             ls$jesuita-estatuto/Padre
             ls$nome/João Cardozo
@@ -428,7 +428,21 @@ kleio$gacto2.str/translations=288
             ls$jesuita-votos/4V/16550413
             ls$jesuita-votos-local/Goa# @wikidata:Q1171/16550413
             ls$morte/[No mar, perto da Cochinchina]#naufrágio @wikidata:Q505503/16760900
-            ls$dehergne/140/obs=Cardoso (Cardozo), Joâo (port.) (I) P. 140 Kia (JS 187, 5) Jo-wang. N. 1619, « Transtaganus Setoboligensis », Sétubal près Lisbonne. E. 1634. Emb. avec le P. Cardim, 15 avr. 1649 (W 957)., Macao., 1659, Siam., Tenasserim 1662-1663., en 1665, supérieur des Jésuites du Siam (JS 26, 32)., 1669, au collège de Macao (JS 26, 36)., 1673-1676, provincial du Japon. V. Goa, 13 avr. 1655, il signe Cardozo, pr. (Lus. 7, 140). M. sept. 1676 « ex naufragio prope Cocincinna » (HS 49, 120v). M 443, 675 parle d'un Jean Cardoso (port.) nommé Kia et venu en Chine en 1699: sans doute mauvaise lecture pour 1649? — AHSI 22 (1953), 188-189.
+            ls$dehergne/140/obs="""
+            Cardoso (Cardozo), Joâo (port.) (I) P. 140 Kia (JS 187, 5)
+            Jo-wang.
+            N. 1619, « Transtaganus Setoboligensis », Sétubal près Lisbonne.
+            E. 1634.
+            Emb. avec le P. Cardim, 15 avr. 1649 (W 957)., Macao.
+            1659, Siam., Tenasserim 1662-1663.
+            en 1665, supérieur des Jésuites du Siam (JS 26, 32)., 1669, au
+            collège de Macao (JS 26, 36)., 1673-1676, provincial du Japon.
+            V. Goa, 13 avr. 1655, il signe Cardozo, pr. (Lus. 7, 140).
+            M. sept. 1676 « ex naufragio prope Cocincinna » (HS 49, 120v).
+            M 443, 675 parle d'un Jean Cardoso (port.) nommé Kia et venu en
+            Chine en 1699: sans doute mauvaise lecture pour 1649? — AHSI 22
+            (1953), 188-189.
+            """
 
             referido$António Francisco Cardim/mesmo_que=deh-antonio-francisco-cardim/id=deh-joao-cardoso-ref1
                ls$jesuita-estatuto/Padre
@@ -836,8 +850,8 @@ kleio$gacto2.str/translations=288
             ls$estadia/Coimbra/1587-04-01/obs=Lus. 44 I 29, not in Dehergne
             ls$estadia/Coimbra/1586-01-01/obs=Not in Dehergne, Lus. 39 fol. 7
             ls$cargo/professor de Humanidades, 3ª classe/obs=Not in Dehergne, Lus. 39 fol. 7
-            ls$estadia/Coimbra/1587-04-01/
-            ls$grau-academico/Mestre em Artes/>1587-04-01:<1594-0330/obs=Inferred date
+            ls$estadia/Coimbra/1587-04-01
+            ls$grau-academico/Mestre em Artes/>1587-04-01:<1594-03-30/obs=Inferred date
             ls$embarque/?/1594-03-30
             ls$wicky/343/15940330
             ls$wicky-viagem/37/15940330
