@@ -1,0 +1,7 @@
+{% set bio_note = generate_biographical_note(
+    model, db=db|default(None), languages=languages|default(("pt","en"))) -%}
+{% if bio_note %}
+
+{{ bio_note }}
+
+{% endif %}
